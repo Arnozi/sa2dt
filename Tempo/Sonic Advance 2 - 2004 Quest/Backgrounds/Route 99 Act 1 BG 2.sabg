@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Route 99 Act 1 BG 2.bin",
+  "Palette": "Palettes\\Route 99 Act 1 BG 2.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Route 99 Act 1 BG 2.bin",
+  "Width": 32,
+  "Height": 64
+}

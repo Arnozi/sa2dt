@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Sky Canyon Boss.bin",
+  "Angles": "Collision\\Angles\\Sky Canyon Boss.bin",
+  "Chunks": "Chunks\\Sky Canyon Boss FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Sky Canyon Boss FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Sky Canyon Boss FG Low.bin",
+  "Flags": "Collision\\Flags\\Sky Canyon Boss.bin",
+  "Width": 60,
+  "Height": 3,
+  "WidthPixels": 5760,
+  "HeightPixels": 288
+}

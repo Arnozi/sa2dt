@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Credits Copyright 2003.bin",
+  "Palette": "Palettes\\Credits Copyright 2003.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Credits Copyright 2003.bin",
+  "Width": 30,
+  "Height": 3
+}

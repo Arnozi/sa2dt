@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Extra Credits Insert 3.bin",
+  "Palette": "Palettes\\Extra Credits Insert 3.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Extra Credits Insert 3.bin",
+  "Width": 30,
+  "Height": 20
+}

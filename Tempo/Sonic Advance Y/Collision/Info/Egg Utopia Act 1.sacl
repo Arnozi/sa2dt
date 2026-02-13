@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Egg Utopia Act 1.bin",
+  "Angles": "Collision\\Angles\\Egg Utopia Act 1.bin",
+  "Chunks": "Chunks\\Egg Utopia Act 1 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Egg Utopia Act 1 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Egg Utopia Act 1 FG Low.bin",
+  "Flags": "Collision\\Flags\\Egg Utopia Act 1.bin",
+  "Width": 352,
+  "Height": 50,
+  "WidthPixels": 33792,
+  "HeightPixels": 4800
+}

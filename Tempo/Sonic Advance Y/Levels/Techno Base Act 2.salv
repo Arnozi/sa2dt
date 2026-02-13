@@ -1,0 +1,13 @@
+{
+  "ID": 21,
+  "ForegroundHigh": "Foregrounds\\Techno Base Act 2 FG High.safg",
+  "ForegroundLow": "Foregrounds\\Techno Base Act 2 FG Low.safg",
+  "Background1": "Backgrounds\\Techno Base Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Techno Base Act 2.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Techno Base Act 2.bin",
+  "Items": "Layout\\Objects\\Items\\Techno Base Act 2.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Techno Base Act 2.bin",
+  "Rings": "Layout\\Objects\\Rings\\Techno Base Act 2.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Techno Base Act 2.bin"
+}

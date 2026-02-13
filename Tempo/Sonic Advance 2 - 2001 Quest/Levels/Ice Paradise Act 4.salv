@@ -1,0 +1,13 @@
+{
+  "ID": 15,
+  "ForegroundHigh": "Foregrounds\\Leaf Forest Act 4 FG High.safg",
+  "ForegroundLow": "Foregrounds\\Leaf Forest Act 4 FG Low.safg",
+  "Background1": "Backgrounds\\Ice Paradise Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Leaf Forest Act 4.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Ice Paradise Act 2.bin",
+  "Items": "Layout\\Objects\\Items\\Ice Paradise Act 2.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Ice Paradise Act 2.bin",
+  "Rings": "Layout\\Objects\\Rings\\Ice Paradise Act 2.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Ice Paradise Act 4.bin"
+}

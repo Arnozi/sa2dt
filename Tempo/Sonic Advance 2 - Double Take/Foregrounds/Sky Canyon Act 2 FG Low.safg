@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Sky Canyon Act 2 FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Sky Canyon Act 2 FG High.bin",
+  "Palette": "Palettes\\Sky Canyon Act 2 FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Sky Canyon Act 2 FG Low.bin",
+  "Width": 212,
+  "Height": 50
+}

@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Techno Base Boss FG High.bin",
+  "AniTiles": "AniTiles\\Techno Base Boss FG High.bin",
+  "AniTilesSize": 800,
+  "AnimFrameCount": 4,
+  "AnimDelay": 5,
+  "Tiles": "Tiles\\Techno Base Boss FG High.bin",
+  "Palette": "Palettes\\Techno Base Boss FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Techno Base Boss FG High.bin",
+  "Width": 90,
+  "Height": 3
+}

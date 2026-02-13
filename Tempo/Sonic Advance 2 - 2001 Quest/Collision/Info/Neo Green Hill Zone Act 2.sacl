@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Neo Green Hill Zone Act 2.bin",
+  "Angles": "Collision\\Angles\\Neo Green Hill Zone Act 2.bin",
+  "Chunks": "Chunks\\Neo Green Hill Zone Act 2 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Neo Green Hill Zone Act 2 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Neo Green Hill Zone Act 2 FG Low.bin",
+  "Flags": "Collision\\Flags\\Neo Green Hill Zone Act 2.bin",
+  "Width": 120,
+  "Height": 15,
+  "WidthPixels": 11520,
+  "HeightPixels": 1440
+}

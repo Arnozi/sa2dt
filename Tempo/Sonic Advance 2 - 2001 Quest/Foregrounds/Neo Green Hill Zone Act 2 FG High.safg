@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Neo Green Hill Zone Act 2 FG High.bin",
+  "AniTiles": "AniTiles\\Neo Green Hill Zone Act 2 FG High.bin",
+  "AniTilesSize": 448,
+  "AnimFrameCount": 4,
+  "AnimDelay": 10,
+  "Tiles": "Tiles\\Neo Green Hill Zone Act 2 FG High.bin",
+  "Palette": "Palettes\\Neo Green Hill Zone Act 2 FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Neo Green Hill Zone Act 2 FG High.bin",
+  "Width": 120,
+  "Height": 15
+}

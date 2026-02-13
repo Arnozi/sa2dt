@@ -1,0 +1,13 @@
+{
+  "ID": 4,
+  "ForegroundHigh": "Foregrounds\\Hot Crater Act 1 FG High.safg",
+  "ForegroundLow": "Foregrounds\\Hot Crater Act 1 FG Low.safg",
+  "Background1": "Backgrounds\\Hot Crater Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Hot Crater Act 1.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Hot Crater Act 1.bin",
+  "Items": "Layout\\Objects\\Items\\Hot Crater Act 1.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Hot Crater Act 1.bin",
+  "Rings": "Layout\\Objects\\Rings\\Hot Crater Act 1.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Hot Crater Act 1.bin"
+}

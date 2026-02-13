@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\XX.bin",
+  "Angles": "Collision\\Angles\\XX.bin",
+  "Chunks": "Chunks\\XX FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\XX FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\XX FG Low.bin",
+  "Flags": "Collision\\Flags\\XX.bin",
+  "Width": 450,
+  "Height": 3,
+  "WidthPixels": 43200,
+  "HeightPixels": 288
+}

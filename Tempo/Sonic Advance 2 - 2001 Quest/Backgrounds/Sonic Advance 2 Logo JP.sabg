@@ -1,0 +1,13 @@
+{
+  "Mode": 2,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Sonic Advance 2 Logo JP.bin",
+  "Palette": "Palettes\\Sonic Advance 2 Logo JP.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Sonic Advance 2 Logo JP.bin",
+  "Width": 26,
+  "Height": 10
+}

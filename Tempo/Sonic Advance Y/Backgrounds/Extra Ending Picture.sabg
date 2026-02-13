@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Extra Ending Picture.bin",
+  "Palette": "Palettes\\Extra Ending Picture.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Extra Ending Picture.bin",
+  "Width": 30,
+  "Height": 20
+}

@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": "AniTiles\\Ice Paradise Snow.bin",
+  "AniTilesSize": 128,
+  "AnimFrameCount": 4,
+  "AnimDelay": 9,
+  "Tiles": "Tiles\\Ice Paradise Snow.bin",
+  "Palette": "Palettes\\Ice Paradise Snow.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Ice Paradise Snow.bin",
+  "Width": 32,
+  "Height": 32
+}

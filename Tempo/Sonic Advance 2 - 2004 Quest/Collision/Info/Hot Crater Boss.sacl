@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Hot Crater Boss.bin",
+  "Angles": "Collision\\Angles\\Hot Crater Boss.bin",
+  "Chunks": "Chunks\\Hot Crater Boss FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Hot Crater Boss FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Hot Crater Boss FG Low.bin",
+  "Flags": "Collision\\Flags\\Hot Crater Boss.bin",
+  "Width": 75,
+  "Height": 3,
+  "WidthPixels": 7200,
+  "HeightPixels": 288
+}

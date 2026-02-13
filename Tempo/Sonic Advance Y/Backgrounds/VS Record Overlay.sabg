@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\VS Record Overlay.bin",
+  "Palette": "Palettes\\VS Record Overlay.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\VS Record Overlay.bin",
+  "Width": 30,
+  "Height": 20
+}

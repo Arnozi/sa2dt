@@ -1,0 +1,13 @@
+{
+  "ID": 18,
+  "ForegroundHigh": "Foregrounds\\Sky Canyon Boss FG High.safg",
+  "ForegroundLow": "Foregrounds\\Sky Canyon Boss FG Low.safg",
+  "Background1": "Backgrounds\\Sky Canyon Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Sky Canyon Boss.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Sky Canyon Boss.bin",
+  "Items": "Layout\\Objects\\Items\\Sky Canyon Boss.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Sky Canyon Boss.bin",
+  "Rings": "Layout\\Objects\\Rings\\Sky Canyon Boss.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Sky Canyon Boss.bin"
+}

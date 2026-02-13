@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Egg Utopia Boss FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Egg Utopia Boss FG High.bin",
+  "Palette": "Palettes\\Egg Utopia Boss FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Egg Utopia Boss FG High.bin",
+  "Width": 50,
+  "Height": 3
+}

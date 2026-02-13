@@ -1,0 +1,13 @@
+{
+  "ID": 10,
+  "ForegroundHigh": "Foregrounds\\Music Plant Boss FG High.safg",
+  "ForegroundLow": "Foregrounds\\Music Plant Boss FG Low.safg",
+  "Background1": "Backgrounds\\Music Plant Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Music Plant Boss.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Music Plant Boss.bin",
+  "Items": "Layout\\Objects\\Items\\Music Plant Boss.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Music Plant Boss.bin",
+  "Rings": "Layout\\Objects\\Rings\\Music Plant Boss.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Music Plant Boss.bin"
+}

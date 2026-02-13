@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Hot Crater Act 1.bin",
+  "Angles": "Collision\\Angles\\Hot Crater Act 1.bin",
+  "Chunks": "Chunks\\Hot Crater Act 1 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Hot Crater Act 1 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Hot Crater Act 1 FG Low.bin",
+  "Flags": "Collision\\Flags\\Hot Crater Act 1.bin",
+  "Width": 285,
+  "Height": 46,
+  "WidthPixels": 27360,
+  "HeightPixels": 4416
+}

@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Techno Base Act 2.bin",
+  "Angles": "Collision\\Angles\\Techno Base Act 2.bin",
+  "Chunks": "Chunks\\Techno Base Act 2 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Techno Base Act 2 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Techno Base Act 2 FG Low.bin",
+  "Flags": "Collision\\Flags\\Techno Base Act 2.bin",
+  "Width": 223,
+  "Height": 32,
+  "WidthPixels": 21408,
+  "HeightPixels": 3072
+}

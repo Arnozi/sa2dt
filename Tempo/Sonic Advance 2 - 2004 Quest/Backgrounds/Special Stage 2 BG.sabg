@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Special Stage 2 BG.bin",
+  "Palette": "Palettes\\Special Stage 2 BG.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Special Stage 2 BG.bin",
+  "Width": 32,
+  "Height": 32
+}

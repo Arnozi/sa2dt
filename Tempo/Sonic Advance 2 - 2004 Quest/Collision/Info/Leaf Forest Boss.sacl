@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Leaf Forest Boss.bin",
+  "Angles": "Collision\\Angles\\Leaf Forest Boss.bin",
+  "Chunks": "Chunks\\Leaf Forest Boss FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Leaf Forest Boss FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Leaf Forest Boss FG Low.bin",
+  "Flags": "Collision\\Flags\\Leaf Forest Boss.bin",
+  "Width": 60,
+  "Height": 3,
+  "WidthPixels": 5760,
+  "HeightPixels": 288
+}

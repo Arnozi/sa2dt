@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\True Area 53 BG Alt.bin",
+  "Palette": "Palettes\\True Area 53 BG Alt.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\True Area 53 BG Alt.bin",
+  "Width": 32,
+  "Height": 20
+}

@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Egg Utopia Boss.bin",
+  "Angles": "Collision\\Angles\\Egg Utopia Boss.bin",
+  "Chunks": "Chunks\\Egg Utopia Boss FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Egg Utopia Boss FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Egg Utopia Boss FG Low.bin",
+  "Flags": "Collision\\Flags\\Egg Utopia Boss.bin",
+  "Width": 50,
+  "Height": 3,
+  "WidthPixels": 4800,
+  "HeightPixels": 288
+}

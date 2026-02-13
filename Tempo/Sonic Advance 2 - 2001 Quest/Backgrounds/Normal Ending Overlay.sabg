@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Normal Ending Overlay.bin",
+  "Palette": "Palettes\\Normal Ending Overlay.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Normal Ending Overlay.bin",
+  "Width": 32,
+  "Height": 32
+}

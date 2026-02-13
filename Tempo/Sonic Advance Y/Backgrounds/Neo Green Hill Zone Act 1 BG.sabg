@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Neo Green Hill Zone Act 1 BG.bin",
+  "Palette": null,
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Neo Green Hill Zone Act 1 BG.bin",
+  "Width": 32,
+  "Height": 32
+}

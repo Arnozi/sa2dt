@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Boss Attack Unlock Text DE.bin",
+  "Palette": "Palettes\\Boss Attack Unlock Text DE.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Boss Attack Unlock Text DE.bin",
+  "Width": 30,
+  "Height": 7
+}

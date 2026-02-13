@@ -1,0 +1,262 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels"
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Egg Utopia Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.33,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 4633.333333333333,
+                "y": 1228.787878787879
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Egg Utopia Act 1.salv#Chunks": {
+            "scaleInDock": 0.75
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Egg Utopia Act 2.salv": {
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 25114,
+                "y": 4501
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Egg Utopia Act 2.salv#Chunks": {
+            "scaleInDock": 0.75
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1177.3333333333333,
+                "y": 659.3333333333333
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 1.salv#Chunks": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.75
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 2.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.25,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 3828,
+                "y": 1794
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 2.salv#Chunks": {
+            "scaleInDock": 0.5
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 4.salv": {
+            "scale": 1.6476562499999998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 288.28828828828824,
+                "y": 144.14414414414415
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 4.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Ice Paradise Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 14048,
+                "y": 2527.333333333333
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Ice Paradise Act 1.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Leaf Forest Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 608,
+                "y": 731.1666666666666
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Leaf Forest Act 1.salv#Chunks": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Leaf Forest Act 2.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 7340,
+                "y": 1088.6666666666665
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Leaf Forest Act 2.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Leaf Forest Boss.salv": {
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1827.5,
+                "y": 186.25
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Leaf Forest Boss.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Music Plant Act 1.salv": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 9739,
+                "y": 2362.5
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Music Plant Act 1.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Music Plant Act 2.salv": {
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 5993.333333333333,
+                "y": 2011.3333333333333
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Music Plant Act 2.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Sky Canyon Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 6038.666666666666,
+                "y": 3086
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Sky Canyon Act 1.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Sky Canyon Act 2.salv": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 16388,
+                "y": 675.5
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Sky Canyon Act 2.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Techno Base Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.25,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1708,
+                "y": 2226
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Techno Base Act 1.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Techno Base Act 2.salv": {
+            "scale": 0.75,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 18012,
+                "y": 1532.6666666666665
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Techno Base Act 2.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/True Area 53.salv": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1523,
+                "y": 144.5
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/True Area 53.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels/Leaf Forest Act 1.salv": {
+            "scale": 0.0625,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 12984,
+                "y": 3128
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels/Leaf Forest Act 1.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels/Leaf Forest Act 4.salv": {
+            "scale": 1.8125868055555556,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 288.537905272736,
+                "y": 144.26895263636797
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels/Leaf Forest Act 4.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels/Leaf Forest Boss.salv": {
+            "scale": 0.18125868055555552,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 2885.37905272736,
+                "y": 146.1998946410613
+            }
+        },
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels/Leaf Forest Boss.salv#Chunks": {
+            "scaleInDock": 1
+        }
+    },
+    "openFiles": [
+    ],
+    "project": "sonicadvance2.tiled-project",
+    "recentFiles": [
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 2.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Egg Utopia Act 2.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Egg Utopia Act 1.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 1.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 4.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Leaf Forest Act 1.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Leaf Forest Boss.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Sky Canyon Act 1.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Techno Base Act 1.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/True Area 53.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Music Plant Act 1.salv",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Ice Paradise Act 1.salv"
+    ]
+}

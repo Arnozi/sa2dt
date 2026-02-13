@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Zone Map Top Cream.bin",
+  "Palette": "Palettes\\Zone Map Top Cream.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Zone Map Top Cream.bin",
+  "Width": 30,
+  "Height": 20
+}

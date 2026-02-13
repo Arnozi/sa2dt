@@ -1,0 +1,13 @@
+{
+  "Mode": 1,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Normal Credits Logo JP.bin",
+  "Palette": "Palettes\\Normal Credits Logo JP.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Normal Credits Logo JP.bin",
+  "Width": 30,
+  "Height": 20
+}

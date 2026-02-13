@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Zone Map Top Knuckles.bin",
+  "Palette": "Palettes\\Zone Map Top Knuckles.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Zone Map Top Knuckles.bin",
+  "Width": 30,
+  "Height": 20
+}

@@ -1,0 +1,13 @@
+{
+  "ID": 22,
+  "ForegroundHigh": "Foregrounds\\Techno Base Boss FG High.safg",
+  "ForegroundLow": "Foregrounds\\Techno Base Boss FG Low.safg",
+  "Background1": "Backgrounds\\Techno Base Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Techno Base Boss.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Techno Base Boss.bin",
+  "Items": "Layout\\Objects\\Items\\Techno Base Boss.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Techno Base Boss.bin",
+  "Rings": "Layout\\Objects\\Rings\\Techno Base Boss.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Techno Base Boss.bin"
+}

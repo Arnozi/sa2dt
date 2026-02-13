@@ -1,0 +1,13 @@
+{
+  "ID": 30,
+  "ForegroundHigh": "Foregrounds\\Unknown FG High.safg",
+  "ForegroundLow": "Foregrounds\\Unknown FG Low.safg",
+  "Background1": "Backgrounds\\Unknown BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Unknown.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Unknown.bin",
+  "Items": "Layout\\Objects\\Items\\Unknown.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Unknown.bin",
+  "Rings": "Layout\\Objects\\Rings\\Unknown.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Unknown.bin"
+}

@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Extra Intro Super Sonic Image.bin",
+  "Palette": "Palettes\\Extra Intro Super Sonic Image.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Extra Intro Super Sonic Image.bin",
+  "Width": 13,
+  "Height": 19
+}

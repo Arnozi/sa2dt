@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\True Area 53 FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\True Area 53 FG High.bin",
+  "Palette": "Palettes\\True Area 53 FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\True Area 53 FG High.bin",
+  "Width": 90,
+  "Height": 3
+}

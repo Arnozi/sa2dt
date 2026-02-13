@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Leaf Forest Act 1.bin",
+  "Angles": "Collision\\Angles\\Leaf Forest Act 1.bin",
+  "Chunks": "Chunks\\Leaf Forest Act 1 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Leaf Forest Act 1 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Leaf Forest Act 1 FG Low.bin",
+  "Flags": "Collision\\Flags\\Leaf Forest Act 1.bin",
+  "Width": 206,
+  "Height": 32,
+  "WidthPixels": 19776,
+  "HeightPixels": 3072
+}

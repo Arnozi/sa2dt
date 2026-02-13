@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Ice Paradise Boss FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Ice Paradise Boss FG High.bin",
+  "Palette": "Palettes\\Ice Paradise Boss FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Ice Paradise Boss FG High.bin",
+  "Width": 50,
+  "Height": 3
+}

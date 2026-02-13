@@ -1,0 +1,13 @@
+{
+  "ID": 26,
+  "ForegroundHigh": "Foregrounds\\Egg Utopia Boss FG High.safg",
+  "ForegroundLow": "Foregrounds\\Egg Utopia Boss FG Low.safg",
+  "Background1": "Backgrounds\\Egg Utopia Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Egg Utopia Boss.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Egg Utopia Boss.bin",
+  "Items": "Layout\\Objects\\Items\\Egg Utopia Boss.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Egg Utopia Boss.bin",
+  "Rings": "Layout\\Objects\\Rings\\Egg Utopia Boss.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Egg Utopia Boss.bin"
+}

@@ -1,0 +1,13 @@
+{
+  "ID": 1,
+  "ForegroundHigh": "Foregrounds\\Leaf Forest Act 2 FG High.safg",
+  "ForegroundLow": "Foregrounds\\Leaf Forest Act 2 FG Low.safg",
+  "Background1": "Backgrounds\\Leaf Forest Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Leaf Forest Act 2.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Leaf Forest Act 2.bin",
+  "Items": "Layout\\Objects\\Items\\Leaf Forest Act 2.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Leaf Forest Act 2.bin",
+  "Rings": "Layout\\Objects\\Rings\\Leaf Forest Act 2.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Leaf Forest Act 2.bin"
+}

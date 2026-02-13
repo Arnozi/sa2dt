@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Cream Cutscene Text 3 IT.bin",
+  "Palette": "Palettes\\Cream Cutscene Text 3 IT.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Cream Cutscene Text 3 IT.bin",
+  "Width": 30,
+  "Height": 5
+}

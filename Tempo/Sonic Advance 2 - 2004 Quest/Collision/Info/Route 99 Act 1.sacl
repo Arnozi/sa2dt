@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Route 99 Act 1.bin",
+  "Angles": "Collision\\Angles\\Route 99 Act 1.bin",
+  "Chunks": "Chunks\\Route 99 Act 1 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Route 99 Act 1 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Route 99 Act 1 FG Low.bin",
+  "Flags": "Collision\\Flags\\Route 99 Act 1.bin",
+  "Width": 136,
+  "Height": 34,
+  "WidthPixels": 13056,
+  "HeightPixels": 3264
+}

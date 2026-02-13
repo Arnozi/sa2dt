@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Ice Paradise Act 2.bin",
+  "Angles": "Collision\\Angles\\Ice Paradise Act 2.bin",
+  "Chunks": "Chunks\\Ice Paradise Act 2 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Ice Paradise Act 2 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Ice Paradise Act 2 FG Low.bin",
+  "Flags": "Collision\\Flags\\Ice Paradise Act 2.bin",
+  "Width": 225,
+  "Height": 40,
+  "WidthPixels": 21600,
+  "HeightPixels": 3840
+}

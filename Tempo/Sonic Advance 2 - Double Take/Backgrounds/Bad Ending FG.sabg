@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Bad Ending FG.bin",
+  "Palette": "Palettes\\Bad Ending FG.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Bad Ending FG.bin",
+  "Width": 32,
+  "Height": 32
+}

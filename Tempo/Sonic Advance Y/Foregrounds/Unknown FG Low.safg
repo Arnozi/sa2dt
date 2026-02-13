@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Unknown FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Unknown FG High.bin",
+  "Palette": "Palettes\\Unknown FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Unknown FG Low.bin",
+  "Width": 20,
+  "Height": 12
+}

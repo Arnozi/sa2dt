@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Techno Base BG Effect 1.bin",
+  "Palette": "Palettes\\Techno Base BG Effect 1.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Techno Base BG Effect 1.bin",
+  "Width": 32,
+  "Height": 32
+}

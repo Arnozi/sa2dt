@@ -1,0 +1,13 @@
+{
+  "ID": 27,
+  "ForegroundHigh": "Foregrounds\\Leaf Forest Act 4 FG High.safg",
+  "ForegroundLow": "Foregrounds\\Leaf Forest Act 4 FG Low.safg",
+  "Background1": "Backgrounds\\Egg Utopia Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Leaf Forest Act 4.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Egg Utopia Act 2.bin",
+  "Items": "Layout\\Objects\\Items\\Egg Utopia Act 2.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Egg Utopia Act 2.bin",
+  "Rings": "Layout\\Objects\\Rings\\Egg Utopia Act 2.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Egg Utopia Act 4.bin"
+}

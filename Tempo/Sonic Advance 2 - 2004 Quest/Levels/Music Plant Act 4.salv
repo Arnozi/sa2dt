@@ -1,0 +1,13 @@
+{
+  "ID": 11,
+  "ForegroundHigh": "Foregrounds\\Leaf Forest Act 4 FG High.safg",
+  "ForegroundLow": "Foregrounds\\Leaf Forest Act 4 FG Low.safg",
+  "Background1": "Backgrounds\\Music Plant Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Leaf Forest Act 4.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Music Plant Act 2.bin",
+  "Items": "Layout\\Objects\\Items\\Music Plant Act 2.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Music Plant Act 2.bin",
+  "Rings": "Layout\\Objects\\Rings\\Music Plant Act 2.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Music Plant Act 4.bin"
+}

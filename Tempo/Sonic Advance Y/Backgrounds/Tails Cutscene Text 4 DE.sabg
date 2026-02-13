@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Tails Cutscene Text 4 DE.bin",
+  "Palette": "Palettes\\Tails Cutscene Text 4 DE.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Tails Cutscene Text 4 DE.bin",
+  "Width": 30,
+  "Height": 5
+}

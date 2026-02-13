@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Time Attack Cream BG.bin",
+  "Palette": "Palettes\\Time Attack Cream BG.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Time Attack Cream BG.bin",
+  "Width": 10,
+  "Height": 20
+}

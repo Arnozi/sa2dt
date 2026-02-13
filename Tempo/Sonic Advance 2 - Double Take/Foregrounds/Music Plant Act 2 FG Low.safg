@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Music Plant Act 2 FG High.bin",
+  "AniTiles": "AniTiles\\Music Plant Act 2 FG High.bin",
+  "AniTilesSize": 256,
+  "AnimFrameCount": 8,
+  "AnimDelay": 5,
+  "Tiles": "Tiles\\Music Plant Act 2 FG High.bin",
+  "Palette": "Palettes\\Music Plant Act 2 FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Music Plant Act 2 FG Low.bin",
+  "Width": 278,
+  "Height": 42
+}

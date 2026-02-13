@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Multiplayer Menu Color.bin",
+  "Palette": "Palettes\\Multiplayer Menu Color.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Multiplayer Menu Color.bin",
+  "Width": 32,
+  "Height": 32
+}

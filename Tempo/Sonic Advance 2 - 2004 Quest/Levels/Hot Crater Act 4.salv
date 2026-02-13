@@ -1,0 +1,13 @@
+{
+  "ID": 7,
+  "ForegroundHigh": "Foregrounds\\Leaf Forest Act 4 FG High.safg",
+  "ForegroundLow": "Foregrounds\\Leaf Forest Act 4 FG Low.safg",
+  "Background1": "Backgrounds\\Leaf Forest Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Leaf Forest Act 4.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Hot Crater Act 2.bin",
+  "Items": "Layout\\Objects\\Items\\Hot Crater Act 2.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Hot Crater Act 2.bin",
+  "Rings": "Layout\\Objects\\Rings\\Hot Crater Act 2.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Hot Crater Act 4.bin"
+}

@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Sky Canyon Act 2.bin",
+  "Angles": "Collision\\Angles\\Sky Canyon Act 2.bin",
+  "Chunks": "Chunks\\Sky Canyon Act 2 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Sky Canyon Act 2 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Sky Canyon Act 2 FG Low.bin",
+  "Flags": "Collision\\Flags\\Sky Canyon Act 2.bin",
+  "Width": 212,
+  "Height": 50,
+  "WidthPixels": 20352,
+  "HeightPixels": 4800
+}

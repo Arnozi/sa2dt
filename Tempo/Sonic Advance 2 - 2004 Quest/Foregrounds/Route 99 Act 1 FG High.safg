@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Route 99 Act 1 FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Route 99 Act 1 FG High.bin",
+  "Palette": "Palettes\\Route 99 Act 1 FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Route 99 Act 1 FG High.bin",
+  "Width": 136,
+  "Height": 34
+}

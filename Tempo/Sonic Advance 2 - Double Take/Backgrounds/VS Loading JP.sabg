@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\VS Loading JP.bin",
+  "Palette": "Palettes\\VS Loading JP.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\VS Loading JP.bin",
+  "Width": 30,
+  "Height": 20
+}

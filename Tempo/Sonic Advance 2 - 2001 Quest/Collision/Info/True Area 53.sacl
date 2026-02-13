@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\True Area 53.bin",
+  "Angles": "Collision\\Angles\\True Area 53.bin",
+  "Chunks": "Chunks\\True Area 53 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\True Area 53 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\True Area 53 FG Low.bin",
+  "Flags": "Collision\\Flags\\True Area 53.bin",
+  "Width": 90,
+  "Height": 3,
+  "WidthPixels": 8640,
+  "HeightPixels": 288
+}

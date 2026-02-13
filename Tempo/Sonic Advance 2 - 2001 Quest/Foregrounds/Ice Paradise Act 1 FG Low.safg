@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Ice Paradise Act 1 FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Ice Paradise Act 1 FG High.bin",
+  "Palette": "Palettes\\Ice Paradise Act 1 FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Ice Paradise Act 1 FG Low.bin",
+  "Width": 290,
+  "Height": 47
+}

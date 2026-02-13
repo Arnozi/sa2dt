@@ -1,0 +1,13 @@
+{
+  "ID": 6,
+  "ForegroundHigh": "Foregrounds\\Hot Crater Boss FG High.safg",
+  "ForegroundLow": "Foregrounds\\Hot Crater Boss FG Low.safg",
+  "Background1": "Backgrounds\\Hot Crater Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Hot Crater Boss.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Hot Crater Boss.bin",
+  "Items": "Layout\\Objects\\Items\\Hot Crater Boss.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Hot Crater Boss.bin",
+  "Rings": "Layout\\Objects\\Rings\\Hot Crater Boss.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Hot Crater Boss.bin"
+}

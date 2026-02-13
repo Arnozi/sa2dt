@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Techno Base Boss.bin",
+  "Angles": "Collision\\Angles\\Techno Base Boss.bin",
+  "Chunks": "Chunks\\Techno Base Boss FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Techno Base Boss FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Techno Base Boss FG Low.bin",
+  "Flags": "Collision\\Flags\\Techno Base Boss.bin",
+  "Width": 90,
+  "Height": 3,
+  "WidthPixels": 8640,
+  "HeightPixels": 288
+}

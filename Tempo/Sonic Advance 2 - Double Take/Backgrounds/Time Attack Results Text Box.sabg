@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Time Attack Results Text Box.bin",
+  "Palette": "Palettes\\Time Attack Results Text Box.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Time Attack Results Text Box.bin",
+  "Width": 28,
+  "Height": 12
+}

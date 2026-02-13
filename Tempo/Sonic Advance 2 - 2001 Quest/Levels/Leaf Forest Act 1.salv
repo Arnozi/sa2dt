@@ -1,0 +1,13 @@
+{
+  "ID": 0,
+  "ForegroundHigh": "Foregrounds\\Neo Green Hill Zone Act 1 FG High.safg",
+  "ForegroundLow": "Foregrounds\\Neo Green Hill Zone Act 1 FG Low.safg",
+  "Background1": "Backgrounds\\Neo Green Hill Zone Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Neo Green Hill Zone Act 1.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Neo Green Hill Zone Act 1.bin",
+  "Items": "Layout\\Objects\\Items\\Neo Green Hill Zone Act 1.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Neo Green Hill Zone Act 1.bin",
+  "Rings": "Layout\\Objects\\Rings\\Neo Green Hill Zone Act 1.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Neo Green Hill Zone Act 1.bin"
+}

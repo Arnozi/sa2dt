@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Ice Paradise Boss.bin",
+  "Angles": "Collision\\Angles\\Ice Paradise Boss.bin",
+  "Chunks": "Chunks\\Ice Paradise Boss FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Ice Paradise Boss FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Ice Paradise Boss FG Low.bin",
+  "Flags": "Collision\\Flags\\Ice Paradise Boss.bin",
+  "Width": 50,
+  "Height": 3,
+  "WidthPixels": 4800,
+  "HeightPixels": 288
+}

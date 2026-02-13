@@ -1,0 +1,13 @@
+{
+  "ID": 29,
+  "ForegroundHigh": "Foregrounds\\True Area 53 FG High.safg",
+  "ForegroundLow": "Foregrounds\\True Area 53 FG Low.safg",
+  "Background1": "Backgrounds\\True Area 53 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\True Area 53.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\True Area 53.bin",
+  "Items": "Layout\\Objects\\Items\\True Area 53.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\True Area 53.bin",
+  "Rings": "Layout\\Objects\\Rings\\True Area 53.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\True Area 53.bin"
+}

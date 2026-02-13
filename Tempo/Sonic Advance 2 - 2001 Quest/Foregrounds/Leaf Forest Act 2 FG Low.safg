@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Leaf Forest Act 2 FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Leaf Forest Act 2 FG High.bin",
+  "Palette": "Palettes\\Leaf Forest Act 2 FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Leaf Forest Act 2 FG Low.bin",
+  "Width": 199,
+  "Height": 26
+}

@@ -1,0 +1,13 @@
+{
+  "ID": 28,
+  "ForegroundHigh": "Foregrounds\\XX FG High.safg",
+  "ForegroundLow": "Foregrounds\\XX FG Low.safg",
+  "Background1": "Backgrounds\\Leaf Forest Act 4 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\XX.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\XX.bin",
+  "Items": "Layout\\Objects\\Items\\XX.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\XX.bin",
+  "Rings": "Layout\\Objects\\Rings\\XX.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\XX.bin"
+}

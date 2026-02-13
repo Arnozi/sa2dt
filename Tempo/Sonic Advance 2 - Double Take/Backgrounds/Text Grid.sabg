@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Text Grid.bin",
+  "Palette": "Palettes\\Text Grid.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Text Grid.bin",
+  "Width": 22,
+  "Height": 44
+}

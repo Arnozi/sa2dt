@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Techno Base Act 2 FG High.bin",
+  "AniTiles": "AniTiles\\Techno Base Act 2 FG High.bin",
+  "AniTilesSize": 800,
+  "AnimFrameCount": 4,
+  "AnimDelay": 5,
+  "Tiles": "Tiles\\Techno Base Act 2 FG High.bin",
+  "Palette": "Palettes\\Techno Base Act 2 FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Techno Base Act 2 FG Low.bin",
+  "Width": 223,
+  "Height": 32
+}

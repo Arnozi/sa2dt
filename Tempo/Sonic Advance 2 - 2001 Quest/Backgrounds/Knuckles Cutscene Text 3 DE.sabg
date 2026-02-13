@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Knuckles Cutscene Text 3 DE.bin",
+  "Palette": "Palettes\\Knuckles Cutscene Text 3 DE.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Knuckles Cutscene Text 3 DE.bin",
+  "Width": 30,
+  "Height": 5
+}

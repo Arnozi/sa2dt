@@ -1,0 +1,13 @@
+{
+  "Mode": 1,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Sonic Advance Title Screen.bin",
+  "Palette": "Palettes\\Sonic Advance Title Screen.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Sonic Advance Title Screen.bin",
+  "Width": 30,
+  "Height": 20
+}

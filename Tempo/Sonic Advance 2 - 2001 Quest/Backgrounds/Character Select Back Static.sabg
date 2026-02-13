@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Character Select Back Static.bin",
+  "Palette": "Palettes\\Character Select Back Static.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Character Select Back Static.bin",
+  "Width": 30,
+  "Height": 20
+}

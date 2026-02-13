@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Normal Ending BG.bin",
+  "Palette": "Palettes\\Normal Ending BG.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Normal Ending BG.bin",
+  "Width": 32,
+  "Height": 32
+}

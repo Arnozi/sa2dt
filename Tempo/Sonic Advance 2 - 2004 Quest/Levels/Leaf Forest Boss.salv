@@ -1,0 +1,13 @@
+{
+  "ID": 2,
+  "ForegroundHigh": "Foregrounds\\Leaf Forest Boss FG High.safg",
+  "ForegroundLow": "Foregrounds\\Leaf Forest Boss FG Low.safg",
+  "Background1": "Backgrounds\\Leaf Forest Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Leaf Forest Boss.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Leaf Forest Boss.bin",
+  "Items": "Layout\\Objects\\Items\\Leaf Forest Boss.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Leaf Forest Boss.bin",
+  "Rings": "Layout\\Objects\\Rings\\Leaf Forest Boss.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Leaf Forest Boss.bin"
+}

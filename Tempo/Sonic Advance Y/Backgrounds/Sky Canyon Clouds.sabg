@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Sky Canyon Clouds.bin",
+  "Palette": "Palettes\\Sky Canyon Clouds.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Sky Canyon Clouds.bin",
+  "Width": 32,
+  "Height": 23
+}

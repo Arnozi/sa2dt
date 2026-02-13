@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Music Plant Boss.bin",
+  "Angles": "Collision\\Angles\\Music Plant Boss.bin",
+  "Chunks": "Chunks\\Music Plant Boss FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Music Plant Boss FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Music Plant Boss FG Low.bin",
+  "Flags": "Collision\\Flags\\Music Plant Boss.bin",
+  "Width": 40,
+  "Height": 3,
+  "WidthPixels": 3840,
+  "HeightPixels": 288
+}

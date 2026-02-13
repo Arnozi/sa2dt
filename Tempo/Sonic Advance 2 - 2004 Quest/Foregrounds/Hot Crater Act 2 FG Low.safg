@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Hot Crater Act 2 FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Hot Crater Act 2 FG High.bin",
+  "Palette": "Palettes\\Hot Crater Act 2 FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Hot Crater Act 2 FG Low.bin",
+  "Width": 255,
+  "Height": 64
+}

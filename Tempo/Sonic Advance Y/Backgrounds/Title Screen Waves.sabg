@@ -1,0 +1,13 @@
+{
+  "Mode": 2,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Title Screen Waves.bin",
+  "Palette": "Palettes\\Title Screen Waves.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Title Screen Waves.bin",
+  "Width": 32,
+  "Height": 32
+}

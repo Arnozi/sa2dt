@@ -1,0 +1,13 @@
+{
+  "Mode": 2,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Special Stage 7 Floor.bin",
+  "Palette": "Palettes\\Special Stage 7 Floor.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Special Stage 7 Floor.bin",
+  "Width": 128,
+  "Height": 128
+}

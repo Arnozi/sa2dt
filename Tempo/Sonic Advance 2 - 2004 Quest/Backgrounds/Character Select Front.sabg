@@ -1,0 +1,13 @@
+{
+  "Mode": 0,
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Character Select Front.bin",
+  "Palette": "Palettes\\Character Select Front.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Background\\Character Select Front.bin",
+  "Width": 30,
+  "Height": 20
+}

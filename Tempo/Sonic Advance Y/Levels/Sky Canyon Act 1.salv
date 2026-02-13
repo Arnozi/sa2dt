@@ -1,0 +1,13 @@
+{
+  "ID": 16,
+  "ForegroundHigh": "Foregrounds\\Sky Canyon Act 1 FG High.safg",
+  "ForegroundLow": "Foregrounds\\Sky Canyon Act 1 FG Low.safg",
+  "Background1": "Backgrounds\\Sky Canyon Act 1 BG.sabg",
+  "Background2": null,
+  "Collision": "Collision\\Info\\Sky Canyon Act 1.sacl",
+  "Interactables": "Layout\\Objects\\Interactables\\Sky Canyon Act 1.bin",
+  "Items": "Layout\\Objects\\Items\\Sky Canyon Act 1.bin",
+  "Enemies": "Layout\\Objects\\Enemies\\Sky Canyon Act 1.bin",
+  "Rings": "Layout\\Objects\\Rings\\Sky Canyon Act 1.bin",
+  "PlayerStart": "Layout\\Objects\\Player\\Sky Canyon Act 1.bin"
+}

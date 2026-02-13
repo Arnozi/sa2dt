@@ -1,0 +1,15 @@
+{
+  "ChunkWidth": 12,
+  "ChunkHeight": 12,
+  "Chunks": "Chunks\\Leaf Forest Boss FG High.bin",
+  "AniTiles": null,
+  "AniTilesSize": 0,
+  "AnimFrameCount": 0,
+  "AnimDelay": 0,
+  "Tiles": "Tiles\\Leaf Forest Boss FG High.bin",
+  "Palette": "Palettes\\Leaf Forest Boss FG High.bin",
+  "PalDest": 0,
+  "Layout": "Layout\\Foreground\\Leaf Forest Boss FG High.bin",
+  "Width": 60,
+  "Height": 3
+}

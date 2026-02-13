@@ -1,0 +1,12 @@
+{
+  "Heightmaps": "Collision\\Heightmaps\\Music Plant Act 1.bin",
+  "Angles": "Collision\\Angles\\Music Plant Act 1.bin",
+  "Chunks": "Chunks\\Music Plant Act 1 FG High.bin",
+  "ForegroundHigh": "Layout\\Foreground\\Music Plant Act 1 FG High.bin",
+  "ForegroundLow": "Layout\\Foreground\\Music Plant Act 1 FG Low.bin",
+  "Flags": "Collision\\Flags\\Music Plant Act 1.bin",
+  "Width": 263,
+  "Height": 50,
+  "WidthPixels": 25248,
+  "HeightPixels": 4800
+}
