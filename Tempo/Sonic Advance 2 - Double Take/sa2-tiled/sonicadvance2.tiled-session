@@ -1,8 +1,9 @@
 {
-    "activeFile": "",
+    "activeFile": "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv",
     "expandedProjectPaths": [
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels",
-        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels"
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -115,12 +116,25 @@
         },
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels/Leaf Forest Boss.salv#Chunks": {
             "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv": {
+            "scale": 1.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 427.33333333333337,
+                "y": 733.6666666666666
+            }
+        },
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv#Chunks": {
+            "scaleInDock": 1
         }
     },
     "openFiles": [
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv"
     ],
     "project": "sonicadvance2.tiled-project",
     "recentFiles": [
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 2.salv",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels/Leaf Forest Boss.salv",

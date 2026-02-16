@@ -2,6 +2,7 @@
     "activeFile": "",
     "expandedProjectPaths": [
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels",
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance Y/Levels",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
@@ -240,12 +241,24 @@
         },
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels/Leaf Forest Boss.salv#Chunks": {
             "scaleInDock": 1
+        },
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance Y/Levels/Leaf Forest Act 1.salv": {
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1908,
+                "y": 918.5
+            }
+        },
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance Y/Levels/Leaf Forest Act 1.salv#Chunks": {
+            "scaleInDock": 1
         }
     },
     "openFiles": [
     ],
     "project": "sonicadvance2.tiled-project",
     "recentFiles": [
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance Y/Levels/Leaf Forest Act 1.salv",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Hot Crater Act 2.salv",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Egg Utopia Act 2.salv",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Egg Utopia Act 1.salv",
@@ -256,7 +269,6 @@
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Sky Canyon Act 1.salv",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Techno Base Act 1.salv",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/True Area 53.salv",
-        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Music Plant Act 1.salv",
-        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Ice Paradise Act 1.salv"
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance Y/Levels/Music Plant Act 1.salv"
     ]
 }
