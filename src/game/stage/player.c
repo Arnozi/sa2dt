@@ -6669,10 +6669,11 @@ bool32 Player_TryMidAirAction(Player *p)
                 case CHARACTER_AMY: {
                     p->moveState |= MOVESTATE_SOME_ATTACK;
                     p->charState = CHARSTATE_SOME_ATTACK;
+                    p->qSpeedAirY = 0;
                     CreateAmyAttackHeartEffect(AMY_HEART_PATTERN_C);
 
                     song = SE_AMY_SUPER_HAMMER_ATTACK;
-                Player_TryMidAirAction_PlaySfx:
+                    Player_TryMidAirAction_PlaySfx:
                     m4aSongNumStart(song);
                     // TODO / BUG?
                     // there's no return TRUE; for Amy
