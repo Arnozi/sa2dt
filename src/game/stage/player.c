@@ -545,7 +545,7 @@ static const s16 sTrickAccel[NUM_TRICK_DIRS][NUM_CHARACTERS][2] = {
         [CHARACTER_CREAM] = {Q_8_8(-3.50), Q_8_8(-3.00)},
         [CHARACTER_TAILS] = {Q_8_8(-3.50), Q_8_8(-3.00)},
         [CHARACTER_KNUCKLES] = {Q_8_8(-5.00), Q_8_8(0.00)},
-        [CHARACTER_AMY] = {Q_8_8(-3.50), Q_8_8(-2.00)},
+        [CHARACTER_AMY] = {Q_8_8(-5.00), Q_8_8(-3.50)},
     },
 };
 
