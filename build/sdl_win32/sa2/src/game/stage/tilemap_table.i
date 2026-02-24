@@ -1,0 +1,2463 @@
+# 0 "src/game/stage/tilemap_table.c"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "src/game/stage/tilemap_table.c"
+# 1 "include/global.h" 1
+
+
+
+# 1 "include/config.h" 1
+# 5 "include/global.h" 2
+# 1 "include/gba/gba.h" 1
+
+
+
+# 1 "include/gba/defines.h" 1
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stddef.h" 1 3 4
+# 1 "/usr/share/mingw-w64/include/stddef.h" 1 3 4
+
+
+
+
+
+
+# 1 "/usr/share/mingw-w64/include/crtdefs.h" 1 3 4
+# 10 "/usr/share/mingw-w64/include/crtdefs.h" 3 4
+# 1 "/usr/share/mingw-w64/include/corecrt.h" 1 3 4
+# 10 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+# 1 "/usr/share/mingw-w64/include/_mingw.h" 1 3 4
+# 10 "/usr/share/mingw-w64/include/_mingw.h" 3 4
+# 1 "/usr/share/mingw-w64/include/_mingw_mac.h" 1 3 4
+# 98 "/usr/share/mingw-w64/include/_mingw_mac.h" 3 4
+             
+# 107 "/usr/share/mingw-w64/include/_mingw_mac.h" 3 4
+             
+# 306 "/usr/share/mingw-w64/include/_mingw_mac.h" 3 4
+       
+# 384 "/usr/share/mingw-w64/include/_mingw_mac.h" 3 4
+       
+# 11 "/usr/share/mingw-w64/include/_mingw.h" 2 3 4
+# 1 "/usr/share/mingw-w64/include/_mingw_secapi.h" 1 3 4
+# 12 "/usr/share/mingw-w64/include/_mingw.h" 2 3 4
+# 282 "/usr/share/mingw-w64/include/_mingw.h" 3 4
+# 1 "/usr/share/mingw-w64/include/vadefs.h" 1 3 4
+# 9 "/usr/share/mingw-w64/include/vadefs.h" 3 4
+# 1 "/usr/share/mingw-w64/include/_mingw.h" 1 3 4
+# 661 "/usr/share/mingw-w64/include/_mingw.h" 3 4
+# 1 "/usr/share/mingw-w64/include/sdks/_mingw_ddk.h" 1 3 4
+# 662 "/usr/share/mingw-w64/include/_mingw.h" 2 3 4
+# 10 "/usr/share/mingw-w64/include/vadefs.h" 2 3 4
+
+
+
+
+#pragma pack(push,_CRT_PACKING)
+# 24 "/usr/share/mingw-w64/include/vadefs.h" 3 4
+  
+# 24 "/usr/share/mingw-w64/include/vadefs.h" 3 4
+ typedef __builtin_va_list __gnuc_va_list;
+
+
+
+
+
+
+  typedef __gnuc_va_list va_list;
+# 103 "/usr/share/mingw-w64/include/vadefs.h" 3 4
+#pragma pack(pop)
+# 283 "/usr/share/mingw-w64/include/_mingw.h" 2 3 4
+# 580 "/usr/share/mingw-w64/include/_mingw.h" 3 4
+void __attribute__((__cdecl__)) __debugbreak(void);
+extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __debugbreak(void)
+{
+
+  __asm__ __volatile__("int {$}3":);
+
+
+
+
+
+
+
+}
+# 601 "/usr/share/mingw-w64/include/_mingw.h" 3 4
+void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) __fastfail(unsigned int code);
+extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) void __attribute__((__cdecl__)) __attribute__ ((__noreturn__)) __fastfail(unsigned int code)
+{
+
+  __asm__ __volatile__("int {$}0x29"::"c"(code));
+# 615 "/usr/share/mingw-w64/include/_mingw.h" 3 4
+  __builtin_unreachable();
+}
+# 641 "/usr/share/mingw-w64/include/_mingw.h" 3 4
+const char *__mingw_get_crt_info (void);
+# 11 "/usr/share/mingw-w64/include/corecrt.h" 2 3 4
+
+
+
+
+#pragma pack(push,_CRT_PACKING)
+# 35 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+__extension__ typedef unsigned long long size_t;
+# 45 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+__extension__ typedef long long ssize_t;
+
+
+
+
+
+
+typedef size_t rsize_t;
+# 62 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+__extension__ typedef long long intptr_t;
+# 75 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+__extension__ typedef unsigned long long uintptr_t;
+# 88 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+__extension__ typedef long long ptrdiff_t;
+# 98 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+typedef unsigned short wchar_t;
+
+
+
+
+
+
+
+typedef unsigned short wint_t;
+typedef unsigned short wctype_t;
+
+
+
+
+
+typedef int errno_t;
+
+
+
+
+typedef long __time32_t;
+
+
+
+
+__extension__ typedef long long __time64_t;
+# 138 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+typedef __time64_t time_t;
+# 430 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+struct threadlocaleinfostruct;
+struct threadmbcinfostruct;
+typedef struct threadlocaleinfostruct *pthreadlocinfo;
+typedef struct threadmbcinfostruct *pthreadmbcinfo;
+struct __lc_time_data;
+
+typedef struct localeinfo_struct {
+  pthreadlocinfo locinfo;
+  pthreadmbcinfo mbcinfo;
+} _locale_tstruct,*_locale_t;
+
+
+
+typedef struct tagLC_ID {
+  unsigned short wLanguage;
+  unsigned short wCountry;
+  unsigned short wCodePage;
+} LC_ID,*LPLC_ID;
+
+
+
+
+typedef struct threadlocaleinfostruct {
+
+
+
+
+
+  int refcount;
+  unsigned int lc_codepage;
+  unsigned int lc_collate_cp;
+  unsigned long lc_handle[6];
+  LC_ID lc_id[6];
+  struct {
+    char *locale;
+    wchar_t *wlocale;
+    int *refcount;
+    int *wrefcount;
+  } lc_category[6];
+  int lc_clike;
+  int mb_cur_max;
+  int *lconv_intl_refcount;
+  int *lconv_num_refcount;
+  int *lconv_mon_refcount;
+  struct lconv *lconv;
+  int *ctype1_refcount;
+  unsigned short *ctype1;
+  const unsigned short *pctype;
+  const unsigned char *pclmap;
+  const unsigned char *pcumap;
+  struct __lc_time_data *lc_time_curr;
+
+} threadlocinfo;
+# 501 "/usr/share/mingw-w64/include/corecrt.h" 3 4
+#pragma pack(pop)
+# 11 "/usr/share/mingw-w64/include/crtdefs.h" 2 3 4
+# 8 "/usr/share/mingw-w64/include/stddef.h" 2 3 4
+# 18 "/usr/share/mingw-w64/include/stddef.h" 3 4
+  __attribute__ ((__dllimport__)) extern int *__attribute__((__cdecl__)) _errno(void);
+
+  errno_t __attribute__((__cdecl__)) _set_errno(int _Value);
+  errno_t __attribute__((__cdecl__)) _get_errno(int *_Value);
+
+
+  __attribute__ ((__dllimport__)) extern unsigned long __attribute__((__cdecl__)) __threadid(void);
+
+  __attribute__ ((__dllimport__)) extern uintptr_t __attribute__((__cdecl__)) __threadhandle(void);
+# 424 "/usr/share/mingw-w64/include/stddef.h" 3 4
+typedef struct {
+  long long __max_align_ll __attribute__((__aligned__(__alignof__(long long))));
+  long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
+} max_align_t;
+# 2 "/usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stddef.h" 2 3 4
+# 6 "include/gba/defines.h" 2
+# 1 "/usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stdint.h" 1 3 4
+# 9 "/usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stdint.h" 3 4
+# 1 "/usr/share/mingw-w64/include/stdint.h" 1 3 4
+# 32 "/usr/share/mingw-w64/include/stdint.h" 3 4
+# 1 "/usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stddef.h" 1 3 4
+# 1 "/usr/share/mingw-w64/include/stddef.h" 1 3 4
+# 2 "/usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stddef.h" 2 3 4
+# 33 "/usr/share/mingw-w64/include/stdint.h" 2 3 4
+
+
+typedef signed char int8_t;
+typedef unsigned char uint8_t;
+typedef short int16_t;
+typedef unsigned short uint16_t;
+typedef int int32_t;
+typedef unsigned uint32_t;
+__extension__ typedef long long int64_t;
+__extension__ typedef unsigned long long uint64_t;
+
+
+typedef signed char int_least8_t;
+typedef unsigned char uint_least8_t;
+typedef short int_least16_t;
+typedef unsigned short uint_least16_t;
+typedef int int_least32_t;
+typedef unsigned uint_least32_t;
+__extension__ typedef long long int_least64_t;
+__extension__ typedef unsigned long long uint_least64_t;
+
+
+
+
+
+typedef signed char int_fast8_t;
+typedef unsigned char uint_fast8_t;
+typedef short int_fast16_t;
+typedef unsigned short uint_fast16_t;
+typedef int int_fast32_t;
+typedef unsigned int uint_fast32_t;
+__extension__ typedef long long int_fast64_t;
+__extension__ typedef unsigned long long uint_fast64_t;
+
+
+__extension__ typedef long long intmax_t;
+__extension__ typedef unsigned long long uintmax_t;
+# 10 "/usr/lib/gcc/x86_64-w64-mingw32/13-win32/include/stdint.h" 2 3 4
+# 7 "include/gba/defines.h" 2
+# 56 "include/gba/defines.h"
+
+# 56 "include/gba/defines.h"
+extern uint8_t VRAM[(0x18000 + (0x800 * (12)))];
+# 65 "include/gba/defines.h"
+extern struct SoundMixerState *SOUND_INFO_PTR;
+extern uint16_t INTR_CHECK;
+extern void (*INTR_VECTOR)(void);
+
+extern uint8_t EWRAM_START[0x40000];
+extern uint8_t IWRAM_START[0x7E00];
+extern uint16_t PLTT[0x400/sizeof(uint16_t)];
+
+
+extern uint8_t OAM[(128*0xC)];
+# 131 "include/gba/defines.h"
+typedef uint32_t winreg_t;
+# 5 "include/gba/gba.h" 2
+# 1 "include/gba/io_reg.h" 1
+# 13 "include/gba/io_reg.h"
+extern unsigned char REG_BASE[0x400];
+# 6 "include/gba/gba.h" 2
+# 1 "include/gba/types.h" 1
+# 23 "include/gba/types.h"
+typedef uint8_t u8;
+typedef uint16_t u16;
+typedef uint32_t u32;
+typedef uint64_t u64;
+typedef int8_t s8;
+typedef int16_t s16;
+typedef int32_t s32;
+typedef int64_t s64;
+
+
+
+
+typedef u16 MetatileIndexType;
+# 47 "include/gba/types.h"
+typedef u16 int_vcount;
+
+
+
+
+typedef volatile u8 vu8;
+typedef volatile u16 vu16;
+typedef volatile u32 vu32;
+typedef volatile u64 vu64;
+typedef volatile s8 vs8;
+typedef volatile s16 vs16;
+typedef volatile s32 vs32;
+typedef volatile s64 vs64;
+
+typedef float f32;
+typedef double f64;
+
+typedef u8 bool8;
+typedef u16 bool16;
+typedef u32 bool32;
+
+struct BgCnt
+{
+    u16 priority:2;
+    u16 charBaseBlock:2;
+    u16 dummy:2;
+    u16 mosaic:1;
+    u16 palettes:1;
+    u16 screenBaseBlock:5;
+    u16 areaOverflowMode:1;
+    u16 screenSize:2;
+};
+typedef volatile struct BgCnt vBgCnt;
+
+struct PlttData
+{
+    u16 r:5;
+    u16 g:5;
+    u16 b:5;
+    u16 unused_15:1;
+};
+# 183 "include/gba/types.h"
+typedef struct __attribute__((packed)) OamDataShort { s16 x; s16 y; u32 affineMode:2; u32 objMode:2; u32 mosaic:1; u32 bpp:1; u32 shape:2; u32 matrixNum:5; u32 size:2; u32 padding:17; u16 tileNum:10; u16 priority:2; u16 paletteNum:4; } OamDataShort;
+# 201 "include/gba/types.h"
+  ;
+
+typedef union {
+    struct {
+               s16 x;
+               s16 y;
+
+               u32 affineMode:2;
+             u32 objMode:2;
+             u32 mosaic:1;
+             u32 bpp:1;
+             u32 shape:2;
+
+               u32 matrixNum:5;
+               u32 size:2;
+               u32 padding:17;
+
+               u16 tileNum:10;
+             u16 priority:2;
+             u16 paletteNum:4;
+
+               u16 fractional:8;
+             u16 integer:7;
+             u16 sign:1;
+    } split;
+
+    struct {
+        s16 x;
+        s16 y;
+        u16 attr0;
+        u16 attr1;
+        u16 attr2;
+        u16 affineParam;
+    } all;
+
+    u16 raw[6];
+} OamData;
+# 308 "include/gba/types.h"
+struct BgAffineSrcData
+{
+    s32 texX;
+    s32 texY;
+    s16 scrX;
+    s16 scrY;
+    s16 sx;
+    s16 sy;
+    u16 alpha;
+};
+
+struct BgAffineDstData
+{
+    s16 pa;
+    s16 pb;
+    s16 pc;
+    s16 pd;
+    s32 dx;
+    s32 dy;
+};
+
+struct ObjAffineSrcData
+{
+    s16 xScale;
+    s16 yScale;
+    u16 rotation;
+};
+
+
+struct SioNormalCnt
+{
+    u16 sck_I_O:1;
+    u16 sck:1;
+    u16 ackRecv:1;
+    u16 ackSend:1;
+    u16 unused_6_4:3;
+    u16 enable:1;
+    u16 unused_11_8:4;
+    u16 mode:2;
+    u16 ifEnable:1;
+    u16 unused_15:1;
+    u8 data;
+    u8 unused_31_24;
+};
+# 362 "include/gba/types.h"
+struct SioMultiCnt
+{
+    u16 baudRate:2;
+    u16 si:1;
+    u16 sd:1;
+    u16 id:2;
+    u16 error:1;
+    u16 enable:1;
+    u16 unused_11_8:4;
+    u16 mode:2;
+    u16 ifEnable:1;
+    u16 unused_15:1;
+    u16 data;
+};
+# 387 "include/gba/types.h"
+struct SioUartCnt
+{
+    u16 baudRate:2;
+    u16 ctsEnable:1;
+    u16 paritySelect:1;
+    u16 transDataFull:1;
+    u16 recvDataEmpty:1;
+    u16 error:1;
+    u16 length:1;
+    u16 fifoEnable:1;
+    u16 parityEnable:1;
+    u16 transEnable:1;
+    u16 recvEnable:1;
+    u16 mode:2;
+    u16 ifEnable:1;
+    u16 unused_15:1;
+    u8 data;
+    u8 unused_31_24;
+};
+# 415 "include/gba/types.h"
+struct JoyCnt
+{
+    u8 ifReset:1;
+    u8 ifRecv:1;
+    u8 ifSend:1;
+    u8 unused_5_3:3;
+    u8 ifEnable:1;
+    u8 unused_7:1;
+};
+
+
+struct JoyStat
+{
+    u8 unused_0:1;
+    u8 recv:1;
+    u8 unused_2:1;
+    u8 send:1;
+    u8 flags:2;
+    u8 unused_7_6:2;
+};
+
+
+struct RCnt
+{
+    u8 sc:1;
+    u8 sd:1;
+    u8 si:1;
+    u8 so:1;
+    u8 sc_i_o:1;
+    u8 sd_i_o:1;
+    u8 si_i_o:1;
+    u8 so_i_o:1;
+    u8 ifEnable:1;
+    u8 unused_13_9:5;
+    u8 sioModeMaster:2;
+};
+# 7 "include/gba/gba.h" 2
+# 1 "include/gba/multiboot.h" 1
+# 9 "include/gba/multiboot.h"
+struct MultiBootParam
+{
+    u32 system_work[5];
+    u8 handshake_data;
+    u8 padding;
+    u16 handshake_timeout;
+    u8 probe_count;
+    u8 client_data[3];
+    u8 palette_data;
+    u8 response_bit;
+    u8 client_bit;
+    u8 reserved1;
+    u8 *boot_srcp;
+    u8 *boot_endp;
+    u8 *masterp;
+    u8 *reserved2[3];
+    u32 system_work2[4];
+    u8 sendflag;
+    u8 probe_target_bit;
+    u8 check_wait;
+    u8 server_type;
+};
+# 8 "include/gba/gba.h" 2
+# 1 "include/gba/syscall.h" 1
+# 14 "include/gba/syscall.h"
+typedef struct {
+    u32 srcLength : 16;
+    u32 srcWidth : 8;
+    u32 dstWidth : 8;
+} BitUnPackData;
+
+void SoftReset(u32 resetFlags);
+void SoftResetExram(u32 resetFlags);
+
+void RegisterRamReset(u32 resetFlags);
+
+void VBlankIntrWait(void);
+
+u16 Sqrt(u32 num);
+
+u16 ArcTan2(s16 x, s16 y);
+
+
+
+
+
+void CpuSet(const void *src, void *dest, u32 control);
+
+
+
+void CpuFastSet(const void *src, void *dest, u32 control);
+
+void BgAffineSet(struct BgAffineSrcData *src, struct BgAffineDstData *dest, s32 count);
+
+void ObjAffineSet(struct ObjAffineSrcData *src, void *dest, s32 count, s32 offset);
+
+void LZ77UnCompWram(const void *src, void *dest);
+
+void LZ77UnCompVram(const void *src, void *dest);
+
+void RLUnCompWram(const void *src, void *dest);
+
+void RLUnCompVram(const void *src, void *dest);
+
+int MultiBoot(struct MultiBootParam *mp);
+# 72 "include/gba/syscall.h"
+void SoundBiasReset(void);
+
+void SoundBiasSet(void);
+# 9 "include/gba/gba.h" 2
+# 1 "include/gba/macro.h" 1
+
+
+
+# 1 "include/gba/cpuset_macros.h" 1
+# 5 "include/gba/macro.h" 2
+# 1 "include/gba/dma_macros.h" 1
+
+
+
+# 1 "include/config.h" 1
+# 5 "include/gba/dma_macros.h" 2
+# 16 "include/gba/dma_macros.h"
+extern void DmaSet(int dmaNum, const void *src, void *dest, u32 control);
+# 78 "include/gba/dma_macros.h"
+extern void DmaStop(int dmaNum);
+# 172 "include/gba/dma_macros.h"
+extern void DmaWait(int dmaNum);
+# 6 "include/gba/macro.h" 2
+# 10 "include/gba/gba.h" 2
+# 1 "include/gba/isagbprint.h" 1
+# 13 "include/gba/isagbprint.h"
+void AGBPrintInit(void);
+void AGBPutc(const char cChr);
+void AGBPrint(const char *pBuf);
+void AGBPrintf(const char *pBuf, ...);
+void AGBPrintFlush1Block(void);
+void AGBPrintFlush(void);
+void AGBAssert(const char *pFile, int nLine, const char *pExpression, int nStopProgram);
+# 11 "include/gba/gba.h" 2
+# 6 "include/global.h" 2
+# 21 "include/global.h"
+void *Platform_malloc(size_t numBytes);
+void *Platform_realloc(void *ptr, size_t numBytes);
+void Platform_free(void *ptr);
+# 33 "include/global.h"
+typedef void (*VoidFn)(void);
+# 301 "include/global.h"
+typedef struct {
+    s16 x;
+    s16 y;
+} Vec2_16;
+
+typedef struct {
+    s32 x;
+    s32 y;
+} Vec2_32;
+
+typedef struct {
+    u8 reserved : 4;
+    u8 compressedType : 4;
+    u32 size : 24;
+    void *data;
+} RLCompressed;
+
+struct BlendRegs {
+    u16 bldCnt;
+    u16 bldAlpha;
+    u16 bldY;
+};
+
+
+
+
+
+
+
+typedef struct {
+               u16 pa, pb, pc, pd;
+               u32 x, y;
+} BgAffineReg;
+
+
+typedef void (*HBlankIntrFunc)(int_vcount vcount);
+typedef void (*IntrFunc)(void);
+
+extern void *iwram_end;
+extern void *ewram_end;
+
+extern void *rom_footer;
+# 2 "src/game/stage/tilemap_table.c" 2
+# 1 "include/core.h" 1
+
+
+
+
+# 1 "/usr/share/mingw-w64/include/string.h" 1 3
+# 45 "/usr/share/mingw-w64/include/string.h" 3
+  
+# 45 "/usr/share/mingw-w64/include/string.h" 3 4
+ __attribute__ ((__dllimport__)) void *__attribute__((__cdecl__)) _memccpy(void *_Dst,const void *_Src,int _Val,size_t _MaxCount);
+  void *__attribute__((__cdecl__)) memchr(const void *_Buf ,int _Val,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _memicmp(const void *_Buf1,const void *_Buf2,size_t _Size);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _memicmp_l(const void *_Buf1,const void *_Buf2,size_t _Size,_locale_t _Locale);
+  int __attribute__((__cdecl__)) memcmp(const void *_Buf1,const void *_Buf2,size_t _Size);
+  void * __attribute__((__cdecl__)) memcpy(void * __restrict__ _Dst,const void * __restrict__ _Src,size_t _Size) ;
+  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) memcpy_s (void *_dest,size_t _numberOfElements,const void *_src,size_t _count);
+  void * __attribute__((__cdecl__)) mempcpy (void *_Dst, const void *_Src, size_t _Size);
+  void * __attribute__((__cdecl__)) memset(void *_Dst,int _Val,size_t _Size);
+
+  void * __attribute__((__cdecl__)) memccpy(void *_Dst,const void *_Src,int _Val,size_t _Size) ;
+  int __attribute__((__cdecl__)) memicmp(const void *_Buf1,const void *_Buf2,size_t _Size) ;
+
+
+  char * __attribute__((__cdecl__)) _strset(char *_Str,int _Val) ;
+  char * __attribute__((__cdecl__)) _strset_l(char *_Str,int _Val,_locale_t _Locale) ;
+  char * __attribute__((__cdecl__)) strcpy(char * __restrict__ _Dest,const char * __restrict__ _Source);
+  char * __attribute__((__cdecl__)) strcat(char * __restrict__ _Dest,const char * __restrict__ _Source);
+  int __attribute__((__cdecl__)) strcmp(const char *_Str1,const char *_Str2);
+  size_t __attribute__((__cdecl__)) strlen(const char *_Str);
+  size_t __attribute__((__cdecl__)) strnlen(const char *_Str,size_t _MaxCount);
+  void *__attribute__((__cdecl__)) memmove(void *_Dst,const void *_Src,size_t _Size) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strdup(const char *_Src);
+  char *__attribute__((__cdecl__)) strchr(const char *_Str,int _Val);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _stricmp(const char *_Str1,const char *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _strcmpi(const char *_Str1,const char *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _stricmp_l(const char *_Str1,const char *_Str2,_locale_t _Locale);
+  int __attribute__((__cdecl__)) strcoll(const char *_Str1,const char *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _strcoll_l(const char *_Str1,const char *_Str2,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _stricoll(const char *_Str1,const char *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _stricoll_l(const char *_Str1,const char *_Str2,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _strncoll (const char *_Str1,const char *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _strncoll_l(const char *_Str1,const char *_Str2,size_t _MaxCount,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _strnicoll (const char *_Str1,const char *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _strnicoll_l(const char *_Str1,const char *_Str2,size_t _MaxCount,_locale_t _Locale);
+  size_t __attribute__((__cdecl__)) strcspn(const char *_Str,const char *_Control);
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strerror(const char *_ErrMsg) ;
+  char *__attribute__((__cdecl__)) strerror(int) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strlwr(char *_String) ;
+  char *strlwr_l(char *_String,_locale_t _Locale) ;
+  char *__attribute__((__cdecl__)) strncat(char * __restrict__ _Dest,const char * __restrict__ _Source,size_t _Count) ;
+  int __attribute__((__cdecl__)) strncmp(const char *_Str1,const char *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _strnicmp(const char *_Str1,const char *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _strnicmp_l(const char *_Str1,const char *_Str2,size_t _MaxCount,_locale_t _Locale);
+  char *strncpy(char * __restrict__ _Dest,const char * __restrict__ _Source,size_t _Count) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strnset(char *_Str,int _Val,size_t _MaxCount) ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strnset_l(char *str,int c,size_t count,_locale_t _Locale) ;
+  char *__attribute__((__cdecl__)) strpbrk(const char *_Str,const char *_Control);
+  char *__attribute__((__cdecl__)) strrchr(const char *_Str,int _Ch);
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strrev(char *_Str);
+  size_t __attribute__((__cdecl__)) strspn(const char *_Str,const char *_Control);
+  char *__attribute__((__cdecl__)) strstr(const char *_Str,const char *_SubStr);
+  char *__attribute__((__cdecl__)) strtok(char * __restrict__ _Str,const char * __restrict__ _Delim) ;
+       
+
+  char *strtok_r(char * __restrict__ _Str, const char * __restrict__ _Delim, char ** __restrict__ __last);
+       
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strupr(char *_String) ;
+  __attribute__ ((__dllimport__)) char *_strupr_l(char *_String,_locale_t _Locale) ;
+  size_t __attribute__((__cdecl__)) strxfrm(char * __restrict__ _Dst,const char * __restrict__ _Src,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _strxfrm_l(char * __restrict__ _Dst,const char * __restrict__ _Src,size_t _MaxCount,_locale_t _Locale);
+
+
+  char *__attribute__((__cdecl__)) strdup(const char *_Src) ;
+  int __attribute__((__cdecl__)) strcmpi(const char *_Str1,const char *_Str2) ;
+  int __attribute__((__cdecl__)) stricmp(const char *_Str1,const char *_Str2) ;
+  char *__attribute__((__cdecl__)) strlwr(char *_Str) ;
+  int __attribute__((__cdecl__)) strnicmp(const char *_Str1,const char *_Str,size_t _MaxCount) ;
+  int __attribute__((__cdecl__)) strncasecmp (const char *, const char *, size_t);
+  int __attribute__((__cdecl__)) strcasecmp (const char *, const char *);
+
+
+
+
+
+
+
+  char *__attribute__((__cdecl__)) strnset(char *_Str,int _Val,size_t _MaxCount) ;
+  char *__attribute__((__cdecl__)) strrev(char *_Str) ;
+  char *__attribute__((__cdecl__)) strset(char *_Str,int _Val) ;
+  char *__attribute__((__cdecl__)) strupr(char *_Str) ;
+
+
+
+
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsdup(const wchar_t *_Str);
+  wchar_t *__attribute__((__cdecl__)) wcscat(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source) ;
+  wchar_t *__attribute__((__cdecl__)) wcschr(const wchar_t *_Str,wchar_t _Ch);
+  int __attribute__((__cdecl__)) wcscmp(const wchar_t *_Str1,const wchar_t *_Str2);
+  wchar_t *__attribute__((__cdecl__)) wcscpy(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source) ;
+  size_t __attribute__((__cdecl__)) wcscspn(const wchar_t *_Str,const wchar_t *_Control);
+  size_t __attribute__((__cdecl__)) wcslen(const wchar_t *_Str);
+  size_t __attribute__((__cdecl__)) wcsnlen(const wchar_t *_Src,size_t _MaxCount);
+  wchar_t *wcsncat(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _Count) ;
+  int __attribute__((__cdecl__)) wcsncmp(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
+  wchar_t *wcsncpy(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _Count) ;
+  wchar_t *__attribute__((__cdecl__)) _wcsncpy_l(wchar_t * __restrict__ _Dest,const wchar_t * __restrict__ _Source,size_t _Count,_locale_t _Locale) ;
+  wchar_t *__attribute__((__cdecl__)) wcspbrk(const wchar_t *_Str,const wchar_t *_Control);
+  wchar_t *__attribute__((__cdecl__)) wcsrchr(const wchar_t *_Str,wchar_t _Ch);
+  size_t __attribute__((__cdecl__)) wcsspn(const wchar_t *_Str,const wchar_t *_Control);
+  wchar_t *__attribute__((__cdecl__)) wcsstr(const wchar_t *_Str,const wchar_t *_SubStr);
+
+
+
+  wchar_t *__attribute__((__cdecl__)) wcstok(wchar_t * __restrict__ _Str,const wchar_t * __restrict__ _Delim) ;
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcserror(int _ErrNum) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) __wcserror(const wchar_t *_Str) ;
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicmp(const wchar_t *_Str1,const wchar_t *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicmp_l(const wchar_t *_Str1,const wchar_t *_Str2,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicmp(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicmp_l(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsnset(wchar_t *_Str,wchar_t _Val,size_t _MaxCount) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsrev(wchar_t *_Str);
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsset(wchar_t *_Str,wchar_t _Val) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcslwr(wchar_t *_String) ;
+  __attribute__ ((__dllimport__)) wchar_t *_wcslwr_l(wchar_t *_String,_locale_t _Locale) ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcsupr(wchar_t *_String) ;
+  __attribute__ ((__dllimport__)) wchar_t *_wcsupr_l(wchar_t *_String,_locale_t _Locale) ;
+  size_t __attribute__((__cdecl__)) wcsxfrm(wchar_t * __restrict__ _Dst,const wchar_t * __restrict__ _Src,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) size_t __attribute__((__cdecl__)) _wcsxfrm_l(wchar_t * __restrict__ _Dst,const wchar_t * __restrict__ _Src,size_t _MaxCount,_locale_t _Locale);
+  int __attribute__((__cdecl__)) wcscoll(const wchar_t *_Str1,const wchar_t *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcscoll_l(const wchar_t *_Str1,const wchar_t *_Str2,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicoll(const wchar_t *_Str1,const wchar_t *_Str2);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsicoll_l(const wchar_t *_Str1,const wchar_t *_Str2,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsncoll(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsncoll_l(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicoll(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) int __attribute__((__cdecl__)) _wcsnicoll_l(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount,_locale_t _Locale);
+
+
+  wchar_t *__attribute__((__cdecl__)) wcsdup(const wchar_t *_Str) ;
+
+  int __attribute__((__cdecl__)) wcsicmp(const wchar_t *_Str1,const wchar_t *_Str2) ;
+  int __attribute__((__cdecl__)) wcsnicmp(const wchar_t *_Str1,const wchar_t *_Str2,size_t _MaxCount) ;
+  wchar_t *__attribute__((__cdecl__)) wcsnset(wchar_t *_Str,wchar_t _Val,size_t _MaxCount) ;
+  wchar_t *__attribute__((__cdecl__)) wcsrev(wchar_t *_Str) ;
+  wchar_t *__attribute__((__cdecl__)) wcsset(wchar_t *_Str,wchar_t _Val) ;
+  wchar_t *__attribute__((__cdecl__)) wcslwr(wchar_t *_Str) ;
+  wchar_t *__attribute__((__cdecl__)) wcsupr(wchar_t *_Str) ;
+  int __attribute__((__cdecl__)) wcsicoll(const wchar_t *_Str1,const wchar_t *_Str2) ;
+
+
+
+
+
+
+
+# 1 "/usr/share/mingw-w64/include/sec_api/string_s.h" 1 3
+# 9 "/usr/share/mingw-w64/include/sec_api/string_s.h" 3
+# 1 "/usr/share/mingw-w64/include/string.h" 1 3
+# 10 "/usr/share/mingw-w64/include/sec_api/string_s.h" 2 3
+# 24 "/usr/share/mingw-w64/include/sec_api/string_s.h" 3
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strset_s(char *_Dst,size_t _DstSize,int _Value);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strerror_s(char *_Buf,size_t _SizeInBytes,const char *_ErrMsg);
+ 
+  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) strerror_s(char *_Buf,size_t _SizeInBytes,int _ErrNum);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strlwr_s(char *_Str,size_t _Size);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strlwr_s_l(char *_Str,size_t _Size,_locale_t _Locale);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strnset_s(char *_Str,size_t _Size,int _Val,size_t _MaxCount);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strupr_s(char *_Str,size_t _Size);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strupr_s_l(char *_Str,size_t _Size,_locale_t _Locale);
+ 
+
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) strncat_s(char *_Dst,size_t _DstSizeInChars,const char *_Src,size_t _MaxCount);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strncat_s_l(char *_Dst,size_t _DstSizeInChars,const char *_Src,size_t _MaxCount,_locale_t _Locale);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) strcpy_s(char *_Dst, rsize_t _SizeInBytes, const char *_Src);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) strncpy_s(char *_Dst, size_t _DstSizeInChars, const char *_Src, size_t _MaxCount);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _strncpy_s_l(char *_Dst, size_t _DstSizeInChars, const char *_Src, size_t _MaxCount, _locale_t _Locale);
+  ;
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) strtok_s(char *_Str,const char *_Delim,char **_Context);
+  __attribute__ ((__dllimport__)) char *__attribute__((__cdecl__)) _strtok_s_l(char *_Str,const char *_Delim,char **_Context,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) strcat_s(char *_Dst, rsize_t _SizeInBytes, const char * _Src);
+ 
+
+  extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) size_t __attribute__((__cdecl__)) strnlen_s(const char * _src, size_t _count) {
+    return _src ? strnlen(_src, _count) : 0;
+  }
+
+  __attribute__((dllimport)) errno_t __attribute__((__cdecl__)) memmove_s(void *_dest,size_t _numberOfElements,const void *_src,size_t _count);
+
+
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) wcstok_s(wchar_t *_Str,const wchar_t *_Delim,wchar_t **_Context);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcserror_s(wchar_t *_Buf,size_t _SizeInWords,int _ErrNum);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) __wcserror_s(wchar_t *_Buffer,size_t _SizeInWords,const wchar_t *_ErrMsg);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsnset_s(wchar_t *_Dst,size_t _DstSizeInWords,wchar_t _Val,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsset_s(wchar_t *_Str,size_t _SizeInWords,wchar_t _Val);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcslwr_s(wchar_t *_Str,size_t _SizeInWords);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcslwr_s_l(wchar_t *_Str,size_t _SizeInWords,_locale_t _Locale);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsupr_s(wchar_t *_Str,size_t _Size);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsupr_s_l(wchar_t *_Str,size_t _Size,_locale_t _Locale);
+ 
+
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcscpy_s(wchar_t *_Dst, rsize_t _SizeInWords, const wchar_t *_Src);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcscat_s(wchar_t * _Dst, rsize_t _SizeInWords, const wchar_t *_Src);
+ 
+
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcsncat_s(wchar_t *_Dst,size_t _DstSizeInChars,const wchar_t *_Src,size_t _MaxCount);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsncat_s_l(wchar_t *_Dst,size_t _DstSizeInChars,const wchar_t *_Src,size_t _MaxCount,_locale_t _Locale);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) wcsncpy_s(wchar_t *_Dst, size_t _DstSizeInChars, const wchar_t *_Src, size_t _MaxCount);
+  ;
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsncpy_s_l(wchar_t *_Dst, size_t _DstSizeInChars, const wchar_t *_Src, size_t _MaxCount, _locale_t _Locale);
+  ;
+  __attribute__ ((__dllimport__)) wchar_t *__attribute__((__cdecl__)) _wcstok_s_l(wchar_t *_Str,const wchar_t *_Delim,wchar_t **_Context,_locale_t _Locale);
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsset_s_l(wchar_t *_Str,size_t _SizeInChars,wchar_t _Val,_locale_t _Locale);
+ 
+  __attribute__ ((__dllimport__)) errno_t __attribute__((__cdecl__)) _wcsnset_s_l(wchar_t *_Str,size_t _SizeInChars,wchar_t _Val, size_t _Count,_locale_t _Locale);
+ 
+
+  extern __inline__ __attribute__((__always_inline__,__gnu_inline__)) size_t __attribute__((__cdecl__)) wcsnlen_s(const wchar_t * _src, size_t _count) {
+    return _src ? wcsnlen(_src, _count) : 0;
+  }
+# 195 "/usr/share/mingw-w64/include/string.h" 2 3
+# 6 "include/core.h" 2
+
+
+# 1 "include/global.h" 1
+# 9 "include/core.h" 2
+# 1 "include/sprite.h" 1
+
+
+
+
+# 1 "include/malloc_vram.h" 1
+# 24 "include/malloc_vram.h"
+
+# 24 "include/malloc_vram.h"
+void *VramMalloc(u32);
+void VramResetHeapState(void);
+void VramFree(void *);
+# 6 "include/sprite.h" 2
+
+typedef u16 AnimId;
+
+struct GraphicsData {
+               const void *src;
+               void *dest;
+               u16 size;
+               AnimId anim;
+};
+# 66 "include/sprite.h"
+typedef struct {
+               struct GraphicsData graphics;
+# 81 "include/sprite.h"
+               u16 *layoutVram;
+
+
+
+               const u16 *layout;
+
+
+
+
+               u16 xTiles;
+               u16 yTiles;
+
+               u16 unk18;
+               u16 unk1A;
+               u16 tilemapId;
+               u16 unk1E;
+
+               u16 unk20;
+               u16 unk22;
+               u16 unk24;
+
+
+
+
+               u16 targetTilesX;
+               u16 targetTilesY;
+
+               u8 paletteOffset;
+               u8 animFrameCounter;
+               u8 animDelayCounter;
+
+               u16 flags;
+
+
+               u16 scrollX;
+               u16 scrollY;
+               u16 prevScrollX;
+               u16 prevScrollY;
+
+
+               const MetatileIndexType *metatileMap;
+               u16 mapWidth;
+               u16 mapHeight;
+} Background;
+
+typedef struct {
+
+
+
+
+
+
+               u8 flip;
+
+
+
+               u8 oamIndex;
+
+
+
+
+               u16 numSubframes;
+
+
+               u16 width;
+
+               u16 height;
+
+               s16 offsetX;
+               s16 offsetY;
+} SpriteOffset;
+
+
+
+
+
+typedef struct {
+
+               s32 index;
+
+
+               s8 left;
+               s8 top;
+               s8 right;
+               s8 bottom;
+} Hitbox;
+
+
+
+
+
+typedef struct {
+               struct GraphicsData graphics;
+               const SpriteOffset *dimensions;
+
+
+               u32 frameFlags;
+# 195 "include/sprite.h"
+               u16 animCursor;
+
+               s16 x;
+               s16 y;
+
+               u16 oamFlags;
+
+               s16 qAnimDelay;
+               u16 prevAnim;
+               u8 variant;
+               u8 prevVariant;
+
+
+               u8 animSpeed;
+
+               u8 oamBaseIndex;
+               u8 numSubFrames;
+               u8 palId;
+               Hitbox hitboxes[1];
+} Sprite ;
+
+
+typedef struct {
+    Sprite s;
+    Hitbox hb1;
+} Sprite2;
+
+
+typedef struct {
+    Sprite s;
+    Hitbox hb1;
+    Hitbox hb2;
+} Sprite3;
+
+typedef struct {
+               u16 rotation;
+               s16 qScaleX;
+               s16 qScaleY;
+               s16 x;
+               s16 y;
+} SpriteTransform;
+
+typedef struct {
+               s16 unk0[4];
+               s16 qDirX;
+               s16 qDirY;
+
+               s16 unkC[2];
+
+               s32 posX;
+               s32 posY;
+
+               s16 unk18[2][2];
+               u16 affineIndex;
+} UnkSpriteStruct;
+
+typedef struct {
+               u32 numTiles;
+               AnimId anim;
+               u8 variant;
+} TileInfo;
+
+
+typedef struct {
+               void *tiles;
+               AnimId anim;
+               u8 variant;
+} TileInfoPtr;
+
+typedef struct __attribute__((packed)) TileInfo16 { u16 numTiles; AnimId anim; u16 variant; } TileInfo16;
+
+
+
+  ;
+
+extern const u8 gOamShapesSizes[12][2];
+
+typedef enum {
+    ACMD_RESULT__ANIM_CHANGED = -1,
+    ACMD_RESULT__ENDED = 0,
+    ACMD_RESULT__RUNNING = +1,
+} AnimCmdResult;
+
+AnimCmdResult UpdateSpriteAnimation(Sprite *);
+
+void DisplaySprite(Sprite *);
+void DrawBackground(Background *);
+bool32 sub_8002B20(void);
+bool32 sub_80039E4(void);
+bool32 sub_8004010(void);
+void ProcessOamBuffers(void);
+OamData *OamMalloc(u8 order);
+
+void TransformSprite(Sprite *, SpriteTransform *);
+void UnusedTransform(Sprite *, SpriteTransform *);
+void sub_8004E14(Sprite *, SpriteTransform *);
+
+void sub_8003EE4(u16 p0, s16 p1, s16 p2, s16 p3, s16 p4, s16 p5, s16 p6, BgAffineReg *affine);
+void sub_8006228(u8 p0, u8 p1, u8 p2, u8 p3, u8 p4, u8 p5);
+void sub_80064A8(u8 p0, u8 p1, u8 p2, u8 p3, u8 p4, u8 p5);
+
+s32 UpdateSpriteAnimation_BG(Sprite *);
+void DisplaySprite_BG(Sprite *);
+void sub_80047A0(u16, s16, s16, u16);
+
+s16 sub_8004418(s16 x, s16 y);
+void numToASCII(u8 digits[5], u16 number);
+# 10 "include/core.h" 2
+# 1 "include/task.h" 1
+
+
+
+
+
+struct Task;
+
+typedef void (*TaskMain)(void);
+typedef void (*TaskDestructor)(struct Task *);
+# 25 "include/task.h"
+typedef struct Task *TaskPtr;
+typedef TaskPtr TaskPtr32;
+
+
+
+
+typedef void *IwramData;
+# 55 "include/task.h"
+typedef struct Task {
+               TaskPtr parent;
+               TaskPtr prev;
+               TaskPtr next;
+               IwramData data;
+
+    u32 dataSize;
+
+               TaskMain main;
+               TaskDestructor dtor;
+               u16 priority;
+               u16 flags;
+
+
+
+               u8 unk14;
+               u8 unk15;
+               u16 unk16;
+               u16 unk18;
+
+
+
+
+
+} Task;
+
+
+
+
+
+struct IwramNode;
+
+typedef struct IwramNode *IwramNodePtr;
+typedef IwramNodePtr IwramNodePtr32;
+
+
+
+
+struct IwramNode {
+    IwramNodePtr next;
+    s16 state;
+
+    u8 __attribute__((aligned(sizeof(void *)))) space[0];
+};
+# 113 "include/task.h"
+extern struct Task gTasks[128];
+extern struct Task gEmptyTask;
+extern struct Task *gTaskPtrs[128];
+extern s32 gNumTasks;
+
+
+
+extern struct Task *gNextTask;
+extern struct Task *gCurTask;
+extern u8 gIwramHeap[((0x881) * sizeof(uintptr_t))];
+
+u32 TasksInit(void);
+void TasksExec(void);
+# 141 "include/task.h"
+struct Task *TaskCreate(TaskMain taskMain, u16 structSize, u16 priority, u16 flags, TaskDestructor taskDestructor);
+
+
+void TaskDestroy(struct Task *);
+void *IwramMalloc(u16);
+void IwramFree(void *p);
+void TasksDestroyInPriorityRange(u16, u16);
+# 11 "include/core.h" 2
+# 1 "include/flags.h" 1
+# 23 "include/flags.h"
+extern u32 gFlags;
+# 12 "include/core.h" 2
+# 1 "include/tilemap.h" 1
+# 10 "include/tilemap.h"
+typedef struct {
+    u16 index : 10;
+    u16 xFlip : 1;
+    u16 yFlip : 1;
+    u16 pal : 4;
+} Tile;
+
+typedef struct {
+               u16 xTiles;
+               u16 yTiles;
+               u16 animTileSize;
+               u8 animFrameCount;
+               u8 animDelay;
+               const u8 *tiles;
+               u32 tilesSize;
+               const u16 *palette;
+               u16 palOffset;
+               u16 palLength;
+
+
+
+               const u16 *map;
+} Tilemap;
+
+struct MapHeader {
+               Tilemap tileset;
+               const u16 *metatileMap;
+               u16 mapWidth;
+               u16 mapHeight;
+};
+# 13 "include/core.h" 2
+# 1 "include/input_recorder.h" 1
+# 12 "include/input_recorder.h"
+struct InputRecorder {
+               s32 playbackHead;
+               s32 recordHead;
+               u8 mode;
+};
+
+void InputRecorderResetRecordHead(void);
+void InputRecorderResetPlaybackHead(void);
+void InputRecorderLoadTape(void);
+u16 InputRecorderRead(void);
+void InputRecorderWrite(u16);
+# 14 "include/core.h" 2
+# 1 "include/animation_commands.h" 1
+# 9 "include/animation_commands.h"
+typedef AnimCmdResult (*AnimationCommandFunc)(void *cursor, Sprite *sprite);
+
+typedef struct {
+               s32 cmdId;
+
+
+
+               s32 tileIndex;
+
+               u32 numTilesToCopy;
+} ACmd_GetTiles;
+
+typedef struct {
+               s32 cmdId;
+
+               s32 palId;
+               u16 numColors;
+               u16 insertOffset;
+} ACmd_GetPalette;
+
+typedef struct {
+               s32 cmdId;
+
+               s32 offset;
+} ACmd_JumpBack;
+
+typedef struct {
+               s32 cmdId;
+} ACmd_4;
+
+typedef struct {
+               s32 cmdId;
+
+               u16 songId;
+} ACmd_PlaySoundEffect;
+
+
+typedef struct {
+               s32 cmdId;
+
+               Hitbox hitbox;
+} ACmd_Hitbox;
+
+typedef struct {
+               s32 cmdId;
+
+               u16 x;
+               u16 y;
+} ACmd_TranslateSprite;
+
+typedef struct {
+               s32 cmdId;
+
+               s32 unk4;
+               s32 unk8;
+} ACmd_8;
+
+typedef struct {
+               s32 cmdId;
+
+               AnimId animId;
+               u16 variant;
+} ACmd_SetIdAndVariant;
+
+typedef struct {
+               s32 cmdId;
+
+               s32 unk4;
+               s32 unk8;
+               s32 unkC;
+} ACmd_10;
+
+typedef struct {
+               s32 cmdId;
+
+               s32 priority;
+} ACmd_SetSpritePriority;
+
+typedef struct {
+               s32 cmdId;
+
+               s32 orderIndex;
+} ACmd_SetOamOrder;
+
+typedef struct {
+
+    s32 delay;
+
+
+    s32 index;
+} ACmd_ShowFrame;
+
+typedef union {
+    s32 id;
+
+    ACmd_GetTiles tiles;
+    ACmd_GetPalette pal;
+    ACmd_JumpBack jump;
+    ACmd_4 end;
+    ACmd_PlaySoundEffect sfx;
+    ACmd_Hitbox _6;
+    ACmd_TranslateSprite translate;
+    ACmd_8 _8;
+    ACmd_SetIdAndVariant setAnimId;
+    ACmd_10 _10;
+    ACmd_SetSpritePriority _11;
+    ACmd_SetOamOrder setOamOrder;
+
+    ACmd_ShowFrame show;
+} ACmd;
+
+u32 Base10DigitsToHexNibbles(u16 num);
+# 15 "include/core.h" 2
+
+struct MultiSioData_0_0 {
+
+    u16 unk0;
+
+    u8 unk2;
+
+    u8 unk3;
+    u32 unk4;
+    u16 unk8[3];
+
+
+
+    u8 unkE;
+    u8 unkF;
+    u32 unk10;
+};
+
+struct MultiSioData_0_1 {
+
+    u16 unk0;
+
+    u8 unk2;
+
+    u8 unk3;
+
+    u16 unk4;
+    u16 unk6;
+
+    u16 unk8[3];
+
+
+
+    u8 unkE;
+    u8 unkF;
+    u32 unk10;
+};
+struct MultiSioData_0_2 {
+
+    u8 unk0;
+    u8 filler1;
+
+    u8 unk2;
+
+    u8 unk3;
+
+    u16 unk4;
+    u16 unk6;
+
+    u16 unk8[3];
+
+
+
+    u8 unkE;
+    u8 unkF;
+    u32 unk10;
+};
+
+struct MultiSioData_0_3 {
+
+    u16 unk0;
+
+    u8 unk2;
+
+    u8 unk3;
+
+    u16 unk4;
+    u16 unk6;
+
+    u32 unk8;
+    u16 unkC;
+
+
+
+    u8 unkE;
+    u8 unkF;
+    u32 unk10;
+};
+
+struct MultiSioData_0_4 {
+
+    u16 unk0;
+
+    s16 x;
+    s16 y;
+    u16 unk6;
+    u16 unk8;
+    u8 unkA;
+    u8 unkB;
+    u8 unkC;
+    u8 unkD;
+
+
+
+    u8 unkE;
+    u8 numRings;
+    u8 unk10;
+    u8 unk11;
+    u8 unk12;
+    u8 unk13;
+};
+
+union MultiSioData {
+    struct MultiSioData_0_0 pat0;
+    struct MultiSioData_0_1 pat1;
+    struct MultiSioData_0_2 pat2;
+    struct MultiSioData_0_3 pat3;
+    struct MultiSioData_0_4 pat4;
+};
+
+
+
+
+
+
+
+typedef u32 collPxDim_t;
+
+
+
+typedef struct {
+               const s8 *height_map;
+               const u8 *tile_rotation;
+               const u16 *metatiles;
+               const MetatileIndexType *map[2];
+               const u16 *flags;
+               u16 levelX, levelY;
+               collPxDim_t pxWidth, pxHeight;
+
+
+} Collision;
+
+struct Unk_03003674_1_Sub {
+    u16 unk0, unk2, unk4, unk6;
+    s16 unk8, unkA;
+};
+
+struct Unk_03003674_1_Full {
+    struct Unk_03003674_1_Sub sub;
+    u32 unkC;
+};
+
+union Unk_03003674_1 {
+    const struct Unk_03003674_1_Sub *sub;
+    const struct Unk_03003674_1_Full *full;
+};
+
+struct Unk_03003674 {
+    const union Unk_03003674_0 *const *unk0;
+    const union Unk_03003674_1 *unk4;
+    const u16 *const *unk8;
+    const void *unkC;
+    const void *unk10;
+    const void *unk14;
+    const s32 *unk18;
+};
+
+struct SpriteTables {
+               const ACmd **const *animations;
+               const SpriteOffset *const *dimensions;
+               const u16 **const oamData;
+               const u16 *const palettes;
+               const u8 *const tiles_4bpp;
+               const u8 *const tiles_8bpp;
+};
+# 197 "include/core.h"
+extern u32 gFlags;
+extern u32 gFlagsPreVBlank;
+
+extern u32 gFrameCount;
+# 215 "include/core.h"
+extern IntrFunc gIntrTable[16];
+extern IntrFunc const gIntrTableTemplate[14];
+extern u32 gIntrMainBuf[0x80];
+
+extern struct Task *gCurTask;
+extern struct Task gTasks[128];
+extern struct Task *gTaskPtrs[128];
+extern struct Task *gNextTask;
+extern struct Task gEmptyTask;
+extern s32 gNumTasks;
+
+extern u16 gInput;
+extern u16 gPrevInput;
+extern u16 gPhysicalInput;
+extern u16 gReleasedKeys;
+extern u16 gRepeatedKeys;
+extern u16 gPressedKeys;
+extern u8 gKeysFirstRepeatIntervals[10];
+extern u8 gRepeatedKeysTestCounter[10];
+extern u8 gKeysContinuedRepeatIntervals[10];
+
+extern const u8 *gInputPlaybackData;
+extern struct InputRecorder gInputRecorder;
+extern u16 *gInputRecorderTapeBuffer;
+
+extern union MultiSioData gMultiSioSend;
+extern union MultiSioData gMultiSioRecv[4];
+extern u32 gMultiSioStatusFlags;
+extern bool8 gMultiSioEnabled;
+
+extern HBlankIntrFunc gHBlankIntrs[4];
+extern HBlankIntrFunc gHBlankCallbacks[4];
+extern u8 gNumHBlankCallbacks;
+extern u8 gNumHBlankIntrs;
+
+extern u8 gIwramHeap[((0x881) * sizeof(uintptr_t))];
+
+extern void *gVramHeapStartAddr;
+extern u16 gVramHeapMaxTileSlots;
+extern u16 gVramHeapState[((0x18000 + (0x800 * (12))) - 0x10000) / (4 * 32)];
+
+extern bool8 gExecSoundMain;
+
+extern u16 gDispCnt;
+# 273 "include/core.h"
+extern winreg_t gWinRegs[6];
+extern struct BlendRegs gBldRegs;
+extern BgAffineReg gBgAffineRegs[2];
+extern u16 gObjPalette[16 * 16u];
+extern u16 gBgPalette[16 * 16u];
+
+extern u16 gBgCntRegs[4];
+
+
+
+extern s16 gBgScrollRegs[4][2];
+
+extern OamData gOamMallocBuffer[128];
+extern OamData gOamBuffer[128];
+
+
+extern int_vcount gBgOffsetsBuffer[2][240][4];
+extern Background *gBackgroundsCopyQueue[16];
+
+
+extern void *gBgOffsetsHBlankPrimary;
+
+extern u16 gUnknown_030017F0;
+extern Vec2_16 gSpriteOffset;
+extern u8 gOamMallocOrders_StartIndex[32];
+extern IntrFunc gVBlankCallbacks[4];
+
+extern u8 gOamFreeIndex;
+extern u16 gUnknown_03001944;
+extern u8 gNumVBlankIntrs;
+extern s16 gUnknown_0300194C;
+
+extern Tilemap **gTilemapsRef;
+extern u8 gBgSprites_Unknown2[4][4];
+extern u8 gBgSprites_Unknown1[4];
+# 317 "include/core.h"
+extern struct GraphicsData *gVramGraphicsCopyQueue[32];
+extern u8 gVramGraphicsCopyQueueIndex;
+# 334 "include/core.h"
+extern struct GraphicsData gVramGraphicsCopyQueueBuffer[32];
+# 357 "include/core.h"
+extern void *gBgOffsetsHBlankSecondary;
+extern void *gBgOffsetsSecondary;
+
+extern s16 gMosaicReg;
+extern u8 gUnknown_030026F4;
+
+extern s16 gUnknown_03002820;
+extern u8 gVCountSetting;
+extern void *gHBlankCopyTarget;
+extern u8 gBackgroundsCopyQueueIndex;
+extern u8 gHBlankCopySize;
+extern u16 gUnknown_03002A8C;
+
+
+extern u8 gOamFirstPausedIndex;
+extern u8 gBackgroundsCopyQueueCursor;
+extern Sprite *gBgSprites[16];
+extern u8 gNumVBlankCallbacks;
+extern void *gBgOffsetsPrimary;
+extern u16 gUnknown_03004D58;
+extern u8 gVramGraphicsCopyCursor;
+extern u8 gOamMallocOrders_EndIndex[0x20];
+extern u8 gBgSpritesCount;
+extern u16 gUnknown_03005394;
+extern u16 gUnknown_03005398;
+extern IntrFunc gVBlankIntrs[4];
+extern s32 gPseudoRandom;
+extern u8 gOamMallocCopiedOrder[128];
+extern struct MultiBootParam gMultiBootParam;
+
+extern const struct SpriteTables *gRefSpriteTables;
+
+void EngineInit(void);
+void EngineMainLoop(void);
+# 3 "src/game/stage/tilemap_table.c" 2
+
+# 1 "include/data/tilemap_data.h" 1
+
+
+
+# 1 "include/tilemap.h" 1
+# 5 "include/data/tilemap_data.h" 2
+
+extern const struct MapHeader MapHeader_zone_1_act_1_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_1_fg1;
+extern const Tilemap zone_1_act_1_bg;
+extern const struct MapHeader MapHeader_zone_1_act_2_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_2_fg1;
+extern const Tilemap zone_1_act_2_bg;
+extern const struct MapHeader MapHeader_zone_1_act_boss_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_boss_fg1;
+extern const Tilemap zone_1_act_boss_bg;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg1;
+extern const Tilemap zone_1_act_dummy_bg;
+extern const struct MapHeader MapHeader_zone_2_act_1_fg0;
+extern const struct MapHeader MapHeader_zone_2_act_1_fg1;
+extern const Tilemap zone_2_act_1_bg;
+extern const struct MapHeader MapHeader_zone_2_act_2_fg0;
+extern const struct MapHeader MapHeader_zone_2_act_2_fg1;
+extern const Tilemap zone_2_act_2_bg;
+extern const struct MapHeader MapHeader_zone_2_act_boss_fg0;
+extern const struct MapHeader MapHeader_zone_2_act_boss_fg1;
+extern const Tilemap zone_2_act_boss_bg;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg1;
+extern const Tilemap zone_1_act_dummy_bg;
+extern const struct MapHeader MapHeader_zone_3_act_1_fg0;
+extern const struct MapHeader MapHeader_zone_3_act_1_fg1;
+extern const Tilemap zone_3_act_1_bg;
+extern const struct MapHeader MapHeader_zone_3_act_2_fg0;
+extern const struct MapHeader MapHeader_zone_3_act_2_fg1;
+extern const Tilemap zone_3_act_2_bg;
+extern const struct MapHeader MapHeader_zone_3_act_boss_fg0;
+extern const struct MapHeader MapHeader_zone_3_act_boss_fg1;
+extern const Tilemap zone_3_act_boss_bg;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg1;
+extern const Tilemap zone_1_act_dummy_bg;
+extern const struct MapHeader MapHeader_zone_4_act_1_fg0;
+extern const struct MapHeader MapHeader_zone_4_act_1_fg1;
+extern const Tilemap zone_4_act_1_bg;
+extern const struct MapHeader MapHeader_zone_4_act_2_fg0;
+extern const struct MapHeader MapHeader_zone_4_act_2_fg1;
+extern const Tilemap zone_4_act_2_bg;
+extern const struct MapHeader MapHeader_zone_4_act_boss_fg0;
+extern const struct MapHeader MapHeader_zone_4_act_boss_fg1;
+extern const Tilemap zone_4_act_boss_bg;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg1;
+extern const Tilemap zone_1_act_dummy_bg;
+extern const struct MapHeader MapHeader_zone_5_act_1_fg0;
+extern const struct MapHeader MapHeader_zone_5_act_1_fg1;
+extern const Tilemap zone_5_act_1_bg;
+extern const struct MapHeader MapHeader_zone_5_act_2_fg0;
+extern const struct MapHeader MapHeader_zone_5_act_2_fg1;
+extern const Tilemap zone_5_act_2_bg;
+extern const struct MapHeader MapHeader_zone_5_act_boss_fg0;
+extern const struct MapHeader MapHeader_zone_5_act_boss_fg1;
+extern const Tilemap zone_5_act_boss_bg;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg1;
+extern const Tilemap zone_1_act_dummy_bg;
+extern const struct MapHeader MapHeader_zone_6_act_1_fg0;
+extern const struct MapHeader MapHeader_zone_6_act_1_fg1;
+extern const Tilemap zone_6_act_1_bg;
+extern const struct MapHeader MapHeader_zone_6_act_2_fg0;
+extern const struct MapHeader MapHeader_zone_6_act_2_fg1;
+extern const Tilemap zone_6_act_2_bg;
+extern const struct MapHeader MapHeader_zone_6_act_boss_fg0;
+extern const struct MapHeader MapHeader_zone_6_act_boss_fg1;
+extern const Tilemap zone_6_act_boss_bg;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg1;
+extern const Tilemap zone_1_act_dummy_bg;
+extern const struct MapHeader MapHeader_zone_7_act_1_fg0;
+extern const struct MapHeader MapHeader_zone_7_act_1_fg1;
+extern const Tilemap zone_7_act_1_bg;
+extern const struct MapHeader MapHeader_zone_7_act_2_fg0;
+extern const struct MapHeader MapHeader_zone_7_act_2_fg1;
+extern const Tilemap zone_7_act_2_bg;
+extern const struct MapHeader MapHeader_zone_7_act_boss_fg0;
+extern const struct MapHeader MapHeader_zone_7_act_boss_fg1;
+extern const Tilemap zone_7_act_boss_bg;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg0;
+extern const struct MapHeader MapHeader_zone_1_act_dummy_fg1;
+extern const Tilemap zone_1_act_dummy_bg;
+extern const struct MapHeader MapHeader_zone_final_act_xx_fg0;
+extern const struct MapHeader MapHeader_zone_final_act_xx_fg1;
+extern const Tilemap zone_final_act_xx_bg;
+extern const struct MapHeader MapHeader_zone_final_act_ta53_fg0;
+extern const struct MapHeader MapHeader_zone_final_act_ta53_fg1;
+extern const Tilemap zone_final_act_ta53_bg;
+extern const struct MapHeader MapHeader_zone_final_act_unused_fg0;
+extern const struct MapHeader MapHeader_zone_final_act_unused_fg1;
+extern const Tilemap zone_final_act_unused_bg;
+extern const Tilemap sa1_title_logo;
+extern const Tilemap sa1_title_bg;
+extern const Tilemap intro_presented_by_sega;
+extern const Tilemap intro_created_by_sonic_team;
+extern const Tilemap character_select_background;
+extern const Tilemap character_select_wheel;
+extern const Tilemap stage_select_bg_sonic;
+extern const Tilemap stage_select_bg_cream;
+extern const Tilemap stage_select_bg_tails;
+extern const Tilemap stage_select_bg_knuckles;
+extern const Tilemap stage_select_bg_amy;
+extern const Tilemap stage_select_map;
+extern const Tilemap egg_saucer_wheel_copy;
+extern const Tilemap unknown_options_bg;
+extern const Tilemap tilemap_108;
+extern const Tilemap sa2_title_logo_jp;
+extern const Tilemap ta_and_mp_white_bg;
+extern const Tilemap mp_orange_bg;
+extern const Tilemap ta_orange_bg;
+extern const Tilemap stage_1_bg_0_copy;
+extern const Tilemap mp_wait_connection;
+extern const Tilemap mp_message_box_unknown;
+extern const Tilemap mp_characters_selected_jp;
+extern const Tilemap mp_characters_selected_en;
+extern const Tilemap mp_characters_selected_de;
+extern const Tilemap mp_characters_selected_fr;
+extern const Tilemap mp_characters_selected_es;
+extern const Tilemap mp_characters_selected_it;
+extern const Tilemap mp_unknown_orange_zigzag;
+extern const Tilemap mp_unknown_green;
+extern const Tilemap unknown_message_box_white;
+extern const Tilemap unknown_message_box_white_small;
+extern const Tilemap mp_vs_background_text;
+extern const Tilemap mp_cheese_please_wait_jp;
+extern const Tilemap mp_cheese_please_wait_en;
+extern const Tilemap mp_cheese_please_wait_de;
+extern const Tilemap mp_cheese_please_wait_fr;
+extern const Tilemap mp_cheese_please_wait_es;
+extern const Tilemap mp_cheese_please_wait_it;
+extern const Tilemap options_bg0;
+extern const Tilemap options_language_select;
+extern const Tilemap options_enter_name;
+extern const Tilemap options_enter_name_characters;
+extern const Tilemap options_time_record_bg0;
+extern const Tilemap options_time_record_bg1;
+extern const Tilemap tilemap_139;
+extern const Tilemap mp_character_selected_sonic_bg;
+extern const Tilemap mp_character_selected_sonic;
+extern const Tilemap mp_character_selected_tails_bg;
+extern const Tilemap mp_character_selected_tails;
+extern const Tilemap mp_character_selected_knuckles_bg;
+extern const Tilemap mp_character_selected_knuckles;
+extern const Tilemap mp_character_selected_amy_bg;
+extern const Tilemap mp_character_selected_amy;
+extern const Tilemap mp_character_selected_cream_bg;
+extern const Tilemap mp_character_selected_cream;
+extern const Tilemap message_box_black;
+extern const Tilemap green_caret;
+extern const Tilemap options_vs_record_bg1;
+extern const Tilemap special_stage_1;
+extern const Tilemap special_stage_1_bg;
+extern const Tilemap special_stage_2;
+extern const Tilemap special_stage_2_bg;
+extern const Tilemap special_stage_3;
+extern const Tilemap special_stage_3_bg;
+extern const Tilemap special_stage_4;
+extern const Tilemap special_stage_4_bg;
+extern const Tilemap special_stage_5;
+extern const Tilemap special_stage_5_bg;
+extern const Tilemap special_stage_6;
+extern const Tilemap special_stage_6_bg;
+extern const Tilemap special_stage_7;
+extern const Tilemap special_stage_7_bg;
+extern const Tilemap techno_base_bg_purple_grid;
+extern const Tilemap techno_base_bg_circuit_mask;
+extern const Tilemap sound_test_bg;
+extern const Tilemap cutscene_post_extra_boss_bg;
+extern const Tilemap cutscene_final_ending_fall_bg;
+extern const Tilemap cutscene_final_ending_fall_clouds;
+extern const Tilemap cutscene_final_ending_fall_bg_dark;
+extern const Tilemap cutscene_final_ending_fall_bg_dark_2;
+extern const Tilemap collect_all_chaos_emeralds_jp;
+extern const Tilemap collect_all_chaos_emeralds_en;
+extern const Tilemap collect_all_chaos_emeralds_fr;
+extern const Tilemap collect_all_chaos_emeralds_de;
+extern const Tilemap collect_all_chaos_emeralds_it;
+extern const Tilemap collect_all_chaos_emeralds_es;
+extern const Tilemap unlocked_tiny_chao_garden_jp;
+extern const Tilemap unlocked_tiny_chao_garden_en;
+extern const Tilemap unlocked_tiny_chao_garden_fr;
+extern const Tilemap unlocked_tiny_chao_garden_de;
+extern const Tilemap unlocked_tiny_chao_garden_it;
+extern const Tilemap unlocked_tiny_chao_garden_es;
+extern const Tilemap unlocked_sound_test_jp;
+extern const Tilemap unlocked_sound_test_en;
+extern const Tilemap unlocked_sound_test_fr;
+extern const Tilemap unlocked_sound_test_de;
+extern const Tilemap unlocked_sound_test_it;
+extern const Tilemap unlocked_sound_test_es;
+extern const Tilemap unlocked_bosses_time_attack_jp;
+extern const Tilemap unlocked_bosses_time_attack_en;
+extern const Tilemap unlocked_bosses_time_attack_fr;
+extern const Tilemap unlocked_bosses_time_attack_de;
+extern const Tilemap unlocked_bosses_time_attack_it;
+extern const Tilemap unlocked_bosses_time_attack_es;
+extern const Tilemap unlocked_amy_jp;
+extern const Tilemap unlocked_amy_en;
+extern const Tilemap unlocked_amy_fr;
+extern const Tilemap unlocked_amy_de;
+extern const Tilemap unlocked_amy_it;
+extern const Tilemap unlocked_amy_es;
+extern const Tilemap cutscene_final_ending_land_fg;
+extern const Tilemap cutscene_final_ending_land_bg;
+extern const Tilemap cutscene_final_ending_land_flower_field;
+extern const Tilemap cutscene_final_ending_land_bg_alt;
+extern const Tilemap unk_space_bg;
+extern const Tilemap storyframe_sonic_catches_vanilla;
+extern const Tilemap storyframe_sonic_finds_friends;
+extern const Tilemap storyframe_sonic_pats_tails;
+extern const Tilemap storyframe_cream_hugs_vanilla;
+extern const Tilemap storyframe_cream_tails_vanilla_look_around;
+extern const Tilemap storyframe_cream_cheese_vanilla_happy;
+extern const Tilemap storyframe_sonic_leaves_0;
+extern const Tilemap storyframe_sonic_leaves_1;
+extern const Tilemap storyframe_sonic_leaves_2;
+extern const Tilemap storyframe_sonic_leaves_3;
+extern const Tilemap storyframe_sonic_leaves_4;
+extern const Tilemap storyframe_sonic_leaves_5;
+extern const Tilemap storyframe_sonic_leaves_6;
+extern const Tilemap storyframe_sonic_leaves_7;
+extern const Tilemap storyframe_sonic_leaves_8;
+extern const Tilemap storyframe_sonic_leaves_9;
+extern const Tilemap storyframe_sonic_leaves_10;
+extern const Tilemap storyframe_cream_unlock_0_sepia;
+extern const Tilemap storyframe_cream_unlock_1_sepia;
+extern const Tilemap storyframe_tails_unlock_1_sepia;
+extern const Tilemap storyframe_knuckles_unlock_1_sepia;
+extern const Tilemap storyframe_cream_unlock_3_sepia;
+extern const Tilemap credits_sa2_logo_jp;
+extern const Tilemap credits_sa2_logo_en;
+extern const Tilemap credits_0;
+extern const Tilemap credits_1;
+extern const Tilemap credits_2;
+extern const Tilemap credits_3;
+extern const Tilemap credits_4;
+extern const Tilemap credits_5;
+extern const Tilemap credits_6;
+extern const Tilemap credits_7;
+extern const Tilemap credits_8;
+extern const Tilemap credits_9;
+extern const Tilemap credits_10;
+extern const Tilemap credits_11;
+extern const Tilemap credits_12;
+extern const Tilemap credits_13;
+extern const Tilemap credits_14;
+extern const Tilemap credits_15;
+extern const Tilemap credits_16;
+extern const Tilemap credits_17;
+extern const Tilemap credits_18;
+extern const Tilemap credits_19;
+extern const Tilemap credits_20;
+extern const Tilemap credits_21;
+extern const Tilemap credits_22;
+extern const Tilemap credits_23;
+extern const Tilemap credits_24;
+extern const Tilemap credits_copyright;
+extern const Tilemap credits_presented_by_sega;
+extern const Tilemap title_screen_bg;
+extern const Tilemap intro_water;
+extern const Tilemap lens_flare_bg;
+extern const Tilemap sa2_logo_jp;
+extern const Tilemap sa2_logo_en;
+extern const Tilemap storyframe_cream_unlock_0;
+extern const Tilemap storyframe_cream_unlock_1;
+extern const Tilemap storyframe_cream_unlock_2;
+extern const Tilemap storyframe_cream_unlock_3;
+extern const Tilemap storyframe_cream_unlock_0_dlg_jp;
+extern const Tilemap storyframe_cream_unlock_1_dlg_jp;
+extern const Tilemap storyframe_cream_unlock_2_dlg_jp;
+extern const Tilemap storyframe_cream_unlock_3_dlg_jp;
+extern const Tilemap storyframe_cream_unlocked_jp;
+extern const Tilemap storyframe_cream_unlock_0_dlg_en;
+extern const Tilemap storyframe_cream_unlock_1_dlg_en;
+extern const Tilemap storyframe_cream_unlock_2_dlg_en;
+extern const Tilemap storyframe_cream_unlock_3_dlg_en;
+extern const Tilemap storyframe_cream_unlocked_en;
+extern const Tilemap storyframe_cream_unlock_0_dlg_fr;
+extern const Tilemap storyframe_cream_unlock_1_dlg_fr;
+extern const Tilemap storyframe_cream_unlock_2_dlg_fr;
+extern const Tilemap storyframe_cream_unlock_3_dlg_fr;
+extern const Tilemap storyframe_cream_unlocked_fr;
+extern const Tilemap storyframe_cream_unlock_0_dlg_de;
+extern const Tilemap storyframe_cream_unlock_1_dlg_de;
+extern const Tilemap storyframe_cream_unlock_2_dlg_de;
+extern const Tilemap storyframe_cream_unlock_3_dlg_de;
+extern const Tilemap storyframe_cream_unlocked_de;
+extern const Tilemap storyframe_cream_unlock_0_dlg_it;
+extern const Tilemap storyframe_cream_unlock_1_dlg_it;
+extern const Tilemap storyframe_cream_unlock_2_dlg_it;
+extern const Tilemap storyframe_cream_unlock_3_dlg_it;
+extern const Tilemap storyframe_cream_unlocked_it;
+extern const Tilemap storyframe_cream_unlock_0_dlg_es;
+extern const Tilemap storyframe_cream_unlock_1_dlg_es;
+extern const Tilemap storyframe_cream_unlock_2_dlg_es;
+extern const Tilemap storyframe_cream_unlock_3_dlg_es;
+extern const Tilemap storyframe_cream_unlocked_es;
+extern const Tilemap storyframe_knuckles_unlock_0;
+extern const Tilemap storyframe_knuckles_unlock_1;
+extern const Tilemap storyframe_knuckles_unlock_2;
+extern const Tilemap storyframe_knuckles_unlock_3;
+extern const Tilemap storyframe_knuckles_unlock_0_dlg_jp;
+extern const Tilemap storyframe_knuckles_unlock_1_dlg_jp;
+extern const Tilemap storyframe_knuckles_unlock_2_dlg_jp;
+extern const Tilemap storyframe_knuckles_unlock_3_dlg_jp;
+extern const Tilemap storyframe_knuckles_unlocked_jp;
+extern const Tilemap storyframe_knuckles_unlock_0_dlg_en;
+extern const Tilemap storyframe_knuckles_unlock_1_dlg_en;
+extern const Tilemap storyframe_knuckles_unlock_2_dlg_en;
+extern const Tilemap storyframe_knuckles_unlock_3_dlg_en;
+extern const Tilemap storyframe_knuckles_unlocked_en;
+extern const Tilemap storyframe_knuckles_unlock_0_dlg_fr;
+extern const Tilemap storyframe_knuckles_unlock_1_dlg_fr;
+extern const Tilemap storyframe_knuckles_unlock_2_dlg_fr;
+extern const Tilemap storyframe_knuckles_unlock_3_dlg_fr;
+extern const Tilemap storyframe_knuckles_unlocked_fr;
+extern const Tilemap storyframe_knuckles_unlock_0_dlg_de;
+extern const Tilemap storyframe_knuckles_unlock_1_dlg_de;
+extern const Tilemap storyframe_knuckles_unlock_2_dlg_de;
+extern const Tilemap storyframe_knuckles_unlock_3_dlg_de;
+extern const Tilemap storyframe_knuckles_unlocked_de;
+extern const Tilemap storyframe_knuckles_unlock_0_dlg_it;
+extern const Tilemap storyframe_knuckles_unlock_1_dlg_it;
+extern const Tilemap storyframe_knuckles_unlock_2_dlg_it;
+extern const Tilemap storyframe_knuckles_unlock_3_dlg_it;
+extern const Tilemap storyframe_knuckles_unlocked_it;
+extern const Tilemap storyframe_knuckles_unlock_0_dlg_es;
+extern const Tilemap storyframe_knuckles_unlock_1_dlg_es;
+extern const Tilemap storyframe_knuckles_unlock_2_dlg_es;
+extern const Tilemap storyframe_knuckles_unlock_3_dlg_es;
+extern const Tilemap storyframe_knuckles_unlocked_es;
+extern const Tilemap storyframe_tails_unlock_0;
+extern const Tilemap storyframe_tails_unlock_1;
+extern const Tilemap storyframe_tails_unlock_2;
+extern const Tilemap storyframe_tails_unlock_3;
+extern const Tilemap storyframe_tails_unlock_0_dlg_jp;
+extern const Tilemap storyframe_tails_unlock_1_dlg_jp;
+extern const Tilemap storyframe_tails_unlock_2_dlg_jp;
+extern const Tilemap storyframe_tails_unlock_3_dlg_jp;
+extern const Tilemap storyframe_tails_unlocked_jp;
+extern const Tilemap storyframe_tails_unlock_0_dlg_en;
+extern const Tilemap storyframe_tails_unlock_1_dlg_en;
+extern const Tilemap storyframe_tails_unlock_2_dlg_en;
+extern const Tilemap storyframe_tails_unlock_3_dlg_en;
+extern const Tilemap storyframe_tails_unlocked_en;
+extern const Tilemap storyframe_tails_unlock_0_dlg_fr;
+extern const Tilemap storyframe_tails_unlock_1_dlg_fr;
+extern const Tilemap storyframe_tails_unlock_2_dlg_fr;
+extern const Tilemap storyframe_tails_unlock_3_dlg_fr;
+extern const Tilemap storyframe_tails_unlocked_fr;
+extern const Tilemap storyframe_tails_unlock_0_dlg_de;
+extern const Tilemap storyframe_tails_unlock_1_dlg_de;
+extern const Tilemap storyframe_tails_unlock_2_dlg_de;
+extern const Tilemap storyframe_tails_unlock_3_dlg_de;
+extern const Tilemap storyframe_tails_unlocked_de;
+extern const Tilemap storyframe_tails_unlock_0_dlg_it;
+extern const Tilemap storyframe_tails_unlock_1_dlg_it;
+extern const Tilemap storyframe_tails_unlock_2_dlg_it;
+extern const Tilemap storyframe_tails_unlock_3_dlg_it;
+extern const Tilemap storyframe_tails_unlocked_it;
+extern const Tilemap storyframe_tails_unlock_0_dlg_es;
+extern const Tilemap storyframe_tails_unlock_1_dlg_es;
+extern const Tilemap storyframe_tails_unlock_2_dlg_es;
+extern const Tilemap storyframe_tails_unlock_3_dlg_es;
+extern const Tilemap storyframe_tails_unlocked_es;
+extern const Tilemap regular_final_boss;
+extern const Tilemap music_plant_moving_stars;
+extern const Tilemap sky_canyon_clouds_foreground;
+extern const Tilemap spotlight_snow;
+extern const Tilemap extra_boss_background;
+extern const Tilemap character_select_background_0;
+extern const Tilemap character_select_background_1;
+extern const Tilemap extra_boss_cockpit;
+extern const Tilemap extra_boss_background_copy;
+extern const Tilemap cutscene_vanilla_kidnapped_full_map;
+extern const Tilemap cutscene_vanilla_kidnapped_full_map_copy;
+extern const Tilemap cutscene_vanilla_kidnapped_super_sonic_art;
+extern const Tilemap regular_final_boss_building_bg;
+# 5 "src/game/stage/tilemap_table.c" 2
+
+# 1 "include/constants/tilemaps.h" 1
+# 7 "src/game/stage/tilemap_table.c" 2
+# 1 "include/constants/zones.h" 1
+# 8 "src/game/stage/tilemap_table.c" 2
+
+const Tilemap *const gTilemaps[] = {
+    [0] = &MapHeader_zone_1_act_1_fg0.tileset,
+    [1] = &MapHeader_zone_1_act_1_fg1.tileset,
+    [2] = &zone_1_act_1_bg,
+    [3] = &MapHeader_zone_1_act_2_fg0.tileset,
+    [4] = &MapHeader_zone_1_act_2_fg1.tileset,
+    [5] = &zone_1_act_1_bg,
+    [6] = &MapHeader_zone_1_act_boss_fg0.tileset,
+    [7] = &MapHeader_zone_1_act_boss_fg1.tileset,
+    [8] = &zone_1_act_1_bg,
+    [9] = &MapHeader_zone_1_act_dummy_fg0.tileset,
+    [10] = &MapHeader_zone_1_act_dummy_fg1.tileset,
+    [11] = &zone_1_act_dummy_bg,
+    [12] = &MapHeader_zone_2_act_1_fg0.tileset,
+    [13] = &MapHeader_zone_2_act_1_fg1.tileset,
+    [14] = &zone_2_act_1_bg,
+    [15] = &MapHeader_zone_2_act_2_fg0.tileset,
+    [16] = &MapHeader_zone_2_act_2_fg1.tileset,
+    [17] = &zone_2_act_1_bg,
+    [18] = &MapHeader_zone_2_act_boss_fg0.tileset,
+    [19] = &MapHeader_zone_2_act_boss_fg1.tileset,
+    [20] = &zone_2_act_1_bg,
+    [21] = &MapHeader_zone_1_act_dummy_fg0.tileset,
+    [22] = &MapHeader_zone_1_act_dummy_fg1.tileset,
+    [23] = &zone_1_act_1_bg,
+    [24] = &MapHeader_zone_3_act_1_fg0.tileset,
+    [25] = &MapHeader_zone_3_act_1_fg1.tileset,
+    [26] = &zone_3_act_1_bg,
+    [27] = &MapHeader_zone_3_act_2_fg0.tileset,
+    [28] = &MapHeader_zone_3_act_2_fg1.tileset,
+    [29] = &zone_3_act_1_bg,
+    [30] = &MapHeader_zone_3_act_boss_fg0.tileset,
+    [31] = &MapHeader_zone_3_act_boss_fg1.tileset,
+    [32] = &zone_3_act_1_bg,
+    [33] = &MapHeader_zone_1_act_dummy_fg0.tileset,
+    [34] = &MapHeader_zone_1_act_dummy_fg1.tileset,
+    [35] = &zone_3_act_1_bg,
+    [36] = &MapHeader_zone_4_act_1_fg0.tileset,
+    [37] = &MapHeader_zone_4_act_1_fg1.tileset,
+    [38] = &zone_4_act_1_bg,
+    [39] = &MapHeader_zone_4_act_2_fg0.tileset,
+    [40] = &MapHeader_zone_4_act_2_fg1.tileset,
+    [41] = &zone_4_act_1_bg,
+    [42] = &MapHeader_zone_4_act_boss_fg0.tileset,
+    [43] = &MapHeader_zone_4_act_boss_fg1.tileset,
+    [44] = &zone_4_act_1_bg,
+    [45] = &MapHeader_zone_1_act_dummy_fg0.tileset,
+    [46] = &MapHeader_zone_1_act_dummy_fg1.tileset,
+    [47] = &zone_4_act_1_bg,
+    [48] = &MapHeader_zone_5_act_1_fg0.tileset,
+    [49] = &MapHeader_zone_5_act_1_fg1.tileset,
+    [50] = &zone_5_act_1_bg,
+    [51] = &MapHeader_zone_5_act_2_fg0.tileset,
+    [52] = &MapHeader_zone_5_act_2_fg1.tileset,
+    [53] = &zone_5_act_1_bg,
+    [54] = &MapHeader_zone_5_act_boss_fg0.tileset,
+    [55] = &MapHeader_zone_5_act_boss_fg1.tileset,
+    [56] = &zone_5_act_1_bg,
+    [57] = &MapHeader_zone_1_act_dummy_fg0.tileset,
+    [58] = &MapHeader_zone_1_act_dummy_fg1.tileset,
+    [59] = &zone_5_act_1_bg,
+    [60] = &MapHeader_zone_6_act_1_fg0.tileset,
+    [61] = &MapHeader_zone_6_act_1_fg1.tileset,
+    [62] = &zone_6_act_1_bg,
+    [63] = &MapHeader_zone_6_act_2_fg0.tileset,
+    [64] = &MapHeader_zone_6_act_2_fg1.tileset,
+    [65] = &zone_6_act_1_bg,
+    [66] = &MapHeader_zone_6_act_boss_fg0.tileset,
+    [67] = &MapHeader_zone_6_act_boss_fg1.tileset,
+    [68] = &zone_6_act_1_bg,
+    [69] = &MapHeader_zone_1_act_dummy_fg0.tileset,
+    [70] = &MapHeader_zone_1_act_dummy_fg1.tileset,
+    [71] = &zone_6_act_1_bg,
+    [72] = &MapHeader_zone_7_act_1_fg0.tileset,
+    [73] = &MapHeader_zone_7_act_1_fg1.tileset,
+    [74] = &zone_7_act_1_bg,
+    [75] = &MapHeader_zone_7_act_2_fg0.tileset,
+    [76] = &MapHeader_zone_7_act_2_fg1.tileset,
+    [77] = &zone_7_act_1_bg,
+    [78] = &MapHeader_zone_7_act_boss_fg0.tileset,
+    [79] = &MapHeader_zone_7_act_boss_fg1.tileset,
+    [80] = &zone_7_act_1_bg,
+    [81] = &MapHeader_zone_1_act_dummy_fg0.tileset,
+    [82] = &MapHeader_zone_1_act_dummy_fg1.tileset,
+    [83] = &zone_7_act_1_bg,
+    [84] = &MapHeader_zone_final_act_xx_fg0.tileset,
+    [85] = &MapHeader_zone_final_act_xx_fg1.tileset,
+    [86] = &zone_1_act_dummy_bg,
+    [87] = &MapHeader_zone_final_act_ta53_fg0.tileset,
+    [88] = &MapHeader_zone_final_act_ta53_fg1.tileset,
+    [89] = &zone_final_act_ta53_bg,
+    [90] = &MapHeader_zone_final_act_unused_fg0.tileset,
+    [91] = &MapHeader_zone_final_act_unused_fg1.tileset,
+    [92] = &zone_final_act_unused_bg,
+    [93] = 
+# 103 "src/game/stage/tilemap_table.c" 3 4
+                   ((void *)0)
+# 103 "src/game/stage/tilemap_table.c"
+                       ,
+    [94] = &sa1_title_logo,
+    [95] = &sa1_title_bg,
+    [96] = &intro_presented_by_sega,
+    [97] = &intro_created_by_sonic_team,
+    [98] = &character_select_background,
+    [99] = &character_select_wheel,
+    [100] = &stage_select_bg_sonic,
+    [101] = &stage_select_bg_cream,
+    [102] = &stage_select_bg_tails,
+    [103] = &stage_select_bg_knuckles,
+    [104] = &stage_select_bg_amy,
+    [105] = &stage_select_map,
+    [106] = &egg_saucer_wheel_copy,
+    [107] = &unknown_options_bg,
+    [108] = &tilemap_108,
+    [109] = &sa2_title_logo_jp,
+    [110] = &ta_and_mp_white_bg,
+    [111] = &mp_orange_bg,
+    [112] = &ta_orange_bg,
+    [113] = &stage_1_bg_0_copy,
+    [114] = &mp_wait_connection,
+    [115] = &mp_message_box_unknown,
+    [116] = &mp_characters_selected_jp,
+    [117] = &mp_characters_selected_en,
+    [118] = &mp_characters_selected_de,
+    [119] = &mp_characters_selected_fr,
+    [120] = &mp_characters_selected_es,
+    [121] = &mp_characters_selected_it,
+    [122] = &mp_unknown_orange_zigzag,
+    [123] = &mp_unknown_green,
+    [124] = &unknown_message_box_white,
+    [125] = &unknown_message_box_white_small,
+    [126] = &mp_vs_background_text,
+    [127] = &mp_cheese_please_wait_jp,
+    [128] = &mp_cheese_please_wait_en,
+    [129] = &mp_cheese_please_wait_de,
+    [130] = &mp_cheese_please_wait_fr,
+    [131] = &mp_cheese_please_wait_es,
+    [132] = &mp_cheese_please_wait_it,
+    [133] = &options_bg0,
+    [134] = &options_language_select,
+    [135] = &options_enter_name,
+    [136] = &options_enter_name_characters,
+    [137] = &options_time_record_bg0,
+    [138] = &options_time_record_bg1,
+    [139] = &tilemap_139,
+    [140] = &mp_character_selected_sonic_bg,
+    [141] = &mp_character_selected_sonic,
+    [142] = &mp_character_selected_tails_bg,
+    [143] = &mp_character_selected_tails,
+    [144] = &mp_character_selected_knuckles_bg,
+    [145] = &mp_character_selected_knuckles,
+    [146] = &mp_character_selected_amy_bg,
+    [147] = &mp_character_selected_amy,
+    [148] = &mp_character_selected_cream_bg,
+    [149] = &mp_character_selected_cream,
+    [150] = &message_box_black,
+    [151] = &green_caret,
+    [152] = &options_vs_record_bg1,
+    [153] = &special_stage_1,
+    [154] = &special_stage_1_bg,
+    [155] = &special_stage_2,
+    [156] = &special_stage_2_bg,
+    [157] = &special_stage_3,
+    [158] = &special_stage_3_bg,
+    [159] = &special_stage_4,
+    [160] = &special_stage_4_bg,
+    [161] = &special_stage_5,
+    [162] = &special_stage_5_bg,
+    [163] = &special_stage_6,
+    [164] = &special_stage_6_bg,
+    [165] = &special_stage_7,
+    [166] = &special_stage_7_bg,
+    [167] = &techno_base_bg_purple_grid,
+    [168] = &techno_base_bg_circuit_mask,
+    [169] = &sound_test_bg,
+    [170] = &cutscene_post_extra_boss_bg,
+    [171] = &cutscene_final_ending_fall_bg,
+    [172] = &cutscene_final_ending_fall_clouds,
+    [173] = &cutscene_final_ending_fall_bg_dark,
+    [174] = &cutscene_final_ending_fall_bg_dark_2,
+    [175] = &collect_all_chaos_emeralds_jp,
+    [176] = &collect_all_chaos_emeralds_en,
+    [177] = &collect_all_chaos_emeralds_fr,
+    [178] = &collect_all_chaos_emeralds_de,
+    [179] = &collect_all_chaos_emeralds_it,
+    [180] = &collect_all_chaos_emeralds_es,
+    [181] = &unlocked_tiny_chao_garden_jp,
+    [182] = &unlocked_tiny_chao_garden_en,
+    [183] = &unlocked_tiny_chao_garden_fr,
+    [184] = &unlocked_tiny_chao_garden_de,
+    [185] = &unlocked_tiny_chao_garden_it,
+    [186] = &unlocked_tiny_chao_garden_es,
+    [187] = &unlocked_sound_test_jp,
+    [188] = &unlocked_sound_test_en,
+    [189] = &unlocked_sound_test_fr,
+    [190] = &unlocked_sound_test_de,
+    [191] = &unlocked_sound_test_it,
+    [192] = &unlocked_sound_test_es,
+    [193] = &unlocked_bosses_time_attack_jp,
+    [194] = &unlocked_bosses_time_attack_en,
+    [195] = &unlocked_bosses_time_attack_fr,
+    [196] = &unlocked_bosses_time_attack_de,
+    [197] = &unlocked_bosses_time_attack_it,
+    [198] = &unlocked_bosses_time_attack_es,
+    [199] = &unlocked_amy_jp,
+    [200] = &unlocked_amy_en,
+    [201] = &unlocked_amy_fr,
+    [202] = &unlocked_amy_de,
+    [203] = &unlocked_amy_it,
+    [204] = &unlocked_amy_es,
+    [205] = &cutscene_final_ending_land_fg,
+    [206] = &cutscene_final_ending_land_bg,
+    [207] = &cutscene_final_ending_land_flower_field,
+    [208] = &cutscene_final_ending_land_bg_alt,
+    [209] = &unk_space_bg,
+    [210] = &storyframe_sonic_catches_vanilla,
+    [211] = &storyframe_sonic_finds_friends,
+    [212] = &storyframe_sonic_pats_tails,
+    [213] = &storyframe_cream_hugs_vanilla,
+    [214] = &storyframe_cream_tails_vanilla_look_around,
+    [215] = &storyframe_cream_cheese_vanilla_happy,
+    [216] = &storyframe_sonic_leaves_0,
+    [217] = &storyframe_sonic_leaves_1,
+    [218] = &storyframe_sonic_leaves_2,
+    [219] = &storyframe_sonic_leaves_3,
+    [220] = &storyframe_sonic_leaves_4,
+    [221] = &storyframe_sonic_leaves_5,
+    [222] = &storyframe_sonic_leaves_6,
+    [223] = &storyframe_sonic_leaves_7,
+    [224] = &storyframe_sonic_leaves_8,
+    [225] = &storyframe_sonic_leaves_9,
+    [226] = &storyframe_sonic_leaves_10,
+    [227] = &storyframe_cream_unlock_0_sepia,
+    [228] = &storyframe_cream_unlock_1_sepia,
+    [229] = &storyframe_tails_unlock_1_sepia,
+    [230] = &storyframe_knuckles_unlock_1_sepia,
+    [231] = &storyframe_cream_unlock_3_sepia,
+    [232] = &credits_sa2_logo_jp,
+    [233] = &credits_sa2_logo_en,
+    [234] = &credits_0,
+    [235] = &credits_1,
+    [236] = &credits_2,
+    [237] = &credits_3,
+    [238] = &credits_4,
+    [239] = &credits_5,
+    [240] = &credits_6,
+    [241] = &credits_7,
+    [242] = &credits_8,
+    [243] = &credits_9,
+    [244] = &credits_10,
+    [245] = &credits_11,
+    [246] = &credits_12,
+    [247] = &credits_13,
+    [248] = &credits_14,
+    [249] = &credits_15,
+    [250] = &credits_16,
+    [251] = &credits_17,
+    [252] = &credits_18,
+    [253] = &credits_19,
+    [254] = &credits_20,
+    [255] = &credits_21,
+    [256] = &credits_22,
+    [257] = &credits_23,
+    [258] = &credits_24,
+    [259] = &credits_copyright,
+    [260] = &credits_presented_by_sega,
+    [261] = &title_screen_bg,
+    [262] = &intro_water,
+    [263] = &lens_flare_bg,
+    [264] = &sa2_logo_jp,
+    [265] = &sa2_logo_en,
+    [266] = &storyframe_cream_unlock_0,
+    [267] = &storyframe_cream_unlock_1,
+    [268] = &storyframe_cream_unlock_2,
+    [269] = &storyframe_cream_unlock_3,
+    [270] = &storyframe_cream_unlock_0_dlg_jp,
+    [271] = &storyframe_cream_unlock_1_dlg_jp,
+    [272] = &storyframe_cream_unlock_2_dlg_jp,
+    [273] = &storyframe_cream_unlock_3_dlg_jp,
+    [274] = &storyframe_cream_unlocked_jp,
+    [275] = &storyframe_cream_unlock_0_dlg_en,
+    [276] = &storyframe_cream_unlock_1_dlg_en,
+    [277] = &storyframe_cream_unlock_2_dlg_en,
+    [278] = &storyframe_cream_unlock_3_dlg_en,
+    [279] = &storyframe_cream_unlocked_en,
+    [280] = &storyframe_cream_unlock_0_dlg_fr,
+    [281] = &storyframe_cream_unlock_1_dlg_fr,
+    [282] = &storyframe_cream_unlock_2_dlg_fr,
+    [283] = &storyframe_cream_unlock_3_dlg_fr,
+    [284] = &storyframe_cream_unlocked_fr,
+    [285] = &storyframe_cream_unlock_0_dlg_de,
+    [286] = &storyframe_cream_unlock_1_dlg_de,
+    [287] = &storyframe_cream_unlock_2_dlg_de,
+    [288] = &storyframe_cream_unlock_3_dlg_de,
+    [289] = &storyframe_cream_unlocked_de,
+    [290] = &storyframe_cream_unlock_0_dlg_it,
+    [291] = &storyframe_cream_unlock_1_dlg_it,
+    [292] = &storyframe_cream_unlock_2_dlg_it,
+    [293] = &storyframe_cream_unlock_3_dlg_it,
+    [294] = &storyframe_cream_unlocked_it,
+    [295] = &storyframe_cream_unlock_0_dlg_es,
+    [296] = &storyframe_cream_unlock_1_dlg_es,
+    [297] = &storyframe_cream_unlock_2_dlg_es,
+    [298] = &storyframe_cream_unlock_3_dlg_es,
+    [299] = &storyframe_cream_unlocked_es,
+    [300] = &storyframe_knuckles_unlock_0,
+    [301] = &storyframe_knuckles_unlock_1,
+    [302] = &storyframe_knuckles_unlock_2,
+    [303] = &storyframe_knuckles_unlock_3,
+    [304] = &storyframe_knuckles_unlock_0_dlg_jp,
+    [305] = &storyframe_knuckles_unlock_1_dlg_jp,
+    [306] = &storyframe_knuckles_unlock_2_dlg_jp,
+    [307] = &storyframe_knuckles_unlock_3_dlg_jp,
+    [308] = &storyframe_knuckles_unlocked_jp,
+    [309] = &storyframe_knuckles_unlock_0_dlg_en,
+    [310] = &storyframe_knuckles_unlock_1_dlg_en,
+    [311] = &storyframe_knuckles_unlock_2_dlg_en,
+    [312] = &storyframe_knuckles_unlock_3_dlg_en,
+    [313] = &storyframe_knuckles_unlocked_en,
+    [314] = &storyframe_knuckles_unlock_0_dlg_fr,
+    [315] = &storyframe_knuckles_unlock_1_dlg_fr,
+    [316] = &storyframe_knuckles_unlock_2_dlg_fr,
+    [317] = &storyframe_knuckles_unlock_3_dlg_fr,
+    [318] = &storyframe_knuckles_unlocked_fr,
+    [319] = &storyframe_knuckles_unlock_0_dlg_de,
+    [320] = &storyframe_knuckles_unlock_1_dlg_de,
+    [321] = &storyframe_knuckles_unlock_2_dlg_de,
+    [322] = &storyframe_knuckles_unlock_3_dlg_de,
+    [323] = &storyframe_knuckles_unlocked_de,
+    [324] = &storyframe_knuckles_unlock_0_dlg_it,
+    [325] = &storyframe_knuckles_unlock_1_dlg_it,
+    [326] = &storyframe_knuckles_unlock_2_dlg_it,
+    [327] = &storyframe_knuckles_unlock_3_dlg_it,
+    [328] = &storyframe_knuckles_unlocked_it,
+    [329] = &storyframe_knuckles_unlock_0_dlg_es,
+    [330] = &storyframe_knuckles_unlock_1_dlg_es,
+    [331] = &storyframe_knuckles_unlock_2_dlg_es,
+    [332] = &storyframe_knuckles_unlock_3_dlg_es,
+    [333] = &storyframe_knuckles_unlocked_es,
+    [334] = &storyframe_tails_unlock_0,
+    [335] = &storyframe_tails_unlock_1,
+    [336] = &storyframe_tails_unlock_2,
+    [337] = &storyframe_tails_unlock_3,
+    [338] = &storyframe_tails_unlock_0_dlg_jp,
+    [339] = &storyframe_tails_unlock_1_dlg_jp,
+    [340] = &storyframe_tails_unlock_2_dlg_jp,
+    [341] = &storyframe_tails_unlock_3_dlg_jp,
+    [342] = &storyframe_tails_unlocked_jp,
+    [343] = &storyframe_tails_unlock_0_dlg_en,
+    [344] = &storyframe_tails_unlock_1_dlg_en,
+    [345] = &storyframe_tails_unlock_2_dlg_en,
+    [346] = &storyframe_tails_unlock_3_dlg_en,
+    [347] = &storyframe_tails_unlocked_en,
+    [348] = &storyframe_tails_unlock_0_dlg_fr,
+    [349] = &storyframe_tails_unlock_1_dlg_fr,
+    [350] = &storyframe_tails_unlock_2_dlg_fr,
+    [351] = &storyframe_tails_unlock_3_dlg_fr,
+    [352] = &storyframe_tails_unlocked_fr,
+    [353] = &storyframe_tails_unlock_0_dlg_de,
+    [354] = &storyframe_tails_unlock_1_dlg_de,
+    [355] = &storyframe_tails_unlock_2_dlg_de,
+    [356] = &storyframe_tails_unlock_3_dlg_de,
+    [357] = &storyframe_tails_unlocked_de,
+    [358] = &storyframe_tails_unlock_0_dlg_it,
+    [359] = &storyframe_tails_unlock_1_dlg_it,
+    [360] = &storyframe_tails_unlock_2_dlg_it,
+    [361] = &storyframe_tails_unlock_3_dlg_it,
+    [362] = &storyframe_tails_unlocked_it,
+    [363] = &storyframe_tails_unlock_0_dlg_es,
+    [364] = &storyframe_tails_unlock_1_dlg_es,
+    [365] = &storyframe_tails_unlock_2_dlg_es,
+    [366] = &storyframe_tails_unlock_3_dlg_es,
+    [367] = &storyframe_tails_unlocked_es,
+    [368] = &regular_final_boss,
+    [369] = &music_plant_moving_stars,
+    [370] = &sky_canyon_clouds_foreground,
+    [371] = &spotlight_snow,
+    [372] = &zone_final_act_ta53_bg,
+    [373] = &character_select_background_0,
+    [374] = &character_select_background_1,
+    [375] = &extra_boss_cockpit,
+    [376] = &extra_boss_background_copy,
+    [377] = &cutscene_vanilla_kidnapped_full_map,
+    [378] = &cutscene_vanilla_kidnapped_full_map_copy,
+    [379] = &cutscene_vanilla_kidnapped_super_sonic_art,
+    [380] = &zone_7_act_1_bg,
+};
