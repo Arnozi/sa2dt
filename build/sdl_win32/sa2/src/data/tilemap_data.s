@@ -1130466,12 +1130466,12 @@ Palette_zone_2_act_1_fg:
 	.word	31675
 	.word	32698
 	.word	0
-	.word	17968
-	.word	19025
-	.word	20081
-	.word	21138
-	.word	22195
-	.word	23252
+	.word	16879
+	.word	18961
+	.word	20017
+	.word	21106
+	.word	22163
+	.word	23220
 	.word	24309
 	.word	25367
 	.word	26424
@@ -1130488,31 +1130488,31 @@ Palette_zone_2_act_1_fg:
 	.word	16877
 	.word	23220
 	.word	22130
-	.word	20049
+	.word	20081
 	.word	18991
 	.word	21139
-	.word	16910
-	.word	15820
-	.word	12683
-	.word	9544
-	.word	7397
-	.word	2114
-	.word	992
-	.word	895
-	.word	799
-	.word	702
-	.word	605
-	.word	540
-	.word	443
-	.word	313
-	.word	214
-	.word	51
-	.word	47
-	.word	43
-	.word	39
-	.word	992
-	.word	992
+	.word	16878
+	.word	15788
+	.word	12651
+	.word	9449
+	.word	1062
 	.word	0
+	.word	992
+	.word	24479
+	.word	3935
+	.word	670
+	.word	541
+	.word	351
+	.word	251
+	.word	217
+	.word	117
+	.word	4113
+	.word	7215
+	.word	7211
+	.word	5159
+	.word	992
+	.word	992
+	.word	1024
 	.globl	CollHeader_zone_1_act_dummy_fg
 	.align 32
 CollHeader_zone_1_act_dummy_fg:
@@ -1133054,6 +1133054,9 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
+	.word	37
+	.word	38
+	.word	39
 	.word	0
 	.word	0
 	.word	0
@@ -1133078,6 +1133081,9 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
+	.word	37
+	.word	38
+	.word	39
 	.word	0
 	.word	0
 	.word	0
@@ -1133120,6 +1133126,9 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
+	.word	37
+	.word	38
+	.word	39
 	.word	0
 	.word	0
 	.word	0
@@ -1133244,6 +1133253,9 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
+	.word	62
+	.word	63
+	.word	64
 	.word	0
 	.word	0
 	.word	0
@@ -1133268,6 +1133280,9 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
+	.word	62
+	.word	63
+	.word	64
 	.word	0
 	.word	0
 	.word	0
@@ -1133310,24 +1133325,9 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	62
+	.word	63
+	.word	64
 	.word	0
 	.word	0
 	.word	0
@@ -1133608,7 +1133608,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1133794,6 +1133794,7 @@ Map_zone_1_act_2_fg1:
 	.word	22
 	.word	21
 	.word	24
+	.word	296
 	.word	0
 	.word	0
 	.word	0
@@ -1133806,8 +1133807,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1133998,7 +1133998,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	43
 	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1134169,7 +1134169,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1134194,10 +1134194,10 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	36
-	.word	0
+	.word	271
 	.word	16
 	.word	67
-	.word	68
+	.word	60
 	.word	0
 	.word	69
 	.word	70
@@ -1134230,7 +1134230,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1134368,7 +1134368,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	69
 	.word	82
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1134385,7 +1134385,7 @@ Map_zone_1_act_2_fg1:
 	.word	90
 	.word	91
 	.word	92
-	.word	0
+	.word	42
 	.word	93
 	.word	94
 	.word	95
@@ -1134429,7 +1134429,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	119
 	.word	0
@@ -1134634,7 +1134634,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	42
 	.word	151
 	.word	0
 	.word	0
@@ -1134833,7 +1134833,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	165
 	.word	166
-	.word	0
+	.word	36
 	.word	167
 	.word	0
 	.word	0
@@ -1135081,7 +1135081,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1135246,6 +1135246,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1135272,15 +1135273,14 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
+	.word	271
 	.word	16
 	.word	17
 	.word	49
 	.word	0
 	.word	0
 	.word	76
-	.word	0
+	.word	36
 	.word	1
 	.word	203
 	.word	0
@@ -1135390,7 +1135390,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1135431,7 +1135431,7 @@ Map_zone_1_act_2_fg1:
 	.word	142
 	.word	172
 	.word	173
-	.word	0
+	.word	42
 	.word	83
 	.word	84
 	.word	47
@@ -1135445,7 +1135445,7 @@ Map_zone_1_act_2_fg1:
 	.word	90
 	.word	91
 	.word	92
-	.word	0
+	.word	36
 	.word	213
 	.word	169
 	.word	170
@@ -1135477,7 +1135477,7 @@ Map_zone_1_act_2_fg1:
 	.word	40
 	.word	41
 	.word	0
-	.word	0
+	.word	271
 	.word	16
 	.word	214
 	.word	215
@@ -1135512,7 +1135512,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	220
-	.word	0
+	.word	296
 	.word	0
 	.word	0
 	.word	0
@@ -1135589,7 +1135589,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1135687,7 +1135687,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	42
 	.word	232
 	.word	233
 	.word	234
@@ -1135788,7 +1135788,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1135872,7 +1135872,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	248
 	.word	24
-	.word	0
+	.word	271
 	.word	16
 	.word	49
 	.word	61
@@ -1135881,12 +1135881,12 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	39
-	.word	0
+	.word	42
 	.word	150
 	.word	0
 	.word	165
 	.word	166
-	.word	0
+	.word	36
 	.word	93
 	.word	249
 	.word	38
@@ -1135896,7 +1135896,7 @@ Map_zone_1_act_2_fg1:
 	.word	138
 	.word	78
 	.word	193
-	.word	0
+	.word	296
 	.word	0
 	.word	0
 	.word	0
@@ -1135987,7 +1135987,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1136080,7 +1136080,7 @@ Map_zone_1_act_2_fg1:
 	.word	40
 	.word	40
 	.word	41
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1136186,7 +1136186,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1136277,7 +1136277,7 @@ Map_zone_1_act_2_fg1:
 	.word	90
 	.word	179
 	.word	24
-	.word	0
+	.word	296
 	.word	271
 	.word	16
 	.word	86
@@ -1136309,7 +1136309,7 @@ Map_zone_1_act_2_fg1:
 	.word	264
 	.word	0
 	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1136385,7 +1136385,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1136508,7 +1136508,22 @@ Map_zone_1_act_2_fg1:
 	.word	280
 	.word	295
 	.word	24
-	.word	296
+	.word	36
+	.word	42
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	42
+	.word	0
+	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1136533,22 +1136548,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1136584,7 +1136584,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1136649,7 +1136649,7 @@ Map_zone_1_act_2_fg1:
 	.word	265
 	.word	0
 	.word	0
-	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1136707,6 +1136707,8 @@ Map_zone_1_act_2_fg1:
 	.word	301
 	.word	250
 	.word	302
+	.word	36
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1136717,9 +1136719,7 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	43
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1136740,17 +1136740,17 @@ Map_zone_1_act_2_fg1:
 	.word	0
 	.word	0
 	.word	0
+	.word	43
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	36
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	43
 	.word	0
 	.word	0
 	.word	0
@@ -1136783,7 +1136783,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1136848,7 +1136848,7 @@ Map_zone_1_act_2_fg1:
 	.word	245
 	.word	305
 	.word	306
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1136906,7 +1136906,7 @@ Map_zone_1_act_2_fg1:
 	.word	311
 	.word	312
 	.word	313
-	.word	271
+	.word	36
 	.word	16
 	.word	18
 	.word	19
@@ -1136982,7 +1136982,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1137047,7 +1137047,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	318
 	.word	319
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1137181,7 +1137181,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1137380,7 +1137380,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1137520,21 +1137520,21 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	329
+	.word	329
+	.word	329
+	.word	329
+	.word	330
+	.word	330
+	.word	330
 	.word	38
 	.word	38
 	.word	38
@@ -1137579,7 +1137579,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1137719,21 +1137719,21 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	329
+	.word	329
+	.word	329
+	.word	329
+	.word	330
+	.word	330
+	.word	330
 	.word	38
 	.word	38
 	.word	38
@@ -1137778,206 +1137778,7 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	37
-	.word	38
-	.word	38
-	.word	38
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	37
-	.word	37
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	335
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	37
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	298
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	37
-	.word	38
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	37
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	37
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	37
-	.word	38
-	.word	38
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	39
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
+	.word	135
 	.word	38
 	.word	38
 	.word	38
@@ -1138084,6 +1137885,164 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
+	.word	335
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	37
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	338
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	37
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	329
+	.word	329
+	.word	329
+	.word	329
+	.word	330
+	.word	330
+	.word	330
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	37
+	.word	38
+	.word	38
+	.word	39
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	39
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	135
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	37
+	.word	38
+	.word	38
+	.word	38
+	.word	39
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	39
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	39
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	39
+	.word	38
+	.word	38
+	.word	38
+	.word	37
+	.word	37
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	39
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	335
+	.word	39
 	.word	38
 	.word	38
 	.word	38
@@ -1138100,6 +1138059,47 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
+	.word	298
+	.word	39
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	37
+	.word	38
+	.word	39
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	335
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	37
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	38
+	.word	338
+	.word	38
+	.word	38
+	.word	38
 	.word	38
 	.word	37
 	.word	38
@@ -1138117,21 +1138117,21 @@ Map_zone_1_act_2_fg1:
 	.word	38
 	.word	38
 	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
-	.word	38
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	328
+	.word	329
+	.word	329
+	.word	329
+	.word	329
+	.word	330
+	.word	330
+	.word	330
 	.word	38
 	.word	38
 	.word	38
@@ -1138431,6 +1138431,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	225
 	.word	0
 	.word	0
 	.word	0
@@ -1138457,6 +1138458,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	227
 	.word	0
 	.word	0
 	.word	0
@@ -1138501,6 +1138503,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	227
 	.word	0
 	.word	0
 	.word	0
@@ -1138563,10 +1138566,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1138630,6 +1138630,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1138656,6 +1138657,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1138700,6 +1138702,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1138762,10 +1138765,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1138791,6 +1138791,8 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	15
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1138827,6 +1138829,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1138853,6 +1138856,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1138897,6 +1138901,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1138957,15 +1138962,10 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	271
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	17
+	.word	43
 	.word	0
 	.word	20
 	.word	21
@@ -1138990,6 +1138990,8 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	36
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1139026,6 +1139028,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1139052,6 +1139055,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139096,6 +1139100,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139150,6 +1139155,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1139157,20 +1139163,14 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	271
+	.word	17
 	.word	0
+	.word	225
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1139189,13 +1139189,15 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
+	.word	17
+	.word	17
 	.word	0
 	.word	50
 	.word	52
 	.word	53
 	.word	0
+	.word	42
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1139225,6 +1139227,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1139251,6 +1139254,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139295,6 +1139299,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139339,44 +1139344,39 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	15
 	.word	0
 	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	56
 	.word	56
 	.word	59
 	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	15
+	.word	42
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	65
 	.word	66
 	.word	56
 	.word	0
-	.word	0
+	.word	43
 	.word	0
 	.word	0
 	.word	0
@@ -1139385,16 +1139385,18 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	227
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	271
+	.word	16
 	.word	0
 	.word	0
 	.word	0
 	.word	73
 	.word	75
+	.word	36
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1139416,6 +1139418,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	296
 	.word	0
 	.word	0
 	.word	0
@@ -1139423,6 +1139426,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1139449,6 +1139453,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139493,6 +1139498,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139537,38 +1139543,32 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	81
 	.word	0
+	.word	36
 	.word	0
 	.word	0
+	.word	42
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	43
+	.word	36
 	.word	0
 	.word	16
 	.word	17
 	.word	86
 	.word	88
 	.word	90
+	.word	36
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
+	.word	36
+	.word	36
+	.word	271
+	.word	16
 	.word	0
 	.word	17
 	.word	86
@@ -1139576,7 +1139576,7 @@ Map_zone_1_act_2_fg0:
 	.word	21
 	.word	101
 	.word	49
-	.word	0
+	.word	15
 	.word	44
 	.word	45
 	.word	46
@@ -1139584,18 +1139584,18 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	105
 	.word	106
-	.word	0
+	.word	243
 	.word	105
 	.word	106
 	.word	0
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	296
 	.word	0
 	.word	113
-	.word	0
-	.word	0
+	.word	16
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1139625,6 +1139625,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1139651,6 +1139652,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139695,6 +1139697,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139739,67 +1139742,64 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	17
+	.word	43
 	.word	0
+	.word	36
 	.word	0
 	.word	0
+	.word	36
 	.word	0
+	.word	271
+	.word	17
+	.word	17
+	.word	225
+	.word	271
+	.word	17
 	.word	0
 	.word	0
+	.word	225
+	.word	36
 	.word	0
 	.word	0
+	.word	43
+	.word	241
+	.word	36
+	.word	36
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	133
 	.word	134
+	.word	227
+	.word	17
+	.word	286
+	.word	36
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	15
 	.word	0
 	.word	135
 	.word	137
 	.word	139
 	.word	140
-	.word	0
+	.word	243
 	.word	139
 	.word	140
 	.word	0
 	.word	0
+	.word	43
+	.word	0
+	.word	0
+	.word	271
+	.word	17
+	.word	271
+	.word	17
+	.word	286
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	3
 	.word	5
@@ -1139817,11 +1139817,14 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	152
 	.word	0
+	.word	42
+	.word	15
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1139848,6 +1139851,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139892,6 +1139896,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1139936,69 +1139941,64 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	271
+	.word	17
+	.word	271
+	.word	17
 	.word	0
+	.word	225
+	.word	17
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	17
 	.word	0
+	.word	271
+	.word	17
+	.word	241
+	.word	17
+	.word	36
+	.word	43
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	11
+	.word	243
+	.word	0
+	.word	241
+	.word	36
+	.word	0
+	.word	36
+	.word	0
+	.word	0
+	.word	42
+	.word	0
+	.word	15
+	.word	243
+	.word	42
+	.word	0
+	.word	0
+	.word	286
+	.word	17
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	11
@@ -1140016,11 +1140016,14 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	168
 	.word	0
+	.word	36
+	.word	36
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1140047,11 +1140050,15 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	15
+	.word	42
 	.word	0
 	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1140088,6 +1140095,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1140137,67 +1140145,59 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	271
+	.word	17
+	.word	17
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	171
 	.word	46
 	.word	23
+	.word	243
+	.word	0
+	.word	241
+	.word	36
+	.word	0
+	.word	36
+	.word	43
+	.word	0
+	.word	36
+	.word	0
+	.word	36
+	.word	243
+	.word	36
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	3
 	.word	5
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	178
 	.word	179
 	.word	23
@@ -1140215,14 +1140215,14 @@ Map_zone_1_act_2_fg0:
 	.word	187
 	.word	189
 	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
+	.word	286
+	.word	42
 	.word	0
 	.word	0
 	.word	3
 	.word	5
-	.word	0
+	.word	241
 	.word	50
 	.word	52
 	.word	53
@@ -1140249,15 +1140249,15 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	43
+	.word	36
+	.word	36
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1140294,6 +1140294,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1140343,60 +1140344,59 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	271
+	.word	17
+	.word	225
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
+	.word	17
+	.word	271
+	.word	17
+	.word	17
+	.word	227
+	.word	17
+	.word	43
+	.word	36
+	.word	243
+	.word	36
 	.word	0
+	.word	42
+	.word	241
+	.word	15
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	11
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
+	.word	15
+	.word	42
+	.word	271
+	.word	17
 	.word	0
 	.word	40
 	.word	197
@@ -1140406,23 +1140406,23 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	42
+	.word	0
+	.word	227
+	.word	0
+	.word	42
+	.word	15
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
+	.word	241
+	.word	36
+	.word	15
 	.word	0
 	.word	0
 	.word	11
-	.word	0
-	.word	0
+	.word	241
+	.word	42
 	.word	0
 	.word	73
 	.word	53
@@ -1140448,18 +1140448,18 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	16
+	.word	17
+	.word	49
 	.word	0
 	.word	0
+	.word	36
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1140469,7 +1140469,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	10
 	.word	204
-	.word	0
+	.word	15
 	.word	0
 	.word	3
 	.word	5
@@ -1140493,6 +1140493,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1140542,86 +1140543,85 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	17
+	.word	17
+	.word	243
+	.word	17
 	.word	0
+	.word	36
+	.word	241
+	.word	36
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	209
 	.word	179
 	.word	23
 	.word	0
+	.word	241
+	.word	36
+	.word	36
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	286
+	.word	0
+	.word	43
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	36
 	.word	0
+	.word	243
 	.word	0
+	.word	36
+	.word	36
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	286
+	.word	43
+	.word	241
+	.word	36
+	.word	36
 	.word	209
 	.word	179
 	.word	23
-	.word	0
-	.word	0
+	.word	241
+	.word	36
 	.word	0
 	.word	0
 	.word	73
@@ -1140647,18 +1140647,18 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	225
 	.word	0
+	.word	42
 	.word	0
+	.word	16
+	.word	43
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	117
 	.word	118
@@ -1140668,7 +1140668,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	22
 	.word	217
-	.word	0
+	.word	36
 	.word	0
 	.word	0
 	.word	11
@@ -1140692,6 +1140692,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1140741,88 +1140742,87 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	17
+	.word	241
+	.word	36
 	.word	0
+	.word	60
 	.word	0
+	.word	225
+	.word	135
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
+	.word	36
+	.word	36
 	.word	218
 	.word	0
 	.word	0
 	.word	0
-	.word	225
+	.word	241
 	.word	227
-	.word	0
+	.word	16
 	.word	0
 	.word	49
 	.word	0
 	.word	16
+	.word	36
+	.word	0
+	.word	243
+	.word	43
+	.word	36
+	.word	17
+	.word	0
+	.word	241
+	.word	17
+	.word	241
+	.word	43
 	.word	0
 	.word	0
+	.word	42
+	.word	43
+	.word	241
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	286
+	.word	43
 	.word	0
 	.word	73
 	.word	53
@@ -1140846,19 +1140846,19 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	36
 	.word	0
+	.word	271
+	.word	17
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	60
+	.word	286
 	.word	149
 	.word	0
 	.word	0
@@ -1140867,7 +1140867,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	232
 	.word	217
-	.word	0
+	.word	36
 	.word	21
 	.word	24
 	.word	23
@@ -1140878,10 +1140878,10 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	42
 	.word	0
 	.word	0
-	.word	0
-	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	236
@@ -1140891,112 +1140891,6 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	238
-	.word	234
-	.word	218
-	.word	0
-	.word	241
 	.word	243
 	.word	0
 	.word	0
@@ -1141023,6 +1140917,112 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	17
+	.word	0
+	.word	39
+	.word	0
+	.word	241
+	.word	135
+	.word	0
+	.word	241
+	.word	17
+	.word	17
+	.word	43
+	.word	234
+	.word	218
+	.word	0
+	.word	241
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	42
+	.word	225
+	.word	16
+	.word	0
+	.word	243
+	.word	17
+	.word	17
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	241
+	.word	17
+	.word	0
+	.word	271
+	.word	17
+	.word	17
+	.word	241
+	.word	0
+	.word	241
+	.word	17
+	.word	43
 	.word	0
 	.word	73
 	.word	53
@@ -1141045,19 +1141045,19 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	16
+	.word	49
+	.word	0
+	.word	225
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	162
 	.word	163
@@ -1141066,7 +1141066,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	217
-	.word	0
+	.word	17
 	.word	250
 	.word	250
 	.word	135
@@ -1141076,11 +1141076,11 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	42
+	.word	36
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	0
 	.word	154
 	.word	0
@@ -1141090,112 +1141090,6 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	238
-	.word	234
-	.word	241
 	.word	243
 	.word	0
 	.word	0
@@ -1141222,6 +1141116,112 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	39
+	.word	0
+	.word	241
+	.word	135
+	.word	0
+	.word	241
+	.word	0
+	.word	271
+	.word	17
+	.word	225
+	.word	43
+	.word	234
+	.word	241
+	.word	243
+	.word	0
+	.word	0
+	.word	43
+	.word	36
+	.word	241
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	241
+	.word	271
+	.word	17
 	.word	0
 	.word	0
 	.word	73
@@ -1141239,24 +1141239,24 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	15
 	.word	0
 	.word	3
 	.word	5
 	.word	0
+	.word	243
+	.word	15
+	.word	0
+	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	41
+	.word	241
 	.word	0
 	.word	181
 	.word	182
@@ -1141264,7 +1141264,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
+	.word	135
 	.word	0
 	.word	0
 	.word	0
@@ -1141275,12 +1141275,12 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	36
+	.word	36
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	225
+	.word	17
+	.word	225
 	.word	153
 	.word	171
 	.word	185
@@ -1141289,62 +1141289,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1141395,37 +1141340,92 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	39
+	.word	0
+	.word	241
+	.word	135
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	17
+	.word	0
+	.word	241
+	.word	243
+	.word	0
+	.word	271
+	.word	17
+	.word	17
+	.word	241
+	.word	0
+	.word	0
 	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	0
+	.word	241
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	227
 	.word	0
 	.word	0
 	.word	113
-	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1141437,25 +1141437,25 @@ Map_zone_1_act_2_fg0:
 	.word	270
 	.word	3
 	.word	5
-	.word	0
-	.word	0
+	.word	42
+	.word	36
 	.word	0
 	.word	0
 	.word	11
 	.word	0
+	.word	243
+	.word	36
+	.word	0
+	.word	225
+	.word	241
+	.word	0
+	.word	42
+	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1141474,12 +1141474,12 @@ Map_zone_1_act_2_fg0:
 	.word	278
 	.word	0
 	.word	0
+	.word	60
+	.word	17
 	.word	0
+	.word	241
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
 	.word	38
 	.word	38
 	.word	40
@@ -1141488,6 +1141488,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
@@ -1141537,95 +1141538,94 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	43
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1141636,28 +1141636,28 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	11
-	.word	0
-	.word	0
+	.word	36
+	.word	36
 	.word	83
 	.word	84
 	.word	23
+	.word	43
+	.word	243
+	.word	36
+	.word	0
+	.word	241
+	.word	241
+	.word	0
+	.word	36
+	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	286
+	.word	225
 	.word	0
 	.word	288
 	.word	290
@@ -1141670,26 +1141670,36 @@ Map_zone_1_act_2_fg0:
 	.word	293
 	.word	294
 	.word	0
+	.word	225
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
+	.word	271
+	.word	17
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	15
+	.word	42
 	.word	0
 	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1141712,6 +1141722,7 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	15
 	.word	0
 	.word	0
 	.word	0
@@ -1141726,105 +1141737,94 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	243
+	.word	271
+	.word	17
+	.word	286
+	.word	36
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1141835,26 +1141835,39 @@ Map_zone_1_act_2_fg0:
 	.word	21
 	.word	21
 	.word	23
-	.word	0
-	.word	0
+	.word	36
+	.word	36
 	.word	126
-	.word	127
+	.word	225
+	.word	135
+	.word	17
+	.word	243
+	.word	17
 	.word	0
+	.word	241
+	.word	241
+	.word	271
+	.word	17
+	.word	225
+	.word	241
 	.word	0
+	.word	43
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
 	.word	218
+	.word	0
+	.word	241
+	.word	42
+	.word	43
+	.word	0
+	.word	43
+	.word	0
+	.word	42
+	.word	0
+	.word	0
+	.word	11
+	.word	15
+	.word	0
 	.word	0
 	.word	241
 	.word	0
@@ -1141862,44 +1141875,31 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
-	.word	0
-	.word	0
-	.word	11
-	.word	0
-	.word	0
-	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	42
+	.word	0
+	.word	0
+	.word	43
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	36
+	.word	36
 	.word	0
 	.word	0
+	.word	36
 	.word	0
+	.word	43
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
+	.word	36
 	.word	0
 	.word	303
 	.word	0
@@ -1141921,8 +1141921,11 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	36
 	.word	0
+	.word	43
 	.word	0
+	.word	42
 	.word	0
 	.word	0
 	.word	0
@@ -1141933,97 +1141936,94 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
+	.word	60
+	.word	36
 	.word	0
 	.word	0
 	.word	0
@@ -1142031,59 +1142031,74 @@ Map_zone_1_act_2_fg0:
 	.word	307
 	.word	308
 	.word	0
+	.word	225
+	.word	225
+	.word	135
+	.word	17
+	.word	17
+	.word	0
+	.word	241
+	.word	135
+	.word	0
+	.word	243
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	238
-	.word	234
+	.word	241
 	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	241
+	.word	271
+	.word	17
 	.word	0
+	.word	241
+	.word	238
+	.word	234
+	.word	241
+	.word	36
+	.word	16
+	.word	286
+	.word	49
 	.word	0
-	.word	0
-	.word	0
+	.word	36
 	.word	209
 	.word	179
 	.word	23
+	.word	36
+	.word	42
 	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	218
 	.word	0
+	.word	241
+	.word	42
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	36
 	.word	0
+	.word	271
+	.word	16
+	.word	243
 	.word	0
+	.word	43
 	.word	0
+	.word	36
+	.word	36
 	.word	0
 	.word	0
+	.word	36
+	.word	286
+	.word	17
 	.word	0
+	.word	36
+	.word	60
 	.word	0
 	.word	0
 	.word	0
@@ -1142102,11 +1142117,17 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	286
 	.word	0
 	.word	0
+	.word	60
+	.word	286
+	.word	17
 	.word	0
+	.word	60
 	.word	0
 	.word	0
+	.word	286
 	.word	0
 	.word	0
 	.word	0
@@ -1142114,128 +1142135,169 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
+	.word	39
+	.word	17
 	.word	0
 	.word	0
 	.word	320
 	.word	321
 	.word	308
+	.word	42
+	.word	15
+	.word	241
+	.word	241
+	.word	135
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	135
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	241
+	.word	241
+	.word	0
+	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	0
+	.word	225
+	.word	241
+	.word	17
+	.word	37
+	.word	241
+	.word	39
+	.word	0
+	.word	60
+	.word	43
+	.word	225
+	.word	135
+	.word	36
+	.word	36
+	.word	0
+	.word	241
+	.word	0
+	.word	42
+	.word	0
+	.word	238
+	.word	234
+	.word	241
+	.word	36
+	.word	241
 	.word	0
 	.word	0
+	.word	0
+	.word	227
+	.word	60
+	.word	0
+	.word	43
+	.word	37
+	.word	243
+	.word	271
+	.word	17
+	.word	271
+	.word	17
+	.word	60
+	.word	225
+	.word	271
+	.word	17
+	.word	241
+	.word	0
+	.word	271
+	.word	17
+	.word	39
 	.word	0
 	.word	0
 	.word	0
@@ -1142257,241 +1142319,184 @@ Map_zone_1_act_2_fg0:
 	.word	241
 	.word	0
 	.word	0
+	.word	39
+	.word	241
+	.word	0
+	.word	0
+	.word	39
+	.word	0
+	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	243
+	.word	0
+	.word	0
+	.word	0
+	.word	241
+	.word	0
+	.word	0
+	.word	39
+	.word	0
+	.word	241
 	.word	135
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	243
 	.word	0
-	.word	238
-	.word	234
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
+	.word	39
 	.word	0
 	.word	0
 	.word	49
 	.word	332
 	.word	333
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
+	.word	36
+	.word	241
+	.word	241
 	.word	135
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
+	.word	241
 	.word	0
+	.word	37
+	.word	241
+	.word	39
 	.word	0
+	.word	39
+	.word	17
+	.word	241
+	.word	135
+	.word	60
+	.word	36
 	.word	0
+	.word	241
+	.word	15
+	.word	36
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	36
+	.word	241
 	.word	0
+	.word	43
 	.word	0
+	.word	243
+	.word	39
+	.word	271
+	.word	17
+	.word	37
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
 	.word	0
@@ -1142510,12 +1142515,17 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1142523,176 +1142533,169 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	241
+	.word	39
 	.word	0
 	.word	0
+	.word	225
+	.word	43
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	36
+	.word	36
+	.word	241
+	.word	241
 	.word	135
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
+	.word	241
 	.word	0
+	.word	37
+	.word	241
+	.word	39
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
+	.word	39
+	.word	17
 	.word	0
+	.word	241
+	.word	36
+	.word	36
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	36
+	.word	241
+	.word	286
+	.word	17
 	.word	0
+	.word	243
+	.word	39
 	.word	0
 	.word	0
+	.word	37
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
 	.word	0
@@ -1142711,12 +1142714,17 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1142724,102 +1142732,169 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	241
+	.word	39
 	.word	0
 	.word	0
+	.word	241
+	.word	17
 	.word	0
 	.word	0
+	.word	60
+	.word	36
+	.word	241
+	.word	241
+	.word	135
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
+	.word	241
 	.word	0
+	.word	37
+	.word	241
+	.word	39
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
+	.word	39
 	.word	0
 	.word	0
+	.word	241
+	.word	36
+	.word	36
 	.word	0
+	.word	43
+	.word	286
+	.word	241
+	.word	17
+	.word	241
+	.word	241
 	.word	0
 	.word	0
+	.word	243
+	.word	39
 	.word	0
 	.word	0
+	.word	37
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
 	.word	0
@@ -1142838,12 +1142913,17 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1142851,103 +1142931,169 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	241
+	.word	39
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	39
+	.word	17
+	.word	241
+	.word	241
+	.word	135
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
+	.word	241
 	.word	0
+	.word	37
+	.word	241
+	.word	39
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
+	.word	39
 	.word	0
 	.word	0
+	.word	241
+	.word	17
+	.word	17
+	.word	271
+	.word	17
+	.word	241
+	.word	241
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
+	.word	243
+	.word	39
 	.word	0
 	.word	0
+	.word	37
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
 	.word	0
@@ -1142966,12 +1143112,17 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
@@ -1142979,108 +1143130,169 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	241
+	.word	39
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	241
+	.word	135
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	135
 	.word	0
+	.word	243
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
+	.word	241
+	.word	241
 	.word	0
+	.word	37
+	.word	241
+	.word	39
 	.word	0
+	.word	39
 	.word	0
+	.word	241
+	.word	135
+	.word	39
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	241
+	.word	241
 	.word	0
+	.word	241
+	.word	241
 	.word	0
 	.word	0
+	.word	243
+	.word	39
 	.word	0
 	.word	0
+	.word	37
+	.word	243
 	.word	0
 	.word	0
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
 	.word	0
@@ -1143099,229 +1143311,17 @@ Map_zone_1_act_2_fg0:
 	.word	0
 	.word	0
 	.word	0
+	.word	241
 	.word	0
 	.word	0
+	.word	39
+	.word	241
 	.word	0
 	.word	0
+	.word	39
 	.word	0
 	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
-	.word	0
+	.word	241
 	.word	0
 	.word	0
 	.globl	Metatiles_zone_1_act_2_fg
@@ -1200099,7 +1200099,7 @@ Palette_zone_1_act_2_fg:
 	.word	23093
 	.word	22559
 	.word	31
-	.word	32400
+	.word	31079
 	.word	1022
 	.word	5052
 	.word	9081
@@ -1200131,19 +1200131,19 @@ Palette_zone_1_act_2_fg:
 	.word	0
 	.word	0
 	.word	0
-	.word	32303
-	.word	32400
-	.word	32494
-	.word	32560
-	.word	32591
-	.word	32624
-	.word	32657
-	.word	32658
-	.word	32695
-	.word	32698
-	.word	32732
-	.word	32733
-	.word	32734
+	.word	32006
+	.word	31079
+	.word	31176
+	.word	31273
+	.word	30281
+	.word	31370
+	.word	31370
+	.word	31402
+	.word	31470
+	.word	31537
+	.word	32596
+	.word	32630
+	.word	32697
 	.word	32767
 	.word	32767
 	.word	0
