@@ -1,0 +1,4229 @@
+	.include "asm/macros/c_decl.inc"
+	.include "asm/macros/portable.inc"
+	.include "sound/MPlayDef.s"
+
+	.equ	mus_music_plant__act_2_grp, voicegroup022
+	.equ	mus_music_plant__act_2_pri, 0
+	.equ	mus_music_plant__act_2_rev, reverb_set+0
+	.equ	mus_music_plant__act_2_mvl, 94
+	.equ	mus_music_plant__act_2_key, 0
+	.equ	mus_music_plant__act_2_tbs, 1
+	.equ	mus_music_plant__act_2_exg, 1
+	.equ	mus_music_plant__act_2_cmp, 1
+
+	mSectionRodata
+	.global	C_DECL(mus_music_plant__act_2)
+	mAlignWord
+
+/* **************** Track 1 (Midi-Chn.1) **************** */
+
+mus_music_plant__act_2_1:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte	TEMPO , 124*mus_music_plant__act_2_tbs/2
+	.byte		VOICE , 102
+	.byte		VOL   , 100*mus_music_plant__act_2_mvl/mxv
+	.byte	PRIO  , 20
+	.byte	W03
+/* 001   ----------------------------------------
+ */	.byte	W96
+/* 002   ----------------------------------------
+ */	.byte	W96
+mus_music_plant__act_2_1_B1:
+/* 003   ----------------------------------------
+ */	.byte	W96
+/* 004   ----------------------------------------
+ */	.byte	W96
+/* 005   ----------------------------------------
+ */	.byte	W60
+	.byte		N07   , Gn2 , v104
+	.byte	W12
+	.byte		        An2 , v088
+	.byte	W08
+	.byte		N03   , As2 , v104
+	.byte	W11
+	.byte		N04   , En3 
+	.byte	W01
+	.byte		N36   , Fn3 , v084
+	.byte	W04
+/* 006   ----------------------------------------
+ */	.byte	W32
+	.byte	W02
+	.byte		N07   , Ds3 , v092
+	.byte	W09
+	.byte		N06   , Dn3 
+	.byte	W13
+	.byte		N04   , Dn3 , v100
+	.byte	W03
+	.byte		N08   , Ds3 , v088
+	.byte	W08
+	.byte		N04   , Fn3 , v076
+	.byte	W04
+	.byte		N08   , Ds3 , v088
+	.byte	W08
+	.byte		N04   , Dn3 , v080
+	.byte	W03
+	.byte		N07   , Cn3 
+	.byte	W09
+	.byte		N03   , As2 , v096
+	.byte	W05
+/* 007   ----------------------------------------
+ */	.byte		        Bn2 
+	.byte		N32   , Cn3 , v092
+	.byte	W32
+	.byte	W03
+	.byte		N07   , As2 , v096
+	.byte	W08
+	.byte		N04   , An2 , v088
+	.byte	W12
+	.byte		        Gs2 , v100
+	.byte	W01
+	.byte		N18   , An2 , v076
+	.byte	W16
+	.byte		N09   , As2 , v088
+	.byte	W11
+	.byte		N03   , An2 , v080
+	.byte	W12
+	.byte		N20   , An2 , v100
+	.byte	W01
+/* 008   ----------------------------------------
+ */	.byte	W20
+	.byte		N66   , Gn2 , v080
+	.byte	W04
+	.byte		VOL   , 98*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        95*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        92*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        90*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        87*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        84*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        83*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        80*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        78*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        75*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        72*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        69*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        68*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        65*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        63*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        60*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        57*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        55*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        53*mus_music_plant__act_2_mvl/mxv
+	.byte	W02
+	.byte		BEND  , c_v-3
+	.byte	W01
+	.byte		        c_v-7
+	.byte	W01
+	.byte		        c_v-10
+	.byte	W01
+	.byte		        c_v-12
+	.byte	W01
+	.byte		        c_v-14
+	.byte	W04
+	.byte		        c_v-11
+	.byte	W01
+	.byte		        c_v-8
+	.byte	W01
+/* 009   ----------------------------------------
+ */	.byte		        c_v-4
+	.byte	W01
+	.byte		        c_v+0
+	.byte	W54
+	.byte		N04   , Gn2 , v096
+	.byte	W05
+	.byte		N07   , An2 , v084
+	.byte	W08
+	.byte		N04   , As2 , v104
+	.byte	W04
+	.byte		N07   , Bn2 , v088
+	.byte	W08
+	.byte		N04   , Cn3 , v080
+	.byte	W03
+	.byte		N08   , Dn3 , v076
+	.byte	W08
+	.byte		N04   , Ds3 , v080
+	.byte	W04
+	.byte		N03   , En3 , v104
+	.byte	W01
+/* 010   ----------------------------------------
+ */	.byte	W01
+	.byte		N32   , Fn3 , v096
+	.byte	W32
+	.byte	W02
+	.byte		N08   , Ds3 , v104
+	.byte	W08
+	.byte		N04   , Dn3 , v080
+	.byte	W13
+	.byte		        Dn3 , v096
+	.byte	W03
+	.byte		N09   , Ds3 , v088
+	.byte	W08
+	.byte		N04   , Fn3 , v068
+	.byte	W04
+	.byte		N09   , Ds3 , v088
+	.byte	W08
+	.byte		N04   , Dn3 , v080
+	.byte	W03
+	.byte		N08   , Cn3 , v084
+	.byte	W09
+	.byte		N04   , As2 , v108
+	.byte	W04
+	.byte		        Bn2 , v100
+	.byte	W01
+/* 011   ----------------------------------------
+ */	.byte		N32   , Cn3 , v096
+	.byte	W32
+	.byte	W03
+	.byte		N08   , As2 , v104
+	.byte	W08
+	.byte		N04   , An2 , v092
+	.byte	W12
+	.byte		BEND  , c_v-7
+	.byte		N17   , An2 , v108
+	.byte	W01
+	.byte		BEND  , c_v-16
+	.byte	W01
+	.byte		        c_v-20
+	.byte	W01
+	.byte		        c_v-19
+	.byte	W01
+	.byte		        c_v+0
+	.byte	W12
+	.byte		N09   , As2 , v088
+	.byte	W13
+	.byte		N12   , Cn3 , v096
+	.byte	W12
+/* 012   ----------------------------------------
+ */	.byte		N20   , An2 , v092
+	.byte	W20
+	.byte		N72   , Gn2 , v096
+	.byte	W04
+	.byte		VOL   , 98*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        95*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        92*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        90*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        87*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        84*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        83*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        80*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        78*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        75*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        72*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        69*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        68*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        65*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        63*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        60*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        57*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        55*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        53*mus_music_plant__act_2_mvl/mxv
+	.byte	W12
+/* 013   ----------------------------------------
+ */	.byte	W48
+	.byte		        100*mus_music_plant__act_2_mvl/mxv
+	.byte	W48
+/* 014   ----------------------------------------
+ */	.byte	W07
+	.byte		N02   , Fs2 , v088
+	.byte	W01
+	.byte		N13   , Gn2 , v092
+	.byte	W15
+	.byte		N03   , En3 , v084
+	.byte	W01
+	.byte		N05   , Fn3 , v088
+	.byte	W08
+	.byte		        Ds3 , v104
+	.byte	W12
+	.byte		N02   , Dn3 
+	.byte	W12
+	.byte		N03   , Cn3 
+	.byte	W12
+	.byte		        As2 
+	.byte	W04
+	.byte		N09   , An2 , v100
+	.byte	W12
+	.byte		N06   , As2 , v104
+	.byte	W11
+	.byte		N02   , Bn2 , v092
+	.byte	W01
+/* 015   ----------------------------------------
+ */	.byte		N36   , Cn3 
+	.byte	W32
+	.byte	W03
+	.byte		N09   , As2 , v100
+	.byte	W08
+	.byte		N03   , An2 , v084
+	.byte	W12
+	.byte		N04   , An2 , v096
+	.byte	W04
+	.byte		N08   , Cn3 , v084
+	.byte	W08
+	.byte		N04   , Gn3 , v096
+	.byte	W04
+	.byte		N03   , En3 , v076
+	.byte		N07   , Fn3 
+	.byte	W08
+	.byte		N04   , Ds3 , v088
+	.byte	W04
+	.byte		N07   , Dn3 , v076
+	.byte	W08
+	.byte		N04   , Cn3 , v080
+	.byte	W03
+	.byte		N02   , Cs3 , v076
+	.byte	W01
+	.byte		N12   , Dn3 
+	.byte	W01
+/* 016   ----------------------------------------
+ */	.byte	W11
+	.byte		N07   , Ds3 , v100
+	.byte	W08
+	.byte		N04   , Fn3 , v088
+	.byte	W16
+	.byte		N13   , As2 , v100
+	.byte	W13
+	.byte		N07   , Bn2 , v080
+	.byte	W08
+	.byte		N03   , Cn3 , v088
+	.byte	W16
+	.byte		        Gs2 
+	.byte	W01
+	.byte		N11   , An2 , v076
+	.byte	W10
+	.byte		N08   , As2 , v100
+	.byte	W08
+	.byte		N04   , Cn3 , v076
+	.byte	W04
+	.byte		N36   , An2 , v088
+	.byte	W01
+/* 017   ----------------------------------------
+ */	.byte	W32
+	.byte	W02
+	.byte		N08   , Gn2 , v064
+	.byte	W09
+	.byte		N48   , Fn2 , v068
+	.byte	W52
+	.byte	W01
+/* 018   ----------------------------------------
+ */	.byte	W08
+	.byte		N04   , Ds2 , v096
+	.byte	W02
+	.byte		N09   , Fn2 , v080
+	.byte	W09
+	.byte		N04   , Gn2 , v076
+	.byte	W04
+	.byte		N03   , Gs2 , v088
+	.byte	W02
+	.byte		N06   , An2 , v068
+	.byte	W07
+	.byte		N05   , Gs2 , v092
+	.byte	W03
+	.byte		N08   , An2 , v068
+	.byte	W08
+	.byte		N03   , As2 , v084
+	.byte	W04
+	.byte		N07   , Cn3 , v088
+	.byte	W08
+	.byte		        Bn2 , v068
+	.byte	W03
+	.byte		N08   , Cn3 , v072
+	.byte	W09
+	.byte		N04   , Dn3 , v084
+	.byte	W04
+	.byte		N07   , Ds3 , v100
+	.byte	W08
+	.byte		N04   , Dn3 , v080
+	.byte	W03
+	.byte		N07   , Ds3 , v092
+	.byte	W09
+	.byte		N04   , Fn3 
+	.byte	W04
+	.byte		        Gn3 , v104
+	.byte	W01
+/* 019   ----------------------------------------
+ */	.byte	W01
+	.byte		N10   , Gs3 , v092
+	.byte	W10
+	.byte		N07   , Gn3 , v076
+	.byte	W08
+	.byte		N03   , Fn3 , v096
+	.byte	W12
+	.byte		        Ds3 , v104
+	.byte	W13
+	.byte		N12   , Dn3 , v108
+	.byte	W12
+	.byte		N04   , Ds3 , v088
+	.byte	W04
+	.byte		N07   , Fn3 , v076
+	.byte	W08
+	.byte		N04   , Bn2 , v080
+	.byte	W04
+	.byte		N08   , Cn3 , v076
+	.byte	W07
+	.byte		N04   , Dn3 , v080
+	.byte	W04
+	.byte		N07   , An2 , v084
+	.byte	W08
+	.byte		N04   , As2 
+	.byte	W04
+	.byte		N08   , Cn3 , v076
+	.byte	W01
+/* 020   ----------------------------------------
+ */	.byte	W07
+	.byte		N04   , As2 
+	.byte	W04
+	.byte		N07   , An2 , v068
+	.byte	W08
+	.byte		N18   , Gn2 , v076
+	.byte	W32
+	.byte	W03
+	.byte		N03   , Cs3 , v104
+	.byte	W01
+	.byte		N06   , Dn3 , v088
+	.byte	W05
+	.byte		N07   , Ds3 , v076
+	.byte	W07
+	.byte		N04   , Dn3 , v064
+	.byte	W04
+	.byte		N08   , Cn3 , v076
+	.byte	W09
+	.byte		N04   , As2 , v088
+	.byte	W04
+	.byte		N07   , An2 , v080
+	.byte	W08
+	.byte		N04   , Gs2 , v104
+	.byte	W04
+/* 021   ----------------------------------------
+ */	.byte		N03   , An2 , v080
+	.byte	W01
+	.byte		N12   , As2 , v112
+	.byte	W11
+	.byte		N07   , Cn3 , v096
+	.byte	W08
+	.byte		N03   , Cs3 , v108
+	.byte	W12
+	.byte		N04   , Dn3 
+	.byte	W12
+	.byte		        Ds3 , v112
+	.byte	W12
+	.byte		N01   , En3 , v108
+	.byte	W12
+	.byte		N02   , En3 , v104
+	.byte	W01
+	.byte		N24   , Fn3 , v096
+	.byte	W24
+	.byte	W03
+/* 022   ----------------------------------------
+ */	.byte	W96
+/* 023   ----------------------------------------
+ */	.byte	W96
+/* 024   ----------------------------------------
+ */	.byte	W96
+/* 025   ----------------------------------------
+ */	.byte	W56
+	.byte	W03
+	.byte		N13   , Gn3 , v084
+	.byte	W02
+	.byte		BEND  , c_v+7
+	.byte	W01
+	.byte		        c_v+15
+	.byte	W01
+	.byte		        c_v+17
+	.byte	W01
+	.byte		        c_v+12
+	.byte	W01
+	.byte		        c_v+0
+	.byte	W05
+	.byte		N06   , Fn3 , v068
+	.byte	W09
+	.byte		N04   , Ds3 , v088
+	.byte	W04
+	.byte		N07   , Dn3 , v068
+	.byte	W08
+	.byte		N03   , Cn3 , v072
+	.byte	W03
+	.byte		        Gs2 , v080
+	.byte	W02
+/* 026   ----------------------------------------
+ */	.byte		N06   , An2 , v096
+	.byte	W12
+	.byte		        As2 , v104
+	.byte	W12
+	.byte		N05   , Cn3 , v092
+	.byte	W11
+	.byte		N07   , Dn3 , v108
+	.byte	W08
+	.byte		N04   , Ds3 , v080
+	.byte	W12
+	.byte		        Cn3 , v088
+	.byte	W04
+	.byte		N07   , Dn3 
+	.byte	W08
+	.byte		N04   , Ds3 
+	.byte	W03
+	.byte		N07   , Cs3 
+	.byte	W09
+	.byte		N04   , Dn3 , v096
+	.byte	W04
+	.byte		N06   , Ds3 , v088
+	.byte	W08
+	.byte		N04   , Fn3 , v084
+	.byte	W03
+	.byte		N03   , Gn3 , v080
+	.byte	W02
+/* 027   ----------------------------------------
+ */	.byte		N06   , Gs3 , v088
+	.byte	W10
+	.byte		        Gs3 , v104
+	.byte	W13
+	.byte		N09   , Gs3 , v096
+	.byte	W11
+	.byte		N07   , Gn3 , v080
+	.byte	W09
+	.byte		N04   , Fs3 
+	.byte	W13
+	.byte		        Fn3 , v088
+	.byte	W03
+	.byte		N08   , Ds3 
+	.byte	W09
+	.byte		N04   , Dn3 , v068
+	.byte	W04
+	.byte		N07   , Cs3 , v072
+	.byte	W07
+	.byte		N04   , Cn3 , v068
+	.byte	W04
+	.byte		N07   , As2 , v080
+	.byte	W09
+	.byte		N03   , An2 , v068
+	.byte	W04
+/* 028   ----------------------------------------
+ */	.byte		N08   , Gn2 , v076
+	.byte	W07
+	.byte		N04   , Gs2 , v088
+	.byte	W04
+	.byte		N20   , Gn3 , v080
+	.byte	W23
+	.byte		N11   , An2 , v052
+	.byte	W09
+	.byte		N04   , As2 , v088
+	.byte	W04
+	.byte		N23   , Fs3 , v044
+	.byte	W24
+	.byte		N07   , Gn2 , v068
+	.byte	W08
+	.byte		N04   , Gs2 , v080
+	.byte	W04
+	.byte		N12   , Fn3 , v072
+	.byte	W13
+/* 029   ----------------------------------------
+ */	.byte	W96
+/* 030   ----------------------------------------
+ */	.byte	W96
+/* 031   ----------------------------------------
+ */	.byte	W96
+/* 032   ----------------------------------------
+ */	.byte	W96
+/* 033   ----------------------------------------
+ */	.byte	W96
+/* 034   ----------------------------------------
+ */	.byte	W96
+/* 035   ----------------------------------------
+ */	.byte	W96
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_1_B1
+mus_music_plant__act_2_1_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 2 (Midi-Chn.2) **************** */
+
+mus_music_plant__act_2_2:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 4
+	.byte		VOL   , 53*mus_music_plant__act_2_mvl/mxv
+	.byte		PAN   , c_v-30
+	.byte	W03
+/* 001   ----------------------------------------
+ */	.byte	W96
+/* 002   ----------------------------------------
+ */	.byte	W96
+mus_music_plant__act_2_2_B1:
+/* 003   ----------------------------------------
+ */	.byte	W96
+/* 004   ----------------------------------------
+ */	.byte	W96
+/* 005   ----------------------------------------
+ */	.byte	W60
+	.byte		N07   , Cn5 , v104
+	.byte	W12
+	.byte		        Dn5 , v088
+	.byte	W08
+	.byte		N03   , Ds5 , v104
+	.byte	W11
+	.byte		N04   , An5 
+	.byte	W01
+	.byte		N36   , As5 , v084
+	.byte	W04
+/* 006   ----------------------------------------
+ */	.byte	W32
+	.byte	W02
+	.byte		N07   , Gs5 , v092
+	.byte	W09
+	.byte		N06   , Gn5 
+	.byte	W13
+	.byte		N04   , Gn5 , v100
+	.byte	W03
+	.byte		N08   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , As5 , v076
+	.byte	W04
+	.byte		N08   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , Gn5 , v080
+	.byte	W03
+	.byte		N07   , Fn5 
+	.byte	W09
+	.byte		N03   , Ds5 , v096
+	.byte	W05
+/* 007   ----------------------------------------
+ */	.byte		        En5 
+	.byte		N32   , Fn5 , v092
+	.byte	W32
+	.byte	W03
+	.byte		N07   , Ds5 , v096
+	.byte	W08
+	.byte		N04   , Dn5 , v088
+	.byte	W12
+	.byte		        Cs5 , v100
+	.byte	W01
+	.byte		N18   , Dn5 , v076
+	.byte	W16
+	.byte		N09   , Ds5 , v088
+	.byte	W11
+	.byte		N03   , Dn5 , v080
+	.byte	W12
+	.byte		N20   , Dn5 , v100
+	.byte	W01
+/* 008   ----------------------------------------
+ */	.byte	W20
+	.byte		N66   , Cn5 , v080
+	.byte	W04
+	.byte		VOL   , 53*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        50*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        48*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        45*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        42*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        40*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        38*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        34*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        33*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        30*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        28*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        25*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        23*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        19*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        18*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        15*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        13*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        10*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        9*mus_music_plant__act_2_mvl/mxv
+	.byte	W02
+	.byte		BEND  , c_v-3
+	.byte	W01
+	.byte		        c_v-7
+	.byte	W01
+	.byte		        c_v-10
+	.byte	W01
+	.byte		        c_v-12
+	.byte	W01
+	.byte		        c_v-14
+	.byte	W04
+	.byte		        c_v-11
+	.byte	W01
+	.byte		        c_v-8
+	.byte	W01
+/* 009   ----------------------------------------
+ */	.byte		        c_v-4
+	.byte	W01
+	.byte		        c_v+0
+	.byte	W44
+	.byte	W03
+	.byte		VOL   , 56*mus_music_plant__act_2_mvl/mxv
+	.byte	W07
+	.byte		N04   , Cn5 , v096
+	.byte	W05
+	.byte		N07   , Dn5 , v084
+	.byte	W08
+	.byte		N04   , Ds5 , v104
+	.byte	W04
+	.byte		N07   , En5 , v088
+	.byte	W08
+	.byte		N04   , Fn5 , v080
+	.byte	W03
+	.byte		N08   , Gn5 , v076
+	.byte	W08
+	.byte		N04   , Gs5 , v080
+	.byte	W04
+	.byte		N03   , An5 , v104
+	.byte	W01
+/* 010   ----------------------------------------
+ */	.byte	W01
+	.byte		N32   , As5 , v096
+	.byte	W32
+	.byte	W02
+	.byte		N08   , Gs5 , v104
+	.byte	W08
+	.byte		N04   , Gn5 , v080
+	.byte	W13
+	.byte		        Gn5 , v096
+	.byte	W03
+	.byte		N09   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , As5 , v068
+	.byte	W04
+	.byte		N09   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , Gn5 , v080
+	.byte	W03
+	.byte		N08   , Fn5 , v084
+	.byte	W09
+	.byte		N04   , Ds5 , v108
+	.byte	W04
+	.byte		        En5 , v100
+	.byte	W01
+/* 011   ----------------------------------------
+ */	.byte		N32   , Fn5 , v096
+	.byte	W32
+	.byte	W03
+	.byte		N08   , Ds5 , v104
+	.byte	W08
+	.byte		N04   , Dn5 , v092
+	.byte	W12
+	.byte		BEND  , c_v-7
+	.byte		N17   , Dn5 , v108
+	.byte	W01
+	.byte		BEND  , c_v-16
+	.byte	W01
+	.byte		        c_v-20
+	.byte	W01
+	.byte		        c_v-19
+	.byte	W01
+	.byte		        c_v+0
+	.byte	W12
+	.byte		N09   , Ds5 , v088
+	.byte	W13
+	.byte		N12   , Fn5 , v096
+	.byte	W12
+/* 012   ----------------------------------------
+ */	.byte		N20   , Dn5 , v092
+	.byte	W20
+	.byte		N72   , Cn5 , v096
+	.byte	W04
+	.byte		VOL   , 53*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        50*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        48*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        45*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        42*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        40*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        38*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        34*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        33*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        30*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        28*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        25*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        23*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        19*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        18*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        15*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        13*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        10*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        9*mus_music_plant__act_2_mvl/mxv
+	.byte	W12
+/* 013   ----------------------------------------
+ */	.byte	W48
+	.byte		        56*mus_music_plant__act_2_mvl/mxv
+	.byte	W48
+/* 014   ----------------------------------------
+ */	.byte	W07
+	.byte		N02   , Bn4 , v088
+	.byte	W01
+	.byte		N13   , Cn5 , v092
+	.byte	W15
+	.byte		N03   , An5 , v084
+	.byte	W01
+	.byte		N05   , As5 , v088
+	.byte	W08
+	.byte		        Gs5 , v104
+	.byte	W12
+	.byte		N02   , Gn5 
+	.byte	W12
+	.byte		N03   , Fn5 
+	.byte	W12
+	.byte		        Ds5 
+	.byte	W04
+	.byte		N09   , Dn5 , v100
+	.byte	W12
+	.byte		N06   , Ds5 , v104
+	.byte	W11
+	.byte		N02   , En5 , v092
+	.byte	W01
+/* 015   ----------------------------------------
+ */	.byte		N36   , Fn5 
+	.byte	W32
+	.byte	W03
+	.byte		N09   , Ds5 , v100
+	.byte	W08
+	.byte		N03   , Dn5 , v084
+	.byte	W12
+	.byte		N04   , Dn5 , v096
+	.byte	W04
+	.byte		N08   , Fn5 , v084
+	.byte	W08
+	.byte		N04   , Cn6 , v096
+	.byte	W04
+	.byte		N03   , An5 , v076
+	.byte		N07   , As5 
+	.byte	W08
+	.byte		N04   , Gs5 , v088
+	.byte	W04
+	.byte		N07   , Gn5 , v076
+	.byte	W08
+	.byte		N04   , Fn5 , v080
+	.byte	W03
+	.byte		N02   , Fs5 , v076
+	.byte	W01
+	.byte		N12   , Gn5 
+	.byte	W01
+/* 016   ----------------------------------------
+ */	.byte	W11
+	.byte		N07   , Gs5 , v100
+	.byte	W08
+	.byte		N04   , As5 , v088
+	.byte	W16
+	.byte		N13   , Ds5 , v100
+	.byte	W13
+	.byte		N07   , En5 , v080
+	.byte	W08
+	.byte		N03   , Fn5 , v088
+	.byte	W16
+	.byte		        Cs5 
+	.byte	W01
+	.byte		N11   , Dn5 , v076
+	.byte	W10
+	.byte		N08   , Ds5 , v100
+	.byte	W08
+	.byte		N04   , Fn5 , v076
+	.byte	W04
+	.byte		N36   , Dn5 , v088
+	.byte	W01
+/* 017   ----------------------------------------
+ */	.byte	W32
+	.byte	W02
+	.byte		N08   , Cn5 , v064
+	.byte	W09
+	.byte		N48   , As4 , v068
+	.byte	W52
+	.byte	W01
+/* 018   ----------------------------------------
+ */	.byte	W08
+	.byte		N04   , Gs4 , v096
+	.byte	W02
+	.byte		N09   , As4 , v080
+	.byte	W09
+	.byte		N04   , Cn5 , v076
+	.byte	W04
+	.byte		N03   , Cs5 , v088
+	.byte	W02
+	.byte		N06   , Dn5 , v068
+	.byte	W07
+	.byte		N05   , Cs5 , v092
+	.byte	W03
+	.byte		N08   , Dn5 , v068
+	.byte	W08
+	.byte		N03   , Ds5 , v084
+	.byte	W04
+	.byte		N07   , Fn5 , v088
+	.byte	W08
+	.byte		        En5 , v068
+	.byte	W03
+	.byte		N08   , Fn5 , v072
+	.byte	W09
+	.byte		N04   , Gn5 , v084
+	.byte	W04
+	.byte		N07   , Gs5 , v100
+	.byte	W08
+	.byte		N04   , Gn5 , v080
+	.byte	W03
+	.byte		N07   , Gs5 , v092
+	.byte	W09
+	.byte		N04   , As5 
+	.byte	W04
+	.byte		        Cn6 , v104
+	.byte	W01
+/* 019   ----------------------------------------
+ */	.byte	W01
+	.byte		N10   , Cs6 , v092
+	.byte	W10
+	.byte		N07   , Cn6 , v076
+	.byte	W08
+	.byte		N03   , As5 , v096
+	.byte	W12
+	.byte		        Gs5 , v104
+	.byte	W13
+	.byte		N12   , Gn5 , v108
+	.byte	W12
+	.byte		N04   , Gs5 , v088
+	.byte	W04
+	.byte		N07   , As5 , v076
+	.byte	W08
+	.byte		N04   , En5 , v080
+	.byte	W04
+	.byte		N08   , Fn5 , v076
+	.byte	W07
+	.byte		N04   , Gn5 , v080
+	.byte	W04
+	.byte		N07   , Dn5 , v084
+	.byte	W08
+	.byte		N04   , Ds5 
+	.byte	W04
+	.byte		N08   , Fn5 , v076
+	.byte	W01
+/* 020   ----------------------------------------
+ */	.byte	W07
+	.byte		N04   , Ds5 
+	.byte	W04
+	.byte		N07   , Dn5 , v068
+	.byte	W08
+	.byte		N18   , Cn5 , v076
+	.byte	W32
+	.byte	W03
+	.byte		N03   , Fs5 , v104
+	.byte	W01
+	.byte		N06   , Gn5 , v088
+	.byte	W05
+	.byte		N07   , Gs5 , v076
+	.byte	W07
+	.byte		N04   , Gn5 , v064
+	.byte	W04
+	.byte		N08   , Fn5 , v076
+	.byte	W09
+	.byte		N04   , Ds5 , v088
+	.byte	W04
+	.byte		N07   , Dn5 , v080
+	.byte	W08
+	.byte		N04   , Cs5 , v104
+	.byte	W04
+/* 021   ----------------------------------------
+ */	.byte		N03   , Dn5 , v080
+	.byte	W01
+	.byte		N12   , Ds5 , v112
+	.byte	W11
+	.byte		N07   , Fn5 , v096
+	.byte	W08
+	.byte		N03   , Fs5 , v108
+	.byte	W12
+	.byte		N04   , Gn5 
+	.byte	W12
+	.byte		        Gs5 , v112
+	.byte	W12
+	.byte		N01   , An5 , v108
+	.byte	W12
+	.byte		N02   , An5 , v104
+	.byte	W01
+	.byte		N24   , As5 , v096
+	.byte	W24
+	.byte	W03
+/* 022   ----------------------------------------
+ */	.byte	W96
+/* 023   ----------------------------------------
+ */	.byte	W96
+/* 024   ----------------------------------------
+ */	.byte	W96
+/* 025   ----------------------------------------
+ */	.byte	W56
+	.byte	W03
+	.byte		N13   , Cn6 , v084
+	.byte	W02
+	.byte		BEND  , c_v+7
+	.byte	W01
+	.byte		        c_v+15
+	.byte	W01
+	.byte		        c_v+17
+	.byte	W01
+	.byte		        c_v+12
+	.byte	W01
+	.byte		        c_v+0
+	.byte	W05
+	.byte		N06   , As5 , v068
+	.byte	W09
+	.byte		N04   , Gs5 , v088
+	.byte	W04
+	.byte		N07   , Gn5 , v068
+	.byte	W08
+	.byte		N03   , Fn5 , v072
+	.byte	W03
+	.byte		        Cs5 , v080
+	.byte	W02
+/* 026   ----------------------------------------
+ */	.byte		N06   , Dn5 , v096
+	.byte	W12
+	.byte		        Ds5 , v104
+	.byte	W12
+	.byte		N05   , Fn5 , v092
+	.byte	W11
+	.byte		N07   , Gn5 , v108
+	.byte	W08
+	.byte		N04   , Gs5 , v080
+	.byte	W12
+	.byte		        Fn5 , v088
+	.byte	W04
+	.byte		N07   , Gn5 
+	.byte	W08
+	.byte		N04   , Gs5 
+	.byte	W03
+	.byte		N07   , Fs5 
+	.byte	W09
+	.byte		N04   , Gn5 , v096
+	.byte	W04
+	.byte		N06   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , As5 , v084
+	.byte	W03
+	.byte		N03   , Cn6 , v080
+	.byte	W02
+/* 027   ----------------------------------------
+ */	.byte		N06   , Cs6 , v088
+	.byte	W10
+	.byte		        Cs6 , v104
+	.byte	W13
+	.byte		N09   , Cs6 , v096
+	.byte	W11
+	.byte		N07   , Cn6 , v080
+	.byte	W09
+	.byte		N04   , Bn5 
+	.byte	W13
+	.byte		        As5 , v088
+	.byte	W03
+	.byte		N08   , Gs5 
+	.byte	W09
+	.byte		N04   , Gn5 , v068
+	.byte	W04
+	.byte		N07   , Fs5 , v072
+	.byte	W07
+	.byte		N04   , Fn5 , v068
+	.byte	W04
+	.byte		N07   , Ds5 , v080
+	.byte	W09
+	.byte		N03   , Dn5 , v068
+	.byte	W04
+/* 028   ----------------------------------------
+ */	.byte		N08   , Cn5 , v076
+	.byte	W07
+	.byte		N04   , Cs5 , v088
+	.byte	W04
+	.byte		N20   , Cn6 , v080
+	.byte	W23
+	.byte		N11   , Dn5 , v052
+	.byte	W09
+	.byte		N04   , Ds5 , v088
+	.byte	W04
+	.byte		N23   , Bn5 , v044
+	.byte	W24
+	.byte		N07   , Cn5 , v068
+	.byte	W08
+	.byte		N04   , Cs5 , v080
+	.byte	W04
+	.byte		N12   , As5 , v072
+	.byte	W13
+/* 029   ----------------------------------------
+ */	.byte	W96
+/* 030   ----------------------------------------
+ */	.byte	W96
+/* 031   ----------------------------------------
+ */	.byte	W96
+/* 032   ----------------------------------------
+ */	.byte	W96
+/* 033   ----------------------------------------
+ */	.byte	W96
+/* 034   ----------------------------------------
+ */	.byte	W96
+/* 035   ----------------------------------------
+ */	.byte	W96
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_2_B1
+mus_music_plant__act_2_2_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 3 (Midi-Chn.3) **************** */
+
+mus_music_plant__act_2_3:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 12
+	.byte		VOL   , 32*mus_music_plant__act_2_mvl/mxv
+	.byte		PAN   , c_v+30
+	.byte	W03
+/* 001   ----------------------------------------
+ */	.byte	W96
+/* 002   ----------------------------------------
+ */	.byte	W96
+mus_music_plant__act_2_3_B1:
+/* 003   ----------------------------------------
+ */	.byte	W96
+/* 004   ----------------------------------------
+ */	.byte	W96
+/* 005   ----------------------------------------
+ */	.byte	W60
+	.byte	W03
+	.byte		N07   , Cn5 , v104
+	.byte	W12
+	.byte		        Dn5 , v088
+	.byte	W08
+	.byte		N03   , Ds5 , v104
+	.byte	W11
+	.byte		N04   , An5 
+	.byte	W01
+	.byte		N36   , As5 , v084
+	.byte	W01
+/* 006   ----------------------------------------
+ */	.byte	W36
+	.byte	W01
+	.byte		N07   , Gs5 , v092
+	.byte	W09
+	.byte		N06   , Gn5 
+	.byte	W13
+	.byte		N04   , Gn5 , v100
+	.byte	W03
+	.byte		N08   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , As5 , v076
+	.byte	W04
+	.byte		N08   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , Gn5 , v080
+	.byte	W03
+	.byte		N07   , Fn5 
+	.byte	W09
+	.byte		N03   , Ds5 , v096
+	.byte	W02
+/* 007   ----------------------------------------
+ */	.byte	W03
+	.byte		        En5 
+	.byte		N32   , Fn5 , v092
+	.byte	W32
+	.byte	W03
+	.byte		N07   , Ds5 , v096
+	.byte	W08
+	.byte		N04   , Dn5 , v088
+	.byte	W12
+	.byte		        Cs5 , v100
+	.byte	W01
+	.byte		N18   , Dn5 , v076
+	.byte	W16
+	.byte		N09   , Ds5 , v088
+	.byte	W11
+	.byte		N03   , Dn5 , v080
+	.byte	W10
+/* 008   ----------------------------------------
+ */	.byte	W02
+	.byte		N20   , Dn5 , v100
+	.byte	W21
+	.byte		N66   , Cn5 , v080
+	.byte	W04
+	.byte		VOL   , 53*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        50*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        48*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        45*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        42*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        40*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        38*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        34*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        33*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        30*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        28*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        25*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        23*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        19*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        18*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        15*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        13*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        10*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        9*mus_music_plant__act_2_mvl/mxv
+	.byte	W02
+	.byte		BEND  , c_v-3
+	.byte	W01
+	.byte		        c_v-7
+	.byte	W01
+	.byte		        c_v-10
+	.byte	W01
+	.byte		        c_v-12
+	.byte	W01
+	.byte		        c_v-14
+	.byte	W03
+/* 009   ----------------------------------------
+ */	.byte	W01
+	.byte		        c_v-11
+	.byte	W01
+	.byte		        c_v-8
+	.byte	W01
+	.byte		        c_v-4
+	.byte	W01
+	.byte		        c_v+0
+	.byte	W44
+	.byte	W03
+	.byte		VOL   , 56*mus_music_plant__act_2_mvl/mxv
+	.byte	W07
+	.byte		N04   , Cn5 , v096
+	.byte	W05
+	.byte		N07   , Dn5 , v084
+	.byte	W08
+	.byte		N04   , Ds5 , v104
+	.byte	W04
+	.byte		N07   , En5 , v088
+	.byte	W08
+	.byte		N04   , Fn5 , v080
+	.byte	W03
+	.byte		N08   , Gn5 , v076
+	.byte	W08
+	.byte		N04   , Gs5 , v080
+	.byte	W02
+/* 010   ----------------------------------------
+ */	.byte	W02
+	.byte		N03   , An5 , v104
+	.byte	W02
+	.byte		N32   , As5 , v096
+	.byte	W32
+	.byte	W02
+	.byte		N08   , Gs5 , v104
+	.byte	W08
+	.byte		N04   , Gn5 , v080
+	.byte	W13
+	.byte		        Gn5 , v096
+	.byte	W03
+	.byte		N09   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , As5 , v068
+	.byte	W04
+	.byte		N09   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , Gn5 , v080
+	.byte	W03
+	.byte		N08   , Fn5 , v084
+	.byte	W09
+	.byte		N04   , Ds5 , v108
+	.byte	W02
+/* 011   ----------------------------------------
+ */	.byte	W02
+	.byte		        En5 , v100
+	.byte	W01
+	.byte		N32   , Fn5 , v096
+	.byte	W32
+	.byte	W03
+	.byte		N08   , Ds5 , v104
+	.byte	W08
+	.byte		N04   , Dn5 , v092
+	.byte	W12
+	.byte		BEND  , c_v-7
+	.byte		N17   , Dn5 , v108
+	.byte	W01
+	.byte		BEND  , c_v-16
+	.byte	W01
+	.byte		        c_v-20
+	.byte	W01
+	.byte		        c_v-19
+	.byte	W01
+	.byte		        c_v+0
+	.byte	W12
+	.byte		N09   , Ds5 , v088
+	.byte	W13
+	.byte		N12   , Fn5 , v096
+	.byte	W09
+/* 012   ----------------------------------------
+ */	.byte	W03
+	.byte		N20   , Dn5 , v092
+	.byte	W20
+	.byte		N72   , Cn5 , v096
+	.byte	W04
+	.byte		VOL   , 53*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        50*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        48*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        45*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        42*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        40*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        38*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        34*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        33*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        30*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        28*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        25*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        23*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        19*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        18*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        15*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        13*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+	.byte		        10*mus_music_plant__act_2_mvl/mxv
+	.byte	W04
+	.byte		        9*mus_music_plant__act_2_mvl/mxv
+	.byte	W09
+/* 013   ----------------------------------------
+ */	.byte	W48
+	.byte	W03
+	.byte		        56*mus_music_plant__act_2_mvl/mxv
+	.byte	W44
+	.byte	W01
+/* 014   ----------------------------------------
+ */	.byte	W10
+	.byte		N02   , Bn4 , v088
+	.byte	W01
+	.byte		N13   , Cn5 , v092
+	.byte	W15
+	.byte		N03   , An5 , v084
+	.byte	W01
+	.byte		N05   , As5 , v088
+	.byte	W08
+	.byte		        Gs5 , v104
+	.byte	W12
+	.byte		N02   , Gn5 
+	.byte	W12
+	.byte		N03   , Fn5 
+	.byte	W12
+	.byte		        Ds5 
+	.byte	W04
+	.byte		N09   , Dn5 , v100
+	.byte	W12
+	.byte		N06   , Ds5 , v104
+	.byte	W09
+/* 015   ----------------------------------------
+ */	.byte	W02
+	.byte		N02   , En5 , v092
+	.byte	W01
+	.byte		N36   , Fn5 
+	.byte	W32
+	.byte	W03
+	.byte		N09   , Ds5 , v100
+	.byte	W08
+	.byte		N03   , Dn5 , v084
+	.byte	W12
+	.byte		N04   , Dn5 , v096
+	.byte	W04
+	.byte		N08   , Fn5 , v084
+	.byte	W08
+	.byte		N04   , Cn6 , v096
+	.byte	W04
+	.byte		N03   , An5 , v076
+	.byte		N07   , As5 
+	.byte	W08
+	.byte		N04   , Gs5 , v088
+	.byte	W04
+	.byte		N07   , Gn5 , v076
+	.byte	W08
+	.byte		N04   , Fn5 , v080
+	.byte	W02
+/* 016   ----------------------------------------
+ */	.byte	W01
+	.byte		N02   , Fs5 , v076
+	.byte	W01
+	.byte		N12   , Gn5 
+	.byte	W12
+	.byte		N07   , Gs5 , v100
+	.byte	W08
+	.byte		N04   , As5 , v088
+	.byte	W16
+	.byte		N13   , Ds5 , v100
+	.byte	W13
+	.byte		N07   , En5 , v080
+	.byte	W08
+	.byte		N03   , Fn5 , v088
+	.byte	W16
+	.byte		        Cs5 
+	.byte	W01
+	.byte		N11   , Dn5 , v076
+	.byte	W10
+	.byte		N08   , Ds5 , v100
+	.byte	W08
+	.byte		N04   , Fn5 , v076
+	.byte	W02
+/* 017   ----------------------------------------
+ */	.byte	W02
+	.byte		N36   , Dn5 , v088
+	.byte	W32
+	.byte	W03
+	.byte		N08   , Cn5 , v064
+	.byte	W09
+	.byte		N48   , As4 , v068
+	.byte	W48
+	.byte	W02
+/* 018   ----------------------------------------
+ */	.byte	W11
+	.byte		N04   , Gs4 , v096
+	.byte	W02
+	.byte		N09   , As4 , v080
+	.byte	W09
+	.byte		N04   , Cn5 , v076
+	.byte	W04
+	.byte		N03   , Cs5 , v088
+	.byte	W02
+	.byte		N06   , Dn5 , v068
+	.byte	W07
+	.byte		N05   , Cs5 , v092
+	.byte	W03
+	.byte		N08   , Dn5 , v068
+	.byte	W08
+	.byte		N03   , Ds5 , v084
+	.byte	W04
+	.byte		N07   , Fn5 , v088
+	.byte	W08
+	.byte		        En5 , v068
+	.byte	W03
+	.byte		N08   , Fn5 , v072
+	.byte	W09
+	.byte		N04   , Gn5 , v084
+	.byte	W04
+	.byte		N07   , Gs5 , v100
+	.byte	W08
+	.byte		N04   , Gn5 , v080
+	.byte	W03
+	.byte		N07   , Gs5 , v092
+	.byte	W09
+	.byte		N04   , As5 
+	.byte	W02
+/* 019   ----------------------------------------
+ */	.byte	W02
+	.byte		        Cn6 , v104
+	.byte	W02
+	.byte		N10   , Cs6 , v092
+	.byte	W10
+	.byte		N07   , Cn6 , v076
+	.byte	W08
+	.byte		N03   , As5 , v096
+	.byte	W12
+	.byte		        Gs5 , v104
+	.byte	W13
+	.byte		N12   , Gn5 , v108
+	.byte	W12
+	.byte		N04   , Gs5 , v088
+	.byte	W04
+	.byte		N07   , As5 , v076
+	.byte	W08
+	.byte		N04   , En5 , v080
+	.byte	W04
+	.byte		N08   , Fn5 , v076
+	.byte	W07
+	.byte		N04   , Gn5 , v080
+	.byte	W04
+	.byte		N07   , Dn5 , v084
+	.byte	W08
+	.byte		N04   , Ds5 
+	.byte	W02
+/* 020   ----------------------------------------
+ */	.byte	W02
+	.byte		N08   , Fn5 , v076
+	.byte	W08
+	.byte		N04   , Ds5 
+	.byte	W04
+	.byte		N07   , Dn5 , v068
+	.byte	W08
+	.byte		N18   , Cn5 , v076
+	.byte	W32
+	.byte	W03
+	.byte		N03   , Fs5 , v104
+	.byte	W01
+	.byte		N06   , Gn5 , v088
+	.byte	W05
+	.byte		N07   , Gs5 , v076
+	.byte	W07
+	.byte		N04   , Gn5 , v064
+	.byte	W04
+	.byte		N08   , Fn5 , v076
+	.byte	W09
+	.byte		N04   , Ds5 , v088
+	.byte	W04
+	.byte		N07   , Dn5 , v080
+	.byte	W08
+	.byte		N04   , Cs5 , v104
+	.byte	W01
+/* 021   ----------------------------------------
+ */	.byte	W03
+	.byte		N03   , Dn5 , v080
+	.byte	W01
+	.byte		N12   , Ds5 , v112
+	.byte	W11
+	.byte		N07   , Fn5 , v096
+	.byte	W08
+	.byte		N03   , Fs5 , v108
+	.byte	W12
+	.byte		N04   , Gn5 
+	.byte	W12
+	.byte		        Gs5 , v112
+	.byte	W12
+	.byte		N01   , An5 , v108
+	.byte	W12
+	.byte		N02   , An5 , v104
+	.byte	W01
+	.byte		N24   , As5 , v096
+	.byte	W24
+/* 022   ----------------------------------------
+ */	.byte	W96
+/* 023   ----------------------------------------
+ */	.byte	W96
+/* 024   ----------------------------------------
+ */	.byte	W96
+/* 025   ----------------------------------------
+ */	.byte	W60
+	.byte	W02
+	.byte		N13   , Cn6 , v084
+	.byte	W02
+	.byte		BEND  , c_v+7
+	.byte	W01
+	.byte		        c_v+15
+	.byte	W01
+	.byte		        c_v+17
+	.byte	W01
+	.byte		        c_v+12
+	.byte	W01
+	.byte		        c_v+0
+	.byte	W05
+	.byte		N06   , As5 , v068
+	.byte	W09
+	.byte		N04   , Gs5 , v088
+	.byte	W04
+	.byte		N07   , Gn5 , v068
+	.byte	W08
+	.byte		N03   , Fn5 , v072
+	.byte	W02
+/* 026   ----------------------------------------
+ */	.byte	W01
+	.byte		        Cs5 , v080
+	.byte	W02
+	.byte		N06   , Dn5 , v096
+	.byte	W12
+	.byte		        Ds5 , v104
+	.byte	W12
+	.byte		N05   , Fn5 , v092
+	.byte	W11
+	.byte		N07   , Gn5 , v108
+	.byte	W08
+	.byte		N04   , Gs5 , v080
+	.byte	W12
+	.byte		        Fn5 , v088
+	.byte	W04
+	.byte		N07   , Gn5 
+	.byte	W08
+	.byte		N04   , Gs5 
+	.byte	W03
+	.byte		N07   , Fs5 
+	.byte	W09
+	.byte		N04   , Gn5 , v096
+	.byte	W04
+	.byte		N06   , Gs5 , v088
+	.byte	W08
+	.byte		N04   , As5 , v084
+	.byte	W02
+/* 027   ----------------------------------------
+ */	.byte	W01
+	.byte		N03   , Cn6 , v080
+	.byte	W02
+	.byte		N06   , Cs6 , v088
+	.byte	W10
+	.byte		        Cs6 , v104
+	.byte	W13
+	.byte		N09   , Cs6 , v096
+	.byte	W11
+	.byte		N07   , Cn6 , v080
+	.byte	W09
+	.byte		N04   , Bn5 
+	.byte	W13
+	.byte		        As5 , v088
+	.byte	W03
+	.byte		N08   , Gs5 
+	.byte	W09
+	.byte		N04   , Gn5 , v068
+	.byte	W04
+	.byte		N07   , Fs5 , v072
+	.byte	W07
+	.byte		N04   , Fn5 , v068
+	.byte	W04
+	.byte		N07   , Ds5 , v080
+	.byte	W09
+	.byte		N03   , Dn5 , v068
+	.byte	W01
+/* 028   ----------------------------------------
+ */	.byte	W03
+	.byte		N08   , Cn5 , v076
+	.byte	W07
+	.byte		N04   , Cs5 , v088
+	.byte	W04
+	.byte		N20   , Cn6 , v080
+	.byte	W23
+	.byte		N11   , Dn5 , v052
+	.byte	W09
+	.byte		N04   , Ds5 , v088
+	.byte	W04
+	.byte		N23   , Bn5 , v044
+	.byte	W24
+	.byte		N07   , Cn5 , v068
+	.byte	W08
+	.byte		N04   , Cs5 , v080
+	.byte	W04
+	.byte		N12   , As5 , v072
+	.byte	W10
+/* 029   ----------------------------------------
+ */	.byte	W96
+/* 030   ----------------------------------------
+ */	.byte	W96
+/* 031   ----------------------------------------
+ */	.byte	W96
+/* 032   ----------------------------------------
+ */	.byte	W96
+/* 033   ----------------------------------------
+ */	.byte	W96
+/* 034   ----------------------------------------
+ */	.byte	W96
+/* 035   ----------------------------------------
+ */	.byte	W96
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_3_B1
+mus_music_plant__act_2_3_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 4 (Midi-Chn.4) **************** */
+
+mus_music_plant__act_2_4:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 46
+	.byte		VOL   , 127*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+/* 001   ----------------------------------------
+ */mus_music_plant__act_2_4_001:
+	.byte		N24   , Gs2 , v120
+	.byte	W24
+	.byte		N18   , An2 
+	.byte	W18
+	.byte		N06   , As2 
+	.byte	W54
+	.byte	PEND
+/* 002   ----------------------------------------
+ */mus_music_plant__act_2_4_002:
+	.byte		N24   , Ds3 , v120
+	.byte	W24
+	.byte		N18   , En3 
+	.byte	W18
+	.byte		N06   , Fn3 
+	.byte	W14
+	.byte		N16   , Fn3 , v100
+	.byte	W16
+	.byte		N08   , Ds3 
+	.byte	W08
+	.byte		N04   , Dn3 
+	.byte	W04
+	.byte		N08   , Cn3 
+	.byte	W08
+	.byte		N04   , As2 
+	.byte	W04
+	.byte	PEND
+mus_music_plant__act_2_4_B1:
+/* 003   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_001
+/* 004   ----------------------------------------
+ */	.byte		N08   , Gs2 , v100
+	.byte	W12
+	.byte		        Gs1 
+	.byte	W08
+	.byte		        Gs2 
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N08   
+	.byte	W12
+	.byte		N08   
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N12   , Gs1 
+	.byte	W12
+	.byte		N04   , An2 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+/* 005   ----------------------------------------
+ */	.byte		        As2 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		        As1 
+	.byte	W08
+	.byte		        As2 
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N08   
+	.byte	W52
+/* 006   ----------------------------------------
+ */mus_music_plant__act_2_4_006:
+	.byte		N24   , Cn3 , v120
+	.byte	W24
+	.byte		N20   , Fn2 
+	.byte	W20
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		N04   , Cn2 
+	.byte	W04
+	.byte		N12   , Fn2 
+	.byte	W12
+	.byte		        Cn3 
+	.byte	W12
+	.byte		        Fn2 
+	.byte	W12
+	.byte	PEND
+/* 007   ----------------------------------------
+ */mus_music_plant__act_2_4_007:
+	.byte		N24   , As2 , v120
+	.byte	W24
+	.byte		N20   , Fn2 
+	.byte	W20
+	.byte		N12   , As1 
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N12   , Fn2 
+	.byte	W12
+	.byte		        As2 
+	.byte	W12
+	.byte		        Fn2 
+	.byte	W12
+	.byte	PEND
+/* 008   ----------------------------------------
+ */mus_music_plant__act_2_4_008:
+	.byte		N24   , Cn3 , v120
+	.byte	W24
+	.byte		N20   , Fn2 
+	.byte	W20
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		N04   , Cn2 
+	.byte	W04
+	.byte		N12   , Fn2 
+	.byte	W12
+	.byte		        An2 
+	.byte	W12
+	.byte		        Fn2 
+	.byte	W12
+	.byte	PEND
+/* 009   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_007
+/* 010   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_006
+/* 011   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_007
+/* 012   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_008
+/* 013   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_007
+/* 014   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_006
+/* 015   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_007
+/* 016   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_008
+/* 017   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_007
+/* 018   ----------------------------------------
+ */	.byte		N24   , Cn3 , v120
+	.byte	W24
+	.byte		N20   , Fn2 
+	.byte	W20
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		N04   , Cn2 
+	.byte	W04
+	.byte		N12   , Fn2 
+	.byte	W12
+	.byte		        Gs2 
+	.byte	W12
+	.byte		        Fn2 
+	.byte	W12
+/* 019   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_007
+/* 020   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_006
+/* 021   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_007
+/* 022   ----------------------------------------
+ */mus_music_plant__act_2_4_022:
+	.byte		N24   , Cn3 , v120
+	.byte	W24
+	.byte		N20   , Fn2 
+	.byte	W20
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N12   , Fn2 
+	.byte	W12
+	.byte		        Gs2 
+	.byte	W12
+	.byte		        Cn3 
+	.byte	W12
+	.byte	PEND
+/* 023   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_007
+/* 024   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_022
+/* 025   ----------------------------------------
+ */	.byte		N24   , As2 , v120
+	.byte	W24
+	.byte		N20   , Fn2 
+	.byte	W20
+	.byte		N12   , Dn2 
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N12   , Fn2 
+	.byte	W12
+	.byte		        As2 
+	.byte	W12
+	.byte		        Fn2 
+	.byte	W12
+/* 026   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_022
+/* 027   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_007
+/* 028   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_022
+/* 029   ----------------------------------------
+ */	.byte		N05   , As2 , v120
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N08   
+	.byte	W20
+	.byte		N08   
+	.byte	W08
+	.byte		        Bn2 
+	.byte	W08
+	.byte		N24   , Cn3 
+	.byte	W48
+/* 030   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_001
+/* 031   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_002
+/* 032   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_001
+/* 033   ----------------------------------------
+ */	.byte		N24   , As2 , v120
+	.byte	W24
+	.byte		N18   , An2 
+	.byte	W18
+	.byte		N06   , Gs2 
+	.byte	W54
+/* 034   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_001
+/* 035   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_4_002
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_4_B1
+mus_music_plant__act_2_4_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 5 (Midi-Chn.5) **************** */
+
+mus_music_plant__act_2_5:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 127
+	.byte		VOL   , 127*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+/* 001   ----------------------------------------
+ */mus_music_plant__act_2_5_001:
+	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N24   
+	.byte	W24
+	.byte		N24   
+	.byte	W24
+	.byte		N24   
+	.byte	W24
+	.byte	PEND
+/* 002   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_001
+mus_music_plant__act_2_5_B1:
+/* 003   ----------------------------------------
+ */	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N24   
+	.byte	W24
+	.byte		N12   
+	.byte	W12
+	.byte		N04   , Gn1 , v100
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , An1 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Gs1 
+	.byte	W08
+	.byte		N04   , Fs1 
+	.byte	W04
+/* 004   ----------------------------------------
+ */	.byte		N12   , Ds2 , v112
+	.byte	W12
+	.byte		        Dn2 
+	.byte	W12
+	.byte		        Ds2 
+	.byte	W12
+	.byte		        Dn2 
+	.byte	W12
+	.byte		        Ds2 
+	.byte	W12
+	.byte		        Dn2 
+	.byte	W12
+	.byte		N08   , An1 
+	.byte	W08
+	.byte		N04   , Gn1 
+	.byte	W04
+	.byte		N08   , Fs1 
+	.byte	W08
+	.byte		N04   , Gs1 
+	.byte	W04
+/* 005   ----------------------------------------
+ */	.byte		N24   , Ds2 
+	.byte	W24
+	.byte		N18   
+	.byte	W20
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N08   
+	.byte	W08
+	.byte		N04   , Cs1 , v100
+	.byte	W04
+	.byte		N08   , Cs1 , v116
+	.byte	W08
+	.byte		N04   , Cs1 , v108
+	.byte	W04
+/* 006   ----------------------------------------
+ */mus_music_plant__act_2_5_006:
+	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N24   
+	.byte	W24
+	.byte		N24   
+	.byte	W24
+	.byte		N12   
+	.byte	W12
+	.byte		        Cs1 
+	.byte	W12
+	.byte	PEND
+/* 007   ----------------------------------------
+ */mus_music_plant__act_2_5_007:
+	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N18   
+	.byte	W20
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N12   
+	.byte	W12
+	.byte		N08   , Cs1 
+	.byte	W08
+	.byte		N04   , Cs1 , v100
+	.byte	W04
+	.byte	PEND
+/* 008   ----------------------------------------
+ */	.byte	W96
+/* 009   ----------------------------------------
+ */	.byte	W48
+	.byte		N08   , Ds2 , v112
+	.byte	W08
+	.byte		N04   , Cs1 
+	.byte	W04
+	.byte		N08   
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		        Cs1 , v100
+	.byte	W04
+	.byte		        Cs1 , v112
+	.byte	W04
+	.byte		N08   
+	.byte	W08
+	.byte		N04   , Cs1 , v100
+	.byte	W04
+/* 010   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_006
+/* 011   ----------------------------------------
+ */mus_music_plant__act_2_5_011:
+	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N20   
+	.byte	W20
+	.byte		N12   
+	.byte	W12
+	.byte		N04   , Cs1 
+	.byte	W04
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		        Cs1 
+	.byte	W12
+	.byte		N08   , Ds2 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte	PEND
+/* 012   ----------------------------------------
+ */mus_music_plant__act_2_5_012:
+	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N20   
+	.byte	W20
+	.byte		N04   , Cs1 
+	.byte	W04
+	.byte		N08   , Ds2 
+	.byte	W08
+	.byte		N04   , Cs1 
+	.byte	W04
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		        Cs1 
+	.byte	W12
+	.byte	PEND
+/* 013   ----------------------------------------
+ */	.byte		N24   , Ds2 
+	.byte	W24
+	.byte		N20   
+	.byte	W20
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N12   
+	.byte	W12
+	.byte		N08   , Cs1 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+/* 014   ----------------------------------------
+ */	.byte	W96
+/* 015   ----------------------------------------
+ */	.byte	W96
+/* 016   ----------------------------------------
+ */	.byte		N20   , Ds2 
+	.byte	W20
+	.byte		N04   , Ds2 , v088
+	.byte	W76
+/* 017   ----------------------------------------
+ */	.byte		N24   , Ds2 , v112
+	.byte	W48
+	.byte		N08   , Cs1 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N08   
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+/* 018   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_006
+/* 019   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_011
+/* 020   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_012
+/* 021   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_007
+/* 022   ----------------------------------------
+ */mus_music_plant__act_2_5_022:
+	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N20   , Cs1 
+	.byte	W20
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N12   
+	.byte	W12
+	.byte		N12   
+	.byte	W12
+	.byte		        Cs1 
+	.byte	W12
+	.byte	PEND
+/* 023   ----------------------------------------
+ */mus_music_plant__act_2_5_023:
+	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N20   , Cs1 
+	.byte	W20
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		N04   , Cs1 
+	.byte	W04
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		        Cs1 
+	.byte	W12
+	.byte		N08   , Ds2 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte	PEND
+/* 024   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_012
+/* 025   ----------------------------------------
+ */	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N12   , Cs1 
+	.byte	W12
+	.byte		N08   , Ds2 
+	.byte	W08
+	.byte		N12   , Cs1 
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		        Cs1 
+	.byte	W12
+	.byte		N08   , Ds2 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+/* 026   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_022
+/* 027   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_023
+/* 028   ----------------------------------------
+ */	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N20   
+	.byte	W20
+	.byte		N04   , Cs1 
+	.byte	W04
+	.byte		N08   , Ds2 
+	.byte	W08
+	.byte		N04   , Cs1 
+	.byte	W04
+	.byte		N12   , Ds2 
+	.byte	W12
+	.byte		N08   , Gs1 , v120
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Fs1 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+/* 029   ----------------------------------------
+ */	.byte		N06   , An1 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N06   
+	.byte	W12
+	.byte		N08   , Cs1 
+	.byte	W08
+	.byte		        Ds2 
+	.byte	W08
+	.byte		N08   
+	.byte	W08
+	.byte		N04   , Cs1 , v112
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Gn1 , v120
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Fn1 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+/* 030   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_001
+/* 031   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_001
+/* 032   ----------------------------------------
+ */	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N24   
+	.byte	W24
+	.byte		N08   
+	.byte	W08
+	.byte		N12   , Cs1 , v100
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N12   
+	.byte	W12
+	.byte		N08   
+	.byte	W08
+	.byte		N04   , Cs1 , v092
+	.byte	W04
+/* 033   ----------------------------------------
+ */	.byte		N24   , Ds2 , v112
+	.byte	W24
+	.byte		N24   
+	.byte	W24
+	.byte		N24   
+	.byte	W24
+	.byte		N12   , Ds2 , v100
+	.byte	W12
+	.byte		N08   
+	.byte	W08
+	.byte		N04   , Ds2 , v092
+	.byte	W04
+/* 034   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_001
+/* 035   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_5_001
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_5_B1
+mus_music_plant__act_2_5_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 6 (Midi-Chn.6) **************** */
+
+mus_music_plant__act_2_6:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 127
+	.byte		VOL   , 127*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+/* 001   ----------------------------------------
+ */mus_music_plant__act_2_6_001:
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Ds1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte	PEND
+/* 002   ----------------------------------------
+ */mus_music_plant__act_2_6_002:
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Ds1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Ds1 , v052
+	.byte	W04
+	.byte	PEND
+mus_music_plant__act_2_6_B1:
+/* 003   ----------------------------------------
+ */mus_music_plant__act_2_6_003:
+	.byte		N24   , Fs2 , v120
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Ds1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte	PEND
+/* 004   ----------------------------------------
+ */	.byte		N24   , Gn2 , v120
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Ds1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Ds1 , v052
+	.byte	W04
+/* 005   ----------------------------------------
+ */	.byte		N18   , Fs2 , v120
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W52
+/* 006   ----------------------------------------
+ */	.byte		N24   , Gn2 , v120
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Ds1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+/* 007   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_001
+/* 008   ----------------------------------------
+ */	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Ds1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		        Ds1 
+	.byte	W04
+	.byte		        Dn1 
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+/* 009   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_001
+/* 010   ----------------------------------------
+ */	.byte		N16   , Cs2 , v120
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Ds1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Ds1 , v052
+	.byte	W04
+/* 011   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_001
+/* 012   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_002
+/* 013   ----------------------------------------
+ */	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Ds1 
+	.byte	W04
+	.byte		N08   , Dn1 
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , En1 , v072
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Ds1 
+	.byte	W04
+/* 014   ----------------------------------------
+ */	.byte	W96
+/* 015   ----------------------------------------
+ */	.byte	W96
+/* 016   ----------------------------------------
+ */	.byte		        Dn1 , v072
+	.byte	W04
+	.byte		        Dn1 , v052
+	.byte	W04
+	.byte		        Dn1 , v060
+	.byte	W04
+	.byte		N08   
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W76
+/* 017   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_001
+/* 018   ----------------------------------------
+ */	.byte		N24   , Fs2 , v120
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Ds1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Ds1 , v052
+	.byte	W04
+/* 019   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_001
+/* 020   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_002
+/* 021   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_001
+/* 022   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_002
+/* 023   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_001
+/* 024   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_002
+/* 025   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_001
+/* 026   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_002
+/* 027   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_001
+/* 028   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_002
+/* 029   ----------------------------------------
+ */	.byte		N24   , Cs2 , v120
+	.byte	W36
+	.byte		        Fs2 
+	.byte	W12
+	.byte		        Cs2 
+	.byte	W48
+/* 030   ----------------------------------------
+ */	.byte		N24   
+	.byte	W12
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Ds1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+/* 031   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_002
+/* 032   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_003
+/* 033   ----------------------------------------
+ */	.byte		N24   , Fn2 , v120
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Dn1 , v060
+	.byte	W08
+	.byte		N04   , Dn1 , v052
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W04
+	.byte		N08   , Ds1 , v060
+	.byte	W08
+	.byte		N04   , Ds1 , v052
+	.byte	W04
+/* 034   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_003
+/* 035   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_6_002
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_6_B1
+mus_music_plant__act_2_6_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 7 (Midi-Chn.7) **************** */
+
+mus_music_plant__act_2_7:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 80
+	.byte		VOL   , 127*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+/* 001   ----------------------------------------
+ */	.byte	W96
+/* 002   ----------------------------------------
+ */	.byte	W96
+mus_music_plant__act_2_7_B1:
+/* 003   ----------------------------------------
+ */	.byte	W96
+/* 004   ----------------------------------------
+ */	.byte	W96
+/* 005   ----------------------------------------
+ */	.byte	W96
+/* 006   ----------------------------------------
+ */	.byte	W96
+/* 007   ----------------------------------------
+ */	.byte	W96
+/* 008   ----------------------------------------
+ */	.byte	W96
+/* 009   ----------------------------------------
+ */	.byte	W96
+/* 010   ----------------------------------------
+ */	.byte	W96
+/* 011   ----------------------------------------
+ */	.byte	W96
+/* 012   ----------------------------------------
+ */	.byte	W96
+/* 013   ----------------------------------------
+ */	.byte	W96
+/* 014   ----------------------------------------
+ */	.byte	W96
+/* 015   ----------------------------------------
+ */	.byte	W96
+/* 016   ----------------------------------------
+ */	.byte	W96
+/* 017   ----------------------------------------
+ */	.byte	W96
+/* 018   ----------------------------------------
+ */	.byte	W96
+/* 019   ----------------------------------------
+ */	.byte	W96
+/* 020   ----------------------------------------
+ */	.byte	W96
+/* 021   ----------------------------------------
+ */	.byte	W92
+	.byte	W02
+	.byte		N02   , En2 , v084
+	.byte		N04   , Fn2 
+	.byte	W02
+/* 022   ----------------------------------------
+ */	.byte	W02
+	.byte		N02   , Gn2 , v020
+	.byte	W01
+	.byte		        An2 , v056
+	.byte	W02
+	.byte		        Bn2 , v052
+	.byte	W01
+	.byte		        Cn3 
+	.byte	W02
+	.byte		N03   , Dn3 , v036
+	.byte	W03
+	.byte		N19   , Ds3 , v116
+	.byte	W21
+	.byte		N12   , Ds3 , v124
+	.byte	W15
+	.byte		N18   , Ds3 , v104
+	.byte	W19
+	.byte		N14   , Ds3 , v108
+	.byte	W16
+	.byte		N13   
+	.byte	W13
+	.byte		N01   , En2 , v072
+	.byte		N03   , Fn2 , v076
+	.byte	W01
+/* 023   ----------------------------------------
+ */	.byte	W01
+	.byte		        Gn2 , v032
+	.byte	W02
+	.byte		        An2 , v048
+	.byte	W02
+	.byte		        Bn2 , v036
+	.byte	W02
+	.byte		        Cn3 , v048
+	.byte	W01
+	.byte		N04   , Dn3 , v056
+	.byte	W04
+	.byte		N16   , Fn3 , v100
+	.byte	W19
+	.byte		N11   , Fn3 , v108
+	.byte	W13
+	.byte		N24   , Fn3 , v112
+	.byte	W24
+	.byte		N02   , En3 , v036
+	.byte	W02
+	.byte		        Dn3 , v056
+	.byte	W02
+	.byte		N01   , Cn3 , v044
+	.byte	W01
+	.byte		N02   , Bn2 , v036
+	.byte	W01
+	.byte		N01   , An2 
+	.byte	W02
+	.byte		        Gn2 , v032
+	.byte	W01
+	.byte		        Fn2 , v028
+	.byte	W02
+	.byte		        En2 
+	.byte	W17
+/* 024   ----------------------------------------
+ */	.byte		        En2 , v076
+	.byte	W01
+	.byte		N02   , Fn2 , v044
+	.byte	W02
+	.byte		        Gn2 , v076
+	.byte	W01
+	.byte		        An2 , v092
+	.byte	W02
+	.byte		        Bn2 , v072
+	.byte	W01
+	.byte		N03   , Cn3 , v052
+	.byte	W03
+	.byte		N02   , Dn3 , v028
+	.byte	W01
+	.byte		N17   , Ds3 , v108
+	.byte	W20
+	.byte		N13   , Ds3 , v112
+	.byte	W15
+	.byte		N18   , Ds3 , v104
+	.byte	W20
+	.byte		N15   , Ds3 , v108
+	.byte	W17
+	.byte		N13   , Ds3 , v112
+	.byte	W11
+	.byte		N03   , Dn2 , v060
+	.byte	W01
+	.byte		N05   , En2 
+	.byte	W01
+/* 025   ----------------------------------------
+ */	.byte	W02
+	.byte		N04   , Fn2 , v032
+	.byte	W02
+	.byte		        Gn2 , v024
+	.byte	W01
+	.byte		        An2 , v032
+	.byte	W02
+	.byte		        Bn2 , v036
+	.byte	W02
+	.byte		N03   , Cn3 
+	.byte	W02
+	.byte		N02   , Dn3 , v024
+	.byte	W01
+	.byte		N16   , Fn3 , v108
+	.byte	W20
+	.byte		N10   , Fn3 , v104
+	.byte	W12
+	.byte		N24   , Fn3 , v100
+	.byte	W24
+	.byte	W02
+	.byte		N02   , En3 , v036
+	.byte	W01
+	.byte		        Dn3 , v048
+	.byte	W01
+	.byte		        Cn3 , v056
+	.byte	W01
+	.byte		        Bn2 
+	.byte	W02
+	.byte		        An2 
+	.byte	W01
+	.byte		        Gn2 , v052
+	.byte	W01
+	.byte		N01   , Fn2 , v040
+	.byte	W17
+	.byte		N02   , En2 , v084
+	.byte		N04   , Fn2 
+	.byte	W02
+/* 026   ----------------------------------------
+ */	.byte	W02
+	.byte		N02   , Gn2 , v020
+	.byte	W01
+	.byte		        An2 , v056
+	.byte	W02
+	.byte		        Bn2 , v052
+	.byte	W01
+	.byte		        Cn3 
+	.byte	W02
+	.byte		N03   , Dn3 , v036
+	.byte	W03
+	.byte		N17   , Ds3 , v116
+	.byte	W20
+	.byte		N14   , Ds3 , v124
+	.byte	W15
+	.byte		N17   , Ds3 , v104
+	.byte	W20
+	.byte		N14   , Ds3 , v108
+	.byte	W16
+	.byte		N13   
+	.byte	W13
+	.byte		N01   , En2 , v072
+	.byte		N03   , Fn2 , v076
+	.byte	W01
+/* 027   ----------------------------------------
+ */	.byte	W01
+	.byte		        Gn2 , v032
+	.byte	W02
+	.byte		        An2 , v048
+	.byte	W02
+	.byte		        Bn2 , v036
+	.byte	W02
+	.byte		        Cn3 , v048
+	.byte	W01
+	.byte		N04   , Dn3 , v056
+	.byte	W04
+	.byte		N16   , Fn3 , v100
+	.byte	W20
+	.byte		N11   , Fn3 , v108
+	.byte	W12
+	.byte		N24   , Fn3 , v112
+	.byte	W24
+	.byte		N02   , En3 , v036
+	.byte	W02
+	.byte		        Dn3 , v056
+	.byte	W02
+	.byte		N01   , Cn3 , v044
+	.byte	W01
+	.byte		N02   , Bn2 , v036
+	.byte	W01
+	.byte		N01   , An2 
+	.byte	W02
+	.byte		        Gn2 , v032
+	.byte	W01
+	.byte		        Fn2 , v028
+	.byte	W02
+	.byte		        En2 
+	.byte	W17
+/* 028   ----------------------------------------
+ */	.byte		        En2 , v076
+	.byte	W01
+	.byte		N02   , Fn2 , v044
+	.byte	W02
+	.byte		        Gn2 , v076
+	.byte	W01
+	.byte		        An2 , v092
+	.byte	W02
+	.byte		        Bn2 , v072
+	.byte	W01
+	.byte		N03   , Cn3 , v052
+	.byte	W03
+	.byte		N02   , Dn3 , v028
+	.byte	W01
+	.byte		N16   , Ds3 , v108
+	.byte	W20
+	.byte		N13   , Ds3 , v112
+	.byte	W15
+	.byte		N19   , Ds3 , v104
+	.byte	W21
+	.byte		N15   , Ds3 , v108
+	.byte	W16
+	.byte		N13   , Ds3 , v112
+	.byte	W13
+/* 029   ----------------------------------------
+ */	.byte	W96
+/* 030   ----------------------------------------
+ */	.byte	W96
+/* 031   ----------------------------------------
+ */	.byte	W96
+/* 032   ----------------------------------------
+ */	.byte	W96
+/* 033   ----------------------------------------
+ */	.byte	W96
+/* 034   ----------------------------------------
+ */	.byte	W96
+/* 035   ----------------------------------------
+ */	.byte	W96
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_7_B1
+mus_music_plant__act_2_7_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 8 (Midi-Chn.8) **************** */
+
+mus_music_plant__act_2_8:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 74
+	.byte		PAN   , c_v+40
+	.byte		VOL   , 106*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+/* 001   ----------------------------------------
+ */	.byte	W96
+/* 002   ----------------------------------------
+ */	.byte	W96
+mus_music_plant__act_2_8_B1:
+/* 003   ----------------------------------------
+ */	.byte	W96
+/* 004   ----------------------------------------
+ */	.byte		N04   , Gs3 , v100
+	.byte	W12
+	.byte		N04   
+	.byte	W08
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W12
+	.byte		        An3 
+	.byte	W12
+/* 005   ----------------------------------------
+ */	.byte		        As3 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W08
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W52
+/* 006   ----------------------------------------
+ */	.byte	W96
+/* 007   ----------------------------------------
+ */	.byte	W96
+/* 008   ----------------------------------------
+ */	.byte	W96
+/* 009   ----------------------------------------
+ */	.byte	W96
+/* 010   ----------------------------------------
+ */	.byte	W96
+/* 011   ----------------------------------------
+ */	.byte	W96
+/* 012   ----------------------------------------
+ */	.byte	W96
+/* 013   ----------------------------------------
+ */	.byte	W96
+/* 014   ----------------------------------------
+ */	.byte	W96
+/* 015   ----------------------------------------
+ */	.byte	W96
+/* 016   ----------------------------------------
+ */	.byte	W96
+/* 017   ----------------------------------------
+ */	.byte	W96
+/* 018   ----------------------------------------
+ */	.byte	W96
+/* 019   ----------------------------------------
+ */	.byte	W96
+/* 020   ----------------------------------------
+ */	.byte	W96
+/* 021   ----------------------------------------
+ */	.byte	W96
+/* 022   ----------------------------------------
+ */	.byte	W96
+/* 023   ----------------------------------------
+ */	.byte	W96
+/* 024   ----------------------------------------
+ */	.byte	W96
+/* 025   ----------------------------------------
+ */	.byte	W96
+/* 026   ----------------------------------------
+ */	.byte	W96
+/* 027   ----------------------------------------
+ */	.byte	W96
+/* 028   ----------------------------------------
+ */	.byte	W96
+/* 029   ----------------------------------------
+ */	.byte	W96
+/* 030   ----------------------------------------
+ */	.byte	W96
+/* 031   ----------------------------------------
+ */	.byte	W96
+/* 032   ----------------------------------------
+ */	.byte	W96
+/* 033   ----------------------------------------
+ */	.byte	W96
+/* 034   ----------------------------------------
+ */	.byte	W96
+/* 035   ----------------------------------------
+ */	.byte	W96
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_8_B1
+mus_music_plant__act_2_8_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 9 (Midi-Chn.9) **************** */
+
+mus_music_plant__act_2_9:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 93
+	.byte		VOL   , 106*mus_music_plant__act_2_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte	W03
+/* 001   ----------------------------------------
+ */	.byte	W96
+/* 002   ----------------------------------------
+ */	.byte	W96
+mus_music_plant__act_2_9_B1:
+/* 003   ----------------------------------------
+ */	.byte	W96
+/* 004   ----------------------------------------
+ */	.byte	W96
+/* 005   ----------------------------------------
+ */	.byte	W54
+	.byte	W01
+	.byte		N02   , En3 , v080
+	.byte	W01
+	.byte		N04   , Fn3 , v100
+	.byte	W04
+	.byte		N08   , Gn3 
+	.byte	W08
+	.byte		N04   , Fn3 , v080
+	.byte	W04
+	.byte		N02   , Dn3 
+	.byte	W01
+	.byte		N07   , Ds3 , v112
+	.byte	W07
+	.byte		N04   , Dn3 , v092
+	.byte	W04
+	.byte		N08   , Cn3 , v100
+	.byte	W08
+	.byte		N04   , As2 , v080
+	.byte	W04
+/* 006   ----------------------------------------
+ */mus_music_plant__act_2_9_006:
+	.byte		N02   , Bn2 , v080
+	.byte	W01
+	.byte		N06   , Cn3 , v100
+	.byte	W11
+	.byte		        Fn2 , v092
+	.byte	W12
+	.byte		N08   , Ds3 , v108
+	.byte	W08
+	.byte		N06   , Dn3 , v100
+	.byte	W12
+	.byte		N04   , Cn3 
+	.byte	W12
+	.byte		N12   , Fn2 , v092
+	.byte	W16
+	.byte		N06   , Cn3 , v100
+	.byte	W12
+	.byte		        Fn2 , v092
+	.byte	W12
+	.byte	PEND
+/* 007   ----------------------------------------
+ */mus_music_plant__act_2_9_007:
+	.byte		N02   , An2 , v080
+	.byte	W01
+	.byte		N06   , As2 , v100
+	.byte	W11
+	.byte		        Fn2 , v092
+	.byte	W12
+	.byte		N08   , Dn3 , v108
+	.byte	W08
+	.byte		N06   , Cn3 , v100
+	.byte	W12
+	.byte		N04   , As2 
+	.byte	W11
+	.byte		N02   , An2 , v080
+	.byte	W01
+	.byte		N06   , As2 , v112
+	.byte	W12
+	.byte		        Fn2 , v100
+	.byte	W04
+	.byte		        Dn3 , v116
+	.byte	W12
+	.byte		        As2 , v100
+	.byte	W12
+	.byte	PEND
+/* 008   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_9_006
+/* 009   ----------------------------------------
+ */	.byte		N02   , An2 , v080
+	.byte	W01
+	.byte		N06   , As2 , v100
+	.byte	W11
+	.byte		        Fn2 , v092
+	.byte	W12
+	.byte		N08   , Dn3 , v108
+	.byte	W08
+	.byte		N06   , Cn3 , v100
+	.byte	W12
+	.byte		N04   , As2 
+	.byte	W12
+	.byte		        Gs2 
+	.byte	W04
+	.byte		N08   , As2 
+	.byte	W08
+	.byte		N04   , Cn3 
+	.byte	W04
+	.byte		N08   , Cs3 
+	.byte	W08
+	.byte		N04   , Dn3 
+	.byte	W04
+	.byte		N08   , Ds3 
+	.byte	W08
+	.byte		N04   , Fn3 
+	.byte	W04
+/* 010   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_9_006
+/* 011   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_9_007
+/* 012   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_9_006
+/* 013   ----------------------------------------
+ */	.byte		N02   , An2 , v080
+	.byte	W01
+	.byte		N06   , As2 , v100
+	.byte	W11
+	.byte		        Fn2 , v092
+	.byte	W12
+	.byte		N08   , Dn3 , v108
+	.byte	W08
+	.byte		N06   , Cn3 , v100
+	.byte	W12
+	.byte		N04   , As2 
+	.byte	W12
+	.byte		N06   , As2 , v120
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N06   
+	.byte	W12
+	.byte		N08   
+	.byte	W08
+	.byte		N04   , Bn2 
+	.byte	W04
+/* 014   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_9_006
+/* 015   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_9_007
+/* 016   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_9_006
+/* 017   ----------------------------------------
+ */	.byte		N02   , An2 , v080
+	.byte	W01
+	.byte		N06   , As2 , v100
+	.byte	W11
+	.byte		        Fn2 , v092
+	.byte	W12
+	.byte		N08   , Dn3 , v108
+	.byte	W08
+	.byte		N06   , Cn3 , v100
+	.byte	W12
+	.byte		N04   , As2 
+	.byte	W11
+	.byte		N02   , An3 , v092
+	.byte	W01
+	.byte		N06   , As3 , v120
+	.byte	W12
+	.byte		N04   , As3 , v112
+	.byte	W04
+	.byte		N06   
+	.byte	W11
+	.byte		N02   , Gs3 , v080
+	.byte	W01
+	.byte		N08   , An3 , v112
+	.byte	W08
+	.byte		N04   , Gs3 
+	.byte	W04
+/* 018   ----------------------------------------
+ */	.byte		N02   , Fs3 , v080
+	.byte	W01
+	.byte		N06   , Gn3 , v100
+	.byte	W11
+	.byte		        Fn3 , v092
+	.byte	W12
+	.byte		N08   , Ds3 , v108
+	.byte	W08
+	.byte		N06   , Dn3 , v100
+	.byte	W12
+	.byte		N04   , Cn3 
+	.byte	W12
+	.byte		        Fn2 
+	.byte	W04
+	.byte		N08   , Gn2 , v112
+	.byte	W08
+	.byte		N04   , Gs2 
+	.byte	W04
+	.byte		N02   , Gs2 , v080
+	.byte	W01
+	.byte		N07   , An2 , v112
+	.byte	W07
+	.byte		N04   , Gs2 
+	.byte	W04
+	.byte		N08   , An2 
+	.byte	W08
+	.byte		N04   , As2 
+	.byte	W04
+/* 019   ----------------------------------------
+ */	.byte		N02   , An2 , v080
+	.byte	W01
+	.byte		N06   , As2 , v100
+	.byte	W11
+	.byte		        Cn3 , v092
+	.byte	W12
+	.byte		N08   , Dn3 , v108
+	.byte	W08
+	.byte		N06   , Cn3 , v100
+	.byte	W12
+	.byte		N04   , As2 
+	.byte	W11
+	.byte		N02   , An2 , v080
+	.byte	W01
+	.byte		N06   , As2 , v112
+	.byte	W12
+	.byte		        Fn3 , v100
+	.byte	W04
+	.byte		        Dn3 , v116
+	.byte	W12
+	.byte		        As2 , v100
+	.byte	W12
+/* 020   ----------------------------------------
+ */	.byte		N02   , Bn2 , v080
+	.byte	W01
+	.byte		N06   , Cn3 , v100
+	.byte	W11
+	.byte		        Fn2 , v092
+	.byte	W12
+	.byte		N08   , Ds3 , v108
+	.byte	W08
+	.byte		N06   , Dn3 , v100
+	.byte	W12
+	.byte		N04   , Cn3 
+	.byte	W12
+	.byte		N06   , Fn2 , v092
+	.byte	W12
+	.byte		N04   , Fn2 , v100
+	.byte	W04
+	.byte		N06   , Cn3 
+	.byte	W12
+	.byte		        Fn2 , v092
+	.byte	W12
+/* 021   ----------------------------------------
+ */	.byte		N02   , Dn2 , v080
+	.byte	W01
+	.byte		N06   , Ds2 , v100
+	.byte	W11
+	.byte		        Fn2 , v092
+	.byte	W08
+	.byte		N04   , Fs2 , v096
+	.byte	W12
+	.byte		        Gn2 , v100
+	.byte	W11
+	.byte		N02   , Gn2 , v080
+	.byte	W01
+	.byte		N04   , Gs2 , v100
+	.byte	W12
+	.byte		        An2 , v108
+	.byte	W12
+	.byte		N12   , As2 , v112
+	.byte	W28
+/* 022   ----------------------------------------
+ */	.byte		N02   , An2 , v080
+	.byte	W01
+	.byte		N06   , As2 , v100
+	.byte	W11
+	.byte		        Ds2 , v092
+	.byte	W11
+	.byte		N02   , Cn3 
+	.byte	W01
+	.byte		N08   , Cs3 , v108
+	.byte	W08
+	.byte		N06   , Cn3 , v100
+	.byte	W12
+	.byte		N04   , As2 
+	.byte	W12
+	.byte		N06   , Ds2 , v112
+	.byte	W12
+	.byte		N04   , Ds2 , v100
+	.byte	W04
+	.byte		N06   , As2 
+	.byte	W12
+	.byte		        Ds2 , v092
+	.byte	W12
+/* 023   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_9_007
+/* 024   ----------------------------------------
+ */	.byte		N02   , Bn2 , v080
+	.byte	W01
+	.byte		N06   , Cn3 , v100
+	.byte	W11
+	.byte		        Fn2 , v092
+	.byte	W12
+	.byte		N08   , Ds3 , v108
+	.byte	W08
+	.byte		N06   , Dn3 , v100
+	.byte	W12
+	.byte		N04   , Cn3 
+	.byte	W12
+	.byte		N06   , Fn2 , v112
+	.byte	W12
+	.byte		N04   , Fn2 , v100
+	.byte	W04
+	.byte		N06   , Cn3 
+	.byte	W12
+	.byte		        Fn2 , v092
+	.byte	W12
+/* 025   ----------------------------------------
+ */	.byte		N12   , Fn2 , v120
+	.byte	W12
+	.byte		N08   , Dn3 
+	.byte	W08
+	.byte		N06   , As2 
+	.byte	W12
+	.byte		        Fn2 
+	.byte	W12
+	.byte		        Dn3 
+	.byte	W12
+	.byte		        As2 
+	.byte	W12
+	.byte		        Fn2 
+	.byte	W04
+	.byte		        Dn3 
+	.byte	W12
+	.byte		        As2 
+	.byte	W12
+/* 026   ----------------------------------------
+ */mus_music_plant__act_2_9_026:
+	.byte		N12   , Gs2 , v120
+	.byte	W12
+	.byte		N06   , Ds3 
+	.byte	W08
+	.byte		        Cn3 
+	.byte	W12
+	.byte		        Gs2 
+	.byte	W12
+	.byte		        Ds3 
+	.byte	W12
+	.byte		        Cn3 
+	.byte	W12
+	.byte		        Gs2 
+	.byte	W04
+	.byte		        Ds3 
+	.byte	W12
+	.byte		        Cn3 
+	.byte	W12
+	.byte	PEND
+/* 027   ----------------------------------------
+ */	.byte		N12   , As2 
+	.byte	W12
+	.byte		N06   , Fn3 
+	.byte	W08
+	.byte		        Dn3 
+	.byte	W12
+	.byte		        As2 
+	.byte	W12
+	.byte		        Fn3 
+	.byte	W12
+	.byte		        Dn3 
+	.byte	W12
+	.byte		        As2 
+	.byte	W04
+	.byte		        Fn3 
+	.byte	W12
+	.byte		        Dn3 
+	.byte	W12
+/* 028   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_9_026
+/* 029   ----------------------------------------
+ */	.byte		N05   , As2 , v120
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N08   
+	.byte	W20
+	.byte		N08   
+	.byte	W08
+	.byte		        Bn2 
+	.byte	W08
+	.byte		N24   , Cn3 
+	.byte	W48
+/* 030   ----------------------------------------
+ */	.byte	W96
+/* 031   ----------------------------------------
+ */	.byte	W96
+/* 032   ----------------------------------------
+ */	.byte	W96
+/* 033   ----------------------------------------
+ */	.byte	W96
+/* 034   ----------------------------------------
+ */	.byte	W96
+/* 035   ----------------------------------------
+ */	.byte	W96
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_9_B1
+mus_music_plant__act_2_9_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 10 (Midi-Chn.10) **************** */
+
+mus_music_plant__act_2_10:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 78
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 106*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+/* 001   ----------------------------------------
+ */mus_music_plant__act_2_10_001:
+	.byte		N24   , Ds3 , v100
+	.byte	W24
+	.byte		N18   , En3 
+	.byte	W18
+	.byte		N06   , Fn3 
+	.byte	W54
+	.byte	PEND
+/* 002   ----------------------------------------
+ */	.byte	W96
+mus_music_plant__act_2_10_B1:
+/* 003   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_10_001
+/* 004   ----------------------------------------
+ */	.byte	W96
+/* 005   ----------------------------------------
+ */	.byte	W96
+/* 006   ----------------------------------------
+ */	.byte	W96
+/* 007   ----------------------------------------
+ */	.byte	W96
+/* 008   ----------------------------------------
+ */	.byte	W96
+/* 009   ----------------------------------------
+ */	.byte	W96
+/* 010   ----------------------------------------
+ */	.byte	W96
+/* 011   ----------------------------------------
+ */	.byte	W96
+/* 012   ----------------------------------------
+ */	.byte	W96
+/* 013   ----------------------------------------
+ */	.byte	W96
+/* 014   ----------------------------------------
+ */	.byte	W96
+/* 015   ----------------------------------------
+ */	.byte	W96
+/* 016   ----------------------------------------
+ */	.byte	W96
+/* 017   ----------------------------------------
+ */	.byte	W96
+/* 018   ----------------------------------------
+ */	.byte	W96
+/* 019   ----------------------------------------
+ */	.byte	W96
+/* 020   ----------------------------------------
+ */	.byte	W96
+/* 021   ----------------------------------------
+ */	.byte	W96
+/* 022   ----------------------------------------
+ */	.byte	W96
+/* 023   ----------------------------------------
+ */	.byte	W96
+/* 024   ----------------------------------------
+ */	.byte	W96
+/* 025   ----------------------------------------
+ */	.byte	W96
+/* 026   ----------------------------------------
+ */	.byte	W96
+/* 027   ----------------------------------------
+ */	.byte	W96
+/* 028   ----------------------------------------
+ */	.byte	W96
+/* 029   ----------------------------------------
+ */	.byte	W96
+/* 030   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_10_001
+/* 031   ----------------------------------------
+ */	.byte	W96
+/* 032   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_10_001
+/* 033   ----------------------------------------
+ */	.byte	W96
+/* 034   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_10_001
+/* 035   ----------------------------------------
+ */	.byte	W96
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_10_B1
+mus_music_plant__act_2_10_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 11 (Midi-Chn.11) **************** */
+
+mus_music_plant__act_2_11:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 111
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 106*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+/* 001   ----------------------------------------
+ */	.byte	W96
+/* 002   ----------------------------------------
+ */mus_music_plant__act_2_11_002:
+	.byte		N24   , Cn3 , v100
+	.byte	W24
+	.byte		N18   , Cs3 
+	.byte	W18
+	.byte		N06   , Dn3 
+	.byte	W54
+	.byte	PEND
+mus_music_plant__act_2_11_B1:
+/* 003   ----------------------------------------
+ */	.byte	W96
+/* 004   ----------------------------------------
+ */	.byte		N04   , Cn3 , v100
+	.byte	W12
+	.byte		N04   
+	.byte	W08
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W12
+	.byte		        Cs3 
+	.byte	W12
+/* 005   ----------------------------------------
+ */	.byte		        Dn3 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W08
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W52
+/* 006   ----------------------------------------
+ */	.byte	W96
+/* 007   ----------------------------------------
+ */	.byte	W96
+/* 008   ----------------------------------------
+ */	.byte	W96
+/* 009   ----------------------------------------
+ */	.byte	W96
+/* 010   ----------------------------------------
+ */	.byte	W96
+/* 011   ----------------------------------------
+ */	.byte	W96
+/* 012   ----------------------------------------
+ */	.byte	W96
+/* 013   ----------------------------------------
+ */	.byte	W96
+/* 014   ----------------------------------------
+ */	.byte	W96
+/* 015   ----------------------------------------
+ */	.byte	W96
+/* 016   ----------------------------------------
+ */	.byte	W96
+/* 017   ----------------------------------------
+ */	.byte	W96
+/* 018   ----------------------------------------
+ */	.byte	W96
+/* 019   ----------------------------------------
+ */	.byte	W96
+/* 020   ----------------------------------------
+ */	.byte	W96
+/* 021   ----------------------------------------
+ */	.byte	W96
+/* 022   ----------------------------------------
+ */	.byte	W96
+/* 023   ----------------------------------------
+ */	.byte	W96
+/* 024   ----------------------------------------
+ */	.byte	W96
+/* 025   ----------------------------------------
+ */	.byte	W96
+/* 026   ----------------------------------------
+ */	.byte	W96
+/* 027   ----------------------------------------
+ */	.byte	W96
+/* 028   ----------------------------------------
+ */	.byte	W96
+/* 029   ----------------------------------------
+ */	.byte		N05   , Dn3 , v120
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N08   
+	.byte	W20
+	.byte		N08   
+	.byte	W08
+	.byte		        Ds3 
+	.byte	W08
+	.byte		N24   , En3 
+	.byte	W48
+/* 030   ----------------------------------------
+ */	.byte	W96
+/* 031   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_11_002
+/* 032   ----------------------------------------
+ */	.byte	W96
+/* 033   ----------------------------------------
+ */	.byte		N24   , Dn3 , v100
+	.byte	W24
+	.byte		N18   , Cs3 
+	.byte	W18
+	.byte		N06   , Cn3 
+	.byte	W54
+/* 034   ----------------------------------------
+ */	.byte	W96
+/* 035   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_11_002
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_11_B1
+mus_music_plant__act_2_11_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 12 (Midi-Chn.12) **************** */
+
+mus_music_plant__act_2_12:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 99
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 106*mus_music_plant__act_2_mvl/mxv
+	.byte	W03
+/* 001   ----------------------------------------
+ */	.byte	W96
+/* 002   ----------------------------------------
+ */	.byte	W96
+mus_music_plant__act_2_12_B1:
+/* 003   ----------------------------------------
+ */mus_music_plant__act_2_12_003:
+	.byte		N24   , Gs3 , v100
+	.byte	W24
+	.byte		N18   , An3 
+	.byte	W18
+	.byte		N06   , As3 
+	.byte	W54
+	.byte	PEND
+/* 004   ----------------------------------------
+ */	.byte	W96
+/* 005   ----------------------------------------
+ */	.byte	W96
+/* 006   ----------------------------------------
+ */	.byte	W96
+/* 007   ----------------------------------------
+ */	.byte	W96
+/* 008   ----------------------------------------
+ */	.byte	W96
+/* 009   ----------------------------------------
+ */	.byte	W96
+/* 010   ----------------------------------------
+ */	.byte	W96
+/* 011   ----------------------------------------
+ */	.byte	W96
+/* 012   ----------------------------------------
+ */	.byte	W96
+/* 013   ----------------------------------------
+ */	.byte	W96
+/* 014   ----------------------------------------
+ */	.byte	W96
+/* 015   ----------------------------------------
+ */	.byte	W96
+/* 016   ----------------------------------------
+ */	.byte	W96
+/* 017   ----------------------------------------
+ */	.byte	W96
+/* 018   ----------------------------------------
+ */	.byte	W96
+/* 019   ----------------------------------------
+ */	.byte	W96
+/* 020   ----------------------------------------
+ */	.byte	W96
+/* 021   ----------------------------------------
+ */	.byte	W96
+/* 022   ----------------------------------------
+ */	.byte	W96
+/* 023   ----------------------------------------
+ */	.byte	W96
+/* 024   ----------------------------------------
+ */	.byte	W96
+/* 025   ----------------------------------------
+ */	.byte	W96
+/* 026   ----------------------------------------
+ */	.byte	W96
+/* 027   ----------------------------------------
+ */	.byte	W96
+/* 028   ----------------------------------------
+ */	.byte	W96
+/* 029   ----------------------------------------
+ */	.byte	W96
+/* 030   ----------------------------------------
+ */	.byte	W96
+/* 031   ----------------------------------------
+ */	.byte	W96
+/* 032   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_12_003
+/* 033   ----------------------------------------
+ */	.byte		N24   , As3 , v100
+	.byte	W24
+	.byte		N18   , An3 
+	.byte	W18
+	.byte		N06   , Gs3 
+	.byte	W54
+/* 034   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_12_003
+/* 035   ----------------------------------------
+ */	.byte	W96
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_12_B1
+mus_music_plant__act_2_12_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* **************** Track 13 (Midi-Chn.13) **************** */
+
+mus_music_plant__act_2_13:
+	.byte	KEYSH , mus_music_plant__act_2_key+0
+/* 000   ----------------------------------------
+ */	.byte		VOICE , 88
+	.byte		VOL   , 122*mus_music_plant__act_2_mvl/mxv
+	.byte		PAN   , c_v-30
+	.byte	W03
+/* 001   ----------------------------------------
+ */	.byte	W96
+/* 002   ----------------------------------------
+ */mus_music_plant__act_2_13_002:
+	.byte	W54
+	.byte	W01
+	.byte		N02   , En3 , v100
+	.byte	W01
+	.byte		N16   , Fn3 
+	.byte	W16
+	.byte		N08   , Ds3 
+	.byte	W08
+	.byte		N04   , Dn3 
+	.byte	W04
+	.byte		N08   , Cn3 
+	.byte	W08
+	.byte		N04   , As2 
+	.byte	W04
+	.byte	PEND
+mus_music_plant__act_2_13_B1:
+/* 003   ----------------------------------------
+ */mus_music_plant__act_2_13_003:
+	.byte		N18   , Gs2 , v092
+	.byte	W24
+	.byte		        An2 , v100
+	.byte	W18
+	.byte		N06   , As2 
+	.byte	W54
+	.byte	PEND
+/* 004   ----------------------------------------
+ */	.byte		N04   , Cn3 
+	.byte	W12
+	.byte		N04   
+	.byte	W08
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W12
+	.byte		        Cs3 
+	.byte	W12
+/* 005   ----------------------------------------
+ */	.byte		        Dn3 
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N04   
+	.byte	W08
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N04   
+	.byte	W52
+/* 006   ----------------------------------------
+ */	.byte	W96
+/* 007   ----------------------------------------
+ */	.byte	W96
+/* 008   ----------------------------------------
+ */	.byte	W96
+/* 009   ----------------------------------------
+ */	.byte	W96
+/* 010   ----------------------------------------
+ */	.byte	W96
+/* 011   ----------------------------------------
+ */	.byte	W96
+/* 012   ----------------------------------------
+ */	.byte	W96
+/* 013   ----------------------------------------
+ */	.byte	W96
+/* 014   ----------------------------------------
+ */	.byte	W96
+/* 015   ----------------------------------------
+ */	.byte	W96
+/* 016   ----------------------------------------
+ */	.byte	W96
+/* 017   ----------------------------------------
+ */	.byte	W96
+/* 018   ----------------------------------------
+ */	.byte	W96
+/* 019   ----------------------------------------
+ */	.byte	W96
+/* 020   ----------------------------------------
+ */	.byte	W96
+/* 021   ----------------------------------------
+ */	.byte	W96
+/* 022   ----------------------------------------
+ */	.byte	W96
+/* 023   ----------------------------------------
+ */	.byte	W96
+/* 024   ----------------------------------------
+ */	.byte	W96
+/* 025   ----------------------------------------
+ */	.byte	W96
+/* 026   ----------------------------------------
+ */	.byte	W96
+/* 027   ----------------------------------------
+ */	.byte	W96
+/* 028   ----------------------------------------
+ */	.byte	W96
+/* 029   ----------------------------------------
+ */	.byte		N05   , As2 , v120
+	.byte	W08
+	.byte		N04   
+	.byte	W04
+	.byte		N08   
+	.byte	W20
+	.byte		N08   
+	.byte	W08
+	.byte		        Bn2 
+	.byte	W08
+	.byte		N24   , Cn3 
+	.byte	W48
+/* 030   ----------------------------------------
+ */	.byte	W96
+/* 031   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_13_002
+/* 032   ----------------------------------------
+ */	.byte	PATT
+	 mPtr	mus_music_plant__act_2_13_003
+/* 033   ----------------------------------------
+ */	.byte	W96
+/* 034   ----------------------------------------
+ */	.byte		N24   , Cn3 , v100
+	.byte	W24
+	.byte		N18   , Cs3 
+	.byte	W18
+	.byte		N06   , Dn3 
+	.byte	W54
+/* 035   ----------------------------------------
+ */	.byte		N24   , Ds3 
+	.byte	W24
+	.byte		N18   , En3 
+	.byte	W18
+	.byte		N06   , Fn3 
+	.byte	W13
+	.byte		N02   , En3 
+	.byte	W01
+	.byte		N16   , Fn3 
+	.byte	W16
+	.byte		N08   , Ds3 
+	.byte	W08
+	.byte		N04   , Dn3 
+	.byte	W04
+	.byte		N08   , Cn3 
+	.byte	W08
+	.byte		N04   , As2 
+	.byte	W04
+	.byte	GOTO
+	 mPtr	mus_music_plant__act_2_13_B1
+mus_music_plant__act_2_13_B2:
+/* 036   ----------------------------------------
+ */	.byte	W96
+/* 037   ----------------------------------------
+ */	.byte	FINE
+
+/* ****************************************************** */
+	mAlignWord
+
+C_DECL(mus_music_plant__act_2):
+	.byte	13	/* NumTrks */
+	.byte	0	/* NumBlks */
+	.byte	mus_music_plant__act_2_pri	/* Priority */
+	.byte	mus_music_plant__act_2_rev	/* Reverb */
+
+mAlignWord
+	mPtr	mus_music_plant__act_2_grp
+
+	mPtr	mus_music_plant__act_2_1
+	mPtr	mus_music_plant__act_2_2
+	mPtr	mus_music_plant__act_2_3
+	mPtr	mus_music_plant__act_2_4
+	mPtr	mus_music_plant__act_2_5
+	mPtr	mus_music_plant__act_2_6
+	mPtr	mus_music_plant__act_2_7
+	mPtr	mus_music_plant__act_2_8
+	mPtr	mus_music_plant__act_2_9
+	mPtr	mus_music_plant__act_2_10
+	mPtr	mus_music_plant__act_2_11
+	mPtr	mus_music_plant__act_2_12
+	mPtr	mus_music_plant__act_2_13
+
+	.end
