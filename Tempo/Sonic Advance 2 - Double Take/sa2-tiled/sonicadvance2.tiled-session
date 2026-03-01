@@ -1,10 +1,10 @@
 {
     "activeFile": "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 2.salv",
     "expandedProjectPaths": [
-        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels",
-        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels",
-        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels"
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels",
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -141,11 +141,11 @@
             "scaleInDock": 1
         },
         "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 2.salv": {
-            "scale": 0.5,
-            "selectedLayer": 1,
+            "scale": 0.75,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 18153,
-                "y": 1889
+                "x": 4735.333333333333,
+                "y": 1179.3333333333333
             }
         },
         "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 2.salv#Chunks": {
