@@ -1,0 +1,30 @@
+build/gba/sa2/src/game/special_stage/utils.o: include/animation_commands.h include/config.h include/constants/zones.h include/core.h include/data/sprite_data.h include/flags.h include/game/special_stage/data.h include/game/special_stage/main.h include/game/special_stage/utils.h include/game/special_stage/world.h include/game/stage/screen_fade.h include/gba/cpuset_macros.h include/gba/defines.h include/gba/dma_macros.h include/gba/gba.h include/gba/io_reg.h include/gba/isagbprint.h include/gba/macro.h include/gba/multiboot.h include/gba/syscall.h include/gba/types.h include/global.h include/input_recorder.h include/malloc_vram.h include/sprite.h include/task.h include/tilemap.h include/trig.h
+build/gba/sa2/src/game/special_stage/utils.d: include/animation_commands.h include/config.h include/constants/zones.h include/core.h include/data/sprite_data.h include/flags.h include/game/special_stage/data.h include/game/special_stage/main.h include/game/special_stage/utils.h include/game/special_stage/world.h include/game/stage/screen_fade.h include/gba/cpuset_macros.h include/gba/defines.h include/gba/dma_macros.h include/gba/gba.h include/gba/io_reg.h include/gba/isagbprint.h include/gba/macro.h include/gba/multiboot.h include/gba/syscall.h include/gba/types.h include/global.h include/input_recorder.h include/malloc_vram.h include/sprite.h include/task.h include/tilemap.h include/trig.h
+include/animation_commands.h:
+include/config.h:
+include/constants/zones.h:
+include/core.h:
+include/data/sprite_data.h:
+include/flags.h:
+include/game/special_stage/data.h:
+include/game/special_stage/main.h:
+include/game/special_stage/utils.h:
+include/game/special_stage/world.h:
+include/game/stage/screen_fade.h:
+include/gba/cpuset_macros.h:
+include/gba/defines.h:
+include/gba/dma_macros.h:
+include/gba/gba.h:
+include/gba/io_reg.h:
+include/gba/isagbprint.h:
+include/gba/macro.h:
+include/gba/multiboot.h:
+include/gba/syscall.h:
+include/gba/types.h:
+include/global.h:
+include/input_recorder.h:
+include/malloc_vram.h:
+include/sprite.h:
+include/task.h:
+include/tilemap.h:
+include/trig.h:

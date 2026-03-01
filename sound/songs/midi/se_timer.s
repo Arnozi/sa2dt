@@ -15,12 +15,12 @@
 	.global	C_DECL(se_timer)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_timer_1:
 	.byte	KEYSH , se_timer_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_timer_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_timer_tbs/2
 	.byte		VOICE , 64
 	.byte		VOL   , 127*se_timer_mvl/mxv
 	.byte		LFOS  , 15
@@ -35,14 +35,14 @@ se_timer_1:
 	.byte	W03
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_timer):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_timer_pri	/* Priority */
-	.byte	se_timer_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_timer_pri	@ Priority
+	.byte	se_timer_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_timer_grp

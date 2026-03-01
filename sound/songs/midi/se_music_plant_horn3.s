@@ -15,12 +15,12 @@
 	.global	C_DECL(se_music_plant_horn3)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_music_plant_horn3_1:
 	.byte	KEYSH , se_music_plant_horn3_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 90*se_music_plant_horn3_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 90*se_music_plant_horn3_tbs/2
 	.byte		VOICE , 25
 	.byte		VOL   , 127*se_music_plant_horn3_mvl/mxv
 	.byte		MODT  , 0
@@ -41,14 +41,14 @@ se_music_plant_horn3_1:
 	.byte	W03
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_music_plant_horn3):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_music_plant_horn3_pri	/* Priority */
-	.byte	se_music_plant_horn3_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_music_plant_horn3_pri	@ Priority
+	.byte	se_music_plant_horn3_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_music_plant_horn3_grp

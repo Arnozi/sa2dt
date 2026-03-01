@@ -1,0 +1,96 @@
+
+Discarded input sections
+
+ .data          0x00000000        0x0 build/subgame_bootstrap/asm/rom_header.o
+ .bss           0x00000000        0x0 build/subgame_bootstrap/asm/rom_header.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_bootstrap/asm/rom_header.o
+ .data          0x00000000        0x0 build/subgame_bootstrap/asm/loader.o
+ .bss           0x00000000        0x0 build/subgame_bootstrap/asm/loader.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_bootstrap/asm/loader.o
+ .text          0x00000000        0x0 build/subgame_bootstrap/data/data.o
+ .data          0x00000000        0x0 build/subgame_bootstrap/data/data.o
+ .bss           0x00000000        0x0 build/subgame_bootstrap/data/data.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_bootstrap/data/data.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x02000000                        . = 0x2000000
+
+.text           0x02000000      0x1b0
+ build/subgame_bootstrap/asm/rom_header.o(.text)
+ .text          0x02000000       0xc0 build/subgame_bootstrap/asm/rom_header.o
+                0x02000004                RomHeaderNintendoLogo
+                0x020000ac                RomHeaderGameCode
+                0x020000b2                RomHeaderMagic
+                0x020000bc                RomHeaderSoftwareVersion
+ build/subgame_bootstrap/asm/loader.o(.text)
+ .text          0x020000c0       0xf0 build/subgame_bootstrap/asm/loader.o
+                0x020000c0                start_vector
+
+.rodata         0x020001b0     0x2f9c
+ build/subgame_bootstrap/data/data.o(.rodata)
+ .rodata        0x020001b0     0x2f9c build/subgame_bootstrap/data/data.o
+                0x020001b0                gSubgameLoaderRom
+                0x02000000                        . = 0x2000000
+
+EWRAM           0x02000000    0x3b000
+                0x0003b000                        . = 0x3b000
+ *fill*         0x02000000    0x3b000 
+                0x0203b000                        gUnknown_0203B000 = .
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+/DISCARD/
+ *(*)
+LOAD build/subgame_bootstrap/asm/loader.o
+LOAD build/subgame_bootstrap/asm/rom_header.o
+LOAD build/subgame_bootstrap/data/data.o
+LOAD ../../tools/agbcc/lib/libgcc.a
+LOAD ../../tools/agbcc/lib/libc.a
+OUTPUT(subgame_bootstrap.elf elf32-littlearm)
+LOAD linker stubs

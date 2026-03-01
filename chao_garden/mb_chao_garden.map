@@ -1,0 +1,1705 @@
+Archive member included to satisfy reference by file (symbol)
+
+../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+                              build/mb_chao_garden/src/main.o (_call_via_r0)
+../tools/agbcc/lib/libgcc.a(_divsi3.o)
+                              build/mb_chao_garden/asm/code.o (__divsi3)
+../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+                              ../tools/agbcc/lib/libgcc.a(_divsi3.o) (__div0)
+../tools/agbcc/lib/libgcc.a(_modsi3.o)
+                              build/mb_chao_garden/asm/code.o (__modsi3)
+../tools/agbcc/lib/libc.a(memcpy.o)
+                              build/mb_chao_garden/asm/code.o (memcpy)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/mb_chao_garden/data/sound_data.o
+ .data          0x00000000        0x0 build/mb_chao_garden/data/sound_data.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/data/sound_data.o
+ .rodata        0x00000000       0x70 build/mb_chao_garden/src/agb_flash.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/agb_flash.o
+ .data          0x00000000        0x0 build/mb_chao_garden/asm/rom_header.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/asm/rom_header.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/asm/rom_header.o
+ .data          0x00000000        0x0 build/mb_chao_garden/asm/crt0.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/asm/crt0.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/asm/crt0.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/main.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/main.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/main.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/save.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/save.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/save.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/joy_bus.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/joy_bus.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/joy_bus.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/input.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/input.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/input.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/game.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/game.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/game.o
+ COMMON         0x00000000        0x0 build/mb_chao_garden/src/game.o
+ .data          0x00000000        0x0 build/mb_chao_garden/asm/code.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/asm/code.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/asm/code.o
+ .data          0x00000000        0x0 build/mb_chao_garden/asm/m4a0.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/asm/m4a0.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/asm/m4a0.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/m4a.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/m4a.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/m4a.o
+ .data          0x00000000        0x0 build/mb_chao_garden/asm/libagbsyscall.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/asm/libagbsyscall.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/asm/libagbsyscall.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/agb_flash_512k.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/agb_flash_512k.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/agb_flash_512k.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/agb_flash_le_512k.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/agb_flash_le_512k.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/agb_flash_le_512k.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/agb_flash_mx_512k.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/agb_flash_mx_512k.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/agb_flash_mx_512k.o
+ .text          0x00000000        0x0 build/mb_chao_garden/data/data.o
+ .data          0x00000000        0x0 build/mb_chao_garden/data/data.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/data/data.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/data/data.o
+ .text          0x00000000        0x0 build/mb_chao_garden/src/m4a_tables.o
+ .data          0x00000000        0x0 build/mb_chao_garden/src/m4a_tables.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/src/m4a_tables.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/src/m4a_tables.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/mus_garden.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/mus_garden.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/mus_garden.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/mus_garden.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/mus_goodbye_chao.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/mus_goodbye_chao.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/mus_goodbye_chao.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/mus_goodbye_chao.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/mus_minigame.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/mus_minigame.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/mus_minigame.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/mus_minigame.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_msgbox_select.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_msgbox_select.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_msgbox_select.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_msgbox_select.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_confirm.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_confirm.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_confirm.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_confirm.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0013.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0013.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0013.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0013.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_msgbox.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_msgbox.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_msgbox.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_msgbox.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_chao_walk.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_chao_walk.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_chao_walk.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_chao_walk.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0016.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0016.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0016.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0016.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0017.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0017.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0017.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0017.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0018.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0018.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0018.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0018.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0019.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0019.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0019.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0019.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_snore.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_snore.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_snore.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_snore.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0021.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0021.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0021.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0021.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_gauge_expands.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_gauge_expands.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_gauge_expands.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_gauge_expands.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_minigame_lost.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_minigame_lost.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_minigame_lost.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_minigame_lost.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0024.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0024.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0024.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0024.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0025.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0025.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0025.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0025.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0027.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0027.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0027.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0027.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0028.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0028.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0028.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0028.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0029.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0029.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0029.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0029.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0030.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0030.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0030.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0030.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_speech_bubble.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_speech_bubble.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_speech_bubble.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_speech_bubble.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0032.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0032.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0032.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0032.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_hatch.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_hatch.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_hatch.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_hatch.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0034.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0034.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/song0034.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/song0034.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_gauge_lvl_up.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_gauge_lvl_up.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_gauge_lvl_up.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_gauge_lvl_up.o
+ .text          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet_novice.o
+ .data          0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet_novice.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet_novice.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet_novice.o
+ .text          0x00000000        0x0 build/mb_chao_garden/data/data4.o
+ .data          0x00000000        0x0 build/mb_chao_garden/data/data4.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/data/data4.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/data/data4.o
+ .text          0x00000000        0x0 build/mb_chao_garden/data/data3.o
+ .data          0x00000000        0x0 build/mb_chao_garden/data/data3.o
+ .bss           0x00000000        0x0 build/mb_chao_garden/data/data3.o
+ .ARM.attributes
+                0x00000000       0x20 build/mb_chao_garden/data/data3.o
+ .data          0x00000000        0x0 ../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+ .bss           0x00000000        0x0 ../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+ .ARM.attributes
+                0x00000000       0x20 ../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+ .data          0x00000000        0x0 ../tools/agbcc/lib/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 ../tools/agbcc/lib/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000000       0x20 ../tools/agbcc/lib/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 ../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 ../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x20 ../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 ../tools/agbcc/lib/libgcc.a(_modsi3.o)
+ .bss           0x00000000        0x0 ../tools/agbcc/lib/libgcc.a(_modsi3.o)
+ .ARM.attributes
+                0x00000000       0x20 ../tools/agbcc/lib/libgcc.a(_modsi3.o)
+ .data          0x00000000        0x0 ../tools/agbcc/lib/libc.a(memcpy.o)
+ .bss           0x00000000        0x0 ../tools/agbcc/lib/libc.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x20 ../tools/agbcc/lib/libc.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000004                        gNumMusicPlayers = 0x4
+                0x00000000                        gMaxLines = 0x0
+                0x02000000                        . = 0x2000000
+
+EWRAM           0x02000000        0x8
+                0x00000008                        . = 0x8
+ *fill*         0x02000000        0x8 
+                0x02000008                        gUnknown_02000008 = .
+                0x03000000                        . = 0x3000000
+
+IWRAM           0x03000000     0x7ffa
+                0x00000000                        . = 0x0
+                0x03000000                        IntrMain_RAM = .
+                0x00000080                        . = 0x80
+ *fill*         0x03000000       0x80 
+                0x03000080                        gSaveSectorNum = .
+                0x00000084                        . = 0x84
+ *fill*         0x03000080        0x4 
+                0x03000084                        gSaveVersion = .
+                0x00000088                        . = 0x88
+ *fill*         0x03000084        0x4 
+                0x03000088                        gJoyBusIntrRAM = .
+                0x000005a8                        . = 0x5a8
+ *fill*         0x03000088      0x520 
+                0x030005a8                        gUnknown_030005A8 = .
+                0x000005ac                        . = 0x5ac
+ *fill*         0x030005a8        0x4 
+                0x030005ac                        gUnknown_030005AC = .
+                0x000005b0                        . = 0x5b0
+ *fill*         0x030005ac        0x4 
+                0x030005b0                        gUnknown_030005B0 = .
+                0x000005b1                        . = 0x5b1
+ *fill*         0x030005b0        0x1 
+                0x030005b1                        gUnknown_030005B1 = .
+                0x000005b4                        . = 0x5b4
+ *fill*         0x030005b1        0x3 
+                0x030005b4                        gUnknown_030005B4 = .
+                0x000005b8                        . = 0x5b8
+ *fill*         0x030005b4        0x4 
+                0x030005b8                        gUnknown_030005B8 = .
+                0x000005ba                        . = 0x5ba
+ *fill*         0x030005b8        0x2 
+                0x030005ba                        gUnknown_030005BA = .
+                0x000005bc                        . = 0x5bc
+ *fill*         0x030005ba        0x2 
+                0x030005bc                        gUnknown_030005BC = .
+                0x000005c0                        . = 0x5c0
+ *fill*         0x030005bc        0x4 
+                0x030005c0                        gUnknown_030005C0 = .
+                0x00000606                        . = 0x606
+ *fill*         0x030005c0       0x46 
+                0x03000606                        gUnknown_03000606 = .
+                0x00000607                        . = 0x607
+ *fill*         0x03000606        0x1 
+                0x03000607                        gUnknown_03000607 = .
+                0x00000608                        . = 0x608
+ *fill*         0x03000607        0x1 
+                0x03000608                        gUnknown_03000608 = .
+                0x00000610                        . = 0x610
+ *fill*         0x03000608        0x8 
+                0x03000610                        gUnknown_03000610 = .
+                0x00001030                        . = 0x1030
+ *fill*         0x03000610      0xa20 
+                0x03001030                        gUnknown_03001030 = .
+                0x00001076                        . = 0x1076
+ *fill*         0x03001030       0x46 
+                0x03001076                        gUnknown_03001076 = .
+                0x00001077                        . = 0x1077
+ *fill*         0x03001076        0x1 
+                0x03001077                        gUnknown_03001077 = .
+                0x00001078                        . = 0x1078
+ *fill*         0x03001077        0x1 
+                0x03001078                        gUnknown_03001078 = .
+                0x00001080                        . = 0x1080
+ *fill*         0x03001078        0x8 
+                0x03001080                        gUnknown_03001080 = .
+                0x00001088                        . = 0x1088
+ *fill*         0x03001080        0x8 
+                0x03001088                        gUnknown_03001088 = .
+                0x0000111c                        . = 0x111c
+ *fill*         0x03001088       0x94 
+                0x0300111c                        gUnknown_0300111C = .
+                0x00001120                        . = 0x1120
+ *fill*         0x0300111c        0x4 
+                0x03001120                        gUnknown_03001120 = .
+                0x00001140                        . = 0x1140
+ *fill*         0x03001120       0x20 
+                0x03001140                        gUnknown_03001140 = .
+                0x00001141                        . = 0x1141
+ *fill*         0x03001140        0x1 
+                0x03001141                        gUnknown_03001141 = .
+                0x00001142                        . = 0x1142
+ *fill*         0x03001141        0x1 
+                0x03001142                        gUnknown_03001142 = .
+                0x00001148                        . = 0x1148
+ *fill*         0x03001142        0x6 
+                0x03001148                        gUnknown_03001148 = .
+                0x000011d8                        . = 0x11d8
+ *fill*         0x03001148       0x90 
+                0x030011d8                        gUnknown_030011D8 = .
+                0x0000127a                        . = 0x127a
+ *fill*         0x030011d8       0xa2 
+                0x0300127a                        gUnknown_0300127A = .
+                0x00001280                        . = 0x1280
+ *fill*         0x0300127a        0x6 
+                0x03001280                        gUnknown_03001280 = .
+                0x00001380                        . = 0x1380
+ *fill*         0x03001280      0x100 
+                0x03001380                        gUnknown_03001380 = .
+                0x000013a0                        . = 0x13a0
+ *fill*         0x03001380       0x20 
+                0x030013a0                        gUnknown_030013A0 = .
+                0x000013a1                        . = 0x13a1
+ *fill*         0x030013a0        0x1 
+                0x030013a1                        gUnknown_030013A1 = .
+                0x000013a2                        . = 0x13a2
+ *fill*         0x030013a1        0x1 
+                0x030013a2                        gUnknown_030013A2 = .
+                0x000013a8                        . = 0x13a8
+ *fill*         0x030013a2        0x6 
+                0x030013a8                        gRandomSeed = .
+                0x000013b0                        . = 0x13b0
+ *fill*         0x030013a8        0x8 
+                0x030013b0                        gUnknown_030013B0 = .
+                0x000013d0                        . = 0x13d0
+ *fill*         0x030013b0       0x20 
+                0x030013d0                        gUnknown_030013D0 = .
+                0x000013d8                        . = 0x13d8
+ *fill*         0x030013d0        0x8 
+                0x030013d8                        gUnknown_030013D8 = .
+                0x000014f8                        . = 0x14f8
+ *fill*         0x030013d8      0x120 
+                0x030014f8                        gUnknown_030014F8 = .
+                0x00001500                        . = 0x1500
+ *fill*         0x030014f8        0x8 
+                0x03001500                        gUnknown_03001500 = .
+                0x00001501                        . = 0x1501
+ *fill*         0x03001500        0x1 
+                0x03001501                        gUnknown_03001501 = .
+                0x00001502                        . = 0x1502
+ *fill*         0x03001501        0x1 
+                0x03001502                        gUnknown_03001502 = .
+                0x00001504                        . = 0x1504
+ *fill*         0x03001502        0x2 
+                0x03001504                        gUnknown_03001504 = .
+                0x00001506                        . = 0x1506
+ *fill*         0x03001504        0x2 
+                0x03001506                        gUnknown_03001506 = .
+                0x00001507                        . = 0x1507
+ *fill*         0x03001506        0x1 
+                0x03001507                        gUnknown_03001507 = .
+                0x00001508                        . = 0x1508
+ *fill*         0x03001507        0x1 
+                0x03001508                        gUnknown_03001508 = .
+                0x00001509                        . = 0x1509
+ *fill*         0x03001508        0x1 
+                0x03001509                        gUnknown_03001509 = .
+                0x0000150c                        . = 0x150c
+ *fill*         0x03001509        0x3 
+                0x0300150c                        gUnknown_0300150C = .
+                0x00001510                        . = 0x1510
+ *fill*         0x0300150c        0x4 
+                0x03001510                        gUnknown_03001510 = .
+                0x00001514                        . = 0x1514
+ *fill*         0x03001510        0x4 
+                0x03001514                        gUnknown_03001514 = .
+                0x00001518                        . = 0x1518
+ *fill*         0x03001514        0x4 
+                0x03001518                        gUnknown_03001518 = .
+                0x00001526                        . = 0x1526
+ *fill*         0x03001518        0xe 
+                0x03001526                        gUnknown_03001526 = .
+                0x00001528                        . = 0x1528
+ *fill*         0x03001526        0x2 
+                0x03001528                        gUnknown_03001528 = .
+                0x0000152a                        . = 0x152a
+ *fill*         0x03001528        0x2 
+                0x0300152a                        gUnknown_0300152A = .
+                0x0000152c                        . = 0x152c
+ *fill*         0x0300152a        0x2 
+                0x0300152c                        gUnknown_0300152C = .
+                0x0000152d                        . = 0x152d
+ *fill*         0x0300152c        0x1 
+                0x0300152d                        gUnknown_0300152D = .
+                0x0000152e                        . = 0x152e
+ *fill*         0x0300152d        0x1 
+                0x0300152e                        gUnknown_0300152E = .
+                0x0000152f                        . = 0x152f
+ *fill*         0x0300152e        0x1 
+                0x0300152f                        gUnknown_0300152F = .
+                0x00001530                        . = 0x1530
+ *fill*         0x0300152f        0x1 
+                0x03001530                        gUnknown_03001530 = .
+                0x00001538                        . = 0x1538
+ *fill*         0x03001530        0x8 
+                0x03001538                        gUnknown_03001538 = .
+                0x00001548                        . = 0x1548
+ *fill*         0x03001538       0x10 
+                0x03001548                        gUnknown_03001548 = .
+                0x00001558                        . = 0x1558
+ *fill*         0x03001548       0x10 
+                0x03001558                        gUnknown_03001558 = .
+                0x00001590                        . = 0x1590
+ *fill*         0x03001558       0x38 
+                0x03001590                        gUnknown_03001590 = .
+                0x0000159a                        . = 0x159a
+ *fill*         0x03001590        0xa 
+                0x0300159a                        gUnknown_0300159A = .
+                0x0000159b                        . = 0x159b
+ *fill*         0x0300159a        0x1 
+                0x0300159b                        gUnknown_0300159B = .
+                0x000015a0                        . = 0x15a0
+ *fill*         0x0300159b        0x5 
+                0x030015a0                        gUnknown_030015A0 = .
+                0x000015a8                        . = 0x15a8
+ *fill*         0x030015a0        0x8 
+                0x030015a8                        gUnknown_030015A8 = .
+                0x000015b0                        . = 0x15b0
+ *fill*         0x030015a8        0x8 
+                0x030015b0                        gUnknown_030015B0 = .
+                0x000015d0                        . = 0x15d0
+ *fill*         0x030015b0       0x20 
+                0x030015d0                        gUnknown_030015D0 = .
+                0x00001940                        . = 0x1940
+ *fill*         0x030015d0      0x370 
+                0x03001940                        gUnknown_03001940 = .
+                0x00001948                        . = 0x1948
+ *fill*         0x03001940        0x8 
+                0x03001948                        gUnknown_03001948 = .
+                0x00001968                        . = 0x1968
+ *fill*         0x03001948       0x20 
+                0x03001968                        gUnknown_03001968 = .
+                0x00001970                        . = 0x1970
+ *fill*         0x03001968        0x8 
+                0x03001970                        gUnknown_03001970 = .
+                0x00001971                        . = 0x1971
+ *fill*         0x03001970        0x1 
+                0x03001971                        gUnknown_03001971 = .
+                0x00001972                        . = 0x1972
+ *fill*         0x03001971        0x1 
+                0x03001972                        gUnknown_03001972 = .
+                0x00001973                        . = 0x1973
+ *fill*         0x03001972        0x1 
+                0x03001973                        gUnknown_03001973 = .
+                0x00001974                        . = 0x1974
+ *fill*         0x03001973        0x1 
+                0x03001974                        gUnknown_03001974 = .
+                0x00001978                        . = 0x1978
+ *fill*         0x03001974        0x4 
+                0x03001978                        gUnknown_03001978 = .
+                0x0000197c                        . = 0x197c
+ *fill*         0x03001978        0x4 
+                0x0300197c                        gUnknown_0300197C = .
+                0x00001980                        . = 0x1980
+ *fill*         0x0300197c        0x4 
+                0x03001980                        gUnknown_03001980 = .
+                0x00001984                        . = 0x1984
+ *fill*         0x03001980        0x4 
+                0x03001984                        gUnknown_03001984 = .
+                0x00001985                        . = 0x1985
+ *fill*         0x03001984        0x1 
+                0x03001985                        gUnknown_03001985 = .
+                0x00001986                        . = 0x1986
+ *fill*         0x03001985        0x1 
+                0x03001986                        gUnknown_03001986 = .
+                0x00001987                        . = 0x1987
+ *fill*         0x03001986        0x1 
+                0x03001987                        gUnknown_03001987 = .
+                0x00001988                        . = 0x1988
+ *fill*         0x03001987        0x1 
+                0x03001988                        gUnknown_03001988 = .
+                0x00001990                        . = 0x1990
+ *fill*         0x03001988        0x8 
+                0x03001990                        gUnknown_03001990 = .
+                0x000019ae                        . = 0x19ae
+ *fill*         0x03001990       0x1e 
+                0x030019ae                        gUnknown_030019AE = .
+                0x000019af                        . = 0x19af
+ *fill*         0x030019ae        0x1 
+                0x030019af                        gUnknown_030019AF = .
+                0x000019b0                        . = 0x19b0
+ *fill*         0x030019af        0x1 
+                0x030019b0                        gUnknown_030019B0 = .
+                0x000019b2                        . = 0x19b2
+ *fill*         0x030019b0        0x2 
+                0x030019b2                        gUnknown_030019B2 = .
+                0x000019b4                        . = 0x19b4
+ *fill*         0x030019b2        0x2 
+                0x030019b4                        gUnknown_030019B4 = .
+                0x000019b6                        . = 0x19b6
+ *fill*         0x030019b4        0x2 
+                0x030019b6                        gUnknown_030019B6 = .
+                0x000019b7                        . = 0x19b7
+ *fill*         0x030019b6        0x1 
+                0x030019b7                        gUnknown_030019B7 = .
+                0x000019b8                        . = 0x19b8
+ *fill*         0x030019b7        0x1 
+                0x030019b8                        gUnknown_030019B8 = .
+                0x000019b9                        . = 0x19b9
+ *fill*         0x030019b8        0x1 
+                0x030019b9                        gUnknown_030019B9 = .
+                0x000019ba                        . = 0x19ba
+ *fill*         0x030019b9        0x1 
+                0x030019ba                        gUnknown_030019BA = .
+                0x000019bc                        . = 0x19bc
+ *fill*         0x030019ba        0x2 
+                0x030019bc                        gUnknown_030019BC = .
+                0x000019be                        . = 0x19be
+ *fill*         0x030019bc        0x2 
+                0x030019be                        gUnknown_030019BE = .
+                0x000019bf                        . = 0x19bf
+ *fill*         0x030019be        0x1 
+                0x030019bf                        gUnknown_030019BF = .
+                0x000019c0                        . = 0x19c0
+ *fill*         0x030019bf        0x1 
+                0x030019c0                        gUnknown_030019C0 = .
+                0x000019c4                        . = 0x19c4
+ *fill*         0x030019c0        0x4 
+                0x030019c4                        gUnknown_030019C4 = .
+                0x000019c6                        . = 0x19c6
+ *fill*         0x030019c4        0x2 
+                0x030019c6                        gUnknown_030019C6 = .
+                0x000019c8                        . = 0x19c8
+ *fill*         0x030019c6        0x2 
+                0x030019c8                        gUnknown_030019C8 = .
+                0x000019c9                        . = 0x19c9
+ *fill*         0x030019c8        0x1 
+                0x030019c9                        gUnknown_030019C9 = .
+                0x000019ca                        . = 0x19ca
+ *fill*         0x030019c9        0x1 
+                0x030019ca                        gUnknown_030019CA = .
+                0x000019cc                        . = 0x19cc
+ *fill*         0x030019ca        0x2 
+                0x030019cc                        gUnknown_030019CC = .
+                0x000019d0                        . = 0x19d0
+ *fill*         0x030019cc        0x4 
+                0x030019d0                        gUnknown_030019D0 = .
+                0x000019d4                        . = 0x19d4
+ *fill*         0x030019d0        0x4 
+                0x030019d4                        gUnknown_030019D4 = .
+                0x000019d5                        . = 0x19d5
+ *fill*         0x030019d4        0x1 
+                0x030019d5                        gUnknown_030019D5 = .
+                0x000019d8                        . = 0x19d8
+ *fill*         0x030019d5        0x3 
+                0x030019d8                        gUnknown_030019D8 = .
+                0x000019dc                        . = 0x19dc
+ *fill*         0x030019d8        0x4 
+                0x030019dc                        gUnknown_030019DC = .
+                0x000019e0                        . = 0x19e0
+ *fill*         0x030019dc        0x4 
+                0x030019e0                        gUnknown_030019E0 = .
+                0x000019e4                        . = 0x19e4
+ *fill*         0x030019e0        0x4 
+                0x030019e4                        gUnknown_030019E4 = .
+                0x000019e8                        . = 0x19e8
+ *fill*         0x030019e4        0x4 
+                0x030019e8                        gUnknown_030019E8 = .
+                0x000019f8                        . = 0x19f8
+ *fill*         0x030019e8       0x10 
+                0x030019f8                        gUnknown_030019F8 = .
+                0x00001a00                        . = 0x1a00
+ *fill*         0x030019f8        0x8 
+                0x03001a00                        gUnknown_03001A00 = .
+                0x00001a02                        . = 0x1a02
+ *fill*         0x03001a00        0x2 
+                0x03001a02                        gUnknown_03001A02 = .
+                0x00001a04                        . = 0x1a04
+ *fill*         0x03001a02        0x2 
+                0x03001a04                        gUnknown_03001A04 = .
+                0x00001a05                        . = 0x1a05
+ *fill*         0x03001a04        0x1 
+                0x03001a05                        gUnknown_03001A05 = .
+                0x00001a06                        . = 0x1a06
+ *fill*         0x03001a05        0x1 
+                0x03001a06                        gUnknown_03001A06 = .
+                0x00001a07                        . = 0x1a07
+ *fill*         0x03001a06        0x1 
+                0x03001a07                        gUnknown_03001A07 = .
+                0x00001a08                        . = 0x1a08
+ *fill*         0x03001a07        0x1 
+                0x03001a08                        gUnknown_03001A08 = .
+                0x00001a80                        . = 0x1a80
+ *fill*         0x03001a08       0x78 
+                0x03001a80                        gUnknown_03001A80 = .
+                0x00001a81                        . = 0x1a81
+ *fill*         0x03001a80        0x1 
+                0x03001a81                        gUnknown_03001A81 = .
+                0x00001a82                        . = 0x1a82
+ *fill*         0x03001a81        0x1 
+                0x03001a82                        gUnknown_03001A82 = .
+                0x00001a83                        . = 0x1a83
+ *fill*         0x03001a82        0x1 
+                0x03001a83                        gUnknown_03001A83 = .
+                0x00001a88                        . = 0x1a88
+ *fill*         0x03001a83        0x5 
+                0x03001a88                        gUnknown_03001A88 = .
+                0x00001aac                        . = 0x1aac
+ *fill*         0x03001a88       0x24 
+                0x03001aac                        gUnknown_03001AAC = .
+                0x00001aad                        . = 0x1aad
+ *fill*         0x03001aac        0x1 
+                0x03001aad                        gUnknown_03001AAD = .
+                0x00001aae                        . = 0x1aae
+ *fill*         0x03001aad        0x1 
+                0x03001aae                        gUnknown_03001AAE = .
+                0x00001aaf                        . = 0x1aaf
+ *fill*         0x03001aae        0x1 
+                0x03001aaf                        gUnknown_03001AAF = .
+                0x00001ab0                        . = 0x1ab0
+ *fill*         0x03001aaf        0x1 
+                0x03001ab0                        gUnknown_03001AB0 = .
+                0x00001ab1                        . = 0x1ab1
+ *fill*         0x03001ab0        0x1 
+                0x03001ab1                        gUnknown_03001AB1 = .
+                0x00001ab2                        . = 0x1ab2
+ *fill*         0x03001ab1        0x1 
+                0x03001ab2                        gUnknown_03001AB2 = .
+                0x00001ab3                        . = 0x1ab3
+ *fill*         0x03001ab2        0x1 
+                0x03001ab3                        gUnknown_03001AB3 = .
+                0x00001ab4                        . = 0x1ab4
+ *fill*         0x03001ab3        0x1 
+                0x03001ab4                        gUnknown_03001AB4 = .
+                0x00001ab8                        . = 0x1ab8
+ *fill*         0x03001ab4        0x4 
+                0x03001ab8                        gUnknown_03001AB8 = .
+                0x00001abc                        . = 0x1abc
+ *fill*         0x03001ab8        0x4 
+                0x03001abc                        gUnknown_03001ABC = .
+                0x00001ac0                        . = 0x1ac0
+ *fill*         0x03001abc        0x4 
+                0x03001ac0                        gUnknown_03001AC0 = .
+                0x00001ac8                        . = 0x1ac8
+ *fill*         0x03001ac0        0x8 
+                0x03001ac8                        gUnknown_03001AC8 = .
+                0x00001ad0                        . = 0x1ad0
+ *fill*         0x03001ac8        0x8 
+                0x03001ad0                        gUnknown_03001AD0 = .
+                0x00001ad1                        . = 0x1ad1
+ *fill*         0x03001ad0        0x1 
+                0x03001ad1                        gUnknown_03001AD1 = .
+                0x00001ad2                        . = 0x1ad2
+ *fill*         0x03001ad1        0x1 
+                0x03001ad2                        gUnknown_03001AD2 = .
+                0x00001ad4                        . = 0x1ad4
+ *fill*         0x03001ad2        0x2 
+                0x03001ad4                        gUnknown_03001AD4 = .
+                0x00001ad8                        . = 0x1ad8
+ *fill*         0x03001ad4        0x4 
+                0x03001ad8                        gUnknown_03001AD8 = .
+                0x00001adc                        . = 0x1adc
+ *fill*         0x03001ad8        0x4 
+                0x03001adc                        gUnknown_03001ADC = .
+                0x00001ae0                        . = 0x1ae0
+ *fill*         0x03001adc        0x4 
+                0x03001ae0                        gUnknown_03001AE0 = .
+                0x00001ae8                        . = 0x1ae8
+ *fill*         0x03001ae0        0x8 
+                0x03001ae8                        gUnknown_03001AE8 = .
+                0x00001af0                        . = 0x1af0
+ *fill*         0x03001ae8        0x8 
+                0x03001af0                        gUnknown_03001AF0 = .
+                0x00001b0a                        . = 0x1b0a
+ *fill*         0x03001af0       0x1a 
+                0x03001b0a                        gUnknown_03001B0A = .
+                0x00001b0b                        . = 0x1b0b
+ *fill*         0x03001b0a        0x1 
+                0x03001b0b                        gUnknown_03001B0B = .
+                0x00001b10                        . = 0x1b10
+ *fill*         0x03001b0b        0x5 
+                0x03001b10                        gUnknown_03001B10 = .
+                0x00001b18                        . = 0x1b18
+ *fill*         0x03001b10        0x8 
+                0x03001b18                        gUnknown_03001B18 = .
+                0x00001b1c                        . = 0x1b1c
+ *fill*         0x03001b18        0x4 
+                0x03001b1c                        gUnknown_03001B1C = .
+                0x00001b20                        . = 0x1b20
+ *fill*         0x03001b1c        0x4 
+ build/mb_chao_garden/data/sound_data.o(.bss)
+ .bss           0x03001b20     0x1400 build/mb_chao_garden/data/sound_data.o
+                0x00002f20                        . = 0x2f20
+ build/mb_chao_garden/src/agb_flash.o(.bss)
+ .bss           0x03002f20        0xa build/mb_chao_garden/src/agb_flash.o
+                0x00002f2c                        . = 0x2f2c
+ *fill*         0x03002f2a        0x2 
+                0x03002f2c                        SoundMainRAM_Buffer = .
+                0x00003330                        . = 0x3330
+ *fill*         0x03002f2c      0x404 
+                0x03003330                        gUnknown_03003330 = .
+                0x00003350                        . = 0x3350
+ *fill*         0x03003330       0x20 
+                0x03003350                        gUnknown_03003350 = .
+                0x00003b60                        . = 0x3b60
+ *fill*         0x03003350      0x810 
+                0x03003b60                        gIntrTable = .
+                0x00003b70                        . = 0x3b70
+ *fill*         0x03003b60       0x10 
+                0x03003b70                        gUnknown_03003B70 = .
+                0x00003b80                        . = 0x3b80
+ *fill*         0x03003b70       0x10 
+                0x03003b80                        gSaveGameState = .
+                0x00003ba1                        . = 0x3ba1
+ *fill*         0x03003b80       0x21 
+                0x03003ba1                        gUnknown_03003BA1 = .
+                0x00003bb5                        . = 0x3bb5
+ *fill*         0x03003ba1       0x14 
+                0x03003bb5                        gUnknown_03003BB5 = .
+                0x00003bea                        . = 0x3bea
+ *fill*         0x03003bb5       0x35 
+                0x03003bea                        gUnknown_03003BEA = .
+                0x00003bf3                        . = 0x3bf3
+ *fill*         0x03003bea        0x9 
+                0x03003bf3                        gUnknown_03003BF3 = .
+                0x00003bf8                        . = 0x3bf8
+ *fill*         0x03003bf3        0x5 
+                0x03003bf8                        gUnknown_03003BF8 = .
+                0x00003c06                        . = 0x3c06
+ *fill*         0x03003bf8        0xe 
+                0x03003c06                        gUnknown_03003C06 = .
+                0x00003c10                        . = 0x3c10
+ *fill*         0x03003c06        0xa 
+                0x03003c10                        gUnknown_03003C10 = .
+                0x000043d8                        . = 0x43d8
+ *fill*         0x03003c10      0x7c8 
+                0x030043d8                        gUnknown_030043D8 = .
+                0x000043dc                        . = 0x43dc
+ *fill*         0x030043d8        0x4 
+                0x030043dc                        gUnknown_030043DC = .
+                0x000043e0                        . = 0x43e0
+ *fill*         0x030043dc        0x4 
+                0x030043e0                        gUnknown_030043E0 = .
+                0x000043e4                        . = 0x43e4
+ *fill*         0x030043e0        0x4 
+                0x030043e4                        gUnknown_030043E4 = .
+                0x000043e8                        . = 0x43e8
+ *fill*         0x030043e4        0x4 
+                0x030043e8                        gUnknown_030043E8 = .
+                0x000043ec                        . = 0x43ec
+ *fill*         0x030043e8        0x4 
+                0x030043ec                        gUnknown_030043EC = .
+                0x000043f0                        . = 0x43f0
+ *fill*         0x030043ec        0x4 
+                0x030043f0                        gInput = .
+                0x00004400                        . = 0x4400
+ *fill*         0x030043f0       0x10 
+                0x03004400                        gUnknown_03004400 = .
+                0x00004e20                        . = 0x4e20
+ *fill*         0x03004400      0xa20 
+                0x03004e20                        gUnknown_03004E20 = .
+                0x00004e70                        . = 0x4e70
+ *fill*         0x03004e20       0x50 
+                0x03004e70                        gUnknown_03004E70 = .
+                0x00005270                        . = 0x5270
+ *fill*         0x03004e70      0x400 
+                0x03005270                        gUnknown_03005270 = .
+                0x00005274                        . = 0x5274
+ *fill*         0x03005270        0x4 
+                0x03005274                        gUnknown_03005274 = .
+                0x00005280                        . = 0x5280
+ *fill*         0x03005274        0xc 
+                0x03005280                        gSoundInfo = .
+                0x00006230                        . = 0x6230
+ *fill*         0x03005280      0xfb0 
+                0x03006230                        gMPlayJumpTable = .
+                0x000062c0                        . = 0x62c0
+ *fill*         0x03006230       0x90 
+                0x030062c0                        gCgbChans = .
+                0x000063c0                        . = 0x63c0
+ *fill*         0x030062c0      0x100 
+                0x030063c0                        gMPlayInfo_BGM = .
+                0x00006400                        . = 0x6400
+ *fill*         0x030063c0       0x40 
+                0x03006400                        gMPlayInfo_SE1 = .
+                0x00006440                        . = 0x6440
+ *fill*         0x03006400       0x40 
+                0x03006440                        gMPlayInfo_SE2 = .
+                0x00006480                        . = 0x6480
+ *fill*         0x03006440       0x40 
+                0x03006480                        gMPlayMemAccArea = .
+                0x00006490                        . = 0x6490
+ *fill*         0x03006480       0x10 
+                0x03006490                        gMPlayInfo_SE3 = .
+                0x000064d0                        . = 0x64d0
+ *fill*         0x03006490       0x40 
+ build/mb_chao_garden/src/agb_flash.o(.data)
+ .data          0x030064d0       0x24 build/mb_chao_garden/src/agb_flash.o
+                0x030064d0                gFlashTimeoutFlag
+                0x030064d4                PollFlashStatus
+                0x030064d8                WaitForFlashWrite
+                0x030064dc                ProgramFlashSector
+                0x030064e0                gFlash
+                0x030064e4                gFlashNumRemainingBytes
+                0x030064e8                EraseFlashChip
+                0x030064ec                EraseFlashSector
+                0x030064f0                gFlashMaxTime
+                0x00007000                        . = 0x7000
+ *fill*         0x030064f4      0xb0c 
+                0x03007000                        gUnknown_03007000 = .
+                0x00007ffa                        . = 0x7ffa
+ *fill*         0x03007000      0xffa 
+                0x03007ffa                        gUnknown_03007FFA = .
+                0x02000000                        . = 0x2000000
+
+ROM             0x02000000    0x2eb6c
+ build/mb_chao_garden/asm/rom_header.o(.text)
+ .text          0x02000000       0x20 build/mb_chao_garden/asm/rom_header.o
+ build/mb_chao_garden/asm/crt0.o(.text)
+ .text          0x02000020       0xa4 build/mb_chao_garden/asm/crt0.o
+                0x02000020                start_vector
+                0x0200005c                IntrMain
+ build/mb_chao_garden/src/main.o(.text)
+ .text          0x020000c4      0x184 build/mb_chao_garden/src/main.o
+                0x02000168                AgbMain
+                0x02000228                SetVBlankIntr
+                0x02000244                IntrDummy
+ build/mb_chao_garden/src/save.o(.text)
+ .text          0x02000248      0x238 build/mb_chao_garden/src/save.o
+                0x02000248                LoadGameState
+                0x020003ac                SaveGameState
+                0x0200043c                InitGameState
+ build/mb_chao_garden/src/joy_bus.o(.text)
+ .text          0x02000480      0x750 build/mb_chao_garden/src/joy_bus.o
+                0x02000480                JoyBusInit
+                0x02000590                sub_02000590
+                0x020006b8                JoyBusIntr
+                0x02000988                sub_02000988
+                0x02000a40                sub_02000a40
+                0x02000af0                sub_02000af0
+                0x02000b0c                sub_02000b0c
+                0x02000b64                sub_02000b64
+                0x02000bb0                sub_02000bb0
+ build/mb_chao_garden/src/input.o(.text)
+ .text          0x02000bd0       0xc0 build/mb_chao_garden/src/input.o
+                0x02000bd0                GetInput
+                0x02000c6c                InputInit
+ build/mb_chao_garden/src/game.o(.text)
+ .text          0x02000c90     0x1880 build/mb_chao_garden/src/game.o
+                0x02000c90                sub_02000c90
+                0x02000d04                sub_02000d04
+                0x02000db0                sub_02000db0
+                0x02000e28                sub_02000e28
+                0x02000eac                sub_02000eac
+                0x02000ed4                sub_02000ed4
+                0x02000f30                DummyCallback
+                0x02000f34                sub_02000f34
+                0x02000fd4                sub_02000fd4
+                0x02001088                sub_02001088
+                0x0200117c                sub_0200117c
+                0x02001254                sub_02001254
+                0x02001290                sub_02001290
+                0x020012e0                sub_020012e0
+                0x020012f8                sub_020012f8
+                0x0200133c                sub_0200133c
+                0x02001374                sub_02001374
+                0x02001398                sub_02001398
+                0x020013dc                sub_020013DC
+                0x02001420                sub_02001420
+                0x0200151c                sub_0200151c
+                0x02001528                sub_02001528
+                0x02001534                sub_02001534
+                0x02001554                sub_02001554
+                0x02001588                sub_02001588
+                0x020015cc                sub_020015cc
+                0x0200163c                sub_0200163c
+                0x02001670                sub_02001670
+                0x0200167c                sub_0200167c
+                0x02001698                sub_02001698
+                0x020016d8                sub_020016d8
+                0x02001718                sub_02001718
+                0x02001760                sub_02001760
+                0x020017a4                sub_020017a4
+                0x020017b0                sub_020017b0
+                0x0200182c                sub_0200182c
+                0x02001840                sub_02001840
+                0x0200185c                sub_0200185c
+                0x020018a0                sub_020018a0
+                0x020018b4                sub_020018B4
+                0x020018c8                InitGarden
+                0x02001b58                sub_02001b58
+                0x02001bf8                sub_02001BF8
+                0x02001c60                sub_02001c60
+                0x02001d68                sub_02001D68
+                0x02001e00                sub_02001e00
+                0x02001e74                sub_02001e74
+                0x0200218c                sub_0200218c
+                0x020021f4                sub_020021F4
+                0x02002364                sub_02002364
+ build/mb_chao_garden/asm/code.o(.text)
+ .text          0x02002510     0xd28c build/mb_chao_garden/asm/code.o
+                0x02002510                sub_02002510
+                0x0200270c                sub_0200270c
+                0x0200292c                sub_0200292c
+                0x02002d94                sub_02002d94
+                0x02002eb8                sub_02002eb8
+                0x0200338c                sub_0200338c
+                0x02003424                sub_02003424
+                0x02003534                sub_02003534
+                0x020035cc                sub_020035CC
+                0x02003614                sub_02003614
+                0x020036ec                sub_020036EC
+                0x02003748                sub_02003748
+                0x02003c24                sub_02003c24
+                0x02003d58                sub_02003D58
+                0x02003e04                sub_02003e04
+                0x02003eb4                sub_02003eb4
+                0x02003f68                sub_02003f68
+                0x02004130                sub_02004130
+                0x020041e0                sub_020041E0
+                0x02004418                sub_02004418
+                0x02005e58                sub_02005e58
+                0x02005efc                sub_02005efc
+                0x02006570                sub_02006570
+                0x020065ec                sub_020065ec
+                0x020066c4                sub_020066c4
+                0x02006798                sub_02006798
+                0x020067d8                sub_020067d8
+                0x020068d8                sub_020068D8
+                0x02006938                sub_02006938
+                0x020069f8                sub_020069F8
+                0x02006a54                sub_02006a54
+                0x02007240                sub_02007240
+                0x020073a8                sub_020073a8
+                0x020074c0                sub_020074c0
+                0x02007500                sub_02007500
+                0x02007688                sub_02007688
+                0x02007978                sub_02007978
+                0x02007b00                sub_02007b00
+                0x02007c4c                sub_02007C4C
+                0x02007da0                sub_02007DA0
+                0x02008010                sub_02008010
+                0x0200808e                sub_0200808e
+                0x020080e0                sub_020080e0
+                0x02008324                sub_02008324
+                0x020083e4                sub_020083e4
+                0x020084ec                sub_020084ec
+                0x020085e0                sub_020085e0
+                0x02008648                sub_02008648
+                0x020086b4                sub_020086b4
+                0x02008758                sub_02008758
+                0x02008810                sub_02008810
+                0x0200882c                sub_0200882C
+                0x02008848                sub_02008848
+                0x02008864                sub_02008864
+                0x020088b0                sub_020088b0
+                0x020088f8                sub_020088f8
+                0x02008940                sub_02008940
+                0x020089b0                sub_020089B0
+                0x020089d4                sub_020089D4
+                0x02008a04                sub_02008A04
+                0x02008a2c                sub_02008a2c
+                0x02008a74                sub_02008a74
+                0x02008ab8                sub_02008ab8
+                0x02008b1c                Task_8019898
+                0x02008b3c                sub_02008b3c
+                0x02008b7c                sub_02008b7c
+                0x02008bc4                sub_02008bc4
+                0x02008c0c                sub_02008c0c
+                0x02008c50                sub_02008c50
+                0x02008c9c                sub_02008c9c
+                0x02008cd4                sub_02008cd4
+                0x02008d04                sub_02008d04
+                0x02008d3c                sub_02008d3c
+                0x02008d90                sub_02008d90
+                0x02008dec                sub_02008dec
+                0x02008e0c                sub_02008e0c
+                0x0200905c                sub_0200905c
+                0x020090dc                sub_020090dc
+                0x02009310                sub_02009310
+                0x020093c0                sub_020093c0
+                0x02009458                sub_02009458
+                0x02009528                sub_02009528
+                0x02009598                sub_02009598
+                0x0200969c                sub_0200969C
+                0x020096e4                sub_020096e4
+                0x02009724                sub_02009724
+                0x02009778                sub_02009778
+                0x0200979c                sub_0200979c
+                0x020097d0                sub_020097d0
+                0x02009800                sub_02009800
+                0x02009828                sub_02009828
+                0x02009850                sub_02009850
+                0x02009894                sub_02009894
+                0x02009910                sub_02009910
+                0x02009978                sub_02009978
+                0x020099f8                sub_020099f8
+                0x02009a70                sub_02009a70
+                0x02009c0c                sub_02009c0c
+                0x02009d28                sub_02009d28
+                0x02009df4                sub_02009df4
+                0x0200a164                sub_0200a164
+                0x0200a1c4                sub_0200a1c4
+                0x0200a1f0                sub_0200a1f0
+                0x0200a21c                sub_0200a21c
+                0x0200a284                sub_0200a284
+                0x0200a2a4                sub_0200a2a4
+                0x0200a2dc                sub_0200a2dc
+                0x0200a304                sub_0200a304
+                0x0200a310                sub_0200a310
+                0x0200a338                sub_0200a338
+                0x0200a3d4                sub_0200a3d4
+                0x0200a3ec                sub_0200a3ec
+                0x0200a404                sub_0200a404
+                0x0200a41c                sub_0200a41c
+                0x0200a434                sub_0200a434
+                0x0200a45c                sub_0200a45c
+                0x0200a554                sub_0200a554
+                0x0200a638                sub_0200a638
+                0x0200a718                sub_0200a718
+                0x0200a7ac                sub_0200a7ac
+                0x0200a8a4                sub_0200a8a4
+                0x0200be24                sub_0200be24
+                0x0200be3c                sub_0200be3c
+                0x0200bfb4                sub_0200bfb4
+                0x0200c030                sub_0200c030
+                0x0200c0a8                sub_0200c0a8
+                0x0200c20c                sub_0200c20c
+                0x0200c474                sub_0200c474
+                0x0200c4f0                sub_0200c4f0
+                0x0200c5dc                sub_0200c5dc
+                0x0200ccc4                sub_0200ccc4
+                0x0200cd78                sub_0200cd78
+                0x0200d27c                sub_0200d27c
+                0x0200d294                sub_0200d294
+                0x0200d498                sub_0200d498
+                0x0200d538                sub_0200d538
+                0x0200d664                sub_0200d664
+                0x0200d814                sub_0200d814
+                0x0200d958                sub_0200d958
+                0x0200dc6c                sub_0200DC6C
+                0x0200dcc0                sub_0200dcc0
+                0x0200dd60                sub_0200dd60
+                0x0200de98                sub_0200DE98
+                0x0200deec                sub_0200deec
+                0x0200dff8                sub_0200dff8
+                0x0200e1c0                sub_0200e1c0
+                0x0200e240                sub_0200e240
+                0x0200e298                sub_0200e298
+                0x0200e364                sub_0200e364
+                0x0200e614                sub_0200e614
+                0x0200e710                sub_0200e710
+                0x0200e850                sub_0200e850
+                0x0200e964                sub_0200e964
+                0x0200eb14                sub_0200eb14
+                0x0200ebb0                sub_0200ebb0
+                0x0200ed00                sub_0200ed00
+                0x0200ee7c                sub_0200ee7c
+                0x0200efa0                sub_0200efa0
+                0x0200f048                sub_0200f048
+                0x0200f11c                sub_0200f11c
+                0x0200f4c0                sub_0200f4c0
+                0x0200f51c                sub_0200f51c
+                0x0200f58c                sub_0200f58c
+                0x0200f5ac                sub_0200f5aC
+                0x0200f620                sub_0200F620
+                0x0200f684                Player_Crouch
+                0x0200f6b8                sub_0200f6b8
+                0x0200f6d0                sub_0200F6D0
+                0x0200f6fc                sub_0200f6fc
+                0x0200f740                sub_0200f740
+                0x0200f78c                sub_0200F78C
+ build/mb_chao_garden/asm/m4a0.o(.text)
+ .text          0x0200f79c      0xc1c build/mb_chao_garden/asm/m4a0.o
+                0x0200f79c                umul3232H32
+                0x0200f7a0                __umul3232H32
+                0x0200f7ac                SoundMain
+                0x0200f830                SoundMainRAM
+                0x0200f83c                SoundMainRAM_Reverb
+                0x0200f890                SoundMainRAM_NoReverb
+                0x0200f8be                SoundMainRAM_ChanLoop
+                0x0200f9c8                sub_08094814
+                0x0200fbb0                sub_080949FC
+                0x0200fbce                sub_0200fbce
+                0x0200fbd4                SoundMainBTM
+                0x0200fbec                RealClearChain
+                0x0200fc0c                ply_fine
+                0x0200fc3c                MPlayJumpTableCopy
+                0x0200fc54                sub_0200fc54
+                0x0200fc70                sub_0200fc70
+                0x0200fc72                sub_0200fc72
+                0x0200fc7c                ply_goto
+                0x0200fc9c                ply_patt
+                0x0200fcb8                ply_pend
+                0x0200fccc                ply_rept
+                0x0200fcfc                ply_prio
+                0x0200fd08                ply_tempo
+                0x0200fd1c                ply_keysh
+                0x0200fd30                ply_voice
+                0x0200fd60                ply_vol
+                0x0200fd74                ply_pan
+                0x0200fd88                ply_bend
+                0x0200fd9c                ply_bendr
+                0x0200fdb0                ply_lfodl
+                0x0200fdbc                ply_modt
+                0x0200fdd4                ply_tune
+                0x0200fde8                ply_port
+                0x0200fe00                m4aSoundVSync
+                0x0200fe4c                MPlayMain
+                0x020100a4                sub_020100a4
+                0x020100b4                TrackStop
+                0x020100f8                sub_020100f8
+                0x02010128                ply_note
+                0x02010328                ply_endtie
+                0x02010368                sub_02010368
+                0x02010384                sub_02010384
+                0x02010390                ply_lfos
+                0x020103a4                ply_mod
+ build/mb_chao_garden/src/m4a.o(.text)
+ .text          0x020103b8     0x1598 build/mb_chao_garden/src/m4a.o
+                0x020103b8                MidiKeyToFreq
+                0x0201041c                sub_0201041C
+                0x02010420                MPlayContinue
+                0x0201043c                MPlayFadeOut
+                0x0201045c                m4aSoundInit
+                0x020104d4                m4aSoundMain
+                0x020104e0                m4aSongNumStart
+                0x0201050c                m4aSongNumStartOrChange
+                0x02010558                m4aSongNumStartOrContinue
+                0x020105ac                m4aSongNumStop
+                0x020105e0                m4aSongNumContinue
+                0x02010614                m4aMPlayAllStop
+                0x02010640                m4aMPlayContinue
+                0x0201064c                m4aMPlayAllContinue
+                0x02010678                m4aMPlayFadeOut
+                0x02010688                m4aMPlayFadeOutTemporarily
+                0x020106a8                m4aMPlayFadeIn
+                0x020106d0                m4aMPlayImmInit
+                0x02010718                MPlayExtender
+                0x02010830                MusicPlayerJumpTableCopy
+                0x02010834                ClearChain
+                0x02010848                Clear64byte
+                0x0201085c                SoundInit
+                0x02010954                SampleFreqSet
+                0x020109f8                m4aSoundMode
+                0x02010a90                SoundClear
+                0x02010ae4                m4aSoundVSyncOff
+                0x02010b60                m4aSoundVSyncOn
+                0x02010b9c                MPlayOpen
+                0x02010c14                MPlayStart
+                0x02010cf8                MPlayStop
+                0x02010d38                FadeOutBody
+                0x02010e00                TrkVolPitSet
+                0x02010eb4                MidiKeyToCgbFreq
+                0x02010f5c                CgbOscOff
+                0x02010fac                CgbModVol
+                0x02011014                CgbSound
+                0x02011460                m4aMPlayTempoControl
+                0x02011488                m4aMPlayVolumeControl
+                0x020114f0                m4aMPlayPitchControl
+                0x02011564                m4aMPlayPanpotControl
+                0x020115cc                ClearModM
+                0x020115ec                m4aMPlayModDepthSet
+                0x02011660                m4aMPlayLFOSpeedSet
+                0x020116d4                ply_memacc
+                0x0201182c                ply_xcmd
+                0x0201184c                ply_xxx
+                0x02011860                ply_xwave
+                0x020118a8                ply_xtype
+                0x020118bc                ply_xatta
+                0x020118d0                ply_xdeca
+                0x020118e4                ply_xsust
+                0x020118f8                ply_xrele
+                0x0201190c                ply_xiecv
+                0x02011918                ply_xiecl
+                0x02011924                ply_xleng
+                0x02011938                ply_xswee
+ build/mb_chao_garden/asm/libagbsyscall.o(.text)
+ .text          0x02011950       0x4c build/mb_chao_garden/asm/libagbsyscall.o
+                0x02011950                ArcTan2
+                0x02011954                CpuFastSet
+                0x02011958                CpuSet
+                0x0201195c                Div
+                0x02011960                Mod
+                0x02011968                LZ77UnCompVram
+                0x0201196c                LZ77UnCompWram
+                0x02011970                ObjAffineSet
+                0x02011974                Sqrt
+                0x02011978                VBlankIntrWait
+                0x02011980                SoftResetRom
+ build/mb_chao_garden/src/agb_flash.o(.text)
+ .text          0x0201199c      0x500 build/mb_chao_garden/src/agb_flash.o
+                0x0201199c                SwitchFlashBank
+                0x020119c0                ReadFlashId
+                0x02011a5c                FlashTimerIntr
+                0x02011a84                SetFlashTimerIntr
+                0x02011ac0                StartFlashTimer
+                0x02011b68                StopFlashTimer
+                0x02011bac                ReadFlash1
+                0x02011bb0                SetReadFlash1
+                0x02011bf0                ReadFlash_Core
+                0x02011c14                ReadFlash
+                0x02011cb0                VerifyFlashSector_Core
+                0x02011ce0                VerifyFlashSector
+                0x02011d78                VerifyFlashSectorNBytes
+                0x02011e10                ProgramFlashSectorAndVerify
+                0x02011e54                ProgramFlashSectorAndVerifyNBytes
+ build/mb_chao_garden/src/agb_flash_512k.o(.text)
+ .text          0x02011e9c      0x11c build/mb_chao_garden/src/agb_flash_512k.o
+                0x02011e9c                IdentifyFlash
+                0x02011f30                WaitForFlashWrite512K_Common
+ build/mb_chao_garden/src/agb_flash_le_512k.o(.text)
+ .text          0x02011fb8      0x2a8 build/mb_chao_garden/src/agb_flash_le_512k.o
+                0x02011fb8                EraseFlashChip_LE
+                0x0201202c                EraseFlashSector_LE
+                0x020120c8                ProgramByte
+                0x02012100                ProgramFlashSector_LE
+ build/mb_chao_garden/src/agb_flash_mx_512k.o(.text)
+ .text          0x02012260       0xac build/mb_chao_garden/src/agb_flash_mx_512k.o
+                0x02012260                ProgramFlashSector_MX
+ *libgcc.a:_call_via_rX.o(.text)
+ .text          0x0201230c       0x3c ../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+                0x0201230c                _call_via_r0
+                0x02012310                _call_via_r1
+                0x02012314                _call_via_r2
+                0x02012318                _call_via_r3
+                0x0201231c                _call_via_r4
+                0x02012320                _call_via_r5
+                0x02012324                _call_via_r6
+                0x02012328                _call_via_r7
+                0x0201232c                _call_via_r8
+                0x02012330                _call_via_r9
+                0x02012334                _call_via_sl
+                0x02012338                _call_via_fp
+                0x0201233c                _call_via_ip
+                0x02012340                _call_via_sp
+                0x02012344                _call_via_lr
+ *libgcc.a:_divsi3.o(.text)
+ .text          0x02012348       0x94 ../tools/agbcc/lib/libgcc.a(_divsi3.o)
+                0x02012348                __divsi3
+ *libgcc.a:_dvmd_tls.o(.text)
+ .text          0x020123dc        0x4 ../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+                0x020123dc                __div0
+ *libgcc.a:_modsi3.o(.text)
+ .text          0x020123e0       0xd0 ../tools/agbcc/lib/libgcc.a(_modsi3.o)
+                0x020123e0                __modsi3
+ *libc.a:memcpy.o(.text)
+ .text          0x020124b0       0x60 ../tools/agbcc/lib/libc.a(memcpy.o)
+                0x020124b0                memcpy
+ build/mb_chao_garden/data/data.o(.rodata)
+ .rodata        0x02012510     0x7548 build/mb_chao_garden/data/data.o
+                0x02012510                gUnknown_02012510
+                0x02012541                gUnknown_02012541
+                0x02012548                gUnknown_02012548
+                0x02012564                gUnknown_02012564
+                0x02012594                gUnknown_02012594
+                0x020125a0                gUnknown_020125A0
+                0x020125ac                gUnknown_020125AC
+                0x02012684                gUnknown_02012684
+                0x0201276c                gUnknown_0201276C
+                0x02012870                gUnknown_02012870
+                0x02012890                gUnknown_02012890
+                0x02012894                gUnknown_02012894
+                0x02012898                gUnknown_02012898
+                0x020128a8                gUnknown_020128A8
+                0x02013348                gUnknown_02013348
+                0x020134c8                gUnknown_020134C8
+                0x02013620                gUnknown_02013620
+                0x02013cec                gUnknown_02013CEC
+                0x02013d58                gUnknown_02013D58
+                0x02013e50                gUnknown_02013E50
+                0x02014050                gUnknown_02014050
+                0x02014210                gUnknown_02014210
+                0x02014408                gUnknown_02014408
+                0x02014478                gUnknown_02014478
+                0x020144d8                gUnknown_020144D8
+                0x02014574                gUnknown_02014574
+                0x02014d6c                gUnknown_02014D6C
+                0x02014db4                gUnknown_02014DB4
+                0x02014ec4                gUnknown_02014EC4
+                0x0201510c                gUnknown_0201510C
+                0x02015218                gUnknown_02015218
+                0x02015344                gUnknown_02015344
+                0x02015498                gUnknown_02015498
+                0x02015500                gUnknown_02015500
+                0x02015acc                gUnknown_02015ACC
+                0x02015afc                gUnknown_02015AFC
+                0x02015b7e                gUnknown_02015B7E
+                0x02015c00                gUnknown_02015C00
+                0x02015e10                gUnknown_02015E10
+                0x02015e20                gUnknown_02015E20
+                0x02015e68                gUnknown_02015E68
+                0x02015e90                gUnknown_02015E90
+                0x02015e98                gUnknown_02015E98
+                0x02015ea4                gUnknown_02015EA4
+                0x02015ed4                gUnknown_02015ED4
+                0x02015ee0                gUnknown_02015EE0
+                0x02015fc0                gUnknown_02015FC0
+                0x02017524                gUnknown_02017524
+                0x02017664                gUnknown_02017664
+                0x02018624                gUnknown_02018624
+                0x020188d8                gUnknown_020188D8
+                0x020199d0                gUnknown_020199D0
+ build/mb_chao_garden/src/m4a_tables.o(.rodata)
+ .rodata        0x02019a58      0x2d8 build/mb_chao_garden/src/m4a_tables.o
+                0x02019a58                gMPlayJumpTableTemplate
+                0x02019ae8                gScaleTable
+                0x02019b9c                gFreqTable
+                0x02019bcc                gPcmSamplesPerVBlankTable
+                0x02019be4                gCgbScaleTable
+                0x02019c68                gCgbFreqTable
+                0x02019c80                gNoiseTable
+                0x02019cbc                gCgb3Vol
+                0x02019ccc                gClockTable
+                0x02019d00                gXcmdTable
+ build/mb_chao_garden/data/sound_data.o(.rodata)
+ .rodata        0x02019d30     0x41d0 build/mb_chao_garden/data/sound_data.o
+                0x02019d30                voicegroup000
+                0x0201a180                voicegroup001
+                0x0201a3e4                ProgrammableWaveData_201A3E4
+                0x0201a3f4                ProgrammableWaveData_201A3F4
+                0x0201a404                ProgrammableWaveData_201A404
+                0x0201a414                ProgrammableWaveData_201A414
+                0x0201a424                ProgrammableWaveData_201A424
+                0x0201a434                ProgrammableWaveData_201A434
+                0x0201a444                ProgrammableWaveData_201A444
+                0x0201a454                ProgrammableWaveData_201A454
+                0x0201a464                ProgrammableWaveData_201A464
+                0x0201a474                gMPlayTable
+                0x0201a4a4                gSongTable
+                0x0201a5d0                DirectSoundData_roland_sr_jv80_02__186_harp_1
+                0x0201ac64                DirectSoundData_roland_jv2080__pr_d__banjo
+                0x0201b3e4                DirectSoundData_roland_jv2080__pr_d__harmonica
+                0x0201c77c                DirectSoundData_roland_jv2080__pr_d__019_organ_3__5
+                0x0201ce90                DirectSoundData_korg_trinity__standard_kit__1__shortened
+                0x0201d2b4                DirectSoundData_korg_trinity__standard_kit__2__shortened
+                0x0201dbec                DirectSoundData_roland_jv2080__pr_e__jazz_drum_set1__2
+ build/mb_chao_garden/sound/songs/midi/mus_garden.o(.rodata)
+ .rodata        0x0201df00      0x714 build/mb_chao_garden/sound/songs/midi/mus_garden.o
+                0x0201e5fc                mus_garden
+ build/mb_chao_garden/sound/songs/midi/mus_goodbye_chao.o(.rodata)
+ .rodata        0x0201e614      0x2d0 build/mb_chao_garden/sound/songs/midi/mus_goodbye_chao.o
+                0x0201e8d0                mus_goodbye_chao
+ build/mb_chao_garden/sound/songs/midi/mus_minigame.o(.rodata)
+ .rodata        0x0201e8e4      0x85c build/mb_chao_garden/sound/songs/midi/mus_minigame.o
+                0x0201f124                mus_minigame
+ build/mb_chao_garden/sound/songs/midi/se_msgbox_select.o(.rodata)
+ .rodata        0x0201f140       0x20 build/mb_chao_garden/sound/songs/midi/se_msgbox_select.o
+                0x0201f154                se_msgbox_select
+ build/mb_chao_garden/sound/songs/midi/se_confirm.o(.rodata)
+ .rodata        0x0201f160       0x60 build/mb_chao_garden/sound/songs/midi/se_confirm.o
+                0x0201f1b4                se_confirm
+ build/mb_chao_garden/sound/songs/midi/song0013.o(.rodata)
+ .rodata        0x0201f1c0       0x30 build/mb_chao_garden/sound/songs/midi/song0013.o
+                0x0201f1e4                song0013
+ build/mb_chao_garden/sound/songs/midi/se_msgbox.o(.rodata)
+ .rodata        0x0201f1f0       0x20 build/mb_chao_garden/sound/songs/midi/se_msgbox.o
+                0x0201f204                se_msgbox
+ build/mb_chao_garden/sound/songs/midi/se_chao_walk.o(.rodata)
+ .rodata        0x0201f210       0x34 build/mb_chao_garden/sound/songs/midi/se_chao_walk.o
+                0x0201f238                se_chao_walk
+ build/mb_chao_garden/sound/songs/midi/song0016.o(.rodata)
+ .rodata        0x0201f244       0x50 build/mb_chao_garden/sound/songs/midi/song0016.o
+                0x0201f288                song0016
+ build/mb_chao_garden/sound/songs/midi/song0017.o(.rodata)
+ .rodata        0x0201f294       0x24 build/mb_chao_garden/sound/songs/midi/song0017.o
+                0x0201f2ac                song0017
+ build/mb_chao_garden/sound/songs/midi/song0018.o(.rodata)
+ .rodata        0x0201f2b8       0x74 build/mb_chao_garden/sound/songs/midi/song0018.o
+                0x0201f320                song0018
+ build/mb_chao_garden/sound/songs/midi/song0019.o(.rodata)
+ .rodata        0x0201f32c       0x40 build/mb_chao_garden/sound/songs/midi/song0019.o
+                0x0201f360                song0019
+ build/mb_chao_garden/sound/songs/midi/se_snore.o(.rodata)
+ .rodata        0x0201f36c       0x7c build/mb_chao_garden/sound/songs/midi/se_snore.o
+                0x0201f3dc                se_snore
+ build/mb_chao_garden/sound/songs/midi/song0021.o(.rodata)
+ .rodata        0x0201f3e8       0x20 build/mb_chao_garden/sound/songs/midi/song0021.o
+                0x0201f3fc                song0021
+ build/mb_chao_garden/sound/songs/midi/se_gauge_expands.o(.rodata)
+ .rodata        0x0201f408       0x24 build/mb_chao_garden/sound/songs/midi/se_gauge_expands.o
+                0x0201f420                se_gauge_expands
+ build/mb_chao_garden/sound/songs/midi/se_minigame_lost.o(.rodata)
+ .rodata        0x0201f42c       0xbc build/mb_chao_garden/sound/songs/midi/se_minigame_lost.o
+                0x0201f4dc                se_minigame_lost
+ build/mb_chao_garden/sound/songs/midi/song0024.o(.rodata)
+ .rodata        0x0201f4e8       0x48 build/mb_chao_garden/sound/songs/midi/song0024.o
+                0x0201f524                song0024
+ build/mb_chao_garden/sound/songs/midi/song0025.o(.rodata)
+ .rodata        0x0201f530       0x4c build/mb_chao_garden/sound/songs/midi/song0025.o
+                0x0201f570                song0025
+ build/mb_chao_garden/sound/songs/midi/se_toy_trumpet.o(.rodata)
+ .rodata        0x0201f57c       0x34 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet.o
+                0x0201f5a4                se_toy_trumpet
+ build/mb_chao_garden/sound/songs/midi/song0027.o(.rodata)
+ .rodata        0x0201f5b0       0x24 build/mb_chao_garden/sound/songs/midi/song0027.o
+                0x0201f5c8                song0027
+ build/mb_chao_garden/sound/songs/midi/song0028.o(.rodata)
+ .rodata        0x0201f5d4       0x24 build/mb_chao_garden/sound/songs/midi/song0028.o
+                0x0201f5ec                song0028
+ build/mb_chao_garden/sound/songs/midi/song0029.o(.rodata)
+ .rodata        0x0201f5f8       0x3c build/mb_chao_garden/sound/songs/midi/song0029.o
+                0x0201f628                song0029
+ build/mb_chao_garden/sound/songs/midi/song0030.o(.rodata)
+ .rodata        0x0201f634       0x28 build/mb_chao_garden/sound/songs/midi/song0030.o
+                0x0201f650                song0030
+ build/mb_chao_garden/sound/songs/midi/se_speech_bubble.o(.rodata)
+ .rodata        0x0201f65c       0x74 build/mb_chao_garden/sound/songs/midi/se_speech_bubble.o
+                0x0201f6c4                se_speech_bubble
+ build/mb_chao_garden/sound/songs/midi/song0032.o(.rodata)
+ .rodata        0x0201f6d0       0x8c build/mb_chao_garden/sound/songs/midi/song0032.o
+                0x0201f750                song0032
+ build/mb_chao_garden/sound/songs/midi/se_hatch.o(.rodata)
+ .rodata        0x0201f75c       0x90 build/mb_chao_garden/sound/songs/midi/se_hatch.o
+                0x0201f7e0                se_hatch
+ build/mb_chao_garden/sound/songs/midi/song0034.o(.rodata)
+ .rodata        0x0201f7ec       0x30 build/mb_chao_garden/sound/songs/midi/song0034.o
+                0x0201f810                song0034
+ build/mb_chao_garden/sound/songs/midi/se_gauge_lvl_up.o(.rodata)
+ .rodata        0x0201f81c       0x44 build/mb_chao_garden/sound/songs/midi/se_gauge_lvl_up.o
+                0x0201f854                se_gauge_lvl_up
+ build/mb_chao_garden/sound/songs/midi/se_toy_trumpet_novice.o(.rodata)
+ .rodata        0x0201f860       0x34 build/mb_chao_garden/sound/songs/midi/se_toy_trumpet_novice.o
+                0x0201f888                se_toy_trumpet_novice
+ build/mb_chao_garden/data/data4.o(.rodata)
+ .rodata        0x0201f894       0x70 build/mb_chao_garden/data/data4.o
+                0x0201f894                gUnknown_0201F894
+ build/mb_chao_garden/src/agb_flash_512k.o(.rodata)
+ .rodata        0x0201f904       0x48 build/mb_chao_garden/src/agb_flash_512k.o
+                0x0201f914                gSetup512KInfos
+ build/mb_chao_garden/src/agb_flash_le_512k.o(.rodata)
+ .rodata        0x0201f94c       0x98 build/mb_chao_garden/src/agb_flash_le_512k.o
+                0x0201f94c                le512kMaxTime
+                0x0201f964                DefaultFlash512K
+                0x0201f990                LE39FW512
+ build/mb_chao_garden/src/agb_flash_mx_512k.o(.rodata)
+ .rodata        0x0201f9e4       0x90 build/mb_chao_garden/src/agb_flash_mx_512k.o
+                0x0201f9e4                mx512kMaxTime
+                0x0201f9fc                paMaxTime
+                0x0201fa14                MX29L512
+                0x0201fa40                MN63F805MNP
+ build/mb_chao_garden/data/data3.o(.rodata)
+ .rodata        0x0201fa74     0xf0f8 build/mb_chao_garden/data/data3.o
+                0x0201fa74                gUnused_0201FA74
+                0x0201fb74                gUnknown_0201FB74
+                0x0201fd74                gUnknown_0201FD74
+                0x0201ff74                gUnknown_0201FF74
+                0x0202000e                gUnknown_0202000E
+                0x0202003e                gUnknown_0202003E
+                0x020201be                gUnknown_020201BE
+                0x0202027e                gUnknown_0202027E
+                0x0202028e                gUnknown_0202028E
+                0x020202b6                gUnknown_020202B6
+                0x02020342                gUnknown_02020342
+                0x020203b4                gUnknown_020203B4
+                0x020203d4                gUnknown_020203D4
+                0x020203f4                gUnknown_020203F4
+                0x020203fc                gUnknown_020203FC
+                0x02020404                gUnknown_02020404
+                0x02020434                gUnknown_02020434
+                0x0202044c                gUnknown_0202044C
+                0x02020454                gUnknown_02020454
+                0x02020464                gUnknown_02020464
+                0x0202048c                gUnknown_0202048C
+                0x02020494                gUnknown_02020494
+                0x020205e4                gUnknown_020205E4
+                0x020205ec                gUnknown_020205EC
+                0x020205f4                gUnknown_020205F4
+                0x020205fc                gUnknown_020205FC
+                0x0202060c                gUnknown_0202060C
+                0x02020614                gUnknown_02020614
+                0x02020634                gUnknown_02020634
+                0x0202063c                gUnknown_0202063C
+                0x0202069c                gUnknown_0202069C
+                0x020206c4                gUnknown_020206C4
+                0x020206f4                gUnknown_020206F4
+                0x020206fc                gUnknown_020206FC
+                0x0202071c                gUnknown_0202071C
+                0x02020e9c                gUnknown_02020E9C
+                0x02020ed0                gUnknown_02020ED0
+                0x02020edc                gUnknown_02020EDC
+                0x02020ee8                gUnknown_02020EE8
+                0x02020efc                gUnknown_02020EFC
+                0x02020f03                gUnknown_02020F03
+                0x02020f06                gUnknown_02020F06
+                0x02020f12                gUnknown_02020F12
+                0x02020f15                gUnknown_02020F15
+                0x02020f1c                gUnknown_02020F1C
+                0x0202100c                gUnknown_0202100C
+                0x02021060                gUnknown_02021060
+                0x0202109c                gUnknown_0202109C
+                0x020210a8                gUnknown_020210A8
+                0x020210b4                gUnknown_020210B4
+                0x020210c0                gUnknown_020210C0
+                0x020210d8                gUnknown_020210D8
+                0x020210f0                gUnknown_020210F0
+                0x02021138                gUnknown_02021138
+                0x02021180                gUnknown_02021180
+                0x02021198                gUnknown_02021198
+                0x020211b0                gUnknown_020211B0
+                0x020211c8                gUnknown_020211C8
+                0x02021bc4                gUnknown_02021BC4
+                0x02021f34                gUnknown_02021F34
+                0x020220ec                gUnknown_020220EC
+                0x02022c44                gUnknown_02022C44
+                0x02023310                gUnknown_02023310
+                0x020233fc                gUnknown_020233FC
+                0x020235fc                gUnknown_020235FC
+                0x02024618                gUnknown_02024618
+                0x020246e4                gUnknown_020246E4
+                0x020248e4                gUnknown_020248E4
+                0x02024aa4                gUnknown_02024AA4
+                0x02024c24                gUnknown_02024C24
+                0x020268b4                gUnknown_020268B4
+                0x02027798                gUnknown_02027798
+                0x020277c0                gUnknown_020277C0
+                0x02029be0                gUnknown_02029BE0
+                0x02029f70                gUnknown_02029F70
+                0x0202a2dc                gUnknown_0202A2DC
+                0x0202df70                gUnknown_0202DF70
+                0x0202e4c8                gUnknown_0202E4C8
+                0x0202e4d8                gUnknown_0202E4D8
+                0x0202e4e8                gUnknown_0202E4E8
+                0x0202e4f8                gUnknown_0202E4F8
+                0x0202e500                gUnknown_0202E500
+                0x0202e508                gUnknown_0202E508
+                0x0202e510                gUnknown_0202E510
+                0x0202e530                gUnknown_0202E530
+                0x0202e540                gUnknown_0202E540
+                0x0202e548                gUnknown_0202E548
+                0x0202e550                gUnknown_0202E550
+                0x0202e558                gUnknown_0202E558
+                0x0202e560                gUnknown_0202E560
+                0x0202e568                gUnknown_0202E568
+                0x0202e6a0                gUnknown_0202E6A0
+                0x0202e730                gUnknown_0202E730
+                0x0202e740                gUnknown_0202E740
+                0x0202e7b8                gUnknown_0202E7B8
+                0x0202e806                gUnknown_0202E806
+                0x0202e90e                gUnknown_0202E90E
+                0x0202e91e                gUnknown_0202E91E
+                0x0202eafe                gUnknown_0202EAFE
+                0x0202eb3e                gUnknown_0202EB3E
+                0x0202eb4a                gUnknown_0202EB4A
+                0x0202eb56                gUnknown_0202EB56
+                0x0202eb5a                gUnknown_0202EB5A
+                0x0202eb60                gUnknown_0202EB60
+                0x0202eb64                gUnknown_0202EB64
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+/DISCARD/
+ *(*)
+LOAD build/mb_chao_garden/src/agb_flash.o
+LOAD build/mb_chao_garden/src/agb_flash_512k.o
+LOAD build/mb_chao_garden/src/agb_flash_le_512k.o
+LOAD build/mb_chao_garden/src/agb_flash_mx_512k.o
+LOAD build/mb_chao_garden/src/game.o
+LOAD build/mb_chao_garden/src/input.o
+LOAD build/mb_chao_garden/src/joy_bus.o
+LOAD build/mb_chao_garden/src/m4a.o
+LOAD build/mb_chao_garden/src/m4a_tables.o
+LOAD build/mb_chao_garden/src/main.o
+LOAD build/mb_chao_garden/src/save.o
+LOAD build/mb_chao_garden/asm/code.o
+LOAD build/mb_chao_garden/asm/crt0.o
+LOAD build/mb_chao_garden/asm/libagbsyscall.o
+LOAD build/mb_chao_garden/asm/m4a0.o
+LOAD build/mb_chao_garden/asm/rom_header.o
+LOAD build/mb_chao_garden/data/data.o
+LOAD build/mb_chao_garden/data/data3.o
+LOAD build/mb_chao_garden/data/data4.o
+LOAD build/mb_chao_garden/data/sound_data.o
+LOAD build/mb_chao_garden/sound/songs/midi/mus_garden.o
+LOAD build/mb_chao_garden/sound/songs/midi/mus_goodbye_chao.o
+LOAD build/mb_chao_garden/sound/songs/midi/mus_minigame.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_chao_walk.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_confirm.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_gauge_expands.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_gauge_lvl_up.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_hatch.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_minigame_lost.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_msgbox.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_msgbox_select.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_snore.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_speech_bubble.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_toy_trumpet.o
+LOAD build/mb_chao_garden/sound/songs/midi/se_toy_trumpet_novice.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0013.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0016.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0017.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0018.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0019.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0021.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0024.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0025.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0027.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0028.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0029.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0030.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0032.o
+LOAD build/mb_chao_garden/sound/songs/midi/song0034.o
+LOAD ../tools/agbcc/lib/libgcc.a
+LOAD ../tools/agbcc/lib/libc.a
+OUTPUT(mb_chao_garden.elf elf32-littlearm)
+LOAD linker stubs

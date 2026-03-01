@@ -15,12 +15,12 @@
 	.global	C_DECL(se_spring)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_spring_1:
 	.byte	KEYSH , se_spring_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 300*se_spring_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 300*se_spring_tbs/2
 	.byte		VOICE , 2
 	.byte		MOD   , 78
 	.byte		VOL   , 127*se_spring_mvl/mxv
@@ -60,14 +60,14 @@ se_spring_1:
 	.byte	W03
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_spring):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_spring_pri	/* Priority */
-	.byte	se_spring_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_spring_pri	@ Priority
+	.byte	se_spring_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_spring_grp

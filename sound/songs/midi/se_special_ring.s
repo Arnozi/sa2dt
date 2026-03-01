@@ -15,12 +15,12 @@
 	.global	C_DECL(se_special_ring)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_special_ring_1:
 	.byte	KEYSH , se_special_ring_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_special_ring_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_special_ring_tbs/2
 	.byte		VOICE , 98
 	.byte		VOL   , 127*se_special_ring_mvl/mxv
 	.byte		BENDR , 12
@@ -33,14 +33,14 @@ se_special_ring_1:
 	.byte	W02
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_special_ring):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_special_ring_pri	/* Priority */
-	.byte	se_special_ring_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_special_ring_pri	@ Priority
+	.byte	se_special_ring_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_special_ring_grp

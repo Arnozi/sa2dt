@@ -15,12 +15,12 @@
 	.global	C_DECL(se_air_bubble)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_air_bubble_1:
 	.byte	KEYSH , se_air_bubble_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_air_bubble_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_air_bubble_tbs/2
 	.byte		VOICE , 36
 	.byte		VOL   , 127*se_air_bubble_mvl/mxv
 	.byte		LFOS  , 2
@@ -75,14 +75,14 @@ se_air_bubble_1:
 	.byte		        c_v+51
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_air_bubble):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_air_bubble_pri	/* Priority */
-	.byte	se_air_bubble_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_air_bubble_pri	@ Priority
+	.byte	se_air_bubble_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_air_bubble_grp

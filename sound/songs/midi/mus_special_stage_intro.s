@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_special_stage_intro)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_special_stage_intro_1:
 	.byte	KEYSH , mus_special_stage_intro_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 130*mus_special_stage_intro_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 130*mus_special_stage_intro_tbs/2
 	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_special_stage_intro_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -65,8 +65,8 @@ mus_special_stage_intro_1:
 	.byte		N12   , Cn1 
 	.byte		N18   , Ds1 , v076
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte		N06   , Cs1 , v127
+@ 001   ----------------------------------------
+	.byte		N06   , Cs1 , v127
 	.byte	W06
 	.byte		N18   , An1 
 	.byte	W06
@@ -80,12 +80,12 @@ mus_special_stage_intro_1:
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_special_stage_intro_2:
 	.byte	KEYSH , mus_special_stage_intro_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 45
+@ 000   ----------------------------------------
+	.byte		VOICE , 45
 	.byte		VOL   , 127*mus_special_stage_intro_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -97,20 +97,20 @@ mus_special_stage_intro_2:
 	.byte	W18
 	.byte		N06   , Bn2 , v124
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W24
+@ 001   ----------------------------------------
+	.byte	W24
 	.byte		N05   , An3 , v127
 	.byte	W06
 	.byte		N05   
 	.byte	W05
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_special_stage_intro_3:
 	.byte	KEYSH , mus_special_stage_intro_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 87
+@ 000   ----------------------------------------
+	.byte		VOICE , 87
 	.byte		VOL   , 127*mus_special_stage_intro_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -126,8 +126,8 @@ mus_special_stage_intro_3:
 	.byte	W18
 	.byte		N06   , Bn2 , v124
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W24
+@ 001   ----------------------------------------
+	.byte	W24
 	.byte		N05   , Ds3 , v127
 	.byte		N05   , Gs3 
 	.byte		N05   , Dn4 
@@ -138,12 +138,12 @@ mus_special_stage_intro_3:
 	.byte	W08
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_special_stage_intro_4:
 	.byte	KEYSH , mus_special_stage_intro_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 74
+@ 000   ----------------------------------------
+	.byte		VOICE , 74
 	.byte		VOL   , 127*mus_special_stage_intro_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -163,20 +163,20 @@ mus_special_stage_intro_4:
 	.byte		N06   , Bn2 , v124
 	.byte		N06   , Bn3 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W24
+@ 001   ----------------------------------------
+	.byte	W24
 	.byte		N05   , Dn4 , v127
 	.byte	W06
 	.byte		N04   
 	.byte	W04
 	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_special_stage_intro_5:
 	.byte	KEYSH , mus_special_stage_intro_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 12
+@ 000   ----------------------------------------
+	.byte		VOICE , 12
 	.byte		VOL   , 79*mus_special_stage_intro_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -192,22 +192,22 @@ mus_special_stage_intro_5:
 	.byte	W18
 	.byte		N06   , Bn3 , v124
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W24
+@ 001   ----------------------------------------
+	.byte	W24
 	.byte		N05   , An4 , v127
 	.byte	W06
 	.byte		N04   
 	.byte	W04
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_special_stage_intro):
-	.byte	5	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_special_stage_intro_pri	/* Priority */
-	.byte	mus_special_stage_intro_rev	/* Reverb */
+	.byte	5	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_special_stage_intro_pri	@ Priority
+	.byte	mus_special_stage_intro_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_special_stage_intro_grp

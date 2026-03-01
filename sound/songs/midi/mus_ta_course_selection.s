@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_ta_course_selection)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_ta_course_selection_1:
 	.byte	KEYSH , mus_ta_course_selection_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*mus_ta_course_selection_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*mus_ta_course_selection_tbs/2
 	.byte	W24
 	.byte		VOICE , 62
 	.byte		VOL   , 96*mus_ta_course_selection_mvl/mxv
@@ -32,8 +32,8 @@ mus_ta_course_selection_1:
 	.byte	W18
 	.byte		N56   , Gs2 
 	.byte	W12
-/* 001   ----------------------------------------
- */mus_ta_course_selection_1_001:
+@ 001   ----------------------------------------
+mus_ta_course_selection_1_001:
 	.byte	W48
 	.byte		N05   , Gn2 , v127
 	.byte	W18
@@ -42,8 +42,8 @@ mus_ta_course_selection_1:
 	.byte		N48   , Gs2 
 	.byte	W12
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ta_course_selection_1_002:
+@ 002   ----------------------------------------
+mus_ta_course_selection_1_002:
 	.byte	W48
 	.byte		N05   , As2 , v127
 	.byte	W18
@@ -52,15 +52,15 @@ mus_ta_course_selection_1:
 	.byte		N54   , Gs2 
 	.byte	W12
 	.byte	PEND
-/* 003   ----------------------------------------
- */	.byte	PATT
+@ 003   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_1_001
-/* 004   ----------------------------------------
- */	.byte	W48
+@ 004   ----------------------------------------
+	.byte	W48
 mus_ta_course_selection_1_B1:
 	.byte	W48
-/* 005   ----------------------------------------
- */	.byte	W60
+@ 005   ----------------------------------------
+	.byte	W60
 	.byte		N08   , Ds3 , v072
 	.byte	W06
 	.byte		        Gs3 
@@ -73,8 +73,8 @@ mus_ta_course_selection_1_B1:
 	.byte	W06
 	.byte		N09   , Cn5 , v108
 	.byte	W06
-/* 006   ----------------------------------------
- */	.byte		N08   , Ds5 , v116
+@ 006   ----------------------------------------
+	.byte		N08   , Ds5 , v116
 	.byte	W06
 	.byte		N07   , Gs5 , v120
 	.byte	W06
@@ -92,8 +92,8 @@ mus_ta_course_selection_1_B1:
 	.byte	W06
 	.byte		N40   , Cs4 , v092
 	.byte	W48
-/* 007   ----------------------------------------
- */	.byte	W66
+@ 007   ----------------------------------------
+	.byte	W66
 	.byte		N08   , Gs3 , v072
 	.byte	W06
 	.byte		N11   , Cn4 , v080
@@ -104,8 +104,8 @@ mus_ta_course_selection_1_B1:
 	.byte	W06
 	.byte		N09   , Cn5 , v108
 	.byte	W06
-/* 008   ----------------------------------------
- */	.byte		N08   , Ds5 , v116
+@ 008   ----------------------------------------
+	.byte		N08   , Ds5 , v116
 	.byte	W06
 	.byte		N07   , Gs5 , v120
 	.byte	W06
@@ -125,28 +125,28 @@ mus_ta_course_selection_1_B1:
 	.byte	W18
 	.byte		N56   , Gs2 
 	.byte	W12
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_1_001
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_1_002
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_1_001
-/* 012   ----------------------------------------
- */	.byte	W48
+@ 012   ----------------------------------------
+	.byte	W48
 	.byte	GOTO
 	 mPtr	mus_ta_course_selection_1_B1
 mus_ta_course_selection_1_B2:
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_ta_course_selection_2:
 	.byte	KEYSH , mus_ta_course_selection_key+0
-/* 000   ----------------------------------------
- */	.byte	W20
+@ 000   ----------------------------------------
+	.byte	W20
 	.byte		VOICE , 80
 	.byte		VOL   , 119*mus_ta_course_selection_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -183,8 +183,8 @@ mus_ta_course_selection_2:
 	.byte	W02
 	.byte		N56   , Ds3 
 	.byte	W12
-/* 001   ----------------------------------------
- */mus_ta_course_selection_2_001:
+@ 001   ----------------------------------------
+mus_ta_course_selection_2_001:
 	.byte	W48
 	.byte		N36   , As2 , v116
 	.byte	W36
@@ -192,8 +192,8 @@ mus_ta_course_selection_2:
 	.byte		N40   , Ds3 
 	.byte	W10
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ta_course_selection_2_002:
+@ 002   ----------------------------------------
+mus_ta_course_selection_2_002:
 	.byte	W30
 	.byte		N03   , Gs1 , v020
 	.byte	W03
@@ -226,8 +226,8 @@ mus_ta_course_selection_2:
 	.byte		N56   , Ds3 
 	.byte	W11
 	.byte	PEND
-/* 003   ----------------------------------------
- */mus_ta_course_selection_2_003:
+@ 003   ----------------------------------------
+mus_ta_course_selection_2_003:
 	.byte	W48
 	.byte	W01
 	.byte		N36   , As2 , v116
@@ -236,8 +236,8 @@ mus_ta_course_selection_2:
 	.byte		N32   , Ds3 
 	.byte	W09
 	.byte	PEND
-/* 004   ----------------------------------------
- */mus_ta_course_selection_2_004:
+@ 004   ----------------------------------------
+mus_ta_course_selection_2_004:
 	.byte	W28
 	.byte	W01
 	.byte		N03   , Cs3 , v052
@@ -263,14 +263,14 @@ mus_ta_course_selection_2:
 	.byte	PEND
 mus_ta_course_selection_2_B1:
 	.byte	W48
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte	W96
-/* 007   ----------------------------------------
- */	.byte	W96
-/* 008   ----------------------------------------
- */	.byte	W20
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte	W96
+@ 007   ----------------------------------------
+	.byte	W96
+@ 008   ----------------------------------------
+	.byte	W20
 	.byte		N03   , Fn1 , v072
 	.byte	W01
 	.byte		N04   , Gn1 , v096
@@ -304,56 +304,56 @@ mus_ta_course_selection_2_B1:
 	.byte	W02
 	.byte		N56   , Ds3 
 	.byte	W12
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_2_001
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_2_002
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_2_003
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_2_004
 	.byte	GOTO
 	 mPtr	mus_ta_course_selection_2_B1
 mus_ta_course_selection_2_B2:
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_ta_course_selection_3:
 	.byte	KEYSH , mus_ta_course_selection_key+0
-/* 000   ----------------------------------------
- */	.byte	W24
+@ 000   ----------------------------------------
+	.byte	W24
 	.byte		VOICE , 74
 	.byte		VOL   , 72*mus_ta_course_selection_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W72
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */	.byte	W48
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+	.byte	W48
 mus_ta_course_selection_3_B1:
 	.byte	W24
 	.byte		N12   , Cs3 , v127
 	.byte	W18
 	.byte		N02   
 	.byte	W06
-/* 005   ----------------------------------------
- */	.byte		N05   
+@ 005   ----------------------------------------
+	.byte		N05   
 	.byte	W12
 	.byte		N07   
 	.byte	W24
 	.byte		TIE   , Ds3 
 	.byte	W60
-/* 006   ----------------------------------------
- */	.byte	W42
+@ 006   ----------------------------------------
+	.byte	W42
 	.byte		EOT   
 	.byte	W30
 	.byte		N02   , Cs3 
@@ -364,23 +364,23 @@ mus_ta_course_selection_3_B1:
 	.byte	W06
 	.byte		N03   
 	.byte	W06
-/* 007   ----------------------------------------
- */	.byte		N04   
+@ 007   ----------------------------------------
+	.byte		N04   
 	.byte	W18
 	.byte		N03   
 	.byte	W18
 	.byte		N84   , Ds3 
 	.byte	W60
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	W48
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	W48
 	.byte	GOTO
 	 mPtr	mus_ta_course_selection_3_B1
 mus_ta_course_selection_3_B2:
@@ -389,8 +389,8 @@ mus_ta_course_selection_3_B2:
 	.byte	W18
 	.byte		N02   
 	.byte	W06
-/* 013   ----------------------------------------
- */	.byte		N05   
+@ 013   ----------------------------------------
+	.byte		N05   
 	.byte	W12
 	.byte		N07   
 	.byte	W24
@@ -398,12 +398,12 @@ mus_ta_course_selection_3_B2:
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_ta_course_selection_4:
 	.byte	KEYSH , mus_ta_course_selection_key+0
-/* 000   ----------------------------------------
- */	.byte	W24
+@ 000   ----------------------------------------
+	.byte	W24
 	.byte		VOICE , 22
 	.byte		VOL   , 63*mus_ta_course_selection_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -414,8 +414,8 @@ mus_ta_course_selection_4:
 	.byte	W18
 	.byte		N54   , Cn3 
 	.byte	W12
-/* 001   ----------------------------------------
- */mus_ta_course_selection_4_001:
+@ 001   ----------------------------------------
+mus_ta_course_selection_4_001:
 	.byte	W48
 	.byte		N04   , As2 , v108
 	.byte	W18
@@ -424,8 +424,8 @@ mus_ta_course_selection_4:
 	.byte		N48   , Cn3 
 	.byte	W12
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ta_course_selection_4_002:
+@ 002   ----------------------------------------
+mus_ta_course_selection_4_002:
 	.byte	W48
 	.byte		N03   , Dn3 , v108
 	.byte	W18
@@ -434,8 +434,8 @@ mus_ta_course_selection_4:
 	.byte		N52   , Cn3 
 	.byte	W12
 	.byte	PEND
-/* 003   ----------------------------------------
- */mus_ta_course_selection_4_003:
+@ 003   ----------------------------------------
+mus_ta_course_selection_4_003:
 	.byte	W48
 	.byte		N05   , As2 , v108
 	.byte	W18
@@ -444,23 +444,23 @@ mus_ta_course_selection_4:
 	.byte		N44   , Cn3 
 	.byte	W12
 	.byte	PEND
-/* 004   ----------------------------------------
- */	.byte	W48
+@ 004   ----------------------------------------
+	.byte	W48
 mus_ta_course_selection_4_B1:
 	.byte	W24
 	.byte		N12   , Fs2 , v108
 	.byte	W18
 	.byte		N02   , Fs2 , v100
 	.byte	W06
-/* 005   ----------------------------------------
- */	.byte		N05   , Fs2 , v108
+@ 005   ----------------------------------------
+	.byte		N05   , Fs2 , v108
 	.byte	W12
 	.byte		N05   
 	.byte	W24
 	.byte		TIE   , Gs2 
 	.byte	W60
-/* 006   ----------------------------------------
- */	.byte	W40
+@ 006   ----------------------------------------
+	.byte	W40
 	.byte	W01
 	.byte		EOT   
 	.byte	W30
@@ -473,32 +473,32 @@ mus_ta_course_selection_4_B1:
 	.byte	W06
 	.byte		N02   , Fs2 , v108
 	.byte	W06
-/* 007   ----------------------------------------
- */	.byte		N03   
+@ 007   ----------------------------------------
+	.byte		N03   
 	.byte	W18
 	.byte		N03   
 	.byte	W18
 	.byte		N84   , Gs2 
 	.byte	W60
-/* 008   ----------------------------------------
- */	.byte	W48
+@ 008   ----------------------------------------
+	.byte	W48
 	.byte		N03   , Dn3 
 	.byte	W18
 	.byte		N03   
 	.byte	W18
 	.byte		N54   , Cn3 
 	.byte	W12
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_4_001
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_4_002
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_4_003
-/* 012   ----------------------------------------
- */	.byte	W48
+@ 012   ----------------------------------------
+	.byte	W48
 	.byte	GOTO
 	 mPtr	mus_ta_course_selection_4_B1
 mus_ta_course_selection_4_B2:
@@ -507,8 +507,8 @@ mus_ta_course_selection_4_B2:
 	.byte	W18
 	.byte		N02   , Fs2 , v100
 	.byte	W06
-/* 013   ----------------------------------------
- */	.byte		N05   , Fs2 , v108
+@ 013   ----------------------------------------
+	.byte		N05   , Fs2 , v108
 	.byte	W12
 	.byte		N05   
 	.byte	W24
@@ -516,12 +516,12 @@ mus_ta_course_selection_4_B2:
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_ta_course_selection_5:
 	.byte	KEYSH , mus_ta_course_selection_key+0
-/* 000   ----------------------------------------
- */	.byte	W24
+@ 000   ----------------------------------------
+	.byte	W24
 	.byte		VOICE , 74
 	.byte		VOL   , 89*mus_ta_course_selection_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -532,8 +532,8 @@ mus_ta_course_selection_5:
 	.byte	W18
 	.byte		N56   , Ds3 
 	.byte	W12
-/* 001   ----------------------------------------
- */mus_ta_course_selection_5_001:
+@ 001   ----------------------------------------
+mus_ta_course_selection_5_001:
 	.byte	W48
 	.byte		N05   , Ds3 , v127
 	.byte	W18
@@ -542,8 +542,8 @@ mus_ta_course_selection_5:
 	.byte		N48   
 	.byte	W12
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ta_course_selection_5_002:
+@ 002   ----------------------------------------
+mus_ta_course_selection_5_002:
 	.byte	W48
 	.byte		N04   , Fn3 , v127
 	.byte	W18
@@ -552,8 +552,8 @@ mus_ta_course_selection_5:
 	.byte		N56   , Ds3 
 	.byte	W12
 	.byte	PEND
-/* 003   ----------------------------------------
- */mus_ta_course_selection_5_003:
+@ 003   ----------------------------------------
+mus_ta_course_selection_5_003:
 	.byte	W48
 	.byte		N06   , Ds3 , v120
 	.byte	W18
@@ -562,23 +562,23 @@ mus_ta_course_selection_5:
 	.byte		N48   , Ds3 , v127
 	.byte	W12
 	.byte	PEND
-/* 004   ----------------------------------------
- */	.byte	W48
+@ 004   ----------------------------------------
+	.byte	W48
 mus_ta_course_selection_5_B1:
 	.byte	W24
 	.byte		N12   , As2 , v127
 	.byte	W18
 	.byte		N02   
 	.byte	W06
-/* 005   ----------------------------------------
- */	.byte		N04   
+@ 005   ----------------------------------------
+	.byte		N04   
 	.byte	W12
 	.byte		N06   
 	.byte	W24
 	.byte		TIE   , Cn3 
 	.byte	W60
-/* 006   ----------------------------------------
- */	.byte	W40
+@ 006   ----------------------------------------
+	.byte	W40
 	.byte		EOT   
 	.byte	W32
 	.byte		N01   , As2 
@@ -589,27 +589,27 @@ mus_ta_course_selection_5_B1:
 	.byte	W06
 	.byte		N03   
 	.byte	W06
-/* 007   ----------------------------------------
- */	.byte		N03   
+@ 007   ----------------------------------------
+	.byte		N03   
 	.byte	W18
 	.byte		N03   
 	.byte	W18
 	.byte		N84   , Cn3 
 	.byte	W60
-/* 008   ----------------------------------------
- */	.byte	PATT
+@ 008   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_5_002
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_5_001
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_5_002
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_5_003
-/* 012   ----------------------------------------
- */	.byte	W48
+@ 012   ----------------------------------------
+	.byte	W48
 	.byte	GOTO
 	 mPtr	mus_ta_course_selection_5_B1
 mus_ta_course_selection_5_B2:
@@ -618,8 +618,8 @@ mus_ta_course_selection_5_B2:
 	.byte	W18
 	.byte		N02   
 	.byte	W06
-/* 013   ----------------------------------------
- */	.byte		N04   
+@ 013   ----------------------------------------
+	.byte		N04   
 	.byte	W12
 	.byte		N06   
 	.byte	W24
@@ -627,12 +627,12 @@ mus_ta_course_selection_5_B2:
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 6 (Midi-Chn.6) **************** */
+@ **************** Track 6 (Midi-Chn.6) ****************
 
 mus_ta_course_selection_6:
 	.byte	KEYSH , mus_ta_course_selection_key+0
-/* 000   ----------------------------------------
- */	.byte	W24
+@ 000   ----------------------------------------
+	.byte	W24
 	.byte		VOICE , 24
 	.byte		VOL   , 119*mus_ta_course_selection_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -643,8 +643,8 @@ mus_ta_course_selection_6:
 	.byte	W18
 	.byte		N23   , As2 
 	.byte	W12
-/* 001   ----------------------------------------
- */mus_ta_course_selection_6_001:
+@ 001   ----------------------------------------
+mus_ta_course_selection_6_001:
 	.byte	W12
 	.byte		N11   , Fn2 , v127
 	.byte	W12
@@ -661,8 +661,8 @@ mus_ta_course_selection_6:
 	.byte		N24   , As2 
 	.byte	W12
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ta_course_selection_6_002:
+@ 002   ----------------------------------------
+mus_ta_course_selection_6_002:
 	.byte	W12
 	.byte		N10   , Fn2 , v127
 	.byte	W12
@@ -677,8 +677,8 @@ mus_ta_course_selection_6:
 	.byte		N23   , As2 
 	.byte	W12
 	.byte	PEND
-/* 003   ----------------------------------------
- */mus_ta_course_selection_6_003:
+@ 003   ----------------------------------------
+mus_ta_course_selection_6_003:
 	.byte	W12
 	.byte		N11   , Fn2 , v127
 	.byte	W12
@@ -695,8 +695,8 @@ mus_ta_course_selection_6:
 	.byte		N23   , As2 
 	.byte	W12
 	.byte	PEND
-/* 004   ----------------------------------------
- */mus_ta_course_selection_6_004:
+@ 004   ----------------------------------------
+mus_ta_course_selection_6_004:
 	.byte	W12
 	.byte		N11   , Fn2 , v127
 	.byte	W12
@@ -714,8 +714,8 @@ mus_ta_course_selection_6_B1:
 	.byte	W12
 	.byte		N10   , Fs2 
 	.byte	W12
-/* 005   ----------------------------------------
- */	.byte	W12
+@ 005   ----------------------------------------
+	.byte	W12
 	.byte		        Cs2 
 	.byte	W24
 	.byte		N19   , Gs2 
@@ -726,8 +726,8 @@ mus_ta_course_selection_6_B1:
 	.byte	W18
 	.byte		N06   , Cn3 
 	.byte	W06
-/* 006   ----------------------------------------
- */	.byte		N07   , As2 
+@ 006   ----------------------------------------
+	.byte		N07   , As2 
 	.byte	W12
 	.byte		N12   , Gs2 
 	.byte	W12
@@ -743,8 +743,8 @@ mus_ta_course_selection_6_B1:
 	.byte	W12
 	.byte		N10   , Fs2 
 	.byte	W12
-/* 007   ----------------------------------------
- */	.byte	W12
+@ 007   ----------------------------------------
+	.byte	W12
 	.byte		        Cs2 
 	.byte	W12
 	.byte		N04   , Fs2 
@@ -755,8 +755,8 @@ mus_ta_course_selection_6_B1:
 	.byte	W24
 	.byte		N15   , As2 
 	.byte	W12
-/* 008   ----------------------------------------
- */	.byte	W12
+@ 008   ----------------------------------------
+	.byte	W12
 	.byte		N11   , Cn3 
 	.byte	W12
 	.byte		        Cs3 
@@ -769,17 +769,17 @@ mus_ta_course_selection_6_B1:
 	.byte	W18
 	.byte		N23   , As2 
 	.byte	W12
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_6_001
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_6_002
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_6_003
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_6_004
 	.byte	GOTO
 	 mPtr	mus_ta_course_selection_6_B1
@@ -792,20 +792,20 @@ mus_ta_course_selection_6_B2:
 	.byte	W12
 	.byte		N10   , Fs2 
 	.byte	W12
-/* 013   ----------------------------------------
- */	.byte	W12
+@ 013   ----------------------------------------
+	.byte	W12
 	.byte		        Cs2 
 	.byte	W24
 	.byte		N12   , Gs2 
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 7 (Midi-Chn.7) **************** */
+@ **************** Track 7 (Midi-Chn.7) ****************
 
 mus_ta_course_selection_7:
 	.byte	KEYSH , mus_ta_course_selection_key+0
-/* 000   ----------------------------------------
- */	.byte	W24
+@ 000   ----------------------------------------
+	.byte	W24
 	.byte		VOICE , 23
 	.byte		VOL   , 51*mus_ta_course_selection_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -816,8 +816,8 @@ mus_ta_course_selection_7:
 	.byte	W18
 	.byte		N56   , Gs3 
 	.byte	W12
-/* 001   ----------------------------------------
- */mus_ta_course_selection_7_001:
+@ 001   ----------------------------------------
+mus_ta_course_selection_7_001:
 	.byte	W48
 	.byte		N05   , Gn3 , v104
 	.byte	W18
@@ -826,8 +826,8 @@ mus_ta_course_selection_7:
 	.byte		N54   , Gs3 
 	.byte	W12
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ta_course_selection_7_002:
+@ 002   ----------------------------------------
+mus_ta_course_selection_7_002:
 	.byte	W48
 	.byte		N05   , As3 , v104
 	.byte	W18
@@ -836,26 +836,26 @@ mus_ta_course_selection_7:
 	.byte		N54   , Gs3 
 	.byte	W12
 	.byte	PEND
-/* 003   ----------------------------------------
- */	.byte	PATT
+@ 003   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_7_001
-/* 004   ----------------------------------------
- */	.byte	W48
+@ 004   ----------------------------------------
+	.byte	W48
 mus_ta_course_selection_7_B1:
 	.byte	W24
 	.byte		N12   , Cs3 , v127
 	.byte	W18
 	.byte		N02   
 	.byte	W06
-/* 005   ----------------------------------------
- */	.byte		N05   
+@ 005   ----------------------------------------
+	.byte		N05   
 	.byte	W12
 	.byte		N07   
 	.byte	W24
 	.byte		N96   , Ds3 
 	.byte	W60
-/* 006   ----------------------------------------
- */	.byte	W72
+@ 006   ----------------------------------------
+	.byte	W72
 	.byte		N02   , Cs3 
 	.byte	W06
 	.byte		N02   
@@ -864,32 +864,32 @@ mus_ta_course_selection_7_B1:
 	.byte	W06
 	.byte		N03   
 	.byte	W06
-/* 007   ----------------------------------------
- */	.byte		N04   
+@ 007   ----------------------------------------
+	.byte		N04   
 	.byte	W18
 	.byte		N03   
 	.byte	W18
 	.byte		N96   , Ds3 
 	.byte	W60
-/* 008   ----------------------------------------
- */	.byte	W48
+@ 008   ----------------------------------------
+	.byte	W48
 	.byte		N04   , As3 , v104
 	.byte	W18
 	.byte		N04   
 	.byte	W18
 	.byte		N56   , Gs3 
 	.byte	W12
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_7_001
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_7_002
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_7_001
-/* 012   ----------------------------------------
- */	.byte	W48
+@ 012   ----------------------------------------
+	.byte	W48
 	.byte	GOTO
 	 mPtr	mus_ta_course_selection_7_B1
 mus_ta_course_selection_7_B2:
@@ -898,8 +898,8 @@ mus_ta_course_selection_7_B2:
 	.byte	W18
 	.byte		N02   
 	.byte	W06
-/* 013   ----------------------------------------
- */	.byte		N05   
+@ 013   ----------------------------------------
+	.byte		N05   
 	.byte	W12
 	.byte		N07   
 	.byte	W24
@@ -907,12 +907,12 @@ mus_ta_course_selection_7_B2:
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 8 (Midi-Chn.8) **************** */
+@ **************** Track 8 (Midi-Chn.8) ****************
 
 mus_ta_course_selection_8:
 	.byte	KEYSH , mus_ta_course_selection_key+0
-/* 000   ----------------------------------------
- */	.byte	W24
+@ 000   ----------------------------------------
+	.byte	W24
 	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_ta_course_selection_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -929,8 +929,8 @@ mus_ta_course_selection_8:
 	.byte		N23   , Cn1 , v127
 	.byte		N56   , Ds1 , v048
 	.byte	W12
-/* 001   ----------------------------------------
- */mus_ta_course_selection_8_001:
+@ 001   ----------------------------------------
+mus_ta_course_selection_8_001:
 	.byte	W12
 	.byte		N11   , Cn1 , v127
 	.byte	W12
@@ -953,8 +953,8 @@ mus_ta_course_selection_8:
 	.byte		N44   , Ds1 , v048
 	.byte	W12
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ta_course_selection_8_002:
+@ 002   ----------------------------------------
+mus_ta_course_selection_8_002:
 	.byte	W06
 	.byte		N40   , Cs1 , v127
 	.byte	W18
@@ -981,8 +981,8 @@ mus_ta_course_selection_8:
 	.byte	PEND
 	.byte		EOT   , Gn2 
 	.byte	W03
-/* 003   ----------------------------------------
- */mus_ta_course_selection_8_003:
+@ 003   ----------------------------------------
+mus_ta_course_selection_8_003:
 	.byte	W12
 	.byte		N32   , Cs1 , v127
 	.byte	W12
@@ -1001,8 +1001,8 @@ mus_ta_course_selection_8:
 	.byte		N23   , Cn1 , v127
 	.byte	W12
 	.byte	PEND
-/* 004   ----------------------------------------
- */mus_ta_course_selection_8_004:
+@ 004   ----------------------------------------
+mus_ta_course_selection_8_004:
 	.byte	W12
 	.byte		N05   , Cs1 , v127
 	.byte	W06
@@ -1031,8 +1031,8 @@ mus_ta_course_selection_8_B1:
 	.byte	W06
 	.byte		N05   , Cs1 , v127
 	.byte	W06
-/* 005   ----------------------------------------
- */	.byte		N11   , Cn1 
+@ 005   ----------------------------------------
+	.byte		N11   , Cn1 
 	.byte		N02   , Dn1 , v048
 	.byte	W12
 	.byte		N11   , Cn1 , v127
@@ -1058,8 +1058,8 @@ mus_ta_course_selection_8_B1:
 	.byte	W03
 	.byte		EOT   , Gn2 
 	.byte	W03
-/* 006   ----------------------------------------
- */	.byte		N05   , Cn1 
+@ 006   ----------------------------------------
+	.byte		N05   , Cn1 
 	.byte		N02   , Dn1 , v048
 	.byte	W06
 	.byte		N05   , Cs1 , v127
@@ -1084,8 +1084,8 @@ mus_ta_course_selection_8_B1:
 	.byte	W06
 	.byte		N05   , Cs1 , v127
 	.byte	W06
-/* 007   ----------------------------------------
- */	.byte		N11   , Cn1 
+@ 007   ----------------------------------------
+	.byte		N11   , Cn1 
 	.byte		N02   , Dn1 , v048
 	.byte	W12
 	.byte		N11   , Cn1 , v127
@@ -1109,8 +1109,8 @@ mus_ta_course_selection_8_B1:
 	.byte	W06
 	.byte		N05   , Cs1 , v127
 	.byte	W06
-/* 008   ----------------------------------------
- */	.byte		        Cn1 
+@ 008   ----------------------------------------
+	.byte		        Cn1 
 	.byte		N02   , Dn1 , v048
 	.byte	W06
 	.byte		N11   , Cs1 , v127
@@ -1136,19 +1136,19 @@ mus_ta_course_selection_8_B1:
 	.byte		N23   , Cn1 , v127
 	.byte		N56   , Ds1 , v048
 	.byte	W12
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_8_001
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_8_002
 	.byte		EOT   , Gn2 
 	.byte	W03
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_8_003
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ta_course_selection_8_004
 	.byte		EOT   , Gn2 
 	.byte	W01
@@ -1168,8 +1168,8 @@ mus_ta_course_selection_8_B2:
 	.byte	W06
 	.byte		N05   , Cs1 , v127
 	.byte	W06
-/* 013   ----------------------------------------
- */	.byte		N11   , Cn1 
+@ 013   ----------------------------------------
+	.byte		N11   , Cn1 
 	.byte		N02   , Dn1 , v048
 	.byte	W12
 	.byte		N11   , Cn1 , v127
@@ -1183,14 +1183,14 @@ mus_ta_course_selection_8_B2:
 	.byte	W12
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_ta_course_selection):
-	.byte	8	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_ta_course_selection_pri	/* Priority */
-	.byte	mus_ta_course_selection_rev	/* Reverb */
+	.byte	8	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_ta_course_selection_pri	@ Priority
+	.byte	mus_ta_course_selection_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_ta_course_selection_grp

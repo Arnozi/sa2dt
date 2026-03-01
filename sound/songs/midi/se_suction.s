@@ -15,12 +15,12 @@
 	.global	C_DECL(se_suction)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_suction_1:
 	.byte	KEYSH , se_suction_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_suction_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_suction_tbs/2
 	.byte		VOICE , 70
 	.byte		VOL   , 127*se_suction_mvl/mxv
 	.byte		MODT  , 0
@@ -120,24 +120,24 @@ se_suction_1:
 	.byte		        c_v-2
 	.byte	W52
 se_suction_1_B1:
-/* 001   ----------------------------------------
- */	.byte	W72
+@ 001   ----------------------------------------
+	.byte	W72
 	.byte	GOTO
 	 mPtr	se_suction_1_B1
 se_suction_1_B2:
 	.byte	W24
 	.byte		EOT   , Dn4 
-/* 002   ----------------------------------------
- */	.byte	FINE
+@ 002   ----------------------------------------
+	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_suction):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_suction_pri	/* Priority */
-	.byte	se_suction_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_suction_pri	@ Priority
+	.byte	se_suction_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_suction_grp

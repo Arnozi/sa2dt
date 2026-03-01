@@ -15,12 +15,12 @@
 	.global	C_DECL(se_sonic_insta_shield)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_sonic_insta_shield_1:
 	.byte	KEYSH , se_sonic_insta_shield_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_sonic_insta_shield_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_sonic_insta_shield_tbs/2
 	.byte		VOICE , 51
 	.byte		VOL   , 127*se_sonic_insta_shield_mvl/mxv
 	.byte		BENDR , 26
@@ -117,14 +117,14 @@ se_sonic_insta_shield_1:
 	.byte		        c_v-5
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_sonic_insta_shield):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_sonic_insta_shield_pri	/* Priority */
-	.byte	se_sonic_insta_shield_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_sonic_insta_shield_pri	@ Priority
+	.byte	se_sonic_insta_shield_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_sonic_insta_shield_grp

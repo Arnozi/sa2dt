@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_vs_miss)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_vs_miss_1:
 	.byte	KEYSH , mus_vs_miss_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 76*mus_vs_miss_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 76*mus_vs_miss_tbs/2
 	.byte		VOICE , 108
 	.byte		VOL   , 127*mus_vs_miss_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -38,12 +38,12 @@ mus_vs_miss_1:
 	.byte	W11
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_vs_miss_2:
 	.byte	KEYSH , mus_vs_miss_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 109
+@ 000   ----------------------------------------
+	.byte		VOICE , 109
 	.byte		VOL   , 127*mus_vs_miss_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N02   , Dn4 , v108
@@ -60,12 +60,12 @@ mus_vs_miss_2:
 	.byte	W11
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_vs_miss_3:
 	.byte	KEYSH , mus_vs_miss_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 63
+@ 000   ----------------------------------------
+	.byte		VOICE , 63
 	.byte		VOL   , 127*mus_vs_miss_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N02   , Bn3 , v108
@@ -82,12 +82,12 @@ mus_vs_miss_3:
 	.byte	W11
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_vs_miss_4:
 	.byte	KEYSH , mus_vs_miss_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 64
+@ 000   ----------------------------------------
+	.byte		VOICE , 64
 	.byte		VOL   , 127*mus_vs_miss_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N02   , Dn3 , v108
@@ -104,14 +104,14 @@ mus_vs_miss_4:
 	.byte	W11
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_vs_miss):
-	.byte	4	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_vs_miss_pri	/* Priority */
-	.byte	mus_vs_miss_rev	/* Reverb */
+	.byte	4	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_vs_miss_pri	@ Priority
+	.byte	mus_vs_miss_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_vs_miss_grp

@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_achievement)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_achievement_1:
 	.byte	KEYSH , mus_achievement_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 130*mus_achievement_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 130*mus_achievement_tbs/2
 	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_achievement_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -50,12 +50,12 @@ mus_achievement_1:
 	.byte	W06
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_achievement_2:
 	.byte	KEYSH , mus_achievement_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 45
+@ 000   ----------------------------------------
+	.byte		VOICE , 45
 	.byte		VOL   , 127*mus_achievement_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 12
@@ -86,12 +86,12 @@ mus_achievement_2:
 	.byte	W28
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_achievement_3:
 	.byte	KEYSH , mus_achievement_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 87
+@ 000   ----------------------------------------
+	.byte		VOICE , 87
 	.byte		VOL   , 91*mus_achievement_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -117,12 +117,12 @@ mus_achievement_3:
 	.byte	W06
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_achievement_4:
 	.byte	KEYSH , mus_achievement_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 74
+@ 000   ----------------------------------------
+	.byte		VOICE , 74
 	.byte		VOL   , 127*mus_achievement_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -148,12 +148,12 @@ mus_achievement_4:
 	.byte	W01
 	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_achievement_5:
 	.byte	KEYSH , mus_achievement_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 80
+@ 000   ----------------------------------------
+	.byte		VOICE , 80
 	.byte		VOL   , 127*mus_achievement_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -167,14 +167,14 @@ mus_achievement_5:
 	.byte	W01
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_achievement):
-	.byte	5	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_achievement_pri	/* Priority */
-	.byte	mus_achievement_rev	/* Reverb */
+	.byte	5	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_achievement_pri	@ Priority
+	.byte	mus_achievement_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_achievement_grp

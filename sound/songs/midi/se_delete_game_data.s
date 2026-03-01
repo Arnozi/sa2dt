@@ -15,12 +15,12 @@
 	.global	C_DECL(se_delete_game_data)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_delete_game_data_1:
 	.byte	KEYSH , se_delete_game_data_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 162*se_delete_game_data_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 162*se_delete_game_data_tbs/2
 	.byte		VOICE , 20
 	.byte		VOL   , 127*se_delete_game_data_mvl/mxv
 	.byte		LFOS  , 51
@@ -31,14 +31,14 @@ se_delete_game_data_1:
 	.byte	W24
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_delete_game_data):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_delete_game_data_pri	/* Priority */
-	.byte	se_delete_game_data_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_delete_game_data_pri	@ Priority
+	.byte	se_delete_game_data_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_delete_game_data_grp

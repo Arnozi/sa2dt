@@ -15,12 +15,12 @@
 	.global	C_DECL(se_abort)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_abort_1:
 	.byte	KEYSH , se_abort_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_abort_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_abort_tbs/2
 	.byte		VOICE , 17
 	.byte		VOL   , 127*se_abort_mvl/mxv
 	.byte		LFOS  , 15
@@ -34,14 +34,14 @@ se_abort_1:
 	.byte	W17
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_abort):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_abort_pri	/* Priority */
-	.byte	se_abort_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_abort_pri	@ Priority
+	.byte	se_abort_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_abort_grp

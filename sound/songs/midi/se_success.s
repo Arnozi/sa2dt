@@ -15,12 +15,12 @@
 	.global	C_DECL(se_success)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_success_1:
 	.byte	KEYSH , se_success_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_success_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_success_tbs/2
 	.byte		VOICE , 64
 	.byte		VOL   , 127*se_success_mvl/mxv
 	.byte		LFOS  , 15
@@ -42,14 +42,14 @@ se_success_1:
 	.byte	W12
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_success):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_success_pri	/* Priority */
-	.byte	se_success_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_success_pri	@ Priority
+	.byte	se_success_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_success_grp

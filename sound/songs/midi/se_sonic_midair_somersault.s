@@ -15,12 +15,12 @@
 	.global	C_DECL(se_sonic_midair_somersault)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_sonic_midair_somersault_1:
 	.byte	KEYSH , se_sonic_midair_somersault_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_sonic_midair_somersault_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_sonic_midair_somersault_tbs/2
 	.byte		VOICE , 16
 	.byte		MOD   , 127
 	.byte		VOL   , 127*se_sonic_midair_somersault_mvl/mxv
@@ -90,14 +90,14 @@ se_sonic_midair_somersault_1:
 	.byte		        c_v-64
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_sonic_midair_somersault):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_sonic_midair_somersault_pri	/* Priority */
-	.byte	se_sonic_midair_somersault_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_sonic_midair_somersault_pri	@ Priority
+	.byte	se_sonic_midair_somersault_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_sonic_midair_somersault_grp

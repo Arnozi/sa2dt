@@ -15,12 +15,12 @@
 	.global	C_DECL(se_life_lost)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_life_lost_1:
 	.byte	KEYSH , se_life_lost_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_life_lost_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_life_lost_tbs/2
 	.byte		VOICE , 52
 	.byte		VOL   , 127*se_life_lost_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -31,14 +31,14 @@ se_life_lost_1:
 	.byte	W32
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_life_lost):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_life_lost_pri	/* Priority */
-	.byte	se_life_lost_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_life_lost_pri	@ Priority
+	.byte	se_life_lost_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_life_lost_grp

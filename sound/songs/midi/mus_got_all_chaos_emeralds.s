@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_got_all_chaos_emeralds)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_got_all_chaos_emeralds_1:
 	.byte	KEYSH , mus_got_all_chaos_emeralds_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*mus_got_all_chaos_emeralds_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*mus_got_all_chaos_emeralds_tbs/2
 	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_got_all_chaos_emeralds_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -51,16 +51,16 @@ mus_got_all_chaos_emeralds_1:
 	.byte	W06
 	.byte		N60   , Cs2 
 	.byte	W24
-/* 001   ----------------------------------------
- */	.byte	W36
+@ 001   ----------------------------------------
+	.byte	W36
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_got_all_chaos_emeralds_2:
 	.byte	KEYSH , mus_got_all_chaos_emeralds_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 13
+@ 000   ----------------------------------------
+	.byte		VOICE , 13
 	.byte		VOL   , 120*mus_got_all_chaos_emeralds_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 13
@@ -88,12 +88,12 @@ mus_got_all_chaos_emeralds_2:
 	.byte	W18
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_got_all_chaos_emeralds_3:
 	.byte	KEYSH , mus_got_all_chaos_emeralds_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 13
+@ 000   ----------------------------------------
+	.byte		VOICE , 13
 	.byte		VOL   , 120*mus_got_all_chaos_emeralds_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 13
@@ -119,12 +119,12 @@ mus_got_all_chaos_emeralds_3:
 	.byte	W18
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_got_all_chaos_emeralds_4:
 	.byte	KEYSH , mus_got_all_chaos_emeralds_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 13
+@ 000   ----------------------------------------
+	.byte		VOICE , 13
 	.byte		VOL   , 120*mus_got_all_chaos_emeralds_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 13
@@ -150,12 +150,12 @@ mus_got_all_chaos_emeralds_4:
 	.byte	W18
 	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_got_all_chaos_emeralds_5:
 	.byte	KEYSH , mus_got_all_chaos_emeralds_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 12
+@ 000   ----------------------------------------
+	.byte		VOICE , 12
 	.byte		VOL   , 120*mus_got_all_chaos_emeralds_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 13
@@ -181,12 +181,12 @@ mus_got_all_chaos_emeralds_5:
 	.byte	W18
 	.byte	FINE
 
-/* **************** Track 6 (Midi-Chn.6) **************** */
+@ **************** Track 6 (Midi-Chn.6) ****************
 
 mus_got_all_chaos_emeralds_6:
 	.byte	KEYSH , mus_got_all_chaos_emeralds_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 30
+@ 000   ----------------------------------------
+	.byte		VOICE , 30
 	.byte		VOL   , 120*mus_got_all_chaos_emeralds_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 13
@@ -217,8 +217,8 @@ mus_got_all_chaos_emeralds_6:
 	.byte	W18
 	.byte		N05   , Cs3 , v048
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte		N01   , As2 
+@ 001   ----------------------------------------
+	.byte		N01   , As2 
 	.byte	W01
 	.byte		N02   , Gs2 , v088
 	.byte	W02
@@ -232,12 +232,12 @@ mus_got_all_chaos_emeralds_6:
 	.byte	W01
 	.byte	FINE
 
-/* **************** Track 7 (Midi-Chn.7) **************** */
+@ **************** Track 7 (Midi-Chn.7) ****************
 
 mus_got_all_chaos_emeralds_7:
 	.byte	KEYSH , mus_got_all_chaos_emeralds_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 37
+@ 000   ----------------------------------------
+	.byte		VOICE , 37
 	.byte		VOL   , 120*mus_got_all_chaos_emeralds_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 13
@@ -263,12 +263,12 @@ mus_got_all_chaos_emeralds_7:
 	.byte	W18
 	.byte	FINE
 
-/* **************** Track 8 (Midi-Chn.8) **************** */
+@ **************** Track 8 (Midi-Chn.8) ****************
 
 mus_got_all_chaos_emeralds_8:
 	.byte	KEYSH , mus_got_all_chaos_emeralds_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 38
+@ 000   ----------------------------------------
+	.byte		VOICE , 38
 	.byte		VOL   , 120*mus_got_all_chaos_emeralds_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 13
@@ -294,14 +294,14 @@ mus_got_all_chaos_emeralds_8:
 	.byte	W03
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_got_all_chaos_emeralds):
-	.byte	8	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_got_all_chaos_emeralds_pri	/* Priority */
-	.byte	mus_got_all_chaos_emeralds_rev	/* Reverb */
+	.byte	8	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_got_all_chaos_emeralds_pri	@ Priority
+	.byte	mus_got_all_chaos_emeralds_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_got_all_chaos_emeralds_grp

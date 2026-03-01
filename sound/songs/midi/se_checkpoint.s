@@ -15,12 +15,12 @@
 	.global	C_DECL(se_checkpoint)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_checkpoint_1:
 	.byte	KEYSH , se_checkpoint_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_checkpoint_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_checkpoint_tbs/2
 	.byte		VOICE , 64
 	.byte		VOL   , 127*se_checkpoint_mvl/mxv
 	.byte		LFOS  , 15
@@ -35,14 +35,14 @@ se_checkpoint_1:
 	.byte	W01
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_checkpoint):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_checkpoint_pri	/* Priority */
-	.byte	se_checkpoint_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_checkpoint_pri	@ Priority
+	.byte	se_checkpoint_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_checkpoint_grp

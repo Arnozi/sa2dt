@@ -15,12 +15,12 @@
 	.global	C_DECL(se_itembox)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_itembox_1:
 	.byte	KEYSH , se_itembox_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_itembox_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_itembox_tbs/2
 	.byte		VOICE , 52
 	.byte		VOL   , 70*se_itembox_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -73,12 +73,12 @@ se_itembox_1:
 	.byte	W03
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 se_itembox_2:
 	.byte	KEYSH , se_itembox_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 50
+@ 000   ----------------------------------------
+	.byte		VOICE , 50
 	.byte		VOL   , 127*se_itembox_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 15
@@ -86,14 +86,14 @@ se_itembox_2:
 	.byte	W02
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_itembox):
-	.byte	2	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_itembox_pri	/* Priority */
-	.byte	se_itembox_rev	/* Reverb */
+	.byte	2	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_itembox_pri	@ Priority
+	.byte	se_itembox_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_itembox_grp

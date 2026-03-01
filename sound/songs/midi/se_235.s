@@ -15,12 +15,12 @@
 	.global	C_DECL(se_235)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_235_1:
 	.byte	KEYSH , se_235_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_235_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_235_tbs/2
 	.byte		VOICE , 35
 	.byte		MOD   , 49
 	.byte		VOL   , 127*se_235_mvl/mxv
@@ -140,14 +140,14 @@ se_235_1:
 	.byte	W06
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_235):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_235_pri	/* Priority */
-	.byte	se_235_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_235_pri	@ Priority
+	.byte	se_235_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_235_grp

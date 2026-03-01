@@ -15,12 +15,12 @@
 	.global	C_DECL(se_alarm_2)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_alarm_2_1:
 	.byte	KEYSH , se_alarm_2_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_alarm_2_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_alarm_2_tbs/2
 	.byte		VOICE , 38
 	.byte		VOL   , 127*se_alarm_2_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -31,14 +31,14 @@ se_alarm_2_1:
 	.byte	W12
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_alarm_2):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_alarm_2_pri	/* Priority */
-	.byte	se_alarm_2_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_alarm_2_pri	@ Priority
+	.byte	se_alarm_2_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_alarm_2_grp

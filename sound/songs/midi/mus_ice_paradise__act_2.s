@@ -15,38 +15,38 @@
 	.global	C_DECL(mus_ice_paradise__act_2)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_ice_paradise__act_2_1:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_1_B1:
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 200*mus_ice_paradise__act_2_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 200*mus_ice_paradise__act_2_tbs/2
 	.byte		VOICE , 79
 	.byte		VOL   , 100*mus_ice_paradise__act_2_mvl/mxv
 	.byte		LFOS  , 26
 	.byte		MODT  , 1
 	.byte		LFODL , 28
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte		VOICE , 79
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+	.byte	W96
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte		VOICE , 79
 	.byte		VOL   , 100*mus_ice_paradise__act_2_mvl/mxv
 	.byte		LFOS  , 26
 	.byte		MODT  , 1
 	.byte		LFODL , 28
 	.byte	W96
-/* 007   ----------------------------------------
- */	.byte		MOD   , 54
+@ 007   ----------------------------------------
+	.byte		MOD   , 54
 	.byte	W60
 	.byte	W03
 	.byte		VOL   , 14*mus_ice_paradise__act_2_mvl/mxv
@@ -94,8 +94,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W03
 	.byte		        116*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 008   ----------------------------------------
- */	.byte	W01
+@ 008   ----------------------------------------
+	.byte	W01
 	.byte		        119*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        124*mus_ice_paradise__act_2_mvl/mxv
@@ -128,8 +128,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		        110*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 009   ----------------------------------------
- */	.byte	W01
+@ 009   ----------------------------------------
+	.byte	W01
 	.byte		        106*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        104*mus_ice_paradise__act_2_mvl/mxv
@@ -207,8 +207,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W22
 	.byte		N23   , As2 , v088
 	.byte	W22
-/* 010   ----------------------------------------
- */	.byte	W02
+@ 010   ----------------------------------------
+	.byte	W02
 	.byte		TIE   , Gs2 , v076
 	.byte	W80
 	.byte	W01
@@ -230,8 +230,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		        104*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 011   ----------------------------------------
- */	.byte		        104*mus_ice_paradise__act_2_mvl/mxv
+@ 011   ----------------------------------------
+	.byte		        104*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        102*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
@@ -328,8 +328,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		        118*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 012   ----------------------------------------
- */	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
+@ 012   ----------------------------------------
+	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		N36   , Fs3 , v092
 	.byte	W36
@@ -339,8 +339,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte		N88   , Ds3 , v064
 	.byte	W52
 	.byte	W01
-/* 013   ----------------------------------------
- */	.byte	W20
+@ 013   ----------------------------------------
+	.byte	W20
 	.byte		VOL   , 126*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
 	.byte		        123*mus_ice_paradise__act_2_mvl/mxv
@@ -377,13 +377,13 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W23
 	.byte		N21   , As2 , v076
 	.byte	W20
-/* 014   ----------------------------------------
- */	.byte	W02
+@ 014   ----------------------------------------
+	.byte	W02
 	.byte		TIE   , An2 , v068
 	.byte	W92
 	.byte	W02
-/* 015   ----------------------------------------
- */	.byte	W09
+@ 015   ----------------------------------------
+	.byte	W09
 	.byte		VOL   , 125*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        123*mus_ice_paradise__act_2_mvl/mxv
@@ -439,8 +439,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W22
 	.byte		N14   , Cn3 
 	.byte	W22
-/* 016   ----------------------------------------
- */	.byte	W02
+@ 016   ----------------------------------------
+	.byte	W02
 	.byte		N32   , Cs3 , v088
 	.byte	W36
 	.byte	W03
@@ -472,8 +472,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		        112*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 017   ----------------------------------------
- */	.byte	W01
+@ 017   ----------------------------------------
+	.byte	W01
 	.byte		        110*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W08
 	.byte		        108*mus_ice_paradise__act_2_mvl/mxv
@@ -516,8 +516,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		N19   , Fn3 , v080
 	.byte	W22
-/* 018   ----------------------------------------
- */	.byte	W03
+@ 018   ----------------------------------------
+	.byte	W03
 	.byte		N32   , En3 , v084
 	.byte	W36
 	.byte		TIE   , Gs2 , v068
@@ -550,8 +550,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W04
 	.byte		        97*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W05
-/* 019   ----------------------------------------
- */	.byte	W02
+@ 019   ----------------------------------------
+	.byte	W02
 	.byte		        97*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
 	.byte		        96*mus_ice_paradise__act_2_mvl/mxv
@@ -618,8 +618,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W13
 	.byte		        125*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
-/* 020   ----------------------------------------
- */	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
+@ 020   ----------------------------------------
+	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
 	.byte		N78   , Bn2 , v076
 	.byte	W80
@@ -636,8 +636,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		VOL   , 125*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 021   ----------------------------------------
- */	.byte	W03
+@ 021   ----------------------------------------
+	.byte	W03
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W12
 	.byte		N12   , Bn2 , v064
@@ -694,8 +694,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W02
 	.byte		        91*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W07
-/* 022   ----------------------------------------
- */	.byte	W01
+@ 022   ----------------------------------------
+	.byte	W01
 	.byte		        89*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        88*mus_ice_paradise__act_2_mvl/mxv
@@ -784,8 +784,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W04
-/* 023   ----------------------------------------
- */	.byte	W02
+@ 023   ----------------------------------------
+	.byte	W02
 	.byte		N42   , Fs3 , v104
 	.byte	W48
 	.byte		N17   , Fs3 , v088
@@ -794,8 +794,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W14
 	.byte		N16   , Fs3 , v088
 	.byte	W11
-/* 024   ----------------------------------------
- */	.byte	W02
+@ 024   ----------------------------------------
+	.byte	W02
 	.byte		N18   , Ds3 , v076
 	.byte	W17
 	.byte		VOL   , 125*mus_ice_paradise__act_2_mvl/mxv
@@ -860,12 +860,12 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		        0*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W30
-/* 025   ----------------------------------------
- */	.byte	W96
-/* 026   ----------------------------------------
- */	.byte	W96
-/* 027   ----------------------------------------
- */	.byte	W64
+@ 025   ----------------------------------------
+	.byte	W96
+@ 026   ----------------------------------------
+	.byte	W96
+@ 027   ----------------------------------------
+	.byte	W64
 	.byte	W01
 	.byte		        14*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
@@ -907,8 +907,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W05
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
-/* 028   ----------------------------------------
- */	.byte	W01
+@ 028   ----------------------------------------
+	.byte	W01
 	.byte		N32   , Fs3 
 	.byte	W36
 	.byte	W01
@@ -917,8 +917,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte		N90   , Ds3 , v072
 	.byte	W54
 	.byte	W01
-/* 029   ----------------------------------------
- */	.byte	W09
+@ 029   ----------------------------------------
+	.byte	W09
 	.byte		VOL   , 126*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        124*mus_ice_paradise__act_2_mvl/mxv
@@ -992,8 +992,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W20
 	.byte		N24   , As2 , v072
 	.byte	W23
-/* 030   ----------------------------------------
- */	.byte	W02
+@ 030   ----------------------------------------
+	.byte	W02
 	.byte		TIE   , Gs2 , v052
 	.byte	W84
 	.byte		VOL   , 126*mus_ice_paradise__act_2_mvl/mxv
@@ -1002,8 +1002,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W06
 	.byte		        122*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
-/* 031   ----------------------------------------
- */	.byte	W01
+@ 031   ----------------------------------------
+	.byte	W01
 	.byte		        118*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W08
 	.byte		        116*mus_ice_paradise__act_2_mvl/mxv
@@ -1085,15 +1085,15 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W06
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W06
-/* 032   ----------------------------------------
- */	.byte	W01
+@ 032   ----------------------------------------
+	.byte	W01
 	.byte		N32   , Fs3 , v076
 	.byte	W36
 	.byte		N92   , Ds3 , v068
 	.byte	W56
 	.byte	W03
-/* 033   ----------------------------------------
- */	.byte	W05
+@ 033   ----------------------------------------
+	.byte	W05
 	.byte		VOL   , 126*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        124*mus_ice_paradise__act_2_mvl/mxv
@@ -1175,8 +1175,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W19
 	.byte		N21   , As2 , v076
 	.byte	W20
-/* 034   ----------------------------------------
- */	.byte	W02
+@ 034   ----------------------------------------
+	.byte	W02
 	.byte		TIE   , An2 , v056
 	.byte	W56
 	.byte	W03
@@ -1212,8 +1212,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		        81*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 035   ----------------------------------------
- */	.byte		        78*mus_ice_paradise__act_2_mvl/mxv
+@ 035   ----------------------------------------
+	.byte		        78*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        76*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
@@ -1270,8 +1270,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W11
 	.byte		N10   , Cn3 , v068
 	.byte	W08
-/* 036   ----------------------------------------
- */	.byte	W03
+@ 036   ----------------------------------------
+	.byte	W03
 	.byte		N66   , Cs3 , v084
 	.byte	W68
 	.byte		N24   , Gs2 , v064
@@ -1286,8 +1286,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W02
 	.byte		        112*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 037   ----------------------------------------
- */	.byte		        109*mus_ice_paradise__act_2_mvl/mxv
+@ 037   ----------------------------------------
+	.byte		        109*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        106*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
@@ -1323,8 +1323,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		N17   , Cs3 , v080
 	.byte	W20
-/* 038   ----------------------------------------
- */	.byte	W02
+@ 038   ----------------------------------------
+	.byte	W02
 	.byte		N48   , Cs3 , v096
 	.byte	W48
 	.byte		N21   , Bn2 , v072
@@ -1333,8 +1333,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W12
 	.byte		N66   , Bn2 , v056
 	.byte	W12
-/* 039   ----------------------------------------
- */	.byte	W28
+@ 039   ----------------------------------------
+	.byte	W28
 	.byte		VOL   , 125*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
 	.byte		        119*mus_ice_paradise__act_2_mvl/mxv
@@ -1391,8 +1391,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W02
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W05
-/* 040   ----------------------------------------
- */	.byte	W01
+@ 040   ----------------------------------------
+	.byte	W01
 	.byte		N36   , Bn2 , v088
 	.byte	W40
 	.byte		N32   , En2 
@@ -1409,8 +1409,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W21
 	.byte		N36   , Fs2 , v080
 	.byte	W01
-/* 041   ----------------------------------------
- */	.byte	W14
+@ 041   ----------------------------------------
+	.byte	W14
 	.byte		VOL   , 126*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
 	.byte		        124*mus_ice_paradise__act_2_mvl/mxv
@@ -1463,8 +1463,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		        80*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
-/* 042   ----------------------------------------
- */	.byte	W01
+@ 042   ----------------------------------------
+	.byte	W01
 	.byte		        78*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
 	.byte		        74*mus_ice_paradise__act_2_mvl/mxv
@@ -1535,8 +1535,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W11
 	.byte		N09   , En3 , v044
 	.byte	W10
-/* 043   ----------------------------------------
- */	.byte	W03
+@ 043   ----------------------------------------
+	.byte	W03
 	.byte		N11   , Fn3 , v056
 	.byte	W11
 	.byte		N18   , Fs3 , v088
@@ -1580,8 +1580,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		        97*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 044   ----------------------------------------
- */	.byte		        101*mus_ice_paradise__act_2_mvl/mxv
+@ 044   ----------------------------------------
+	.byte		        101*mus_ice_paradise__act_2_mvl/mxv
 	.byte		N11   , Fs2 , v068
 	.byte	W03
 	.byte		VOL   , 103*mus_ice_paradise__act_2_mvl/mxv
@@ -1653,33 +1653,33 @@ mus_ice_paradise__act_2_1_B1:
 	.byte		        0*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W36
 	.byte	W01
-/* 045   ----------------------------------------
- */	.byte	W96
-/* 046   ----------------------------------------
- */	.byte	W96
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	W96
-/* 050   ----------------------------------------
- */	.byte	W96
-/* 051   ----------------------------------------
- */	.byte	W96
-/* 052   ----------------------------------------
- */	.byte	W96
-/* 053   ----------------------------------------
- */	.byte	W96
-/* 054   ----------------------------------------
- */	.byte		VOICE , 84
+@ 045   ----------------------------------------
+	.byte	W96
+@ 046   ----------------------------------------
+	.byte	W96
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	W96
+@ 049   ----------------------------------------
+	.byte	W96
+@ 050   ----------------------------------------
+	.byte	W96
+@ 051   ----------------------------------------
+	.byte	W96
+@ 052   ----------------------------------------
+	.byte	W96
+@ 053   ----------------------------------------
+	.byte	W96
+@ 054   ----------------------------------------
+	.byte		VOICE , 84
 	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
 	.byte		LFOS  , 26
 	.byte		MODT  , 1
 	.byte		LFODL , 28
 	.byte	W96
-/* 055   ----------------------------------------
- */	.byte	W64
+@ 055   ----------------------------------------
+	.byte	W64
 	.byte		N08   , Ds4 , v127
 	.byte	W10
 	.byte		        En4 , v092
@@ -1688,8 +1688,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W07
 	.byte		N05   , An4 , v092
 	.byte	W05
-/* 056   ----------------------------------------
- */	.byte	W02
+@ 056   ----------------------------------------
+	.byte	W02
 	.byte		N10   , En4 , v127
 	.byte		N11   , Cn5 , v124
 	.byte	W36
@@ -1702,8 +1702,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte		N12   , Fs4 , v127
 	.byte		N12   , Cn5 , v116
 	.byte	W10
-/* 057   ----------------------------------------
- */	.byte	W01
+@ 057   ----------------------------------------
+	.byte	W01
 	.byte		N09   , Fn4 , v096
 	.byte	W15
 	.byte		        Ds4 , v112
@@ -1719,8 +1719,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W13
 	.byte		        As3 , v104
 	.byte	W09
-/* 058   ----------------------------------------
- */	.byte		N05   , Gs3 , v084
+@ 058   ----------------------------------------
+	.byte		N05   , Gs3 , v084
 	.byte	W05
 	.byte		N16   , An3 , v092
 	.byte	W23
@@ -1733,23 +1733,23 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W15
 	.byte		N18   , Fn3 , v040
 	.byte	W08
-/* 059   ----------------------------------------
- */	.byte	W15
+@ 059   ----------------------------------------
+	.byte	W15
 	.byte		N08   , Fn3 , v088
 	.byte	W10
 	.byte		N30   , Cn3 , v072
 	.byte	W68
 	.byte	W03
-/* 060   ----------------------------------------
- */	.byte	W24
+@ 060   ----------------------------------------
+	.byte	W24
 	.byte		N05   , Gn3 , v108
 	.byte	W24
 	.byte		N17   , Gn3 , v127
 	.byte	W24
 	.byte		N14   , An3 , v112
 	.byte	W24
-/* 061   ----------------------------------------
- */	.byte		N02   , Gn3 , v080
+@ 061   ----------------------------------------
+	.byte		N02   , Gn3 , v080
 	.byte		N18   , As3 , v127
 	.byte	W24
 	.byte		N11   , An3 , v116
@@ -1762,8 +1762,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W15
 	.byte		N03   , Cn3 , v060
 	.byte	W09
-/* 062   ----------------------------------------
- */	.byte		N10   , Ds3 , v124
+@ 062   ----------------------------------------
+	.byte		N10   , Ds3 , v124
 	.byte	W15
 	.byte		N11   , Ds3 , v116
 	.byte	W09
@@ -1775,10 +1775,10 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W15
 	.byte		N44   , Fn2 , v092
 	.byte	W09
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte	W16
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte	W16
 	.byte		N08   , As2 , v127
 	.byte	W11
 	.byte		N07   , Bn2 , v076
@@ -1793,8 +1793,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W15
 	.byte		N15   , Bn3 , v120
 	.byte	W06
-/* 065   ----------------------------------------
- */	.byte	W16
+@ 065   ----------------------------------------
+	.byte	W16
 	.byte		N09   , Bn3 , v116
 	.byte	W11
 	.byte		        Gn3 , v112
@@ -1808,8 +1808,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W13
 	.byte		N08   , As2 , v100
 	.byte	W18
-/* 066   ----------------------------------------
- */	.byte		N03   , An2 , v112
+@ 066   ----------------------------------------
+	.byte		N03   , An2 , v112
 	.byte	W15
 	.byte		N05   , An2 , v064
 	.byte	W09
@@ -1822,8 +1822,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte		        Cn3 , v088
 	.byte	W32
 	.byte	W01
-/* 067   ----------------------------------------
- */	.byte		N11   , Ds3 , v127
+@ 067   ----------------------------------------
+	.byte		N11   , Ds3 , v127
 	.byte	W15
 	.byte		N12   , Ds3 , v124
 	.byte	W09
@@ -1832,8 +1832,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte		N18   , Cn3 , v100
 	.byte	W56
 	.byte	W01
-/* 068   ----------------------------------------
- */	.byte	W48
+@ 068   ----------------------------------------
+	.byte	W48
 	.byte	W02
 	.byte		N10   , Gn3 , v120
 	.byte	W15
@@ -1841,8 +1841,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W08
 	.byte		N12   , Cn4 , v124
 	.byte	W23
-/* 069   ----------------------------------------
- */	.byte	W01
+@ 069   ----------------------------------------
+	.byte	W01
 	.byte		N11   , Cs4 , v127
 	.byte	W14
 	.byte		N09   
@@ -1859,8 +1859,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W12
 	.byte		N09   , As3 , v120
 	.byte	W07
-/* 070   ----------------------------------------
- */	.byte	W03
+@ 070   ----------------------------------------
+	.byte	W03
 	.byte		N11   , An3 , v104
 	.byte	W15
 	.byte		N07   , Gs3 , v127
@@ -1875,8 +1875,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W11
 	.byte		        Fs4 , v116
 	.byte	W22
-/* 071   ----------------------------------------
- */	.byte	W01
+@ 071   ----------------------------------------
+	.byte	W01
 	.byte		N11   , Fn4 , v127
 	.byte	W17
 	.byte		N05   , An3 , v020
@@ -1893,8 +1893,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W15
 	.byte		N07   , Gs3 , v112
 	.byte	W07
-/* 072   ----------------------------------------
- */	.byte	W03
+@ 072   ----------------------------------------
+	.byte	W03
 	.byte		N09   , Gn3 
 	.byte	W13
 	.byte		N08   
@@ -1906,8 +1906,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W23
 	.byte		N14   , An3 , v120
 	.byte	W23
-/* 073   ----------------------------------------
- */	.byte	W01
+@ 073   ----------------------------------------
+	.byte	W01
 	.byte		N11   , Ds4 , v127
 	.byte		N19   , Gn4 
 	.byte	W15
@@ -1920,8 +1920,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte		N13   , En4 , v112
 	.byte	W54
 	.byte	W01
-/* 074   ----------------------------------------
- */	.byte	W36
+@ 074   ----------------------------------------
+	.byte	W36
 	.byte	W02
 	.byte		N05   , Gn3 , v084
 	.byte	W10
@@ -1933,8 +1933,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W13
 	.byte		N09   , Fs4 , v127
 	.byte	W09
-/* 075   ----------------------------------------
- */	.byte	W03
+@ 075   ----------------------------------------
+	.byte	W03
 	.byte		N08   , Fn4 , v124
 	.byte	W12
 	.byte		        Fn4 , v120
@@ -1947,8 +1947,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W10
 	.byte		N22   , Gn3 , v108
 	.byte	W24
-/* 076   ----------------------------------------
- */	.byte	W48
+@ 076   ----------------------------------------
+	.byte	W48
 	.byte	W02
 	.byte		N12   , Ds4 , v127
 	.byte		N12   , Gn4 
@@ -1963,8 +1963,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W02
 	.byte		N03   , Gn4 , v092
 	.byte	W06
-/* 077   ----------------------------------------
- */	.byte	W03
+@ 077   ----------------------------------------
+	.byte	W03
 	.byte		N09   , Cn4 , v120
 	.byte		N09   , Gn4 , v108
 	.byte	W14
@@ -1983,8 +1983,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W03
 	.byte		N10   , Gn4 , v064
 	.byte	W02
-/* 078   ----------------------------------------
- */	.byte	W18
+@ 078   ----------------------------------------
+	.byte	W18
 	.byte		N08   , Dn4 , v124
 	.byte		N15   , Gn4 , v116
 	.byte	W09
@@ -1996,8 +1996,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W10
 	.byte		N14   , An3 , v088
 	.byte	W23
-/* 079   ----------------------------------------
- */	.byte	W02
+@ 079   ----------------------------------------
+	.byte	W02
 	.byte		N17   , Cn4 , v127
 	.byte	W21
 	.byte		        An3 , v076
@@ -2008,8 +2008,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W10
 	.byte		N16   , Cn3 , v092
 	.byte	W21
-/* 080   ----------------------------------------
- */	.byte	W64
+@ 080   ----------------------------------------
+	.byte	W64
 	.byte	W01
 	.byte		N07   , Cn3 , v116
 	.byte	W09
@@ -2019,8 +2019,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W08
 	.byte		        En3 , v096
 	.byte	W06
-/* 081   ----------------------------------------
- */	.byte	W02
+@ 081   ----------------------------------------
+	.byte	W02
 	.byte		N14   , Gn3 , v124
 	.byte	W24
 	.byte	W01
@@ -2036,8 +2036,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W15
 	.byte		N06   , Gn3 , v084
 	.byte	W06
-/* 082   ----------------------------------------
- */	.byte	W03
+@ 082   ----------------------------------------
+	.byte	W03
 	.byte		N11   , Gs3 , v112
 	.byte	W14
 	.byte		N03   , An3 , v076
@@ -2054,8 +2054,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W13
 	.byte		N10   , As3 , v127
 	.byte	W10
-/* 083   ----------------------------------------
- */	.byte	W01
+@ 083   ----------------------------------------
+	.byte	W01
 	.byte		N09   , An3 , v096
 	.byte	W12
 	.byte		N07   , Fn3 , v084
@@ -2072,8 +2072,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W11
 	.byte		N08   , Cn3 , v084
 	.byte	W13
-/* 084   ----------------------------------------
- */	.byte	W01
+@ 084   ----------------------------------------
+	.byte	W01
 	.byte		N13   , Dn3 , v108
 	.byte	W15
 	.byte		N09   , En3 , v116
@@ -2088,8 +2088,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W14
 	.byte		N07   , Bn3 , v112
 	.byte	W09
-/* 085   ----------------------------------------
- */	.byte	W04
+@ 085   ----------------------------------------
+	.byte	W04
 	.byte		N11   , En4 , v127
 	.byte	W12
 	.byte		N07   , Ds4 , v120
@@ -2104,8 +2104,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W14
 	.byte		N17   , Cn4 
 	.byte	W08
-/* 086   ----------------------------------------
- */	.byte	W14
+@ 086   ----------------------------------------
+	.byte	W14
 	.byte		N05   , Bn3 , v100
 	.byte	W09
 	.byte		N18   , Cn4 , v124
@@ -2120,8 +2120,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W16
 	.byte		N04   , Cn3 , v068
 	.byte	W08
-/* 087   ----------------------------------------
- */	.byte		N07   , Dn3 , v096
+@ 087   ----------------------------------------
+	.byte		N07   , Dn3 , v096
 	.byte	W05
 	.byte		N18   , Ds3 , v092
 	.byte		N16   , An3 , v064
@@ -2142,8 +2142,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W01
 	.byte		N14   , Dn3 , v116
 	.byte	W22
-/* 088   ----------------------------------------
- */	.byte	W03
+@ 088   ----------------------------------------
+	.byte	W03
 	.byte		N12   , Cn3 , v108
 	.byte	W17
 	.byte		N06   , An2 , v032
@@ -2160,8 +2160,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W08
 	.byte		N08   , Ds3 , v072
 	.byte	W08
-/* 089   ----------------------------------------
- */	.byte		N07   , Fn3 , v084
+@ 089   ----------------------------------------
+	.byte		N07   , Fn3 , v084
 	.byte	W08
 	.byte		N10   , Ds3 , v068
 	.byte	W08
@@ -2185,8 +2185,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W08
 	.byte		N13   , Cn4 , v096
 	.byte	W08
-/* 090   ----------------------------------------
- */	.byte	W01
+@ 090   ----------------------------------------
+	.byte	W01
 	.byte		N09   , Dn4 , v124
 	.byte	W24
 	.byte	W01
@@ -2202,8 +2202,8 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	W13
 	.byte		N10   , Gs4 , v127
 	.byte	W09
-/* 091   ----------------------------------------
- */	.byte	W02
+@ 091   ----------------------------------------
+	.byte	W02
 	.byte		N07   , Gn4 , v100
 	.byte	W13
 	.byte		N12   , Fs4 , v127
@@ -2223,16 +2223,16 @@ mus_ice_paradise__act_2_1_B1:
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_1_B1
 mus_ice_paradise__act_2_1_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_ice_paradise__act_2_2:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_2_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 127
+@ 000   ----------------------------------------
+	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
 	.byte		N23   , Cn1 , v127
 	.byte		N36   , Ds1 , v060
@@ -2246,8 +2246,8 @@ mus_ice_paradise__act_2_2_B1:
 	.byte	W08
 	.byte		N23   , Fs1 
 	.byte	W24
-/* 001   ----------------------------------------
- */mus_ice_paradise__act_2_2_001:
+@ 001   ----------------------------------------
+mus_ice_paradise__act_2_2_001:
 	.byte		N23   , Cn1 , v127
 	.byte		N36   , Ds1 , v060
 	.byte	W24
@@ -2261,8 +2261,8 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N23   
 	.byte	W24
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ice_paradise__act_2_2_002:
+@ 002   ----------------------------------------
+mus_ice_paradise__act_2_2_002:
 	.byte		N23   , Cn1 , v127
 	.byte		N36   , Ds1 , v060
 	.byte	W24
@@ -2279,8 +2279,8 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N36   , Ds1 , v060
 	.byte	W08
 	.byte	PEND
-/* 003   ----------------------------------------
- */mus_ice_paradise__act_2_2_003:
+@ 003   ----------------------------------------
+mus_ice_paradise__act_2_2_003:
 	.byte	W16
 	.byte		N07   , Cs1 , v127
 	.byte	W08
@@ -2300,8 +2300,8 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N07   , Gn1 , v100
 	.byte	W08
 	.byte	PEND
-/* 004   ----------------------------------------
- */mus_ice_paradise__act_2_2_004:
+@ 004   ----------------------------------------
+mus_ice_paradise__act_2_2_004:
 	.byte		N08   , Cn1 , v127
 	.byte		N96   , Cs2 
 	.byte	W16
@@ -2326,8 +2326,8 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N23   , Ds1 , v068
 	.byte	W08
 	.byte	PEND
-/* 005   ----------------------------------------
- */mus_ice_paradise__act_2_2_005:
+@ 005   ----------------------------------------
+mus_ice_paradise__act_2_2_005:
 	.byte	W16
 	.byte		N08   , Cn1 , v127
 	.byte		N08   , Dn1 , v048
@@ -2350,8 +2350,8 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N08   , Dn1 , v048
 	.byte	W08
 	.byte	PEND
-/* 006   ----------------------------------------
- */mus_ice_paradise__act_2_2_006:
+@ 006   ----------------------------------------
+mus_ice_paradise__act_2_2_006:
 	.byte		N08   , Cn1 , v127
 	.byte		N08   , Dn1 , v048
 	.byte	W16
@@ -2376,8 +2376,8 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N23   , Ds1 , v068
 	.byte	W08
 	.byte	PEND
-/* 007   ----------------------------------------
- */mus_ice_paradise__act_2_2_007:
+@ 007   ----------------------------------------
+mus_ice_paradise__act_2_2_007:
 	.byte	W16
 	.byte		N08   , Cn1 , v127
 	.byte		N08   , Dn1 , v048
@@ -2401,8 +2401,8 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N08   , Dn1 , v048
 	.byte	W08
 	.byte	PEND
-/* 008   ----------------------------------------
- */mus_ice_paradise__act_2_2_008:
+@ 008   ----------------------------------------
+mus_ice_paradise__act_2_2_008:
 	.byte		N08   , Cn1 , v127
 	.byte		N08   , Dn1 , v048
 	.byte		N96   , Cs2 , v127
@@ -2428,32 +2428,32 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N23   , Ds1 , v068
 	.byte	W08
 	.byte	PEND
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 013   ----------------------------------------
- */	.byte	PATT
+@ 013   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 014   ----------------------------------------
- */	.byte	PATT
+@ 014   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 015   ----------------------------------------
- */	.byte	PATT
+@ 015   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 016   ----------------------------------------
- */	.byte	PATT
+@ 016   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 017   ----------------------------------------
- */mus_ice_paradise__act_2_2_017:
+@ 017   ----------------------------------------
+mus_ice_paradise__act_2_2_017:
 	.byte	W16
 	.byte		N08   , Cn1 , v127
 	.byte		N08   , Dn1 , v048
@@ -2477,11 +2477,11 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N08   , Cs1 , v127
 	.byte	W08
 	.byte	PEND
-/* 018   ----------------------------------------
- */	.byte	PATT
+@ 018   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 019   ----------------------------------------
- */mus_ice_paradise__act_2_2_019:
+@ 019   ----------------------------------------
+mus_ice_paradise__act_2_2_019:
 	.byte	W16
 	.byte		N08   , Cn1 , v127
 	.byte		N08   , Dn1 , v048
@@ -2506,17 +2506,17 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		        Cs1 , v127
 	.byte	W08
 	.byte	PEND
-/* 020   ----------------------------------------
- */	.byte	PATT
+@ 020   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 021   ----------------------------------------
- */	.byte	PATT
+@ 021   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 022   ----------------------------------------
- */	.byte	PATT
+@ 022   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 023   ----------------------------------------
- */mus_ice_paradise__act_2_2_023:
+@ 023   ----------------------------------------
+mus_ice_paradise__act_2_2_023:
 	.byte	W16
 	.byte		N08   , Cn1 , v127
 	.byte		N08   , Dn1 , v048
@@ -2543,68 +2543,68 @@ mus_ice_paradise__act_2_2_B1:
 	.byte		N08   , Dn1 , v048
 	.byte	W08
 	.byte	PEND
-/* 024   ----------------------------------------
- */	.byte	PATT
+@ 024   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 025   ----------------------------------------
- */	.byte	PATT
+@ 025   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 026   ----------------------------------------
- */	.byte	PATT
+@ 026   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 027   ----------------------------------------
- */	.byte	PATT
+@ 027   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_007
-/* 028   ----------------------------------------
- */	.byte	PATT
+@ 028   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 029   ----------------------------------------
- */	.byte	PATT
+@ 029   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 030   ----------------------------------------
- */	.byte	PATT
+@ 030   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 031   ----------------------------------------
- */	.byte	PATT
+@ 031   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 032   ----------------------------------------
- */	.byte	PATT
+@ 032   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 033   ----------------------------------------
- */	.byte	PATT
+@ 033   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 034   ----------------------------------------
- */	.byte	PATT
+@ 034   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 035   ----------------------------------------
- */	.byte	PATT
+@ 035   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_007
-/* 036   ----------------------------------------
- */	.byte	PATT
+@ 036   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 037   ----------------------------------------
- */	.byte	PATT
+@ 037   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 038   ----------------------------------------
- */	.byte	PATT
+@ 038   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 039   ----------------------------------------
- */	.byte	PATT
+@ 039   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 040   ----------------------------------------
- */	.byte	PATT
+@ 040   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 041   ----------------------------------------
- */	.byte	PATT
+@ 041   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 042   ----------------------------------------
- */	.byte	PATT
+@ 042   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 043   ----------------------------------------
- */	.byte	PATT
+@ 043   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_007
-/* 044   ----------------------------------------
- */	.byte		N23   , Cn1 , v127
+@ 044   ----------------------------------------
+	.byte		N23   , Cn1 , v127
 	.byte		N36   , Ds1 , v060
 	.byte	W24
 	.byte		N15   , Cs1 , v127
@@ -2616,160 +2616,160 @@ mus_ice_paradise__act_2_2_B1:
 	.byte	W08
 	.byte		N23   , Fs1 
 	.byte	W24
-/* 045   ----------------------------------------
- */	.byte	PATT
+@ 045   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_001
-/* 046   ----------------------------------------
- */	.byte	PATT
+@ 046   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_002
-/* 047   ----------------------------------------
- */	.byte	PATT
+@ 047   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_003
-/* 048   ----------------------------------------
- */	.byte	PATT
+@ 048   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_004
-/* 049   ----------------------------------------
- */	.byte	PATT
+@ 049   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 050   ----------------------------------------
- */	.byte	PATT
+@ 050   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 051   ----------------------------------------
- */	.byte	PATT
+@ 051   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_007
-/* 052   ----------------------------------------
- */	.byte	PATT
+@ 052   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 053   ----------------------------------------
- */	.byte	PATT
+@ 053   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 054   ----------------------------------------
- */	.byte	PATT
+@ 054   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 055   ----------------------------------------
- */	.byte	PATT
+@ 055   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_023
-/* 056   ----------------------------------------
- */	.byte	PATT
+@ 056   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 057   ----------------------------------------
- */	.byte	PATT
+@ 057   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 058   ----------------------------------------
- */	.byte	PATT
+@ 058   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 059   ----------------------------------------
- */	.byte	PATT
+@ 059   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 060   ----------------------------------------
- */	.byte	PATT
+@ 060   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 061   ----------------------------------------
- */	.byte	PATT
+@ 061   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 062   ----------------------------------------
- */	.byte	PATT
+@ 062   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 063   ----------------------------------------
- */	.byte	PATT
+@ 063   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 064   ----------------------------------------
- */	.byte	PATT
+@ 064   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 065   ----------------------------------------
- */	.byte	PATT
+@ 065   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_017
-/* 066   ----------------------------------------
- */	.byte	PATT
+@ 066   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 067   ----------------------------------------
- */	.byte	PATT
+@ 067   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_019
-/* 068   ----------------------------------------
- */	.byte	PATT
+@ 068   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 069   ----------------------------------------
- */	.byte	PATT
+@ 069   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 070   ----------------------------------------
- */	.byte	PATT
+@ 070   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 071   ----------------------------------------
- */	.byte	PATT
+@ 071   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_023
-/* 072   ----------------------------------------
- */	.byte	PATT
+@ 072   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 073   ----------------------------------------
- */	.byte	PATT
+@ 073   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 074   ----------------------------------------
- */	.byte	PATT
+@ 074   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 075   ----------------------------------------
- */	.byte	PATT
+@ 075   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_007
-/* 076   ----------------------------------------
- */	.byte	PATT
+@ 076   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 077   ----------------------------------------
- */	.byte	PATT
+@ 077   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 078   ----------------------------------------
- */	.byte	PATT
+@ 078   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 079   ----------------------------------------
- */	.byte	PATT
+@ 079   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 080   ----------------------------------------
- */	.byte	PATT
+@ 080   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 081   ----------------------------------------
- */	.byte	PATT
+@ 081   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 082   ----------------------------------------
- */	.byte	PATT
+@ 082   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 083   ----------------------------------------
- */	.byte	PATT
+@ 083   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_007
-/* 084   ----------------------------------------
- */	.byte	PATT
+@ 084   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 085   ----------------------------------------
- */	.byte	PATT
+@ 085   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 086   ----------------------------------------
- */	.byte	PATT
+@ 086   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 087   ----------------------------------------
- */	.byte	PATT
+@ 087   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 088   ----------------------------------------
- */	.byte	PATT
+@ 088   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_008
-/* 089   ----------------------------------------
- */	.byte	PATT
+@ 089   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_005
-/* 090   ----------------------------------------
- */	.byte	PATT
+@ 090   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_006
-/* 091   ----------------------------------------
- */	.byte	PATT
+@ 091   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_2_007
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_2_B1
 mus_ice_paradise__act_2_2_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_ice_paradise__act_2_3:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_3_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 49
+@ 000   ----------------------------------------
+	.byte		VOICE , 49
 	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
 	.byte		N30   , Fs2 , v127
 	.byte	W36
@@ -2777,8 +2777,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		N52   
 	.byte	W56
 	.byte	W01
-/* 001   ----------------------------------------
- */mus_ice_paradise__act_2_3_001:
+@ 001   ----------------------------------------
+mus_ice_paradise__act_2_3_001:
 	.byte		N28   , Fs3 , v127
 	.byte	W36
 	.byte	W03
@@ -2786,8 +2786,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W56
 	.byte	W01
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ice_paradise__act_2_3_002:
+@ 002   ----------------------------------------
+mus_ice_paradise__act_2_3_002:
 	.byte		N30   , Fs2 , v127
 	.byte	W36
 	.byte	W03
@@ -2798,16 +2798,16 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		N36   , Fs3 
 	.byte	W09
 	.byte	PEND
-/* 003   ----------------------------------------
- */mus_ice_paradise__act_2_3_003:
+@ 003   ----------------------------------------
+mus_ice_paradise__act_2_3_003:
 	.byte	W36
 	.byte	W03
 	.byte		N54   , Fs2 , v127
 	.byte	W56
 	.byte	W01
 	.byte	PEND
-/* 004   ----------------------------------------
- */mus_ice_paradise__act_2_3_004:
+@ 004   ----------------------------------------
+mus_ice_paradise__act_2_3_004:
 	.byte		N10   , Bn1 , v127
 	.byte	W24
 	.byte		N14   
@@ -2821,8 +2821,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		N17   , Bn1 
 	.byte	W09
 	.byte	PEND
-/* 005   ----------------------------------------
- */mus_ice_paradise__act_2_3_005:
+@ 005   ----------------------------------------
+mus_ice_paradise__act_2_3_005:
 	.byte	W15
 	.byte		N08   , Bn1 , v127
 	.byte	W09
@@ -2835,20 +2835,20 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		        Fs2 
 	.byte	W24
 	.byte	PEND
-/* 006   ----------------------------------------
- */	.byte	PATT
+@ 006   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_004
-/* 007   ----------------------------------------
- */	.byte	PATT
+@ 007   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_005
-/* 008   ----------------------------------------
- */	.byte	PATT
+@ 008   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_004
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_005
-/* 010   ----------------------------------------
- */mus_ice_paradise__act_2_3_010:
+@ 010   ----------------------------------------
+mus_ice_paradise__act_2_3_010:
 	.byte		N10   , En2 , v127
 	.byte	W24
 	.byte		N14   
@@ -2862,8 +2862,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		N17   , En2 
 	.byte	W09
 	.byte	PEND
-/* 011   ----------------------------------------
- */mus_ice_paradise__act_2_3_011:
+@ 011   ----------------------------------------
+mus_ice_paradise__act_2_3_011:
 	.byte	W15
 	.byte		N08   , En2 , v127
 	.byte	W09
@@ -2876,11 +2876,11 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		        Fs2 
 	.byte	W24
 	.byte	PEND
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_004
-/* 013   ----------------------------------------
- */mus_ice_paradise__act_2_3_013:
+@ 013   ----------------------------------------
+mus_ice_paradise__act_2_3_013:
 	.byte	W15
 	.byte		N08   , Bn1 , v127
 	.byte	W09
@@ -2893,8 +2893,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		        As1 
 	.byte	W24
 	.byte	PEND
-/* 014   ----------------------------------------
- */mus_ice_paradise__act_2_3_014:
+@ 014   ----------------------------------------
+mus_ice_paradise__act_2_3_014:
 	.byte		N10   , An1 , v127
 	.byte	W24
 	.byte		N14   
@@ -2908,8 +2908,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		N17   , An1 
 	.byte	W09
 	.byte	PEND
-/* 015   ----------------------------------------
- */	.byte	W15
+@ 015   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , En1 
@@ -2920,8 +2920,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        En2 
 	.byte	W24
-/* 016   ----------------------------------------
- */	.byte		N10   , Fs2 
+@ 016   ----------------------------------------
+	.byte		N10   , Fs2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -2933,8 +2933,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Fs2 
 	.byte	W09
-/* 017   ----------------------------------------
- */	.byte	W15
+@ 017   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , Cs2 
@@ -2945,11 +2945,11 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Fn2 
 	.byte	W24
-/* 018   ----------------------------------------
- */	.byte	PATT
+@ 018   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_010
-/* 019   ----------------------------------------
- */	.byte	W15
+@ 019   ----------------------------------------
+	.byte	W15
 	.byte		N08   , En2 , v127
 	.byte	W09
 	.byte		N14   , Bn1 
@@ -2960,8 +2960,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Ds2 
 	.byte	W24
-/* 020   ----------------------------------------
- */	.byte		N10   , Dn2 
+@ 020   ----------------------------------------
+	.byte		N10   , Dn2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -2973,8 +2973,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Dn2 
 	.byte	W09
-/* 021   ----------------------------------------
- */	.byte	W15
+@ 021   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , An1 
@@ -2987,8 +2987,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W09
 	.byte		N23   , Dn2 
 	.byte	W24
-/* 022   ----------------------------------------
- */	.byte		N10   , Cs2 
+@ 022   ----------------------------------------
+	.byte		N10   , Cs2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3000,8 +3000,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Fs2 
 	.byte	W09
-/* 023   ----------------------------------------
- */	.byte	W15
+@ 023   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , Cs2 
@@ -3010,41 +3010,41 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Fs1 
 	.byte	W24
-/* 024   ----------------------------------------
- */	.byte	PATT
+@ 024   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_004
-/* 025   ----------------------------------------
- */	.byte	PATT
+@ 025   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_005
-/* 026   ----------------------------------------
- */	.byte	PATT
+@ 026   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_004
-/* 027   ----------------------------------------
- */	.byte	PATT
+@ 027   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_005
-/* 028   ----------------------------------------
- */	.byte	PATT
+@ 028   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_004
-/* 029   ----------------------------------------
- */	.byte	PATT
+@ 029   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_005
-/* 030   ----------------------------------------
- */	.byte	PATT
+@ 030   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_010
-/* 031   ----------------------------------------
- */	.byte	PATT
+@ 031   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_011
-/* 032   ----------------------------------------
- */	.byte	PATT
+@ 032   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_004
-/* 033   ----------------------------------------
- */	.byte	PATT
+@ 033   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_013
-/* 034   ----------------------------------------
- */	.byte	PATT
+@ 034   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_014
-/* 035   ----------------------------------------
- */	.byte	W15
+@ 035   ----------------------------------------
+	.byte	W15
 	.byte		N08   , An1 , v127
 	.byte	W09
 	.byte		N14   , En1 
@@ -3055,8 +3055,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		N23   
 	.byte	W24
-/* 036   ----------------------------------------
- */	.byte		N10   , As1 
+@ 036   ----------------------------------------
+	.byte		N10   , As1 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3068,8 +3068,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Ds2 
 	.byte	W09
-/* 037   ----------------------------------------
- */	.byte	W15
+@ 037   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , As1 
@@ -3078,8 +3078,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Gn2 
 	.byte	W24
-/* 038   ----------------------------------------
- */	.byte		N10   , Gs2 
+@ 038   ----------------------------------------
+	.byte		N10   , Gs2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3089,8 +3089,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Gs2 
 	.byte	W09
-/* 039   ----------------------------------------
- */	.byte	W15
+@ 039   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N23   , Ds2 
@@ -3099,8 +3099,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Gs1 
 	.byte	W24
-/* 040   ----------------------------------------
- */	.byte		N10   , An1 
+@ 040   ----------------------------------------
+	.byte		N10   , An1 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3112,8 +3112,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Dn2 
 	.byte	W09
-/* 041   ----------------------------------------
- */	.byte	W15
+@ 041   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , An1 
@@ -3124,8 +3124,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        An2 
 	.byte	W24
-/* 042   ----------------------------------------
- */	.byte		N10   , Gn2 
+@ 042   ----------------------------------------
+	.byte		N10   , Gn2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3137,8 +3137,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Cn2 
 	.byte	W09
-/* 043   ----------------------------------------
- */	.byte	W15
+@ 043   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , Gn1 
@@ -3149,33 +3149,33 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Fn2 
 	.byte	W24
-/* 044   ----------------------------------------
- */	.byte		N30   , Fs2 
+@ 044   ----------------------------------------
+	.byte		N30   , Fs2 
 	.byte	W36
 	.byte	W03
 	.byte		N52   
 	.byte	W56
 	.byte	W01
-/* 045   ----------------------------------------
- */	.byte	PATT
+@ 045   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_001
-/* 046   ----------------------------------------
- */	.byte	PATT
+@ 046   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_002
-/* 047   ----------------------------------------
- */	.byte	PATT
+@ 047   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_003
-/* 048   ----------------------------------------
- */	.byte	PATT
+@ 048   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_004
-/* 049   ----------------------------------------
- */	.byte	PATT
+@ 049   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_005
-/* 050   ----------------------------------------
- */	.byte	PATT
+@ 050   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_004
-/* 051   ----------------------------------------
- */	.byte	W15
+@ 051   ----------------------------------------
+	.byte	W15
 	.byte		N08   , Bn1 , v127
 	.byte	W09
 	.byte		N14   , Fs1 
@@ -3188,8 +3188,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W12
 	.byte		        Bn1 
 	.byte	W12
-/* 052   ----------------------------------------
- */mus_ice_paradise__act_2_3_052:
+@ 052   ----------------------------------------
+mus_ice_paradise__act_2_3_052:
 	.byte		N10   , Cn2 , v127
 	.byte	W24
 	.byte		N14   
@@ -3203,8 +3203,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		N17   , Cn2 
 	.byte	W09
 	.byte	PEND
-/* 053   ----------------------------------------
- */mus_ice_paradise__act_2_3_053:
+@ 053   ----------------------------------------
+mus_ice_paradise__act_2_3_053:
 	.byte	W15
 	.byte		N08   , Cn2 , v127
 	.byte	W09
@@ -3217,11 +3217,11 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		        Gn2 
 	.byte	W24
 	.byte	PEND
-/* 054   ----------------------------------------
- */	.byte	PATT
+@ 054   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_052
-/* 055   ----------------------------------------
- */	.byte	W15
+@ 055   ----------------------------------------
+	.byte	W15
 	.byte		N08   , Cn2 , v127
 	.byte	W09
 	.byte		N14   , Gn1 
@@ -3232,14 +3232,14 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Gn1 
 	.byte	W24
-/* 056   ----------------------------------------
- */	.byte	PATT
+@ 056   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_052
-/* 057   ----------------------------------------
- */	.byte	PATT
+@ 057   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_053
-/* 058   ----------------------------------------
- */mus_ice_paradise__act_2_3_058:
+@ 058   ----------------------------------------
+mus_ice_paradise__act_2_3_058:
 	.byte		N10   , Fn2 , v127
 	.byte	W24
 	.byte		N14   
@@ -3253,8 +3253,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		N17   , Fn2 
 	.byte	W09
 	.byte	PEND
-/* 059   ----------------------------------------
- */mus_ice_paradise__act_2_3_059:
+@ 059   ----------------------------------------
+mus_ice_paradise__act_2_3_059:
 	.byte	W15
 	.byte		N08   , Fn2 , v127
 	.byte	W09
@@ -3267,11 +3267,11 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		        Gn2 
 	.byte	W24
 	.byte	PEND
-/* 060   ----------------------------------------
- */	.byte	PATT
+@ 060   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_052
-/* 061   ----------------------------------------
- */mus_ice_paradise__act_2_3_061:
+@ 061   ----------------------------------------
+mus_ice_paradise__act_2_3_061:
 	.byte	W15
 	.byte		N08   , Cn2 , v127
 	.byte	W09
@@ -3284,8 +3284,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		        Bn1 
 	.byte	W24
 	.byte	PEND
-/* 062   ----------------------------------------
- */mus_ice_paradise__act_2_3_062:
+@ 062   ----------------------------------------
+mus_ice_paradise__act_2_3_062:
 	.byte		N10   , As1 , v127
 	.byte	W24
 	.byte		N14   
@@ -3299,8 +3299,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte		N17   , As1 
 	.byte	W09
 	.byte	PEND
-/* 063   ----------------------------------------
- */	.byte	W15
+@ 063   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , Fn1 
@@ -3311,8 +3311,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Fn2 
 	.byte	W24
-/* 064   ----------------------------------------
- */	.byte		N10   , Gn2 
+@ 064   ----------------------------------------
+	.byte		N10   , Gn2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3324,8 +3324,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Gn2 
 	.byte	W09
-/* 065   ----------------------------------------
- */	.byte	W15
+@ 065   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , Dn2 
@@ -3336,11 +3336,11 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Fs2 
 	.byte	W24
-/* 066   ----------------------------------------
- */	.byte	PATT
+@ 066   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_058
-/* 067   ----------------------------------------
- */	.byte	W15
+@ 067   ----------------------------------------
+	.byte	W15
 	.byte		N08   , Fn2 , v127
 	.byte	W09
 	.byte		N14   , Cn2 
@@ -3351,8 +3351,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        En2 
 	.byte	W24
-/* 068   ----------------------------------------
- */	.byte		N10   , Ds2 
+@ 068   ----------------------------------------
+	.byte		N10   , Ds2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3364,8 +3364,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Ds2 
 	.byte	W09
-/* 069   ----------------------------------------
- */	.byte	W15
+@ 069   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , As1 
@@ -3378,8 +3378,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W09
 	.byte		N23   , Ds2 
 	.byte	W24
-/* 070   ----------------------------------------
- */	.byte		N10   , Dn2 
+@ 070   ----------------------------------------
+	.byte		N10   , Dn2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3391,8 +3391,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Gn2 
 	.byte	W09
-/* 071   ----------------------------------------
- */	.byte	W15
+@ 071   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , Dn2 
@@ -3401,41 +3401,41 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Gn1 
 	.byte	W24
-/* 072   ----------------------------------------
- */	.byte	PATT
+@ 072   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_052
-/* 073   ----------------------------------------
- */	.byte	PATT
+@ 073   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_053
-/* 074   ----------------------------------------
- */	.byte	PATT
+@ 074   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_052
-/* 075   ----------------------------------------
- */	.byte	PATT
+@ 075   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_053
-/* 076   ----------------------------------------
- */	.byte	PATT
+@ 076   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_052
-/* 077   ----------------------------------------
- */	.byte	PATT
+@ 077   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_053
-/* 078   ----------------------------------------
- */	.byte	PATT
+@ 078   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_058
-/* 079   ----------------------------------------
- */	.byte	PATT
+@ 079   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_059
-/* 080   ----------------------------------------
- */	.byte	PATT
+@ 080   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_052
-/* 081   ----------------------------------------
- */	.byte	PATT
+@ 081   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_061
-/* 082   ----------------------------------------
- */	.byte	PATT
+@ 082   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_3_062
-/* 083   ----------------------------------------
- */	.byte	W15
+@ 083   ----------------------------------------
+	.byte	W15
 	.byte		N08   , As1 , v127
 	.byte	W09
 	.byte		N14   , Fn1 
@@ -3446,8 +3446,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		N23   
 	.byte	W24
-/* 084   ----------------------------------------
- */	.byte		N10   , Bn1 
+@ 084   ----------------------------------------
+	.byte		N10   , Bn1 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3459,8 +3459,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , En2 
 	.byte	W09
-/* 085   ----------------------------------------
- */	.byte	W15
+@ 085   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , Bn1 
@@ -3469,8 +3469,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        Gs2 
 	.byte	W24
-/* 086   ----------------------------------------
- */	.byte		N10   , An2 
+@ 086   ----------------------------------------
+	.byte		N10   , An2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3480,8 +3480,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , An2 
 	.byte	W09
-/* 087   ----------------------------------------
- */	.byte	W15
+@ 087   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N23   , En2 
@@ -3490,8 +3490,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        An1 
 	.byte	W24
-/* 088   ----------------------------------------
- */	.byte		N10   , As1 
+@ 088   ----------------------------------------
+	.byte		N10   , As1 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3503,8 +3503,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Ds2 
 	.byte	W09
-/* 089   ----------------------------------------
- */	.byte	W15
+@ 089   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , As1 
@@ -3515,8 +3515,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W24
 	.byte		        As2 
 	.byte	W24
-/* 090   ----------------------------------------
- */	.byte		N10   , Gs2 
+@ 090   ----------------------------------------
+	.byte		N10   , Gs2 
 	.byte	W24
 	.byte		N14   
 	.byte	W24
@@ -3528,8 +3528,8 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	W15
 	.byte		N17   , Cs2 
 	.byte	W09
-/* 091   ----------------------------------------
- */	.byte	W15
+@ 091   ----------------------------------------
+	.byte	W15
 	.byte		N08   
 	.byte	W09
 	.byte		N14   , Gs1 
@@ -3543,16 +3543,16 @@ mus_ice_paradise__act_2_3_B1:
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_3_B1
 mus_ice_paradise__act_2_3_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_ice_paradise__act_2_4:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_4_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 66
+@ 000   ----------------------------------------
+	.byte		VOICE , 66
 	.byte		VOL   , 80*mus_ice_paradise__act_2_mvl/mxv
 	.byte		N30   , Bn2 , v127
 	.byte	W36
@@ -3560,8 +3560,8 @@ mus_ice_paradise__act_2_4_B1:
 	.byte		N48   
 	.byte	W56
 	.byte	W01
-/* 001   ----------------------------------------
- */mus_ice_paradise__act_2_4_001:
+@ 001   ----------------------------------------
+mus_ice_paradise__act_2_4_001:
 	.byte		N28   , En3 , v127
 	.byte	W36
 	.byte	W03
@@ -3569,10 +3569,10 @@ mus_ice_paradise__act_2_4_B1:
 	.byte	W56
 	.byte	W01
 	.byte	PEND
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */mus_ice_paradise__act_2_4_003:
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+mus_ice_paradise__act_2_4_003:
 	.byte	W16
 	.byte		N02   , Gn3 , v064
 	.byte	W02
@@ -3633,8 +3633,8 @@ mus_ice_paradise__act_2_4_B1:
 	.byte		N01   , An3 , v112
 	.byte	W02
 	.byte	PEND
-/* 004   ----------------------------------------
- */mus_ice_paradise__act_2_4_004:
+@ 004   ----------------------------------------
+mus_ice_paradise__act_2_4_004:
 	.byte		N10   , En3 , v096
 	.byte	W24
 	.byte		N09   , En3 , v092
@@ -3645,41 +3645,41 @@ mus_ice_paradise__act_2_4_B1:
 	.byte		N44   
 	.byte	W09
 	.byte	PEND
-/* 005   ----------------------------------------
- */	.byte	W48
+@ 005   ----------------------------------------
+	.byte	W48
 	.byte		N32   , En3 , v088
 	.byte	W48
-/* 006   ----------------------------------------
- */	.byte	PATT
+@ 006   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_004
-/* 007   ----------------------------------------
- */	.byte	W48
+@ 007   ----------------------------------------
+	.byte	W48
 	.byte		N32   , En3 , v088
 	.byte	W48
-/* 008   ----------------------------------------
- */	.byte	PATT
+@ 008   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_004
-/* 009   ----------------------------------------
- */	.byte	W48
+@ 009   ----------------------------------------
+	.byte	W48
 	.byte		N32   , En3 , v088
 	.byte	W48
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_004
-/* 013   ----------------------------------------
- */mus_ice_paradise__act_2_4_013:
+@ 013   ----------------------------------------
+mus_ice_paradise__act_2_4_013:
 	.byte	W48
 	.byte		N23   , En3 , v088
 	.byte	W24
 	.byte		        Ds3 
 	.byte	W24
 	.byte	PEND
-/* 014   ----------------------------------------
- */mus_ice_paradise__act_2_4_014:
+@ 014   ----------------------------------------
+mus_ice_paradise__act_2_4_014:
 	.byte		N10   , Dn3 , v096
 	.byte	W24
 	.byte		N09   , Dn3 , v092
@@ -3690,129 +3690,129 @@ mus_ice_paradise__act_2_4_B1:
 	.byte		N44   
 	.byte	W09
 	.byte	PEND
-/* 015   ----------------------------------------
- */	.byte	W48
+@ 015   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Dn3 , v088
 	.byte	W48
-/* 016   ----------------------------------------
- */	.byte	W96
-/* 017   ----------------------------------------
- */	.byte	W96
-/* 018   ----------------------------------------
- */	.byte	W96
-/* 019   ----------------------------------------
- */	.byte	W96
-/* 020   ----------------------------------------
- */	.byte	W96
-/* 021   ----------------------------------------
- */	.byte	W96
-/* 022   ----------------------------------------
- */	.byte	W96
-/* 023   ----------------------------------------
- */	.byte	W96
-/* 024   ----------------------------------------
- */	.byte	PATT
+@ 016   ----------------------------------------
+	.byte	W96
+@ 017   ----------------------------------------
+	.byte	W96
+@ 018   ----------------------------------------
+	.byte	W96
+@ 019   ----------------------------------------
+	.byte	W96
+@ 020   ----------------------------------------
+	.byte	W96
+@ 021   ----------------------------------------
+	.byte	W96
+@ 022   ----------------------------------------
+	.byte	W96
+@ 023   ----------------------------------------
+	.byte	W96
+@ 024   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_004
-/* 025   ----------------------------------------
- */	.byte	W48
+@ 025   ----------------------------------------
+	.byte	W48
 	.byte		N32   , En3 , v088
 	.byte	W48
-/* 026   ----------------------------------------
- */	.byte	PATT
+@ 026   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_004
-/* 027   ----------------------------------------
- */	.byte	W48
+@ 027   ----------------------------------------
+	.byte	W48
 	.byte		N32   , En3 , v088
 	.byte	W48
-/* 028   ----------------------------------------
- */	.byte	PATT
+@ 028   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_004
-/* 029   ----------------------------------------
- */	.byte	W48
+@ 029   ----------------------------------------
+	.byte	W48
 	.byte		N32   , En3 , v088
 	.byte	W48
-/* 030   ----------------------------------------
- */	.byte	W96
-/* 031   ----------------------------------------
- */	.byte	W96
-/* 032   ----------------------------------------
- */	.byte	PATT
+@ 030   ----------------------------------------
+	.byte	W96
+@ 031   ----------------------------------------
+	.byte	W96
+@ 032   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_004
-/* 033   ----------------------------------------
- */	.byte	PATT
+@ 033   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_013
-/* 034   ----------------------------------------
- */	.byte	PATT
+@ 034   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_014
-/* 035   ----------------------------------------
- */	.byte	W48
+@ 035   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Dn3 , v088
 	.byte	W48
-/* 036   ----------------------------------------
- */	.byte	W96
-/* 037   ----------------------------------------
- */	.byte	W36
+@ 036   ----------------------------------------
+	.byte	W96
+@ 037   ----------------------------------------
+	.byte	W36
 	.byte	W03
 	.byte		N24   , Cn3 , v096
 	.byte	W56
 	.byte	W01
-/* 038   ----------------------------------------
- */	.byte	W96
-/* 039   ----------------------------------------
- */	.byte	W72
+@ 038   ----------------------------------------
+	.byte	W96
+@ 039   ----------------------------------------
+	.byte	W72
 	.byte		N23   , Cs3 , v100
 	.byte	W24
-/* 040   ----------------------------------------
- */	.byte	PATT
+@ 040   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_014
-/* 041   ----------------------------------------
- */	.byte	W40
+@ 041   ----------------------------------------
+	.byte	W40
 	.byte		N28   , Dn3 , v112
 	.byte	W32
 	.byte		N19   , Dn3 , v088
 	.byte	W24
-/* 042   ----------------------------------------
- */	.byte	W84
+@ 042   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		N44   , Ds3 , v096
 	.byte	W09
-/* 043   ----------------------------------------
- */	.byte	W40
+@ 043   ----------------------------------------
+	.byte	W40
 	.byte		N28   , Ds3 , v112
 	.byte	W32
 	.byte		N20   
 	.byte	W24
-/* 044   ----------------------------------------
- */	.byte		N30   , Bn2 , v127
+@ 044   ----------------------------------------
+	.byte		N30   , Bn2 , v127
 	.byte	W36
 	.byte	W03
 	.byte		N48   
 	.byte	W56
 	.byte	W01
-/* 045   ----------------------------------------
- */	.byte	PATT
+@ 045   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_001
-/* 046   ----------------------------------------
- */	.byte	W96
-/* 047   ----------------------------------------
- */	.byte	PATT
+@ 046   ----------------------------------------
+	.byte	W96
+@ 047   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_003
-/* 048   ----------------------------------------
- */	.byte	PATT
+@ 048   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_004
-/* 049   ----------------------------------------
- */	.byte	W48
+@ 049   ----------------------------------------
+	.byte	W48
 	.byte		N32   , En3 , v088
 	.byte	W48
-/* 050   ----------------------------------------
- */	.byte	PATT
+@ 050   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_004
-/* 051   ----------------------------------------
- */	.byte	W48
+@ 051   ----------------------------------------
+	.byte	W48
 	.byte		N32   , En3 , v088
 	.byte	W48
-/* 052   ----------------------------------------
- */mus_ice_paradise__act_2_4_052:
+@ 052   ----------------------------------------
+mus_ice_paradise__act_2_4_052:
 	.byte		N10   , Fn3 , v096
 	.byte	W24
 	.byte		N09   , Fn3 , v092
@@ -3823,41 +3823,41 @@ mus_ice_paradise__act_2_4_B1:
 	.byte		N44   
 	.byte	W09
 	.byte	PEND
-/* 053   ----------------------------------------
- */	.byte	W48
+@ 053   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Fn3 , v088
 	.byte	W48
-/* 054   ----------------------------------------
- */	.byte	PATT
+@ 054   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_052
-/* 055   ----------------------------------------
- */	.byte	W48
+@ 055   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Fn3 , v088
 	.byte	W48
-/* 056   ----------------------------------------
- */	.byte	PATT
+@ 056   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_052
-/* 057   ----------------------------------------
- */	.byte	W48
+@ 057   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Fn3 , v088
 	.byte	W48
-/* 058   ----------------------------------------
- */	.byte	W96
-/* 059   ----------------------------------------
- */	.byte	W96
-/* 060   ----------------------------------------
- */	.byte	PATT
+@ 058   ----------------------------------------
+	.byte	W96
+@ 059   ----------------------------------------
+	.byte	W96
+@ 060   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_052
-/* 061   ----------------------------------------
- */mus_ice_paradise__act_2_4_061:
+@ 061   ----------------------------------------
+mus_ice_paradise__act_2_4_061:
 	.byte	W48
 	.byte		N23   , Fn3 , v088
 	.byte	W24
 	.byte		        En3 
 	.byte	W24
 	.byte	PEND
-/* 062   ----------------------------------------
- */mus_ice_paradise__act_2_4_062:
+@ 062   ----------------------------------------
+mus_ice_paradise__act_2_4_062:
 	.byte		N10   , Ds3 , v096
 	.byte	W24
 	.byte		N09   , Ds3 , v092
@@ -3868,94 +3868,94 @@ mus_ice_paradise__act_2_4_B1:
 	.byte		N44   
 	.byte	W09
 	.byte	PEND
-/* 063   ----------------------------------------
- */	.byte	W48
+@ 063   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Ds3 , v088
 	.byte	W48
-/* 064   ----------------------------------------
- */	.byte	W96
-/* 065   ----------------------------------------
- */	.byte	W96
-/* 066   ----------------------------------------
- */	.byte	W96
-/* 067   ----------------------------------------
- */	.byte	W96
-/* 068   ----------------------------------------
- */	.byte	W96
-/* 069   ----------------------------------------
- */	.byte	W96
-/* 070   ----------------------------------------
- */	.byte	W96
-/* 071   ----------------------------------------
- */	.byte	W96
-/* 072   ----------------------------------------
- */	.byte	PATT
+@ 064   ----------------------------------------
+	.byte	W96
+@ 065   ----------------------------------------
+	.byte	W96
+@ 066   ----------------------------------------
+	.byte	W96
+@ 067   ----------------------------------------
+	.byte	W96
+@ 068   ----------------------------------------
+	.byte	W96
+@ 069   ----------------------------------------
+	.byte	W96
+@ 070   ----------------------------------------
+	.byte	W96
+@ 071   ----------------------------------------
+	.byte	W96
+@ 072   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_052
-/* 073   ----------------------------------------
- */	.byte	W48
+@ 073   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Fn3 , v088
 	.byte	W48
-/* 074   ----------------------------------------
- */	.byte	PATT
+@ 074   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_052
-/* 075   ----------------------------------------
- */	.byte	W48
+@ 075   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Fn3 , v088
 	.byte	W48
-/* 076   ----------------------------------------
- */	.byte	PATT
+@ 076   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_052
-/* 077   ----------------------------------------
- */	.byte	W48
+@ 077   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Fn3 , v088
 	.byte	W48
-/* 078   ----------------------------------------
- */	.byte	W96
-/* 079   ----------------------------------------
- */	.byte	W96
-/* 080   ----------------------------------------
- */	.byte	PATT
+@ 078   ----------------------------------------
+	.byte	W96
+@ 079   ----------------------------------------
+	.byte	W96
+@ 080   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_052
-/* 081   ----------------------------------------
- */	.byte	PATT
+@ 081   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_061
-/* 082   ----------------------------------------
- */	.byte	PATT
+@ 082   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_062
-/* 083   ----------------------------------------
- */	.byte	W48
+@ 083   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Ds3 , v088
 	.byte	W48
-/* 084   ----------------------------------------
- */	.byte	W96
-/* 085   ----------------------------------------
- */	.byte	W36
+@ 084   ----------------------------------------
+	.byte	W96
+@ 085   ----------------------------------------
+	.byte	W36
 	.byte	W03
 	.byte		N24   , Cs3 , v096
 	.byte	W56
 	.byte	W01
-/* 086   ----------------------------------------
- */	.byte	W96
-/* 087   ----------------------------------------
- */	.byte	W72
+@ 086   ----------------------------------------
+	.byte	W96
+@ 087   ----------------------------------------
+	.byte	W72
 	.byte		N23   , Dn3 , v100
 	.byte	W24
-/* 088   ----------------------------------------
- */	.byte	PATT
+@ 088   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_4_062
-/* 089   ----------------------------------------
- */	.byte	W40
+@ 089   ----------------------------------------
+	.byte	W40
 	.byte		N28   , Ds3 , v112
 	.byte	W32
 	.byte		N19   , Ds3 , v088
 	.byte	W24
-/* 090   ----------------------------------------
- */	.byte	W84
+@ 090   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		N44   , En3 , v096
 	.byte	W09
-/* 091   ----------------------------------------
- */	.byte	W40
+@ 091   ----------------------------------------
+	.byte	W40
 	.byte		N28   , En3 , v112
 	.byte	W32
 	.byte		N20   
@@ -3963,16 +3963,16 @@ mus_ice_paradise__act_2_4_B1:
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_4_B1
 mus_ice_paradise__act_2_4_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_ice_paradise__act_2_5:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_5_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 67
+@ 000   ----------------------------------------
+	.byte		VOICE , 67
 	.byte		VOL   , 80*mus_ice_paradise__act_2_mvl/mxv
 	.byte		N30   , Ds3 , v127
 	.byte	W36
@@ -3980,10 +3980,10 @@ mus_ice_paradise__act_2_5_B1:
 	.byte		N48   
 	.byte	W56
 	.byte	W01
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */mus_ice_paradise__act_2_5_002:
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+mus_ice_paradise__act_2_5_002:
 	.byte		N30   , Cs3 , v127
 	.byte	W36
 	.byte	W03
@@ -3994,22 +3994,22 @@ mus_ice_paradise__act_2_5_B1:
 	.byte		N16   , Ds3 
 	.byte	W09
 	.byte	PEND
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte	W96
-/* 007   ----------------------------------------
- */	.byte	W96
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */mus_ice_paradise__act_2_5_010:
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+	.byte	W96
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte	W96
+@ 007   ----------------------------------------
+	.byte	W96
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+mus_ice_paradise__act_2_5_010:
 	.byte		N10   , Cs3 , v096
 	.byte	W24
 	.byte		N09   , Cs3 , v092
@@ -4020,20 +4020,20 @@ mus_ice_paradise__act_2_5_B1:
 	.byte		N44   
 	.byte	W09
 	.byte	PEND
-/* 011   ----------------------------------------
- */	.byte	W48
+@ 011   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Cs3 , v088
 	.byte	W48
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */	.byte	W96
-/* 016   ----------------------------------------
- */	.byte		N10   , Ds3 , v096
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+	.byte	W96
+@ 016   ----------------------------------------
+	.byte		N10   , Ds3 , v096
 	.byte	W24
 	.byte		N09   , Ds3 , v092
 	.byte	W24
@@ -4042,23 +4042,23 @@ mus_ice_paradise__act_2_5_B1:
 	.byte	W03
 	.byte		N44   
 	.byte	W09
-/* 017   ----------------------------------------
- */	.byte	W48
+@ 017   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Ds3 , v088
 	.byte	W24
 	.byte		        Dn3 
 	.byte	W24
-/* 018   ----------------------------------------
- */	.byte	PATT
+@ 018   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_5_010
-/* 019   ----------------------------------------
- */	.byte	W48
+@ 019   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Cs3 , v088
 	.byte	W24
 	.byte		        Cn3 
 	.byte	W24
-/* 020   ----------------------------------------
- */	.byte		N10   , Bn2 , v096
+@ 020   ----------------------------------------
+	.byte		N10   , Bn2 , v096
 	.byte	W24
 	.byte		N09   , Bn2 , v092
 	.byte	W24
@@ -4067,48 +4067,48 @@ mus_ice_paradise__act_2_5_B1:
 	.byte	W03
 	.byte		N44   
 	.byte	W09
-/* 021   ----------------------------------------
- */	.byte	W48
+@ 021   ----------------------------------------
+	.byte	W48
 	.byte		N36   , Bn2 , v088
 	.byte	W48
-/* 022   ----------------------------------------
- */	.byte	PATT
+@ 022   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_5_010
-/* 023   ----------------------------------------
- */	.byte	W40
+@ 023   ----------------------------------------
+	.byte	W40
 	.byte		N28   , Ds3 , v112
 	.byte	W32
 	.byte		N19   , Ds3 , v088
 	.byte	W24
-/* 024   ----------------------------------------
- */	.byte	W96
-/* 025   ----------------------------------------
- */	.byte	W96
-/* 026   ----------------------------------------
- */	.byte	W96
-/* 027   ----------------------------------------
- */	.byte	W96
-/* 028   ----------------------------------------
- */	.byte	W96
-/* 029   ----------------------------------------
- */	.byte	W96
-/* 030   ----------------------------------------
- */	.byte	PATT
+@ 024   ----------------------------------------
+	.byte	W96
+@ 025   ----------------------------------------
+	.byte	W96
+@ 026   ----------------------------------------
+	.byte	W96
+@ 027   ----------------------------------------
+	.byte	W96
+@ 028   ----------------------------------------
+	.byte	W96
+@ 029   ----------------------------------------
+	.byte	W96
+@ 030   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_5_010
-/* 031   ----------------------------------------
- */	.byte	W48
+@ 031   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Cs3 , v088
 	.byte	W48
-/* 032   ----------------------------------------
- */	.byte	W96
-/* 033   ----------------------------------------
- */	.byte	W96
-/* 034   ----------------------------------------
- */	.byte	W96
-/* 035   ----------------------------------------
- */	.byte	W96
-/* 036   ----------------------------------------
- */	.byte		N10   , Ds3 , v096
+@ 032   ----------------------------------------
+	.byte	W96
+@ 033   ----------------------------------------
+	.byte	W96
+@ 034   ----------------------------------------
+	.byte	W96
+@ 035   ----------------------------------------
+	.byte	W96
+@ 036   ----------------------------------------
+	.byte		N10   , Ds3 , v096
 	.byte	W24
 	.byte		N09   , Ds3 , v092
 	.byte	W24
@@ -4117,66 +4117,66 @@ mus_ice_paradise__act_2_5_B1:
 	.byte	W03
 	.byte		N44   , Cs3 
 	.byte	W09
-/* 037   ----------------------------------------
- */	.byte	W72
+@ 037   ----------------------------------------
+	.byte	W72
 	.byte		N18   , Cn3 , v104
 	.byte	W24
-/* 038   ----------------------------------------
- */	.byte	PATT
+@ 038   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_5_010
-/* 039   ----------------------------------------
- */	.byte	W48
+@ 039   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Cs3 , v088
 	.byte	W48
-/* 040   ----------------------------------------
- */	.byte	W96
-/* 041   ----------------------------------------
- */	.byte	W96
-/* 042   ----------------------------------------
- */	.byte		N10   , En3 , v096
+@ 040   ----------------------------------------
+	.byte	W96
+@ 041   ----------------------------------------
+	.byte	W96
+@ 042   ----------------------------------------
+	.byte		N10   , En3 , v096
 	.byte	W24
 	.byte		N09   , En3 , v092
 	.byte	W24
 	.byte		N32   , En3 , v096
 	.byte	W48
-/* 043   ----------------------------------------
- */	.byte	W96
-/* 044   ----------------------------------------
- */	.byte		N30   , Ds3 , v127
+@ 043   ----------------------------------------
+	.byte	W96
+@ 044   ----------------------------------------
+	.byte		N30   , Ds3 , v127
 	.byte	W36
 	.byte	W03
 	.byte		N48   
 	.byte	W56
 	.byte	W01
-/* 045   ----------------------------------------
- */	.byte	W96
-/* 046   ----------------------------------------
- */	.byte	PATT
+@ 045   ----------------------------------------
+	.byte	W96
+@ 046   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_5_002
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	W96
-/* 050   ----------------------------------------
- */	.byte	W96
-/* 051   ----------------------------------------
- */	.byte	W96
-/* 052   ----------------------------------------
- */	.byte	W96
-/* 053   ----------------------------------------
- */	.byte	W96
-/* 054   ----------------------------------------
- */	.byte	W96
-/* 055   ----------------------------------------
- */	.byte	W96
-/* 056   ----------------------------------------
- */	.byte	W96
-/* 057   ----------------------------------------
- */	.byte	W96
-/* 058   ----------------------------------------
- */mus_ice_paradise__act_2_5_058:
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	W96
+@ 049   ----------------------------------------
+	.byte	W96
+@ 050   ----------------------------------------
+	.byte	W96
+@ 051   ----------------------------------------
+	.byte	W96
+@ 052   ----------------------------------------
+	.byte	W96
+@ 053   ----------------------------------------
+	.byte	W96
+@ 054   ----------------------------------------
+	.byte	W96
+@ 055   ----------------------------------------
+	.byte	W96
+@ 056   ----------------------------------------
+	.byte	W96
+@ 057   ----------------------------------------
+	.byte	W96
+@ 058   ----------------------------------------
+mus_ice_paradise__act_2_5_058:
 	.byte		N10   , Dn3 , v096
 	.byte	W24
 	.byte		N09   , Dn3 , v092
@@ -4187,20 +4187,20 @@ mus_ice_paradise__act_2_5_B1:
 	.byte		N44   
 	.byte	W09
 	.byte	PEND
-/* 059   ----------------------------------------
- */	.byte	W48
+@ 059   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Dn3 , v088
 	.byte	W48
-/* 060   ----------------------------------------
- */	.byte	W96
-/* 061   ----------------------------------------
- */	.byte	W96
-/* 062   ----------------------------------------
- */	.byte	W96
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte		N10   , En3 , v096
+@ 060   ----------------------------------------
+	.byte	W96
+@ 061   ----------------------------------------
+	.byte	W96
+@ 062   ----------------------------------------
+	.byte	W96
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte		N10   , En3 , v096
 	.byte	W24
 	.byte		N09   , En3 , v092
 	.byte	W24
@@ -4209,23 +4209,23 @@ mus_ice_paradise__act_2_5_B1:
 	.byte	W03
 	.byte		N44   
 	.byte	W09
-/* 065   ----------------------------------------
- */	.byte	W48
+@ 065   ----------------------------------------
+	.byte	W48
 	.byte		N23   , En3 , v088
 	.byte	W24
 	.byte		        Ds3 
 	.byte	W24
-/* 066   ----------------------------------------
- */	.byte	PATT
+@ 066   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_5_058
-/* 067   ----------------------------------------
- */	.byte	W48
+@ 067   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Dn3 , v088
 	.byte	W24
 	.byte		        Cs3 
 	.byte	W24
-/* 068   ----------------------------------------
- */	.byte		N10   , Cn3 , v096
+@ 068   ----------------------------------------
+	.byte		N10   , Cn3 , v096
 	.byte	W24
 	.byte		N09   , Cn3 , v092
 	.byte	W24
@@ -4234,48 +4234,48 @@ mus_ice_paradise__act_2_5_B1:
 	.byte	W03
 	.byte		N44   
 	.byte	W09
-/* 069   ----------------------------------------
- */	.byte	W48
+@ 069   ----------------------------------------
+	.byte	W48
 	.byte		N36   , Cn3 , v088
 	.byte	W48
-/* 070   ----------------------------------------
- */	.byte	PATT
+@ 070   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_5_058
-/* 071   ----------------------------------------
- */	.byte	W40
+@ 071   ----------------------------------------
+	.byte	W40
 	.byte		N28   , En3 , v112
 	.byte	W32
 	.byte		N19   , En3 , v088
 	.byte	W24
-/* 072   ----------------------------------------
- */	.byte	W96
-/* 073   ----------------------------------------
- */	.byte	W96
-/* 074   ----------------------------------------
- */	.byte	W96
-/* 075   ----------------------------------------
- */	.byte	W96
-/* 076   ----------------------------------------
- */	.byte	W96
-/* 077   ----------------------------------------
- */	.byte	W96
-/* 078   ----------------------------------------
- */	.byte	PATT
+@ 072   ----------------------------------------
+	.byte	W96
+@ 073   ----------------------------------------
+	.byte	W96
+@ 074   ----------------------------------------
+	.byte	W96
+@ 075   ----------------------------------------
+	.byte	W96
+@ 076   ----------------------------------------
+	.byte	W96
+@ 077   ----------------------------------------
+	.byte	W96
+@ 078   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_5_058
-/* 079   ----------------------------------------
- */	.byte	W48
+@ 079   ----------------------------------------
+	.byte	W48
 	.byte		N32   , Dn3 , v088
 	.byte	W48
-/* 080   ----------------------------------------
- */	.byte	W96
-/* 081   ----------------------------------------
- */	.byte	W96
-/* 082   ----------------------------------------
- */	.byte	W96
-/* 083   ----------------------------------------
- */	.byte	W96
-/* 084   ----------------------------------------
- */	.byte		N10   , En3 , v096
+@ 080   ----------------------------------------
+	.byte	W96
+@ 081   ----------------------------------------
+	.byte	W96
+@ 082   ----------------------------------------
+	.byte	W96
+@ 083   ----------------------------------------
+	.byte	W96
+@ 084   ----------------------------------------
+	.byte		N10   , En3 , v096
 	.byte	W24
 	.byte		N09   , En3 , v092
 	.byte	W24
@@ -4284,47 +4284,47 @@ mus_ice_paradise__act_2_5_B1:
 	.byte	W03
 	.byte		N44   , Dn3 
 	.byte	W09
-/* 085   ----------------------------------------
- */	.byte	W72
+@ 085   ----------------------------------------
+	.byte	W72
 	.byte		N18   , Cs3 , v104
 	.byte	W24
-/* 086   ----------------------------------------
- */	.byte	PATT
+@ 086   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_5_058
-/* 087   ----------------------------------------
- */	.byte	W48
+@ 087   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Dn3 , v088
 	.byte	W48
-/* 088   ----------------------------------------
- */	.byte	W96
-/* 089   ----------------------------------------
- */	.byte	W96
-/* 090   ----------------------------------------
- */	.byte		N10   , Fn3 , v096
+@ 088   ----------------------------------------
+	.byte	W96
+@ 089   ----------------------------------------
+	.byte	W96
+@ 090   ----------------------------------------
+	.byte		N10   , Fn3 , v096
 	.byte	W24
 	.byte		N09   , Fn3 , v092
 	.byte	W24
 	.byte		N32   , Fn3 , v096
 	.byte	W48
-/* 091   ----------------------------------------
- */	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_5_B1
 mus_ice_paradise__act_2_5_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 6 (Midi-Chn.6) **************** */
+@ **************** Track 6 (Midi-Chn.6) ****************
 
 mus_ice_paradise__act_2_6:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_6_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 68
+@ 000   ----------------------------------------
+	.byte		VOICE , 68
 	.byte		VOL   , 70*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
-/* 001   ----------------------------------------
- */mus_ice_paradise__act_2_6_001:
+@ 001   ----------------------------------------
+mus_ice_paradise__act_2_6_001:
 	.byte		N30   , Fs3 , v127
 	.byte	W36
 	.byte	W03
@@ -4332,8 +4332,8 @@ mus_ice_paradise__act_2_6_B1:
 	.byte	W56
 	.byte	W01
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ice_paradise__act_2_6_002:
+@ 002   ----------------------------------------
+mus_ice_paradise__act_2_6_002:
 	.byte		N30   , Bn3 , v127
 	.byte	W36
 	.byte	W03
@@ -4344,534 +4344,534 @@ mus_ice_paradise__act_2_6_B1:
 	.byte		N16   , Cs4 
 	.byte	W09
 	.byte	PEND
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte	W96
-/* 007   ----------------------------------------
- */	.byte	W96
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */	.byte	W96
-/* 016   ----------------------------------------
- */	.byte	W96
-/* 017   ----------------------------------------
- */	.byte	W96
-/* 018   ----------------------------------------
- */	.byte	W96
-/* 019   ----------------------------------------
- */	.byte	W96
-/* 020   ----------------------------------------
- */	.byte	W96
-/* 021   ----------------------------------------
- */	.byte	W96
-/* 022   ----------------------------------------
- */	.byte	W96
-/* 023   ----------------------------------------
- */	.byte	W96
-/* 024   ----------------------------------------
- */	.byte	W96
-/* 025   ----------------------------------------
- */	.byte	W96
-/* 026   ----------------------------------------
- */	.byte	W96
-/* 027   ----------------------------------------
- */	.byte	W96
-/* 028   ----------------------------------------
- */	.byte	W96
-/* 029   ----------------------------------------
- */	.byte	W96
-/* 030   ----------------------------------------
- */	.byte	W96
-/* 031   ----------------------------------------
- */	.byte	W96
-/* 032   ----------------------------------------
- */	.byte	W96
-/* 033   ----------------------------------------
- */	.byte	W96
-/* 034   ----------------------------------------
- */	.byte	W96
-/* 035   ----------------------------------------
- */	.byte	W96
-/* 036   ----------------------------------------
- */	.byte	W96
-/* 037   ----------------------------------------
- */	.byte	W96
-/* 038   ----------------------------------------
- */	.byte	W96
-/* 039   ----------------------------------------
- */	.byte	W96
-/* 040   ----------------------------------------
- */	.byte	W96
-/* 041   ----------------------------------------
- */	.byte	W96
-/* 042   ----------------------------------------
- */	.byte	W96
-/* 043   ----------------------------------------
- */	.byte	W96
-/* 044   ----------------------------------------
- */	.byte	W96
-/* 045   ----------------------------------------
- */	.byte	PATT
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+	.byte	W96
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte	W96
+@ 007   ----------------------------------------
+	.byte	W96
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+	.byte	W96
+@ 016   ----------------------------------------
+	.byte	W96
+@ 017   ----------------------------------------
+	.byte	W96
+@ 018   ----------------------------------------
+	.byte	W96
+@ 019   ----------------------------------------
+	.byte	W96
+@ 020   ----------------------------------------
+	.byte	W96
+@ 021   ----------------------------------------
+	.byte	W96
+@ 022   ----------------------------------------
+	.byte	W96
+@ 023   ----------------------------------------
+	.byte	W96
+@ 024   ----------------------------------------
+	.byte	W96
+@ 025   ----------------------------------------
+	.byte	W96
+@ 026   ----------------------------------------
+	.byte	W96
+@ 027   ----------------------------------------
+	.byte	W96
+@ 028   ----------------------------------------
+	.byte	W96
+@ 029   ----------------------------------------
+	.byte	W96
+@ 030   ----------------------------------------
+	.byte	W96
+@ 031   ----------------------------------------
+	.byte	W96
+@ 032   ----------------------------------------
+	.byte	W96
+@ 033   ----------------------------------------
+	.byte	W96
+@ 034   ----------------------------------------
+	.byte	W96
+@ 035   ----------------------------------------
+	.byte	W96
+@ 036   ----------------------------------------
+	.byte	W96
+@ 037   ----------------------------------------
+	.byte	W96
+@ 038   ----------------------------------------
+	.byte	W96
+@ 039   ----------------------------------------
+	.byte	W96
+@ 040   ----------------------------------------
+	.byte	W96
+@ 041   ----------------------------------------
+	.byte	W96
+@ 042   ----------------------------------------
+	.byte	W96
+@ 043   ----------------------------------------
+	.byte	W96
+@ 044   ----------------------------------------
+	.byte	W96
+@ 045   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_6_001
-/* 046   ----------------------------------------
- */	.byte	PATT
+@ 046   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_6_002
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	W96
-/* 050   ----------------------------------------
- */	.byte	W96
-/* 051   ----------------------------------------
- */	.byte	W96
-/* 052   ----------------------------------------
- */	.byte	W96
-/* 053   ----------------------------------------
- */	.byte	W96
-/* 054   ----------------------------------------
- */	.byte	W96
-/* 055   ----------------------------------------
- */	.byte	W96
-/* 056   ----------------------------------------
- */	.byte	W96
-/* 057   ----------------------------------------
- */	.byte	W96
-/* 058   ----------------------------------------
- */	.byte	W96
-/* 059   ----------------------------------------
- */	.byte	W96
-/* 060   ----------------------------------------
- */	.byte	W96
-/* 061   ----------------------------------------
- */	.byte	W96
-/* 062   ----------------------------------------
- */	.byte	W96
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte	W96
-/* 065   ----------------------------------------
- */	.byte	W96
-/* 066   ----------------------------------------
- */	.byte	W96
-/* 067   ----------------------------------------
- */	.byte	W96
-/* 068   ----------------------------------------
- */	.byte	W96
-/* 069   ----------------------------------------
- */	.byte	W96
-/* 070   ----------------------------------------
- */	.byte	W96
-/* 071   ----------------------------------------
- */	.byte	W96
-/* 072   ----------------------------------------
- */	.byte	W96
-/* 073   ----------------------------------------
- */	.byte	W96
-/* 074   ----------------------------------------
- */	.byte	W96
-/* 075   ----------------------------------------
- */	.byte	W96
-/* 076   ----------------------------------------
- */	.byte	W96
-/* 077   ----------------------------------------
- */	.byte	W96
-/* 078   ----------------------------------------
- */	.byte	W96
-/* 079   ----------------------------------------
- */	.byte	W96
-/* 080   ----------------------------------------
- */	.byte	W96
-/* 081   ----------------------------------------
- */	.byte	W96
-/* 082   ----------------------------------------
- */	.byte	W96
-/* 083   ----------------------------------------
- */	.byte	W96
-/* 084   ----------------------------------------
- */	.byte	W96
-/* 085   ----------------------------------------
- */	.byte	W96
-/* 086   ----------------------------------------
- */	.byte	W96
-/* 087   ----------------------------------------
- */	.byte	W96
-/* 088   ----------------------------------------
- */	.byte	W96
-/* 089   ----------------------------------------
- */	.byte	W96
-/* 090   ----------------------------------------
- */	.byte	W96
-/* 091   ----------------------------------------
- */	.byte	W96
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	W96
+@ 049   ----------------------------------------
+	.byte	W96
+@ 050   ----------------------------------------
+	.byte	W96
+@ 051   ----------------------------------------
+	.byte	W96
+@ 052   ----------------------------------------
+	.byte	W96
+@ 053   ----------------------------------------
+	.byte	W96
+@ 054   ----------------------------------------
+	.byte	W96
+@ 055   ----------------------------------------
+	.byte	W96
+@ 056   ----------------------------------------
+	.byte	W96
+@ 057   ----------------------------------------
+	.byte	W96
+@ 058   ----------------------------------------
+	.byte	W96
+@ 059   ----------------------------------------
+	.byte	W96
+@ 060   ----------------------------------------
+	.byte	W96
+@ 061   ----------------------------------------
+	.byte	W96
+@ 062   ----------------------------------------
+	.byte	W96
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte	W96
+@ 065   ----------------------------------------
+	.byte	W96
+@ 066   ----------------------------------------
+	.byte	W96
+@ 067   ----------------------------------------
+	.byte	W96
+@ 068   ----------------------------------------
+	.byte	W96
+@ 069   ----------------------------------------
+	.byte	W96
+@ 070   ----------------------------------------
+	.byte	W96
+@ 071   ----------------------------------------
+	.byte	W96
+@ 072   ----------------------------------------
+	.byte	W96
+@ 073   ----------------------------------------
+	.byte	W96
+@ 074   ----------------------------------------
+	.byte	W96
+@ 075   ----------------------------------------
+	.byte	W96
+@ 076   ----------------------------------------
+	.byte	W96
+@ 077   ----------------------------------------
+	.byte	W96
+@ 078   ----------------------------------------
+	.byte	W96
+@ 079   ----------------------------------------
+	.byte	W96
+@ 080   ----------------------------------------
+	.byte	W96
+@ 081   ----------------------------------------
+	.byte	W96
+@ 082   ----------------------------------------
+	.byte	W96
+@ 083   ----------------------------------------
+	.byte	W96
+@ 084   ----------------------------------------
+	.byte	W96
+@ 085   ----------------------------------------
+	.byte	W96
+@ 086   ----------------------------------------
+	.byte	W96
+@ 087   ----------------------------------------
+	.byte	W96
+@ 088   ----------------------------------------
+	.byte	W96
+@ 089   ----------------------------------------
+	.byte	W96
+@ 090   ----------------------------------------
+	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_6_B1
 mus_ice_paradise__act_2_6_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 7 (Midi-Chn.7) **************** */
+@ **************** Track 7 (Midi-Chn.7) ****************
 
 mus_ice_paradise__act_2_7:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_7_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 78
+@ 000   ----------------------------------------
+	.byte		VOICE , 78
 	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W48
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+	.byte	W96
+@ 005   ----------------------------------------
+	.byte	W48
 	.byte		N44   , Bn3 , v108
 	.byte	W48
-/* 006   ----------------------------------------
- */mus_ice_paradise__act_2_7_006:
+@ 006   ----------------------------------------
+mus_ice_paradise__act_2_7_006:
 	.byte		N44   , Fs3 , v112
 	.byte	W48
 	.byte		        Gs3 , v108
 	.byte	W48
 	.byte	PEND
-/* 007   ----------------------------------------
- */mus_ice_paradise__act_2_7_007:
+@ 007   ----------------------------------------
+mus_ice_paradise__act_2_7_007:
 	.byte		N44   , Ds3 , v104
 	.byte	W48
 	.byte		        Fs3 
 	.byte	W48
 	.byte	PEND
-/* 008   ----------------------------------------
- */	.byte		TIE   , Bn2 , v096
+@ 008   ----------------------------------------
+	.byte		TIE   , Bn2 , v096
 	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W72
+@ 009   ----------------------------------------
+	.byte	W72
 	.byte	W02
 	.byte		EOT   
 	.byte	W22
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */	.byte	W96
-/* 016   ----------------------------------------
- */	.byte	W96
-/* 017   ----------------------------------------
- */	.byte	W96
-/* 018   ----------------------------------------
- */	.byte	W96
-/* 019   ----------------------------------------
- */	.byte	W96
-/* 020   ----------------------------------------
- */	.byte	W96
-/* 021   ----------------------------------------
- */	.byte	W96
-/* 022   ----------------------------------------
- */	.byte	W96
-/* 023   ----------------------------------------
- */	.byte	W96
-/* 024   ----------------------------------------
- */	.byte	W96
-/* 025   ----------------------------------------
- */	.byte	W48
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+	.byte	W96
+@ 016   ----------------------------------------
+	.byte	W96
+@ 017   ----------------------------------------
+	.byte	W96
+@ 018   ----------------------------------------
+	.byte	W96
+@ 019   ----------------------------------------
+	.byte	W96
+@ 020   ----------------------------------------
+	.byte	W96
+@ 021   ----------------------------------------
+	.byte	W96
+@ 022   ----------------------------------------
+	.byte	W96
+@ 023   ----------------------------------------
+	.byte	W96
+@ 024   ----------------------------------------
+	.byte	W96
+@ 025   ----------------------------------------
+	.byte	W48
 	.byte		N44   , Bn3 , v108
 	.byte	W48
-/* 026   ----------------------------------------
- */	.byte	PATT
+@ 026   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_7_006
-/* 027   ----------------------------------------
- */	.byte	PATT
+@ 027   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_7_007
-/* 028   ----------------------------------------
- */	.byte		TIE   , Bn2 , v096
+@ 028   ----------------------------------------
+	.byte		TIE   , Bn2 , v096
 	.byte	W96
-/* 029   ----------------------------------------
- */	.byte	W72
+@ 029   ----------------------------------------
+	.byte	W72
 	.byte	W02
 	.byte		EOT   
 	.byte	W22
-/* 030   ----------------------------------------
- */	.byte	W96
-/* 031   ----------------------------------------
- */	.byte	W96
-/* 032   ----------------------------------------
- */	.byte	W96
-/* 033   ----------------------------------------
- */	.byte	W96
-/* 034   ----------------------------------------
- */	.byte	W96
-/* 035   ----------------------------------------
- */	.byte	W96
-/* 036   ----------------------------------------
- */	.byte		N44   , En2 , v100
+@ 030   ----------------------------------------
+	.byte	W96
+@ 031   ----------------------------------------
+	.byte	W96
+@ 032   ----------------------------------------
+	.byte	W96
+@ 033   ----------------------------------------
+	.byte	W96
+@ 034   ----------------------------------------
+	.byte	W96
+@ 035   ----------------------------------------
+	.byte	W96
+@ 036   ----------------------------------------
+	.byte		N44   , En2 , v100
 	.byte	W48
 	.byte		        En3 , v096
 	.byte	W48
-/* 037   ----------------------------------------
- */	.byte		        Ds3 , v120
+@ 037   ----------------------------------------
+	.byte		        Ds3 , v120
 	.byte	W48
 	.byte		        Gn3 , v108
 	.byte	W48
-/* 038   ----------------------------------------
- */	.byte		        Gs3 , v120
+@ 038   ----------------------------------------
+	.byte		        Gs3 , v120
 	.byte	W48
 	.byte		        Ds3 , v108
 	.byte	W48
-/* 039   ----------------------------------------
- */	.byte		        Gs3 
+@ 039   ----------------------------------------
+	.byte		        Gs3 
 	.byte	W48
 	.byte		        Bn3 , v096
 	.byte	W48
-/* 040   ----------------------------------------
- */	.byte		        Cs4 , v100
+@ 040   ----------------------------------------
+	.byte		        Cs4 , v100
 	.byte	W96
-/* 041   ----------------------------------------
- */	.byte	W96
-/* 042   ----------------------------------------
- */	.byte	W96
-/* 043   ----------------------------------------
- */	.byte	W96
-/* 044   ----------------------------------------
- */	.byte	W96
-/* 045   ----------------------------------------
- */	.byte	W96
-/* 046   ----------------------------------------
- */	.byte	W96
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	W48
+@ 041   ----------------------------------------
+	.byte	W96
+@ 042   ----------------------------------------
+	.byte	W96
+@ 043   ----------------------------------------
+	.byte	W96
+@ 044   ----------------------------------------
+	.byte	W96
+@ 045   ----------------------------------------
+	.byte	W96
+@ 046   ----------------------------------------
+	.byte	W96
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	W96
+@ 049   ----------------------------------------
+	.byte	W48
 	.byte		        Bn3 , v108
 	.byte	W48
-/* 050   ----------------------------------------
- */	.byte	PATT
+@ 050   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_7_006
-/* 051   ----------------------------------------
- */	.byte	PATT
+@ 051   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_7_007
-/* 052   ----------------------------------------
- */	.byte	W48
+@ 052   ----------------------------------------
+	.byte	W48
 	.byte		N44   , Cn4 , v108
 	.byte	W48
-/* 053   ----------------------------------------
- */mus_ice_paradise__act_2_7_053:
+@ 053   ----------------------------------------
+mus_ice_paradise__act_2_7_053:
 	.byte		N44   , Gn3 , v112
 	.byte	W48
 	.byte		        An3 , v108
 	.byte	W48
 	.byte	PEND
-/* 054   ----------------------------------------
- */	.byte		        En3 , v104
+@ 054   ----------------------------------------
+	.byte		        En3 , v104
 	.byte	W48
 	.byte		        Gn3 
 	.byte	W48
-/* 055   ----------------------------------------
- */	.byte		TIE   , Cn3 , v096
+@ 055   ----------------------------------------
+	.byte		TIE   , Cn3 , v096
 	.byte	W96
-/* 056   ----------------------------------------
- */	.byte	W72
+@ 056   ----------------------------------------
+	.byte	W72
 	.byte	W02
 	.byte		EOT   
 	.byte	W22
-/* 057   ----------------------------------------
- */	.byte	W96
-/* 058   ----------------------------------------
- */	.byte	W96
-/* 059   ----------------------------------------
- */	.byte	W96
-/* 060   ----------------------------------------
- */	.byte	W96
-/* 061   ----------------------------------------
- */	.byte	W96
-/* 062   ----------------------------------------
- */	.byte	W96
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte	W96
-/* 065   ----------------------------------------
- */	.byte	W96
-/* 066   ----------------------------------------
- */	.byte	W96
-/* 067   ----------------------------------------
- */	.byte	W96
-/* 068   ----------------------------------------
- */	.byte	W96
-/* 069   ----------------------------------------
- */	.byte	W96
-/* 070   ----------------------------------------
- */	.byte	W96
-/* 071   ----------------------------------------
- */	.byte	W96
-/* 072   ----------------------------------------
- */	.byte	W96
-/* 073   ----------------------------------------
- */	.byte	W48
+@ 057   ----------------------------------------
+	.byte	W96
+@ 058   ----------------------------------------
+	.byte	W96
+@ 059   ----------------------------------------
+	.byte	W96
+@ 060   ----------------------------------------
+	.byte	W96
+@ 061   ----------------------------------------
+	.byte	W96
+@ 062   ----------------------------------------
+	.byte	W96
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte	W96
+@ 065   ----------------------------------------
+	.byte	W96
+@ 066   ----------------------------------------
+	.byte	W96
+@ 067   ----------------------------------------
+	.byte	W96
+@ 068   ----------------------------------------
+	.byte	W96
+@ 069   ----------------------------------------
+	.byte	W96
+@ 070   ----------------------------------------
+	.byte	W96
+@ 071   ----------------------------------------
+	.byte	W96
+@ 072   ----------------------------------------
+	.byte	W96
+@ 073   ----------------------------------------
+	.byte	W48
 	.byte		N44   , Cn4 , v108
 	.byte	W48
-/* 074   ----------------------------------------
- */	.byte	PATT
+@ 074   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_7_053
-/* 075   ----------------------------------------
- */	.byte		N44   , En3 , v104
+@ 075   ----------------------------------------
+	.byte		N44   , En3 , v104
 	.byte	W48
 	.byte		        Gn3 
 	.byte	W48
-/* 076   ----------------------------------------
- */	.byte		TIE   , Cn3 , v096
+@ 076   ----------------------------------------
+	.byte		TIE   , Cn3 , v096
 	.byte	W96
-/* 077   ----------------------------------------
- */	.byte	W72
+@ 077   ----------------------------------------
+	.byte	W72
 	.byte	W02
 	.byte		EOT   
 	.byte	W22
-/* 078   ----------------------------------------
- */	.byte	W96
-/* 079   ----------------------------------------
- */	.byte	W96
-/* 080   ----------------------------------------
- */	.byte	W96
-/* 081   ----------------------------------------
- */	.byte	W96
-/* 082   ----------------------------------------
- */	.byte	W96
-/* 083   ----------------------------------------
- */	.byte	W96
-/* 084   ----------------------------------------
- */	.byte		N44   , Fn2 , v100
+@ 078   ----------------------------------------
+	.byte	W96
+@ 079   ----------------------------------------
+	.byte	W96
+@ 080   ----------------------------------------
+	.byte	W96
+@ 081   ----------------------------------------
+	.byte	W96
+@ 082   ----------------------------------------
+	.byte	W96
+@ 083   ----------------------------------------
+	.byte	W96
+@ 084   ----------------------------------------
+	.byte		N44   , Fn2 , v100
 	.byte	W48
 	.byte		        Fn3 , v096
 	.byte	W48
-/* 085   ----------------------------------------
- */	.byte		        En3 , v120
+@ 085   ----------------------------------------
+	.byte		        En3 , v120
 	.byte	W48
 	.byte		        Gs3 , v108
 	.byte	W48
-/* 086   ----------------------------------------
- */	.byte		        An3 , v120
+@ 086   ----------------------------------------
+	.byte		        An3 , v120
 	.byte	W48
 	.byte		        En3 , v108
 	.byte	W48
-/* 087   ----------------------------------------
- */	.byte		        An3 
+@ 087   ----------------------------------------
+	.byte		        An3 
 	.byte	W48
 	.byte		        Cn4 , v096
 	.byte	W48
-/* 088   ----------------------------------------
- */	.byte		        Dn4 , v100
+@ 088   ----------------------------------------
+	.byte		        Dn4 , v100
 	.byte	W96
-/* 089   ----------------------------------------
- */	.byte	W96
-/* 090   ----------------------------------------
- */	.byte	W96
-/* 091   ----------------------------------------
- */	.byte	W96
+@ 089   ----------------------------------------
+	.byte	W96
+@ 090   ----------------------------------------
+	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_7_B1
 mus_ice_paradise__act_2_7_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 8 (Midi-Chn.8) **************** */
+@ **************** Track 8 (Midi-Chn.8) ****************
 
 mus_ice_paradise__act_2_8:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_8_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 65
+@ 000   ----------------------------------------
+	.byte		VOICE , 65
 	.byte		VOL   , 100*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte	W96
-/* 007   ----------------------------------------
- */	.byte	W96
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */	.byte	W96
-/* 016   ----------------------------------------
- */	.byte	W96
-/* 017   ----------------------------------------
- */	.byte	W96
-/* 018   ----------------------------------------
- */	.byte	W96
-/* 019   ----------------------------------------
- */	.byte	W96
-/* 020   ----------------------------------------
- */	.byte	W96
-/* 021   ----------------------------------------
- */	.byte	W96
-/* 022   ----------------------------------------
- */	.byte	W96
-/* 023   ----------------------------------------
- */	.byte	W96
-/* 024   ----------------------------------------
- */	.byte	W96
-/* 025   ----------------------------------------
- */	.byte	W96
-/* 026   ----------------------------------------
- */	.byte	W96
-/* 027   ----------------------------------------
- */	.byte	W96
-/* 028   ----------------------------------------
- */	.byte	W96
-/* 029   ----------------------------------------
- */	.byte		N23   , Fs4 , v108
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+	.byte	W96
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte	W96
+@ 007   ----------------------------------------
+	.byte	W96
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+	.byte	W96
+@ 016   ----------------------------------------
+	.byte	W96
+@ 017   ----------------------------------------
+	.byte	W96
+@ 018   ----------------------------------------
+	.byte	W96
+@ 019   ----------------------------------------
+	.byte	W96
+@ 020   ----------------------------------------
+	.byte	W96
+@ 021   ----------------------------------------
+	.byte	W96
+@ 022   ----------------------------------------
+	.byte	W96
+@ 023   ----------------------------------------
+	.byte	W96
+@ 024   ----------------------------------------
+	.byte	W96
+@ 025   ----------------------------------------
+	.byte	W96
+@ 026   ----------------------------------------
+	.byte	W96
+@ 027   ----------------------------------------
+	.byte	W96
+@ 028   ----------------------------------------
+	.byte	W96
+@ 029   ----------------------------------------
+	.byte		N23   , Fs4 , v108
 	.byte	W24
 	.byte		        Bn3 , v100
 	.byte	W24
@@ -4879,15 +4879,15 @@ mus_ice_paradise__act_2_8_B1:
 	.byte	W24
 	.byte		        Fs3 , v108
 	.byte	W24
-/* 030   ----------------------------------------
- */	.byte		N56   , Bn3 , v096
+@ 030   ----------------------------------------
+	.byte		N56   , Bn3 , v096
 	.byte	W96
-/* 031   ----------------------------------------
- */	.byte	W96
-/* 032   ----------------------------------------
- */	.byte	W96
-/* 033   ----------------------------------------
- */	.byte		N23   , Fs4 , v108
+@ 031   ----------------------------------------
+	.byte	W96
+@ 032   ----------------------------------------
+	.byte	W96
+@ 033   ----------------------------------------
+	.byte		N23   , Fs4 , v108
 	.byte	W24
 	.byte		        Bn3 , v100
 	.byte	W24
@@ -4895,95 +4895,95 @@ mus_ice_paradise__act_2_8_B1:
 	.byte	W24
 	.byte		        Dn4 , v108
 	.byte	W24
-/* 034   ----------------------------------------
- */	.byte		N56   , Cs4 , v096
+@ 034   ----------------------------------------
+	.byte		N56   , Cs4 , v096
 	.byte	W96
-/* 035   ----------------------------------------
- */	.byte	W96
-/* 036   ----------------------------------------
- */	.byte	W96
-/* 037   ----------------------------------------
- */	.byte	W96
-/* 038   ----------------------------------------
- */	.byte	W96
-/* 039   ----------------------------------------
- */	.byte	W96
-/* 040   ----------------------------------------
- */	.byte	W96
-/* 041   ----------------------------------------
- */	.byte	W96
-/* 042   ----------------------------------------
- */	.byte	W96
-/* 043   ----------------------------------------
- */	.byte	W96
-/* 044   ----------------------------------------
- */	.byte	W96
-/* 045   ----------------------------------------
- */	.byte	W96
-/* 046   ----------------------------------------
- */	.byte	W96
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	W96
-/* 050   ----------------------------------------
- */	.byte	W96
-/* 051   ----------------------------------------
- */	.byte	W96
-/* 052   ----------------------------------------
- */	.byte	W96
-/* 053   ----------------------------------------
- */	.byte	W96
-/* 054   ----------------------------------------
- */	.byte	W96
-/* 055   ----------------------------------------
- */	.byte	W96
-/* 056   ----------------------------------------
- */	.byte	W96
-/* 057   ----------------------------------------
- */	.byte	W96
-/* 058   ----------------------------------------
- */	.byte	W96
-/* 059   ----------------------------------------
- */	.byte	W96
-/* 060   ----------------------------------------
- */	.byte	W96
-/* 061   ----------------------------------------
- */	.byte	W96
-/* 062   ----------------------------------------
- */	.byte	W96
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte	W96
-/* 065   ----------------------------------------
- */	.byte	W96
-/* 066   ----------------------------------------
- */	.byte	W96
-/* 067   ----------------------------------------
- */	.byte	W96
-/* 068   ----------------------------------------
- */	.byte	W96
-/* 069   ----------------------------------------
- */	.byte	W96
-/* 070   ----------------------------------------
- */	.byte	W96
-/* 071   ----------------------------------------
- */	.byte	W96
-/* 072   ----------------------------------------
- */	.byte	W96
-/* 073   ----------------------------------------
- */	.byte	W96
-/* 074   ----------------------------------------
- */	.byte	W96
-/* 075   ----------------------------------------
- */	.byte	W96
-/* 076   ----------------------------------------
- */	.byte	W96
-/* 077   ----------------------------------------
- */	.byte		N23   , Gn4 , v108
+@ 035   ----------------------------------------
+	.byte	W96
+@ 036   ----------------------------------------
+	.byte	W96
+@ 037   ----------------------------------------
+	.byte	W96
+@ 038   ----------------------------------------
+	.byte	W96
+@ 039   ----------------------------------------
+	.byte	W96
+@ 040   ----------------------------------------
+	.byte	W96
+@ 041   ----------------------------------------
+	.byte	W96
+@ 042   ----------------------------------------
+	.byte	W96
+@ 043   ----------------------------------------
+	.byte	W96
+@ 044   ----------------------------------------
+	.byte	W96
+@ 045   ----------------------------------------
+	.byte	W96
+@ 046   ----------------------------------------
+	.byte	W96
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	W96
+@ 049   ----------------------------------------
+	.byte	W96
+@ 050   ----------------------------------------
+	.byte	W96
+@ 051   ----------------------------------------
+	.byte	W96
+@ 052   ----------------------------------------
+	.byte	W96
+@ 053   ----------------------------------------
+	.byte	W96
+@ 054   ----------------------------------------
+	.byte	W96
+@ 055   ----------------------------------------
+	.byte	W96
+@ 056   ----------------------------------------
+	.byte	W96
+@ 057   ----------------------------------------
+	.byte	W96
+@ 058   ----------------------------------------
+	.byte	W96
+@ 059   ----------------------------------------
+	.byte	W96
+@ 060   ----------------------------------------
+	.byte	W96
+@ 061   ----------------------------------------
+	.byte	W96
+@ 062   ----------------------------------------
+	.byte	W96
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte	W96
+@ 065   ----------------------------------------
+	.byte	W96
+@ 066   ----------------------------------------
+	.byte	W96
+@ 067   ----------------------------------------
+	.byte	W96
+@ 068   ----------------------------------------
+	.byte	W96
+@ 069   ----------------------------------------
+	.byte	W96
+@ 070   ----------------------------------------
+	.byte	W96
+@ 071   ----------------------------------------
+	.byte	W96
+@ 072   ----------------------------------------
+	.byte	W96
+@ 073   ----------------------------------------
+	.byte	W96
+@ 074   ----------------------------------------
+	.byte	W96
+@ 075   ----------------------------------------
+	.byte	W96
+@ 076   ----------------------------------------
+	.byte	W96
+@ 077   ----------------------------------------
+	.byte		N23   , Gn4 , v108
 	.byte	W24
 	.byte		        Cn4 , v100
 	.byte	W24
@@ -4991,15 +4991,15 @@ mus_ice_paradise__act_2_8_B1:
 	.byte	W24
 	.byte		        Gn3 , v108
 	.byte	W24
-/* 078   ----------------------------------------
- */	.byte		N56   , Cn4 , v096
+@ 078   ----------------------------------------
+	.byte		N56   , Cn4 , v096
 	.byte	W96
-/* 079   ----------------------------------------
- */	.byte	W96
-/* 080   ----------------------------------------
- */	.byte	W96
-/* 081   ----------------------------------------
- */	.byte		N23   , Gn4 , v108
+@ 079   ----------------------------------------
+	.byte	W96
+@ 080   ----------------------------------------
+	.byte	W96
+@ 081   ----------------------------------------
+	.byte		N23   , Gn4 , v108
 	.byte	W24
 	.byte		        Cn4 , v100
 	.byte	W24
@@ -5007,40 +5007,40 @@ mus_ice_paradise__act_2_8_B1:
 	.byte	W24
 	.byte		        Ds4 , v108
 	.byte	W24
-/* 082   ----------------------------------------
- */	.byte		N56   , Dn4 , v096
+@ 082   ----------------------------------------
+	.byte		N56   , Dn4 , v096
 	.byte	W96
-/* 083   ----------------------------------------
- */	.byte	W96
-/* 084   ----------------------------------------
- */	.byte	W96
-/* 085   ----------------------------------------
- */	.byte	W96
-/* 086   ----------------------------------------
- */	.byte	W96
-/* 087   ----------------------------------------
- */	.byte	W96
-/* 088   ----------------------------------------
- */	.byte	W96
-/* 089   ----------------------------------------
- */	.byte	W96
-/* 090   ----------------------------------------
- */	.byte	W96
-/* 091   ----------------------------------------
- */	.byte	W96
+@ 083   ----------------------------------------
+	.byte	W96
+@ 084   ----------------------------------------
+	.byte	W96
+@ 085   ----------------------------------------
+	.byte	W96
+@ 086   ----------------------------------------
+	.byte	W96
+@ 087   ----------------------------------------
+	.byte	W96
+@ 088   ----------------------------------------
+	.byte	W96
+@ 089   ----------------------------------------
+	.byte	W96
+@ 090   ----------------------------------------
+	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_8_B1
 mus_ice_paradise__act_2_8_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 9 (Midi-Chn.9) **************** */
+@ **************** Track 9 (Midi-Chn.9) ****************
 
 mus_ice_paradise__act_2_9:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_9_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 1
+@ 000   ----------------------------------------
+	.byte		VOICE , 1
 	.byte		VOL   , 59*mus_ice_paradise__act_2_mvl/mxv
 	.byte		N30   , Fs3 , v076
 	.byte	W36
@@ -5048,15 +5048,15 @@ mus_ice_paradise__act_2_9_B1:
 	.byte		N48   , Fs3 , v072
 	.byte	W56
 	.byte	W01
-/* 001   ----------------------------------------
- */	.byte		N30   , Fs3 , v096
+@ 001   ----------------------------------------
+	.byte		N30   , Fs3 , v096
 	.byte	W36
 	.byte	W03
 	.byte		N52   , Fs3 , v080
 	.byte	W56
 	.byte	W01
-/* 002   ----------------------------------------
- */	.byte		N28   , Gs3 , v092
+@ 002   ----------------------------------------
+	.byte		N28   , Gs3 , v092
 	.byte	W36
 	.byte	W03
 	.byte		N15   , Gs3 , v088
@@ -5065,19 +5065,19 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W24
 	.byte		N32   , As3 , v096
 	.byte	W09
-/* 003   ----------------------------------------
- */	.byte	W36
+@ 003   ----------------------------------------
+	.byte	W36
 	.byte	W03
 	.byte		N56   , Cs4 , v100
 	.byte	W56
 	.byte	W01
-/* 004   ----------------------------------------
- */	.byte		N22   , Ds4 , v092
+@ 004   ----------------------------------------
+	.byte		N22   , Ds4 , v092
 	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte	W72
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte	W72
 	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
 	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
@@ -5090,8 +5090,8 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W01
 	.byte		        77*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 007   ----------------------------------------
- */mus_ice_paradise__act_2_9_007:
+@ 007   ----------------------------------------
+mus_ice_paradise__act_2_9_007:
 	.byte		VOL   , 67*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        57*mus_ice_paradise__act_2_mvl/mxv
@@ -5223,48 +5223,48 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W01
 	.byte	PEND
 	.byte		EOT   , Fs4 
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */	.byte	W96
-/* 016   ----------------------------------------
- */	.byte	W96
-/* 017   ----------------------------------------
- */	.byte	W96
-/* 018   ----------------------------------------
- */	.byte	W96
-/* 019   ----------------------------------------
- */	.byte	W96
-/* 020   ----------------------------------------
- */	.byte	W96
-/* 021   ----------------------------------------
- */	.byte	W96
-/* 022   ----------------------------------------
- */	.byte	W96
-/* 023   ----------------------------------------
- */	.byte	W96
-/* 024   ----------------------------------------
- */	.byte	W96
-/* 025   ----------------------------------------
- */mus_ice_paradise__act_2_9_025:
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+	.byte	W96
+@ 016   ----------------------------------------
+	.byte	W96
+@ 017   ----------------------------------------
+	.byte	W96
+@ 018   ----------------------------------------
+	.byte	W96
+@ 019   ----------------------------------------
+	.byte	W96
+@ 020   ----------------------------------------
+	.byte	W96
+@ 021   ----------------------------------------
+	.byte	W96
+@ 022   ----------------------------------------
+	.byte	W96
+@ 023   ----------------------------------------
+	.byte	W96
+@ 024   ----------------------------------------
+	.byte	W96
+@ 025   ----------------------------------------
+mus_ice_paradise__act_2_9_025:
 	.byte		VOICE , 1
 	.byte		VOL   , 59*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
 	.byte	PEND
-/* 026   ----------------------------------------
- */	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
+@ 026   ----------------------------------------
+	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
 	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W13
@@ -5362,8 +5362,8 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W02
 	.byte		        67*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 027   ----------------------------------------
- */mus_ice_paradise__act_2_9_027:
+@ 027   ----------------------------------------
+mus_ice_paradise__act_2_9_027:
 	.byte	W01
 	.byte		VOL   , 67*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W02
@@ -5419,8 +5419,8 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W52
 	.byte	PEND
 	.byte		EOT   , Fs4 
-/* 028   ----------------------------------------
- */	.byte		VOICE , 56
+@ 028   ----------------------------------------
+	.byte		VOICE , 56
 	.byte		VOL   , 59*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W04
 	.byte		N36   , Ds4 , v112
@@ -5429,61 +5429,61 @@ mus_ice_paradise__act_2_9_B1:
 	.byte		N90   , Bn3 
 	.byte	W56
 	.byte	W01
-/* 029   ----------------------------------------
- */	.byte	W48
+@ 029   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Ds4 , v108
 	.byte	W24
 	.byte		        Cs4 , v116
 	.byte	W24
-/* 030   ----------------------------------------
- */	.byte		TIE   , Bn3 , v096
+@ 030   ----------------------------------------
+	.byte		TIE   , Bn3 , v096
 	.byte	W96
-/* 031   ----------------------------------------
- */	.byte	W36
+@ 031   ----------------------------------------
+	.byte	W36
 	.byte		EOT   
 	.byte	W36
 	.byte		N23   , Ds3 , v108
 	.byte	W24
-/* 032   ----------------------------------------
- */	.byte		N32   , Ds4 , v112
+@ 032   ----------------------------------------
+	.byte		N32   , Ds4 , v112
 	.byte	W36
 	.byte	W03
 	.byte		N92   , Bn3 , v104
 	.byte	W56
 	.byte	W01
-/* 033   ----------------------------------------
- */	.byte	W48
+@ 033   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Ds4 
 	.byte	W24
 	.byte		        Dn4 
 	.byte	W24
-/* 034   ----------------------------------------
- */	.byte		TIE   , Cs4 , v120
+@ 034   ----------------------------------------
+	.byte		TIE   , Cs4 , v120
 	.byte	W96
-/* 035   ----------------------------------------
- */	.byte	W30
+@ 035   ----------------------------------------
+	.byte	W30
 	.byte	W01
 	.byte		EOT   
 	.byte	W17
 	.byte		VOICE , 1
 	.byte		VOL   , 59*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W48
-/* 036   ----------------------------------------
- */	.byte		N78   , En3 , v108
+@ 036   ----------------------------------------
+	.byte		N78   , En3 , v108
 	.byte	W84
 	.byte		N05   , Fs3 , v080
 	.byte	W06
 	.byte		        En3 , v072
 	.byte	W06
-/* 037   ----------------------------------------
- */	.byte		N42   , Ds3 , v104
+@ 037   ----------------------------------------
+	.byte		N42   , Ds3 , v104
 	.byte	W48
 	.byte		N23   , Ds3 , v092
 	.byte	W24
 	.byte		        Gn3 , v104
 	.byte	W24
-/* 038   ----------------------------------------
- */	.byte		N42   , Gs3 , v084
+@ 038   ----------------------------------------
+	.byte		N42   , Gs3 , v084
 	.byte	W48
 	.byte		N23   , Gs3 , v100
 	.byte	W24
@@ -5491,16 +5491,16 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W15
 	.byte		N32   , Gs3 , v096
 	.byte	W09
-/* 039   ----------------------------------------
- */	.byte	W24
+@ 039   ----------------------------------------
+	.byte	W24
 	.byte		N23   , Ds3 , v100
 	.byte	W24
 	.byte		        Gs3 
 	.byte	W24
 	.byte		        Bn3 , v096
 	.byte	W24
-/* 040   ----------------------------------------
- */	.byte		N36   , Gs3 , v104
+@ 040   ----------------------------------------
+	.byte		N36   , Gs3 , v104
 	.byte	W36
 	.byte	W03
 	.byte		N30   , Bn3 , v116
@@ -5508,33 +5508,33 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W01
 	.byte		N18   , Gs3 
 	.byte	W24
-/* 041   ----------------------------------------
- */	.byte		N32   , An3 , v100
+@ 041   ----------------------------------------
+	.byte		N32   , An3 , v100
 	.byte	W36
 	.byte	W03
 	.byte		N56   , Cs3 , v112
 	.byte	W56
 	.byte	W01
-/* 042   ----------------------------------------
- */	.byte	W96
-/* 043   ----------------------------------------
- */	.byte	W96
-/* 044   ----------------------------------------
- */	.byte		N30   , Fs3 , v104
+@ 042   ----------------------------------------
+	.byte	W96
+@ 043   ----------------------------------------
+	.byte	W96
+@ 044   ----------------------------------------
+	.byte		N30   , Fs3 , v104
 	.byte	W36
 	.byte	W03
 	.byte		N48   , Fs3 , v100
 	.byte	W56
 	.byte	W01
-/* 045   ----------------------------------------
- */	.byte		N30   , Fs3 , v124
+@ 045   ----------------------------------------
+	.byte		N30   , Fs3 , v124
 	.byte	W36
 	.byte	W03
 	.byte		N52   , Fs3 , v112
 	.byte	W56
 	.byte	W01
-/* 046   ----------------------------------------
- */	.byte		N28   , Gs3 , v120
+@ 046   ----------------------------------------
+	.byte		N28   , Gs3 , v120
 	.byte	W36
 	.byte	W03
 	.byte		N15   , Gs3 , v116
@@ -5543,19 +5543,19 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W24
 	.byte		N32   , As3 , v124
 	.byte	W09
-/* 047   ----------------------------------------
- */	.byte	W36
+@ 047   ----------------------------------------
+	.byte	W36
 	.byte	W03
 	.byte		N56   , Cs4 , v127
 	.byte	W56
 	.byte	W01
-/* 048   ----------------------------------------
- */	.byte		N22   , Ds4 , v120
+@ 048   ----------------------------------------
+	.byte		N22   , Ds4 , v120
 	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	W96
-/* 050   ----------------------------------------
- */	.byte	W72
+@ 049   ----------------------------------------
+	.byte	W96
+@ 050   ----------------------------------------
+	.byte	W72
 	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
 	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
@@ -5568,16 +5568,16 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W01
 	.byte		        77*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 051   ----------------------------------------
- */	.byte	PATT
+@ 051   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_9_007
 	.byte		EOT   , Fs4 
-/* 052   ----------------------------------------
- */	.byte	W96
-/* 053   ----------------------------------------
- */	.byte	W96
-/* 054   ----------------------------------------
- */	.byte	W72
+@ 052   ----------------------------------------
+	.byte	W96
+@ 053   ----------------------------------------
+	.byte	W96
+@ 054   ----------------------------------------
+	.byte	W72
 	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
 	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
@@ -5590,49 +5590,49 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W01
 	.byte		        77*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 055   ----------------------------------------
- */	.byte	PATT
+@ 055   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_9_007
 	.byte		EOT   , Gn4 
-/* 056   ----------------------------------------
- */	.byte	W96
-/* 057   ----------------------------------------
- */	.byte	W96
-/* 058   ----------------------------------------
- */	.byte	W96
-/* 059   ----------------------------------------
- */	.byte	W96
-/* 060   ----------------------------------------
- */	.byte	W96
-/* 061   ----------------------------------------
- */	.byte	W96
-/* 062   ----------------------------------------
- */	.byte	W96
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte	W96
-/* 065   ----------------------------------------
- */	.byte	W96
-/* 066   ----------------------------------------
- */	.byte	W96
-/* 067   ----------------------------------------
- */	.byte	W96
-/* 068   ----------------------------------------
- */	.byte	W96
-/* 069   ----------------------------------------
- */	.byte	W96
-/* 070   ----------------------------------------
- */	.byte	W96
-/* 071   ----------------------------------------
- */	.byte	W96
-/* 072   ----------------------------------------
- */	.byte	W96
-/* 073   ----------------------------------------
- */	.byte	PATT
+@ 056   ----------------------------------------
+	.byte	W96
+@ 057   ----------------------------------------
+	.byte	W96
+@ 058   ----------------------------------------
+	.byte	W96
+@ 059   ----------------------------------------
+	.byte	W96
+@ 060   ----------------------------------------
+	.byte	W96
+@ 061   ----------------------------------------
+	.byte	W96
+@ 062   ----------------------------------------
+	.byte	W96
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte	W96
+@ 065   ----------------------------------------
+	.byte	W96
+@ 066   ----------------------------------------
+	.byte	W96
+@ 067   ----------------------------------------
+	.byte	W96
+@ 068   ----------------------------------------
+	.byte	W96
+@ 069   ----------------------------------------
+	.byte	W96
+@ 070   ----------------------------------------
+	.byte	W96
+@ 071   ----------------------------------------
+	.byte	W96
+@ 072   ----------------------------------------
+	.byte	W96
+@ 073   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_9_025
-/* 074   ----------------------------------------
- */	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
+@ 074   ----------------------------------------
+	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
 	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W13
@@ -5730,60 +5730,60 @@ mus_ice_paradise__act_2_9_B1:
 	.byte	W02
 	.byte		        67*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 075   ----------------------------------------
- */	.byte	PATT
+@ 075   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_9_027
 	.byte		EOT   , Gn4 
-/* 076   ----------------------------------------
- */	.byte		VOICE , 56
+@ 076   ----------------------------------------
+	.byte		VOICE , 56
 	.byte		VOL   , 59*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
-/* 077   ----------------------------------------
- */	.byte	W96
-/* 078   ----------------------------------------
- */	.byte	W96
-/* 079   ----------------------------------------
- */	.byte	W96
-/* 080   ----------------------------------------
- */	.byte	W96
-/* 081   ----------------------------------------
- */	.byte	W96
-/* 082   ----------------------------------------
- */	.byte	W96
-/* 083   ----------------------------------------
- */	.byte	W48
+@ 077   ----------------------------------------
+	.byte	W96
+@ 078   ----------------------------------------
+	.byte	W96
+@ 079   ----------------------------------------
+	.byte	W96
+@ 080   ----------------------------------------
+	.byte	W96
+@ 081   ----------------------------------------
+	.byte	W96
+@ 082   ----------------------------------------
+	.byte	W96
+@ 083   ----------------------------------------
+	.byte	W48
 	.byte		VOICE , 1
 	.byte		VOL   , 59*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W48
-/* 084   ----------------------------------------
- */	.byte	W96
-/* 085   ----------------------------------------
- */	.byte	W96
-/* 086   ----------------------------------------
- */	.byte	W96
-/* 087   ----------------------------------------
- */	.byte	W96
-/* 088   ----------------------------------------
- */	.byte	W96
-/* 089   ----------------------------------------
- */	.byte	W96
-/* 090   ----------------------------------------
- */	.byte	W96
-/* 091   ----------------------------------------
- */	.byte	W96
+@ 084   ----------------------------------------
+	.byte	W96
+@ 085   ----------------------------------------
+	.byte	W96
+@ 086   ----------------------------------------
+	.byte	W96
+@ 087   ----------------------------------------
+	.byte	W96
+@ 088   ----------------------------------------
+	.byte	W96
+@ 089   ----------------------------------------
+	.byte	W96
+@ 090   ----------------------------------------
+	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_9_B1
 mus_ice_paradise__act_2_9_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 10 (Midi-Chn.10) **************** */
+@ **************** Track 10 (Midi-Chn.10) ****************
 
 mus_ice_paradise__act_2_10:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_10_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 12
+@ 000   ----------------------------------------
+	.byte		VOICE , 12
 	.byte		VOL   , 74*mus_ice_paradise__act_2_mvl/mxv
 	.byte		BENDR , 12
 	.byte		N04   , Cs6 , v068
@@ -5834,8 +5834,8 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        Cs3 , v068
 	.byte	W04
-/* 001   ----------------------------------------
- */mus_ice_paradise__act_2_10_001:
+@ 001   ----------------------------------------
+mus_ice_paradise__act_2_10_001:
 	.byte		N04   , Ds6 , v088
 	.byte	W04
 	.byte		        Bn5 , v092
@@ -5885,8 +5885,8 @@ mus_ice_paradise__act_2_10_B1:
 	.byte		        Ds3 , v084
 	.byte	W04
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_ice_paradise__act_2_10_002:
+@ 002   ----------------------------------------
+mus_ice_paradise__act_2_10_002:
 	.byte		N04   , En6 , v084
 	.byte	W04
 	.byte		        Bn5 
@@ -5936,8 +5936,8 @@ mus_ice_paradise__act_2_10_B1:
 	.byte		        En3 , v076
 	.byte	W04
 	.byte	PEND
-/* 003   ----------------------------------------
- */mus_ice_paradise__act_2_10_003:
+@ 003   ----------------------------------------
+mus_ice_paradise__act_2_10_003:
 	.byte		N04   , Cs3 , v072
 	.byte	W04
 	.byte		        Fs3 , v084
@@ -5987,48 +5987,48 @@ mus_ice_paradise__act_2_10_B1:
 	.byte		        Cs6 , v088
 	.byte	W04
 	.byte	PEND
-/* 004   ----------------------------------------
- */	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte	W96
-/* 007   ----------------------------------------
- */	.byte	W96
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */	.byte	W96
-/* 016   ----------------------------------------
- */	.byte	W96
-/* 017   ----------------------------------------
- */	.byte	W96
-/* 018   ----------------------------------------
- */	.byte	W96
-/* 019   ----------------------------------------
- */	.byte	W96
-/* 020   ----------------------------------------
- */	.byte	W96
-/* 021   ----------------------------------------
- */	.byte	W96
-/* 022   ----------------------------------------
- */	.byte	W96
-/* 023   ----------------------------------------
- */	.byte	W96
-/* 024   ----------------------------------------
- */	.byte		        Fs5 , v096
+@ 004   ----------------------------------------
+	.byte	W96
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte	W96
+@ 007   ----------------------------------------
+	.byte	W96
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+	.byte	W96
+@ 016   ----------------------------------------
+	.byte	W96
+@ 017   ----------------------------------------
+	.byte	W96
+@ 018   ----------------------------------------
+	.byte	W96
+@ 019   ----------------------------------------
+	.byte	W96
+@ 020   ----------------------------------------
+	.byte	W96
+@ 021   ----------------------------------------
+	.byte	W96
+@ 022   ----------------------------------------
+	.byte	W96
+@ 023   ----------------------------------------
+	.byte	W96
+@ 024   ----------------------------------------
+	.byte		        Fs5 , v096
 	.byte	W04
 	.byte		        Bn5 
 	.byte	W04
@@ -6076,8 +6076,8 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        Ds3 , v048
 	.byte	W04
-/* 025   ----------------------------------------
- */	.byte		        Fs4 , v088
+@ 025   ----------------------------------------
+	.byte		        Fs4 , v088
 	.byte	W04
 	.byte		        Bn4 , v084
 	.byte	W04
@@ -6125,8 +6125,8 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        Ds2 
 	.byte	W04
-/* 026   ----------------------------------------
- */	.byte		        Bn2 
+@ 026   ----------------------------------------
+	.byte		        Bn2 
 	.byte	W04
 	.byte		        Ds3 , v040
 	.byte	W04
@@ -6174,8 +6174,8 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        Ds5 
 	.byte	W04
-/* 027   ----------------------------------------
- */	.byte		        Bn3 , v036
+@ 027   ----------------------------------------
+	.byte		        Bn3 , v036
 	.byte	W04
 	.byte		        Ds4 , v040
 	.byte	W04
@@ -6223,40 +6223,40 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        Ds6 , v104
 	.byte	W04
-/* 028   ----------------------------------------
- */	.byte	W96
-/* 029   ----------------------------------------
- */	.byte	W96
-/* 030   ----------------------------------------
- */	.byte	W96
-/* 031   ----------------------------------------
- */	.byte	W96
-/* 032   ----------------------------------------
- */	.byte	W96
-/* 033   ----------------------------------------
- */	.byte	W96
-/* 034   ----------------------------------------
- */	.byte	W96
-/* 035   ----------------------------------------
- */	.byte	W96
-/* 036   ----------------------------------------
- */	.byte	W96
-/* 037   ----------------------------------------
- */	.byte	W96
-/* 038   ----------------------------------------
- */	.byte	W96
-/* 039   ----------------------------------------
- */	.byte	W96
-/* 040   ----------------------------------------
- */	.byte	W96
-/* 041   ----------------------------------------
- */	.byte	W96
-/* 042   ----------------------------------------
- */	.byte	W96
-/* 043   ----------------------------------------
- */	.byte	W96
-/* 044   ----------------------------------------
- */	.byte		        Cs6 , v068
+@ 028   ----------------------------------------
+	.byte	W96
+@ 029   ----------------------------------------
+	.byte	W96
+@ 030   ----------------------------------------
+	.byte	W96
+@ 031   ----------------------------------------
+	.byte	W96
+@ 032   ----------------------------------------
+	.byte	W96
+@ 033   ----------------------------------------
+	.byte	W96
+@ 034   ----------------------------------------
+	.byte	W96
+@ 035   ----------------------------------------
+	.byte	W96
+@ 036   ----------------------------------------
+	.byte	W96
+@ 037   ----------------------------------------
+	.byte	W96
+@ 038   ----------------------------------------
+	.byte	W96
+@ 039   ----------------------------------------
+	.byte	W96
+@ 040   ----------------------------------------
+	.byte	W96
+@ 041   ----------------------------------------
+	.byte	W96
+@ 042   ----------------------------------------
+	.byte	W96
+@ 043   ----------------------------------------
+	.byte	W96
+@ 044   ----------------------------------------
+	.byte		        Cs6 , v068
 	.byte	W04
 	.byte		        As5 , v080
 	.byte	W04
@@ -6304,65 +6304,65 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        Cs3 , v068
 	.byte	W04
-/* 045   ----------------------------------------
- */	.byte	PATT
+@ 045   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_10_001
-/* 046   ----------------------------------------
- */	.byte	PATT
+@ 046   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_10_002
-/* 047   ----------------------------------------
- */	.byte	PATT
+@ 047   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_10_003
-/* 048   ----------------------------------------
- */	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	W96
-/* 050   ----------------------------------------
- */	.byte	W96
-/* 051   ----------------------------------------
- */	.byte	W96
-/* 052   ----------------------------------------
- */	.byte	W96
-/* 053   ----------------------------------------
- */	.byte	W96
-/* 054   ----------------------------------------
- */	.byte	W96
-/* 055   ----------------------------------------
- */	.byte	W96
-/* 056   ----------------------------------------
- */	.byte	W96
-/* 057   ----------------------------------------
- */	.byte	W96
-/* 058   ----------------------------------------
- */	.byte	W96
-/* 059   ----------------------------------------
- */	.byte	W96
-/* 060   ----------------------------------------
- */	.byte	W96
-/* 061   ----------------------------------------
- */	.byte	W96
-/* 062   ----------------------------------------
- */	.byte	W96
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte	W96
-/* 065   ----------------------------------------
- */	.byte	W96
-/* 066   ----------------------------------------
- */	.byte	W96
-/* 067   ----------------------------------------
- */	.byte	W96
-/* 068   ----------------------------------------
- */	.byte	W96
-/* 069   ----------------------------------------
- */	.byte	W96
-/* 070   ----------------------------------------
- */	.byte	W96
-/* 071   ----------------------------------------
- */	.byte	W96
-/* 072   ----------------------------------------
- */	.byte		N04   , Gn5 , v096
+@ 048   ----------------------------------------
+	.byte	W96
+@ 049   ----------------------------------------
+	.byte	W96
+@ 050   ----------------------------------------
+	.byte	W96
+@ 051   ----------------------------------------
+	.byte	W96
+@ 052   ----------------------------------------
+	.byte	W96
+@ 053   ----------------------------------------
+	.byte	W96
+@ 054   ----------------------------------------
+	.byte	W96
+@ 055   ----------------------------------------
+	.byte	W96
+@ 056   ----------------------------------------
+	.byte	W96
+@ 057   ----------------------------------------
+	.byte	W96
+@ 058   ----------------------------------------
+	.byte	W96
+@ 059   ----------------------------------------
+	.byte	W96
+@ 060   ----------------------------------------
+	.byte	W96
+@ 061   ----------------------------------------
+	.byte	W96
+@ 062   ----------------------------------------
+	.byte	W96
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte	W96
+@ 065   ----------------------------------------
+	.byte	W96
+@ 066   ----------------------------------------
+	.byte	W96
+@ 067   ----------------------------------------
+	.byte	W96
+@ 068   ----------------------------------------
+	.byte	W96
+@ 069   ----------------------------------------
+	.byte	W96
+@ 070   ----------------------------------------
+	.byte	W96
+@ 071   ----------------------------------------
+	.byte	W96
+@ 072   ----------------------------------------
+	.byte		N04   , Gn5 , v096
 	.byte	W04
 	.byte		        Cn6 
 	.byte	W04
@@ -6410,8 +6410,8 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        En3 , v048
 	.byte	W04
-/* 073   ----------------------------------------
- */	.byte		        Gn4 , v088
+@ 073   ----------------------------------------
+	.byte		        Gn4 , v088
 	.byte	W04
 	.byte		        Cn5 , v084
 	.byte	W04
@@ -6459,8 +6459,8 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        En2 
 	.byte	W04
-/* 074   ----------------------------------------
- */	.byte		        Cn3 
+@ 074   ----------------------------------------
+	.byte		        Cn3 
 	.byte	W04
 	.byte		        En3 , v040
 	.byte	W04
@@ -6508,8 +6508,8 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        En5 
 	.byte	W04
-/* 075   ----------------------------------------
- */	.byte		        Cn4 , v036
+@ 075   ----------------------------------------
+	.byte		        Cn4 , v036
 	.byte	W04
 	.byte		        En4 , v040
 	.byte	W04
@@ -6557,51 +6557,51 @@ mus_ice_paradise__act_2_10_B1:
 	.byte	W04
 	.byte		        En6 , v104
 	.byte	W04
-/* 076   ----------------------------------------
- */	.byte	W96
-/* 077   ----------------------------------------
- */	.byte	W96
-/* 078   ----------------------------------------
- */	.byte	W96
-/* 079   ----------------------------------------
- */	.byte	W96
-/* 080   ----------------------------------------
- */	.byte	W96
-/* 081   ----------------------------------------
- */	.byte	W96
-/* 082   ----------------------------------------
- */	.byte	W96
-/* 083   ----------------------------------------
- */	.byte	W96
-/* 084   ----------------------------------------
- */	.byte	W96
-/* 085   ----------------------------------------
- */	.byte	W96
-/* 086   ----------------------------------------
- */	.byte	W96
-/* 087   ----------------------------------------
- */	.byte	W96
-/* 088   ----------------------------------------
- */	.byte	W96
-/* 089   ----------------------------------------
- */	.byte	W96
-/* 090   ----------------------------------------
- */	.byte	W96
-/* 091   ----------------------------------------
- */	.byte	W96
+@ 076   ----------------------------------------
+	.byte	W96
+@ 077   ----------------------------------------
+	.byte	W96
+@ 078   ----------------------------------------
+	.byte	W96
+@ 079   ----------------------------------------
+	.byte	W96
+@ 080   ----------------------------------------
+	.byte	W96
+@ 081   ----------------------------------------
+	.byte	W96
+@ 082   ----------------------------------------
+	.byte	W96
+@ 083   ----------------------------------------
+	.byte	W96
+@ 084   ----------------------------------------
+	.byte	W96
+@ 085   ----------------------------------------
+	.byte	W96
+@ 086   ----------------------------------------
+	.byte	W96
+@ 087   ----------------------------------------
+	.byte	W96
+@ 088   ----------------------------------------
+	.byte	W96
+@ 089   ----------------------------------------
+	.byte	W96
+@ 090   ----------------------------------------
+	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_10_B1
 mus_ice_paradise__act_2_10_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 11 (Midi-Chn.11) **************** */
+@ **************** Track 11 (Midi-Chn.11) ****************
 
 mus_ice_paradise__act_2_11:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_11_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 63
+@ 000   ----------------------------------------
+	.byte		VOICE , 63
 	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
 	.byte		BENDR , 12
 	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
@@ -6692,8 +6692,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W10
-/* 001   ----------------------------------------
- */	.byte		N30   , Bn2 , v104
+@ 001   ----------------------------------------
+	.byte		N30   , Bn2 , v104
 	.byte		N30   , Ds3 
 	.byte	W36
 	.byte	W03
@@ -6782,8 +6782,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W09
-/* 002   ----------------------------------------
- */	.byte		N28   , Bn2 , v100
+@ 002   ----------------------------------------
+	.byte		N28   , Bn2 , v100
 	.byte		N28   , En3 
 	.byte	W36
 	.byte	W03
@@ -6796,8 +6796,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte		N32   , Cs3 , v104
 	.byte		N32   , Fs3 
 	.byte	W09
-/* 003   ----------------------------------------
- */	.byte	W36
+@ 003   ----------------------------------------
+	.byte	W36
 	.byte	W03
 	.byte		N56   , Fs3 , v108
 	.byte		N56   , As3 
@@ -6878,14 +6878,14 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W10
-/* 004   ----------------------------------------
- */	.byte		N22   , Fs3 , v100
+@ 004   ----------------------------------------
+	.byte		N22   , Fs3 , v100
 	.byte		N22   , Bn3 
 	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte		VOICE , 64
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte		VOICE , 64
 	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
 	.byte		BENDR , 12
 	.byte	W72
@@ -6901,8 +6901,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        77*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 007   ----------------------------------------
- */mus_ice_paradise__act_2_11_007:
+@ 007   ----------------------------------------
+mus_ice_paradise__act_2_11_007:
 	.byte		VOL   , 67*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        57*mus_ice_paradise__act_2_mvl/mxv
@@ -7034,24 +7034,24 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte	PEND
 	.byte		EOT   , Fs4 
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */	.byte	W96
-/* 016   ----------------------------------------
- */	.byte		VOL   , 89*mus_ice_paradise__act_2_mvl/mxv
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+	.byte	W96
+@ 016   ----------------------------------------
+	.byte		VOL   , 89*mus_ice_paradise__act_2_mvl/mxv
 	.byte		TIE   , Cs4 , v127
 	.byte	W12
 	.byte		VOL   , 87*mus_ice_paradise__act_2_mvl/mxv
@@ -7204,8 +7204,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        85*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 017   ----------------------------------------
- */mus_ice_paradise__act_2_11_017:
+@ 017   ----------------------------------------
+mus_ice_paradise__act_2_11_017:
 	.byte		VOL   , 86*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        87*mus_ice_paradise__act_2_mvl/mxv
@@ -7222,8 +7222,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W24
 	.byte		        Cn4 
 	.byte	W24
-/* 018   ----------------------------------------
- */	.byte		TIE   , Bn3 
+@ 018   ----------------------------------------
+	.byte		TIE   , Bn3 
 	.byte	W12
 	.byte		VOL   , 84*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
@@ -7341,8 +7341,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        76*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 019   ----------------------------------------
- */mus_ice_paradise__act_2_11_019:
+@ 019   ----------------------------------------
+mus_ice_paradise__act_2_11_019:
 	.byte	W01
 	.byte		VOL   , 77*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
@@ -7379,13 +7379,13 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W24
 	.byte		        As3 
 	.byte	W24
-/* 020   ----------------------------------------
- */	.byte		N24   , An3 
+@ 020   ----------------------------------------
+	.byte		N24   , An3 
 	.byte	W96
-/* 021   ----------------------------------------
- */	.byte	W96
-/* 022   ----------------------------------------
- */	.byte		VOL   , 92*mus_ice_paradise__act_2_mvl/mxv
+@ 021   ----------------------------------------
+	.byte	W96
+@ 022   ----------------------------------------
+	.byte		VOL   , 92*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W68
 	.byte	W03
 	.byte		        92*mus_ice_paradise__act_2_mvl/mxv
@@ -7398,8 +7398,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        67*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 023   ----------------------------------------
- */mus_ice_paradise__act_2_11_023:
+@ 023   ----------------------------------------
+mus_ice_paradise__act_2_11_023:
 	.byte		VOL   , 52*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        37*mus_ice_paradise__act_2_mvl/mxv
@@ -7540,13 +7540,13 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	PEND
 	.byte		EOT   , Cs4 
 	.byte	W01
-/* 024   ----------------------------------------
- */	.byte		N32   , Fs3 , v127
+@ 024   ----------------------------------------
+	.byte		N32   , Fs3 , v127
 	.byte	W96
-/* 025   ----------------------------------------
- */	.byte	W96
-/* 026   ----------------------------------------
- */	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
+@ 025   ----------------------------------------
+	.byte	W96
+@ 026   ----------------------------------------
+	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
 	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W13
@@ -7654,8 +7654,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        72*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 027   ----------------------------------------
- */mus_ice_paradise__act_2_11_027:
+@ 027   ----------------------------------------
+mus_ice_paradise__act_2_11_027:
 	.byte	W01
 	.byte		VOL   , 73*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
@@ -7702,32 +7702,32 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte	PEND
 	.byte		EOT   , Fs4 
-/* 028   ----------------------------------------
- */	.byte	W96
-/* 029   ----------------------------------------
- */	.byte	W96
-/* 030   ----------------------------------------
- */	.byte	W84
+@ 028   ----------------------------------------
+	.byte	W96
+@ 029   ----------------------------------------
+	.byte	W96
+@ 030   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		N10   , Bn3 , v120
 	.byte	W09
-/* 031   ----------------------------------------
- */	.byte	W15
+@ 031   ----------------------------------------
+	.byte	W15
 	.byte		N30   
 	.byte	W36
 	.byte		N23   , Bn3 , v116
 	.byte	W23
 	.byte		N24   , Cs4 , v124
 	.byte	W22
-/* 032   ----------------------------------------
- */	.byte	W02
+@ 032   ----------------------------------------
+	.byte	W02
 	.byte		N32   , Fs3 , v127
 	.byte	W92
 	.byte	W02
-/* 033   ----------------------------------------
- */	.byte	W96
-/* 034   ----------------------------------------
- */	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
+@ 033   ----------------------------------------
+	.byte	W96
+@ 034   ----------------------------------------
+	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W84
 	.byte	W03
 	.byte		TIE   , En4 
@@ -7742,8 +7742,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        59*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 035   ----------------------------------------
- */mus_ice_paradise__act_2_11_035:
+@ 035   ----------------------------------------
+mus_ice_paradise__act_2_11_035:
 	.byte		VOL   , 55*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
 	.byte		        46*mus_ice_paradise__act_2_mvl/mxv
@@ -7860,29 +7860,29 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	PEND
 	.byte		EOT   , En4 
 	.byte	W01
-/* 036   ----------------------------------------
- */	.byte	W96
-/* 037   ----------------------------------------
- */	.byte	W96
-/* 038   ----------------------------------------
- */	.byte	W96
-/* 039   ----------------------------------------
- */	.byte	W96
-/* 040   ----------------------------------------
- */	.byte	W96
-/* 041   ----------------------------------------
- */	.byte	W96
-/* 042   ----------------------------------------
- */	.byte	W96
-/* 043   ----------------------------------------
- */mus_ice_paradise__act_2_11_043:
+@ 036   ----------------------------------------
+	.byte	W96
+@ 037   ----------------------------------------
+	.byte	W96
+@ 038   ----------------------------------------
+	.byte	W96
+@ 039   ----------------------------------------
+	.byte	W96
+@ 040   ----------------------------------------
+	.byte	W96
+@ 041   ----------------------------------------
+	.byte	W96
+@ 042   ----------------------------------------
+	.byte	W96
+@ 043   ----------------------------------------
+mus_ice_paradise__act_2_11_043:
 	.byte		VOICE , 63
 	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
 	.byte		BENDR , 12
 	.byte	W96
 	.byte	PEND
-/* 044   ----------------------------------------
- */	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
+@ 044   ----------------------------------------
+	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
 	.byte		N30   , As2 , v104
 	.byte		N30   , Cs3 
 	.byte	W36
@@ -7970,8 +7970,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W10
-/* 045   ----------------------------------------
- */	.byte		N30   , Bn2 , v124
+@ 045   ----------------------------------------
+	.byte		N30   , Bn2 , v124
 	.byte		N30   , Ds3 
 	.byte	W36
 	.byte	W03
@@ -8060,8 +8060,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W09
-/* 046   ----------------------------------------
- */	.byte		N28   , Bn2 , v120
+@ 046   ----------------------------------------
+	.byte		N28   , Bn2 , v120
 	.byte		N28   , En3 
 	.byte	W36
 	.byte	W03
@@ -8074,8 +8074,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte		N32   , Cs3 , v124
 	.byte		N32   , Fs3 
 	.byte	W09
-/* 047   ----------------------------------------
- */	.byte	W36
+@ 047   ----------------------------------------
+	.byte	W36
 	.byte	W03
 	.byte		N56   , Fs3 , v127
 	.byte		N56   , As3 
@@ -8156,14 +8156,14 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        127*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W10
-/* 048   ----------------------------------------
- */	.byte		N22   , Fs3 , v120
+@ 048   ----------------------------------------
+	.byte		N22   , Fs3 , v120
 	.byte		N22   , Bn3 
 	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	W96
-/* 050   ----------------------------------------
- */	.byte		VOICE , 64
+@ 049   ----------------------------------------
+	.byte	W96
+@ 050   ----------------------------------------
+	.byte		VOICE , 64
 	.byte		VOL   , 127*mus_ice_paradise__act_2_mvl/mxv
 	.byte		BENDR , 12
 	.byte	W72
@@ -8179,17 +8179,17 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        77*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 051   ----------------------------------------
- */	.byte	PATT
+@ 051   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_11_007
 	.byte		EOT   , Fs4 
-/* 052   ----------------------------------------
- */	.byte		N32   , Gn4 , v124
+@ 052   ----------------------------------------
+	.byte		N32   , Gn4 , v124
 	.byte	W96
-/* 053   ----------------------------------------
- */	.byte	W96
-/* 054   ----------------------------------------
- */	.byte	W72
+@ 053   ----------------------------------------
+	.byte	W96
+@ 054   ----------------------------------------
+	.byte	W72
 	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
 	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
@@ -8202,28 +8202,28 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        77*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 055   ----------------------------------------
- */	.byte	PATT
+@ 055   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_11_007
 	.byte		EOT   , Gn4 
-/* 056   ----------------------------------------
- */	.byte	W96
-/* 057   ----------------------------------------
- */	.byte	W96
-/* 058   ----------------------------------------
- */	.byte	W96
-/* 059   ----------------------------------------
- */	.byte	W96
-/* 060   ----------------------------------------
- */	.byte	W96
-/* 061   ----------------------------------------
- */	.byte	W96
-/* 062   ----------------------------------------
- */	.byte	W96
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte		VOL   , 89*mus_ice_paradise__act_2_mvl/mxv
+@ 056   ----------------------------------------
+	.byte	W96
+@ 057   ----------------------------------------
+	.byte	W96
+@ 058   ----------------------------------------
+	.byte	W96
+@ 059   ----------------------------------------
+	.byte	W96
+@ 060   ----------------------------------------
+	.byte	W96
+@ 061   ----------------------------------------
+	.byte	W96
+@ 062   ----------------------------------------
+	.byte	W96
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte		VOL   , 89*mus_ice_paradise__act_2_mvl/mxv
 	.byte		TIE   , Dn4 , v127
 	.byte	W12
 	.byte		VOL   , 87*mus_ice_paradise__act_2_mvl/mxv
@@ -8376,8 +8376,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        85*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 065   ----------------------------------------
- */	.byte	PATT
+@ 065   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_11_017
 	.byte		EOT   , Dn4 
 	.byte	W08
@@ -8385,8 +8385,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W24
 	.byte		        Cs4 
 	.byte	W24
-/* 066   ----------------------------------------
- */	.byte		TIE   , Cn4 
+@ 066   ----------------------------------------
+	.byte		TIE   , Cn4 
 	.byte	W12
 	.byte		VOL   , 84*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
@@ -8504,8 +8504,8 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        76*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 067   ----------------------------------------
- */	.byte	PATT
+@ 067   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_11_019
 	.byte		EOT   , Cn4 
 	.byte	W08
@@ -8513,13 +8513,13 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W24
 	.byte		        Bn3 
 	.byte	W24
-/* 068   ----------------------------------------
- */	.byte		N24   , As3 
+@ 068   ----------------------------------------
+	.byte		N24   , As3 
 	.byte	W96
-/* 069   ----------------------------------------
- */	.byte	W96
-/* 070   ----------------------------------------
- */	.byte		VOL   , 92*mus_ice_paradise__act_2_mvl/mxv
+@ 069   ----------------------------------------
+	.byte	W96
+@ 070   ----------------------------------------
+	.byte		VOL   , 92*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W68
 	.byte	W03
 	.byte		        92*mus_ice_paradise__act_2_mvl/mxv
@@ -8532,18 +8532,18 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        67*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 071   ----------------------------------------
- */	.byte	PATT
+@ 071   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_11_023
 	.byte		EOT   , Dn4 
 	.byte	W01
-/* 072   ----------------------------------------
- */	.byte		N32   , Gn3 , v127
+@ 072   ----------------------------------------
+	.byte		N32   , Gn3 , v127
 	.byte	W96
-/* 073   ----------------------------------------
- */	.byte	W96
-/* 074   ----------------------------------------
- */	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
+@ 073   ----------------------------------------
+	.byte	W96
+@ 074   ----------------------------------------
+	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W03
 	.byte		        93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W13
@@ -8651,36 +8651,36 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        72*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 075   ----------------------------------------
- */	.byte	PATT
+@ 075   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_11_027
 	.byte		EOT   , Gn4 
-/* 076   ----------------------------------------
- */	.byte	W96
-/* 077   ----------------------------------------
- */	.byte	W96
-/* 078   ----------------------------------------
- */	.byte	W84
+@ 076   ----------------------------------------
+	.byte	W96
+@ 077   ----------------------------------------
+	.byte	W96
+@ 078   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		N10   , Cn4 , v120
 	.byte	W09
-/* 079   ----------------------------------------
- */	.byte	W15
+@ 079   ----------------------------------------
+	.byte	W15
 	.byte		N30   
 	.byte	W36
 	.byte		N23   , Cn4 , v116
 	.byte	W23
 	.byte		N24   , Dn4 , v124
 	.byte	W22
-/* 080   ----------------------------------------
- */	.byte	W02
+@ 080   ----------------------------------------
+	.byte	W02
 	.byte		N32   , Gn3 , v127
 	.byte	W92
 	.byte	W02
-/* 081   ----------------------------------------
- */	.byte	W96
-/* 082   ----------------------------------------
- */	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
+@ 081   ----------------------------------------
+	.byte	W96
+@ 082   ----------------------------------------
+	.byte		VOL   , 93*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W84
 	.byte	W03
 	.byte		TIE   , Fn4 
@@ -8695,51 +8695,51 @@ mus_ice_paradise__act_2_11_B1:
 	.byte	W01
 	.byte		        59*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W01
-/* 083   ----------------------------------------
- */	.byte	PATT
+@ 083   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_11_035
 	.byte		EOT   , Fn4 
 	.byte	W01
-/* 084   ----------------------------------------
- */	.byte	W96
-/* 085   ----------------------------------------
- */	.byte	W96
-/* 086   ----------------------------------------
- */	.byte	W96
-/* 087   ----------------------------------------
- */	.byte	W96
-/* 088   ----------------------------------------
- */	.byte	W96
-/* 089   ----------------------------------------
- */	.byte	W96
-/* 090   ----------------------------------------
- */	.byte	W96
-/* 091   ----------------------------------------
- */	.byte	PATT
+@ 084   ----------------------------------------
+	.byte	W96
+@ 085   ----------------------------------------
+	.byte	W96
+@ 086   ----------------------------------------
+	.byte	W96
+@ 087   ----------------------------------------
+	.byte	W96
+@ 088   ----------------------------------------
+	.byte	W96
+@ 089   ----------------------------------------
+	.byte	W96
+@ 090   ----------------------------------------
+	.byte	W96
+@ 091   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_11_043
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_11_B1
 mus_ice_paradise__act_2_11_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 12 (Midi-Chn.12) **************** */
+@ **************** Track 12 (Midi-Chn.12) ****************
 
 mus_ice_paradise__act_2_12:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_12_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 110
+@ 000   ----------------------------------------
+	.byte		VOICE , 110
 	.byte		VOL   , 107*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */mus_ice_paradise__act_2_12_004:
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+mus_ice_paradise__act_2_12_004:
 	.byte		N11   , Dn3 , v127
 	.byte	W24
 	.byte		N11   
@@ -8747,8 +8747,8 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N23   
 	.byte	W48
 	.byte	PEND
-/* 005   ----------------------------------------
- */mus_ice_paradise__act_2_12_005:
+@ 005   ----------------------------------------
+mus_ice_paradise__act_2_12_005:
 	.byte	W48
 	.byte		N23   , Dn3 , v127
 	.byte	W24
@@ -8757,20 +8757,20 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N02   
 	.byte	W09
 	.byte	PEND
-/* 006   ----------------------------------------
- */	.byte	PATT
+@ 006   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 007   ----------------------------------------
- */	.byte	PATT
+@ 007   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_005
-/* 008   ----------------------------------------
- */	.byte	PATT
+@ 008   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_005
-/* 010   ----------------------------------------
- */mus_ice_paradise__act_2_12_010:
+@ 010   ----------------------------------------
+mus_ice_paradise__act_2_12_010:
 	.byte		N11   , Gn3 , v127
 	.byte	W24
 	.byte		N11   
@@ -8778,27 +8778,27 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N23   
 	.byte	W48
 	.byte	PEND
-/* 011   ----------------------------------------
- */mus_ice_paradise__act_2_12_011:
+@ 011   ----------------------------------------
+mus_ice_paradise__act_2_12_011:
 	.byte	W48
 	.byte		N23   , Gn3 , v127
 	.byte	W24
 	.byte		        An3 
 	.byte	W24
 	.byte	PEND
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 013   ----------------------------------------
- */mus_ice_paradise__act_2_12_013:
+@ 013   ----------------------------------------
+mus_ice_paradise__act_2_12_013:
 	.byte	W48
 	.byte		N23   , Dn3 , v127
 	.byte	W24
 	.byte		        Cs3 
 	.byte	W24
 	.byte	PEND
-/* 014   ----------------------------------------
- */mus_ice_paradise__act_2_12_014:
+@ 014   ----------------------------------------
+mus_ice_paradise__act_2_12_014:
 	.byte		N11   , Cn3 , v127
 	.byte	W24
 	.byte		N11   
@@ -8806,8 +8806,8 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N23   
 	.byte	W48
 	.byte	PEND
-/* 015   ----------------------------------------
- */mus_ice_paradise__act_2_12_015:
+@ 015   ----------------------------------------
+mus_ice_paradise__act_2_12_015:
 	.byte	W48
 	.byte		N23   , Cn3 , v127
 	.byte	W24
@@ -8816,30 +8816,30 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N02   
 	.byte	W09
 	.byte	PEND
-/* 016   ----------------------------------------
- */	.byte		N11   , An3 , v127
+@ 016   ----------------------------------------
+	.byte		N11   , An3 , v127
 	.byte	W24
 	.byte		N11   
 	.byte	W24
 	.byte		N23   
 	.byte	W48
-/* 017   ----------------------------------------
- */	.byte	W48
+@ 017   ----------------------------------------
+	.byte	W48
 	.byte		N23   
 	.byte	W24
 	.byte		        Gs3 
 	.byte	W24
-/* 018   ----------------------------------------
- */	.byte	PATT
+@ 018   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_010
-/* 019   ----------------------------------------
- */	.byte	W48
+@ 019   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Gn3 , v127
 	.byte	W24
 	.byte		        Fs3 
 	.byte	W24
-/* 020   ----------------------------------------
- */mus_ice_paradise__act_2_12_020:
+@ 020   ----------------------------------------
+mus_ice_paradise__act_2_12_020:
 	.byte		N11   , Fn3 , v127
 	.byte	W24
 	.byte		N11   
@@ -8847,93 +8847,93 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N23   
 	.byte	W48
 	.byte	PEND
-/* 021   ----------------------------------------
- */	.byte	W48
+@ 021   ----------------------------------------
+	.byte	W48
 	.byte		N23   
 	.byte	W24
 	.byte		N23   
 	.byte	W24
-/* 022   ----------------------------------------
- */	.byte	PATT
+@ 022   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_010
-/* 023   ----------------------------------------
- */	.byte	W48
+@ 023   ----------------------------------------
+	.byte	W48
 	.byte		N23   , An3 , v127
 	.byte	W24
 	.byte		N23   
 	.byte	W24
-/* 024   ----------------------------------------
- */	.byte	PATT
+@ 024   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 025   ----------------------------------------
- */	.byte	PATT
+@ 025   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_005
-/* 026   ----------------------------------------
- */	.byte	PATT
+@ 026   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 027   ----------------------------------------
- */	.byte	PATT
+@ 027   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_005
-/* 028   ----------------------------------------
- */	.byte	PATT
+@ 028   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 029   ----------------------------------------
- */	.byte	PATT
+@ 029   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_005
-/* 030   ----------------------------------------
- */	.byte	PATT
+@ 030   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_010
-/* 031   ----------------------------------------
- */	.byte	PATT
+@ 031   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_011
-/* 032   ----------------------------------------
- */	.byte	PATT
+@ 032   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 033   ----------------------------------------
- */	.byte	PATT
+@ 033   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_013
-/* 034   ----------------------------------------
- */	.byte	PATT
+@ 034   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_014
-/* 035   ----------------------------------------
- */	.byte	PATT
+@ 035   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_015
-/* 036   ----------------------------------------
- */	.byte		N11   , En3 , v127
+@ 036   ----------------------------------------
+	.byte		N11   , En3 , v127
 	.byte	W24
 	.byte		N11   
 	.byte	W24
 	.byte		N23   
 	.byte	W48
-/* 037   ----------------------------------------
- */	.byte	W48
+@ 037   ----------------------------------------
+	.byte	W48
 	.byte		        Fs3 
 	.byte	W24
 	.byte		N02   , Fs3 , v048
 	.byte	W15
 	.byte		N02   
 	.byte	W09
-/* 038   ----------------------------------------
- */	.byte	PATT
+@ 038   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 039   ----------------------------------------
- */	.byte	PATT
+@ 039   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_005
-/* 040   ----------------------------------------
- */	.byte	PATT
+@ 040   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_014
-/* 041   ----------------------------------------
- */	.byte	PATT
+@ 041   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_015
-/* 042   ----------------------------------------
- */	.byte		N11   , As2 , v127
+@ 042   ----------------------------------------
+	.byte		N11   , As2 , v127
 	.byte	W24
 	.byte		N11   
 	.byte	W24
 	.byte		N23   
 	.byte	W48
-/* 043   ----------------------------------------
- */mus_ice_paradise__act_2_12_043:
+@ 043   ----------------------------------------
+mus_ice_paradise__act_2_12_043:
 	.byte	W48
 	.byte		N23   , Ds3 , v127
 	.byte	W24
@@ -8942,33 +8942,33 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N02   
 	.byte	W09
 	.byte	PEND
-/* 044   ----------------------------------------
- */	.byte	W96
-/* 045   ----------------------------------------
- */	.byte	W96
-/* 046   ----------------------------------------
- */	.byte	W96
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	PATT
+@ 044   ----------------------------------------
+	.byte	W96
+@ 045   ----------------------------------------
+	.byte	W96
+@ 046   ----------------------------------------
+	.byte	W96
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 049   ----------------------------------------
- */	.byte	PATT
+@ 049   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_005
-/* 050   ----------------------------------------
- */	.byte	PATT
+@ 050   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_004
-/* 051   ----------------------------------------
- */	.byte	W48
+@ 051   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Dn3 , v127
 	.byte	W24
 	.byte		N11   , Cs3 
 	.byte	W12
 	.byte		        Dn3 
 	.byte	W12
-/* 052   ----------------------------------------
- */mus_ice_paradise__act_2_12_052:
+@ 052   ----------------------------------------
+mus_ice_paradise__act_2_12_052:
 	.byte		N11   , Ds3 , v127
 	.byte	W24
 	.byte		N11   
@@ -8976,23 +8976,23 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N23   
 	.byte	W48
 	.byte	PEND
-/* 053   ----------------------------------------
- */	.byte	PATT
+@ 053   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_043
-/* 054   ----------------------------------------
- */	.byte	PATT
+@ 054   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_052
-/* 055   ----------------------------------------
- */	.byte	PATT
+@ 055   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_043
-/* 056   ----------------------------------------
- */	.byte	PATT
+@ 056   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_052
-/* 057   ----------------------------------------
- */	.byte	PATT
+@ 057   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_043
-/* 058   ----------------------------------------
- */mus_ice_paradise__act_2_12_058:
+@ 058   ----------------------------------------
+mus_ice_paradise__act_2_12_058:
 	.byte		N11   , Gs3 , v127
 	.byte	W24
 	.byte		N11   
@@ -9000,27 +9000,27 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N23   
 	.byte	W48
 	.byte	PEND
-/* 059   ----------------------------------------
- */mus_ice_paradise__act_2_12_059:
+@ 059   ----------------------------------------
+mus_ice_paradise__act_2_12_059:
 	.byte	W48
 	.byte		N23   , Gs3 , v127
 	.byte	W24
 	.byte		        As3 
 	.byte	W24
 	.byte	PEND
-/* 060   ----------------------------------------
- */	.byte	PATT
+@ 060   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_052
-/* 061   ----------------------------------------
- */mus_ice_paradise__act_2_12_061:
+@ 061   ----------------------------------------
+mus_ice_paradise__act_2_12_061:
 	.byte	W48
 	.byte		N23   , Ds3 , v127
 	.byte	W24
 	.byte		        Dn3 
 	.byte	W24
 	.byte	PEND
-/* 062   ----------------------------------------
- */mus_ice_paradise__act_2_12_062:
+@ 062   ----------------------------------------
+mus_ice_paradise__act_2_12_062:
 	.byte		N11   , Cs3 , v127
 	.byte	W24
 	.byte		N11   
@@ -9028,8 +9028,8 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N23   
 	.byte	W48
 	.byte	PEND
-/* 063   ----------------------------------------
- */mus_ice_paradise__act_2_12_063:
+@ 063   ----------------------------------------
+mus_ice_paradise__act_2_12_063:
 	.byte	W48
 	.byte		N23   , Cs3 , v127
 	.byte	W24
@@ -9038,118 +9038,118 @@ mus_ice_paradise__act_2_12_B1:
 	.byte		N02   
 	.byte	W09
 	.byte	PEND
-/* 064   ----------------------------------------
- */	.byte		N11   , As3 , v127
+@ 064   ----------------------------------------
+	.byte		N11   , As3 , v127
 	.byte	W24
 	.byte		N11   
 	.byte	W24
 	.byte		N23   
 	.byte	W48
-/* 065   ----------------------------------------
- */	.byte	W48
+@ 065   ----------------------------------------
+	.byte	W48
 	.byte		N23   
 	.byte	W24
 	.byte		        An3 
 	.byte	W24
-/* 066   ----------------------------------------
- */	.byte	PATT
+@ 066   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_058
-/* 067   ----------------------------------------
- */	.byte	W48
+@ 067   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Gs3 , v127
 	.byte	W24
 	.byte		        Gn3 
 	.byte	W24
-/* 068   ----------------------------------------
- */	.byte		N11   , Fs3 
+@ 068   ----------------------------------------
+	.byte		N11   , Fs3 
 	.byte	W24
 	.byte		N11   
 	.byte	W24
 	.byte		N23   
 	.byte	W48
-/* 069   ----------------------------------------
- */	.byte	W48
+@ 069   ----------------------------------------
+	.byte	W48
 	.byte		N23   
 	.byte	W24
 	.byte		N23   
 	.byte	W24
-/* 070   ----------------------------------------
- */	.byte	PATT
+@ 070   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_058
-/* 071   ----------------------------------------
- */	.byte	W48
+@ 071   ----------------------------------------
+	.byte	W48
 	.byte		N23   , As3 , v127
 	.byte	W24
 	.byte		N23   
 	.byte	W24
-/* 072   ----------------------------------------
- */	.byte	PATT
+@ 072   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_052
-/* 073   ----------------------------------------
- */	.byte	PATT
+@ 073   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_043
-/* 074   ----------------------------------------
- */	.byte	PATT
+@ 074   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_052
-/* 075   ----------------------------------------
- */	.byte	PATT
+@ 075   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_043
-/* 076   ----------------------------------------
- */	.byte	PATT
+@ 076   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_052
-/* 077   ----------------------------------------
- */	.byte	PATT
+@ 077   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_043
-/* 078   ----------------------------------------
- */	.byte	PATT
+@ 078   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_058
-/* 079   ----------------------------------------
- */	.byte	PATT
+@ 079   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_059
-/* 080   ----------------------------------------
- */	.byte	PATT
+@ 080   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_052
-/* 081   ----------------------------------------
- */	.byte	PATT
+@ 081   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_061
-/* 082   ----------------------------------------
- */	.byte	PATT
+@ 082   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_062
-/* 083   ----------------------------------------
- */	.byte	PATT
+@ 083   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_063
-/* 084   ----------------------------------------
- */	.byte	PATT
+@ 084   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_020
-/* 085   ----------------------------------------
- */	.byte	W48
+@ 085   ----------------------------------------
+	.byte	W48
 	.byte		N23   , Gn3 , v127
 	.byte	W24
 	.byte		N02   , Gn3 , v048
 	.byte	W15
 	.byte		N02   
 	.byte	W09
-/* 086   ----------------------------------------
- */	.byte	PATT
+@ 086   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_052
-/* 087   ----------------------------------------
- */	.byte	PATT
+@ 087   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_043
-/* 088   ----------------------------------------
- */	.byte	PATT
+@ 088   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_062
-/* 089   ----------------------------------------
- */	.byte	PATT
+@ 089   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_12_063
-/* 090   ----------------------------------------
- */	.byte		N11   , Bn2 , v127
+@ 090   ----------------------------------------
+	.byte		N11   , Bn2 , v127
 	.byte	W24
 	.byte		N11   
 	.byte	W24
 	.byte		N23   
 	.byte	W48
-/* 091   ----------------------------------------
- */	.byte	W48
+@ 091   ----------------------------------------
+	.byte	W48
 	.byte		        En3 
 	.byte	W24
 	.byte		N02   , En3 , v048
@@ -9159,1140 +9159,1140 @@ mus_ice_paradise__act_2_12_B1:
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_12_B1
 mus_ice_paradise__act_2_12_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 13 (Midi-Chn.13) **************** */
+@ **************** Track 13 (Midi-Chn.13) ****************
 
 mus_ice_paradise__act_2_13:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_13_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 111
+@ 000   ----------------------------------------
+	.byte		VOICE , 111
 	.byte		VOL   , 107*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */mus_ice_paradise__act_2_13_004:
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+mus_ice_paradise__act_2_13_004:
 	.byte	W68
 	.byte	W03
 	.byte		N15   , Dn3 , v127
 	.byte	W24
 	.byte	W01
 	.byte	PEND
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte	PATT
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 007   ----------------------------------------
- */	.byte	W96
-/* 008   ----------------------------------------
- */	.byte	PATT
+@ 007   ----------------------------------------
+	.byte	W96
+@ 008   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */mus_ice_paradise__act_2_13_010:
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+mus_ice_paradise__act_2_13_010:
 	.byte	W68
 	.byte	W03
 	.byte		N15   , Gn3 , v127
 	.byte	W24
 	.byte	W01
 	.byte	PEND
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */mus_ice_paradise__act_2_13_014:
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+mus_ice_paradise__act_2_13_014:
 	.byte	W68
 	.byte	W03
 	.byte		N15   , Cn3 , v127
 	.byte	W24
 	.byte	W01
 	.byte	PEND
-/* 015   ----------------------------------------
- */	.byte	W96
-/* 016   ----------------------------------------
- */	.byte	W68
+@ 015   ----------------------------------------
+	.byte	W96
+@ 016   ----------------------------------------
+	.byte	W68
 	.byte	W03
 	.byte		        An3 
 	.byte	W24
 	.byte	W01
-/* 017   ----------------------------------------
- */	.byte	W96
-/* 018   ----------------------------------------
- */	.byte	PATT
+@ 017   ----------------------------------------
+	.byte	W96
+@ 018   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_010
-/* 019   ----------------------------------------
- */	.byte	W96
-/* 020   ----------------------------------------
- */mus_ice_paradise__act_2_13_020:
+@ 019   ----------------------------------------
+	.byte	W96
+@ 020   ----------------------------------------
+mus_ice_paradise__act_2_13_020:
 	.byte	W68
 	.byte	W03
 	.byte		N15   , Fn3 , v127
 	.byte	W24
 	.byte	W01
 	.byte	PEND
-/* 021   ----------------------------------------
- */	.byte	W96
-/* 022   ----------------------------------------
- */	.byte	PATT
+@ 021   ----------------------------------------
+	.byte	W96
+@ 022   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_010
-/* 023   ----------------------------------------
- */	.byte	W96
-/* 024   ----------------------------------------
- */	.byte	PATT
+@ 023   ----------------------------------------
+	.byte	W96
+@ 024   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 025   ----------------------------------------
- */	.byte	W96
-/* 026   ----------------------------------------
- */	.byte	PATT
+@ 025   ----------------------------------------
+	.byte	W96
+@ 026   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 027   ----------------------------------------
- */	.byte	W96
-/* 028   ----------------------------------------
- */	.byte	PATT
+@ 027   ----------------------------------------
+	.byte	W96
+@ 028   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 029   ----------------------------------------
- */	.byte	W96
-/* 030   ----------------------------------------
- */	.byte	PATT
+@ 029   ----------------------------------------
+	.byte	W96
+@ 030   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_010
-/* 031   ----------------------------------------
- */	.byte	W96
-/* 032   ----------------------------------------
- */	.byte	PATT
+@ 031   ----------------------------------------
+	.byte	W96
+@ 032   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 033   ----------------------------------------
- */	.byte	W96
-/* 034   ----------------------------------------
- */	.byte	PATT
+@ 033   ----------------------------------------
+	.byte	W96
+@ 034   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_014
-/* 035   ----------------------------------------
- */	.byte	W96
-/* 036   ----------------------------------------
- */	.byte	W68
+@ 035   ----------------------------------------
+	.byte	W96
+@ 036   ----------------------------------------
+	.byte	W68
 	.byte	W03
 	.byte		N15   , En3 , v127
 	.byte	W24
 	.byte	W01
-/* 037   ----------------------------------------
- */	.byte	W96
-/* 038   ----------------------------------------
- */	.byte	PATT
+@ 037   ----------------------------------------
+	.byte	W96
+@ 038   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 039   ----------------------------------------
- */	.byte	W96
-/* 040   ----------------------------------------
- */	.byte	PATT
+@ 039   ----------------------------------------
+	.byte	W96
+@ 040   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_014
-/* 041   ----------------------------------------
- */	.byte	W96
-/* 042   ----------------------------------------
- */	.byte	W68
+@ 041   ----------------------------------------
+	.byte	W96
+@ 042   ----------------------------------------
+	.byte	W68
 	.byte	W03
 	.byte		N15   , As2 , v127
 	.byte	W24
 	.byte	W01
-/* 043   ----------------------------------------
- */	.byte	W96
-/* 044   ----------------------------------------
- */	.byte	W96
-/* 045   ----------------------------------------
- */	.byte	W96
-/* 046   ----------------------------------------
- */	.byte	W96
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	PATT
+@ 043   ----------------------------------------
+	.byte	W96
+@ 044   ----------------------------------------
+	.byte	W96
+@ 045   ----------------------------------------
+	.byte	W96
+@ 046   ----------------------------------------
+	.byte	W96
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 049   ----------------------------------------
- */	.byte	W96
-/* 050   ----------------------------------------
- */	.byte	PATT
+@ 049   ----------------------------------------
+	.byte	W96
+@ 050   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_004
-/* 051   ----------------------------------------
- */	.byte	W96
-/* 052   ----------------------------------------
- */mus_ice_paradise__act_2_13_052:
+@ 051   ----------------------------------------
+	.byte	W96
+@ 052   ----------------------------------------
+mus_ice_paradise__act_2_13_052:
 	.byte	W68
 	.byte	W03
 	.byte		N15   , Ds3 , v127
 	.byte	W24
 	.byte	W01
 	.byte	PEND
-/* 053   ----------------------------------------
- */	.byte	W96
-/* 054   ----------------------------------------
- */	.byte	PATT
+@ 053   ----------------------------------------
+	.byte	W96
+@ 054   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_052
-/* 055   ----------------------------------------
- */	.byte	W96
-/* 056   ----------------------------------------
- */	.byte	PATT
+@ 055   ----------------------------------------
+	.byte	W96
+@ 056   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_052
-/* 057   ----------------------------------------
- */	.byte	W96
-/* 058   ----------------------------------------
- */mus_ice_paradise__act_2_13_058:
+@ 057   ----------------------------------------
+	.byte	W96
+@ 058   ----------------------------------------
+mus_ice_paradise__act_2_13_058:
 	.byte	W68
 	.byte	W03
 	.byte		N15   , Gs3 , v127
 	.byte	W24
 	.byte	W01
 	.byte	PEND
-/* 059   ----------------------------------------
- */	.byte	W96
-/* 060   ----------------------------------------
- */	.byte	PATT
+@ 059   ----------------------------------------
+	.byte	W96
+@ 060   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_052
-/* 061   ----------------------------------------
- */	.byte	W96
-/* 062   ----------------------------------------
- */mus_ice_paradise__act_2_13_062:
+@ 061   ----------------------------------------
+	.byte	W96
+@ 062   ----------------------------------------
+mus_ice_paradise__act_2_13_062:
 	.byte	W68
 	.byte	W03
 	.byte		N15   , Cs3 , v127
 	.byte	W24
 	.byte	W01
 	.byte	PEND
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte	W68
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte	W68
 	.byte	W03
 	.byte		        As3 
 	.byte	W24
 	.byte	W01
-/* 065   ----------------------------------------
- */	.byte	W96
-/* 066   ----------------------------------------
- */	.byte	PATT
+@ 065   ----------------------------------------
+	.byte	W96
+@ 066   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_058
-/* 067   ----------------------------------------
- */	.byte	W96
-/* 068   ----------------------------------------
- */	.byte	W68
+@ 067   ----------------------------------------
+	.byte	W96
+@ 068   ----------------------------------------
+	.byte	W68
 	.byte	W03
 	.byte		N15   , Fs3 , v127
 	.byte	W24
 	.byte	W01
-/* 069   ----------------------------------------
- */	.byte	W96
-/* 070   ----------------------------------------
- */	.byte	PATT
+@ 069   ----------------------------------------
+	.byte	W96
+@ 070   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_058
-/* 071   ----------------------------------------
- */	.byte	W96
-/* 072   ----------------------------------------
- */	.byte	PATT
+@ 071   ----------------------------------------
+	.byte	W96
+@ 072   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_052
-/* 073   ----------------------------------------
- */	.byte	W96
-/* 074   ----------------------------------------
- */	.byte	PATT
+@ 073   ----------------------------------------
+	.byte	W96
+@ 074   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_052
-/* 075   ----------------------------------------
- */	.byte	W96
-/* 076   ----------------------------------------
- */	.byte	PATT
+@ 075   ----------------------------------------
+	.byte	W96
+@ 076   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_052
-/* 077   ----------------------------------------
- */	.byte	W96
-/* 078   ----------------------------------------
- */	.byte	PATT
+@ 077   ----------------------------------------
+	.byte	W96
+@ 078   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_058
-/* 079   ----------------------------------------
- */	.byte	W96
-/* 080   ----------------------------------------
- */	.byte	PATT
+@ 079   ----------------------------------------
+	.byte	W96
+@ 080   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_052
-/* 081   ----------------------------------------
- */	.byte	W96
-/* 082   ----------------------------------------
- */	.byte	PATT
+@ 081   ----------------------------------------
+	.byte	W96
+@ 082   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_062
-/* 083   ----------------------------------------
- */	.byte	W96
-/* 084   ----------------------------------------
- */	.byte	PATT
+@ 083   ----------------------------------------
+	.byte	W96
+@ 084   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_020
-/* 085   ----------------------------------------
- */	.byte	W96
-/* 086   ----------------------------------------
- */	.byte	PATT
+@ 085   ----------------------------------------
+	.byte	W96
+@ 086   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_052
-/* 087   ----------------------------------------
- */	.byte	W96
-/* 088   ----------------------------------------
- */	.byte	PATT
+@ 087   ----------------------------------------
+	.byte	W96
+@ 088   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_13_062
-/* 089   ----------------------------------------
- */	.byte	W96
-/* 090   ----------------------------------------
- */	.byte	W68
+@ 089   ----------------------------------------
+	.byte	W96
+@ 090   ----------------------------------------
+	.byte	W68
 	.byte	W03
 	.byte		N15   , Bn2 , v127
 	.byte	W24
 	.byte	W01
-/* 091   ----------------------------------------
- */	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_13_B1
 mus_ice_paradise__act_2_13_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 14 (Midi-Chn.14) **************** */
+@ **************** Track 14 (Midi-Chn.14) ****************
 
 mus_ice_paradise__act_2_14:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_14_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 112
+@ 000   ----------------------------------------
+	.byte		VOICE , 112
 	.byte		VOL   , 107*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */mus_ice_paradise__act_2_14_004:
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+mus_ice_paradise__act_2_14_004:
 	.byte	W84
 	.byte	W03
 	.byte		N24   , Dn3 , v127
 	.byte	W09
 	.byte	PEND
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */	.byte	PATT
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 007   ----------------------------------------
- */	.byte	W96
-/* 008   ----------------------------------------
- */	.byte	PATT
+@ 007   ----------------------------------------
+	.byte	W96
+@ 008   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */mus_ice_paradise__act_2_14_010:
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+mus_ice_paradise__act_2_14_010:
 	.byte	W84
 	.byte	W03
 	.byte		N24   , Gn3 , v127
 	.byte	W09
 	.byte	PEND
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */mus_ice_paradise__act_2_14_014:
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+mus_ice_paradise__act_2_14_014:
 	.byte	W84
 	.byte	W03
 	.byte		N24   , Cn3 , v127
 	.byte	W09
 	.byte	PEND
-/* 015   ----------------------------------------
- */	.byte	W96
-/* 016   ----------------------------------------
- */	.byte	W84
+@ 015   ----------------------------------------
+	.byte	W96
+@ 016   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		        An3 
 	.byte	W09
-/* 017   ----------------------------------------
- */	.byte	W96
-/* 018   ----------------------------------------
- */	.byte	PATT
+@ 017   ----------------------------------------
+	.byte	W96
+@ 018   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_010
-/* 019   ----------------------------------------
- */	.byte	W96
-/* 020   ----------------------------------------
- */	.byte	W84
+@ 019   ----------------------------------------
+	.byte	W96
+@ 020   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		N24   , Fn3 , v127
 	.byte	W09
-/* 021   ----------------------------------------
- */	.byte	W96
-/* 022   ----------------------------------------
- */	.byte	PATT
+@ 021   ----------------------------------------
+	.byte	W96
+@ 022   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_010
-/* 023   ----------------------------------------
- */	.byte	W96
-/* 024   ----------------------------------------
- */	.byte	PATT
+@ 023   ----------------------------------------
+	.byte	W96
+@ 024   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 025   ----------------------------------------
- */	.byte	W96
-/* 026   ----------------------------------------
- */	.byte	PATT
+@ 025   ----------------------------------------
+	.byte	W96
+@ 026   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 027   ----------------------------------------
- */	.byte	W96
-/* 028   ----------------------------------------
- */	.byte	PATT
+@ 027   ----------------------------------------
+	.byte	W96
+@ 028   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 029   ----------------------------------------
- */	.byte	W96
-/* 030   ----------------------------------------
- */	.byte	PATT
+@ 029   ----------------------------------------
+	.byte	W96
+@ 030   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_010
-/* 031   ----------------------------------------
- */	.byte	W96
-/* 032   ----------------------------------------
- */	.byte	PATT
+@ 031   ----------------------------------------
+	.byte	W96
+@ 032   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 033   ----------------------------------------
- */	.byte	W96
-/* 034   ----------------------------------------
- */	.byte	PATT
+@ 033   ----------------------------------------
+	.byte	W96
+@ 034   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_014
-/* 035   ----------------------------------------
- */	.byte	W96
-/* 036   ----------------------------------------
- */mus_ice_paradise__act_2_14_036:
+@ 035   ----------------------------------------
+	.byte	W96
+@ 036   ----------------------------------------
+mus_ice_paradise__act_2_14_036:
 	.byte	W84
 	.byte	W03
 	.byte		N24   , Fs3 , v127
 	.byte	W09
 	.byte	PEND
-/* 037   ----------------------------------------
- */	.byte	W96
-/* 038   ----------------------------------------
- */	.byte	PATT
+@ 037   ----------------------------------------
+	.byte	W96
+@ 038   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 039   ----------------------------------------
- */	.byte	W96
-/* 040   ----------------------------------------
- */	.byte	PATT
+@ 039   ----------------------------------------
+	.byte	W96
+@ 040   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_014
-/* 041   ----------------------------------------
- */	.byte	W96
-/* 042   ----------------------------------------
- */mus_ice_paradise__act_2_14_042:
+@ 041   ----------------------------------------
+	.byte	W96
+@ 042   ----------------------------------------
+mus_ice_paradise__act_2_14_042:
 	.byte	W84
 	.byte	W03
 	.byte		N24   , Ds3 , v127
 	.byte	W09
 	.byte	PEND
-/* 043   ----------------------------------------
- */	.byte	W96
-/* 044   ----------------------------------------
- */	.byte	W96
-/* 045   ----------------------------------------
- */	.byte	W96
-/* 046   ----------------------------------------
- */	.byte	W96
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	PATT
+@ 043   ----------------------------------------
+	.byte	W96
+@ 044   ----------------------------------------
+	.byte	W96
+@ 045   ----------------------------------------
+	.byte	W96
+@ 046   ----------------------------------------
+	.byte	W96
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 049   ----------------------------------------
- */	.byte	W96
-/* 050   ----------------------------------------
- */	.byte	PATT
+@ 049   ----------------------------------------
+	.byte	W96
+@ 050   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_004
-/* 051   ----------------------------------------
- */	.byte	W96
-/* 052   ----------------------------------------
- */	.byte	PATT
+@ 051   ----------------------------------------
+	.byte	W96
+@ 052   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_042
-/* 053   ----------------------------------------
- */	.byte	W96
-/* 054   ----------------------------------------
- */	.byte	PATT
+@ 053   ----------------------------------------
+	.byte	W96
+@ 054   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_042
-/* 055   ----------------------------------------
- */	.byte	W96
-/* 056   ----------------------------------------
- */	.byte	PATT
+@ 055   ----------------------------------------
+	.byte	W96
+@ 056   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_042
-/* 057   ----------------------------------------
- */	.byte	W96
-/* 058   ----------------------------------------
- */mus_ice_paradise__act_2_14_058:
+@ 057   ----------------------------------------
+	.byte	W96
+@ 058   ----------------------------------------
+mus_ice_paradise__act_2_14_058:
 	.byte	W84
 	.byte	W03
 	.byte		N24   , Gs3 , v127
 	.byte	W09
 	.byte	PEND
-/* 059   ----------------------------------------
- */	.byte	W96
-/* 060   ----------------------------------------
- */	.byte	PATT
+@ 059   ----------------------------------------
+	.byte	W96
+@ 060   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_042
-/* 061   ----------------------------------------
- */	.byte	W96
-/* 062   ----------------------------------------
- */mus_ice_paradise__act_2_14_062:
+@ 061   ----------------------------------------
+	.byte	W96
+@ 062   ----------------------------------------
+mus_ice_paradise__act_2_14_062:
 	.byte	W84
 	.byte	W03
 	.byte		N24   , Cs3 , v127
 	.byte	W09
 	.byte	PEND
-/* 063   ----------------------------------------
- */	.byte	W96
-/* 064   ----------------------------------------
- */	.byte	W84
+@ 063   ----------------------------------------
+	.byte	W96
+@ 064   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		        As3 
 	.byte	W09
-/* 065   ----------------------------------------
- */	.byte	W96
-/* 066   ----------------------------------------
- */	.byte	PATT
+@ 065   ----------------------------------------
+	.byte	W96
+@ 066   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_058
-/* 067   ----------------------------------------
- */	.byte	W96
-/* 068   ----------------------------------------
- */	.byte	PATT
+@ 067   ----------------------------------------
+	.byte	W96
+@ 068   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_036
-/* 069   ----------------------------------------
- */	.byte	W96
-/* 070   ----------------------------------------
- */	.byte	PATT
+@ 069   ----------------------------------------
+	.byte	W96
+@ 070   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_058
-/* 071   ----------------------------------------
- */	.byte	W96
-/* 072   ----------------------------------------
- */	.byte	PATT
+@ 071   ----------------------------------------
+	.byte	W96
+@ 072   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_042
-/* 073   ----------------------------------------
- */	.byte	W96
-/* 074   ----------------------------------------
- */	.byte	PATT
+@ 073   ----------------------------------------
+	.byte	W96
+@ 074   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_042
-/* 075   ----------------------------------------
- */	.byte	W96
-/* 076   ----------------------------------------
- */	.byte	PATT
+@ 075   ----------------------------------------
+	.byte	W96
+@ 076   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_042
-/* 077   ----------------------------------------
- */	.byte	W96
-/* 078   ----------------------------------------
- */	.byte	PATT
+@ 077   ----------------------------------------
+	.byte	W96
+@ 078   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_058
-/* 079   ----------------------------------------
- */	.byte	W96
-/* 080   ----------------------------------------
- */	.byte	PATT
+@ 079   ----------------------------------------
+	.byte	W96
+@ 080   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_042
-/* 081   ----------------------------------------
- */	.byte	W96
-/* 082   ----------------------------------------
- */	.byte	PATT
+@ 081   ----------------------------------------
+	.byte	W96
+@ 082   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_062
-/* 083   ----------------------------------------
- */	.byte	W96
-/* 084   ----------------------------------------
- */	.byte	PATT
+@ 083   ----------------------------------------
+	.byte	W96
+@ 084   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_010
-/* 085   ----------------------------------------
- */	.byte	W96
-/* 086   ----------------------------------------
- */	.byte	PATT
+@ 085   ----------------------------------------
+	.byte	W96
+@ 086   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_042
-/* 087   ----------------------------------------
- */	.byte	W96
-/* 088   ----------------------------------------
- */	.byte	PATT
+@ 087   ----------------------------------------
+	.byte	W96
+@ 088   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_14_062
-/* 089   ----------------------------------------
- */	.byte	W96
-/* 090   ----------------------------------------
- */	.byte	W84
+@ 089   ----------------------------------------
+	.byte	W96
+@ 090   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		N24   , En3 , v127
 	.byte	W09
-/* 091   ----------------------------------------
- */	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_14_B1
 mus_ice_paradise__act_2_14_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 15 (Midi-Chn.15) **************** */
+@ **************** Track 15 (Midi-Chn.15) ****************
 
 mus_ice_paradise__act_2_15:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_15_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 113
+@ 000   ----------------------------------------
+	.byte		VOICE , 113
 	.byte		VOL   , 107*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */	.byte	W96
-/* 005   ----------------------------------------
- */mus_ice_paradise__act_2_15_005:
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+	.byte	W96
+@ 005   ----------------------------------------
+mus_ice_paradise__act_2_15_005:
 	.byte	W15
 	.byte		N08   , Dn3 , v127
 	.byte	W80
 	.byte	W01
 	.byte	PEND
-/* 006   ----------------------------------------
- */	.byte	W96
-/* 007   ----------------------------------------
- */	.byte	PATT
+@ 006   ----------------------------------------
+	.byte	W96
+@ 007   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */mus_ice_paradise__act_2_15_011:
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+mus_ice_paradise__act_2_15_011:
 	.byte	W15
 	.byte		N08   , Gn3 , v127
 	.byte	W80
 	.byte	W01
 	.byte	PEND
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */mus_ice_paradise__act_2_15_015:
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+mus_ice_paradise__act_2_15_015:
 	.byte	W15
 	.byte		N08   , Cn3 , v127
 	.byte	W80
 	.byte	W01
 	.byte	PEND
-/* 016   ----------------------------------------
- */	.byte	W96
-/* 017   ----------------------------------------
- */	.byte	W15
+@ 016   ----------------------------------------
+	.byte	W96
+@ 017   ----------------------------------------
+	.byte	W15
 	.byte		        An3 
 	.byte	W80
 	.byte	W01
-/* 018   ----------------------------------------
- */	.byte	W96
-/* 019   ----------------------------------------
- */	.byte	PATT
+@ 018   ----------------------------------------
+	.byte	W96
+@ 019   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_011
-/* 020   ----------------------------------------
- */	.byte	W96
-/* 021   ----------------------------------------
- */	.byte	W15
+@ 020   ----------------------------------------
+	.byte	W96
+@ 021   ----------------------------------------
+	.byte	W15
 	.byte		N08   , Fn3 , v127
 	.byte	W80
 	.byte	W01
-/* 022   ----------------------------------------
- */	.byte	W96
-/* 023   ----------------------------------------
- */	.byte	PATT
+@ 022   ----------------------------------------
+	.byte	W96
+@ 023   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_011
-/* 024   ----------------------------------------
- */	.byte	W96
-/* 025   ----------------------------------------
- */	.byte	PATT
+@ 024   ----------------------------------------
+	.byte	W96
+@ 025   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 026   ----------------------------------------
- */	.byte	W96
-/* 027   ----------------------------------------
- */	.byte	PATT
+@ 026   ----------------------------------------
+	.byte	W96
+@ 027   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 028   ----------------------------------------
- */	.byte	W96
-/* 029   ----------------------------------------
- */	.byte	PATT
+@ 028   ----------------------------------------
+	.byte	W96
+@ 029   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 030   ----------------------------------------
- */	.byte	W96
-/* 031   ----------------------------------------
- */	.byte	PATT
+@ 030   ----------------------------------------
+	.byte	W96
+@ 031   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_011
-/* 032   ----------------------------------------
- */	.byte	W96
-/* 033   ----------------------------------------
- */	.byte	PATT
+@ 032   ----------------------------------------
+	.byte	W96
+@ 033   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 034   ----------------------------------------
- */	.byte	W96
-/* 035   ----------------------------------------
- */	.byte	PATT
+@ 034   ----------------------------------------
+	.byte	W96
+@ 035   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_015
-/* 036   ----------------------------------------
- */	.byte	W96
-/* 037   ----------------------------------------
- */mus_ice_paradise__act_2_15_037:
+@ 036   ----------------------------------------
+	.byte	W96
+@ 037   ----------------------------------------
+mus_ice_paradise__act_2_15_037:
 	.byte	W15
 	.byte		N08   , Fs3 , v127
 	.byte	W80
 	.byte	W01
 	.byte	PEND
-/* 038   ----------------------------------------
- */	.byte	W96
-/* 039   ----------------------------------------
- */	.byte	PATT
+@ 038   ----------------------------------------
+	.byte	W96
+@ 039   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 040   ----------------------------------------
- */	.byte	W96
-/* 041   ----------------------------------------
- */	.byte	PATT
+@ 040   ----------------------------------------
+	.byte	W96
+@ 041   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_015
-/* 042   ----------------------------------------
- */	.byte	W96
-/* 043   ----------------------------------------
- */mus_ice_paradise__act_2_15_043:
+@ 042   ----------------------------------------
+	.byte	W96
+@ 043   ----------------------------------------
+mus_ice_paradise__act_2_15_043:
 	.byte	W15
 	.byte		N08   , Ds3 , v127
 	.byte	W80
 	.byte	W01
 	.byte	PEND
-/* 044   ----------------------------------------
- */	.byte	W96
-/* 045   ----------------------------------------
- */	.byte	W96
-/* 046   ----------------------------------------
- */	.byte	W96
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	PATT
+@ 044   ----------------------------------------
+	.byte	W96
+@ 045   ----------------------------------------
+	.byte	W96
+@ 046   ----------------------------------------
+	.byte	W96
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	W96
+@ 049   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 050   ----------------------------------------
- */	.byte	W96
-/* 051   ----------------------------------------
- */	.byte	PATT
+@ 050   ----------------------------------------
+	.byte	W96
+@ 051   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_005
-/* 052   ----------------------------------------
- */	.byte	W96
-/* 053   ----------------------------------------
- */	.byte	PATT
+@ 052   ----------------------------------------
+	.byte	W96
+@ 053   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_043
-/* 054   ----------------------------------------
- */	.byte	W96
-/* 055   ----------------------------------------
- */	.byte	PATT
+@ 054   ----------------------------------------
+	.byte	W96
+@ 055   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_043
-/* 056   ----------------------------------------
- */	.byte	W96
-/* 057   ----------------------------------------
- */	.byte	PATT
+@ 056   ----------------------------------------
+	.byte	W96
+@ 057   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_043
-/* 058   ----------------------------------------
- */	.byte	W96
-/* 059   ----------------------------------------
- */mus_ice_paradise__act_2_15_059:
+@ 058   ----------------------------------------
+	.byte	W96
+@ 059   ----------------------------------------
+mus_ice_paradise__act_2_15_059:
 	.byte	W15
 	.byte		N08   , Gs3 , v127
 	.byte	W80
 	.byte	W01
 	.byte	PEND
-/* 060   ----------------------------------------
- */	.byte	W96
-/* 061   ----------------------------------------
- */	.byte	PATT
+@ 060   ----------------------------------------
+	.byte	W96
+@ 061   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_043
-/* 062   ----------------------------------------
- */	.byte	W96
-/* 063   ----------------------------------------
- */mus_ice_paradise__act_2_15_063:
+@ 062   ----------------------------------------
+	.byte	W96
+@ 063   ----------------------------------------
+mus_ice_paradise__act_2_15_063:
 	.byte	W15
 	.byte		N08   , Cs3 , v127
 	.byte	W80
 	.byte	W01
 	.byte	PEND
-/* 064   ----------------------------------------
- */	.byte	W96
-/* 065   ----------------------------------------
- */	.byte	W15
+@ 064   ----------------------------------------
+	.byte	W96
+@ 065   ----------------------------------------
+	.byte	W15
 	.byte		        As3 
 	.byte	W80
 	.byte	W01
-/* 066   ----------------------------------------
- */	.byte	W96
-/* 067   ----------------------------------------
- */	.byte	PATT
+@ 066   ----------------------------------------
+	.byte	W96
+@ 067   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_059
-/* 068   ----------------------------------------
- */	.byte	W96
-/* 069   ----------------------------------------
- */	.byte	PATT
+@ 068   ----------------------------------------
+	.byte	W96
+@ 069   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_037
-/* 070   ----------------------------------------
- */	.byte	W96
-/* 071   ----------------------------------------
- */	.byte	PATT
+@ 070   ----------------------------------------
+	.byte	W96
+@ 071   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_059
-/* 072   ----------------------------------------
- */	.byte	W96
-/* 073   ----------------------------------------
- */	.byte	PATT
+@ 072   ----------------------------------------
+	.byte	W96
+@ 073   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_043
-/* 074   ----------------------------------------
- */	.byte	W96
-/* 075   ----------------------------------------
- */	.byte	PATT
+@ 074   ----------------------------------------
+	.byte	W96
+@ 075   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_043
-/* 076   ----------------------------------------
- */	.byte	W96
-/* 077   ----------------------------------------
- */	.byte	PATT
+@ 076   ----------------------------------------
+	.byte	W96
+@ 077   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_043
-/* 078   ----------------------------------------
- */	.byte	W96
-/* 079   ----------------------------------------
- */	.byte	PATT
+@ 078   ----------------------------------------
+	.byte	W96
+@ 079   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_059
-/* 080   ----------------------------------------
- */	.byte	W96
-/* 081   ----------------------------------------
- */	.byte	PATT
+@ 080   ----------------------------------------
+	.byte	W96
+@ 081   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_043
-/* 082   ----------------------------------------
- */	.byte	W96
-/* 083   ----------------------------------------
- */	.byte	PATT
+@ 082   ----------------------------------------
+	.byte	W96
+@ 083   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_063
-/* 084   ----------------------------------------
- */	.byte	W96
-/* 085   ----------------------------------------
- */	.byte	PATT
+@ 084   ----------------------------------------
+	.byte	W96
+@ 085   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_011
-/* 086   ----------------------------------------
- */	.byte	W96
-/* 087   ----------------------------------------
- */	.byte	PATT
+@ 086   ----------------------------------------
+	.byte	W96
+@ 087   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_043
-/* 088   ----------------------------------------
- */	.byte	W96
-/* 089   ----------------------------------------
- */	.byte	PATT
+@ 088   ----------------------------------------
+	.byte	W96
+@ 089   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_ice_paradise__act_2_15_063
-/* 090   ----------------------------------------
- */	.byte	W96
-/* 091   ----------------------------------------
- */	.byte	W15
+@ 090   ----------------------------------------
+	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W15
 	.byte		N08   , En3 , v127
 	.byte	W80
 	.byte	W01
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_15_B1
 mus_ice_paradise__act_2_15_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 16 (Midi-Chn.16) **************** */
+@ **************** Track 16 (Midi-Chn.16) ****************
 
 mus_ice_paradise__act_2_16:
 	.byte	KEYSH , mus_ice_paradise__act_2_key+0
 mus_ice_paradise__act_2_16_B1:
-/* 000   ----------------------------------------
- */	.byte		VOICE , 114
+@ 000   ----------------------------------------
+	.byte		VOICE , 114
 	.byte		VOL   , 107*mus_ice_paradise__act_2_mvl/mxv
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W24
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+	.byte	W96
+@ 005   ----------------------------------------
+	.byte	W24
 	.byte		N23   , Dn3 , v127
 	.byte	W72
-/* 006   ----------------------------------------
- */	.byte	W96
-/* 007   ----------------------------------------
- */	.byte	W24
+@ 006   ----------------------------------------
+	.byte	W96
+@ 007   ----------------------------------------
+	.byte	W24
 	.byte		N23   
 	.byte	W72
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W24
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W24
 	.byte		N23   
 	.byte	W72
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W24
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W24
 	.byte		        Gn3 
 	.byte	W72
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	W24
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W24
 	.byte		        Dn3 
 	.byte	W72
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */	.byte	W24
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+	.byte	W24
 	.byte		        Cn3 
 	.byte	W72
-/* 016   ----------------------------------------
- */	.byte	W96
-/* 017   ----------------------------------------
- */	.byte	W24
+@ 016   ----------------------------------------
+	.byte	W96
+@ 017   ----------------------------------------
+	.byte	W24
 	.byte		        An3 
 	.byte	W72
-/* 018   ----------------------------------------
- */	.byte	W96
-/* 019   ----------------------------------------
- */	.byte	W24
+@ 018   ----------------------------------------
+	.byte	W96
+@ 019   ----------------------------------------
+	.byte	W24
 	.byte		        Gn3 
 	.byte	W72
-/* 020   ----------------------------------------
- */	.byte	W96
-/* 021   ----------------------------------------
- */	.byte	W24
+@ 020   ----------------------------------------
+	.byte	W96
+@ 021   ----------------------------------------
+	.byte	W24
 	.byte		        Fn3 
 	.byte	W72
-/* 022   ----------------------------------------
- */	.byte	W96
-/* 023   ----------------------------------------
- */	.byte	W24
+@ 022   ----------------------------------------
+	.byte	W96
+@ 023   ----------------------------------------
+	.byte	W24
 	.byte		        Gn3 
 	.byte	W72
-/* 024   ----------------------------------------
- */	.byte	W96
-/* 025   ----------------------------------------
- */	.byte	W24
+@ 024   ----------------------------------------
+	.byte	W96
+@ 025   ----------------------------------------
+	.byte	W24
 	.byte		        Dn3 
 	.byte	W72
-/* 026   ----------------------------------------
- */	.byte	W96
-/* 027   ----------------------------------------
- */	.byte	W24
+@ 026   ----------------------------------------
+	.byte	W96
+@ 027   ----------------------------------------
+	.byte	W24
 	.byte		N23   
 	.byte	W72
-/* 028   ----------------------------------------
- */	.byte	W96
-/* 029   ----------------------------------------
- */	.byte	W24
+@ 028   ----------------------------------------
+	.byte	W96
+@ 029   ----------------------------------------
+	.byte	W24
 	.byte		N23   
 	.byte	W72
-/* 030   ----------------------------------------
- */	.byte	W96
-/* 031   ----------------------------------------
- */	.byte	W24
+@ 030   ----------------------------------------
+	.byte	W96
+@ 031   ----------------------------------------
+	.byte	W24
 	.byte		        Gn3 
 	.byte	W72
-/* 032   ----------------------------------------
- */	.byte	W96
-/* 033   ----------------------------------------
- */	.byte	W24
+@ 032   ----------------------------------------
+	.byte	W96
+@ 033   ----------------------------------------
+	.byte	W24
 	.byte		        Dn3 
 	.byte	W72
-/* 034   ----------------------------------------
- */	.byte	W96
-/* 035   ----------------------------------------
- */	.byte	W24
+@ 034   ----------------------------------------
+	.byte	W96
+@ 035   ----------------------------------------
+	.byte	W24
 	.byte		        Cn3 
 	.byte	W72
-/* 036   ----------------------------------------
- */	.byte	W96
-/* 037   ----------------------------------------
- */	.byte	W24
+@ 036   ----------------------------------------
+	.byte	W96
+@ 037   ----------------------------------------
+	.byte	W24
 	.byte		        Fs3 
 	.byte	W72
-/* 038   ----------------------------------------
- */	.byte	W96
-/* 039   ----------------------------------------
- */	.byte	W24
+@ 038   ----------------------------------------
+	.byte	W96
+@ 039   ----------------------------------------
+	.byte	W24
 	.byte		        Dn3 
 	.byte	W72
-/* 040   ----------------------------------------
- */	.byte	W96
-/* 041   ----------------------------------------
- */	.byte	W24
+@ 040   ----------------------------------------
+	.byte	W96
+@ 041   ----------------------------------------
+	.byte	W24
 	.byte		        Cn3 
 	.byte	W72
-/* 042   ----------------------------------------
- */	.byte	W96
-/* 043   ----------------------------------------
- */	.byte	W24
+@ 042   ----------------------------------------
+	.byte	W96
+@ 043   ----------------------------------------
+	.byte	W24
 	.byte		        Ds3 
 	.byte	W72
-/* 044   ----------------------------------------
- */	.byte	W96
-/* 045   ----------------------------------------
- */	.byte	W96
-/* 046   ----------------------------------------
- */	.byte	W96
-/* 047   ----------------------------------------
- */	.byte	W96
-/* 048   ----------------------------------------
- */	.byte	W96
-/* 049   ----------------------------------------
- */	.byte	W24
+@ 044   ----------------------------------------
+	.byte	W96
+@ 045   ----------------------------------------
+	.byte	W96
+@ 046   ----------------------------------------
+	.byte	W96
+@ 047   ----------------------------------------
+	.byte	W96
+@ 048   ----------------------------------------
+	.byte	W96
+@ 049   ----------------------------------------
+	.byte	W24
 	.byte		        Dn3 
 	.byte	W72
-/* 050   ----------------------------------------
- */	.byte	W96
-/* 051   ----------------------------------------
- */	.byte	W24
+@ 050   ----------------------------------------
+	.byte	W96
+@ 051   ----------------------------------------
+	.byte	W24
 	.byte		N23   
 	.byte	W72
-/* 052   ----------------------------------------
- */	.byte	W96
-/* 053   ----------------------------------------
- */	.byte	W24
+@ 052   ----------------------------------------
+	.byte	W96
+@ 053   ----------------------------------------
+	.byte	W24
 	.byte		        Ds3 
 	.byte	W72
-/* 054   ----------------------------------------
- */	.byte	W96
-/* 055   ----------------------------------------
- */	.byte	W24
+@ 054   ----------------------------------------
+	.byte	W96
+@ 055   ----------------------------------------
+	.byte	W24
 	.byte		N23   
 	.byte	W72
-/* 056   ----------------------------------------
- */	.byte	W96
-/* 057   ----------------------------------------
- */	.byte	W24
+@ 056   ----------------------------------------
+	.byte	W96
+@ 057   ----------------------------------------
+	.byte	W24
 	.byte		N23   
 	.byte	W72
-/* 058   ----------------------------------------
- */	.byte	W96
-/* 059   ----------------------------------------
- */	.byte	W24
+@ 058   ----------------------------------------
+	.byte	W96
+@ 059   ----------------------------------------
+	.byte	W24
 	.byte		        Gs3 
 	.byte	W72
-/* 060   ----------------------------------------
- */	.byte	W96
-/* 061   ----------------------------------------
- */	.byte	W24
+@ 060   ----------------------------------------
+	.byte	W96
+@ 061   ----------------------------------------
+	.byte	W24
 	.byte		        Ds3 
 	.byte	W72
-/* 062   ----------------------------------------
- */	.byte	W96
-/* 063   ----------------------------------------
- */	.byte	W24
+@ 062   ----------------------------------------
+	.byte	W96
+@ 063   ----------------------------------------
+	.byte	W24
 	.byte		        Cs3 
 	.byte	W72
-/* 064   ----------------------------------------
- */	.byte	W96
-/* 065   ----------------------------------------
- */	.byte	W24
+@ 064   ----------------------------------------
+	.byte	W96
+@ 065   ----------------------------------------
+	.byte	W24
 	.byte		        As3 
 	.byte	W72
-/* 066   ----------------------------------------
- */	.byte	W96
-/* 067   ----------------------------------------
- */	.byte	W24
+@ 066   ----------------------------------------
+	.byte	W96
+@ 067   ----------------------------------------
+	.byte	W24
 	.byte		        Gs3 
 	.byte	W72
-/* 068   ----------------------------------------
- */	.byte	W96
-/* 069   ----------------------------------------
- */	.byte	W24
+@ 068   ----------------------------------------
+	.byte	W96
+@ 069   ----------------------------------------
+	.byte	W24
 	.byte		        Fs3 
 	.byte	W72
-/* 070   ----------------------------------------
- */	.byte	W96
-/* 071   ----------------------------------------
- */	.byte	W24
+@ 070   ----------------------------------------
+	.byte	W96
+@ 071   ----------------------------------------
+	.byte	W24
 	.byte		        Gs3 
 	.byte	W72
-/* 072   ----------------------------------------
- */	.byte	W96
-/* 073   ----------------------------------------
- */	.byte	W24
+@ 072   ----------------------------------------
+	.byte	W96
+@ 073   ----------------------------------------
+	.byte	W24
 	.byte		        Ds3 
 	.byte	W72
-/* 074   ----------------------------------------
- */	.byte	W96
-/* 075   ----------------------------------------
- */	.byte	W24
+@ 074   ----------------------------------------
+	.byte	W96
+@ 075   ----------------------------------------
+	.byte	W24
 	.byte		N23   
 	.byte	W72
-/* 076   ----------------------------------------
- */	.byte	W96
-/* 077   ----------------------------------------
- */	.byte	W24
+@ 076   ----------------------------------------
+	.byte	W96
+@ 077   ----------------------------------------
+	.byte	W24
 	.byte		N23   
 	.byte	W72
-/* 078   ----------------------------------------
- */	.byte	W96
-/* 079   ----------------------------------------
- */	.byte	W24
+@ 078   ----------------------------------------
+	.byte	W96
+@ 079   ----------------------------------------
+	.byte	W24
 	.byte		        Gs3 
 	.byte	W72
-/* 080   ----------------------------------------
- */	.byte	W96
-/* 081   ----------------------------------------
- */	.byte	W24
+@ 080   ----------------------------------------
+	.byte	W96
+@ 081   ----------------------------------------
+	.byte	W24
 	.byte		        Ds3 
 	.byte	W72
-/* 082   ----------------------------------------
- */	.byte	W96
-/* 083   ----------------------------------------
- */	.byte	W24
+@ 082   ----------------------------------------
+	.byte	W96
+@ 083   ----------------------------------------
+	.byte	W24
 	.byte		        Cs3 
 	.byte	W72
-/* 084   ----------------------------------------
- */	.byte	W96
-/* 085   ----------------------------------------
- */	.byte	W24
+@ 084   ----------------------------------------
+	.byte	W96
+@ 085   ----------------------------------------
+	.byte	W24
 	.byte		        Gn3 
 	.byte	W72
-/* 086   ----------------------------------------
- */	.byte	W96
-/* 087   ----------------------------------------
- */	.byte	W24
+@ 086   ----------------------------------------
+	.byte	W96
+@ 087   ----------------------------------------
+	.byte	W24
 	.byte		        Ds3 
 	.byte	W72
-/* 088   ----------------------------------------
- */	.byte	W96
-/* 089   ----------------------------------------
- */	.byte	W24
+@ 088   ----------------------------------------
+	.byte	W96
+@ 089   ----------------------------------------
+	.byte	W24
 	.byte		        Cs3 
 	.byte	W72
-/* 090   ----------------------------------------
- */	.byte	W96
-/* 091   ----------------------------------------
- */	.byte	W24
+@ 090   ----------------------------------------
+	.byte	W96
+@ 091   ----------------------------------------
+	.byte	W24
 	.byte		        En3 
 	.byte	W72
 	.byte	GOTO
 	 mPtr	mus_ice_paradise__act_2_16_B1
 mus_ice_paradise__act_2_16_B2:
-/* 092   ----------------------------------------
- */	.byte	FINE
+@ 092   ----------------------------------------
+	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_ice_paradise__act_2):
-	.byte	16	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_ice_paradise__act_2_pri	/* Priority */
-	.byte	mus_ice_paradise__act_2_rev	/* Reverb */
+	.byte	16	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_ice_paradise__act_2_pri	@ Priority
+	.byte	mus_ice_paradise__act_2_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_ice_paradise__act_2_grp

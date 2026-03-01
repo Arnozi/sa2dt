@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_vs_exit)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_vs_exit_1:
 	.byte	KEYSH , mus_vs_exit_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 140*mus_vs_exit_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 140*mus_vs_exit_tbs/2
 	.byte		VOICE , 113
 	.byte		VOL   , 47*mus_vs_exit_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -32,17 +32,17 @@ mus_vs_exit_1:
 	.byte	W24
 	.byte		        Cs5 
 	.byte	W24
-/* 001   ----------------------------------------
- */	.byte		N12   , Cn5 
+@ 001   ----------------------------------------
+	.byte		N12   , Cn5 
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_vs_exit_2:
 	.byte	KEYSH , mus_vs_exit_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 114
+@ 000   ----------------------------------------
+	.byte		VOICE , 114
 	.byte		VOL   , 58*mus_vs_exit_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N06   , Ds5 , v112
@@ -53,17 +53,17 @@ mus_vs_exit_2:
 	.byte	W24
 	.byte		        As4 
 	.byte	W24
-/* 001   ----------------------------------------
- */	.byte		N12   , Gs4 
+@ 001   ----------------------------------------
+	.byte		N12   , Gs4 
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_vs_exit_3:
 	.byte	KEYSH , mus_vs_exit_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 68
+@ 000   ----------------------------------------
+	.byte		VOICE , 68
 	.byte		VOL   , 127*mus_vs_exit_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N06   , Cn4 , v112
@@ -74,17 +74,17 @@ mus_vs_exit_3:
 	.byte	W24
 	.byte		        Fs3 
 	.byte	W24
-/* 001   ----------------------------------------
- */	.byte		        Ds3 
+@ 001   ----------------------------------------
+	.byte		        Ds3 
 	.byte	W06
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_vs_exit_4:
 	.byte	KEYSH , mus_vs_exit_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 69
+@ 000   ----------------------------------------
+	.byte		VOICE , 69
 	.byte		VOL   , 127*mus_vs_exit_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N06   , Gs4 , v112
@@ -95,17 +95,17 @@ mus_vs_exit_4:
 	.byte	W24
 	.byte		        Cs4 
 	.byte	W24
-/* 001   ----------------------------------------
- */	.byte		N54   , Cn4 
+@ 001   ----------------------------------------
+	.byte		N54   , Cn4 
 	.byte	W54
 	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_vs_exit_5:
 	.byte	KEYSH , mus_vs_exit_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 68
+@ 000   ----------------------------------------
+	.byte		VOICE , 68
 	.byte		VOL   , 63*mus_vs_exit_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N23   , Ds4 , v112
@@ -116,20 +116,20 @@ mus_vs_exit_5:
 	.byte	W24
 	.byte		        As3 
 	.byte	W24
-/* 001   ----------------------------------------
- */	.byte		VOICE , 68
+@ 001   ----------------------------------------
+	.byte		VOICE , 68
 	.byte		N78   , Gs3 
 	.byte	W78
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_vs_exit):
-	.byte	5	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_vs_exit_pri	/* Priority */
-	.byte	mus_vs_exit_rev	/* Reverb */
+	.byte	5	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_vs_exit_pri	@ Priority
+	.byte	mus_vs_exit_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_vs_exit_grp

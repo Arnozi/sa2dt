@@ -15,12 +15,12 @@
 	.global	C_DECL(se_spin_attack__collect_rings)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_spin_attack__collect_rings_1:
 	.byte	KEYSH , se_spin_attack__collect_rings_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_spin_attack__collect_rings_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_spin_attack__collect_rings_tbs/2
 	.byte		VOICE , 70
 	.byte		VOL   , 127*se_spin_attack__collect_rings_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -98,8 +98,8 @@ se_spin_attack__collect_rings_1:
 	.byte	W03
 	.byte		        c_v-5
 	.byte	W03
-/* 001   ----------------------------------------
- */	.byte		        c_v-3
+@ 001   ----------------------------------------
+	.byte		        c_v-3
 	.byte	W03
 	.byte		        c_v-1
 	.byte	W03
@@ -114,14 +114,14 @@ se_spin_attack__collect_rings_1:
 	.byte		        c_v+27
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_spin_attack__collect_rings):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_spin_attack__collect_rings_pri	/* Priority */
-	.byte	se_spin_attack__collect_rings_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_spin_attack__collect_rings_pri	@ Priority
+	.byte	se_spin_attack__collect_rings_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_spin_attack__collect_rings_grp

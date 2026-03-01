@@ -15,13 +15,13 @@
 	.global	C_DECL(se_cream_flying)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_cream_flying_1:
 	.byte	KEYSH , se_cream_flying_key+0
 se_cream_flying_1_B1:
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 122*se_cream_flying_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 122*se_cream_flying_tbs/2
 	.byte		VOICE , 27
 	.byte		VOL   , 127*se_cream_flying_mvl/mxv
 	.byte		BENDR , 10
@@ -116,14 +116,14 @@ se_cream_flying_1_B2:
 	.byte		        c_v-32
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_cream_flying):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_cream_flying_pri	/* Priority */
-	.byte	se_cream_flying_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_cream_flying_pri	@ Priority
+	.byte	se_cream_flying_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_cream_flying_grp

@@ -15,12 +15,12 @@
 	.global	C_DECL(se_brake__collect_rings)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_brake__collect_rings_1:
 	.byte	KEYSH , se_brake__collect_rings_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_brake__collect_rings_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_brake__collect_rings_tbs/2
 	.byte		VOICE , 12
 	.byte		VOL   , 127*se_brake__collect_rings_mvl/mxv
 	.byte		BENDR , 15
@@ -75,14 +75,14 @@ se_brake__collect_rings_1:
 	.byte	W01
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_brake__collect_rings):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_brake__collect_rings_pri	/* Priority */
-	.byte	se_brake__collect_rings_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_brake__collect_rings_pri	@ Priority
+	.byte	se_brake__collect_rings_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_brake__collect_rings_grp

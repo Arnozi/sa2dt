@@ -15,12 +15,12 @@
 	.global	C_DECL(se_techno_base_note_block)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_techno_base_note_block_1:
 	.byte	KEYSH , se_techno_base_note_block_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_techno_base_note_block_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_techno_base_note_block_tbs/2
 	.byte		VOICE , 94
 	.byte		VOL   , 127*se_techno_base_note_block_mvl/mxv
 	.byte		LFOS  , 60
@@ -130,14 +130,14 @@ se_techno_base_note_block_1:
 	.byte		        2*se_techno_base_note_block_mvl/mxv
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_techno_base_note_block):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_techno_base_note_block_pri	/* Priority */
-	.byte	se_techno_base_note_block_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_techno_base_note_block_pri	@ Priority
+	.byte	se_techno_base_note_block_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_techno_base_note_block_grp

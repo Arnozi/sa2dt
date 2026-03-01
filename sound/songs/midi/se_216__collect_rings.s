@@ -15,12 +15,12 @@
 	.global	C_DECL(se_216__collect_rings)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_216__collect_rings_1:
 	.byte	KEYSH , se_216__collect_rings_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 74*se_216__collect_rings_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 74*se_216__collect_rings_tbs/2
 	.byte		VOICE , 16
 	.byte		VOL   , 127*se_216__collect_rings_mvl/mxv
 	.byte		LFOS  , 48
@@ -150,14 +150,14 @@ se_216__collect_rings_1:
 	.byte		        6*se_216__collect_rings_mvl/mxv
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_216__collect_rings):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_216__collect_rings_pri	/* Priority */
-	.byte	se_216__collect_rings_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_216__collect_rings_pri	@ Priority
+	.byte	se_216__collect_rings_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_216__collect_rings_grp

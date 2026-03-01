@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_time_attack_3)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_time_attack_3_1:
 	.byte	KEYSH , mus_time_attack_3_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*mus_time_attack_3_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*mus_time_attack_3_tbs/2
 	.byte		VOICE , 67
 	.byte		VOL   , 122*mus_time_attack_3_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -79,16 +79,16 @@ mus_time_attack_3_1:
 	.byte	W12
 	.byte		N24   , An2 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W96
+@ 001   ----------------------------------------
+	.byte	W96
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_time_attack_3_2:
 	.byte	KEYSH , mus_time_attack_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 127
+@ 000   ----------------------------------------
+	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_time_attack_3_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W24
@@ -174,18 +174,18 @@ mus_time_attack_3_2:
 	.byte	W06
 	.byte		N12   , Ds2 , v120
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W12
+@ 001   ----------------------------------------
+	.byte	W12
 	.byte		N18   
 	.byte	W84
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_time_attack_3_3:
 	.byte	KEYSH , mus_time_attack_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 127
+@ 000   ----------------------------------------
+	.byte		VOICE , 127
 	.byte		VOL   , 122*mus_time_attack_3_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W24
@@ -227,18 +227,18 @@ mus_time_attack_3_3:
 	.byte	W54
 	.byte		        Gn2 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W12
+@ 001   ----------------------------------------
+	.byte	W12
 	.byte		N24   , Cs2 
 	.byte	W84
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_time_attack_3_4:
 	.byte	KEYSH , mus_time_attack_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 115
+@ 000   ----------------------------------------
+	.byte		VOICE , 115
 	.byte		VOL   , 77*mus_time_attack_3_mvl/mxv
 	.byte	W24
 	.byte		N18   , As2 , v112
@@ -273,18 +273,18 @@ mus_time_attack_3_4:
 	.byte	W06
 	.byte		N15   , Fn3 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W12
+@ 001   ----------------------------------------
+	.byte	W12
 	.byte		N24   
 	.byte	W84
 	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_time_attack_3_5:
 	.byte	KEYSH , mus_time_attack_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 1
+@ 000   ----------------------------------------
+	.byte		VOICE , 1
 	.byte		VOL   , 99*mus_time_attack_3_mvl/mxv
 	.byte		PAN   , c_v-30
 	.byte		MOD   , 2
@@ -397,18 +397,18 @@ mus_time_attack_3_5:
 	.byte	W03
 	.byte		N09   , An4 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W12
+@ 001   ----------------------------------------
+	.byte	W12
 	.byte		N30   , An4 , v100
 	.byte	W84
 	.byte	FINE
 
-/* **************** Track 6 (Midi-Chn.6) **************** */
+@ **************** Track 6 (Midi-Chn.6) ****************
 
 mus_time_attack_3_6:
 	.byte	KEYSH , mus_time_attack_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 12
+@ 000   ----------------------------------------
+	.byte		VOICE , 12
 	.byte		VOL   , 99*mus_time_attack_3_mvl/mxv
 	.byte		PAN   , c_v+30
 	.byte		MOD   , 0
@@ -521,18 +521,18 @@ mus_time_attack_3_6:
 	.byte	W03
 	.byte		N09   , An3 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W12
+@ 001   ----------------------------------------
+	.byte	W12
 	.byte		N30   , An3 , v100
 	.byte	W84
 	.byte	FINE
 
-/* **************** Track 7 (Midi-Chn.7) **************** */
+@ **************** Track 7 (Midi-Chn.7) ****************
 
 mus_time_attack_3_7:
 	.byte	KEYSH , mus_time_attack_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 74
+@ 000   ----------------------------------------
+	.byte		VOICE , 74
 	.byte		VOL   , 89*mus_time_attack_3_mvl/mxv
 	.byte		BENDR , 4
 	.byte		PAN   , c_v+30
@@ -569,18 +569,18 @@ mus_time_attack_3_7:
 	.byte	W06
 	.byte		N15   , An3 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W12
+@ 001   ----------------------------------------
+	.byte	W12
 	.byte		N30   
 	.byte	W84
 	.byte	FINE
 
-/* **************** Track 8 (Midi-Chn.8) **************** */
+@ **************** Track 8 (Midi-Chn.8) ****************
 
 mus_time_attack_3_8:
 	.byte	KEYSH , mus_time_attack_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 74
+@ 000   ----------------------------------------
+	.byte		VOICE , 74
 	.byte		VOL   , 89*mus_time_attack_3_mvl/mxv
 	.byte		BENDR , 4
 	.byte		PAN   , c_v-30
@@ -617,18 +617,18 @@ mus_time_attack_3_8:
 	.byte	W06
 	.byte		N15   , An2 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W12
+@ 001   ----------------------------------------
+	.byte	W12
 	.byte		N30   
 	.byte	W84
 	.byte	FINE
 
-/* **************** Track 9 (Midi-Chn.9) **************** */
+@ **************** Track 9 (Midi-Chn.9) ****************
 
 mus_time_attack_3_9:
 	.byte	KEYSH , mus_time_attack_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 80
+@ 000   ----------------------------------------
+	.byte		VOICE , 80
 	.byte		VOL   , 122*mus_time_attack_3_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W08
@@ -691,8 +691,8 @@ mus_time_attack_3_9:
 	.byte	W05
 	.byte		N12   , En3 , v112
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	W12
+@ 001   ----------------------------------------
+	.byte	W12
 	.byte		N12   
 	.byte	W11
 	.byte		N05   , Dn3 , v052
@@ -728,14 +728,14 @@ mus_time_attack_3_9:
 	.byte	W01
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_time_attack_3):
-	.byte	9	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_time_attack_3_pri	/* Priority */
-	.byte	mus_time_attack_3_rev	/* Reverb */
+	.byte	9	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_time_attack_3_pri	@ Priority
+	.byte	mus_time_attack_3_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_time_attack_3_grp

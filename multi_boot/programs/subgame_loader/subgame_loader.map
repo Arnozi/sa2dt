@@ -1,0 +1,234 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+                              build/subgame_loader/src/main.o (_call_via_r0)
+../../../tools/agbcc/lib/libgcc.a(_udivsi3.o)
+                              build/subgame_loader/src/main.o (__udivsi3)
+../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+                              ../../../tools/agbcc/lib/libgcc.a(_udivsi3.o) (__div0)
+../../../tools/agbcc/lib/libc.a(memcpy.o)
+                              build/subgame_loader/src/main.o (memcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+gSio32MultiLoadArea
+                    0x18              build/subgame_loader/src/sio32_multi_load.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 build/subgame_loader/asm/crt0.o
+ .bss           0x00000000        0x0 build/subgame_loader/asm/crt0.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_loader/asm/crt0.o
+ .data          0x00000000        0x0 build/subgame_loader/asm/multi_sio_asm.o
+ .bss           0x00000000        0x0 build/subgame_loader/asm/multi_sio_asm.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_loader/asm/multi_sio_asm.o
+ .bss           0x00000000        0x0 build/subgame_loader/src/main.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_loader/src/main.o
+ .bss           0x00000000        0x0 build/subgame_loader/src/multi_sio.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_loader/src/multi_sio.o
+ .data          0x00000000        0x0 build/subgame_loader/src/sio32_multi_load.o
+ .bss           0x00000000        0x0 build/subgame_loader/src/sio32_multi_load.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_loader/src/sio32_multi_load.o
+ .data          0x00000000        0x0 build/subgame_loader/asm/libagbsyscall.o
+ .bss           0x00000000        0x0 build/subgame_loader/asm/libagbsyscall.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_loader/asm/libagbsyscall.o
+ .text          0x00000000        0x0 build/subgame_loader/src/loader_tables.o
+ .data          0x00000000        0x0 build/subgame_loader/src/loader_tables.o
+ .bss           0x00000000        0x0 build/subgame_loader/src/loader_tables.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_loader/src/loader_tables.o
+ .text          0x00000000        0x0 build/subgame_loader/data/data.o
+ .data          0x00000000        0x0 build/subgame_loader/data/data.o
+ .bss           0x00000000        0x0 build/subgame_loader/data/data.o
+ .ARM.attributes
+                0x00000000       0x20 build/subgame_loader/data/data.o
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libc.a(memcpy.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libc.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libc.a(memcpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x02000000                        . = 0x2000000
+
+EWRAM
+                0x0203b000                        . = 0x203b000
+
+.text           0x0203b000     0x1208
+ build/subgame_loader/asm/crt0.o(.text)
+ .text          0x0203b000      0x10c build/subgame_loader/asm/crt0.o
+                0x0203b03c                IntrMain
+ build/subgame_loader/asm/multi_sio_asm.o(.text)
+ .text          0x0203b10c      0x160 build/subgame_loader/asm/multi_sio_asm.o
+                0x0203b10c                MultiSioRecvBufChange
+                0x0203b14c                MultiSioIntr
+ build/subgame_loader/src/main.o(.text)
+ .text          0x0203b26c      0x658 build/subgame_loader/src/main.o
+                0x0203b26c                AgbMain
+                0x0203b530                LoaderInit
+ build/subgame_loader/src/multi_sio.o(.text)
+ .text          0x0203b8c4      0x4b4 build/subgame_loader/src/multi_sio.o
+                0x0203b8c4                MultiSioInit
+                0x0203b9b8                MultiSioMain
+                0x0203bad0                MultiSioSendDataSet
+                0x0203bba0                MultiSioRecvDataCheck
+                0x0203bd0c                MultiSioStart
+                0x0203bd28                MultiSioStop
+ build/subgame_loader/src/sio32_multi_load.o(.text)
+ .text          0x0203bd78      0x348 build/subgame_loader/src/sio32_multi_load.o
+                0x0203bd78                Sio32MultiLoadMain
+                0x0203bf5c                Sio32MultiLoadIntr
+                0x0203c024                Sio32MultiLoadInit
+ build/subgame_loader/asm/libagbsyscall.o(.text)
+ .text          0x0203c0c0       0x30 build/subgame_loader/asm/libagbsyscall.o
+                0x0203c0c0                CpuSet
+                0x0203c0c4                LZ77UnCompWram
+                0x0203c0c8                RegisterRamReset
+                0x0203c0cc                VBlankIntrWait
+                0x0203c0d4                SoftResetRom
+ *libgcc.a:_call_via_rX.o(.text)
+ .text          0x0203c0f0       0x3c ../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+                0x0203c0f0                _call_via_r0
+                0x0203c0f4                _call_via_r1
+                0x0203c0f8                _call_via_r2
+                0x0203c0fc                _call_via_r3
+                0x0203c100                _call_via_r4
+                0x0203c104                _call_via_r5
+                0x0203c108                _call_via_r6
+                0x0203c10c                _call_via_r7
+                0x0203c110                _call_via_r8
+                0x0203c114                _call_via_r9
+                0x0203c118                _call_via_sl
+                0x0203c11c                _call_via_fp
+                0x0203c120                _call_via_ip
+                0x0203c124                _call_via_sp
+                0x0203c128                _call_via_lr
+ *libgcc.a:_udivsi3.o(.text)
+ .text          0x0203c12c       0x78 ../../../tools/agbcc/lib/libgcc.a(_udivsi3.o)
+                0x0203c12c                __udivsi3
+ *libgcc.a:_dvmd_tls.o(.text)
+ .text          0x0203c1a4        0x4 ../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+                0x0203c1a4                __div0
+ *libc.a:memcpy.o(.text)
+ .text          0x0203c1a8       0x60 ../../../tools/agbcc/lib/libc.a(memcpy.o)
+                0x0203c1a8                memcpy
+
+.rodata         0x0203c208     0x3524
+ build/subgame_loader/src/main.o(.rodata)
+ .rodata        0x0203c208       0x41 build/subgame_loader/src/main.o
+                0x0203c208                gIntrTableTemplate
+ build/subgame_loader/src/multi_sio.o(.rodata)
+ *fill*         0x0203c249        0x3 
+ .rodata        0x0203c24c       0x19 build/subgame_loader/src/multi_sio.o
+ build/subgame_loader/src/sio32_multi_load.o(.rodata)
+ *fill*         0x0203c265        0x3 
+ .rodata        0x0203c268       0x15 build/subgame_loader/src/sio32_multi_load.o
+ build/subgame_loader/src/loader_tables.o(.rodata)
+ *fill*         0x0203c27d        0x3 
+ .rodata        0x0203c280       0x24 build/subgame_loader/src/loader_tables.o
+                0x0203c280                gSegmentLoadBuffers
+ build/subgame_loader/data/data.o(.rodata)
+ .rodata        0x0203c2a4     0x3488 build/subgame_loader/data/data.o
+                0x0203c2a4                gUnknown_0203c2a4
+                0x0203c4a4                gUnknown_0203C4A4
+                0x0203e844                gUnknown_0203E844
+                0x0203ebc0                gUnknown_0203EBC0
+                0x0203edc0                gUnknown_0203EDC0
+                0x0203f260                gUnknown_0203F260
+                0x03000000                        . = 0x3000000
+
+IWRAM           0x03000000      0x828
+ build/subgame_loader/src/main.o(.data)
+ .data          0x03000000      0x4b4 build/subgame_loader/src/main.o
+                0x03000000                gIntrTable
+                0x03000040                gMultiSioRecv
+                0x03000090                gMultiSioStatusFlags
+                0x030000a0                gIntrMainBuf
+                0x030004a0                gMultiSioSend
+ build/subgame_loader/src/multi_sio.o(.data)
+ *fill*         0x030004b4        0xc 
+ .data          0x030004c0      0x350 build/subgame_loader/src/multi_sio.o
+                0x030004c0                gMultiSioIntrFuncBuf
+                0x030005e0                gMultiSioArea
+                0x030007d0                gMultiSioRecvFuncBuf
+ build/subgame_loader/src/sio32_multi_load.o(COMMON)
+ COMMON         0x03000810       0x18 build/subgame_loader/src/sio32_multi_load.o
+                0x03000810                gSio32MultiLoadArea
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+/DISCARD/
+ *(*)
+LOAD build/subgame_loader/src/loader_tables.o
+LOAD build/subgame_loader/src/main.o
+LOAD build/subgame_loader/src/multi_sio.o
+LOAD build/subgame_loader/src/sio32_multi_load.o
+LOAD build/subgame_loader/asm/crt0.o
+LOAD build/subgame_loader/asm/libagbsyscall.o
+LOAD build/subgame_loader/asm/multi_sio_asm.o
+LOAD build/subgame_loader/data/data.o
+LOAD ../../../tools/agbcc/lib/libgcc.a
+LOAD ../../../tools/agbcc/lib/libc.a
+OUTPUT(subgame_loader.elf elf32-littlearm)
+LOAD linker stubs

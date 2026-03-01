@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_vs_3)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_vs_3_1:
 	.byte	KEYSH , mus_vs_3_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*mus_vs_3_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*mus_vs_3_tbs/2
 	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_vs_3_mvl/mxv
 	.byte		N11   , Ds1 , v100
@@ -53,8 +53,8 @@ mus_vs_3_1:
 	.byte	W06
 	.byte		        Ds2 , v127
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte		        Dn1 , v060
+@ 001   ----------------------------------------
+	.byte		        Dn1 , v060
 	.byte	W06
 	.byte		        Ds2 , v127
 	.byte	W06
@@ -87,8 +87,8 @@ mus_vs_3_1:
 	.byte	W06
 	.byte		        Dn1 , v036
 	.byte	W12
-/* 002   ----------------------------------------
- */	.byte		N05   , Ds1 , v100
+@ 002   ----------------------------------------
+	.byte		N05   , Ds1 , v100
 	.byte		N06   , Ds2 , v127
 	.byte	W06
 	.byte		        Dn1 , v036
@@ -101,12 +101,12 @@ mus_vs_3_1:
 	.byte	W03
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_vs_3_2:
 	.byte	KEYSH , mus_vs_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 90
+@ 000   ----------------------------------------
+	.byte		VOICE , 90
 	.byte		VOL   , 127*mus_vs_3_mvl/mxv
 	.byte		N17   , Bn2 , v127
 	.byte	W18
@@ -118,32 +118,32 @@ mus_vs_3_2:
 	.byte	W06
 	.byte		        Gs2 , v100
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte		N44   , Cs2 , v116
+@ 001   ----------------------------------------
+	.byte		N44   , Cs2 , v116
 	.byte	W48
 	.byte		N23   , Cs3 , v120
 	.byte	W24
 	.byte		        Cs2 , v112
 	.byte	W24
-/* 002   ----------------------------------------
- */	.byte		N06   , Cs3 
+@ 002   ----------------------------------------
+	.byte		N06   , Cs3 
 	.byte	W12
 	.byte		N05   , Cs3 , v096
 	.byte	W06
 	.byte		TIE   , Ds3 , v124
 	.byte	W78
-/* 003   ----------------------------------------
- */	.byte	W24
+@ 003   ----------------------------------------
+	.byte	W24
 	.byte	W02
 	.byte		EOT   
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_vs_3_3:
 	.byte	KEYSH , mus_vs_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 100
+@ 000   ----------------------------------------
+	.byte		VOICE , 100
 	.byte		VOL   , 90*mus_vs_3_mvl/mxv
 	.byte		BENDR , 59
 	.byte		N17   , An3 , v072
@@ -176,8 +176,8 @@ mus_vs_3_3:
 	.byte	W03
 	.byte		        50*mus_vs_3_mvl/mxv
 	.byte	W03
-/* 001   ----------------------------------------
- */	.byte		        51*mus_vs_3_mvl/mxv
+@ 001   ----------------------------------------
+	.byte		        51*mus_vs_3_mvl/mxv
 	.byte	W03
 	.byte		        51*mus_vs_3_mvl/mxv
 	.byte	W03
@@ -243,8 +243,8 @@ mus_vs_3_3:
 	.byte	W03
 	.byte		        90*mus_vs_3_mvl/mxv
 	.byte	W03
-/* 002   ----------------------------------------
- */	.byte		N08   , Bn3 , v088
+@ 002   ----------------------------------------
+	.byte		N08   , Bn3 , v088
 	.byte	W12
 	.byte		N05   , Bn3 , v068
 	.byte	W06
@@ -258,8 +258,8 @@ mus_vs_3_3:
 	.byte	W03
 	.byte		        72*mus_vs_3_mvl/mxv
 	.byte	W03
-/* 003   ----------------------------------------
- */	.byte		        67*mus_vs_3_mvl/mxv
+@ 003   ----------------------------------------
+	.byte		        67*mus_vs_3_mvl/mxv
 	.byte	W03
 	.byte		        63*mus_vs_3_mvl/mxv
 	.byte	W03
@@ -292,12 +292,12 @@ mus_vs_3_3:
 	.byte		        0*mus_vs_3_mvl/mxv
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_vs_3_4:
 	.byte	KEYSH , mus_vs_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 101
+@ 000   ----------------------------------------
+	.byte		VOICE , 101
 	.byte		VOL   , 90*mus_vs_3_mvl/mxv
 	.byte		MOD   , 0
 	.byte		LFOS  , 86
@@ -332,8 +332,8 @@ mus_vs_3_4:
 	.byte	W03
 	.byte		        50*mus_vs_3_mvl/mxv
 	.byte	W03
-/* 001   ----------------------------------------
- */	.byte		        51*mus_vs_3_mvl/mxv
+@ 001   ----------------------------------------
+	.byte		        51*mus_vs_3_mvl/mxv
 	.byte	W03
 	.byte		        51*mus_vs_3_mvl/mxv
 	.byte	W03
@@ -399,8 +399,8 @@ mus_vs_3_4:
 	.byte	W03
 	.byte		        90*mus_vs_3_mvl/mxv
 	.byte	W03
-/* 002   ----------------------------------------
- */	.byte		N08   , Ds3 , v088
+@ 002   ----------------------------------------
+	.byte		N08   , Ds3 , v088
 	.byte	W12
 	.byte		N05   , Ds3 , v068
 	.byte	W06
@@ -414,8 +414,8 @@ mus_vs_3_4:
 	.byte	W03
 	.byte		        72*mus_vs_3_mvl/mxv
 	.byte	W03
-/* 003   ----------------------------------------
- */	.byte		        67*mus_vs_3_mvl/mxv
+@ 003   ----------------------------------------
+	.byte		        67*mus_vs_3_mvl/mxv
 	.byte	W03
 	.byte		        63*mus_vs_3_mvl/mxv
 	.byte	W03
@@ -448,12 +448,12 @@ mus_vs_3_4:
 	.byte		        0*mus_vs_3_mvl/mxv
 	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_vs_3_5:
 	.byte	KEYSH , mus_vs_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 102
+@ 000   ----------------------------------------
+	.byte		VOICE , 102
 	.byte		VOL   , 90*mus_vs_3_mvl/mxv
 	.byte		N17   , En3 , v072
 	.byte	W18
@@ -485,8 +485,8 @@ mus_vs_3_5:
 	.byte	W03
 	.byte		        50*mus_vs_3_mvl/mxv
 	.byte	W03
-/* 001   ----------------------------------------
- */	.byte		        51*mus_vs_3_mvl/mxv
+@ 001   ----------------------------------------
+	.byte		        51*mus_vs_3_mvl/mxv
 	.byte	W03
 	.byte		        51*mus_vs_3_mvl/mxv
 	.byte	W03
@@ -552,8 +552,8 @@ mus_vs_3_5:
 	.byte	W03
 	.byte		        90*mus_vs_3_mvl/mxv
 	.byte	W03
-/* 002   ----------------------------------------
- */	.byte		N08   , Fs3 , v088
+@ 002   ----------------------------------------
+	.byte		N08   , Fs3 , v088
 	.byte	W12
 	.byte		N05   , Fs3 , v068
 	.byte	W06
@@ -567,8 +567,8 @@ mus_vs_3_5:
 	.byte	W03
 	.byte		        72*mus_vs_3_mvl/mxv
 	.byte	W03
-/* 003   ----------------------------------------
- */	.byte		        67*mus_vs_3_mvl/mxv
+@ 003   ----------------------------------------
+	.byte		        67*mus_vs_3_mvl/mxv
 	.byte	W03
 	.byte		        63*mus_vs_3_mvl/mxv
 	.byte	W03
@@ -601,12 +601,12 @@ mus_vs_3_5:
 	.byte		        0*mus_vs_3_mvl/mxv
 	.byte	FINE
 
-/* **************** Track 6 (Midi-Chn.6) **************** */
+@ **************** Track 6 (Midi-Chn.6) ****************
 
 mus_vs_3_6:
 	.byte	KEYSH , mus_vs_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 91
+@ 000   ----------------------------------------
+	.byte		VOICE , 91
 	.byte		VOL   , 100*mus_vs_3_mvl/mxv
 	.byte		BENDR , 12
 	.byte		MOD   , 3
@@ -616,31 +616,31 @@ mus_vs_3_6:
 	.byte	W24
 	.byte		TIE   , Ds4 , v116
 	.byte	W54
-/* 001   ----------------------------------------
- */	.byte	W88
+@ 001   ----------------------------------------
+	.byte	W88
 	.byte	W01
 	.byte		EOT   
 	.byte	W07
-/* 002   ----------------------------------------
- */	.byte		N08   , Ds4 , v127
+@ 002   ----------------------------------------
+	.byte		N08   , Ds4 , v127
 	.byte	W12
 	.byte		N05   , Ds4 , v108
 	.byte	W06
 	.byte		TIE   , Fn4 
 	.byte	W78
-/* 003   ----------------------------------------
- */	.byte	W32
+@ 003   ----------------------------------------
+	.byte	W32
 	.byte	W03
 	.byte		EOT   
 	.byte	W01
 	.byte	FINE
 
-/* **************** Track 7 (Midi-Chn.7) **************** */
+@ **************** Track 7 (Midi-Chn.7) ****************
 
 mus_vs_3_7:
 	.byte	KEYSH , mus_vs_3_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 99
+@ 000   ----------------------------------------
+	.byte		VOICE , 99
 	.byte		VOL   , 90*mus_vs_3_mvl/mxv
 	.byte		BENDR , 12
 	.byte		N17   , An3 , v112
@@ -665,8 +665,8 @@ mus_vs_3_7:
 	.byte	W03
 	.byte		        Ds4 , v060
 	.byte	W03
-/* 001   ----------------------------------------
- */	.byte		        Fs4 , v064
+@ 001   ----------------------------------------
+	.byte		        Fs4 , v064
 	.byte	W03
 	.byte		        Bn4 
 	.byte	W03
@@ -730,28 +730,28 @@ mus_vs_3_7:
 	.byte	W03
 	.byte		        Bn1 
 	.byte	W03
-/* 002   ----------------------------------------
- */	.byte		N08   , Bn3 , v108
+@ 002   ----------------------------------------
+	.byte		N08   , Bn3 , v108
 	.byte	W12
 	.byte		N05   
 	.byte	W06
 	.byte		TIE   , Cs4 
 	.byte	W78
-/* 003   ----------------------------------------
- */	.byte	W32
+@ 003   ----------------------------------------
+	.byte	W32
 	.byte	W03
 	.byte		EOT   
 	.byte	W01
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_vs_3):
-	.byte	7	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_vs_3_pri	/* Priority */
-	.byte	mus_vs_3_rev	/* Reverb */
+	.byte	7	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_vs_3_pri	@ Priority
+	.byte	mus_vs_3_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_vs_3_grp

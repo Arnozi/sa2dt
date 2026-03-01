@@ -15,12 +15,12 @@
 	.global	C_DECL(se_menu_cursor_move)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_menu_cursor_move_1:
 	.byte	KEYSH , se_menu_cursor_move_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_menu_cursor_move_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_menu_cursor_move_tbs/2
 	.byte		VOICE , 1
 	.byte		VOL   , 127*se_menu_cursor_move_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -29,14 +29,14 @@ se_menu_cursor_move_1:
 	.byte	W04
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_menu_cursor_move):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_menu_cursor_move_pri	/* Priority */
-	.byte	se_menu_cursor_move_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_menu_cursor_move_pri	@ Priority
+	.byte	se_menu_cursor_move_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_menu_cursor_move_grp

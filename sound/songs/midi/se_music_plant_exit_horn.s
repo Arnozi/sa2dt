@@ -15,12 +15,12 @@
 	.global	C_DECL(se_music_plant_exit_horn)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_music_plant_exit_horn_1:
 	.byte	KEYSH , se_music_plant_exit_horn_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 76*se_music_plant_exit_horn_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 76*se_music_plant_exit_horn_tbs/2
 	.byte		VOICE , 22
 	.byte		VOL   , 127*se_music_plant_exit_horn_mvl/mxv
 	.byte		MODT  , 0
@@ -39,14 +39,14 @@ se_music_plant_exit_horn_1:
 	.byte	W01
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_music_plant_exit_horn):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_music_plant_exit_horn_pri	/* Priority */
-	.byte	se_music_plant_exit_horn_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_music_plant_exit_horn_pri	@ Priority
+	.byte	se_music_plant_exit_horn_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_music_plant_exit_horn_grp

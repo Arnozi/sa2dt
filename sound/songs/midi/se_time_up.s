@@ -15,12 +15,12 @@
 	.global	C_DECL(se_time_up)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_time_up_1:
 	.byte	KEYSH , se_time_up_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_time_up_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_time_up_tbs/2
 	.byte		VOICE , 39
 	.byte		MOD   , 29
 	.byte		VOL   , 127*se_time_up_mvl/mxv
@@ -91,17 +91,17 @@ se_time_up_1:
 	.byte	W03
 	.byte		        c_v-31
 	.byte	W03
-/* 001   ----------------------------------------
- */	.byte	FINE
+@ 001   ----------------------------------------
+	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_time_up):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_time_up_pri	/* Priority */
-	.byte	se_time_up_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_time_up_pri	@ Priority
+	.byte	se_time_up_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_time_up_grp

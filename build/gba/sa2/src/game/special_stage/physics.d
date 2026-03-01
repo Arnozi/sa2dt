@@ -1,0 +1,36 @@
+build/gba/sa2/src/game/special_stage/physics.o: include/animation_commands.h include/config.h include/constants/animations.h include/constants/songs.h include/constants/text.h include/constants/zones.h include/core.h include/flags.h include/game/special_stage/data.h include/game/special_stage/guard_robo.h include/game/special_stage/main.h include/game/special_stage/physics.h include/game/special_stage/player.h include/game/stage/player_controls.h include/game/stage/screen_fade.h include/gba/cpuset_macros.h include/gba/defines.h include/gba/dma_macros.h include/gba/gba.h include/gba/io_reg.h include/gba/isagbprint.h include/gba/macro.h include/gba/multiboot.h include/gba/syscall.h include/gba/types.h include/global.h include/input_recorder.h include/lib/m4a/m4a.h include/lib/m4a/m4a_internal.h include/malloc_vram.h include/sprite.h include/task.h include/tilemap.h include/trig.h
+build/gba/sa2/src/game/special_stage/physics.d: include/animation_commands.h include/config.h include/constants/animations.h include/constants/songs.h include/constants/text.h include/constants/zones.h include/core.h include/flags.h include/game/special_stage/data.h include/game/special_stage/guard_robo.h include/game/special_stage/main.h include/game/special_stage/physics.h include/game/special_stage/player.h include/game/stage/player_controls.h include/game/stage/screen_fade.h include/gba/cpuset_macros.h include/gba/defines.h include/gba/dma_macros.h include/gba/gba.h include/gba/io_reg.h include/gba/isagbprint.h include/gba/macro.h include/gba/multiboot.h include/gba/syscall.h include/gba/types.h include/global.h include/input_recorder.h include/lib/m4a/m4a.h include/lib/m4a/m4a_internal.h include/malloc_vram.h include/sprite.h include/task.h include/tilemap.h include/trig.h
+include/animation_commands.h:
+include/config.h:
+include/constants/animations.h:
+include/constants/songs.h:
+include/constants/text.h:
+include/constants/zones.h:
+include/core.h:
+include/flags.h:
+include/game/special_stage/data.h:
+include/game/special_stage/guard_robo.h:
+include/game/special_stage/main.h:
+include/game/special_stage/physics.h:
+include/game/special_stage/player.h:
+include/game/stage/player_controls.h:
+include/game/stage/screen_fade.h:
+include/gba/cpuset_macros.h:
+include/gba/defines.h:
+include/gba/dma_macros.h:
+include/gba/gba.h:
+include/gba/io_reg.h:
+include/gba/isagbprint.h:
+include/gba/macro.h:
+include/gba/multiboot.h:
+include/gba/syscall.h:
+include/gba/types.h:
+include/global.h:
+include/input_recorder.h:
+include/lib/m4a/m4a.h:
+include/lib/m4a/m4a_internal.h:
+include/malloc_vram.h:
+include/sprite.h:
+include/task.h:
+include/tilemap.h:
+include/trig.h:

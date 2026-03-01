@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_special_stage_pinch)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_special_stage_pinch_1:
 	.byte	KEYSH , mus_special_stage_pinch_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 154*mus_special_stage_pinch_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 154*mus_special_stage_pinch_tbs/2
 	.byte		VOICE , 45
 	.byte		VOL   , 127*mus_special_stage_pinch_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -41,8 +41,8 @@ mus_special_stage_pinch_1:
 	.byte	W12
 	.byte		N09   , As1 , v096
 	.byte	W12
-/* 001   ----------------------------------------
- */	.byte	TEMPO , 156*mus_special_stage_pinch_tbs/2
+@ 001   ----------------------------------------
+	.byte	TEMPO , 156*mus_special_stage_pinch_tbs/2
 	.byte		N08   , As1 , v108
 	.byte	W12
 	.byte		N07   , As1 , v096
@@ -59,8 +59,8 @@ mus_special_stage_pinch_1:
 	.byte	W12
 	.byte		N06   , As1 , v080
 	.byte	W12
-/* 002   ----------------------------------------
- */	.byte	TEMPO , 158*mus_special_stage_pinch_tbs/2
+@ 002   ----------------------------------------
+	.byte	TEMPO , 158*mus_special_stage_pinch_tbs/2
 	.byte		N08   , As1 , v108
 	.byte	W12
 	.byte		N07   , As1 , v096
@@ -77,8 +77,8 @@ mus_special_stage_pinch_1:
 	.byte	W12
 	.byte		N09   , As1 , v096
 	.byte	W12
-/* 003   ----------------------------------------
- */	.byte	TEMPO , 162*mus_special_stage_pinch_tbs/2
+@ 003   ----------------------------------------
+	.byte	TEMPO , 162*mus_special_stage_pinch_tbs/2
 	.byte		N08   , As1 , v108
 	.byte	W12
 	.byte		N07   , As1 , v096
@@ -95,8 +95,8 @@ mus_special_stage_pinch_1:
 	.byte	W12
 	.byte		N06   , As1 , v080
 	.byte	W12
-/* 004   ----------------------------------------
- */	.byte	TEMPO , 164*mus_special_stage_pinch_tbs/2
+@ 004   ----------------------------------------
+	.byte	TEMPO , 164*mus_special_stage_pinch_tbs/2
 	.byte		N08   , Bn1 , v108
 	.byte	W12
 	.byte		N07   , Bn1 , v096
@@ -113,8 +113,8 @@ mus_special_stage_pinch_1:
 	.byte	W12
 	.byte		N09   , Bn1 , v096
 	.byte	W12
-/* 005   ----------------------------------------
- */	.byte	TEMPO , 168*mus_special_stage_pinch_tbs/2
+@ 005   ----------------------------------------
+	.byte	TEMPO , 168*mus_special_stage_pinch_tbs/2
 	.byte		N08   , Bn1 , v108
 	.byte	W12
 	.byte		N07   , Bn1 , v096
@@ -131,8 +131,8 @@ mus_special_stage_pinch_1:
 	.byte	W12
 	.byte		N06   , Bn1 , v080
 	.byte	W12
-/* 006   ----------------------------------------
- */mus_special_stage_pinch_1_006:
+@ 006   ----------------------------------------
+mus_special_stage_pinch_1_006:
 	.byte		N08   , Bn1 , v108
 	.byte	W12
 	.byte		N07   , Bn1 , v096
@@ -150,8 +150,8 @@ mus_special_stage_pinch_1:
 	.byte		N09   , Bn1 , v096
 	.byte	W12
 	.byte	PEND
-/* 007   ----------------------------------------
- */mus_special_stage_pinch_1_007:
+@ 007   ----------------------------------------
+mus_special_stage_pinch_1_007:
 	.byte		N08   , Bn1 , v108
 	.byte	W12
 	.byte		N07   , Bn1 , v096
@@ -170,8 +170,8 @@ mus_special_stage_pinch_1:
 	.byte	W12
 	.byte	PEND
 mus_special_stage_pinch_1_B1:
-/* 008   ----------------------------------------
- */mus_special_stage_pinch_1_008:
+@ 008   ----------------------------------------
+mus_special_stage_pinch_1_008:
 	.byte		N08   , As1 , v108
 	.byte	W12
 	.byte		N07   , As1 , v096
@@ -189,8 +189,8 @@ mus_special_stage_pinch_1_B1:
 	.byte		N09   , As1 , v096
 	.byte	W12
 	.byte	PEND
-/* 009   ----------------------------------------
- */mus_special_stage_pinch_1_009:
+@ 009   ----------------------------------------
+mus_special_stage_pinch_1_009:
 	.byte		N08   , As1 , v108
 	.byte	W12
 	.byte		N07   , As1 , v096
@@ -208,38 +208,38 @@ mus_special_stage_pinch_1_B1:
 	.byte		N06   , As1 , v080
 	.byte	W12
 	.byte	PEND
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_1_008
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_1_009
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_1_006
-/* 013   ----------------------------------------
- */	.byte	PATT
+@ 013   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_1_007
-/* 014   ----------------------------------------
- */	.byte	PATT
+@ 014   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_1_006
-/* 015   ----------------------------------------
- */	.byte	PATT
+@ 015   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_1_007
 	.byte	GOTO
 	 mPtr	mus_special_stage_pinch_1_B1
 mus_special_stage_pinch_1_B2:
-/* 016   ----------------------------------------
- */	.byte		N06   , Bn1 , v080
+@ 016   ----------------------------------------
+	.byte		N06   , Bn1 , v080
 	.byte	W06
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_special_stage_pinch_2:
 	.byte	KEYSH , mus_special_stage_pinch_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 127
+@ 000   ----------------------------------------
+	.byte		VOICE , 127
 	.byte		VOL   , 100*mus_special_stage_pinch_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -275,8 +275,8 @@ mus_special_stage_pinch_2:
 	.byte		N12   , En1 
 	.byte		N36   , Cs2 , v127
 	.byte	W12
-/* 001   ----------------------------------------
- */mus_special_stage_pinch_2_001:
+@ 001   ----------------------------------------
+mus_special_stage_pinch_2_001:
 	.byte		N06   , Dn1 , v048
 	.byte		N06   , Ds2 , v127
 	.byte	W06
@@ -319,8 +319,8 @@ mus_special_stage_pinch_2:
 	.byte		N06   
 	.byte	W06
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_special_stage_pinch_2_002:
+@ 002   ----------------------------------------
+mus_special_stage_pinch_2_002:
 	.byte		N06   , Dn1 , v048
 	.byte		N60   , Cs2 , v127
 	.byte		N06   , Ds2 
@@ -354,8 +354,8 @@ mus_special_stage_pinch_2:
 	.byte		N36   , Cs2 , v127
 	.byte	W12
 	.byte	PEND
-/* 003   ----------------------------------------
- */mus_special_stage_pinch_2_003:
+@ 003   ----------------------------------------
+mus_special_stage_pinch_2_003:
 	.byte		N06   , Dn1 , v048
 	.byte		N06   , Ds2 , v127
 	.byte	W06
@@ -385,8 +385,8 @@ mus_special_stage_pinch_2:
 	.byte		N12   , En1 
 	.byte	W12
 	.byte	PEND
-/* 004   ----------------------------------------
- */mus_special_stage_pinch_2_004:
+@ 004   ----------------------------------------
+mus_special_stage_pinch_2_004:
 	.byte		N05   , Dn1 , v048
 	.byte		N60   , Cs2 , v127
 	.byte		N06   , Ds2 
@@ -419,18 +419,18 @@ mus_special_stage_pinch_2:
 	.byte		N36   , Cs2 , v127
 	.byte	W12
 	.byte	PEND
-/* 005   ----------------------------------------
- */	.byte	PATT
+@ 005   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_001
-/* 006   ----------------------------------------
- */	.byte	PATT
+@ 006   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_002
-/* 007   ----------------------------------------
- */	.byte	PATT
+@ 007   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_003
 mus_special_stage_pinch_2_B1:
-/* 008   ----------------------------------------
- */	.byte		N05   , Dn1 , v048
+@ 008   ----------------------------------------
+	.byte		N05   , Dn1 , v048
 	.byte		N60   , Cs2 , v127
 	.byte		N06   , Ds2 
 	.byte	W06
@@ -462,39 +462,39 @@ mus_special_stage_pinch_2_B1:
 	.byte		N12   , En1 
 	.byte		N36   , Cs2 , v127
 	.byte	W12
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_001
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_002
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_003
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_004
-/* 013   ----------------------------------------
- */	.byte	PATT
+@ 013   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_001
-/* 014   ----------------------------------------
- */	.byte	PATT
+@ 014   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_002
-/* 015   ----------------------------------------
- */	.byte	PATT
+@ 015   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_2_003
 	.byte	GOTO
 	 mPtr	mus_special_stage_pinch_2_B1
 mus_special_stage_pinch_2_B2:
-/* 016   ----------------------------------------
- */	.byte	FINE
+@ 016   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_special_stage_pinch_3:
 	.byte	KEYSH , mus_special_stage_pinch_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 80
+@ 000   ----------------------------------------
+	.byte		VOICE , 80
 	.byte		VOL   , 127*mus_special_stage_pinch_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -507,62 +507,62 @@ mus_special_stage_pinch_3:
 	.byte	W84
 	.byte		TIE   , Ds3 
 	.byte	W12
-/* 001   ----------------------------------------
- */	.byte	W96
+@ 001   ----------------------------------------
+	.byte	W96
 	.byte		EOT   
-/* 002   ----------------------------------------
- */	.byte	W96
-/* 003   ----------------------------------------
- */	.byte	W96
-/* 004   ----------------------------------------
- */mus_special_stage_pinch_3_004:
+@ 002   ----------------------------------------
+	.byte	W96
+@ 003   ----------------------------------------
+	.byte	W96
+@ 004   ----------------------------------------
+mus_special_stage_pinch_3_004:
 	.byte		N84   , Fs3 , v116
 	.byte	W84
 	.byte		TIE   , En3 
 	.byte	W12
 	.byte	PEND
-/* 005   ----------------------------------------
- */	.byte	W96
+@ 005   ----------------------------------------
+	.byte	W96
 	.byte		EOT   
-/* 006   ----------------------------------------
- */	.byte	W96
-/* 007   ----------------------------------------
- */	.byte	W96
+@ 006   ----------------------------------------
+	.byte	W96
+@ 007   ----------------------------------------
+	.byte	W96
 mus_special_stage_pinch_3_B1:
-/* 008   ----------------------------------------
- */	.byte		N84   , Fn3 , v116
+@ 008   ----------------------------------------
+	.byte		N84   , Fn3 , v116
 	.byte	W84
 	.byte		TIE   , Ds3 
 	.byte	W12
-/* 009   ----------------------------------------
- */	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W96
 	.byte		EOT   
-/* 010   ----------------------------------------
- */	.byte	W96
-/* 011   ----------------------------------------
- */	.byte	W96
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	W96
+@ 011   ----------------------------------------
+	.byte	W96
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_3_004
-/* 013   ----------------------------------------
- */	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W96
 	.byte		EOT   , En3 
-/* 014   ----------------------------------------
- */	.byte	W96
-/* 015   ----------------------------------------
- */	.byte	W96
+@ 014   ----------------------------------------
+	.byte	W96
+@ 015   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	mus_special_stage_pinch_3_B1
 mus_special_stage_pinch_3_B2:
-/* 016   ----------------------------------------
- */	.byte	FINE
+@ 016   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_special_stage_pinch_4:
 	.byte	KEYSH , mus_special_stage_pinch_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 12
+@ 000   ----------------------------------------
+	.byte		VOICE , 12
 	.byte		VOL   , 45*mus_special_stage_pinch_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -618,8 +618,8 @@ mus_special_stage_pinch_4:
 	.byte	W04
 	.byte		        As5 , v104
 	.byte	W04
-/* 001   ----------------------------------------
- */mus_special_stage_pinch_4_001:
+@ 001   ----------------------------------------
+mus_special_stage_pinch_4_001:
 	.byte		N04   , Gs5 , v100
 	.byte	W04
 	.byte		        Fn5 , v096
@@ -669,8 +669,8 @@ mus_special_stage_pinch_4:
 	.byte		        As1 , v116
 	.byte	W04
 	.byte	PEND
-/* 002   ----------------------------------------
- */mus_special_stage_pinch_4_002:
+@ 002   ----------------------------------------
+mus_special_stage_pinch_4_002:
 	.byte		N04   , Gn1 , v108
 	.byte	W04
 	.byte		        As1 , v104
@@ -720,8 +720,8 @@ mus_special_stage_pinch_4:
 	.byte		        Gs5 , v096
 	.byte	W04
 	.byte	PEND
-/* 003   ----------------------------------------
- */mus_special_stage_pinch_4_003:
+@ 003   ----------------------------------------
+mus_special_stage_pinch_4_003:
 	.byte		N04   , Fn5 , v088
 	.byte	W04
 	.byte		        Dn5 , v096
@@ -769,8 +769,8 @@ mus_special_stage_pinch_4:
 	.byte		        As0 , v116
 	.byte	W08
 	.byte	PEND
-/* 004   ----------------------------------------
- */mus_special_stage_pinch_4_004:
+@ 004   ----------------------------------------
+mus_special_stage_pinch_4_004:
 	.byte		N04   , Bn1 , v120
 	.byte	W04
 	.byte		        Cs2 , v104
@@ -820,8 +820,8 @@ mus_special_stage_pinch_4:
 	.byte		        Bn5 , v104
 	.byte	W04
 	.byte	PEND
-/* 005   ----------------------------------------
- */mus_special_stage_pinch_4_005:
+@ 005   ----------------------------------------
+mus_special_stage_pinch_4_005:
 	.byte		N04   , An5 , v100
 	.byte	W04
 	.byte		        Fs5 , v096
@@ -871,8 +871,8 @@ mus_special_stage_pinch_4:
 	.byte		        Bn1 , v116
 	.byte	W04
 	.byte	PEND
-/* 006   ----------------------------------------
- */mus_special_stage_pinch_4_006:
+@ 006   ----------------------------------------
+mus_special_stage_pinch_4_006:
 	.byte		N04   , Gs1 , v108
 	.byte	W04
 	.byte		        Bn1 , v104
@@ -922,8 +922,8 @@ mus_special_stage_pinch_4:
 	.byte		        An5 , v096
 	.byte	W04
 	.byte	PEND
-/* 007   ----------------------------------------
- */mus_special_stage_pinch_4_007:
+@ 007   ----------------------------------------
+mus_special_stage_pinch_4_007:
 	.byte		N04   , Fs5 , v088
 	.byte	W04
 	.byte		        Ds5 , v096
@@ -972,8 +972,8 @@ mus_special_stage_pinch_4:
 	.byte	W08
 	.byte	PEND
 mus_special_stage_pinch_4_B1:
-/* 008   ----------------------------------------
- */	.byte		N04   , As1 , v120
+@ 008   ----------------------------------------
+	.byte		N04   , As1 , v120
 	.byte	W04
 	.byte		        Cn2 , v104
 	.byte	W04
@@ -1021,39 +1021,39 @@ mus_special_stage_pinch_4_B1:
 	.byte	W04
 	.byte		        As5 , v104
 	.byte	W04
-/* 009   ----------------------------------------
- */	.byte	PATT
+@ 009   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_4_001
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_4_002
-/* 011   ----------------------------------------
- */	.byte	PATT
+@ 011   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_4_003
-/* 012   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_4_004
-/* 013   ----------------------------------------
- */	.byte	PATT
+@ 013   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_4_005
-/* 014   ----------------------------------------
- */	.byte	PATT
+@ 014   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_4_006
-/* 015   ----------------------------------------
- */	.byte	PATT
+@ 015   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_4_007
 	.byte	GOTO
 	 mPtr	mus_special_stage_pinch_4_B1
 mus_special_stage_pinch_4_B2:
-/* 016   ----------------------------------------
- */	.byte	FINE
+@ 016   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_special_stage_pinch_5:
 	.byte	KEYSH , mus_special_stage_pinch_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 87
+@ 000   ----------------------------------------
+	.byte		VOICE , 87
 	.byte		VOL   , 80*mus_special_stage_pinch_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 3
@@ -1063,10 +1063,10 @@ mus_special_stage_pinch_5:
 	.byte		MODT  , 2
 	.byte	PRIO  , 30
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W96
-/* 002   ----------------------------------------
- */mus_special_stage_pinch_5_002:
+@ 001   ----------------------------------------
+	.byte	W96
+@ 002   ----------------------------------------
+mus_special_stage_pinch_5_002:
 	.byte		N80   , Dn3 , v080
 	.byte		N80   , Fn3 , v100
 	.byte		N80   , As3 
@@ -1075,18 +1075,18 @@ mus_special_stage_pinch_5:
 	.byte		TIE   , Gs3 , v116
 	.byte	W12
 	.byte	PEND
-/* 003   ----------------------------------------
- */	.byte	W84
+@ 003   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		EOT   , Cn3 
 	.byte		        Gs3 
 	.byte	W09
-/* 004   ----------------------------------------
- */	.byte	W96
-/* 005   ----------------------------------------
- */	.byte	W96
-/* 006   ----------------------------------------
- */mus_special_stage_pinch_5_006:
+@ 004   ----------------------------------------
+	.byte	W96
+@ 005   ----------------------------------------
+	.byte	W96
+@ 006   ----------------------------------------
+mus_special_stage_pinch_5_006:
 	.byte		N80   , Ds3 , v080
 	.byte		N80   , Fs3 , v100
 	.byte		N80   , Bn3 
@@ -1095,8 +1095,8 @@ mus_special_stage_pinch_5:
 	.byte		TIE   , An3 , v116
 	.byte	W12
 	.byte	PEND
-/* 007   ----------------------------------------
- */mus_special_stage_pinch_5_007:
+@ 007   ----------------------------------------
+mus_special_stage_pinch_5_007:
 	.byte	W44
 	.byte	W02
 	.byte		N04   , Cn3 , v024
@@ -1148,28 +1148,28 @@ mus_special_stage_pinch_5:
 	.byte		N01   , Cn3 , v056
 	.byte	W02
 mus_special_stage_pinch_5_B1:
-/* 008   ----------------------------------------
- */	.byte	W96
-/* 009   ----------------------------------------
- */	.byte	W96
-/* 010   ----------------------------------------
- */	.byte	PATT
+@ 008   ----------------------------------------
+	.byte	W96
+@ 009   ----------------------------------------
+	.byte	W96
+@ 010   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_5_002
-/* 011   ----------------------------------------
- */	.byte	W84
+@ 011   ----------------------------------------
+	.byte	W84
 	.byte	W03
 	.byte		EOT   , Cn3 
 	.byte		        Gs3 
 	.byte	W09
-/* 012   ----------------------------------------
- */	.byte	W96
-/* 013   ----------------------------------------
- */	.byte	W96
-/* 014   ----------------------------------------
- */	.byte	PATT
+@ 012   ----------------------------------------
+	.byte	W96
+@ 013   ----------------------------------------
+	.byte	W96
+@ 014   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_5_006
-/* 015   ----------------------------------------
- */	.byte	PATT
+@ 015   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_special_stage_pinch_5_007
 	.byte		EOT   , An3 
 	.byte		N02   , As2 , v064
@@ -1179,17 +1179,17 @@ mus_special_stage_pinch_5_B1:
 	.byte	GOTO
 	 mPtr	mus_special_stage_pinch_5_B1
 mus_special_stage_pinch_5_B2:
-/* 016   ----------------------------------------
- */	.byte	FINE
+@ 016   ----------------------------------------
+	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_special_stage_pinch):
-	.byte	5	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_special_stage_pinch_pri	/* Priority */
-	.byte	mus_special_stage_pinch_rev	/* Reverb */
+	.byte	5	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_special_stage_pinch_pri	@ Priority
+	.byte	mus_special_stage_pinch_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_special_stage_pinch_grp

@@ -15,12 +15,12 @@
 	.global	C_DECL(se_tails_propeller_flying)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_tails_propeller_flying_1:
 	.byte	KEYSH , se_tails_propeller_flying_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_tails_propeller_flying_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_tails_propeller_flying_tbs/2
 	.byte		VOICE , 120
 	.byte		VOL   , 127*se_tails_propeller_flying_mvl/mxv
 	.byte		LFOS  , 45
@@ -60,8 +60,8 @@ se_tails_propeller_flying_1_B1:
 	.byte	W06
 	.byte		N05   
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte		N05   
+@ 001   ----------------------------------------
+	.byte		N05   
 	.byte	W06
 	.byte		N05   
 	.byte	W06
@@ -96,17 +96,17 @@ se_tails_propeller_flying_1_B1:
 	.byte	GOTO
 	 mPtr	se_tails_propeller_flying_1_B1
 se_tails_propeller_flying_1_B2:
-/* 002   ----------------------------------------
- */	.byte	FINE
+@ 002   ----------------------------------------
+	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_tails_propeller_flying):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_tails_propeller_flying_pri	/* Priority */
-	.byte	se_tails_propeller_flying_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_tails_propeller_flying_pri	@ Priority
+	.byte	se_tails_propeller_flying_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_tails_propeller_flying_grp

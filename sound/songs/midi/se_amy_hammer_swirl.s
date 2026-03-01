@@ -15,12 +15,12 @@
 	.global	C_DECL(se_amy_hammer_swirl)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_amy_hammer_swirl_1:
 	.byte	KEYSH , se_amy_hammer_swirl_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_amy_hammer_swirl_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_amy_hammer_swirl_tbs/2
 	.byte		VOICE , 21
 	.byte		VOL   , 127*se_amy_hammer_swirl_mvl/mxv
 	.byte		BENDR , 10
@@ -111,14 +111,14 @@ se_amy_hammer_swirl_1:
 	.byte	W17
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_amy_hammer_swirl):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_amy_hammer_swirl_pri	/* Priority */
-	.byte	se_amy_hammer_swirl_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_amy_hammer_swirl_pri	@ Priority
+	.byte	se_amy_hammer_swirl_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_amy_hammer_swirl_grp

@@ -15,12 +15,12 @@
 	.global	C_DECL(se_ice_paradise_slide)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_ice_paradise_slide_1:
 	.byte	KEYSH , se_ice_paradise_slide_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 132*se_ice_paradise_slide_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 132*se_ice_paradise_slide_tbs/2
 	.byte		VOICE , 92
 	.byte		MOD   , 43
 	.byte		VOL   , 127*se_ice_paradise_slide_mvl/mxv
@@ -178,14 +178,14 @@ se_ice_paradise_slide_1:
 	.byte		BEND  , c_v-8
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_ice_paradise_slide):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_ice_paradise_slide_pri	/* Priority */
-	.byte	se_ice_paradise_slide_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_ice_paradise_slide_pri	@ Priority
+	.byte	se_ice_paradise_slide_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_ice_paradise_slide_grp

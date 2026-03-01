@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_boss_clear)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_boss_clear_1:
 	.byte	KEYSH , mus_boss_clear_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 130*mus_boss_clear_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 130*mus_boss_clear_tbs/2
 	.byte		VOICE , 127
 	.byte		VOL   , 113*mus_boss_clear_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -39,8 +39,8 @@ mus_boss_clear_1:
 	.byte	W12
 	.byte		N18   , Cs1 
 	.byte	W18
-/* 001   ----------------------------------------
- */	.byte		N06   , Gs1 
+@ 001   ----------------------------------------
+	.byte		N06   , Gs1 
 	.byte	W06
 	.byte		N06   
 	.byte	W06
@@ -60,18 +60,18 @@ mus_boss_clear_1:
 	.byte	W06
 	.byte		N06   
 	.byte	W06
-/* 002   ----------------------------------------
- */	.byte		N23   , Fs1 
+@ 002   ----------------------------------------
+	.byte		N23   , Fs1 
 	.byte		N84   , Cs2 , v088
 	.byte	W84
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_boss_clear_2:
 	.byte	KEYSH , mus_boss_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 15
+@ 000   ----------------------------------------
+	.byte		VOICE , 15
 	.byte		MOD   , 2
 	.byte		VOL   , 47*mus_boss_clear_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -89,8 +89,8 @@ mus_boss_clear_2:
 	.byte	W12
 	.byte		N18   , Dn4 , v100
 	.byte	W18
-/* 001   ----------------------------------------
- */	.byte		N06   , Gs3 , v088
+@ 001   ----------------------------------------
+	.byte		N06   , Gs3 , v088
 	.byte	W06
 	.byte		        As3 , v108
 	.byte	W06
@@ -102,15 +102,15 @@ mus_boss_clear_2:
 	.byte	W12
 	.byte		N54   , En4 , v100
 	.byte	W54
-/* 002   ----------------------------------------
- */	.byte	FINE
+@ 002   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_boss_clear_3:
 	.byte	KEYSH , mus_boss_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 16
+@ 000   ----------------------------------------
+	.byte		VOICE , 16
 	.byte		VOL   , 127*mus_boss_clear_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 0
@@ -143,8 +143,8 @@ mus_boss_clear_3:
 	.byte	W01
 	.byte		        Cn3 
 	.byte	W02
-/* 001   ----------------------------------------
- */	.byte		        Gn2 
+@ 001   ----------------------------------------
+	.byte		        Gn2 
 	.byte	W01
 	.byte		        Fs2 
 	.byte	W02
@@ -160,15 +160,15 @@ mus_boss_clear_3:
 	.byte	W12
 	.byte		N54   , Gn3 
 	.byte	W54
-/* 002   ----------------------------------------
- */	.byte	FINE
+@ 002   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_boss_clear_4:
 	.byte	KEYSH , mus_boss_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 17
+@ 000   ----------------------------------------
+	.byte		VOICE , 17
 	.byte		VOL   , 71*mus_boss_clear_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 0
@@ -189,8 +189,8 @@ mus_boss_clear_4:
 	.byte	W06
 	.byte		N18   , Cn4 
 	.byte	W18
-/* 001   ----------------------------------------
- */	.byte		N06   , Gs2 
+@ 001   ----------------------------------------
+	.byte		N06   , Gs2 
 	.byte	W06
 	.byte		        Gs3 
 	.byte	W06
@@ -202,15 +202,15 @@ mus_boss_clear_4:
 	.byte	W12
 	.byte		N54   , Cn3 
 	.byte	W54
-/* 002   ----------------------------------------
- */	.byte	FINE
+@ 002   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_boss_clear_5:
 	.byte	KEYSH , mus_boss_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 17
+@ 000   ----------------------------------------
+	.byte		VOICE , 17
 	.byte		VOL   , 71*mus_boss_clear_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 0
@@ -231,8 +231,8 @@ mus_boss_clear_5:
 	.byte	W06
 	.byte		N18   , Cn4 
 	.byte	W18
-/* 001   ----------------------------------------
- */	.byte		N06   , Gs2 
+@ 001   ----------------------------------------
+	.byte		N06   , Gs2 
 	.byte	W06
 	.byte		        Gs3 
 	.byte	W06
@@ -244,15 +244,15 @@ mus_boss_clear_5:
 	.byte	W12
 	.byte		N54   , Cn3 
 	.byte	W54
-/* 002   ----------------------------------------
- */	.byte	FINE
+@ 002   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 6 (Midi-Chn.6) **************** */
+@ **************** Track 6 (Midi-Chn.6) ****************
 
 mus_boss_clear_6:
 	.byte	KEYSH , mus_boss_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 11
+@ 000   ----------------------------------------
+	.byte		VOICE , 11
 	.byte		MOD   , 2
 	.byte		VOL   , 85*mus_boss_clear_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -270,8 +270,8 @@ mus_boss_clear_6:
 	.byte	W12
 	.byte		N18   , Dn4 , v100
 	.byte	W18
-/* 001   ----------------------------------------
- */	.byte		N06   , Gs3 , v088
+@ 001   ----------------------------------------
+	.byte		N06   , Gs3 , v088
 	.byte	W06
 	.byte		        As3 , v108
 	.byte	W06
@@ -283,15 +283,15 @@ mus_boss_clear_6:
 	.byte	W12
 	.byte		N54   , En4 , v100
 	.byte	W54
-/* 002   ----------------------------------------
- */	.byte	FINE
+@ 002   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 7 (Midi-Chn.7) **************** */
+@ **************** Track 7 (Midi-Chn.7) ****************
 
 mus_boss_clear_7:
 	.byte	KEYSH , mus_boss_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 11
+@ 000   ----------------------------------------
+	.byte		VOICE , 11
 	.byte		MOD   , 2
 	.byte		VOL   , 85*mus_boss_clear_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -313,8 +313,8 @@ mus_boss_clear_7:
 	.byte	W02
 	.byte		        Gn2 , v072
 	.byte	W02
-/* 001   ----------------------------------------
- */	.byte		N04   , Fn2 , v108
+@ 001   ----------------------------------------
+	.byte		N04   , Fn2 , v108
 	.byte	W06
 	.byte		        Gn2 
 	.byte	W06
@@ -328,12 +328,12 @@ mus_boss_clear_7:
 	.byte	W52
 	.byte	FINE
 
-/* **************** Track 8 (Midi-Chn.8) **************** */
+@ **************** Track 8 (Midi-Chn.8) ****************
 
 mus_boss_clear_8:
 	.byte	KEYSH , mus_boss_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 21
+@ 000   ----------------------------------------
+	.byte		VOICE , 21
 	.byte		MOD   , 2
 	.byte		VOL   , 50*mus_boss_clear_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -355,8 +355,8 @@ mus_boss_clear_8:
 	.byte	W02
 	.byte		        Gn3 , v072
 	.byte	W02
-/* 001   ----------------------------------------
- */	.byte		N04   , Fn3 , v108
+@ 001   ----------------------------------------
+	.byte		N04   , Fn3 , v108
 	.byte	W06
 	.byte		        Gn3 
 	.byte	W06
@@ -370,14 +370,14 @@ mus_boss_clear_8:
 	.byte	W52
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_boss_clear):
-	.byte	8	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_boss_clear_pri	/* Priority */
-	.byte	mus_boss_clear_rev	/* Reverb */
+	.byte	8	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_boss_clear_pri	@ Priority
+	.byte	mus_boss_clear_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_boss_clear_grp

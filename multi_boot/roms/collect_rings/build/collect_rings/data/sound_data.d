@@ -1,0 +1,30 @@
+build/collect_rings/data/sound_data.o: ../../../tools/agbcc/include/../../../asm/macros/m4a.inc ../../../tools/agbcc/include/../../../asm/macros/music_voice.inc asm/macros/c_decl.inc asm/macros/portable.inc sound/direct_sound_data.inc sound/direct_sound_samples/02016E68.bin sound/direct_sound_samples/02017368.bin sound/direct_sound_samples/020178A0.bin sound/direct_sound_samples/02017D58.bin sound/direct_sound_samples/02018260.bin sound/direct_sound_samples/020186F4.bin sound/direct_sound_samples/020197C8.bin sound/music_player_table.inc sound/programmable_wave_data.inc sound/programmable_wave_samples/02.pcm sound/programmable_wave_samples/03.pcm sound/programmable_wave_samples/04.pcm sound/programmable_wave_samples/05.pcm sound/programmable_wave_samples/06.pcm sound/programmable_wave_samples/07.pcm sound/programmable_wave_samples/08.pcm sound/programmable_wave_samples/09.pcm sound/programmable_wave_samples/10.pcm sound/song_table.inc sound/voice_groups.inc sound/voicegroups/voicegroup000.inc sound/voicegroups/voicegroup001.inc sound/voicegroups/voicegroup003.inc
+build/collect_rings/data/sound_data.d: ../../../tools/agbcc/include/../../../asm/macros/m4a.inc ../../../tools/agbcc/include/../../../asm/macros/music_voice.inc asm/macros/c_decl.inc asm/macros/portable.inc sound/direct_sound_data.inc sound/music_player_table.inc sound/programmable_wave_data.inc sound/song_table.inc sound/voice_groups.inc sound/voicegroups/voicegroup000.inc sound/voicegroups/voicegroup001.inc sound/voicegroups/voicegroup003.inc
+../../../tools/agbcc/include/../../../asm/macros/m4a.inc:
+../../../tools/agbcc/include/../../../asm/macros/music_voice.inc:
+asm/macros/c_decl.inc:
+asm/macros/portable.inc:
+sound/direct_sound_data.inc:
+sound/direct_sound_samples/02016E68.bin:
+sound/direct_sound_samples/02017368.bin:
+sound/direct_sound_samples/020178A0.bin:
+sound/direct_sound_samples/02017D58.bin:
+sound/direct_sound_samples/02018260.bin:
+sound/direct_sound_samples/020186F4.bin:
+sound/direct_sound_samples/020197C8.bin:
+sound/music_player_table.inc:
+sound/programmable_wave_data.inc:
+sound/programmable_wave_samples/02.pcm:
+sound/programmable_wave_samples/03.pcm:
+sound/programmable_wave_samples/04.pcm:
+sound/programmable_wave_samples/05.pcm:
+sound/programmable_wave_samples/06.pcm:
+sound/programmable_wave_samples/07.pcm:
+sound/programmable_wave_samples/08.pcm:
+sound/programmable_wave_samples/09.pcm:
+sound/programmable_wave_samples/10.pcm:
+sound/song_table.inc:
+sound/voice_groups.inc:
+sound/voicegroups/voicegroup000.inc:
+sound/voicegroups/voicegroup001.inc:
+sound/voicegroups/voicegroup003.inc:

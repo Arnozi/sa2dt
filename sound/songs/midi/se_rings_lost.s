@@ -15,26 +15,26 @@
 	.global	C_DECL(se_rings_lost)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_rings_lost_1:
 	.byte	KEYSH , se_rings_lost_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_rings_lost_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_rings_lost_tbs/2
 	.byte		VOICE , 3
 	.byte		VOL   , 127*se_rings_lost_mvl/mxv
 	.byte		N84   , Cn3 , v127
 	.byte	W84
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_rings_lost):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_rings_lost_pri	/* Priority */
-	.byte	se_rings_lost_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_rings_lost_pri	@ Priority
+	.byte	se_rings_lost_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_rings_lost_grp

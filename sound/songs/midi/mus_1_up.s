@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_1_up)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_1_up_1:
 	.byte	KEYSH , mus_1_up_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*mus_1_up_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*mus_1_up_tbs/2
 	.byte		VOICE , 127
 	.byte		BENDR , 127
 	.byte		VOL   , 127*mus_1_up_mvl/mxv
@@ -130,8 +130,8 @@ mus_1_up_1:
 	.byte	W01
 	.byte		        125*mus_1_up_mvl/mxv
 	.byte	W01
-/* 001   ----------------------------------------
- */	.byte	W16
+@ 001   ----------------------------------------
+	.byte	W16
 	.byte		N04   , As1 
 	.byte	W04
 	.byte		N04   
@@ -142,15 +142,15 @@ mus_1_up_1:
 	.byte	W04
 	.byte		N48   , Cn2 
 	.byte	W48
-/* 002   ----------------------------------------
- */	.byte	FINE
+@ 002   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_1_up_2:
 	.byte	KEYSH , mus_1_up_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 74
+@ 000   ----------------------------------------
+	.byte		VOICE , 74
 	.byte		BENDR , 0
 	.byte		PAN   , c_v+0
 	.byte		VOL   , 60*mus_1_up_mvl/mxv
@@ -179,18 +179,18 @@ mus_1_up_2:
 	.byte		N11   , En3 
 	.byte		N11   , Gn3 
 	.byte	W12
-/* 001   ----------------------------------------
- */	.byte		N48   , Fs3 , v120
+@ 001   ----------------------------------------
+	.byte		N48   , Fs3 , v120
 	.byte		N48   , An3 
 	.byte	W48
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_1_up_3:
 	.byte	KEYSH , mus_1_up_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 80
+@ 000   ----------------------------------------
+	.byte		VOICE , 80
 	.byte		BENDR , 0
 	.byte		PAN   , c_v+0
 	.byte		VOL   , 80*mus_1_up_mvl/mxv
@@ -202,17 +202,17 @@ mus_1_up_3:
 	.byte	W18
 	.byte		N11   , Gn2 
 	.byte	W12
-/* 001   ----------------------------------------
- */	.byte		N48   , An2 
+@ 001   ----------------------------------------
+	.byte		N48   , An2 
 	.byte	W48
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_1_up_4:
 	.byte	KEYSH , mus_1_up_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 90
+@ 000   ----------------------------------------
+	.byte		VOICE , 90
 	.byte		MODT  , 0
 	.byte		PAN   , c_v+0
 	.byte		VOL   , 127*mus_1_up_mvl/mxv
@@ -227,8 +227,8 @@ mus_1_up_4:
 	.byte	W04
 	.byte		N03   
 	.byte	W04
-/* 001   ----------------------------------------
- */	.byte		N12   , Cn3 
+@ 001   ----------------------------------------
+	.byte		N12   , Cn3 
 	.byte	W12
 	.byte		        Gn2 
 	.byte	W12
@@ -240,14 +240,14 @@ mus_1_up_4:
 	.byte	W24
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_1_up):
-	.byte	4	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_1_up_pri	/* Priority */
-	.byte	mus_1_up_rev	/* Reverb */
+	.byte	4	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_1_up_pri	@ Priority
+	.byte	mus_1_up_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_1_up_grp

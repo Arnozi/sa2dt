@@ -15,12 +15,12 @@
 	.global	C_DECL(se_jump)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_jump_1:
 	.byte	KEYSH , se_jump_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_jump_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_jump_tbs/2
 	.byte		VOICE , 2
 	.byte		VOL   , 127*se_jump_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -71,14 +71,14 @@ se_jump_1:
 	.byte		        c_v+22
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_jump):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_jump_pri	/* Priority */
-	.byte	se_jump_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_jump_pri	@ Priority
+	.byte	se_jump_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_jump_grp

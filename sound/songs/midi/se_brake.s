@@ -15,12 +15,12 @@
 	.global	C_DECL(se_brake)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_brake_1:
 	.byte	KEYSH , se_brake_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_brake_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_brake_tbs/2
 	.byte		VOICE , 2
 	.byte		VOL   , 127*se_brake_mvl/mxv
 	.byte		BENDR , 15
@@ -75,14 +75,14 @@ se_brake_1:
 	.byte	W01
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_brake):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_brake_pri	/* Priority */
-	.byte	se_brake_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_brake_pri	@ Priority
+	.byte	se_brake_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_brake_grp

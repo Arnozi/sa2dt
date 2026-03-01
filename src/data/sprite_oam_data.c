@@ -75902,7 +75902,7 @@ static const OamDataShort spriteOamData_Data[] = {
         .paletteNum = 0,
     },
 
-    // 273 - 0x081561E4
+    // 2273 - 0x2BD23
     {
         .y = 0,
         .affineMode = 0,

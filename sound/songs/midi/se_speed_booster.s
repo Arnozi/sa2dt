@@ -15,12 +15,12 @@
 	.global	C_DECL(se_speed_booster)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_speed_booster_1:
 	.byte	KEYSH , se_speed_booster_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_speed_booster_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_speed_booster_tbs/2
 	.byte		VOICE , 50
 	.byte		VOL   , 127*se_speed_booster_mvl/mxv
 	.byte		BENDR , 10
@@ -148,14 +148,14 @@ se_speed_booster_1:
 	.byte	W09
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_speed_booster):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_speed_booster_pri	/* Priority */
-	.byte	se_speed_booster_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_speed_booster_pri	@ Priority
+	.byte	se_speed_booster_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_speed_booster_grp

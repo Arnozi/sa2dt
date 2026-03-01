@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_act_clear)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_act_clear_1:
 	.byte	KEYSH , mus_act_clear_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 130*mus_act_clear_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 130*mus_act_clear_tbs/2
 	.byte		VOICE , 11
 	.byte		VOL   , 93*mus_act_clear_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -43,8 +43,8 @@ mus_act_clear_1:
 	.byte	W12
 	.byte		        En2 
 	.byte	W12
-/* 001   ----------------------------------------
- */	.byte		        En3 
+@ 001   ----------------------------------------
+	.byte		        En3 
 	.byte	W06
 	.byte		N06   
 	.byte	W06
@@ -56,16 +56,16 @@ mus_act_clear_1:
 	.byte	W12
 	.byte		N60   , Cs3 
 	.byte	W54
-/* 002   ----------------------------------------
- */	.byte	W06
+@ 002   ----------------------------------------
+	.byte	W06
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_act_clear_2:
 	.byte	KEYSH , mus_act_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 12
+@ 000   ----------------------------------------
+	.byte		VOICE , 12
 	.byte		VOL   , 60*mus_act_clear_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 0
@@ -87,8 +87,8 @@ mus_act_clear_2:
 	.byte	W12
 	.byte		N06   
 	.byte	W12
-/* 001   ----------------------------------------
- */	.byte		        Gs2 
+@ 001   ----------------------------------------
+	.byte		        Gs2 
 	.byte	W06
 	.byte		N06   
 	.byte	W06
@@ -100,16 +100,16 @@ mus_act_clear_2:
 	.byte	W12
 	.byte		N60   , Fs2 
 	.byte	W54
-/* 002   ----------------------------------------
- */	.byte	W06
+@ 002   ----------------------------------------
+	.byte	W06
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_act_clear_3:
 	.byte	KEYSH , mus_act_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 13
+@ 000   ----------------------------------------
+	.byte		VOICE , 13
 	.byte		VOL   , 81*mus_act_clear_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 0
@@ -131,8 +131,8 @@ mus_act_clear_3:
 	.byte	W12
 	.byte		N06   
 	.byte	W12
-/* 001   ----------------------------------------
- */	.byte		        En2 
+@ 001   ----------------------------------------
+	.byte		        En2 
 	.byte	W06
 	.byte		N06   
 	.byte	W06
@@ -144,16 +144,16 @@ mus_act_clear_3:
 	.byte	W12
 	.byte		N60   , Fs2 
 	.byte	W54
-/* 002   ----------------------------------------
- */	.byte	W06
+@ 002   ----------------------------------------
+	.byte	W06
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_act_clear_4:
 	.byte	KEYSH , mus_act_clear_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 127
+@ 000   ----------------------------------------
+	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_act_clear_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 127
@@ -188,8 +188,8 @@ mus_act_clear_4:
 	.byte	W06
 	.byte		        Fs1 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte		N05   , Cs1 
+@ 001   ----------------------------------------
+	.byte		N05   , Cs1 
 	.byte		N12   , Ds1 , v036
 	.byte		N40   , Cs2 , v056
 	.byte	W06
@@ -206,17 +206,17 @@ mus_act_clear_4:
 	.byte		N12   , Ds1 , v036
 	.byte		N54   , Cs2 , v056
 	.byte	W54
-/* 002   ----------------------------------------
- */	.byte	FINE
+@ 002   ----------------------------------------
+	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_act_clear):
-	.byte	4	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_act_clear_pri	/* Priority */
-	.byte	mus_act_clear_rev	/* Reverb */
+	.byte	4	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_act_clear_pri	@ Priority
+	.byte	mus_act_clear_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_act_clear_grp

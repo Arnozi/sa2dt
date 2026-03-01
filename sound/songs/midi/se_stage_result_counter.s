@@ -15,12 +15,12 @@
 	.global	C_DECL(se_stage_result_counter)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_stage_result_counter_1:
 	.byte	KEYSH , se_stage_result_counter_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 180*se_stage_result_counter_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 180*se_stage_result_counter_tbs/2
 	.byte		VOICE , 1
 	.byte		VOL   , 127*se_stage_result_counter_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -29,14 +29,14 @@ se_stage_result_counter_1:
 	.byte	W04
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_stage_result_counter):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_stage_result_counter_pri	/* Priority */
-	.byte	se_stage_result_counter_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_stage_result_counter_pri	@ Priority
+	.byte	se_stage_result_counter_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_stage_result_counter_grp

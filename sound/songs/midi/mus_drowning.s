@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_drowning)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_drowning_1:
 	.byte	KEYSH , mus_drowning_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*mus_drowning_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*mus_drowning_tbs/2
 	.byte		VOICE , 30
 	.byte		VOL   , 92*mus_drowning_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -41,8 +41,8 @@ mus_drowning_1:
 	.byte	W12
 	.byte		        Cs4 
 	.byte	W12
-/* 001   ----------------------------------------
- */	.byte		        Cn3 
+@ 001   ----------------------------------------
+	.byte		        Cn3 
 	.byte	W12
 	.byte		        Cn4 
 	.byte	W12
@@ -58,8 +58,8 @@ mus_drowning_1:
 	.byte	W12
 	.byte		        Cs4 
 	.byte	W12
-/* 002   ----------------------------------------
- */	.byte		        Cn3 
+@ 002   ----------------------------------------
+	.byte		        Cn3 
 	.byte	W08
 	.byte		        Cn4 
 	.byte	W08
@@ -83,8 +83,8 @@ mus_drowning_1:
 	.byte	W08
 	.byte		        Cn4 
 	.byte	W08
-/* 003   ----------------------------------------
- */	.byte		        Cs3 
+@ 003   ----------------------------------------
+	.byte		        Cs3 
 	.byte	W08
 	.byte		        Cs4 
 	.byte	W08
@@ -114,8 +114,8 @@ mus_drowning_1:
 	.byte	W06
 	.byte		        Cn3 
 	.byte	W06
-/* 004   ----------------------------------------
- */mus_drowning_1_004:
+@ 004   ----------------------------------------
+mus_drowning_1_004:
 	.byte		N06   , Cn4 , v124
 	.byte	W06
 	.byte		        Cs3 
@@ -149,11 +149,11 @@ mus_drowning_1:
 	.byte		        Cn3 
 	.byte	W06
 	.byte	PEND
-/* 005   ----------------------------------------
- */	.byte	PATT
+@ 005   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_drowning_1_004
-/* 006   ----------------------------------------
- */	.byte		N06   , Cn4 , v124
+@ 006   ----------------------------------------
+	.byte		N06   , Cn4 , v124
 	.byte	W06
 	.byte		        Cs3 
 	.byte	W06
@@ -168,12 +168,12 @@ mus_drowning_1:
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_drowning_2:
 	.byte	KEYSH , mus_drowning_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 31
+@ 000   ----------------------------------------
+	.byte		VOICE , 31
 	.byte		VOL   , 92*mus_drowning_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 0
@@ -193,8 +193,8 @@ mus_drowning_2:
 	.byte	W12
 	.byte		        Cs4 
 	.byte	W12
-/* 001   ----------------------------------------
- */	.byte		        Cn3 
+@ 001   ----------------------------------------
+	.byte		        Cn3 
 	.byte	W12
 	.byte		        Cn4 
 	.byte	W12
@@ -210,8 +210,8 @@ mus_drowning_2:
 	.byte	W12
 	.byte		        Cs4 
 	.byte	W12
-/* 002   ----------------------------------------
- */	.byte		        Cn3 
+@ 002   ----------------------------------------
+	.byte		        Cn3 
 	.byte	W08
 	.byte		        Cn4 
 	.byte	W08
@@ -235,8 +235,8 @@ mus_drowning_2:
 	.byte	W08
 	.byte		        Cn4 
 	.byte	W08
-/* 003   ----------------------------------------
- */	.byte		        Cs3 
+@ 003   ----------------------------------------
+	.byte		        Cs3 
 	.byte	W08
 	.byte		        Cs4 
 	.byte	W08
@@ -266,8 +266,8 @@ mus_drowning_2:
 	.byte	W06
 	.byte		        Cn3 
 	.byte	W06
-/* 004   ----------------------------------------
- */mus_drowning_2_004:
+@ 004   ----------------------------------------
+mus_drowning_2_004:
 	.byte		N06   , Cn4 , v124
 	.byte	W06
 	.byte		        Cs3 
@@ -301,11 +301,11 @@ mus_drowning_2:
 	.byte		        Cn3 
 	.byte	W06
 	.byte	PEND
-/* 005   ----------------------------------------
- */	.byte	PATT
+@ 005   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_drowning_2_004
-/* 006   ----------------------------------------
- */	.byte		N06   , Cn4 , v124
+@ 006   ----------------------------------------
+	.byte		N06   , Cn4 , v124
 	.byte	W06
 	.byte		        Cs3 
 	.byte	W06
@@ -320,12 +320,12 @@ mus_drowning_2:
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_drowning_3:
 	.byte	KEYSH , mus_drowning_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 127
+@ 000   ----------------------------------------
+	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_drowning_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 127
@@ -337,18 +337,16 @@ mus_drowning_3:
 	.byte	W24
 	.byte		N23   
 	.byte	W24
-/* 001   ----------------------------------------
- */	.byte		N23   
-	.byte	W24
+@ 001   ----------------------------------------
 	.byte		N23   
 	.byte	W24
 	.byte		N23   
 	.byte	W24
 	.byte		N23   
 	.byte	W24
-/* 002   ----------------------------------------
- */	.byte		N15   
-	.byte	W16
+	.byte		N23   
+	.byte	W24
+@ 002   ----------------------------------------
 	.byte		N15   
 	.byte	W16
 	.byte		N15   
@@ -359,8 +357,10 @@ mus_drowning_3:
 	.byte	W16
 	.byte		N15   
 	.byte	W16
-/* 003   ----------------------------------------
- */	.byte		N15   
+	.byte		N15   
+	.byte	W16
+@ 003   ----------------------------------------
+	.byte		N15   
 	.byte	W16
 	.byte		N13   
 	.byte	W14
@@ -376,8 +376,8 @@ mus_drowning_3:
 	.byte	W12
 	.byte		N11   
 	.byte	W06
-/* 004   ----------------------------------------
- */mus_drowning_3_004:
+@ 004   ----------------------------------------
+mus_drowning_3_004:
 	.byte	W06
 	.byte		N11   , Cs1 , v116
 	.byte	W12
@@ -396,11 +396,11 @@ mus_drowning_3:
 	.byte		N11   
 	.byte	W06
 	.byte	PEND
-/* 005   ----------------------------------------
- */	.byte	PATT
+@ 005   ----------------------------------------
+	.byte	PATT
 	 mPtr	mus_drowning_3_004
-/* 006   ----------------------------------------
- */	.byte	W06
+@ 006   ----------------------------------------
+	.byte	W06
 	.byte		N11   , Cs1 , v116
 	.byte	W12
 	.byte		N11   
@@ -409,14 +409,14 @@ mus_drowning_3:
 	.byte	W12
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_drowning):
-	.byte	3	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_drowning_pri	/* Priority */
-	.byte	mus_drowning_rev	/* Reverb */
+	.byte	3	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_drowning_pri	@ Priority
+	.byte	mus_drowning_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_drowning_grp

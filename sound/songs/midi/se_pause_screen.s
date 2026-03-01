@@ -15,12 +15,12 @@
 	.global	C_DECL(se_pause_screen)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_pause_screen_1:
 	.byte	KEYSH , se_pause_screen_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_pause_screen_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_pause_screen_tbs/2
 	.byte		VOICE , 25
 	.byte		MOD   , 3
 	.byte		VOL   , 127*se_pause_screen_mvl/mxv
@@ -37,14 +37,14 @@ se_pause_screen_1:
 	.byte	W01
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_pause_screen):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_pause_screen_pri	/* Priority */
-	.byte	se_pause_screen_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_pause_screen_pri	@ Priority
+	.byte	se_pause_screen_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_pause_screen_grp

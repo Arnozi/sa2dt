@@ -15,12 +15,12 @@
 	.global	C_DECL(se_283)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_283_1:
 	.byte	KEYSH , se_283_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 126*se_283_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 126*se_283_tbs/2
 	.byte		VOICE , 83
 	.byte		VOL   , 127*se_283_mvl/mxv
 	.byte		BENDR , 18
@@ -122,8 +122,8 @@ se_283_1_B1:
 	.byte	W06
 	.byte		        23*se_283_mvl/mxv
 	.byte	W30
-/* 001   ----------------------------------------
- */	.byte	W48
+@ 001   ----------------------------------------
+	.byte	W48
 	.byte	GOTO
 	 mPtr	se_283_1_B1
 se_283_1_B2:
@@ -131,14 +131,14 @@ se_283_1_B2:
 	.byte		EOT   , Fn4 
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_283):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_283_pri	/* Priority */
-	.byte	se_283_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_283_pri	@ Priority
+	.byte	se_283_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_283_grp

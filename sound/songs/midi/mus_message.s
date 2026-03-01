@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_message)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_message_1:
 	.byte	KEYSH , mus_message_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 80*mus_message_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 80*mus_message_tbs/2
 	.byte		VOICE , 127
 	.byte		VOL   , 127*mus_message_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -47,16 +47,16 @@ mus_message_1:
 	.byte	W06
 	.byte		N84   , Cs2 , v127
 	.byte	W48
-/* 001   ----------------------------------------
- */	.byte	W36
+@ 001   ----------------------------------------
+	.byte	W36
 	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_message_2:
 	.byte	KEYSH , mus_message_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 86
+@ 000   ----------------------------------------
+	.byte		VOICE , 86
 	.byte		MOD   , 0
 	.byte		BENDR , 0
 	.byte		VOL   , 127*mus_message_mvl/mxv
@@ -95,8 +95,8 @@ mus_message_2:
 	.byte	W06
 	.byte		        86*mus_message_mvl/mxv
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte		        92*mus_message_mvl/mxv
+@ 001   ----------------------------------------
+	.byte		        92*mus_message_mvl/mxv
 	.byte	W06
 	.byte		        98*mus_message_mvl/mxv
 	.byte	W06
@@ -122,8 +122,8 @@ mus_message_2:
 	.byte	W06
 	.byte		        72*mus_message_mvl/mxv
 	.byte	W06
-/* 002   ----------------------------------------
- */	.byte		        63*mus_message_mvl/mxv
+@ 002   ----------------------------------------
+	.byte		        63*mus_message_mvl/mxv
 	.byte	W06
 	.byte		        56*mus_message_mvl/mxv
 	.byte	W06
@@ -143,12 +143,12 @@ mus_message_2:
 	.byte		        Fs3 
 	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_message_3:
 	.byte	KEYSH , mus_message_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 41
+@ 000   ----------------------------------------
+	.byte		VOICE , 41
 	.byte		VOL   , 103*mus_message_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte	W06
@@ -164,8 +164,8 @@ mus_message_3:
 	.byte	W12
 	.byte		TIE   , An3 , v127
 	.byte	W48
-/* 001   ----------------------------------------
- */	.byte	W48
+@ 001   ----------------------------------------
+	.byte	W48
 	.byte		VOL   , 127*mus_message_mvl/mxv
 	.byte	W06
 	.byte		        120*mus_message_mvl/mxv
@@ -182,8 +182,8 @@ mus_message_3:
 	.byte	W06
 	.byte		        72*mus_message_mvl/mxv
 	.byte	W06
-/* 002   ----------------------------------------
- */	.byte		        63*mus_message_mvl/mxv
+@ 002   ----------------------------------------
+	.byte		        63*mus_message_mvl/mxv
 	.byte	W06
 	.byte		        56*mus_message_mvl/mxv
 	.byte	W06
@@ -202,12 +202,12 @@ mus_message_3:
 	.byte		EOT   
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_message_4:
 	.byte	KEYSH , mus_message_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 105
+@ 000   ----------------------------------------
+	.byte		VOICE , 105
 	.byte		MOD   , 0
 	.byte		BENDR , 0
 	.byte		VOL   , 115*mus_message_mvl/mxv
@@ -239,8 +239,8 @@ mus_message_4:
 	.byte	W03
 	.byte		        An5 , v080
 	.byte	W02
-/* 001   ----------------------------------------
- */	.byte	W01
+@ 001   ----------------------------------------
+	.byte	W01
 	.byte		        Ds5 , v092
 	.byte	W03
 	.byte		        Fs5 
@@ -321,8 +321,8 @@ mus_message_4:
 	.byte	W03
 	.byte		        Cn2 
 	.byte	W02
-/* 002   ----------------------------------------
- */	.byte		VOL   , 63*mus_message_mvl/mxv
+@ 002   ----------------------------------------
+	.byte		VOL   , 63*mus_message_mvl/mxv
 	.byte	W01
 	.byte		N02   , Ds2 
 	.byte	W03
@@ -367,12 +367,12 @@ mus_message_4:
 	.byte		VOL   , 0*mus_message_mvl/mxv
 	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_message_5:
 	.byte	KEYSH , mus_message_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 107
+@ 000   ----------------------------------------
+	.byte		VOICE , 107
 	.byte		MOD   , 1
 	.byte		BENDR , 0
 	.byte		VOL   , 127*mus_message_mvl/mxv
@@ -392,8 +392,8 @@ mus_message_5:
 	.byte	W12
 	.byte		TIE   , An2 , v116
 	.byte	W48
-/* 001   ----------------------------------------
- */	.byte	W48
+@ 001   ----------------------------------------
+	.byte	W48
 	.byte		VOL   , 108*mus_message_mvl/mxv
 	.byte	W06
 	.byte		        101*mus_message_mvl/mxv
@@ -410,8 +410,8 @@ mus_message_5:
 	.byte	W06
 	.byte		        54*mus_message_mvl/mxv
 	.byte	W06
-/* 002   ----------------------------------------
- */	.byte		        46*mus_message_mvl/mxv
+@ 002   ----------------------------------------
+	.byte		        46*mus_message_mvl/mxv
 	.byte	W06
 	.byte		        39*mus_message_mvl/mxv
 	.byte	W06
@@ -428,12 +428,12 @@ mus_message_5:
 	.byte		EOT   
 	.byte	FINE
 
-/* **************** Track 6 (Midi-Chn.6) **************** */
+@ **************** Track 6 (Midi-Chn.6) ****************
 
 mus_message_6:
 	.byte	KEYSH , mus_message_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 64
+@ 000   ----------------------------------------
+	.byte		VOICE , 64
 	.byte		MOD   , 0
 	.byte		BENDR , 0
 	.byte		VOL   , 115*mus_message_mvl/mxv
@@ -455,8 +455,8 @@ mus_message_6:
 	.byte	W03
 	.byte		        Ds4 , v127
 	.byte	W03
-/* 001   ----------------------------------------
- */	.byte		VOL   , 113*mus_message_mvl/mxv
+@ 001   ----------------------------------------
+	.byte		VOL   , 113*mus_message_mvl/mxv
 	.byte		N02   , Fs4 
 	.byte	W03
 	.byte		        Cn4 
@@ -536,8 +536,8 @@ mus_message_6:
 	.byte	W03
 	.byte		        Ds1 
 	.byte	W03
-/* 002   ----------------------------------------
- */	.byte		        An0 , v124
+@ 002   ----------------------------------------
+	.byte		        An0 , v124
 	.byte	W03
 	.byte		        Cn1 , v127
 	.byte	W03
@@ -567,14 +567,14 @@ mus_message_6:
 	.byte		VOL   , 0*mus_message_mvl/mxv
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_message):
-	.byte	6	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_message_pri	/* Priority */
-	.byte	mus_message_rev	/* Reverb */
+	.byte	6	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_message_pri	@ Priority
+	.byte	mus_message_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_message_grp

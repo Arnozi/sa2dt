@@ -15,12 +15,12 @@
 	.global	C_DECL(se_map_214)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_map_214_1:
 	.byte	KEYSH , se_map_214_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 108*se_map_214_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 108*se_map_214_tbs/2
 	.byte		VOICE , 14
 	.byte		VOL   , 127*se_map_214_mvl/mxv
 	.byte		LFOS  , 45
@@ -149,14 +149,14 @@ se_map_214_1:
 	.byte	W03
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_map_214):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_map_214_pri	/* Priority */
-	.byte	se_map_214_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_map_214_pri	@ Priority
+	.byte	se_map_214_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_map_214_grp

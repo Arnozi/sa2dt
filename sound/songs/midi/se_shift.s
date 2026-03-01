@@ -15,12 +15,12 @@
 	.global	C_DECL(se_shift)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_shift_1:
 	.byte	KEYSH , se_shift_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_shift_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_shift_tbs/2
 	.byte		VOICE , 119
 	.byte		VOL   , 127*se_shift_mvl/mxv
 	.byte		LFOS  , 60
@@ -70,14 +70,14 @@ se_shift_1:
 	.byte		        4*se_shift_mvl/mxv
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_shift):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_shift_pri	/* Priority */
-	.byte	se_shift_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_shift_pri	@ Priority
+	.byte	se_shift_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_shift_grp

@@ -15,12 +15,12 @@
 	.global	C_DECL(se_grinding)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_grinding_1:
 	.byte	KEYSH , se_grinding_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 120*se_grinding_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 120*se_grinding_tbs/2
 	.byte		VOICE , 68
 	.byte		VOL   , 127*se_grinding_mvl/mxv
 	.byte		LFOS  , 15
@@ -39,24 +39,24 @@ se_grinding_1:
 	.byte		TIE   , Bn3 , v072
 	.byte	W76
 se_grinding_1_B1:
-/* 001   ----------------------------------------
- */	.byte	W96
+@ 001   ----------------------------------------
+	.byte	W96
 	.byte	GOTO
 	 mPtr	se_grinding_1_B1
 se_grinding_1_B2:
-/* 002   ----------------------------------------
- */	.byte	W12
+@ 002   ----------------------------------------
+	.byte	W12
 	.byte		EOT   , Bn3 
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_grinding):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_grinding_pri	/* Priority */
-	.byte	se_grinding_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_grinding_pri	@ Priority
+	.byte	se_grinding_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_grinding_grp

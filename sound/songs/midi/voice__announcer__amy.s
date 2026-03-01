@@ -15,26 +15,26 @@
 	.global	C_DECL(voice__announcer__amy)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 voice__announcer__amy_1:
 	.byte	KEYSH , voice__announcer__amy_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 74*voice__announcer__amy_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 74*voice__announcer__amy_tbs/2
 	.byte		VOICE , 5
 	.byte		VOL   , 127*voice__announcer__amy_mvl/mxv
 	.byte		N84   , Cn3 , v127
 	.byte	W84
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(voice__announcer__amy):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	voice__announcer__amy_pri	/* Priority */
-	.byte	voice__announcer__amy_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	voice__announcer__amy_pri	@ Priority
+	.byte	voice__announcer__amy_rev	@ Reverb
 
 mAlignWord
 	mPtr	voice__announcer__amy_grp

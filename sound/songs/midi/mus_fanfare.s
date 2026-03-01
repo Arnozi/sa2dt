@@ -15,12 +15,12 @@
 	.global	C_DECL(mus_fanfare)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 mus_fanfare_1:
 	.byte	KEYSH , mus_fanfare_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 164*mus_fanfare_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 164*mus_fanfare_tbs/2
 	.byte		VOICE , 127
 	.byte	PRIO  , 127
 	.byte		VOL   , 0*mus_fanfare_mvl/mxv
@@ -45,15 +45,15 @@ mus_fanfare_1:
 	.byte		N18   , Ds1 , v068
 	.byte		N24   , Ds2 , v127
 	.byte	W24
-/* 001   ----------------------------------------
- */	.byte	FINE
+@ 001   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 2 (Midi-Chn.2) **************** */
+@ **************** Track 2 (Midi-Chn.2) ****************
 
 mus_fanfare_2:
 	.byte	KEYSH , mus_fanfare_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 44
+@ 000   ----------------------------------------
+	.byte		VOICE , 44
 	.byte	PRIO  , 127
 	.byte		VOL   , 127*mus_fanfare_mvl/mxv
 	.byte		N12   , An2 , v124
@@ -84,15 +84,15 @@ mus_fanfare_2:
 	.byte	W06
 	.byte		N06   
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	FINE
+@ 001   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 3 (Midi-Chn.3) **************** */
+@ **************** Track 3 (Midi-Chn.3) ****************
 
 mus_fanfare_3:
 	.byte	KEYSH , mus_fanfare_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 101
+@ 000   ----------------------------------------
+	.byte		VOICE , 101
 	.byte	PRIO  , 127
 	.byte		VOL   , 127*mus_fanfare_mvl/mxv
 	.byte		MOD   , 0
@@ -108,12 +108,12 @@ mus_fanfare_3:
 	.byte	W06
 	.byte	FINE
 
-/* **************** Track 4 (Midi-Chn.4) **************** */
+@ **************** Track 4 (Midi-Chn.4) ****************
 
 mus_fanfare_4:
 	.byte	KEYSH , mus_fanfare_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 102
+@ 000   ----------------------------------------
+	.byte		VOICE , 102
 	.byte	PRIO  , 127
 	.byte		VOL   , 127*mus_fanfare_mvl/mxv
 	.byte		N12   , En3 , v120
@@ -154,12 +154,12 @@ mus_fanfare_4:
 	.byte	W03
 	.byte	FINE
 
-/* **************** Track 5 (Midi-Chn.5) **************** */
+@ **************** Track 5 (Midi-Chn.5) ****************
 
 mus_fanfare_5:
 	.byte	KEYSH , mus_fanfare_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 95
+@ 000   ----------------------------------------
+	.byte		VOICE , 95
 	.byte	PRIO  , 127
 	.byte		VOL   , 90*mus_fanfare_mvl/mxv
 	.byte		BENDR , 12
@@ -189,12 +189,12 @@ mus_fanfare_5:
 	.byte	W12
 	.byte	FINE
 
-/* **************** Track 6 (Midi-Chn.6) **************** */
+@ **************** Track 6 (Midi-Chn.6) ****************
 
 mus_fanfare_6:
 	.byte	KEYSH , mus_fanfare_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 99
+@ 000   ----------------------------------------
+	.byte		VOICE , 99
 	.byte	PRIO  , 127
 	.byte		VOL   , 103*mus_fanfare_mvl/mxv
 	.byte		BENDR , 12
@@ -226,15 +226,15 @@ mus_fanfare_6:
 	.byte	W06
 	.byte		N06   
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	FINE
+@ 001   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 7 (Midi-Chn.7) **************** */
+@ **************** Track 7 (Midi-Chn.7) ****************
 
 mus_fanfare_7:
 	.byte	KEYSH , mus_fanfare_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 101
+@ 000   ----------------------------------------
+	.byte		VOICE , 101
 	.byte	PRIO  , 127
 	.byte		VOL   , 0*mus_fanfare_mvl/mxv
 	.byte		MOD   , 0
@@ -320,15 +320,15 @@ mus_fanfare_7:
 	.byte		N06   , Ds3 
 	.byte		N06   , En3 
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	FINE
+@ 001   ----------------------------------------
+	.byte	FINE
 
-/* **************** Track 8 (Midi-Chn.8) **************** */
+@ **************** Track 8 (Midi-Chn.8) ****************
 
 mus_fanfare_8:
 	.byte	KEYSH , mus_fanfare_key+0
-/* 000   ----------------------------------------
- */	.byte		VOICE , 127
+@ 000   ----------------------------------------
+	.byte		VOICE , 127
 	.byte	PRIO  , 120
 	.byte		VOL   , 0*mus_fanfare_mvl/mxv
 	.byte		N06   , Dn1 , v004
@@ -363,17 +363,17 @@ mus_fanfare_8:
 	.byte	W06
 	.byte		N06   
 	.byte	W06
-/* 001   ----------------------------------------
- */	.byte	FINE
+@ 001   ----------------------------------------
+	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(mus_fanfare):
-	.byte	8	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	mus_fanfare_pri	/* Priority */
-	.byte	mus_fanfare_rev	/* Reverb */
+	.byte	8	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	mus_fanfare_pri	@ Priority
+	.byte	mus_fanfare_rev	@ Reverb
 
 mAlignWord
 	mPtr	mus_fanfare_grp

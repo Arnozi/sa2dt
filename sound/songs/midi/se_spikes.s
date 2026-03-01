@@ -15,12 +15,12 @@
 	.global	C_DECL(se_spikes)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_spikes_1:
 	.byte	KEYSH , se_spikes_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_spikes_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_spikes_tbs/2
 	.byte		VOICE , 60
 	.byte		VOL   , 127*se_spikes_mvl/mxv
 	.byte		PAN   , c_v+0
@@ -110,14 +110,14 @@ se_spikes_1:
 	.byte	W02
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_spikes):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_spikes_pri	/* Priority */
-	.byte	se_spikes_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_spikes_pri	@ Priority
+	.byte	se_spikes_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_spikes_grp

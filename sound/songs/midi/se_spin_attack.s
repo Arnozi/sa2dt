@@ -15,31 +15,31 @@
 	.global	C_DECL(se_spin_attack)
 	mAlignWord
 
-/* **************** Track 1 (Midi-Chn.1) **************** */
+@ **************** Track 1 (Midi-Chn.1) ****************
 
 se_spin_attack_1:
 	.byte	KEYSH , se_spin_attack_key+0
-/* 000   ----------------------------------------
- */	.byte	TEMPO , 150*se_spin_attack_tbs/2
+@ 000   ----------------------------------------
+	.byte	TEMPO , 150*se_spin_attack_tbs/2
 	.byte		VOICE , 0
 	.byte		VOL   , 127*se_spin_attack_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		BENDR , 6
 	.byte		TIE   , Cn3 , v127
 	.byte	W96
-/* 001   ----------------------------------------
- */	.byte	W48
+@ 001   ----------------------------------------
+	.byte	W48
 	.byte		EOT   
 	.byte	FINE
 
-/* ****************************************************** */
+@ ******************************************************
 	mAlignWord
 
 C_DECL(se_spin_attack):
-	.byte	1	/* NumTrks */
-	.byte	0	/* NumBlks */
-	.byte	se_spin_attack_pri	/* Priority */
-	.byte	se_spin_attack_rev	/* Reverb */
+	.byte	1	@ NumTrks
+	.byte	0	@ NumBlks
+	.byte	se_spin_attack_pri	@ Priority
+	.byte	se_spin_attack_rev	@ Reverb
 
 mAlignWord
 	mPtr	se_spin_attack_grp

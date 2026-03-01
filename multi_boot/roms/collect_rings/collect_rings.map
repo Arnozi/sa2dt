@@ -1,0 +1,1374 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+                              build/collect_rings/src/sa2/multi_sio.o (_call_via_r0)
+../../../tools/agbcc/lib/libgcc.a(_divsi3.o)
+                              build/collect_rings/src/sa2/lib/m4a/m4a.o (__divsi3)
+../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+                              ../../../tools/agbcc/lib/libgcc.a(_divsi3.o) (__div0)
+../../../tools/agbcc/lib/libgcc.a(_umodsi3.o)
+                              build/collect_rings/src/sa2/game/mystery_itembox.o (__umodsi3)
+../../../tools/agbcc/lib/libc.a(memcpy.o)
+                              build/collect_rings/src/sa2/game/stage/camera.o (memcpy)
+../../../tools/agbcc/lib/libc.a(memset.o)
+                              build/collect_rings/src/sa2/game/multiplayer/finish.o (memset)
+../../../libagbsyscall/libagbsyscall.a(VBlankIntrWait.o)
+                              build/collect_rings/src/sa2/core.o (VBlankIntrWait)
+../../../libagbsyscall/libagbsyscall.a(ArcTan2.o)
+                              build/collect_rings/src/sa2/game/stage/player.o (ArcTan2)
+../../../libagbsyscall/libagbsyscall.a(Div.o)
+                              build/collect_rings/src/sa2/game/stage/terrain_collision.o (Div)
+../../../libagbsyscall/libagbsyscall.a(RLUnCompWram.o)
+                              build/collect_rings/src/sa2/game/sa1_sa2_shared/entities_manager.o (RLUnCompWram)
+../../../libagbsyscall/libagbsyscall.a(CpuFastSet.o)
+                              build/collect_rings/src/sa2/background.o (CpuFastSet)
+../../../libagbsyscall/libagbsyscall.a(CpuSet.o)
+                              build/collect_rings/src/sa2/lib/m4a/m4a.o (CpuSet)
+
+Allocating common symbols
+Common symbol       size              file
+
+gSio32MultiLoadArea
+                    0x18              build/collect_rings/src/sa2/sio32_multi_load.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/lib/m4a/m4a.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/lib/m4a/m4a.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/lib/m4a/m4a.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/stage/terrain_collision.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/multi_sio.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/multi_sio.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/sio32_multi_load.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/sio32_multi_load.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/sio32_multi_load.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/core.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/core.o
+ .text          0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/globals.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/globals.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/sa1_sa2_shared/globals.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/multiboot/collect_rings/time_display.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/multiboot/collect_rings/time_display.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/mp_player.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/multiplayer/mp_player.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/mp_attack_2_effect.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/multiplayer/mp_attack_2_effect.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/stage/camera.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/stage/camera.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/stage/player.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/stage/player.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/stage/rings_scatter.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/stage/rings_scatter.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/stage/player_controls.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/stage/player_controls.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/stage/stage.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/stage/stage.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/dummy_task.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/dummy_task.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/rom_header.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/rom_header.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/rom_header.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/crt0.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/crt0.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/crt0.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/multi_sio_asm.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/multi_sio_asm.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/multi_sio_asm.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/main.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/main.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/main.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/task.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/task.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/task.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/background.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/background.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/background.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/sprite.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/sprite.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/sprite.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/malloc_vram.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/malloc_vram.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/malloc_vram.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/bg_triangles.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/bg_triangles.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/bg_triangles.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_mgr.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_mgr.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_mgr.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_recv_mgr.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_recv_mgr.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_recv_mgr.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/multiboot/collect_rings/results.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/multiboot/collect_rings/results.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/multiboot/collect_rings/results.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/entities_manager.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/entities_manager.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/sa1_sa2_shared/entities_manager.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/collision.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/collision.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/sa1_sa2_shared/collision.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/mystery_itembox.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/mystery_itembox.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/mystery_itembox.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/rings_manager.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/rings_manager.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/sa1_sa2_shared/rings_manager.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/indicators.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/indicators.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/multiplayer/indicators.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/finish.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/multiplayer/finish.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/multiplayer/finish.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/interactables_1/toggle_player_layer.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/interactables_1/toggle_player_layer.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/interactables_1/toggle_player_layer.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/spring.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/spring.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/spring.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/ramp.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/ramp.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/ramp.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/interactables_1/spikes.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/interactables_1/spikes.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/interactables_1/spikes.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/grind_rail.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/grind_rail.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/grind_rail.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/interactables_2/collect_rings_lap_trigger.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/interactables_2/collect_rings_lap_trigger.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/interactables_2/collect_rings_lap_trigger.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/dust_cloud.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/dust_cloud.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/sa1_sa2_shared/dust_cloud.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/collect_ring_effect.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/sa1_sa2_shared/collect_ring_effect.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/sa1_sa2_shared/collect_ring_effect.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/multiboot/connection.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/multiboot/connection.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/multiboot/connection.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/game/game.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/game/game.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/game/game.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/lib/m4a/m4a0.o
+ .bss           0x00000000       0x40 build/collect_rings/src/sa2/lib/m4a/m4a0.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/lib/m4a/m4a0.o
+ .text          0x00000000        0x0 build/collect_rings/src/sa2/trig.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/trig.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/trig.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/trig.o
+ .text          0x00000000        0x0 build/collect_rings/src/sa2/lib/m4a/m4a_tables.o
+ .data          0x00000000        0x0 build/collect_rings/src/sa2/lib/m4a/m4a_tables.o
+ .bss           0x00000000        0x0 build/collect_rings/src/sa2/lib/m4a/m4a_tables.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/src/sa2/lib/m4a/m4a_tables.o
+ .text          0x00000000        0x0 build/collect_rings/data/sound_data.o
+ .data          0x00000000        0x0 build/collect_rings/data/sound_data.o
+ .bss           0x00000000        0x0 build/collect_rings/data/sound_data.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/data/sound_data.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_select_pak_mode.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_select_pak_mode.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_select_pak_mode.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/mus_vs_select_pak_mode.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_2.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_2.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_2.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/mus_vs_2.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_lobby.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_lobby.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_lobby.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/mus_vs_lobby.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_fanfare.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_fanfare.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_fanfare.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/mus_fanfare.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_3.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_3.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/mus_vs_3.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/mus_vs_3.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_select.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_select.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_select.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_select.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spin_attack__collect_rings.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spin_attack__collect_rings.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spin_attack__collect_rings.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_spin_attack__collect_rings.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spin_dash_release.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spin_dash_release.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spin_dash_release.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_spin_dash_release.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_brake__collect_rings.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_brake__collect_rings.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_brake__collect_rings.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_brake__collect_rings.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_jump__collect_rings.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_jump__collect_rings.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_jump__collect_rings.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_jump__collect_rings.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_ring_copy.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_ring_copy.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_ring_copy.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_ring_copy.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_rings_lost__collect_rings.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_rings_lost__collect_rings.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_rings_lost__collect_rings.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_rings_lost__collect_rings.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_life_lost.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_life_lost.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_life_lost.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_life_lost.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_time_up.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_time_up.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_time_up.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_time_up.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_itembox_2.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_itembox_2.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_itembox_2.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_itembox_2.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spring__collect_rings.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spring__collect_rings.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spring__collect_rings.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_spring__collect_rings.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spikes.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spikes.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_spikes.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_spikes.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_alarm_1.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_alarm_1.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_alarm_1.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_alarm_1.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_216__collect_rings.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_216__collect_rings.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_216__collect_rings.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_216__collect_rings.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_springy_spring__collect_rings.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_springy_spring__collect_rings.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_springy_spring__collect_rings.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_springy_spring__collect_rings.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_276.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_276.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_276.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_276.o
+ .text          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_grinding.o
+ .data          0x00000000        0x0 build/collect_rings/sound/songs/midi/se_grinding.o
+ .bss           0x00000000        0x0 build/collect_rings/sound/songs/midi/se_grinding.o
+ .ARM.attributes
+                0x00000000       0x20 build/collect_rings/sound/songs/midi/se_grinding.o
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_umodsi3.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libgcc.a(_umodsi3.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libgcc.a(_umodsi3.o)
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libc.a(memcpy.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libc.a(memcpy.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libc.a(memcpy.o)
+ .data          0x00000000        0x0 ../../../tools/agbcc/lib/libc.a(memset.o)
+ .bss           0x00000000        0x0 ../../../tools/agbcc/lib/libc.a(memset.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../tools/agbcc/lib/libc.a(memset.o)
+ .data          0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(VBlankIntrWait.o)
+ .bss           0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(VBlankIntrWait.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../libagbsyscall/libagbsyscall.a(VBlankIntrWait.o)
+ .data          0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(ArcTan2.o)
+ .bss           0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(ArcTan2.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../libagbsyscall/libagbsyscall.a(ArcTan2.o)
+ .data          0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(Div.o)
+ .bss           0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(Div.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../libagbsyscall/libagbsyscall.a(Div.o)
+ .data          0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(RLUnCompWram.o)
+ .bss           0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(RLUnCompWram.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../libagbsyscall/libagbsyscall.a(RLUnCompWram.o)
+ .data          0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(CpuFastSet.o)
+ .bss           0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(CpuFastSet.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../libagbsyscall/libagbsyscall.a(CpuFastSet.o)
+ .data          0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(CpuSet.o)
+ .bss           0x00000000        0x0 ../../../libagbsyscall/libagbsyscall.a(CpuSet.o)
+ .ARM.attributes
+                0x00000000       0x20 ../../../libagbsyscall/libagbsyscall.a(CpuSet.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000004                        gNumMusicPlayers = 0x4
+                0x00000000                        gMaxLines = 0x0
+                0x03000000                        . = 0x3000000
+
+IWRAM           0x03000000     0x57d8
+ build/collect_rings/src/sa2/lib/m4a/m4a.o(.bss.code)
+ .bss.code      0x03000000      0x400 build/collect_rings/src/sa2/lib/m4a/m4a.o
+                0x03000000                SoundMainRAM_Buffer
+ build/collect_rings/src/sa2/game/stage/terrain_collision.o(.bss)
+ .bss           0x03000400       0x1c build/collect_rings/src/sa2/game/stage/terrain_collision.o
+                0x03000420                        . = ALIGN (0x10)
+ *fill*         0x0300041c        0x4 
+ build/collect_rings/src/sa2/multi_sio.o(.data)
+ .data          0x03000420      0x350 build/collect_rings/src/sa2/multi_sio.o
+                0x03000420                gMultiSioIntrFuncBuf
+                0x03000540                gMultiSioArea
+                0x03000728                gUnusedMultiSioSpace
+                0x03000730                gMultiSioRecvFuncBuf
+ build/collect_rings/src/sa2/sio32_multi_load.o(COMMON)
+ COMMON         0x03000770       0x18 build/collect_rings/src/sa2/sio32_multi_load.o
+                0x03000770                gSio32MultiLoadArea
+ build/collect_rings/src/sa2/core.o(.data)
+ *fill*         0x03000788        0x8 
+ .data          0x03000790     0x4c0c build/collect_rings/src/sa2/core.o
+                0x03000790                gIntrTable
+                0x030007d0                gIntrMainBuf
+                0x030009d0                gTasks
+                0x030017d0                gUnknown_030017F0
+                0x030017d4                gSpriteOffset
+                0x030017e0                gBackgroundsCopyQueue
+                0x03001820                gFlags
+                0x03001830                gOamMallocOrders_StartIndex
+                0x03001850                gVBlankCallbacks
+                0x03001860                gPhysicalInput
+                0x03001864                gBgOffsetsHBlankPrimary
+                0x03001868                gVramHeapMaxTileSlots
+                0x0300186c                gNumHBlankCallbacks
+                0x03001870                gMultiSioRecv
+                0x030018c0                gNumHBlankIntrs
+                0x030018c8                gBldRegs
+                0x030018d0                gOamFreeIndex
+                0x030018e0                gEmptyTask
+                0x03001900                gBgAffineRegs
+                0x03001920                gVramHeapStartAddr
+                0x03001924                gUnknown_03001944
+                0x03001928                gNumVBlankIntrs
+                0x0300192c                gUnknown_0300194C
+                0x03001930                gMultiSioStatusFlags
+                0x03001934                gMultiSioEnabled
+                0x03001940                gTaskPtrs
+                0x03001b40                gBgOffsetsBuffer
+                0x03002040                gObjPalette
+                0x03002240                gTilemapsRef
+                0x03002244                gFrameCount
+                0x03002250                gWinRegs
+                0x0300225c                gNumTasks
+                0x03002260                gBgSprites_Unknown2
+                0x03002270                gInput
+                0x03002280                gRepeatedKeysTestCounter
+                0x0300228c                gBgOffsetsHBlankSecondary
+                0x03002290                gBgCntRegs
+                0x03002298                gRepeatedKeys
+                0x0300229c                gNextTask
+                0x030022a0                gBgOffsetsSecondary
+                0x030022b0                gOamMallocBuffer
+                0x030026b0                gMosaicReg
+                0x030026c0                gHBlankCallbacks
+                0x030026d0                gCurTask
+                0x030026d4                sLastCalledVblankFuncId
+                0x030026e0                gKeysFirstRepeatIntervals
+                0x030026ec                gReleasedKeys
+                0x030026f0                gOamMallocCopiedOrder
+                0x03002770                gFlagsPreVBlank
+                0x03002774                gRefSpriteTables
+                0x03002780                gVramGraphicsCopyQueue
+                0x03002800                gUnknown_03002820
+                0x03002810                gBgScrollRegs
+                0x03002820                gDispCnt
+                0x03002830                gKeysContinuedRepeatIntervals
+                0x03002840                gMultiSioSend
+                0x03002854                gVCountSetting
+                0x03002858                gHBlankCopyTarget
+                0x0300285c                gBackgroundsCopyQueueIndex
+                0x03002860                gBgPalette
+                0x03002a60                gHBlankCopySize
+                0x03002a64                gVramGraphicsCopyQueueIndex
+                0x03002a68                gPrevInput
+                0x03002a6c                gUnknown_03002A8C
+                0x03002a70                gMultiBootParam
+                0x03002abc                gPressedKeys
+                0x03002ac0                gOamFirstPausedIndex
+                0x03002ac4                gBackgroundsCopyQueueCursor
+                0x03002ad0                gHBlankIntrs
+                0x03002ae0                gIwramHeap
+                0x03004cf0                gBgSprites
+                0x03004d30                gNumVBlankCallbacks
+                0x03004d34                gBgOffsetsPrimary
+                0x03004d38                gUnknown_03004D58
+                0x03004d3c                gVramGraphicsCopyCursor
+                0x03004d40                gOamMallocOrders_EndIndex
+                0x03004d60                gBgSprites_Unknown1
+                0x03004d70                gOamBuffer
+                0x03005170                gVramHeapState
+                0x03005370                gBgSpritesCount
+                0x03005374                gUnknown_03005394
+                0x03005378                gUnknown_03005398
+                0x03005380                gVBlankIntrs
+                0x03005390                gInputPlaybackData
+                0x03005394                gExecSoundMain
+                0x03005398                gPseudoRandom
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/globals.o(.data)
+ *fill*         0x0300539c        0x4 
+ .data          0x030053a0      0x199 build/collect_rings/src/sa2/game/sa1_sa2_shared/globals.o
+                0x030053a0                gSpikesUnknownTimer
+                0x030053a4                gCheckpointTime
+                0x030053a8                gMultiplayerCharRings
+                0x030053ac                gMultiplayerLanguage
+                0x030053b0                gRingCount
+                0x030053b4                unused53F4
+                0x030053cc                gActiveCollectRingEffectCount
+                0x030053d0                gRoomEventQueueSendPos
+                0x030053d4                gStageFlags
+                0x030053d8                gMPRingCollectWins
+                0x030053dc                unused0
+                0x030053e0                gBossRingsRespawnCount
+                0x030053e4                gBossRingsShallRespawn
+                0x030053e8                gMultiplayerPseudoRandom
+                0x030053ec                gRoomEventQueueWritePos
+                0x030053f0                gUnknown_0300543C
+                0x030053f4                gBossCameraClampYLower
+                0x030053f8                gTrappedAnimalVariant
+                0x030053fc                gNumLives
+                0x03005400                gPrevStageFlags
+                0x03005404                gLevelScore
+                0x03005408                gCourseTime
+                0x03005410                gCheeseTarget
+                0x03005418                gMPStageStartFrameCount
+                0x03005420                gMusicManagerState
+                0x03005428                gFinalBossActive
+                0x0300542c                gMultiplayerRanks
+                0x03005430                gOamMatrixIndex
+                0x03005434                gBossCameraClampYUpper
+                0x03005438                gHomingTarget
+                0x03005440                gDemoPlayCounter
+                0x03005444                gGameMode
+                0x03005448                gStageGoalX
+                0x0300544c                gMultiplayerMissingHeartbeats
+                0x03005450                gMultiplayerUnlockedLevels
+                0x03005454                gEntitiesManagerTask
+                0x03005458                gWorldSpeedY
+                0x0300545c                gDestroySpotlights
+                0x03005460                gRandomItemBox
+                0x03005464                gDifficultyLevel
+                0x03005468                gSelectedCharacter
+                0x0300546c                gSpecialRingCount
+                0x03005470                gNumSingleplayerCharacters
+                0x03005474                gWorldSpeedX
+                0x03005478                gMultiplayerCharacters
+                0x03005480                gRoomEventQueue
+                0x03005500                gStageTime
+                0x03005504                gMultiplayerUnlockedCharacters
+                0x03005510                gMultiplayerPlayerTasks
+                0x03005520                gBossIndex
+                0x03005524                gCurrentLevel
+                0x03005528                gMultiplayerConnections
+                0x03005529                unused1
+                0x03005530                gBoostEffectTasksCreated
+                0x03005531                unused2
+ build/collect_rings/src/sa2/game/multiboot/collect_rings/time_display.o(.data)
+ *fill*         0x03005539        0x3 
+ .data          0x0300553c        0x4 build/collect_rings/src/sa2/game/multiboot/collect_rings/time_display.o
+                0x0300553c                gCollectRingsLastLapTime
+ build/collect_rings/src/sa2/game/multiplayer/mp_player.o(.data)
+ .data          0x03005540        0x5 build/collect_rings/src/sa2/game/multiplayer/mp_player.o
+                0x03005540                unused_3005838
+                0x03005544                gShouldSpawnMPAttack2Effect
+ build/collect_rings/src/sa2/game/multiplayer/mp_attack_2_effect.o(.data)
+ *fill*         0x03005545        0x3 
+ .data          0x03005548        0x4 build/collect_rings/src/sa2/game/multiplayer/mp_attack_2_effect.o
+                0x03005548                gMPAttackEffect2Regs
+ build/collect_rings/src/sa2/game/stage/camera.o(.data)
+ *fill*         0x0300554c        0x4 
+ .data          0x03005550      0x168 build/collect_rings/src/sa2/game/stage/camera.o
+                0x03005550                gStageBackgroundsRam
+                0x03005650                gCamera
+ build/collect_rings/src/sa2/game/stage/terrain_collision.o(.data)
+ .data          0x030056b8        0x4 build/collect_rings/src/sa2/game/stage/terrain_collision.o
+                0x030056b8                gRefCollision
+ build/collect_rings/src/sa2/game/stage/player.o(.data)
+ *fill*         0x030056bc        0x4 
+ .data          0x030056c0      0x104 build/collect_rings/src/sa2/game/stage/player.o
+                0x030056c0                gPlayer
+                0x03005780                gPlayerBodyPSI
+ build/collect_rings/src/sa2/game/stage/rings_scatter.o(.data)
+ .data          0x030057c4        0x4 build/collect_rings/src/sa2/game/stage/rings_scatter.o
+                0x030057c4                gRingsScatterTask
+ build/collect_rings/src/sa2/game/stage/player_controls.o(.data)
+ .data          0x030057c8        0x8 build/collect_rings/src/sa2/game/stage/player_controls.o
+                0x030057c8                gPlayerControls
+ build/collect_rings/src/sa2/game/stage/stage.o(.data)
+ .data          0x030057d0        0x4 build/collect_rings/src/sa2/game/stage/stage.o
+                0x030057d0                gGameStageTask
+ build/collect_rings/src/sa2/game/dummy_task.o(.data)
+ .data          0x030057d4        0x4 build/collect_rings/src/sa2/game/dummy_task.o
+                0x030057d4                gDummyTask
+                0x030057d8                        iwram_end = .
+                0x020000c0                        . = 0x20000c0
+
+ROM             0x020000c0    0x1cb6c
+ build/collect_rings/src/sa2/rom_header.o(.text)
+ .text          0x020000c0       0xc0 build/collect_rings/src/sa2/rom_header.o
+                0x020000c4                RomHeaderNintendoLogo
+ build/collect_rings/src/sa2/crt0.o(.text)
+ .text          0x02000180      0x10c build/collect_rings/src/sa2/crt0.o
+                0x02000180                start_vector
+                0x020001bc                IntrMain
+ build/collect_rings/src/sa2/multi_sio_asm.o(.text)
+ .text          0x0200028c      0x160 build/collect_rings/src/sa2/multi_sio_asm.o
+                0x0200028c                MultiSioRecvBufChange
+                0x020002cc                MultiSioIntr
+ build/collect_rings/src/sa2/multi_sio.o(.text)
+ .text          0x020003ec      0x4b4 build/collect_rings/src/sa2/multi_sio.o
+                0x020003ec                MultiSioInit
+                0x020004e0                MultiSioMain
+                0x020005f8                MultiSioSendDataSet
+                0x020006c8                MultiSioRecvDataCheck
+                0x02000834                MultiSioStart
+                0x02000850                MultiSioStop
+ build/collect_rings/src/sa2/sio32_multi_load.o(.text)
+ .text          0x020008a0      0x348 build/collect_rings/src/sa2/sio32_multi_load.o
+                0x020008a0                Sio32MultiLoadMain
+                0x02000a84                Sio32MultiLoadIntr
+                0x02000b4c                Sio32MultiLoadInit
+ build/collect_rings/src/sa2/core.o(.text)
+ .text          0x02000be8      0xcb0 build/collect_rings/src/sa2/core.o
+                0x02000be8                EngineInit
+                0x0200101c                EngineMainLoop
+                0x02001630                ProcessVramGraphicsCopyQueue
+                0x020016e8                GetInput
+ build/collect_rings/src/sa2/main.o(.text)
+ .text          0x02001898       0x14 build/collect_rings/src/sa2/main.o
+                0x02001898                AgbMain
+ build/collect_rings/src/sa2/task.o(.text)
+ .text          0x020018ac      0x538 build/collect_rings/src/sa2/task.o
+                0x020018ac                TasksInit
+                0x0200198c                TaskCreate
+                0x02001a38                TaskDestroy
+                0x02001acc                TasksExec
+                0x02001ba0                IwramMalloc
+                0x02001c08                IwramFree
+                0x02001d78                TasksDestroyInPriorityRange
+ build/collect_rings/src/sa2/background.o(.text)
+ .text          0x02001de4     0x11bc build/collect_rings/src/sa2/background.o
+                0x02001de4                DrawBackground
+                0x02001ec8                sub_8002B20
+                0x020029e0                UpdateBgAnimationTiles
+                0x02002a88                UpdateSpriteAnimation_BG
+                0x02002ba8                sub_8004010
+                0x02002e0c                RenderText
+ build/collect_rings/src/sa2/sprite.o(.text)
+ .text          0x02002fa0     0x17fc build/collect_rings/src/sa2/sprite.o
+                0x02002fa0                sub_8004418
+                0x02003060                Base10DigitsToHexNibbles
+                0x020030a0                UpdateSpriteAnimation
+                0x020032e8                sub_80047A0
+                0x020033a8                TransformSprite
+                0x02003604                UnusedTransform
+                0x0200395c                sub_8004E14
+                0x02003d30                DisplaySprite
+                0x02004054                DisplaySprites
+                0x020043fc                OamMalloc
+                0x02004494                ProcessOamBuffers
+ build/collect_rings/src/sa2/malloc_vram.o(.text)
+ .text          0x0200479c      0x110 build/collect_rings/src/sa2/malloc_vram.o
+                0x0200479c                VramMalloc
+                0x02004854                VramResetHeapState
+                0x0200487c                VramFree
+ build/collect_rings/src/sa2/bg_triangles.o(.text)
+ .text          0x020048ac       0x84 build/collect_rings/src/sa2/bg_triangles.o
+                0x020048ac                sub_80078D4
+ build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_mgr.o(.text)
+ .text          0x02004930      0x390 build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_mgr.o
+                0x02004930                Task_MultiplayerEventMgr_Send
+                0x02004a5c                Task_MultiplayerEventMgr_Receive
+                0x02004b0c                ReceiveRoomEvent_ItemEffect
+                0x02004bbc                CreateMultiplayerSendEventMgr
+                0x02004c40                CreateMultiplayerReceiveEventMgr
+ build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_recv_mgr.o(.text)
+ .text          0x02004cc0      0x194 build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_recv_mgr.o
+                0x02004cc0                CreateRoomEvent
+                0x02004cdc                ReceiveRoomEvent_PlatformChange
+                0x02004d44                ReceiveRoomEvent_ItemBoxBreak
+                0x02004d98                ReceiveRoomEvent_EnemyDestroyed
+                0x02004dec                ReceiveRoomEvent_PlayerRingLoss
+                0x02004e04                ReceiveRoomEvent_MysteryItemBoxBreak
+ build/collect_rings/src/sa2/game/multiboot/collect_rings/results.o(.text)
+ .text          0x02004e54      0xd94 build/collect_rings/src/sa2/game/multiboot/collect_rings/results.o
+                0x02004e54                CreateMultiplayerSinglePakResultsScreen
+                0x02004f24                sub_8081FB0
+                0x02004fac                sub_8082038
+                0x02004ff0                sub_8082B80
+                0x02005078                Task_MultiplayerSinglePakResultsScreenInit
+                0x02005350                sub_80823FC
+                0x02005558                Task_8082630
+                0x020055a4                sub_808267C
+                0x020056b0                sub_8082788
+                0x020059d0                sub_8082AA8
+                0x02005a44                InitAndGetResultsScreenObject
+                0x02005aa8                sub_8082BF8
+                0x02005b04                sub_8082C58
+                0x02005b5c                sub_8082CB4
+                0x02005b90                sub_8082CEC
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/entities_manager.o(.text)
+ .text          0x02005be8      0x5dc build/collect_rings/src/sa2/game/sa1_sa2_shared/entities_manager.o
+                0x02006168                CreateStageEntitiesManager
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/collision.o(.text)
+ .text          0x020061c4     0x1170 build/collect_rings/src/sa2/game/sa1_sa2_shared/collision.o
+                0x020061c4                Coll_Player_Entity_HitboxN
+                0x020062e0                Coll_Player_ItemBox
+                0x020063bc                Coll_DamagePlayer
+                0x020064bc                Coll_Player_Platform
+                0x02006588                Coll_Player_Interactable
+                0x02006628                sub_800CE94
+                0x02006834                sub_800D0A0
+                0x02006f50                sub_800DA4C
+                0x02007258                sub_800DD54
+ build/collect_rings/src/sa2/game/mystery_itembox.o(.text)
+ .text          0x02007334      0xa04 build/collect_rings/src/sa2/game/mystery_itembox.o
+                0x02007334                CreateEntity_MysteryItemBox
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/rings_manager.o(.text)
+ .text          0x02007d38      0x708 build/collect_rings/src/sa2/game/sa1_sa2_shared/rings_manager.o
+                0x02007d38                CreateStageRingsManager
+                0x02007de8                Task_RingsMgrMain
+ build/collect_rings/src/sa2/game/multiboot/collect_rings/time_display.o(.text)
+ .text          0x02008440      0x5a8 build/collect_rings/src/sa2/game/multiboot/collect_rings/time_display.o
+                0x02008440                CreateCollectRingsTimeDisplay
+                0x02008588                sub_8082E9C
+                0x0200872c                sub_8083040
+                0x020087f0                sub_8083104
+                0x02008978                sub_808328C
+                0x020089cc                sub_80832E0
+ build/collect_rings/src/sa2/game/multiplayer/indicators.o(.text)
+ .text          0x020089e8      0x568 build/collect_rings/src/sa2/game/multiplayer/indicators.o
+                0x020089e8                CreateOpponentPositionIndicator
+                0x02008a9c                CreateSelfPositionIndicator
+ build/collect_rings/src/sa2/game/multiplayer/mp_player.o(.text)
+ .text          0x02008f50     0x1108 build/collect_rings/src/sa2/game/multiplayer/mp_player.o
+                0x02008f50                CreateMultiplayerPlayer
+                0x0200910c                Task_CreateMultiplayerPlayer
+                0x02009adc                sub_8018120
+                0x02009b9c                sub_8018300
+                0x02009fcc                sub_8018818
+                0x0200a02c                TaskDestructor_MultiplayerPlayer
+ build/collect_rings/src/sa2/game/multiplayer/finish.o(.text)
+ .text          0x0200a058      0x250 build/collect_rings/src/sa2/game/multiplayer/finish.o
+                0x0200a058                Task_801A04C
+                0x0200a0ec                Task_TransitionToResultsScreen
+                0x0200a27c                CreateMultiplayerFinishHandler
+ build/collect_rings/src/sa2/game/interactables_1/toggle_player_layer.o(.text)
+ .text          0x0200a2a8      0x108 build/collect_rings/src/sa2/game/interactables_1/toggle_player_layer.o
+                0x0200a364                CreateEntity_Toggle_PlayerLayer
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/spring.o(.text)
+ .text          0x0200a3b0      0x4c0 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/spring.o
+                0x0200a6b8                CreateEntity_Spring_Big_DownLeft
+                0x0200a6e4                CreateEntity_Spring_Normal_Down
+                0x0200a710                CreateEntity_Spring_Big_DownRight
+                0x0200a73c                CreateEntity_Spring_Normal_Left
+                0x0200a768                CreateEntity_Spring_Normal_Right
+                0x0200a794                CreateEntity_Spring_Big_UpLeft
+                0x0200a7c0                CreateEntity_Spring_Normal_Up
+                0x0200a7ec                CreateEntity_Spring_Big_UpRight
+                0x0200a818                CreateEntity_Spring_Small_UpLeft
+                0x0200a844                CreateEntity_Spring_Small_UpRight
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/ramp.o(.text)
+ .text          0x0200a870      0x448 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/ramp.o
+                0x0200a870                CreateEntity_Ramp
+ build/collect_rings/src/sa2/game/interactables_1/spikes.o(.text)
+ .text          0x0200acb8      0x404 build/collect_rings/src/sa2/game/interactables_1/spikes.o
+                0x0200acb8                CreateEntity_Spikes_Up
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/grind_rail.o(.text)
+ .text          0x0200b0bc      0x710 build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/grind_rail.o
+                0x0200b0bc                Task_GrindRail
+                0x0200b6cc                CreateEntity_GrindRail_StartAir
+                0x0200b6ec                CreateEntity_GrindRail_End_ForcedJump
+                0x0200b70c                CreateEntity_GrindRail_Start
+                0x0200b72c                CreateEntity_GrindRail_EndGround
+                0x0200b74c                CreateEntity_GrindRail_EndAir
+                0x0200b76c                CreateEntity_GrindRail_EndAir_Left
+                0x0200b78c                CreateEntity_GrindRail_EndAlternate
+                0x0200b7ac                CreateEntity_GrindRail_EndGround_Left
+ build/collect_rings/src/sa2/game/interactables_2/collect_rings_lap_trigger.o(.text)
+ .text          0x0200b7cc      0x450 build/collect_rings/src/sa2/game/interactables_2/collect_rings_lap_trigger.o
+                0x0200b7cc                CreateEntity_CollectRingsLapTrigger
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/dust_cloud.o(.text)
+ .text          0x0200bc1c       0xf0 build/collect_rings/src/sa2/game/sa1_sa2_shared/dust_cloud.o
+                0x0200bc1c                CreateDustCloud
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/collect_ring_effect.o(.text)
+ .text          0x0200bd0c      0x19c build/collect_rings/src/sa2/game/sa1_sa2_shared/collect_ring_effect.o
+                0x0200bd0c                CreateCollectRingEffect
+                0x0200be3c                Task_CollectRingEffect
+ build/collect_rings/src/sa2/game/multiplayer/mp_attack_2_effect.o(.text)
+ .text          0x0200bea8      0x198 build/collect_rings/src/sa2/game/multiplayer/mp_attack_2_effect.o
+                0x0200bea8                CreateMPAttack2Effect
+ build/collect_rings/src/sa2/game/stage/camera.o(.text)
+ .text          0x0200c040      0x620 build/collect_rings/src/sa2/game/stage/camera.o
+                0x0200c040                InitCamera
+                0x0200c264                UpdateCamera
+                0x0200c4a4                RenderMetatileLayers
+                0x0200c508                CreateStageBg_Zone1
+                0x0200c574                DestroyCameraMovementTask
+                0x0200c58c                TaskDestructor_Camera
+                0x0200c5c4                Task_CallUpdateCamera
+                0x0200c604                Task_UpdateCamera
+                0x0200c618                StageBgUpdate_Dummy
+                0x0200c61c                sub_801E3F0
+ build/collect_rings/src/sa2/game/stage/terrain_collision.o(.text)
+ .text          0x0200c660      0xc78 build/collect_rings/src/sa2/game/stage/terrain_collision.o
+                0x0200c660                sub_801E4E4
+                0x0200c850                sub_801E6D4
+                0x0200ccc0                sub_801EB44
+                0x0200cdb8                sub_801EC3C
+                0x0200cea0                sub_801ED24
+                0x0200cfe0                sub_801EE64
+                0x0200d110                sub_801EF94
+                0x0200d1c0                sub_801F044
+                0x0200d1f8                sub_801F07C
+                0x0200d27c                sub_801F100
+ build/collect_rings/src/sa2/game/stage/player.o(.text)
+ .text          0x0200d2d8     0x486c build/collect_rings/src/sa2/game/stage/player.o
+                0x0200d2d8                AllocateCharacterStageGfx
+                0x0200d384                InitializePlayer
+                0x0200d4ec                sub_802195C
+                0x0200d5c4                sub_8021A34
+                0x0200d698                sub_8021B08
+                0x0200d770                sub_8021BE0
+                0x0200d7dc                sub_8021C4C
+                0x0200d918                sub_8021DB8
+                0x0200da10                sub_8021EE4
+                0x0200dac8                sub_802203C
+                0x0200db80                sub_8022284
+                0x0200dbe0                sub_0200DBE0
+                0x0200dc60                sub_80228C0
+                0x0200dd68                sub_80229EC
+                0x0200de74                sub_8022B18
+                0x0200df80                sub_8022C44
+                0x0200e088                sub_8022D6C
+                0x0200e108                sub_8022F58
+                0x0200e1dc                sub_802302C
+                0x0200e2d8                sub_8023128
+                0x0200e370                sub_80231C0
+                0x0200e410                sub_8023260
+                0x0200e480                sub_80232D0
+                0x0200e558                Player_AirInputControls
+                0x0200e610                sub_80236C8
+                0x0200e650                sub_8023708
+                0x0200e690                Player_HandleSpriteYOffsetChange
+                0x0200e724                Task_PlayerHandleDeath
+                0x0200e7f8                Task_PlayerDied
+                0x0200e8b0                Task_PlayerMain
+                0x0200ea00                CallPlayerTransition
+                0x0200ec28                Player_HandleInputs
+                0x0200ecf8                sub_80246DC
+                0x0200ee40                sub_802486C
+                0x0200ef5c                sub_8024B10
+                0x0200f2bc                Player_TouchGround
+                0x0200f330                Player_Idle
+                0x0200f420                Player_8025548
+                0x0200f520                Player_Taunt
+                0x0200f684                Player_Crouch
+                0x0200f7ec                Player_Rolling
+                0x0200f9b8                Player_InitJump
+                0x0200fadc                Player_Jumping
+                0x0200fc04                Player_InitUncurl
+                0x0200fc9c                Player_Uncurl
+                0x0200fd90                Player_Spindash
+                0x02010088                InitPlayerGrindGraphics
+                0x02010110                Player_InitGrinding
+                0x020101dc                Player_DoGrinding
+                0x02010334                Player_InitGrindRailEndGround
+                0x020103e0                Player_GrindRailEndAir
+                0x020104bc                Player_802A258
+                0x02010554                Player_8026D2C
+                0x020105ec                Player_InitHurt
+                0x020106c8                Player_Hurt
+                0x02010788                Player_TouchNormalSpring
+                0x02010984                Player_8029074
+                0x02010a78                Player_InitRampOrDashRing
+                0x02010c40                Player_8029314
+                0x02010d4c                Player_TryInitSpindash
+                0x02010dd0                Player_HandleGroundMovement
+                0x02010ff4                Player_HandleBoostThreshold
+                0x02011034                Player_HandleBoostState
+                0x020110e0                Player_HandleWalkAnim
+                0x02011140                CallSetStageSpawnPos
+                0x0201114c                CreatePlayer
+                0x020111cc                DestroyPlayerTasks
+                0x020111f4                sub_020111F4
+                0x0201121c                sub_0201121C
+                0x0201128c                sub_8029A28
+                0x020112d8                sub_8029A74
+                0x02011324                sub_8029AC0
+                0x02011370                sub_8029B0C
+                0x020113bc                sub_8029B58
+                0x020113c8                sub_8029B88
+                0x020113d4                sub_8029BB8
+                0x020114a0                sub_8029CA0
+                0x020114e0                sub_8029CE0
+                0x02011514                sub_8029D14
+                0x02011564                Player_UpdatePosition
+                0x02011594                PlayerFn_Cmd_UpdateAirFallSpeed
+                0x0201159c                sub_8029DE8
+                0x020115c4                DeadPlayerLeftScreen_UnusedCopy
+                0x020115f0                Player_TryJump
+                0x02011638                sub_8029ED8
+                0x02011680                sub_8029F20
+                0x020116ac                Player_SetMovestate_IsInScriptedSequence
+                0x020116c0                Player_ClearMovestate_IsInScriptedSequence
+                0x020116d4                TaskDestructor_Player
+                0x02011704                SetStageSpawnPos
+                0x02011758                Player_TryTaunt
+                0x0201178c                Player_TryCrouchOrSpinAttack
+                0x02011814                Player_ApplyBoostPhysics
+                0x02011874                Player_SpinAttack
+                0x020118c8                Player_InitCrouch
+                0x020118f8                Player_InitSpindash
+                0x02011950                sub_02011950
+                0x0201198c                sub_802A52C
+                0x020119b8                sub_802A558
+                0x020119d4                sub_802A58C
+                0x020119f4                Player_Skidding
+                0x02011a50                Player_InitTaunt
+                0x02011a90                sub_802A660
+                0x02011af0                sub_802A6C0
+ build/collect_rings/src/sa2/game/stage/rings_scatter.o(.text)
+ .text          0x02011b44      0x734 build/collect_rings/src/sa2/game/stage/rings_scatter.o
+                0x02011b44                InitPlayerHitRingsScatter
+                0x02011c18                InitScatteringRings
+                0x02011d48                RingsScatterSinglepakMain
+                0x02012248                DestroyRingsScatterTask
+                0x02012260                Task_RingsScatter_MP_Singlepak
+                0x0201226c                TaskDestructor_RingsScatter
+ build/collect_rings/src/sa2/game/stage/player_controls.o(.text)
+ .text          0x02012278       0x90 build/collect_rings/src/sa2/game/stage/player_controls.o
+                0x02012278                sub_802B584
+                0x020122f8                SetPlayerControls
+ build/collect_rings/src/sa2/game/stage/stage.o(.text)
+ .text          0x02012308      0x4d0 build/collect_rings/src/sa2/game/stage/stage.o
+                0x02012308                CreateGameStage
+                0x020124f0                Task_GameStage
+                0x020126ac                ApplyGameStageSettings
+                0x020126ec                GameStageStart
+                0x0201278c                DestroyStageTasks
+                0x020127b4                TaskDestructor_GameStage
+                0x020127c0                StageInit_CollectRings
+                0x020127cc                StageInit_CollectRingsRom
+ build/collect_rings/src/sa2/game/multiboot/connection.o(.text)
+ .text          0x020127d8      0x248 build/collect_rings/src/sa2/game/multiboot/connection.o
+                0x020127d8                LinkCommunicationError
+                0x0201299c                sub_0201299C
+                0x020129a0                sub_8081200
+ build/collect_rings/src/sa2/game/game.o(.text)
+ .text          0x02012a20       0x84 build/collect_rings/src/sa2/game/game.o
+                0x02012a20                GameInit
+ build/collect_rings/src/sa2/game/dummy_task.o(.text)
+ .text          0x02012aa4       0x54 build/collect_rings/src/sa2/game/dummy_task.o
+                0x02012aa4                CreateDummyTask
+ build/collect_rings/src/sa2/lib/m4a/m4a0.o(.text)
+ .text          0x02012af8      0xc1c build/collect_rings/src/sa2/lib/m4a/m4a0.o
+                0x02012af8                umul3232H32
+                0x02012b08                SoundMain
+                0x02012b8c                SoundMainRAM
+                0x02012f30                SoundMainBTM
+                0x02012f48                MP2KClearChain
+                0x02012f68                MP2K_event_fine
+                0x02012f98                MPlayJumpTableCopy
+                0x02012fcc                ld_r3_tp_adr_i
+                0x02012fd8                MP2K_event_goto
+                0x02012ff8                MP2K_event_patt
+                0x02013014                MP2K_event_pend
+                0x02013028                MP2K_event_rept
+                0x02013058                MP2K_event_prio
+                0x02013064                MP2K_event_tempo
+                0x02013078                MP2K_event_keysh
+                0x0201308c                MP2K_event_voice
+                0x020130bc                MP2K_event_vol
+                0x020130d0                MP2K_event_pan
+                0x020130e4                MP2K_event_bend
+                0x020130f8                MP2K_event_bendr
+                0x0201310c                MP2K_event_lfodl
+                0x02013118                MP2K_event_modt
+                0x02013130                MP2K_event_tune
+                0x02013144                MP2K_event_port
+                0x0201315c                m4aSoundVSync
+                0x020131a8                MP2KPlayerMain
+                0x02013410                TrackStop
+                0x02013454                ChnVolSetAsm
+                0x02013484                MP2K_event_nxx
+                0x02013684                MP2K_event_endtie
+                0x020136c4                clear_modM
+                0x020136ec                MP2K_event_lfos
+                0x02013700                MP2K_event_mod
+ build/collect_rings/src/sa2/lib/m4a/m4a.o(.text)
+ .text          0x02013714     0x1598 build/collect_rings/src/sa2/lib/m4a/m4a.o
+                0x02013714                MidiKeyToFreq
+                0x0201377c                MPlayContinue
+                0x02013798                MPlayFadeOut
+                0x020137b8                m4aSoundInit
+                0x02013830                m4aSoundMain
+                0x0201383c                m4aSongNumStart
+                0x02013868                m4aSongNumStartOrChange
+                0x020138b4                m4aSongNumStartOrContinue
+                0x02013908                m4aSongNumStop
+                0x0201393c                m4aSongNumContinue
+                0x02013970                m4aMPlayAllStop
+                0x0201399c                m4aMPlayContinue
+                0x020139a8                m4aMPlayAllContinue
+                0x020139d4                m4aMPlayFadeOut
+                0x020139e4                m4aMPlayFadeOutTemporarily
+                0x02013a04                m4aMPlayFadeIn
+                0x02013a2c                m4aMPlayImmInit
+                0x02013a74                MPlayExtender
+                0x02013b8c                MusicPlayerJumpTableCopy
+                0x02013b90                ClearChain
+                0x02013ba4                Clear64byte
+                0x02013bb8                SoundInit
+                0x02013cb0                SampleFreqSet
+                0x02013d54                m4aSoundMode
+                0x02013dec                SoundClear
+                0x02013e40                m4aSoundVSyncOff
+                0x02013ebc                m4aSoundVSyncOn
+                0x02013ef8                MPlayOpen
+                0x02013f70                MPlayStart
+                0x02014054                MPlayStop
+                0x02014094                FadeOutBody
+                0x0201415c                TrkVolPitSet
+                0x02014210                MidiKeyToCgbFreq
+                0x020142b8                CgbOscOff
+                0x02014308                CgbModVol
+                0x02014370                CgbSound
+                0x020147bc                m4aMPlayTempoControl
+                0x020147e4                m4aMPlayVolumeControl
+                0x0201484c                m4aMPlayPitchControl
+                0x020148c0                m4aMPlayPanpotControl
+                0x02014928                ClearModM
+                0x02014948                m4aMPlayModDepthSet
+                0x020149bc                m4aMPlayLFOSpeedSet
+                0x02014a30                MP2K_event_memacc
+                0x02014b88                MP2K_event_xcmd
+                0x02014ba8                MP2K_event_xxx
+                0x02014bbc                MP2K_event_xwave
+                0x02014c04                MP2K_event_xtype
+                0x02014c18                MP2K_event_xatta
+                0x02014c2c                MP2K_event_xdeca
+                0x02014c40                MP2K_event_xsust
+                0x02014c54                MP2K_event_xrele
+                0x02014c68                MP2K_event_xiecv
+                0x02014c74                MP2K_event_xiecl
+                0x02014c80                MP2K_event_xleng
+                0x02014c94                MP2K_event_xswee
+ *libagbsyscall.a:ArcTan2.o(.text)
+ .text          0x02014cac        0x4 ../../../libagbsyscall/libagbsyscall.a(ArcTan2.o)
+                0x02014cac                ArcTan2
+ *libagbsyscall.a:CpuFastSet.o(.text)
+ .text          0x02014cb0        0x4 ../../../libagbsyscall/libagbsyscall.a(CpuFastSet.o)
+                0x02014cb0                CpuFastSet
+ *libagbsyscall.a:CpuSet.o(.text)
+ .text          0x02014cb4        0x4 ../../../libagbsyscall/libagbsyscall.a(CpuSet.o)
+                0x02014cb4                CpuSet
+ *libagbsyscall.a:Div.o(.text)
+ .text          0x02014cb8        0x4 ../../../libagbsyscall/libagbsyscall.a(Div.o)
+                0x02014cb8                Div
+ *libagbsyscall.a:Mod.o(.text)
+ *libagbsyscall.a:RLUnCompWram.o(.text)
+ .text          0x02014cbc        0x4 ../../../libagbsyscall/libagbsyscall.a(RLUnCompWram.o)
+                0x02014cbc                RLUnCompWram
+ *libagbsyscall.a:VBlankIntrWait.o(.text)
+ .text          0x02014cc0        0x8 ../../../libagbsyscall/libagbsyscall.a(VBlankIntrWait.o)
+                0x02014cc0                VBlankIntrWait
+ *libgcc.a:_call_via_rX.o(.text)
+ .text          0x02014cc8       0x3c ../../../tools/agbcc/lib/libgcc.a(_call_via_rX.o)
+                0x02014cc8                _call_via_r0
+                0x02014ccc                _call_via_r1
+                0x02014cd0                _call_via_r2
+                0x02014cd4                _call_via_r3
+                0x02014cd8                _call_via_r4
+                0x02014cdc                _call_via_r5
+                0x02014ce0                _call_via_r6
+                0x02014ce4                _call_via_r7
+                0x02014ce8                _call_via_r8
+                0x02014cec                _call_via_r9
+                0x02014cf0                _call_via_sl
+                0x02014cf4                _call_via_fp
+                0x02014cf8                _call_via_ip
+                0x02014cfc                _call_via_sp
+                0x02014d00                _call_via_lr
+ *libgcc.a:_divsi3.o(.text)
+ .text          0x02014d04       0x94 ../../../tools/agbcc/lib/libgcc.a(_divsi3.o)
+                0x02014d04                __divsi3
+ *libgcc.a:_dvmd_tls.o(.text)
+ .text          0x02014d98        0x4 ../../../tools/agbcc/lib/libgcc.a(_dvmd_tls.o)
+                0x02014d98                __div0
+ *libgcc.a:_umodsi3.o(.text)
+ .text          0x02014d9c       0xc0 ../../../tools/agbcc/lib/libgcc.a(_umodsi3.o)
+                0x02014d9c                __umodsi3
+ *libc.a:memcpy.o(.text)
+ .text          0x02014e5c       0x60 ../../../tools/agbcc/lib/libc.a(memcpy.o)
+                0x02014e5c                memcpy
+ *libc.a:memset.o(.text)
+ .text          0x02014ebc       0x54 ../../../tools/agbcc/lib/libc.a(memset.o)
+                0x02014ebc                memset
+ build/collect_rings/src/sa2/multi_sio.o(.rodata)
+ .rodata        0x02014f10       0x19 build/collect_rings/src/sa2/multi_sio.o
+ build/collect_rings/src/sa2/sio32_multi_load.o(.rodata)
+ *fill*         0x02014f29        0x3 
+ .rodata        0x02014f2c       0x15 build/collect_rings/src/sa2/sio32_multi_load.o
+ build/collect_rings/src/sa2/core.o(.rodata)
+ *fill*         0x02014f41        0x3 
+ .rodata        0x02014f44       0x44 build/collect_rings/src/sa2/core.o
+                0x02014f44                gIntrTableTemplate
+                0x02014f7c                sVblankFuncs
+ build/collect_rings/src/sa2/background.o(.rodata)
+ .rodata        0x02014f88       0x30 build/collect_rings/src/sa2/background.o
+                0x02014f88                animCmdTable_BG
+ build/collect_rings/src/sa2/trig.o(.rodata)
+ .rodata        0x02014fb8      0xa00 build/collect_rings/src/sa2/trig.o
+                0x02014fb8                gSineTable
+ build/collect_rings/src/sa2/sprite.o(.rodata)
+ .rodata        0x020159b8       0x50 build/collect_rings/src/sa2/sprite.o
+                0x020159f0                gOamShapesSizes
+ build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_mgr.o(.rodata)
+ .rodata        0x02015a08       0x1c build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_mgr.o
+                0x02015a08                gRoomEventHandlers
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/entities_manager.o(.rodata)
+ .rodata        0x02015a24       0x74 build/collect_rings/src/sa2/game/sa1_sa2_shared/entities_manager.o
+                0x02015a24                gSpriteInits_CollectRingsInteractables
+ build/collect_rings/src/sa2/game/mystery_itembox.o(.rodata)
+ .rodata        0x02015a98       0x23 build/collect_rings/src/sa2/game/mystery_itembox.o
+ build/collect_rings/src/sa2/game/multiboot/collect_rings/time_display.o(.rodata)
+ *fill*         0x02015abb        0x1 
+ .rodata        0x02015abc       0x5c build/collect_rings/src/sa2/game/multiboot/collect_rings/time_display.o
+                0x02015abc                gUnknown_080E0234
+                0x02015af8                gUnknown_080E0270
+ build/collect_rings/src/sa2/game/multiplayer/mp_player.o(.rodata)
+ .rodata        0x02015b18        0x8 build/collect_rings/src/sa2/game/multiplayer/mp_player.o
+                0x02015b18                gUnknown_02015B18
+ build/collect_rings/src/sa2/game/multiplayer/finish.o(.rodata)
+ .rodata        0x02015b20        0x4 build/collect_rings/src/sa2/game/multiplayer/finish.o
+ build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/spring.o(.rodata)
+ .rodata        0x02015b24       0x1e build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/spring.o
+ build/collect_rings/src/sa2/game/interactables_1/spikes.o(.rodata)
+ build/collect_rings/src/sa2/game/stage/camera.o(.rodata)
+ *fill*         0x02015b42        0x2 
+ .rodata        0x02015b44      0x10c build/collect_rings/src/sa2/game/stage/camera.o
+                0x02015b44                gStageCameraBgTemplates
+ build/collect_rings/src/sa2/game/stage/player.o(.rodata)
+ .rodata        0x02015c50      0x21a build/collect_rings/src/sa2/game/stage/player.o
+                0x02015c50                gPlayerCharacterIdleAnims
+                0x02015c52                sCharStateAnimInfo
+ build/collect_rings/src/sa2/lib/m4a/m4a_tables.o(.rodata)
+ *fill*         0x02015e6a        0x2 
+ .rodata        0x02015e6c      0x2d8 build/collect_rings/src/sa2/lib/m4a/m4a_tables.o
+                0x02015e6c                gMPlayJumpTableTemplate
+                0x02015efc                gScaleTable
+                0x02015fb0                gFreqTable
+                0x02015fe0                gPcmSamplesPerVBlankTable
+                0x02015ff8                gCgbScaleTable
+                0x0201607c                gCgbFreqTable
+                0x02016094                gNoiseTable
+                0x020160d0                gCgb3Vol
+                0x020160e0                gClockTable
+                0x02016114                gXcmdTable
+ build/collect_rings/data/sound_data.o(.rodata)
+ .rodata        0x02016144     0x4592 build/collect_rings/data/sound_data.o
+                0x02016144                voicegroup000
+                0x02016594                voicegroup001
+                0x02016810                voicegroup003
+                0x02016ccc                ProgrammableWaveData_2016CCC
+                0x02016cdc                ProgrammableWaveData_2016CDC
+                0x02016cec                ProgrammableWaveData_2016CEC
+                0x02016cfc                ProgrammableWaveData_2016CFC
+                0x02016d0c                ProgrammableWaveData_2016D0C
+                0x02016d1c                ProgrammableWaveData_2016D1C
+                0x02016d2c                ProgrammableWaveData_2016D2C
+                0x02016d3c                ProgrammableWaveData_2016D3C
+                0x02016d4c                ProgrammableWaveData_2016D4C
+                0x02016d5c                gMPlayTable
+                0x02016d8c                gSongTable
+                0x02016e64                mus_dummy
+                0x02016e68                gUnknown_02016E68
+                0x02017368                gUnknown_02017368
+                0x020178a0                gUnknown_020178A0
+                0x02017d58                gUnknown_02017D58
+                0x02018260                gUnknown_02018260
+                0x020186f4                gUnknown_020186F4
+                0x020197c8                gUnknown_020197C8
+ build/collect_rings/sound/songs/midi/mus_vs_select_pak_mode.o(.rodata)
+ *fill*         0x0201a6d6        0x2 
+ .rodata        0x0201a6d8      0x6e8 build/collect_rings/sound/songs/midi/mus_vs_select_pak_mode.o
+                0x0201ad9c                mus_vs_select_pak_mode
+ build/collect_rings/sound/songs/midi/mus_vs_2.o(.rodata)
+ .rodata        0x0201adc0      0xcc8 build/collect_rings/sound/songs/midi/mus_vs_2.o
+                0x0201ba64                mus_vs_2
+ build/collect_rings/sound/songs/midi/mus_vs_lobby.o(.rodata)
+ .rodata        0x0201ba88      0x588 build/collect_rings/sound/songs/midi/mus_vs_lobby.o
+                0x0201bfec                mus_vs_lobby
+ build/collect_rings/sound/songs/midi/mus_fanfare.o(.rodata)
+ .rodata        0x0201c010      0x214 build/collect_rings/sound/songs/midi/mus_fanfare.o
+                0x0201c1fc                mus_fanfare
+ build/collect_rings/sound/songs/midi/mus_vs_3.o(.rodata)
+ .rodata        0x0201c224      0x37c build/collect_rings/sound/songs/midi/mus_vs_3.o
+                0x0201c57c                mus_vs_3
+ build/collect_rings/sound/songs/midi/se_select.o(.rodata)
+ .rodata        0x0201c5a0       0x28 build/collect_rings/sound/songs/midi/se_select.o
+                0x0201c5bc                se_select
+ build/collect_rings/sound/songs/midi/se_spin_attack__collect_rings.o(.rodata)
+ .rodata        0x0201c5c8       0x74 build/collect_rings/sound/songs/midi/se_spin_attack__collect_rings.o
+                0x0201c630                se_spin_attack__collect_rings
+ build/collect_rings/sound/songs/midi/se_spin_dash_release.o(.rodata)
+ .rodata        0x0201c63c       0xcc build/collect_rings/sound/songs/midi/se_spin_dash_release.o
+                0x0201c6fc                se_spin_dash_release
+ build/collect_rings/sound/songs/midi/se_brake__collect_rings.o(.rodata)
+ .rodata        0x0201c708       0x5c build/collect_rings/sound/songs/midi/se_brake__collect_rings.o
+                0x0201c758                se_brake__collect_rings
+ build/collect_rings/sound/songs/midi/se_jump__collect_rings.o(.rodata)
+ .rodata        0x0201c764       0x4c build/collect_rings/sound/songs/midi/se_jump__collect_rings.o
+                0x0201c7a4                se_jump__collect_rings
+ build/collect_rings/sound/songs/midi/se_ring_copy.o(.rodata)
+ .rodata        0x0201c7b0       0x1c build/collect_rings/sound/songs/midi/se_ring_copy.o
+                0x0201c7c0                se_ring_copy
+ build/collect_rings/sound/songs/midi/se_rings_lost__collect_rings.o(.rodata)
+ .rodata        0x0201c7cc       0x20 build/collect_rings/sound/songs/midi/se_rings_lost__collect_rings.o
+                0x0201c7e0                se_rings_lost__collect_rings
+ build/collect_rings/sound/songs/midi/se_life_lost.o(.rodata)
+ .rodata        0x0201c7ec       0x24 build/collect_rings/sound/songs/midi/se_life_lost.o
+                0x0201c804                se_life_lost
+ build/collect_rings/sound/songs/midi/se_time_up.o(.rodata)
+ .rodata        0x0201c810       0x60 build/collect_rings/sound/songs/midi/se_time_up.o
+                0x0201c864                se_time_up
+ build/collect_rings/sound/songs/midi/se_itembox_2.o(.rodata)
+ .rodata        0x0201c870       0x60 build/collect_rings/sound/songs/midi/se_itembox_2.o
+                0x0201c8c0                se_itembox_2
+ build/collect_rings/sound/songs/midi/se_spring__collect_rings.o(.rodata)
+ .rodata        0x0201c8d0       0x4c build/collect_rings/sound/songs/midi/se_spring__collect_rings.o
+                0x0201c910                se_spring__collect_rings
+ build/collect_rings/sound/songs/midi/se_spikes.o(.rodata)
+ .rodata        0x0201c91c       0x74 build/collect_rings/sound/songs/midi/se_spikes.o
+                0x0201c984                se_spikes
+ build/collect_rings/sound/songs/midi/se_alarm_1.o(.rodata)
+ .rodata        0x0201c990       0x20 build/collect_rings/sound/songs/midi/se_alarm_1.o
+                0x0201c9a4                se_alarm_1
+ build/collect_rings/sound/songs/midi/se_216__collect_rings.o(.rodata)
+ .rodata        0x0201c9b0       0xa8 build/collect_rings/sound/songs/midi/se_216__collect_rings.o
+                0x0201ca4c                se_216__collect_rings
+ build/collect_rings/sound/songs/midi/se_springy_spring__collect_rings.o(.rodata)
+ .rodata        0x0201ca58       0xb8 build/collect_rings/sound/songs/midi/se_springy_spring__collect_rings.o
+                0x0201cb04                se_springy_spring__collect_rings
+ build/collect_rings/sound/songs/midi/se_276.o(.rodata)
+ .rodata        0x0201cb10       0xe0 build/collect_rings/sound/songs/midi/se_276.o
+                0x0201cbe4                se_276
+ build/collect_rings/sound/songs/midi/se_grinding.o(.rodata)
+ .rodata        0x0201cbf0       0x3c build/collect_rings/sound/songs/midi/se_grinding.o
+                0x0201cc20                se_grinding
+                0x0201cd30                        . = 0x201cd30
+
+EWRAM           0x0201cd30     0x2650
+ build/collect_rings/src/sa2/lib/m4a/m4a.o(ewram_data)
+ ewram_data     0x0201cd30     0x2650 build/collect_rings/src/sa2/lib/m4a/m4a.o
+                0x0201cd30                gMPlayTrack_BGM
+                0x0201d230                gMPlayTrack_SE1
+                0x0201d730                gMPlayTrack_SE2
+                0x0201dc30                gMPlayTrack_SE3
+                0x0201e130                gSoundInfo
+                0x0201f0e0                gMPlayJumpTable
+                0x0201f170                gCgbChans
+                0x0201f270                gMPlayInfo_BGM
+                0x0201f2b0                gMPlayInfo_SE1
+                0x0201f2f0                gMPlayInfo_SE2
+                0x0201f330                gMPlayMemAccArea
+                0x0201f340                gMPlayInfo_SE3
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+/DISCARD/
+ *(*)
+LOAD build/collect_rings/data/sound_data.o
+LOAD build/collect_rings/src/sa2/lib/m4a/m4a.o
+LOAD build/collect_rings/src/sa2/lib/m4a/m4a_tables.o
+LOAD build/collect_rings/src/sa2/multi_sio.o
+LOAD build/collect_rings/src/sa2/sio32_multi_load.o
+LOAD build/collect_rings/src/sa2/core.o
+LOAD build/collect_rings/src/sa2/main.o
+LOAD build/collect_rings/src/sa2/task.o
+LOAD build/collect_rings/src/sa2/background.o
+LOAD build/collect_rings/src/sa2/trig.o
+LOAD build/collect_rings/src/sa2/sprite.o
+LOAD build/collect_rings/src/sa2/malloc_vram.o
+LOAD build/collect_rings/src/sa2/bg_triangles.o
+LOAD build/collect_rings/src/sa2/game/sa1_sa2_shared/globals.o
+LOAD build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_mgr.o
+LOAD build/collect_rings/src/sa2/game/multiplayer/multiplayer_event_recv_mgr.o
+LOAD build/collect_rings/src/sa2/game/multiboot/collect_rings/results.o
+LOAD build/collect_rings/src/sa2/game/sa1_sa2_shared/entities_manager.o
+LOAD build/collect_rings/src/sa2/game/sa1_sa2_shared/collision.o
+LOAD build/collect_rings/src/sa2/game/mystery_itembox.o
+LOAD build/collect_rings/src/sa2/game/sa1_sa2_shared/rings_manager.o
+LOAD build/collect_rings/src/sa2/game/multiboot/collect_rings/time_display.o
+LOAD build/collect_rings/src/sa2/game/multiplayer/indicators.o
+LOAD build/collect_rings/src/sa2/game/multiplayer/mp_player.o
+LOAD build/collect_rings/src/sa2/game/multiplayer/finish.o
+LOAD build/collect_rings/src/sa2/game/interactables_1/toggle_player_layer.o
+LOAD build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/spring.o
+LOAD build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/ramp.o
+LOAD build/collect_rings/src/sa2/game/interactables_1/spikes.o
+LOAD build/collect_rings/src/sa2/game/sa1_sa2_shared/interactables/grind_rail.o
+LOAD build/collect_rings/src/sa2/game/interactables_2/collect_rings_lap_trigger.o
+LOAD build/collect_rings/src/sa2/game/sa1_sa2_shared/dust_cloud.o
+LOAD build/collect_rings/src/sa2/game/sa1_sa2_shared/collect_ring_effect.o
+LOAD build/collect_rings/src/sa2/game/multiplayer/mp_attack_2_effect.o
+LOAD build/collect_rings/src/sa2/game/stage/camera.o
+LOAD build/collect_rings/src/sa2/game/stage/terrain_collision.o
+LOAD build/collect_rings/src/sa2/game/stage/player.o
+LOAD build/collect_rings/src/sa2/game/stage/rings_scatter.o
+LOAD build/collect_rings/src/sa2/game/stage/player_controls.o
+LOAD build/collect_rings/src/sa2/game/stage/stage.o
+LOAD build/collect_rings/src/sa2/game/multiboot/connection.o
+LOAD build/collect_rings/src/sa2/game/game.o
+LOAD build/collect_rings/src/sa2/game/dummy_task.o
+LOAD build/collect_rings/src/sa2/rom_header.o
+LOAD build/collect_rings/src/sa2/lib/m4a/m4a0.o
+LOAD build/collect_rings/src/sa2/crt0.o
+LOAD build/collect_rings/src/sa2/multi_sio_asm.o
+LOAD build/collect_rings/sound/songs/midi/se_ring_copy.o
+LOAD build/collect_rings/sound/songs/midi/mus_vs_select_pak_mode.o
+LOAD build/collect_rings/sound/songs/midi/mus_vs_lobby.o
+LOAD build/collect_rings/sound/songs/midi/mus_fanfare.o
+LOAD build/collect_rings/sound/songs/midi/se_spin_dash_release.o
+LOAD build/collect_rings/sound/songs/midi/se_life_lost.o
+LOAD build/collect_rings/sound/songs/midi/se_itembox_2.o
+LOAD build/collect_rings/sound/songs/midi/se_spikes.o
+LOAD build/collect_rings/sound/songs/midi/se_276.o
+LOAD build/collect_rings/sound/songs/midi/se_grinding.o
+LOAD build/collect_rings/sound/songs/midi/se_time_up.o
+LOAD build/collect_rings/sound/songs/midi/se_alarm_1.o
+LOAD build/collect_rings/sound/songs/midi/mus_vs_2.o
+LOAD build/collect_rings/sound/songs/midi/mus_vs_3.o
+LOAD build/collect_rings/sound/songs/midi/se_select.o
+LOAD build/collect_rings/sound/songs/midi/se_216__collect_rings.o
+LOAD build/collect_rings/sound/songs/midi/se_brake__collect_rings.o
+LOAD build/collect_rings/sound/songs/midi/se_jump__collect_rings.o
+LOAD build/collect_rings/sound/songs/midi/se_rings_lost__collect_rings.o
+LOAD build/collect_rings/sound/songs/midi/se_spin_attack__collect_rings.o
+LOAD build/collect_rings/sound/songs/midi/se_spring__collect_rings.o
+LOAD build/collect_rings/sound/songs/midi/se_springy_spring__collect_rings.o
+LOAD ../../../tools/agbcc/lib/libgcc.a
+LOAD ../../../tools/agbcc/lib/libc.a
+LOAD ../../../libagbsyscall/libagbsyscall.a
+OUTPUT(collect_rings.elf elf32-littlearm)
+LOAD linker stubs
