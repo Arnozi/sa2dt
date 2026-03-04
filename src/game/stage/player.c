@@ -6606,6 +6606,101 @@ bool32 Player_TryMidAirAction(Player *p)
         if (p->frameInput & gPlayerControls.attack) {
             switch (p->character) {
                 case CHARACTER_SONIC: {
+                    if ((p->heldInput & DPAD_ANY) == DPAD_DOWN) {
+                        Player_SonicAmy_InitStopNSlam(p);
+                    }
+                    else {
+                        p->moveState |= MOVESTATE_SOME_ATTACK;
+                        p->charState = CHARSTATE_SOME_ATTACK;
+                        CreateSonicAmySkidAttackEffect(I(p->qWorldX), I(p->qWorldY), 1);
+                        song = SE_SONIC_INSTA_SHIELD;
+                        goto Player_TryMidAirAction_PlaySfx;
+                    }
+                    return TRUE;
+                } break;
+
+                case CHARACTER_CREAM: {
+                    if ((p->heldInput & DPAD_ANY) == DPAD_DOWN) {
+                        Player_Cream_InitChaoRollingAttack(p);
+                    } else {
+                        Player_Cream_InitMidAirChaoAttack(p);
+                    }
+                    return TRUE;
+                } break;
+
+                case CHARACTER_KNUCKLES: {
+                    if ((p->heldInput & DPAD_ANY) == DPAD_DOWN) {
+                        Player_Knuckles_InitDrillClaw(p);
+                    }
+                    return TRUE;
+                } break;
+
+                case CHARACTER_AMY: {
+                    if ((p->heldInput & DPAD_ANY) == DPAD_DOWN) {
+                        Player_SonicAmy_InitStopNSlam(p);
+                    }
+                    return TRUE;
+                } break;
+            }
+        }
+
+        if (p->frameInput & gPlayerControls.jump) {
+            switch (p->character)
+            {
+                case CHARACTER_SONIC: {
+                    p->unk71 = 1;
+                    Player_Sonic_TryForwardThrust(p);
+                    return TRUE;
+                } break;
+
+                case CHARACTER_CREAM: {
+                    Player_Cream_InitFlying(p);
+                    return TRUE;
+                } break;
+
+                case CHARACTER_TAILS: {
+                    if (!(p->moveState & MOVESTATE_IN_WATER)) {
+                        Player_Tails_InitFlying(p);
+                        p->moveState |= MOVESTATE_SOME_ATTACK;
+                        return TRUE;
+                    }
+                } break;
+
+                case CHARACTER_KNUCKLES: {
+                    if (!(p->moveState & MOVESTATE_IN_WATER)) {
+                        Player_Knuckles_InitGlide(p);
+                        return TRUE;
+                    }
+                } break;
+
+                case CHARACTER_AMY: {
+                    p->moveState |= MOVESTATE_SOME_ATTACK;
+                    p->charState = CHARSTATE_SOME_ATTACK;
+                    p->qSpeedAirY = 0;
+                    CreateAmyAttackHeartEffect(AMY_HEART_PATTERN_C);
+
+                    song = SE_AMY_SUPER_HAMMER_ATTACK;
+                    Player_TryMidAirAction_PlaySfx:
+                    m4aSongNumStart(song);
+                    return TRUE;
+                } break;
+            }
+        }
+        if (p->frameInput & gPlayerControls.trick) {
+            switch (p->character)
+            {
+                case CHARACTER_SONIC: {
+                    if (!IS_BOSS_STAGE(gCurrentLevel) && gHomingTarget.squarePlayerDistance < SQUARE(128)) {
+                        Player_Sonic_InitHomingAttack(p);
+                        return TRUE;
+                    }
+                } break;
+            }
+        }
+
+        /*if (p->frameInput & gPlayerControls.attack) {
+            switch (p->character) {
+                case CHARACTER_SONIC: {
                     Player_SonicAmy_InitStopNSlam(p);
                     return TRUE;
                 } break;
@@ -6679,7 +6774,7 @@ bool32 Player_TryMidAirAction(Player *p)
                     // there's no return TRUE; for Amy
                 } break;
             }
-        }
+        }*/
     }
 
     return FALSE;
