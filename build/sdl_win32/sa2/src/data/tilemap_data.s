@@ -221422,221 +221422,221 @@ Tiles_zone_2_act_1_bg:
 	.globl	Palette_zone_2_act_1_bg
 	.align 32
 Palette_zone_2_act_1_bg:
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
+	.word	20109
+	.word	23451
+	.word	894
+	.word	698
+	.word	405
+	.word	174
+	.word	13007
+	.word	16082
+	.word	18031
+	.word	14700
+	.word	9446
+	.word	14958
+	.word	2638
+	.word	13861
+	.word	3393
+	.word	0
+	.word	20109
+	.word	22494
+	.word	13183
+	.word	8959
+	.word	3642
+	.word	304
+	.word	6943
+	.word	12153
+	.word	9969
+	.word	9770
+	.word	6504
+	.word	17115
+	.word	18997
+	.word	14802
+	.word	9452
+	.word	0
+	.word	20109
+	.word	22494
+	.word	11103
+	.word	1725
+	.word	575
+	.word	1464
+	.word	2319
+	.word	105
+	.word	17115
+	.word	18997
+	.word	14802
+	.word	11534
+	.word	31775
+	.word	13901
+	.word	5538
+	.word	0
+	.word	20109
+	.word	11135
+	.word	8959
+	.word	6751
+	.word	5567
+	.word	6229
+	.word	8274
+	.word	10252
+	.word	42
+	.word	26591
+	.word	21340
+	.word	18135
+	.word	13939
+	.word	17874
+	.word	14604
+	.word	0
+	.word	20109
+	.word	22494
+	.word	24377
+	.word	23123
+	.word	16814
+	.word	10505
+	.word	31775
+	.word	31775
+	.word	31775
+	.word	7614
+	.word	6460
+	.word	5337
+	.word	4245
+	.word	2128
+	.word	42
+	.word	0
+	.word	20109
+	.word	671
+	.word	510
+	.word	347
+	.word	243
+	.word	76
+	.word	31775
+	.word	31775
+	.word	31775
+	.word	24511
+	.word	19226
+	.word	18036
+	.word	14863
+	.word	12718
+	.word	8490
+	.word	0
+	.word	20109
+	.word	28671
+	.word	25464
+	.word	22227
+	.word	17006
+	.word	12778
+	.word	9542
+	.word	31775
+	.word	17311
+	.word	11034
+	.word	4693
+	.word	6607
+	.word	330
+	.word	31775
+	.word	31775
+	.word	0
+	.word	704
+	.word	223
+	.word	155
+	.word	83
+	.word	12
+	.word	32767
+	.word	24377
+	.word	14798
+	.word	1057
+	.word	32422
+	.word	28104
+	.word	21832
+	.word	17670
+	.word	959
+	.word	767
+	.word	575
+	.word	0
+	.word	32767
+	.word	10943
+	.word	190
+	.word	184
+	.word	11231
+	.word	831
+	.word	703
+	.word	14175
+	.word	511
+	.word	319
 	.word	2017
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
+	.word	0
+	.word	28531
+	.word	28197
+	.word	18755
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	26591
+	.word	23356
+	.word	19161
+	.word	18036
+	.word	12651
+	.word	10570
+	.word	19126
+	.word	18035
+	.word	15922
+	.word	14864
+	.word	13775
+	.word	10635
+	.word	6377
 	.word	2017
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
-	.word	992
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
+	.word	0
 	.word	0
 	.word	992
-	.word	30582
-	.word	30582
 	.word	30614
+	.word	30582
 	.word	30615
+	.word	30616
 	.word	30615
-	.word	31639
-	.word	30617
 	.word	31640
-	.word	30618
-	.word	31672
-	.word	31673
-	.word	32697
-	.word	31675
+	.word	30616
+	.word	32696
+	.word	30617
+	.word	31705
+	.word	32729
 	.word	32698
+	.word	31674
+	.word	32700
 	.word	0
-	.word	17968
-	.word	19025
-	.word	20081
-	.word	21138
-	.word	22195
-	.word	23252
+	.word	14798
+	.word	16846
+	.word	18992
+	.word	20049
+	.word	22163
+	.word	23220
 	.word	24309
 	.word	25367
 	.word	26424
@@ -221653,28 +221653,28 @@ Palette_zone_2_act_1_bg:
 	.word	16877
 	.word	23220
 	.word	22130
-	.word	20049
+	.word	20081
 	.word	18991
 	.word	21139
-	.word	16910
-	.word	15820
-	.word	12683
-	.word	9544
-	.word	7397
-	.word	2114
+	.word	16878
+	.word	15788
+	.word	12651
+	.word	9449
+	.word	7171
+	.word	0
 	.word	992
-	.word	895
-	.word	799
-	.word	702
+	.word	24479
+	.word	3935
+	.word	767
 	.word	605
-	.word	540
-	.word	443
-	.word	313
-	.word	214
-	.word	51
-	.word	47
-	.word	43
-	.word	39
+	.word	351
+	.word	7199
+	.word	9242
+	.word	10261
+	.word	9232
+	.word	9227
+	.word	8198
+	.word	2049
 	.word	992
 	.word	992
 	.word	0
@@ -980290,19 +980290,19 @@ Tileset_zone_2_act_boss_fg:
 	.align 32
 Palette_zone_2_act_boss_fg:
 	.word	20109
-	.word	22494
+	.word	23451
 	.word	894
 	.word	698
-	.word	533
-	.word	366
-	.word	5881
-	.word	21337
-	.word	15987
-	.word	11726
-	.word	6440
-	.word	4813
+	.word	405
+	.word	174
+	.word	13007
+	.word	16082
+	.word	18031
+	.word	14700
+	.word	9446
+	.word	14958
 	.word	2638
-	.word	2530
+	.word	13861
 	.word	3393
 	.word	0
 	.word	20109
@@ -980311,7 +980311,7 @@ Palette_zone_2_act_boss_fg:
 	.word	8959
 	.word	3642
 	.word	304
-	.word	1725
+	.word	6943
 	.word	12153
 	.word	9969
 	.word	9770
@@ -980319,39 +980319,39 @@ Palette_zone_2_act_boss_fg:
 	.word	17115
 	.word	18997
 	.word	14802
-	.word	11534
+	.word	9452
 	.word	0
 	.word	20109
 	.word	22494
-	.word	10079
+	.word	11103
 	.word	1725
-	.word	1564
+	.word	575
 	.word	1464
-	.word	2387
-	.word	172
+	.word	2319
+	.word	105
 	.word	17115
 	.word	18997
 	.word	14802
 	.word	11534
 	.word	31775
-	.word	2638
-	.word	3393
+	.word	13901
+	.word	5538
 	.word	0
 	.word	20109
 	.word	11135
 	.word	8959
 	.word	6751
 	.word	5567
-	.word	2270
-	.word	1175
-	.word	1104
+	.word	6229
+	.word	8274
+	.word	10252
 	.word	42
 	.word	26591
 	.word	21340
 	.word	18135
 	.word	13939
-	.word	7630
-	.word	2347
+	.word	17874
+	.word	14604
 	.word	0
 	.word	20109
 	.word	22494
@@ -980454,7 +980454,7 @@ Palette_zone_2_act_boss_fg:
 	.word	23356
 	.word	19161
 	.word	18036
-	.word	14798
+	.word	12651
 	.word	10570
 	.word	19126
 	.word	18035
@@ -980483,27 +980483,27 @@ Palette_zone_2_act_boss_fg:
 	.word	0
 	.word	0
 	.word	992
-	.word	30582
-	.word	30582
 	.word	30614
+	.word	30582
 	.word	30615
+	.word	30616
 	.word	30615
-	.word	31639
-	.word	30617
 	.word	31640
-	.word	30618
-	.word	31672
-	.word	31673
-	.word	32697
-	.word	31675
+	.word	30616
+	.word	32696
+	.word	30617
+	.word	31705
+	.word	32729
 	.word	32698
+	.word	31674
+	.word	32700
 	.word	0
-	.word	17968
-	.word	19025
-	.word	20081
-	.word	21138
-	.word	22195
-	.word	23252
+	.word	14798
+	.word	16846
+	.word	18992
+	.word	20049
+	.word	22163
+	.word	23220
 	.word	24309
 	.word	25367
 	.word	26424
@@ -980520,28 +980520,28 @@ Palette_zone_2_act_boss_fg:
 	.word	16877
 	.word	23220
 	.word	22130
-	.word	20049
+	.word	20081
 	.word	18991
 	.word	21139
-	.word	16910
-	.word	15820
-	.word	12683
-	.word	9544
-	.word	7397
-	.word	2114
+	.word	16878
+	.word	15788
+	.word	12651
+	.word	9449
+	.word	7171
+	.word	0
 	.word	992
-	.word	895
-	.word	799
-	.word	702
+	.word	24479
+	.word	3935
+	.word	767
 	.word	605
-	.word	540
-	.word	443
-	.word	313
-	.word	214
-	.word	51
-	.word	47
-	.word	43
-	.word	39
+	.word	351
+	.word	7199
+	.word	9242
+	.word	10261
+	.word	9232
+	.word	9227
+	.word	8198
+	.word	2049
 	.word	992
 	.word	992
 	.word	0
@@ -1060606,19 +1060606,19 @@ Tileset_zone_2_act_2_fg:
 	.align 32
 Palette_zone_2_act_2_fg:
 	.word	20109
-	.word	22494
+	.word	23451
 	.word	894
 	.word	698
-	.word	533
-	.word	366
-	.word	5881
-	.word	21337
-	.word	15987
-	.word	11726
-	.word	6440
-	.word	4813
+	.word	405
+	.word	174
+	.word	13007
+	.word	16082
+	.word	18031
+	.word	14700
+	.word	9446
+	.word	14958
 	.word	2638
-	.word	2530
+	.word	13861
 	.word	3393
 	.word	0
 	.word	20109
@@ -1060627,7 +1060627,7 @@ Palette_zone_2_act_2_fg:
 	.word	8959
 	.word	3642
 	.word	304
-	.word	1725
+	.word	6943
 	.word	12153
 	.word	9969
 	.word	9770
@@ -1060635,39 +1060635,39 @@ Palette_zone_2_act_2_fg:
 	.word	17115
 	.word	18997
 	.word	14802
-	.word	11534
+	.word	9452
 	.word	0
 	.word	20109
 	.word	22494
-	.word	10079
+	.word	11103
 	.word	1725
-	.word	1564
+	.word	575
 	.word	1464
-	.word	2387
-	.word	172
+	.word	2319
+	.word	105
 	.word	17115
 	.word	18997
 	.word	14802
 	.word	11534
 	.word	31775
-	.word	2638
-	.word	3393
+	.word	13901
+	.word	5538
 	.word	0
 	.word	20109
 	.word	11135
 	.word	8959
 	.word	6751
 	.word	5567
-	.word	2270
-	.word	1175
-	.word	1104
+	.word	6229
+	.word	8274
+	.word	10252
 	.word	42
 	.word	26591
 	.word	21340
 	.word	18135
 	.word	13939
-	.word	7630
-	.word	2347
+	.word	17874
+	.word	14604
 	.word	0
 	.word	20109
 	.word	22494
@@ -1060770,7 +1060770,7 @@ Palette_zone_2_act_2_fg:
 	.word	23356
 	.word	19161
 	.word	18036
-	.word	14798
+	.word	12651
 	.word	10570
 	.word	19126
 	.word	18035
@@ -1060799,27 +1060799,27 @@ Palette_zone_2_act_2_fg:
 	.word	0
 	.word	0
 	.word	992
-	.word	30582
-	.word	30582
 	.word	30614
+	.word	30582
 	.word	30615
+	.word	30616
 	.word	30615
-	.word	31639
-	.word	30617
 	.word	31640
-	.word	30618
-	.word	31672
-	.word	31673
-	.word	32697
-	.word	31675
+	.word	30616
+	.word	32696
+	.word	30617
+	.word	31705
+	.word	32729
 	.word	32698
+	.word	31674
+	.word	32700
 	.word	0
-	.word	17968
-	.word	19025
-	.word	20081
-	.word	21138
-	.word	22195
-	.word	23252
+	.word	14798
+	.word	16846
+	.word	18992
+	.word	20049
+	.word	22163
+	.word	23220
 	.word	24309
 	.word	25367
 	.word	26424
@@ -1060836,28 +1060836,28 @@ Palette_zone_2_act_2_fg:
 	.word	16877
 	.word	23220
 	.word	22130
-	.word	20049
+	.word	20081
 	.word	18991
 	.word	21139
-	.word	16910
-	.word	15820
-	.word	12683
-	.word	9544
-	.word	7397
-	.word	2114
+	.word	16878
+	.word	15788
+	.word	12651
+	.word	9449
+	.word	7171
+	.word	0
 	.word	992
-	.word	895
-	.word	799
-	.word	702
+	.word	24479
+	.word	3935
+	.word	767
 	.word	605
-	.word	540
-	.word	443
-	.word	313
-	.word	214
-	.word	51
-	.word	47
-	.word	43
-	.word	39
+	.word	351
+	.word	7199
+	.word	9242
+	.word	10261
+	.word	9232
+	.word	9227
+	.word	8198
+	.word	2049
 	.word	992
 	.word	992
 	.word	0
