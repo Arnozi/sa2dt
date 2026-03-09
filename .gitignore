@@ -94,3 +94,8 @@ libagbsyscall/*.s
 !data
 !graphics
 !Tempo/Sonic Advance 2 - Double Take
+graphics/Cream ref.aseprite
+graphics/Amy ref.aseprite
+graphics/Knucks ref.aseprite
+graphics/Sonic Sprite Ref.ase
+graphics/Tails ref.ase
