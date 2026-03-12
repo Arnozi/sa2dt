@@ -8679,7 +8679,7 @@ LOAD /usr/lib/gcc/x86_64-w64-mingw32/13-win32/crtend.o
  .rodata        0x000000014084ff18       0x28 sound/songs/midi/voice__announcer__tails.o
                 0x000000014084ff28                voice__announcer__tails
 
-.rdata          0x0000000140850000   0x4f2800
+.rdata          0x0000000140850000   0x4f2c00
  *(.rdata)
  .rdata         0x0000000140850000       0xa0 src/core.o
                 0x0000000140850000                sVblankFuncs
@@ -14612,7 +14612,7 @@ LOAD /usr/lib/gcc/x86_64-w64-mingw32/13-win32/crtend.o
                 0x0000000140cfe4a0                gUnknown_080D7518
  .rdata         0x0000000140cfe4e0    0x25ea0 src/game/assets/compressed/roms.o
                 0x0000000140cfe4e0                gMultiBootProgram_TinyChaoGarden
- .rdata         0x0000000140d24380    0x16dc0 src/game/assets/compressed/entities.o
+ .rdata         0x0000000140d24380    0x17040 src/game/assets/compressed/entities.o
                 0x0000000140d24380                zone8_boss_interactables
                 0x0000000140d24500                zone8_boss_itemboxes
                 0x0000000140d24520                zone8_boss_enemies
@@ -14682,1237 +14682,1237 @@ LOAD /usr/lib/gcc/x86_64-w64-mingw32/13-win32/crtend.o
                 0x0000000140d34140                zone3_act2_enemies
                 0x0000000140d342a0                zone3_act2_rings
                 0x0000000140d34ca0                zone3_act1_interactables
-                0x0000000140d35b20                zone3_act1_itemboxes
-                0x0000000140d35c40                zone3_act1_enemies
-                0x0000000140d35e00                zone3_act1_rings
-                0x0000000140d364e0                zone2_boss_interactables
-                0x0000000140d36500                zone2_boss_itemboxes
-                0x0000000140d36520                zone2_boss_enemies
-                0x0000000140d36540                zone2_boss_rings
-                0x0000000140d365a0                zone2_act2_interactables
-                0x0000000140d37020                zone2_act2_itemboxes
-                0x0000000140d37160                zone2_act2_enemies
-                0x0000000140d373c0                zone2_act2_rings
-                0x0000000140d37c00                zone2_act1_interactables
-                0x0000000140d38760                zone2_act1_itemboxes
-                0x0000000140d38880                zone2_act1_enemies
-                0x0000000140d38a80                zone2_act1_rings
-                0x0000000140d39460                zone1_boss_interactables
-                0x0000000140d39480                zone1_boss_itemboxes
-                0x0000000140d394a0                zone1_boss_enemies
-                0x0000000140d394c0                zone1_boss_rings
-                0x0000000140d39520                zone1_act2_interactables
-                0x0000000140d39c20                zone1_act2_itemboxes
-                0x0000000140d39ca0                zone1_act2_enemies
-                0x0000000140d39da0                zone1_act2_rings
-                0x0000000140d3a180                zone1_act1_interactables
-                0x0000000140d3aae0                zone1_act1_itemboxes
-                0x0000000140d3ab80                zone1_act1_enemies
-                0x0000000140d3ac80                zone1_act1_rings
- .rdata         0x0000000140d3b140      0x280 src/game/course_select.o
- .rdata         0x0000000140d3b3c0      0x5a0 src/platform/pret_sdl/sdl2.o
-                0x0000000140d3b728                spriteSizes
-                0x0000000140d3b740                sineTable
- .rdata         0x0000000140d3b960       0x80 src/platform/ext/gbagfx/lz.o
- .rdata         0x0000000140d3b9e0       0x60 src/platform/ext/gbagfx/rl.o
- .rdata         0x0000000140d3ba40       0x60 src/platform/shared/compression.o
- .rdata         0x0000000140d3baa0       0x10 src/platform/shared/audio/m4a_sound_mixer.o
- *fill*         0x0000000140d3bab0       0x10 
- .rdata         0x0000000140d3bac0     0x2540 src/platform/shared/audio/cgb_audio.o
-                0x0000000140d3bac0                freqTableNSE
-                0x0000000140d3bec0                freqTable
-                0x0000000140d3dec0                PU3
-                0x0000000140d3df00                PU2
-                0x0000000140d3df40                PU1
-                0x0000000140d3df80                PU0
- .rdata         0x0000000140d3e000       0x10 src/platform/shared/input.o
- .rdata         0x0000000140d3e010       0x50 src/platform/shared/dma.o
- .rdata         0x0000000140d3e060      0xa00 src/trig.o
-                0x0000000140d3e060                gSineTable
- .rdata         0x0000000140d3ea60       0x20 src/sio32_multi_load.o
- .rdata         0x0000000140d3ea80       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crtexewin.o)
- *fill*         0x0000000140d3ea90       0x10 
- .rdata         0x0000000140d3eaa0       0x60 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
-                0x0000000140d3eaa0                __dyn_tls_init_callback
-                0x0000000140d3eac0                _tls_used
- .rdata         0x0000000140d3eb00      0x140 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
- .rdata         0x0000000140d3ec40      0x160 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
- .rdata         0x0000000140d3eda0       0x30 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
- .rdata         0x0000000140d3edd0       0x40 /home/arno/sa2dt/ext/SDL2-2.30.3/x86_64-w64-mingw32/lib/libSDL2main.a(SDL_windows_main.o)
- .rdata         0x0000000140d3ee10      0x190 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_pformat.o)
- .rdata         0x0000000140d3efa0       0x90 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-gdtoa.o)
- *fill*         0x0000000140d3f030       0x10 
- .rdata         0x0000000140d3f040      0x160 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-misc.o)
-                0x0000000140d3f060                __tens_D2A
-                0x0000000140d3f120                __tinytens_D2A
-                0x0000000140d3f160                __bigtens_D2A
+                0x0000000140d35d40                zone3_act1_itemboxes
+                0x0000000140d35e60                zone3_act1_enemies
+                0x0000000140d36020                zone3_act1_rings
+                0x0000000140d36750                zone2_boss_interactables
+                0x0000000140d36770                zone2_boss_itemboxes
+                0x0000000140d36790                zone2_boss_enemies
+                0x0000000140d367c0                zone2_boss_rings
+                0x0000000140d36820                zone2_act2_interactables
+                0x0000000140d372a0                zone2_act2_itemboxes
+                0x0000000140d373e0                zone2_act2_enemies
+                0x0000000140d37640                zone2_act2_rings
+                0x0000000140d37e80                zone2_act1_interactables
+                0x0000000140d389e0                zone2_act1_itemboxes
+                0x0000000140d38b00                zone2_act1_enemies
+                0x0000000140d38d00                zone2_act1_rings
+                0x0000000140d396e0                zone1_boss_interactables
+                0x0000000140d39700                zone1_boss_itemboxes
+                0x0000000140d39720                zone1_boss_enemies
+                0x0000000140d39740                zone1_boss_rings
+                0x0000000140d397a0                zone1_act2_interactables
+                0x0000000140d39ea0                zone1_act2_itemboxes
+                0x0000000140d39f20                zone1_act2_enemies
+                0x0000000140d3a020                zone1_act2_rings
+                0x0000000140d3a400                zone1_act1_interactables
+                0x0000000140d3ad60                zone1_act1_itemboxes
+                0x0000000140d3ae00                zone1_act1_enemies
+                0x0000000140d3af00                zone1_act1_rings
+ .rdata         0x0000000140d3b3c0      0x280 src/game/course_select.o
+ .rdata         0x0000000140d3b640      0x5a0 src/platform/pret_sdl/sdl2.o
+                0x0000000140d3b9a8                spriteSizes
+                0x0000000140d3b9c0                sineTable
+ .rdata         0x0000000140d3bbe0       0x80 src/platform/ext/gbagfx/lz.o
+ .rdata         0x0000000140d3bc60       0x60 src/platform/ext/gbagfx/rl.o
+ .rdata         0x0000000140d3bcc0       0x60 src/platform/shared/compression.o
+ .rdata         0x0000000140d3bd20       0x10 src/platform/shared/audio/m4a_sound_mixer.o
+ *fill*         0x0000000140d3bd30       0x10 
+ .rdata         0x0000000140d3bd40     0x2540 src/platform/shared/audio/cgb_audio.o
+                0x0000000140d3bd40                freqTableNSE
+                0x0000000140d3c140                freqTable
+                0x0000000140d3e140                PU3
+                0x0000000140d3e180                PU2
+                0x0000000140d3e1c0                PU1
+                0x0000000140d3e200                PU0
+ .rdata         0x0000000140d3e280       0x10 src/platform/shared/input.o
+ .rdata         0x0000000140d3e290       0x50 src/platform/shared/dma.o
+ .rdata         0x0000000140d3e2e0      0xa00 src/trig.o
+                0x0000000140d3e2e0                gSineTable
+ .rdata         0x0000000140d3ece0       0x20 src/sio32_multi_load.o
+ .rdata         0x0000000140d3ed00       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crtexewin.o)
+ *fill*         0x0000000140d3ed10       0x10 
+ .rdata         0x0000000140d3ed20       0x60 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x0000000140d3ed20                __dyn_tls_init_callback
+                0x0000000140d3ed40                _tls_used
+ .rdata         0x0000000140d3ed80      0x140 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .rdata         0x0000000140d3eec0      0x160 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .rdata         0x0000000140d3f020       0x30 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .rdata         0x0000000140d3f050       0x40 /home/arno/sa2dt/ext/SDL2-2.30.3/x86_64-w64-mingw32/lib/libSDL2main.a(SDL_windows_main.o)
+ .rdata         0x0000000140d3f090      0x190 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_pformat.o)
+ .rdata         0x0000000140d3f220       0x90 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-gdtoa.o)
+ *fill*         0x0000000140d3f2b0       0x10 
+ .rdata         0x0000000140d3f2c0      0x160 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-misc.o)
+                0x0000000140d3f2e0                __tens_D2A
+                0x0000000140d3f3a0                __tinytens_D2A
+                0x0000000140d3f3e0                __bigtens_D2A
  *(SORT_BY_NAME(.rdata$*))
  .rdata$.refptr.BgPaletteEffectGradient
-                0x0000000140d3f1a0       0x10 src/game/title_screen.o
-                0x0000000140d3f1a0                .refptr.BgPaletteEffectGradient
+                0x0000000140d3f420       0x10 src/game/title_screen.o
+                0x0000000140d3f420                .refptr.BgPaletteEffectGradient
  .rdata$.refptr.EWRAM_START
-                0x0000000140d3f1b0       0x10 src/core.o
-                0x0000000140d3f1b0                .refptr.EWRAM_START
+                0x0000000140d3f430       0x10 src/core.o
+                0x0000000140d3f430                .refptr.EWRAM_START
  .rdata$.refptr.EraseFlashSector
-                0x0000000140d3f1c0       0x10 src/game/save.o
-                0x0000000140d3f1c0                .refptr.EraseFlashSector
+                0x0000000140d3f440       0x10 src/game/save.o
+                0x0000000140d3f440                .refptr.EraseFlashSector
  .rdata$.refptr.FLASH_BASE
-                0x0000000140d3f1d0       0x10 src/lib/agb_flash/agb_flash.o
-                0x0000000140d3f1d0                .refptr.FLASH_BASE
+                0x0000000140d3f450       0x10 src/lib/agb_flash/agb_flash.o
+                0x0000000140d3f450                .refptr.FLASH_BASE
  .rdata$.refptr.INTR_CHECK
-                0x0000000140d3f1e0       0x10 src/core.o
-                0x0000000140d3f1e0                .refptr.INTR_CHECK
+                0x0000000140d3f460       0x10 src/core.o
+                0x0000000140d3f460                .refptr.INTR_CHECK
  .rdata$.refptr.INTR_VECTOR
-                0x0000000140d3f1f0       0x10 src/core.o
-                0x0000000140d3f1f0                .refptr.INTR_VECTOR
+                0x0000000140d3f470       0x10 src/core.o
+                0x0000000140d3f470                .refptr.INTR_VECTOR
  .rdata$.refptr.IntrMain
-                0x0000000140d3f200       0x10 src/core.o
-                0x0000000140d3f200                .refptr.IntrMain
+                0x0000000140d3f480       0x10 src/core.o
+                0x0000000140d3f480                .refptr.IntrMain
  .rdata$.refptr.MP2KPlayerMain
-                0x0000000140d3f210       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f210                .refptr.MP2KPlayerMain
+                0x0000000140d3f490       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3f490                .refptr.MP2KPlayerMain
  .rdata$.refptr.MP2K_event_endtie
-                0x0000000140d3f220       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f220                .refptr.MP2K_event_endtie
+                0x0000000140d3f4a0       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3f4a0                .refptr.MP2K_event_endtie
  .rdata$.refptr.MP2K_event_lfos
-                0x0000000140d3f230       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f230                .refptr.MP2K_event_lfos
+                0x0000000140d3f4b0       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3f4b0                .refptr.MP2K_event_lfos
  .rdata$.refptr.MP2K_event_mod
-                0x0000000140d3f240       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f240                .refptr.MP2K_event_mod
+                0x0000000140d3f4c0       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3f4c0                .refptr.MP2K_event_mod
  .rdata$.refptr.MP2K_event_nxx
-                0x0000000140d3f250       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f250                .refptr.MP2K_event_nxx
+                0x0000000140d3f4d0       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3f4d0                .refptr.MP2K_event_nxx
  .rdata$.refptr.MultiSioIntr
-                0x0000000140d3f260       0x10 src/game/multiboot/connection.o
-                0x0000000140d3f260                .refptr.MultiSioIntr
+                0x0000000140d3f4e0       0x10 src/game/multiboot/connection.o
+                0x0000000140d3f4e0                .refptr.MultiSioIntr
  .rdata$.refptr.OAM
-                0x0000000140d3f270       0x10 src/core.o
-                0x0000000140d3f270                .refptr.OAM
+                0x0000000140d3f4f0       0x10 src/core.o
+                0x0000000140d3f4f0                .refptr.OAM
  .rdata$.refptr.PLTT
-                0x0000000140d3f280       0x10 src/core.o
-                0x0000000140d3f280                .refptr.PLTT
+                0x0000000140d3f500       0x10 src/core.o
+                0x0000000140d3f500                .refptr.PLTT
  .rdata$.refptr.Player_InitHomingAttackRecoil
-                0x0000000140d3f290       0x10 src/game/stage/player.o
-                0x0000000140d3f290                .refptr.Player_InitHomingAttackRecoil
+                0x0000000140d3f510       0x10 src/game/stage/player.o
+                0x0000000140d3f510                .refptr.Player_InitHomingAttackRecoil
  .rdata$.refptr.Player_Knuckles_InitDrillClaw
-                0x0000000140d3f2a0       0x10 src/game/stage/player.o
-                0x0000000140d3f2a0                .refptr.Player_Knuckles_InitDrillClaw
+                0x0000000140d3f520       0x10 src/game/stage/player.o
+                0x0000000140d3f520                .refptr.Player_Knuckles_InitDrillClaw
  .rdata$.refptr.Player_SonicAmy_InitStopNSlam
-                0x0000000140d3f2b0       0x10 src/game/stage/player.o
-                0x0000000140d3f2b0                .refptr.Player_SonicAmy_InitStopNSlam
+                0x0000000140d3f530       0x10 src/game/stage/player.o
+                0x0000000140d3f530                .refptr.Player_SonicAmy_InitStopNSlam
  .rdata$.refptr.Player_TouchGround
-                0x0000000140d3f2c0       0x10 src/game/bosses/common.o
-                0x0000000140d3f2c0                .refptr.Player_TouchGround
+                0x0000000140d3f540       0x10 src/game/bosses/common.o
+                0x0000000140d3f540                .refptr.Player_TouchGround
  .rdata$.refptr.Player_Uncurl
-                0x0000000140d3f2d0       0x10 src/game/player_callbacks.o
-                0x0000000140d3f2d0                .refptr.Player_Uncurl
+                0x0000000140d3f550       0x10 src/game/player_callbacks.o
+                0x0000000140d3f550                .refptr.Player_Uncurl
  .rdata$.refptr.PollFlashStatus
-                0x0000000140d3f2e0       0x10 src/lib/agb_flash/agb_flash_512k.o
-                0x0000000140d3f2e0                .refptr.PollFlashStatus
+                0x0000000140d3f560       0x10 src/lib/agb_flash/agb_flash_512k.o
+                0x0000000140d3f560                .refptr.PollFlashStatus
  .rdata$.refptr.REG_BASE
-                0x0000000140d3f2f0       0x10 src/core.o
-                0x0000000140d3f2f0                .refptr.REG_BASE
+                0x0000000140d3f570       0x10 src/core.o
+                0x0000000140d3f570                .refptr.REG_BASE
  .rdata$.refptr.SOUND_INFO_PTR
-                0x0000000140d3f300       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f300                .refptr.SOUND_INFO_PTR
+                0x0000000140d3f580       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3f580                .refptr.SOUND_INFO_PTR
  .rdata$.refptr.Sio32MultiLoadIntr
-                0x0000000140d3f310       0x10 src/game/multiboot/connection.o
-                0x0000000140d3f310                .refptr.Sio32MultiLoadIntr
+                0x0000000140d3f590       0x10 src/game/multiboot/connection.o
+                0x0000000140d3f590                .refptr.Sio32MultiLoadIntr
  .rdata$.refptr.TaskDestructor_80095E8
-                0x0000000140d3f320       0x10 src/game/interactables_1/booster.o
-                0x0000000140d3f320                .refptr.TaskDestructor_80095E8
+                0x0000000140d3f5a0       0x10 src/game/interactables_1/booster.o
+                0x0000000140d3f5a0                .refptr.TaskDestructor_80095E8
  .rdata$.refptr.TaskDestructor_MultiplayerSpriteTask
-                0x0000000140d3f330       0x10 src/game/stage/underwater_effects.o
-                0x0000000140d3f330                .refptr.TaskDestructor_MultiplayerSpriteTask
+                0x0000000140d3f5b0       0x10 src/game/stage/underwater_effects.o
+                0x0000000140d3f5b0                .refptr.TaskDestructor_MultiplayerSpriteTask
  .rdata$.refptr.Task_DestroyBossParts
-                0x0000000140d3f340       0x10 src/game/bosses/explosion_parts.o
-                0x0000000140d3f340                .refptr.Task_DestroyBossParts
+                0x0000000140d3f5c0       0x10 src/game/bosses/explosion_parts.o
+                0x0000000140d3f5c0                .refptr.Task_DestroyBossParts
  .rdata$.refptr.Task_UpdateMpSpriteTaskSprite
-                0x0000000140d3f350       0x10 src/game/stage/player.o
-                0x0000000140d3f350                .refptr.Task_UpdateMpSpriteTaskSprite
+                0x0000000140d3f5d0       0x10 src/game/stage/player.o
+                0x0000000140d3f5d0                .refptr.Task_UpdateMpSpriteTaskSprite
  .rdata$.refptr.Tileset_DebugAscii
-                0x0000000140d3f360       0x10 src/game/sa1_sa2_shared/unused_flash_task.o
-                0x0000000140d3f360                .refptr.Tileset_DebugAscii
+                0x0000000140d3f5e0       0x10 src/game/sa1_sa2_shared/unused_flash_task.o
+                0x0000000140d3f5e0                .refptr.Tileset_DebugAscii
  .rdata$.refptr.Tileset_zone_1_act_1_fg
-                0x0000000140d3f370       0x10 src/game/sa1_sa2_shared/pause_menu.o
-                0x0000000140d3f370                .refptr.Tileset_zone_1_act_1_fg
+                0x0000000140d3f5f0       0x10 src/game/sa1_sa2_shared/pause_menu.o
+                0x0000000140d3f5f0                .refptr.Tileset_zone_1_act_1_fg
  .rdata$.refptr.TrackStop
-                0x0000000140d3f380       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f380                .refptr.TrackStop
+                0x0000000140d3f600       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3f600                .refptr.TrackStop
  .rdata$.refptr.VRAM
-                0x0000000140d3f390       0x10 src/core.o
-                0x0000000140d3f390                .refptr.VRAM
+                0x0000000140d3f610       0x10 src/core.o
+                0x0000000140d3f610                .refptr.VRAM
  .rdata$.refptr.WaitForFlashWrite
-                0x0000000140d3f3a0       0x10 src/lib/agb_flash/agb_flash_le_512k.o
-                0x0000000140d3f3a0                .refptr.WaitForFlashWrite
+                0x0000000140d3f620       0x10 src/lib/agb_flash/agb_flash_le_512k.o
+                0x0000000140d3f620                .refptr.WaitForFlashWrite
  .rdata$.refptr._CRT_MT
-                0x0000000140d3f3b0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
-                0x0000000140d3f3b0                .refptr._CRT_MT
+                0x0000000140d3f630       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+                0x0000000140d3f630                .refptr._CRT_MT
  .rdata$.refptr._MINGW_INSTALL_DEBUG_MATHERR
-                0x0000000140d3f3c0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f3c0                .refptr._MINGW_INSTALL_DEBUG_MATHERR
+                0x0000000140d3f640       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f640                .refptr._MINGW_INSTALL_DEBUG_MATHERR
  .rdata$.refptr.__CTOR_LIST__
-                0x0000000140d3f3d0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
-                0x0000000140d3f3d0                .refptr.__CTOR_LIST__
+                0x0000000140d3f650       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+                0x0000000140d3f650                .refptr.__CTOR_LIST__
  .rdata$.refptr.__RUNTIME_PSEUDO_RELOC_LIST_END__
-                0x0000000140d3f3e0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
-                0x0000000140d3f3e0                .refptr.__RUNTIME_PSEUDO_RELOC_LIST_END__
+                0x0000000140d3f660       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+                0x0000000140d3f660                .refptr.__RUNTIME_PSEUDO_RELOC_LIST_END__
  .rdata$.refptr.__RUNTIME_PSEUDO_RELOC_LIST__
-                0x0000000140d3f3f0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
-                0x0000000140d3f3f0                .refptr.__RUNTIME_PSEUDO_RELOC_LIST__
+                0x0000000140d3f670       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+                0x0000000140d3f670                .refptr.__RUNTIME_PSEUDO_RELOC_LIST__
  .rdata$.refptr.__dyn_tls_init_callback
-                0x0000000140d3f400       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f400                .refptr.__dyn_tls_init_callback
+                0x0000000140d3f680       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f680                .refptr.__dyn_tls_init_callback
  .rdata$.refptr.__image_base__
-                0x0000000140d3f410       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f410                .refptr.__image_base__
+                0x0000000140d3f690       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f690                .refptr.__image_base__
  .rdata$.refptr.__imp___initenv
-                0x0000000140d3f420       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f420                .refptr.__imp___initenv
+                0x0000000140d3f6a0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f6a0                .refptr.__imp___initenv
  .rdata$.refptr.__imp__acmdln
-                0x0000000140d3f430       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__acmdln.o)
-                0x0000000140d3f430                .refptr.__imp__acmdln
+                0x0000000140d3f6b0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__acmdln.o)
+                0x0000000140d3f6b0                .refptr.__imp__acmdln
  .rdata$.refptr.__imp__commode
-                0x0000000140d3f440       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__commode.o)
-                0x0000000140d3f440                .refptr.__imp__commode
+                0x0000000140d3f6c0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__commode.o)
+                0x0000000140d3f6c0                .refptr.__imp__commode
  .rdata$.refptr.__imp__fmode
-                0x0000000140d3f450       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__fmode.o)
-                0x0000000140d3f450                .refptr.__imp__fmode
+                0x0000000140d3f6d0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__fmode.o)
+                0x0000000140d3f6d0                .refptr.__imp__fmode
  .rdata$.refptr.__mingw_app_type
-                0x0000000140d3f460       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f460                .refptr.__mingw_app_type
+                0x0000000140d3f6e0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f6e0                .refptr.__mingw_app_type
  .rdata$.refptr.__mingw_initltsdrot_force
-                0x0000000140d3f470       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f470                .refptr.__mingw_initltsdrot_force
+                0x0000000140d3f6f0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f6f0                .refptr.__mingw_initltsdrot_force
  .rdata$.refptr.__mingw_initltsdyn_force
-                0x0000000140d3f480       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f480                .refptr.__mingw_initltsdyn_force
+                0x0000000140d3f700       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f700                .refptr.__mingw_initltsdyn_force
  .rdata$.refptr.__mingw_initltssuo_force
-                0x0000000140d3f490       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f490                .refptr.__mingw_initltssuo_force
+                0x0000000140d3f710       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f710                .refptr.__mingw_initltssuo_force
  .rdata$.refptr.__mingw_oldexcpt_handler
-                0x0000000140d3f4a0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f4a0                .refptr.__mingw_oldexcpt_handler
+                0x0000000140d3f720       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f720                .refptr.__mingw_oldexcpt_handler
  .rdata$.refptr.__native_startup_lock
-                0x0000000140d3f4b0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f4b0                .refptr.__native_startup_lock
+                0x0000000140d3f730       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f730                .refptr.__native_startup_lock
  .rdata$.refptr.__native_startup_state
-                0x0000000140d3f4c0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f4c0                .refptr.__native_startup_state
+                0x0000000140d3f740       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f740                .refptr.__native_startup_state
  .rdata$.refptr.__tens_D2A
-                0x0000000140d3f4d0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-gdtoa.o)
-                0x0000000140d3f4d0                .refptr.__tens_D2A
+                0x0000000140d3f750       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-gdtoa.o)
+                0x0000000140d3f750                .refptr.__tens_D2A
  .rdata$.refptr.__xc_a
-                0x0000000140d3f4e0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f4e0                .refptr.__xc_a
+                0x0000000140d3f760       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f760                .refptr.__xc_a
  .rdata$.refptr.__xc_z
-                0x0000000140d3f4f0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f4f0                .refptr.__xc_z
+                0x0000000140d3f770       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f770                .refptr.__xc_z
  .rdata$.refptr.__xi_a
-                0x0000000140d3f500       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f500                .refptr.__xi_a
+                0x0000000140d3f780       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f780                .refptr.__xi_a
  .rdata$.refptr.__xi_z
-                0x0000000140d3f510       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f510                .refptr.__xi_z
+                0x0000000140d3f790       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f790                .refptr.__xi_z
  .rdata$.refptr._commode
-                0x0000000140d3f520       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f520                .refptr._commode
+                0x0000000140d3f7a0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f7a0                .refptr._commode
  .rdata$.refptr._dowildcard
-                0x0000000140d3f530       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f530                .refptr._dowildcard
+                0x0000000140d3f7b0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f7b0                .refptr._dowildcard
  .rdata$.refptr._fmode
-                0x0000000140d3f540       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f540                .refptr._fmode
+                0x0000000140d3f7c0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f7c0                .refptr._fmode
  .rdata$.refptr._gnu_exception_handler
-                0x0000000140d3f550       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f550                .refptr._gnu_exception_handler
+                0x0000000140d3f7d0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f7d0                .refptr._gnu_exception_handler
  .rdata$.refptr._matherr
-                0x0000000140d3f560       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f560                .refptr._matherr
+                0x0000000140d3f7e0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f7e0                .refptr._matherr
  .rdata$.refptr._newmode
-                0x0000000140d3f570       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
-                0x0000000140d3f570                .refptr._newmode
+                0x0000000140d3f7f0       0x10 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+                0x0000000140d3f7f0                .refptr._newmode
  .rdata$.refptr.ewram_end
-                0x0000000140d3f580       0x10 src/malloc_vram.o
-                0x0000000140d3f580                .refptr.ewram_end
+                0x0000000140d3f800       0x10 src/malloc_vram.o
+                0x0000000140d3f800                .refptr.ewram_end
  .rdata$.refptr.gActiveBossTask
-                0x0000000140d3f590       0x10 src/game/stage/intro.o
-                0x0000000140d3f590                .refptr.gActiveBossTask
+                0x0000000140d3f810       0x10 src/game/stage/intro.o
+                0x0000000140d3f810                .refptr.gActiveBossTask
  .rdata$.refptr.gActiveCollectRingEffectCount
-                0x0000000140d3f5a0       0x10 src/game/stage/stage.o
-                0x0000000140d3f5a0                .refptr.gActiveCollectRingEffectCount
+                0x0000000140d3f820       0x10 src/game/stage/stage.o
+                0x0000000140d3f820                .refptr.gActiveCollectRingEffectCount
  .rdata$.refptr.gAnimations
-                0x0000000140d3f5b0       0x10 src/game/interactables_1/checkpoint.o
-                0x0000000140d3f5b0                .refptr.gAnimations
+                0x0000000140d3f830       0x10 src/game/interactables_1/checkpoint.o
+                0x0000000140d3f830                .refptr.gAnimations
  .rdata$.refptr.gAnimsGotThroughCharacterNames
-                0x0000000140d3f5c0       0x10 src/game/time_attack/results.o
-                0x0000000140d3f5c0                .refptr.gAnimsGotThroughCharacterNames
+                0x0000000140d3f840       0x10 src/game/time_attack/results.o
+                0x0000000140d3f840                .refptr.gAnimsGotThroughCharacterNames
  .rdata$.refptr.gAnimsGotThroughZoneAndActNames
-                0x0000000140d3f5d0       0x10 src/game/time_attack/results.o
-                0x0000000140d3f5d0                .refptr.gAnimsGotThroughZoneAndActNames
+                0x0000000140d3f850       0x10 src/game/time_attack/results.o
+                0x0000000140d3f850                .refptr.gAnimsGotThroughZoneAndActNames
  .rdata$.refptr.gBackgroundsCopyQueue
-                0x0000000140d3f5e0       0x10 src/background.o
-                0x0000000140d3f5e0                .refptr.gBackgroundsCopyQueue
+                0x0000000140d3f860       0x10 src/background.o
+                0x0000000140d3f860                .refptr.gBackgroundsCopyQueue
  .rdata$.refptr.gBackgroundsCopyQueueCursor
-                0x0000000140d3f5f0       0x10 src/background.o
-                0x0000000140d3f5f0                .refptr.gBackgroundsCopyQueueCursor
+                0x0000000140d3f870       0x10 src/background.o
+                0x0000000140d3f870                .refptr.gBackgroundsCopyQueueCursor
  .rdata$.refptr.gBackgroundsCopyQueueIndex
-                0x0000000140d3f600       0x10 src/background.o
-                0x0000000140d3f600                .refptr.gBackgroundsCopyQueueIndex
+                0x0000000140d3f880       0x10 src/background.o
+                0x0000000140d3f880                .refptr.gBackgroundsCopyQueueIndex
  .rdata$.refptr.gBgAffineRegs
-                0x0000000140d3f610       0x10 src/bg_triangles.o
-                0x0000000140d3f610                .refptr.gBgAffineRegs
+                0x0000000140d3f890       0x10 src/bg_triangles.o
+                0x0000000140d3f890                .refptr.gBgAffineRegs
  .rdata$.refptr.gBgCntRegs
-                0x0000000140d3f620       0x10 src/background.o
-                0x0000000140d3f620                .refptr.gBgCntRegs
+                0x0000000140d3f8a0       0x10 src/background.o
+                0x0000000140d3f8a0                .refptr.gBgCntRegs
  .rdata$.refptr.gBgGradientPalette
-                0x0000000140d3f630       0x10 src/game/sound_test.o
-                0x0000000140d3f630                .refptr.gBgGradientPalette
+                0x0000000140d3f8b0       0x10 src/game/sound_test.o
+                0x0000000140d3f8b0                .refptr.gBgGradientPalette
  .rdata$.refptr.gBgOffsetsBuffer
-                0x0000000140d3f640       0x10 src/game/stage/boss_results_transition.o
-                0x0000000140d3f640                .refptr.gBgOffsetsBuffer
+                0x0000000140d3f8c0       0x10 src/game/stage/boss_results_transition.o
+                0x0000000140d3f8c0                .refptr.gBgOffsetsBuffer
  .rdata$.refptr.gBgOffsetsHBlankPrimary
-                0x0000000140d3f650       0x10 src/bg_triangles.o
-                0x0000000140d3f650                .refptr.gBgOffsetsHBlankPrimary
+                0x0000000140d3f8d0       0x10 src/bg_triangles.o
+                0x0000000140d3f8d0                .refptr.gBgOffsetsHBlankPrimary
  .rdata$.refptr.gBgOffsetsHBlankSecondary
-                0x0000000140d3f660       0x10 src/game/stage/camera.o
-                0x0000000140d3f660                .refptr.gBgOffsetsHBlankSecondary
+                0x0000000140d3f8e0       0x10 src/game/stage/camera.o
+                0x0000000140d3f8e0                .refptr.gBgOffsetsHBlankSecondary
  .rdata$.refptr.gBgOffsetsPrimary
-                0x0000000140d3f670       0x10 src/game/special_stage/world.o
-                0x0000000140d3f670                .refptr.gBgOffsetsPrimary
+                0x0000000140d3f8f0       0x10 src/game/special_stage/world.o
+                0x0000000140d3f8f0                .refptr.gBgOffsetsPrimary
  .rdata$.refptr.gBgOffsetsSecondary
-                0x0000000140d3f680       0x10 src/game/special_stage/world.o
-                0x0000000140d3f680                .refptr.gBgOffsetsSecondary
+                0x0000000140d3f900       0x10 src/game/special_stage/world.o
+                0x0000000140d3f900                .refptr.gBgOffsetsSecondary
  .rdata$.refptr.gBgPalette
-                0x0000000140d3f690       0x10 src/background.o
-                0x0000000140d3f690                .refptr.gBgPalette
+                0x0000000140d3f910       0x10 src/background.o
+                0x0000000140d3f910                .refptr.gBgPalette
  .rdata$.refptr.gBgPaletteEffects
-                0x0000000140d3f6a0       0x10 src/game/title_screen.o
-                0x0000000140d3f6a0                .refptr.gBgPaletteEffects
+                0x0000000140d3f920       0x10 src/game/title_screen.o
+                0x0000000140d3f920                .refptr.gBgPaletteEffects
  .rdata$.refptr.gBgScrollRegs
-                0x0000000140d3f6b0       0x10 src/background.o
-                0x0000000140d3f6b0                .refptr.gBgScrollRegs
+                0x0000000140d3f930       0x10 src/background.o
+                0x0000000140d3f930                .refptr.gBgScrollRegs
  .rdata$.refptr.gBgSprites
-                0x0000000140d3f6c0       0x10 src/background.o
-                0x0000000140d3f6c0                .refptr.gBgSprites
+                0x0000000140d3f940       0x10 src/background.o
+                0x0000000140d3f940                .refptr.gBgSprites
  .rdata$.refptr.gBgSpritesCount
-                0x0000000140d3f6d0       0x10 src/background.o
-                0x0000000140d3f6d0                .refptr.gBgSpritesCount
+                0x0000000140d3f950       0x10 src/background.o
+                0x0000000140d3f950                .refptr.gBgSpritesCount
  .rdata$.refptr.gBgSprites_Unknown1
-                0x0000000140d3f6e0       0x10 src/background.o
-                0x0000000140d3f6e0                .refptr.gBgSprites_Unknown1
+                0x0000000140d3f960       0x10 src/background.o
+                0x0000000140d3f960                .refptr.gBgSprites_Unknown1
  .rdata$.refptr.gBgSprites_Unknown2
-                0x0000000140d3f6f0       0x10 src/background.o
-                0x0000000140d3f6f0                .refptr.gBgSprites_Unknown2
+                0x0000000140d3f970       0x10 src/background.o
+                0x0000000140d3f970                .refptr.gBgSprites_Unknown2
  .rdata$.refptr.gBldRegs
-                0x0000000140d3f700       0x10 src/game/stage/intro.o
-                0x0000000140d3f700                .refptr.gBldRegs
+                0x0000000140d3f980       0x10 src/game/stage/intro.o
+                0x0000000140d3f980                .refptr.gBldRegs
  .rdata$.refptr.gBoostEffectTasksCreated
-                0x0000000140d3f710       0x10 src/game/stage/stage.o
-                0x0000000140d3f710                .refptr.gBoostEffectTasksCreated
+                0x0000000140d3f990       0x10 src/game/stage/stage.o
+                0x0000000140d3f990                .refptr.gBoostEffectTasksCreated
  .rdata$.refptr.gBossCameraClampYLower
-                0x0000000140d3f720       0x10 src/game/stage/stage.o
-                0x0000000140d3f720                .refptr.gBossCameraClampYLower
+                0x0000000140d3f9a0       0x10 src/game/stage/stage.o
+                0x0000000140d3f9a0                .refptr.gBossCameraClampYLower
  .rdata$.refptr.gBossCameraClampYUpper
-                0x0000000140d3f730       0x10 src/game/stage/stage.o
-                0x0000000140d3f730                .refptr.gBossCameraClampYUpper
+                0x0000000140d3f9b0       0x10 src/game/stage/stage.o
+                0x0000000140d3f9b0                .refptr.gBossCameraClampYUpper
  .rdata$.refptr.gBossCameraYClamps
-                0x0000000140d3f740       0x10 src/game/stage/stage.o
-                0x0000000140d3f740                .refptr.gBossCameraYClamps
+                0x0000000140d3f9c0       0x10 src/game/stage/stage.o
+                0x0000000140d3f9c0                .refptr.gBossCameraYClamps
  .rdata$.refptr.gBossIndex
-                0x0000000140d3f750       0x10 src/game/interactables_1/checkpoint.o
-                0x0000000140d3f750                .refptr.gBossIndex
+                0x0000000140d3f9d0       0x10 src/game/interactables_1/checkpoint.o
+                0x0000000140d3f9d0                .refptr.gBossIndex
  .rdata$.refptr.gBossRingsRespawnCount
-                0x0000000140d3f760       0x10 src/game/stage/stage.o
-                0x0000000140d3f760                .refptr.gBossRingsRespawnCount
+                0x0000000140d3f9e0       0x10 src/game/stage/stage.o
+                0x0000000140d3f9e0                .refptr.gBossRingsRespawnCount
  .rdata$.refptr.gBossRingsShallRespawn
-                0x0000000140d3f770       0x10 src/game/stage/stage.o
-                0x0000000140d3f770                .refptr.gBossRingsShallRespawn
+                0x0000000140d3f9f0       0x10 src/game/stage/stage.o
+                0x0000000140d3f9f0                .refptr.gBossRingsShallRespawn
  .rdata$.refptr.gCamera
-                0x0000000140d3f780       0x10 src/game/interactables_1/spikes.o
-                0x0000000140d3f780                .refptr.gCamera
+                0x0000000140d3fa00       0x10 src/game/interactables_1/spikes.o
+                0x0000000140d3fa00                .refptr.gCamera
  .rdata$.refptr.gCgb3Vol
-                0x0000000140d3f790       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f790                .refptr.gCgb3Vol
+                0x0000000140d3fa10       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3fa10                .refptr.gCgb3Vol
  .rdata$.refptr.gCgbFreqTable
-                0x0000000140d3f7a0       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f7a0                .refptr.gCgbFreqTable
+                0x0000000140d3fa20       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3fa20                .refptr.gCgbFreqTable
  .rdata$.refptr.gCgbScaleTable
-                0x0000000140d3f7b0       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f7b0                .refptr.gCgbScaleTable
+                0x0000000140d3fa30       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3fa30                .refptr.gCgbScaleTable
  .rdata$.refptr.gCheckpointPositions
-                0x0000000140d3f7c0       0x10 src/game/interactables_1/checkpoint.o
-                0x0000000140d3f7c0                .refptr.gCheckpointPositions
+                0x0000000140d3fa40       0x10 src/game/interactables_1/checkpoint.o
+                0x0000000140d3fa40                .refptr.gCheckpointPositions
  .rdata$.refptr.gCheckpointTime
-                0x0000000140d3f7d0       0x10 src/game/interactables_1/checkpoint.o
-                0x0000000140d3f7d0                .refptr.gCheckpointTime
+                0x0000000140d3fa50       0x10 src/game/interactables_1/checkpoint.o
+                0x0000000140d3fa50                .refptr.gCheckpointTime
  .rdata$.refptr.gCheese
-                0x0000000140d3f7e0       0x10 src/game/stage/stage.o
-                0x0000000140d3f7e0                .refptr.gCheese
+                0x0000000140d3fa60       0x10 src/game/stage/stage.o
+                0x0000000140d3fa60                .refptr.gCheese
  .rdata$.refptr.gCheeseTarget
-                0x0000000140d3f7f0       0x10 src/game/stage/player.o
-                0x0000000140d3f7f0                .refptr.gCheeseTarget
+                0x0000000140d3fa70       0x10 src/game/stage/player.o
+                0x0000000140d3fa70                .refptr.gCheeseTarget
  .rdata$.refptr.gClockTable
-                0x0000000140d3f800       0x10 src/platform/shared/audio/m4a_sound_mixer.o
-                0x0000000140d3f800                .refptr.gClockTable
+                0x0000000140d3fa80       0x10 src/platform/shared/audio/m4a_sound_mixer.o
+                0x0000000140d3fa80                .refptr.gClockTable
  .rdata$.refptr.gCollectRingsBgStageTileset
-                0x0000000140d3f810       0x10 src/game/multiboot/collect_rings/results.o
-                0x0000000140d3f810                .refptr.gCollectRingsBgStageTileset
+                0x0000000140d3fa90       0x10 src/game/multiboot/collect_rings/results.o
+                0x0000000140d3fa90                .refptr.gCollectRingsBgStageTileset
  .rdata$.refptr.gCollectRingsLastLapTime
-                0x0000000140d3f820       0x10 src/game/interactables_2/collect_rings_lap_trigger.o
-                0x0000000140d3f820                .refptr.gCollectRingsLastLapTime
+                0x0000000140d3faa0       0x10 src/game/interactables_2/collect_rings_lap_trigger.o
+                0x0000000140d3faa0                .refptr.gCollectRingsLastLapTime
  .rdata$.refptr.gCollectRingsTilemaps
-                0x0000000140d3f830       0x10 src/game/multiboot/collect_rings/results.o
-                0x0000000140d3f830                .refptr.gCollectRingsTilemaps
+                0x0000000140d3fab0       0x10 src/game/multiboot/collect_rings/results.o
+                0x0000000140d3fab0                .refptr.gCollectRingsTilemaps
  .rdata$.refptr.gCollisionTable
-                0x0000000140d3f840       0x10 src/game/stage/camera.o
-                0x0000000140d3f840                .refptr.gCollisionTable
+                0x0000000140d3fac0       0x10 src/game/stage/camera.o
+                0x0000000140d3fac0                .refptr.gCollisionTable
  .rdata$.refptr.gCourseTime
-                0x0000000140d3f850       0x10 src/game/interactables_1/stage_goal.o
-                0x0000000140d3f850                .refptr.gCourseTime
+                0x0000000140d3fad0       0x10 src/game/interactables_1/stage_goal.o
+                0x0000000140d3fad0                .refptr.gCourseTime
  .rdata$.refptr.gCurTask
-                0x0000000140d3f860       0x10 src/task.o
-                0x0000000140d3f860                .refptr.gCurTask
+                0x0000000140d3fae0       0x10 src/task.o
+                0x0000000140d3fae0                .refptr.gCurTask
  .rdata$.refptr.gCurrentLevel
-                0x0000000140d3f870       0x10 src/game/interactables_1/spikes.o
-                0x0000000140d3f870                .refptr.gCurrentLevel
+                0x0000000140d3faf0       0x10 src/game/interactables_1/spikes.o
+                0x0000000140d3faf0                .refptr.gCurrentLevel
  .rdata$.refptr.gDemoPlayCounter
-                0x0000000140d3f880       0x10 src/game/title_screen.o
-                0x0000000140d3f880                .refptr.gDemoPlayCounter
+                0x0000000140d3fb00       0x10 src/game/title_screen.o
+                0x0000000140d3fb00                .refptr.gDemoPlayCounter
  .rdata$.refptr.gDemoRecordings
-                0x0000000140d3f890       0x10 src/game/title_screen.o
-                0x0000000140d3f890                .refptr.gDemoRecordings
+                0x0000000140d3fb10       0x10 src/game/title_screen.o
+                0x0000000140d3fb10                .refptr.gDemoRecordings
  .rdata$.refptr.gDestroySpotlights
-                0x0000000140d3f8a0       0x10 src/game/sa1_sa2_shared/spot_light.o
-                0x0000000140d3f8a0                .refptr.gDestroySpotlights
+                0x0000000140d3fb20       0x10 src/game/sa1_sa2_shared/spot_light.o
+                0x0000000140d3fb20                .refptr.gDestroySpotlights
  .rdata$.refptr.gDifficultyLevel
-                0x0000000140d3f8b0       0x10 src/game/stage/stage.o
-                0x0000000140d3f8b0                .refptr.gDifficultyLevel
+                0x0000000140d3fb30       0x10 src/game/stage/stage.o
+                0x0000000140d3fb30                .refptr.gDifficultyLevel
  .rdata$.refptr.gDispCnt
-                0x0000000140d3f8c0       0x10 src/background.o
-                0x0000000140d3f8c0                .refptr.gDispCnt
+                0x0000000140d3fb40       0x10 src/background.o
+                0x0000000140d3fb40                .refptr.gDispCnt
  .rdata$.refptr.gDummyTask
-                0x0000000140d3f8d0       0x10 src/game/game.o
-                0x0000000140d3f8d0                .refptr.gDummyTask
+                0x0000000140d3fb50       0x10 src/game/game.o
+                0x0000000140d3fb50                .refptr.gDummyTask
  .rdata$.refptr.gDustEffectBrakingTask
-                0x0000000140d3f8e0       0x10 src/game/game.o
-                0x0000000140d3f8e0                .refptr.gDustEffectBrakingTask
+                0x0000000140d3fb60       0x10 src/game/game.o
+                0x0000000140d3fb60                .refptr.gDustEffectBrakingTask
  .rdata$.refptr.gEmptyTask
-                0x0000000140d3f8f0       0x10 src/task.o
-                0x0000000140d3f8f0                .refptr.gEmptyTask
+                0x0000000140d3fb70       0x10 src/task.o
+                0x0000000140d3fb70                .refptr.gEmptyTask
  .rdata$.refptr.gEntitiesManagerTask
-                0x0000000140d3f900       0x10 src/game/sa1_sa2_shared/entities_manager.o
-                0x0000000140d3f900                .refptr.gEntitiesManagerTask
+                0x0000000140d3fb80       0x10 src/game/sa1_sa2_shared/entities_manager.o
+                0x0000000140d3fb80                .refptr.gEntitiesManagerTask
  .rdata$.refptr.gExecSoundMain
-                0x0000000140d3f910       0x10 src/task.o
-                0x0000000140d3f910                .refptr.gExecSoundMain
+                0x0000000140d3fb90       0x10 src/task.o
+                0x0000000140d3fb90                .refptr.gExecSoundMain
  .rdata$.refptr.gFinalBossActive
-                0x0000000140d3f920       0x10 src/game/stage/stage.o
-                0x0000000140d3f920                .refptr.gFinalBossActive
+                0x0000000140d3fba0       0x10 src/game/stage/stage.o
+                0x0000000140d3fba0                .refptr.gFinalBossActive
  .rdata$.refptr.gFlags
-                0x0000000140d3f930       0x10 src/bg_triangles.o
-                0x0000000140d3f930                .refptr.gFlags
+                0x0000000140d3fbb0       0x10 src/bg_triangles.o
+                0x0000000140d3fbb0                .refptr.gFlags
  .rdata$.refptr.gFlash
-                0x0000000140d3f940       0x10 src/lib/agb_flash/agb_flash_mx_512k.o
-                0x0000000140d3f940                .refptr.gFlash
+                0x0000000140d3fbc0       0x10 src/lib/agb_flash/agb_flash_mx_512k.o
+                0x0000000140d3fbc0                .refptr.gFlash
  .rdata$.refptr.gFlashNumRemainingBytes
-                0x0000000140d3f950       0x10 src/lib/agb_flash/agb_flash_mx_512k.o
-                0x0000000140d3f950                .refptr.gFlashNumRemainingBytes
+                0x0000000140d3fbd0       0x10 src/lib/agb_flash/agb_flash_mx_512k.o
+                0x0000000140d3fbd0                .refptr.gFlashNumRemainingBytes
  .rdata$.refptr.gFlashTimeoutFlag
-                0x0000000140d3f960       0x10 src/lib/agb_flash/agb_flash_512k.o
-                0x0000000140d3f960                .refptr.gFlashTimeoutFlag
+                0x0000000140d3fbe0       0x10 src/lib/agb_flash/agb_flash_512k.o
+                0x0000000140d3fbe0                .refptr.gFlashTimeoutFlag
  .rdata$.refptr.gFrameCount
-                0x0000000140d3f970       0x10 src/game/stage/stage.o
-                0x0000000140d3f970                .refptr.gFrameCount
- .rdata$.refptr.gFrameInputsBuf
-                0x0000000140d3f980       0x10 src/game/sa1_sa2_shared/input_buffer.o
-                0x0000000140d3f980                .refptr.gFrameInputsBuf
- .rdata$.refptr.gFrameInputsBufIndex
-                0x0000000140d3f990       0x10 src/game/sa1_sa2_shared/input_buffer.o
-                0x0000000140d3f990                .refptr.gFrameInputsBufIndex
- .rdata$.refptr.gFreqTable
-                0x0000000140d3f9a0       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3f9a0                .refptr.gFreqTable
- .rdata$.refptr.gGameMode
-                0x0000000140d3f9b0       0x10 src/game/interactables_1/spikes.o
-                0x0000000140d3f9b0                .refptr.gGameMode
- .rdata$.refptr.gGameStageTask
-                0x0000000140d3f9c0       0x10 src/game/game.o
-                0x0000000140d3f9c0                .refptr.gGameStageTask
- .rdata$.refptr.gHBlankCallbacks
-                0x0000000140d3f9d0       0x10 src/game/stage/camera.o
-                0x0000000140d3f9d0                .refptr.gHBlankCallbacks
- .rdata$.refptr.gHBlankCopySize
-                0x0000000140d3f9e0       0x10 src/bg_triangles.o
-                0x0000000140d3f9e0                .refptr.gHBlankCopySize
- .rdata$.refptr.gHBlankCopyTarget
-                0x0000000140d3f9f0       0x10 src/bg_triangles.o
-                0x0000000140d3f9f0                .refptr.gHBlankCopyTarget
- .rdata$.refptr.gHomingTarget
-                0x0000000140d3fa00       0x10 src/game/stage/player.o
-                0x0000000140d3fa00                .refptr.gHomingTarget
- .rdata$.refptr.gInput
-                0x0000000140d3fa10       0x10 src/game/stage/stage.o
-                0x0000000140d3fa10                .refptr.gInput
- .rdata$.refptr.gInputPlaybackData
-                0x0000000140d3fa20       0x10 src/input_recorder.o
-                0x0000000140d3fa20                .refptr.gInputPlaybackData
- .rdata$.refptr.gInputRecorder
-                0x0000000140d3fa30       0x10 src/core.o
-                0x0000000140d3fa30                .refptr.gInputRecorder
- .rdata$.refptr.gIntrTable
-                0x0000000140d3fa40       0x10 src/game/stage/camera.o
-                0x0000000140d3fa40                .refptr.gIntrTable
- .rdata$.refptr.gIntrTableTemplate
-                0x0000000140d3fa50       0x10 src/game/stage/camera.o
-                0x0000000140d3fa50                .refptr.gIntrTableTemplate
- .rdata$.refptr.gIwramHeap
-                0x0000000140d3fa60       0x10 src/task.o
-                0x0000000140d3fa60                .refptr.gIwramHeap
- .rdata$.refptr.gKeysContinuedRepeatIntervals
-                0x0000000140d3fa70       0x10 src/game/options_screen.o
-                0x0000000140d3fa70                .refptr.gKeysContinuedRepeatIntervals
- .rdata$.refptr.gKeysFirstRepeatIntervals
-                0x0000000140d3fa80       0x10 src/game/options_screen.o
-                0x0000000140d3fa80                .refptr.gKeysFirstRepeatIntervals
- .rdata$.refptr.gLevelScore
-                0x0000000140d3fa90       0x10 src/game/interactables_1/stage_goal.o
-                0x0000000140d3fa90                .refptr.gLevelScore
- .rdata$.refptr.gLevelSongs
-                0x0000000140d3faa0       0x10 src/game/stage/stage.o
-                0x0000000140d3faa0                .refptr.gLevelSongs
- .rdata$.refptr.gLoadedSaveGame
-                0x0000000140d3fab0       0x10 src/game/stage/stage.o
-                0x0000000140d3fab0                .refptr.gLoadedSaveGame
- .rdata$.refptr.gMPAttackEffect2Regs
-                0x0000000140d3fac0       0x10 src/game/stage/player.o
-                0x0000000140d3fac0                .refptr.gMPAttackEffect2Regs
- .rdata$.refptr.gMPRingCollectWins
-                0x0000000140d3fad0       0x10 src/game/multiplayer/finish.o
-                0x0000000140d3fad0                .refptr.gMPRingCollectWins
- .rdata$.refptr.gMPStageStartFrameCount
-                0x0000000140d3fae0       0x10 src/game/stage/stage.o
-                0x0000000140d3fae0                .refptr.gMPStageStartFrameCount
- .rdata$.refptr.gMPlayInfo_BGM
-                0x0000000140d3faf0       0x10 src/game/stage/results.o
-                0x0000000140d3faf0                .refptr.gMPlayInfo_BGM
- .rdata$.refptr.gMPlayInfo_SE1
-                0x0000000140d3fb00       0x10 src/game/bosses/boss_9.o
-                0x0000000140d3fb00                .refptr.gMPlayInfo_SE1
- .rdata$.refptr.gMPlayInfo_SE2
-                0x0000000140d3fb10       0x10 src/game/bosses/boss_9.o
-                0x0000000140d3fb10                .refptr.gMPlayInfo_SE2
- .rdata$.refptr.gMPlayInfo_SE3
-                0x0000000140d3fb20       0x10 src/game/bosses/boss_9.o
-                0x0000000140d3fb20                .refptr.gMPlayInfo_SE3
- .rdata$.refptr.gMPlayJumpTableTemplate
-                0x0000000140d3fb30       0x10 src/platform/shared/audio/m4a_sound_mixer.o
-                0x0000000140d3fb30                .refptr.gMPlayJumpTableTemplate
- .rdata$.refptr.gMPlayTable
-                0x0000000140d3fb40       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3fb40                .refptr.gMPlayTable
- .rdata$.refptr.gMillisUnpackTable
-                0x0000000140d3fb50       0x10 src/game/options_screen.o
-                0x0000000140d3fb50                .refptr.gMillisUnpackTable
- .rdata$.refptr.gMosaicReg
-                0x0000000140d3fb60       0x10 src/sprite.o
-                0x0000000140d3fb60                .refptr.gMosaicReg
- .rdata$.refptr.gMultiBootParam
-                0x0000000140d3fb70       0x10 src/game/multiboot/connection.o
-                0x0000000140d3fb70                .refptr.gMultiBootParam
- .rdata$.refptr.gMultiBootProgram_SubgameLoader
-                0x0000000140d3fb80       0x10 src/game/multiboot/connection.o
-                0x0000000140d3fb80                .refptr.gMultiBootProgram_SubgameLoader
- .rdata$.refptr.gMultiBootProgram_SubgameLoaderEnd
-                0x0000000140d3fb90       0x10 src/game/multiboot/connection.o
-                0x0000000140d3fb90                .refptr.gMultiBootProgram_SubgameLoaderEnd
- .rdata$.refptr.gMultiSioEnabled
-                0x0000000140d3fba0       0x10 src/game/multiplayer_lobby.o
-                0x0000000140d3fba0                .refptr.gMultiSioEnabled
- .rdata$.refptr.gMultiSioRecv
-                0x0000000140d3fbb0       0x10 src/game/stage/player.o
-                0x0000000140d3fbb0                .refptr.gMultiSioRecv
- .rdata$.refptr.gMultiSioSend
-                0x0000000140d3fbc0       0x10 src/game/stage/player.o
-                0x0000000140d3fbc0                .refptr.gMultiSioSend
- .rdata$.refptr.gMultiSioStatusFlags
-                0x0000000140d3fbd0       0x10 src/game/multiplayer_lobby.o
-                0x0000000140d3fbd0                .refptr.gMultiSioStatusFlags
- .rdata$.refptr.gMultiplayerCharRings
-                0x0000000140d3fbe0       0x10 src/game/stage/stage.o
-                0x0000000140d3fbe0                .refptr.gMultiplayerCharRings
- .rdata$.refptr.gMultiplayerCharacters
                 0x0000000140d3fbf0       0x10 src/game/stage/stage.o
-                0x0000000140d3fbf0                .refptr.gMultiplayerCharacters
- .rdata$.refptr.gMultiplayerConnections
-                0x0000000140d3fc00       0x10 src/game/stage/stage.o
-                0x0000000140d3fc00                .refptr.gMultiplayerConnections
- .rdata$.refptr.gMultiplayerIds
-                0x0000000140d3fc10       0x10 src/game/multiplayer/multipak_connection.o
-                0x0000000140d3fc10                .refptr.gMultiplayerIds
- .rdata$.refptr.gMultiplayerLanguage
-                0x0000000140d3fc20       0x10 src/game/multiboot/collect_rings/results.o
-                0x0000000140d3fc20                .refptr.gMultiplayerLanguage
- .rdata$.refptr.gMultiplayerMissingHeartbeats
-                0x0000000140d3fc30       0x10 src/game/multiplayer_lobby.o
-                0x0000000140d3fc30                .refptr.gMultiplayerMissingHeartbeats
- .rdata$.refptr.gMultiplayerNames
-                0x0000000140d3fc40       0x10 src/game/multiplayer/multipak_connection.o
-                0x0000000140d3fc40                .refptr.gMultiplayerNames
- .rdata$.refptr.gMultiplayerPlayerTasks
-                0x0000000140d3fc50       0x10 src/game/interactables_1/stage_goal.o
-                0x0000000140d3fc50                .refptr.gMultiplayerPlayerTasks
- .rdata$.refptr.gMultiplayerPseudoRandom
-                0x0000000140d3fc60       0x10 src/game/stage/stage.o
-                0x0000000140d3fc60                .refptr.gMultiplayerPseudoRandom
- .rdata$.refptr.gMultiplayerRanks
-                0x0000000140d3fc70       0x10 src/game/interactables_1/stage_goal.o
-                0x0000000140d3fc70                .refptr.gMultiplayerRanks
- .rdata$.refptr.gMultiplayerUnlockedCharacters
-                0x0000000140d3fc80       0x10 src/game/multiplayer_lobby.o
-                0x0000000140d3fc80                .refptr.gMultiplayerUnlockedCharacters
- .rdata$.refptr.gMultiplayerUnlockedLevels
-                0x0000000140d3fc90       0x10 src/game/multiplayer/multipak_connection.o
-                0x0000000140d3fc90                .refptr.gMultiplayerUnlockedLevels
- .rdata$.refptr.gMusicManagerState
-                0x0000000140d3fca0       0x10 src/game/interactables_1/stage_goal.o
-                0x0000000140d3fca0                .refptr.gMusicManagerState
- .rdata$.refptr.gNewInputCounters
-                0x0000000140d3fcb0       0x10 src/game/sa1_sa2_shared/input_buffer.o
-                0x0000000140d3fcb0                .refptr.gNewInputCounters
- .rdata$.refptr.gNewInputCountersIndex
-                0x0000000140d3fcc0       0x10 src/game/sa1_sa2_shared/input_buffer.o
-                0x0000000140d3fcc0                .refptr.gNewInputCountersIndex
- .rdata$.refptr.gNextTask
-                0x0000000140d3fcd0       0x10 src/task.o
-                0x0000000140d3fcd0                .refptr.gNextTask
- .rdata$.refptr.gNoiseTable
-                0x0000000140d3fce0       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3fce0                .refptr.gNoiseTable
- .rdata$.refptr.gNumHBlankCallbacks
-                0x0000000140d3fcf0       0x10 src/game/stage/camera.o
-                0x0000000140d3fcf0                .refptr.gNumHBlankCallbacks
- .rdata$.refptr.gNumHBlankIntrs
-                0x0000000140d3fd00       0x10 src/game/sound_test.o
-                0x0000000140d3fd00                .refptr.gNumHBlankIntrs
- .rdata$.refptr.gNumLives
+                0x0000000140d3fbf0                .refptr.gFrameCount
+ .rdata$.refptr.gFrameInputsBuf
+                0x0000000140d3fc00       0x10 src/game/sa1_sa2_shared/input_buffer.o
+                0x0000000140d3fc00                .refptr.gFrameInputsBuf
+ .rdata$.refptr.gFrameInputsBufIndex
+                0x0000000140d3fc10       0x10 src/game/sa1_sa2_shared/input_buffer.o
+                0x0000000140d3fc10                .refptr.gFrameInputsBufIndex
+ .rdata$.refptr.gFreqTable
+                0x0000000140d3fc20       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3fc20                .refptr.gFreqTable
+ .rdata$.refptr.gGameMode
+                0x0000000140d3fc30       0x10 src/game/interactables_1/spikes.o
+                0x0000000140d3fc30                .refptr.gGameMode
+ .rdata$.refptr.gGameStageTask
+                0x0000000140d3fc40       0x10 src/game/game.o
+                0x0000000140d3fc40                .refptr.gGameStageTask
+ .rdata$.refptr.gHBlankCallbacks
+                0x0000000140d3fc50       0x10 src/game/stage/camera.o
+                0x0000000140d3fc50                .refptr.gHBlankCallbacks
+ .rdata$.refptr.gHBlankCopySize
+                0x0000000140d3fc60       0x10 src/bg_triangles.o
+                0x0000000140d3fc60                .refptr.gHBlankCopySize
+ .rdata$.refptr.gHBlankCopyTarget
+                0x0000000140d3fc70       0x10 src/bg_triangles.o
+                0x0000000140d3fc70                .refptr.gHBlankCopyTarget
+ .rdata$.refptr.gHomingTarget
+                0x0000000140d3fc80       0x10 src/game/stage/player.o
+                0x0000000140d3fc80                .refptr.gHomingTarget
+ .rdata$.refptr.gInput
+                0x0000000140d3fc90       0x10 src/game/stage/stage.o
+                0x0000000140d3fc90                .refptr.gInput
+ .rdata$.refptr.gInputPlaybackData
+                0x0000000140d3fca0       0x10 src/input_recorder.o
+                0x0000000140d3fca0                .refptr.gInputPlaybackData
+ .rdata$.refptr.gInputRecorder
+                0x0000000140d3fcb0       0x10 src/core.o
+                0x0000000140d3fcb0                .refptr.gInputRecorder
+ .rdata$.refptr.gIntrTable
+                0x0000000140d3fcc0       0x10 src/game/stage/camera.o
+                0x0000000140d3fcc0                .refptr.gIntrTable
+ .rdata$.refptr.gIntrTableTemplate
+                0x0000000140d3fcd0       0x10 src/game/stage/camera.o
+                0x0000000140d3fcd0                .refptr.gIntrTableTemplate
+ .rdata$.refptr.gIwramHeap
+                0x0000000140d3fce0       0x10 src/task.o
+                0x0000000140d3fce0                .refptr.gIwramHeap
+ .rdata$.refptr.gKeysContinuedRepeatIntervals
+                0x0000000140d3fcf0       0x10 src/game/options_screen.o
+                0x0000000140d3fcf0                .refptr.gKeysContinuedRepeatIntervals
+ .rdata$.refptr.gKeysFirstRepeatIntervals
+                0x0000000140d3fd00       0x10 src/game/options_screen.o
+                0x0000000140d3fd00                .refptr.gKeysFirstRepeatIntervals
+ .rdata$.refptr.gLevelScore
                 0x0000000140d3fd10       0x10 src/game/interactables_1/stage_goal.o
-                0x0000000140d3fd10                .refptr.gNumLives
- .rdata$.refptr.gNumSingleplayerCharacters
+                0x0000000140d3fd10                .refptr.gLevelScore
+ .rdata$.refptr.gLevelSongs
                 0x0000000140d3fd20       0x10 src/game/stage/stage.o
-                0x0000000140d3fd20                .refptr.gNumSingleplayerCharacters
- .rdata$.refptr.gNumTasks
-                0x0000000140d3fd30       0x10 src/task.o
-                0x0000000140d3fd30                .refptr.gNumTasks
- .rdata$.refptr.gNumVBlankCallbacks
-                0x0000000140d3fd40       0x10 src/game/title_screen.o
-                0x0000000140d3fd40                .refptr.gNumVBlankCallbacks
- .rdata$.refptr.gOamBuffer
-                0x0000000140d3fd50       0x10 src/sprite.o
-                0x0000000140d3fd50                .refptr.gOamBuffer
- .rdata$.refptr.gOamFirstPausedIndex
-                0x0000000140d3fd60       0x10 src/sprite.o
-                0x0000000140d3fd60                .refptr.gOamFirstPausedIndex
- .rdata$.refptr.gOamFreeIndex
-                0x0000000140d3fd70       0x10 src/sprite.o
-                0x0000000140d3fd70                .refptr.gOamFreeIndex
- .rdata$.refptr.gOamMallocBuffer
-                0x0000000140d3fd80       0x10 src/sprite.o
-                0x0000000140d3fd80                .refptr.gOamMallocBuffer
- .rdata$.refptr.gOamMallocCopiedOrder
-                0x0000000140d3fd90       0x10 src/sprite.o
-                0x0000000140d3fd90                .refptr.gOamMallocCopiedOrder
- .rdata$.refptr.gOamMallocOrders_EndIndex
-                0x0000000140d3fda0       0x10 src/sprite.o
-                0x0000000140d3fda0                .refptr.gOamMallocOrders_EndIndex
- .rdata$.refptr.gOamMallocOrders_StartIndex
-                0x0000000140d3fdb0       0x10 src/sprite.o
-                0x0000000140d3fdb0                .refptr.gOamMallocOrders_StartIndex
- .rdata$.refptr.gOamMatrixIndex
-                0x0000000140d3fdc0       0x10 src/game/interactables_1/windmill.o
-                0x0000000140d3fdc0                .refptr.gOamMatrixIndex
- .rdata$.refptr.gOamShapesSizes
-                0x0000000140d3fdd0       0x10 src/platform/pret_sdl/sdl2.o
-                0x0000000140d3fdd0                .refptr.gOamShapesSizes
- .rdata$.refptr.gObjPalette
+                0x0000000140d3fd20                .refptr.gLevelSongs
+ .rdata$.refptr.gLoadedSaveGame
+                0x0000000140d3fd30       0x10 src/game/stage/stage.o
+                0x0000000140d3fd30                .refptr.gLoadedSaveGame
+ .rdata$.refptr.gMPAttackEffect2Regs
+                0x0000000140d3fd40       0x10 src/game/stage/player.o
+                0x0000000140d3fd40                .refptr.gMPAttackEffect2Regs
+ .rdata$.refptr.gMPRingCollectWins
+                0x0000000140d3fd50       0x10 src/game/multiplayer/finish.o
+                0x0000000140d3fd50                .refptr.gMPRingCollectWins
+ .rdata$.refptr.gMPStageStartFrameCount
+                0x0000000140d3fd60       0x10 src/game/stage/stage.o
+                0x0000000140d3fd60                .refptr.gMPStageStartFrameCount
+ .rdata$.refptr.gMPlayInfo_BGM
+                0x0000000140d3fd70       0x10 src/game/stage/results.o
+                0x0000000140d3fd70                .refptr.gMPlayInfo_BGM
+ .rdata$.refptr.gMPlayInfo_SE1
+                0x0000000140d3fd80       0x10 src/game/bosses/boss_9.o
+                0x0000000140d3fd80                .refptr.gMPlayInfo_SE1
+ .rdata$.refptr.gMPlayInfo_SE2
+                0x0000000140d3fd90       0x10 src/game/bosses/boss_9.o
+                0x0000000140d3fd90                .refptr.gMPlayInfo_SE2
+ .rdata$.refptr.gMPlayInfo_SE3
+                0x0000000140d3fda0       0x10 src/game/bosses/boss_9.o
+                0x0000000140d3fda0                .refptr.gMPlayInfo_SE3
+ .rdata$.refptr.gMPlayJumpTableTemplate
+                0x0000000140d3fdb0       0x10 src/platform/shared/audio/m4a_sound_mixer.o
+                0x0000000140d3fdb0                .refptr.gMPlayJumpTableTemplate
+ .rdata$.refptr.gMPlayTable
+                0x0000000140d3fdc0       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3fdc0                .refptr.gMPlayTable
+ .rdata$.refptr.gMillisUnpackTable
+                0x0000000140d3fdd0       0x10 src/game/options_screen.o
+                0x0000000140d3fdd0                .refptr.gMillisUnpackTable
+ .rdata$.refptr.gMosaicReg
                 0x0000000140d3fde0       0x10 src/sprite.o
-                0x0000000140d3fde0                .refptr.gObjPalette
- .rdata$.refptr.gPhysicalInput
-                0x0000000140d3fdf0       0x10 src/game/sa1_sa2_shared/demo_manager.o
-                0x0000000140d3fdf0                .refptr.gPhysicalInput
- .rdata$.refptr.gPlayer
-                0x0000000140d3fe00       0x10 src/game/interactables_1/spikes.o
-                0x0000000140d3fe00                .refptr.gPlayer
- .rdata$.refptr.gPlayerBodyPSI
-                0x0000000140d3fe10       0x10 src/game/stage/intro.o
-                0x0000000140d3fe10                .refptr.gPlayerBodyPSI
- .rdata$.refptr.gPlayerCharacterIdleAnims
-                0x0000000140d3fe20       0x10 src/game/interactables_1/corkscrew_3d.o
-                0x0000000140d3fe20                .refptr.gPlayerCharacterIdleAnims
- .rdata$.refptr.gPlayerControls
-                0x0000000140d3fe30       0x10 src/game/interactables_1/corkscrew_3d.o
-                0x0000000140d3fe30                .refptr.gPlayerControls
- .rdata$.refptr.gPlayerLimbsPSI
-                0x0000000140d3fe40       0x10 src/game/bosses/boss_8.o
-                0x0000000140d3fe40                .refptr.gPlayerLimbsPSI
- .rdata$.refptr.gPressStartTiles
-                0x0000000140d3fe50       0x10 src/game/sa1_sa2_shared/demo_manager.o
-                0x0000000140d3fe50                .refptr.gPressStartTiles
- .rdata$.refptr.gPressedKeys
+                0x0000000140d3fde0                .refptr.gMosaicReg
+ .rdata$.refptr.gMultiBootParam
+                0x0000000140d3fdf0       0x10 src/game/multiboot/connection.o
+                0x0000000140d3fdf0                .refptr.gMultiBootParam
+ .rdata$.refptr.gMultiBootProgram_SubgameLoader
+                0x0000000140d3fe00       0x10 src/game/multiboot/connection.o
+                0x0000000140d3fe00                .refptr.gMultiBootProgram_SubgameLoader
+ .rdata$.refptr.gMultiBootProgram_SubgameLoaderEnd
+                0x0000000140d3fe10       0x10 src/game/multiboot/connection.o
+                0x0000000140d3fe10                .refptr.gMultiBootProgram_SubgameLoaderEnd
+ .rdata$.refptr.gMultiSioEnabled
+                0x0000000140d3fe20       0x10 src/game/multiplayer_lobby.o
+                0x0000000140d3fe20                .refptr.gMultiSioEnabled
+ .rdata$.refptr.gMultiSioRecv
+                0x0000000140d3fe30       0x10 src/game/stage/player.o
+                0x0000000140d3fe30                .refptr.gMultiSioRecv
+ .rdata$.refptr.gMultiSioSend
+                0x0000000140d3fe40       0x10 src/game/stage/player.o
+                0x0000000140d3fe40                .refptr.gMultiSioSend
+ .rdata$.refptr.gMultiSioStatusFlags
+                0x0000000140d3fe50       0x10 src/game/multiplayer_lobby.o
+                0x0000000140d3fe50                .refptr.gMultiSioStatusFlags
+ .rdata$.refptr.gMultiplayerCharRings
                 0x0000000140d3fe60       0x10 src/game/stage/stage.o
-                0x0000000140d3fe60                .refptr.gPressedKeys
- .rdata$.refptr.gPrevStageFlags
+                0x0000000140d3fe60                .refptr.gMultiplayerCharRings
+ .rdata$.refptr.gMultiplayerCharacters
                 0x0000000140d3fe70       0x10 src/game/stage/stage.o
-                0x0000000140d3fe70                .refptr.gPrevStageFlags
- .rdata$.refptr.gProfileScreenNextVramAddress
-                0x0000000140d3fe80       0x10 src/game/sound_test.o
-                0x0000000140d3fe80                .refptr.gProfileScreenNextVramAddress
- .rdata$.refptr.gProfileScreenSubMenuNextVramAddress
-                0x0000000140d3fe90       0x10 src/game/sound_test.o
-                0x0000000140d3fe90                .refptr.gProfileScreenSubMenuNextVramAddress
- .rdata$.refptr.gPseudoRandom
-                0x0000000140d3fea0       0x10 src/game/stage/dust_effect_braking.o
-                0x0000000140d3fea0                .refptr.gPseudoRandom
- .rdata$.refptr.gRandomItemBox
-                0x0000000140d3feb0       0x10 src/game/stage/stage.o
-                0x0000000140d3feb0                .refptr.gRandomItemBox
- .rdata$.refptr.gRefCollision
-                0x0000000140d3fec0       0x10 src/game/stage/camera.o
-                0x0000000140d3fec0                .refptr.gRefCollision
- .rdata$.refptr.gRefSpriteTables
-                0x0000000140d3fed0       0x10 src/sprite.o
-                0x0000000140d3fed0                .refptr.gRefSpriteTables
- .rdata$.refptr.gReleasedKeys
-                0x0000000140d3fee0       0x10 src/game/sa1_sa2_shared/pause_menu.o
-                0x0000000140d3fee0                .refptr.gReleasedKeys
- .rdata$.refptr.gRepeatedKeys
-                0x0000000140d3fef0       0x10 src/game/title_screen.o
-                0x0000000140d3fef0                .refptr.gRepeatedKeys
- .rdata$.refptr.gRingCount
-                0x0000000140d3ff00       0x10 src/game/stage/stage.o
-                0x0000000140d3ff00                .refptr.gRingCount
- .rdata$.refptr.gRingsScatterTask
-                0x0000000140d3ff10       0x10 src/game/game.o
-                0x0000000140d3ff10                .refptr.gRingsScatterTask
- .rdata$.refptr.gRoomEventQueue
-                0x0000000140d3ff20       0x10 src/game/multiplayer/multiplayer_event_mgr.o
-                0x0000000140d3ff20                .refptr.gRoomEventQueue
- .rdata$.refptr.gRoomEventQueueSendPos
-                0x0000000140d3ff30       0x10 src/game/multiplayer/multiplayer_event_mgr.o
-                0x0000000140d3ff30                .refptr.gRoomEventQueueSendPos
- .rdata$.refptr.gRoomEventQueueWritePos
-                0x0000000140d3ff40       0x10 src/game/multiplayer/multiplayer_event_mgr.o
-                0x0000000140d3ff40                .refptr.gRoomEventQueueWritePos
- .rdata$.refptr.gScaleTable
-                0x0000000140d3ff50       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3ff50                .refptr.gScaleTable
- .rdata$.refptr.gSelectedCharacter
-                0x0000000140d3ff60       0x10 src/game/stage/stage.o
-                0x0000000140d3ff60                .refptr.gSelectedCharacter
- .rdata$.refptr.gShouldSpawnMPAttack2Effect
-                0x0000000140d3ff70       0x10 src/game/stage/player.o
-                0x0000000140d3ff70                .refptr.gShouldSpawnMPAttack2Effect
- .rdata$.refptr.gShouldSpawnMPAttackEffect
-                0x0000000140d3ff80       0x10 src/game/stage/player.o
-                0x0000000140d3ff80                .refptr.gShouldSpawnMPAttackEffect
- .rdata$.refptr.gSineTable
-                0x0000000140d3ff90       0x10 src/bg_triangles.o
-                0x0000000140d3ff90                .refptr.gSineTable
- .rdata$.refptr.gSio32MultiLoadArea
-                0x0000000140d3ffa0       0x10 src/multi_sio.o
-                0x0000000140d3ffa0                .refptr.gSio32MultiLoadArea
- .rdata$.refptr.gSmallAirBubbleCount
-                0x0000000140d3ffb0       0x10 src/game/game.o
-                0x0000000140d3ffb0                .refptr.gSmallAirBubbleCount
- .rdata$.refptr.gSongTable
-                0x0000000140d3ffc0       0x10 src/lib/m4a/m4a.o
-                0x0000000140d3ffc0                .refptr.gSongTable
- .rdata$.refptr.gSoundInfo
-                0x0000000140d3ffd0       0x10 src/game/sound_test.o
-                0x0000000140d3ffd0                .refptr.gSoundInfo
- .rdata$.refptr.gSpawnPositions
-                0x0000000140d3ffe0       0x10 src/game/stage/player.o
-                0x0000000140d3ffe0                .refptr.gSpawnPositions
- .rdata$.refptr.gSpecialRingCount
-                0x0000000140d3fff0       0x10 src/game/stage/stage.o
-                0x0000000140d3fff0                .refptr.gSpecialRingCount
- .rdata$.refptr.gSpecialStageGuardRoboStartPositions
-                0x0000000140d40000       0x10 src/game/special_stage/guard_robo.o
-                0x0000000140d40000                .refptr.gSpecialStageGuardRoboStartPositions
- .rdata$.refptr.gSpecialStageScoreTargets
-                0x0000000140d40010       0x10 src/game/special_stage/main.o
-                0x0000000140d40010                .refptr.gSpecialStageScoreTargets
- .rdata$.refptr.gSpecialStageSubMenuVramPointer
-                0x0000000140d40020       0x10 src/game/special_stage/ui.o
-                0x0000000140d40020                .refptr.gSpecialStageSubMenuVramPointer
- .rdata$.refptr.gSpecialStageVramPointer
-                0x0000000140d40030       0x10 src/game/special_stage/world.o
-                0x0000000140d40030                .refptr.gSpecialStageVramPointer
- .rdata$.refptr.gSpikesUnknownTimer
-                0x0000000140d40040       0x10 src/game/interactables_1/spikes.o
-                0x0000000140d40040                .refptr.gSpikesUnknownTimer
- .rdata$.refptr.gSpriteOffset
-                0x0000000140d40050       0x10 src/sprite.o
-                0x0000000140d40050                .refptr.gSpriteOffset
- .rdata$.refptr.gSpritePalettes
-                0x0000000140d40060       0x10 src/game/water_effects.o
-                0x0000000140d40060                .refptr.gSpritePalettes
- .rdata$.refptr.gSpriteTables
-                0x0000000140d40070       0x10 src/game/multiplayer/multipak_connection.o
-                0x0000000140d40070                .refptr.gSpriteTables
- .rdata$.refptr.gStageFlags
+                0x0000000140d3fe70                .refptr.gMultiplayerCharacters
+ .rdata$.refptr.gMultiplayerConnections
+                0x0000000140d3fe80       0x10 src/game/stage/stage.o
+                0x0000000140d3fe80                .refptr.gMultiplayerConnections
+ .rdata$.refptr.gMultiplayerIds
+                0x0000000140d3fe90       0x10 src/game/multiplayer/multipak_connection.o
+                0x0000000140d3fe90                .refptr.gMultiplayerIds
+ .rdata$.refptr.gMultiplayerLanguage
+                0x0000000140d3fea0       0x10 src/game/multiboot/collect_rings/results.o
+                0x0000000140d3fea0                .refptr.gMultiplayerLanguage
+ .rdata$.refptr.gMultiplayerMissingHeartbeats
+                0x0000000140d3feb0       0x10 src/game/multiplayer_lobby.o
+                0x0000000140d3feb0                .refptr.gMultiplayerMissingHeartbeats
+ .rdata$.refptr.gMultiplayerNames
+                0x0000000140d3fec0       0x10 src/game/multiplayer/multipak_connection.o
+                0x0000000140d3fec0                .refptr.gMultiplayerNames
+ .rdata$.refptr.gMultiplayerPlayerTasks
+                0x0000000140d3fed0       0x10 src/game/interactables_1/stage_goal.o
+                0x0000000140d3fed0                .refptr.gMultiplayerPlayerTasks
+ .rdata$.refptr.gMultiplayerPseudoRandom
+                0x0000000140d3fee0       0x10 src/game/stage/stage.o
+                0x0000000140d3fee0                .refptr.gMultiplayerPseudoRandom
+ .rdata$.refptr.gMultiplayerRanks
+                0x0000000140d3fef0       0x10 src/game/interactables_1/stage_goal.o
+                0x0000000140d3fef0                .refptr.gMultiplayerRanks
+ .rdata$.refptr.gMultiplayerUnlockedCharacters
+                0x0000000140d3ff00       0x10 src/game/multiplayer_lobby.o
+                0x0000000140d3ff00                .refptr.gMultiplayerUnlockedCharacters
+ .rdata$.refptr.gMultiplayerUnlockedLevels
+                0x0000000140d3ff10       0x10 src/game/multiplayer/multipak_connection.o
+                0x0000000140d3ff10                .refptr.gMultiplayerUnlockedLevels
+ .rdata$.refptr.gMusicManagerState
+                0x0000000140d3ff20       0x10 src/game/interactables_1/stage_goal.o
+                0x0000000140d3ff20                .refptr.gMusicManagerState
+ .rdata$.refptr.gNewInputCounters
+                0x0000000140d3ff30       0x10 src/game/sa1_sa2_shared/input_buffer.o
+                0x0000000140d3ff30                .refptr.gNewInputCounters
+ .rdata$.refptr.gNewInputCountersIndex
+                0x0000000140d3ff40       0x10 src/game/sa1_sa2_shared/input_buffer.o
+                0x0000000140d3ff40                .refptr.gNewInputCountersIndex
+ .rdata$.refptr.gNextTask
+                0x0000000140d3ff50       0x10 src/task.o
+                0x0000000140d3ff50                .refptr.gNextTask
+ .rdata$.refptr.gNoiseTable
+                0x0000000140d3ff60       0x10 src/lib/m4a/m4a.o
+                0x0000000140d3ff60                .refptr.gNoiseTable
+ .rdata$.refptr.gNumHBlankCallbacks
+                0x0000000140d3ff70       0x10 src/game/stage/camera.o
+                0x0000000140d3ff70                .refptr.gNumHBlankCallbacks
+ .rdata$.refptr.gNumHBlankIntrs
+                0x0000000140d3ff80       0x10 src/game/sound_test.o
+                0x0000000140d3ff80                .refptr.gNumHBlankIntrs
+ .rdata$.refptr.gNumLives
+                0x0000000140d3ff90       0x10 src/game/interactables_1/stage_goal.o
+                0x0000000140d3ff90                .refptr.gNumLives
+ .rdata$.refptr.gNumSingleplayerCharacters
+                0x0000000140d3ffa0       0x10 src/game/stage/stage.o
+                0x0000000140d3ffa0                .refptr.gNumSingleplayerCharacters
+ .rdata$.refptr.gNumTasks
+                0x0000000140d3ffb0       0x10 src/task.o
+                0x0000000140d3ffb0                .refptr.gNumTasks
+ .rdata$.refptr.gNumVBlankCallbacks
+                0x0000000140d3ffc0       0x10 src/game/title_screen.o
+                0x0000000140d3ffc0                .refptr.gNumVBlankCallbacks
+ .rdata$.refptr.gOamBuffer
+                0x0000000140d3ffd0       0x10 src/sprite.o
+                0x0000000140d3ffd0                .refptr.gOamBuffer
+ .rdata$.refptr.gOamFirstPausedIndex
+                0x0000000140d3ffe0       0x10 src/sprite.o
+                0x0000000140d3ffe0                .refptr.gOamFirstPausedIndex
+ .rdata$.refptr.gOamFreeIndex
+                0x0000000140d3fff0       0x10 src/sprite.o
+                0x0000000140d3fff0                .refptr.gOamFreeIndex
+ .rdata$.refptr.gOamMallocBuffer
+                0x0000000140d40000       0x10 src/sprite.o
+                0x0000000140d40000                .refptr.gOamMallocBuffer
+ .rdata$.refptr.gOamMallocCopiedOrder
+                0x0000000140d40010       0x10 src/sprite.o
+                0x0000000140d40010                .refptr.gOamMallocCopiedOrder
+ .rdata$.refptr.gOamMallocOrders_EndIndex
+                0x0000000140d40020       0x10 src/sprite.o
+                0x0000000140d40020                .refptr.gOamMallocOrders_EndIndex
+ .rdata$.refptr.gOamMallocOrders_StartIndex
+                0x0000000140d40030       0x10 src/sprite.o
+                0x0000000140d40030                .refptr.gOamMallocOrders_StartIndex
+ .rdata$.refptr.gOamMatrixIndex
+                0x0000000140d40040       0x10 src/game/interactables_1/windmill.o
+                0x0000000140d40040                .refptr.gOamMatrixIndex
+ .rdata$.refptr.gOamShapesSizes
+                0x0000000140d40050       0x10 src/platform/pret_sdl/sdl2.o
+                0x0000000140d40050                .refptr.gOamShapesSizes
+ .rdata$.refptr.gObjPalette
+                0x0000000140d40060       0x10 src/sprite.o
+                0x0000000140d40060                .refptr.gObjPalette
+ .rdata$.refptr.gPhysicalInput
+                0x0000000140d40070       0x10 src/game/sa1_sa2_shared/demo_manager.o
+                0x0000000140d40070                .refptr.gPhysicalInput
+ .rdata$.refptr.gPlayer
                 0x0000000140d40080       0x10 src/game/interactables_1/spikes.o
-                0x0000000140d40080                .refptr.gStageFlags
- .rdata$.refptr.gStageGoalX
-                0x0000000140d40090       0x10 src/game/interactables_1/stage_goal.o
-                0x0000000140d40090                .refptr.gStageGoalX
- .rdata$.refptr.gStageResultsHeadlineTexts
-                0x0000000140d400a0       0x10 src/game/time_attack/results.o
-                0x0000000140d400a0                .refptr.gStageResultsHeadlineTexts
- .rdata$.refptr.gStageTime
-                0x0000000140d400b0       0x10 src/game/interactables_1/spikes.o
-                0x0000000140d400b0                .refptr.gStageTime
- .rdata$.refptr.gTaskPtrs
-                0x0000000140d400c0       0x10 src/task.o
-                0x0000000140d400c0                .refptr.gTaskPtrs
- .rdata$.refptr.gTasks
-                0x0000000140d400d0       0x10 src/task.o
-                0x0000000140d400d0                .refptr.gTasks
- .rdata$.refptr.gTileInfoBossScrews
-                0x0000000140d400e0       0x10 src/game/bosses/boss_2.o
-                0x0000000140d400e0                .refptr.gTileInfoBossScrews
- .rdata$.refptr.gTilemaps
-                0x0000000140d400f0       0x10 src/game/multiplayer/multipak_connection.o
-                0x0000000140d400f0                .refptr.gTilemaps
- .rdata$.refptr.gTilemapsRef
-                0x0000000140d40100       0x10 src/background.o
-                0x0000000140d40100                .refptr.gTilemapsRef
- .rdata$.refptr.gTrappedAnimalVariant
-                0x0000000140d40110       0x10 src/game/stage/trapped_animals.o
-                0x0000000140d40110                .refptr.gTrappedAnimalVariant
- .rdata$.refptr.gUnknown_030017F0
-                0x0000000140d40120       0x10 src/sprite.o
-                0x0000000140d40120                .refptr.gUnknown_030017F0
- .rdata$.refptr.gUnknown_03001944
-                0x0000000140d40130       0x10 src/sprite.o
-                0x0000000140d40130                .refptr.gUnknown_03001944
- .rdata$.refptr.gUnknown_0300194C
-                0x0000000140d40140       0x10 src/sprite.o
-                0x0000000140d40140                .refptr.gUnknown_0300194C
- .rdata$.refptr.gUnknown_03002820
+                0x0000000140d40080                .refptr.gPlayer
+ .rdata$.refptr.gPlayerBodyPSI
+                0x0000000140d40090       0x10 src/game/stage/intro.o
+                0x0000000140d40090                .refptr.gPlayerBodyPSI
+ .rdata$.refptr.gPlayerCharacterIdleAnims
+                0x0000000140d400a0       0x10 src/game/interactables_1/corkscrew_3d.o
+                0x0000000140d400a0                .refptr.gPlayerCharacterIdleAnims
+ .rdata$.refptr.gPlayerControls
+                0x0000000140d400b0       0x10 src/game/interactables_1/corkscrew_3d.o
+                0x0000000140d400b0                .refptr.gPlayerControls
+ .rdata$.refptr.gPlayerLimbsPSI
+                0x0000000140d400c0       0x10 src/game/bosses/boss_8.o
+                0x0000000140d400c0                .refptr.gPlayerLimbsPSI
+ .rdata$.refptr.gPressStartTiles
+                0x0000000140d400d0       0x10 src/game/sa1_sa2_shared/demo_manager.o
+                0x0000000140d400d0                .refptr.gPressStartTiles
+ .rdata$.refptr.gPressedKeys
+                0x0000000140d400e0       0x10 src/game/stage/stage.o
+                0x0000000140d400e0                .refptr.gPressedKeys
+ .rdata$.refptr.gPrevStageFlags
+                0x0000000140d400f0       0x10 src/game/stage/stage.o
+                0x0000000140d400f0                .refptr.gPrevStageFlags
+ .rdata$.refptr.gProfileScreenNextVramAddress
+                0x0000000140d40100       0x10 src/game/sound_test.o
+                0x0000000140d40100                .refptr.gProfileScreenNextVramAddress
+ .rdata$.refptr.gProfileScreenSubMenuNextVramAddress
+                0x0000000140d40110       0x10 src/game/sound_test.o
+                0x0000000140d40110                .refptr.gProfileScreenSubMenuNextVramAddress
+ .rdata$.refptr.gPseudoRandom
+                0x0000000140d40120       0x10 src/game/stage/dust_effect_braking.o
+                0x0000000140d40120                .refptr.gPseudoRandom
+ .rdata$.refptr.gRandomItemBox
+                0x0000000140d40130       0x10 src/game/stage/stage.o
+                0x0000000140d40130                .refptr.gRandomItemBox
+ .rdata$.refptr.gRefCollision
+                0x0000000140d40140       0x10 src/game/stage/camera.o
+                0x0000000140d40140                .refptr.gRefCollision
+ .rdata$.refptr.gRefSpriteTables
                 0x0000000140d40150       0x10 src/sprite.o
-                0x0000000140d40150                .refptr.gUnknown_03002820
- .rdata$.refptr.gUnknown_03002A8C
-                0x0000000140d40160       0x10 src/game/stage/stage.o
-                0x0000000140d40160                .refptr.gUnknown_03002A8C
- .rdata$.refptr.gUnknown_03004D58
-                0x0000000140d40170       0x10 src/game/stage/stage.o
-                0x0000000140d40170                .refptr.gUnknown_03004D58
- .rdata$.refptr.gUnknown_03005394
-                0x0000000140d40180       0x10 src/sprite.o
-                0x0000000140d40180                .refptr.gUnknown_03005394
- .rdata$.refptr.gUnknown_03005398
-                0x0000000140d40190       0x10 src/sprite.o
-                0x0000000140d40190                .refptr.gUnknown_03005398
- .rdata$.refptr.gUnknown_0300543C
-                0x0000000140d401a0       0x10 src/game/game.o
-                0x0000000140d401a0                .refptr.gUnknown_0300543C
- .rdata$.refptr.gUnknown_080D650C
-                0x0000000140d401b0       0x10 src/game/stage/player_super_sonic.o
-                0x0000000140d401b0                .refptr.gUnknown_080D650C
- .rdata$.refptr.gUnknown_080D661C
-                0x0000000140d401c0       0x10 src/game/stage/player_super_sonic.o
-                0x0000000140d401c0                .refptr.gUnknown_080D661C
- .rdata$.refptr.gUnknown_080D6DE4
-                0x0000000140d401d0       0x10 src/game/bosses/boss_1.o
-                0x0000000140d401d0                .refptr.gUnknown_080D6DE4
- .rdata$.refptr.gUnknown_080DF968
-                0x0000000140d401e0       0x10 src/game/special_stage/guard_robo.o
-                0x0000000140d401e0                .refptr.gUnknown_080DF968
- .rdata$.refptr.gUnknown_080DF9D8
-                0x0000000140d401f0       0x10 src/game/special_stage/player.o
-                0x0000000140d401f0                .refptr.gUnknown_080DF9D8
- .rdata$.refptr.gUnknown_08C878E8
-                0x0000000140d40200       0x10 src/game/special_stage/collectables.o
-                0x0000000140d40200                .refptr.gUnknown_08C878E8
- .rdata$.refptr.gUnknown_08C87904
-                0x0000000140d40210       0x10 src/game/special_stage/physics.o
-                0x0000000140d40210                .refptr.gUnknown_08C87904
- .rdata$.refptr.gUnknown_08C87920
-                0x0000000140d40220       0x10 src/game/special_stage/world.o
-                0x0000000140d40220                .refptr.gUnknown_08C87920
- .rdata$.refptr.gUnknown_08C8793C
-                0x0000000140d40230       0x10 src/game/interactables_2/music_plant/pipe_horn.o
-                0x0000000140d40230                .refptr.gUnknown_08C8793C
- .rdata$.refptr.gUnknown_08C87960
-                0x0000000140d40240       0x10 src/game/interactables_2/music_plant/french_horn.o
-                0x0000000140d40240                .refptr.gUnknown_08C87960
- .rdata$.refptr.gVBlankCallbacks
-                0x0000000140d40250       0x10 src/game/title_screen.o
-                0x0000000140d40250                .refptr.gVBlankCallbacks
- .rdata$.refptr.gVCountSetting
-                0x0000000140d40260       0x10 src/game/water_effects.o
-                0x0000000140d40260                .refptr.gVCountSetting
- .rdata$.refptr.gVramGraphicsCopyCursor
+                0x0000000140d40150                .refptr.gRefSpriteTables
+ .rdata$.refptr.gReleasedKeys
+                0x0000000140d40160       0x10 src/game/sa1_sa2_shared/pause_menu.o
+                0x0000000140d40160                .refptr.gReleasedKeys
+ .rdata$.refptr.gRepeatedKeys
+                0x0000000140d40170       0x10 src/game/title_screen.o
+                0x0000000140d40170                .refptr.gRepeatedKeys
+ .rdata$.refptr.gRingCount
+                0x0000000140d40180       0x10 src/game/stage/stage.o
+                0x0000000140d40180                .refptr.gRingCount
+ .rdata$.refptr.gRingsScatterTask
+                0x0000000140d40190       0x10 src/game/game.o
+                0x0000000140d40190                .refptr.gRingsScatterTask
+ .rdata$.refptr.gRoomEventQueue
+                0x0000000140d401a0       0x10 src/game/multiplayer/multiplayer_event_mgr.o
+                0x0000000140d401a0                .refptr.gRoomEventQueue
+ .rdata$.refptr.gRoomEventQueueSendPos
+                0x0000000140d401b0       0x10 src/game/multiplayer/multiplayer_event_mgr.o
+                0x0000000140d401b0                .refptr.gRoomEventQueueSendPos
+ .rdata$.refptr.gRoomEventQueueWritePos
+                0x0000000140d401c0       0x10 src/game/multiplayer/multiplayer_event_mgr.o
+                0x0000000140d401c0                .refptr.gRoomEventQueueWritePos
+ .rdata$.refptr.gScaleTable
+                0x0000000140d401d0       0x10 src/lib/m4a/m4a.o
+                0x0000000140d401d0                .refptr.gScaleTable
+ .rdata$.refptr.gSelectedCharacter
+                0x0000000140d401e0       0x10 src/game/stage/stage.o
+                0x0000000140d401e0                .refptr.gSelectedCharacter
+ .rdata$.refptr.gShouldSpawnMPAttack2Effect
+                0x0000000140d401f0       0x10 src/game/stage/player.o
+                0x0000000140d401f0                .refptr.gShouldSpawnMPAttack2Effect
+ .rdata$.refptr.gShouldSpawnMPAttackEffect
+                0x0000000140d40200       0x10 src/game/stage/player.o
+                0x0000000140d40200                .refptr.gShouldSpawnMPAttackEffect
+ .rdata$.refptr.gSineTable
+                0x0000000140d40210       0x10 src/bg_triangles.o
+                0x0000000140d40210                .refptr.gSineTable
+ .rdata$.refptr.gSio32MultiLoadArea
+                0x0000000140d40220       0x10 src/multi_sio.o
+                0x0000000140d40220                .refptr.gSio32MultiLoadArea
+ .rdata$.refptr.gSmallAirBubbleCount
+                0x0000000140d40230       0x10 src/game/game.o
+                0x0000000140d40230                .refptr.gSmallAirBubbleCount
+ .rdata$.refptr.gSongTable
+                0x0000000140d40240       0x10 src/lib/m4a/m4a.o
+                0x0000000140d40240                .refptr.gSongTable
+ .rdata$.refptr.gSoundInfo
+                0x0000000140d40250       0x10 src/game/sound_test.o
+                0x0000000140d40250                .refptr.gSoundInfo
+ .rdata$.refptr.gSpawnPositions
+                0x0000000140d40260       0x10 src/game/stage/player.o
+                0x0000000140d40260                .refptr.gSpawnPositions
+ .rdata$.refptr.gSpecialRingCount
                 0x0000000140d40270       0x10 src/game/stage/stage.o
-                0x0000000140d40270                .refptr.gVramGraphicsCopyCursor
+                0x0000000140d40270                .refptr.gSpecialRingCount
+ .rdata$.refptr.gSpecialStageGuardRoboStartPositions
+                0x0000000140d40280       0x10 src/game/special_stage/guard_robo.o
+                0x0000000140d40280                .refptr.gSpecialStageGuardRoboStartPositions
+ .rdata$.refptr.gSpecialStageScoreTargets
+                0x0000000140d40290       0x10 src/game/special_stage/main.o
+                0x0000000140d40290                .refptr.gSpecialStageScoreTargets
+ .rdata$.refptr.gSpecialStageSubMenuVramPointer
+                0x0000000140d402a0       0x10 src/game/special_stage/ui.o
+                0x0000000140d402a0                .refptr.gSpecialStageSubMenuVramPointer
+ .rdata$.refptr.gSpecialStageVramPointer
+                0x0000000140d402b0       0x10 src/game/special_stage/world.o
+                0x0000000140d402b0                .refptr.gSpecialStageVramPointer
+ .rdata$.refptr.gSpikesUnknownTimer
+                0x0000000140d402c0       0x10 src/game/interactables_1/spikes.o
+                0x0000000140d402c0                .refptr.gSpikesUnknownTimer
+ .rdata$.refptr.gSpriteOffset
+                0x0000000140d402d0       0x10 src/sprite.o
+                0x0000000140d402d0                .refptr.gSpriteOffset
+ .rdata$.refptr.gSpritePalettes
+                0x0000000140d402e0       0x10 src/game/water_effects.o
+                0x0000000140d402e0                .refptr.gSpritePalettes
+ .rdata$.refptr.gSpriteTables
+                0x0000000140d402f0       0x10 src/game/multiplayer/multipak_connection.o
+                0x0000000140d402f0                .refptr.gSpriteTables
+ .rdata$.refptr.gStageFlags
+                0x0000000140d40300       0x10 src/game/interactables_1/spikes.o
+                0x0000000140d40300                .refptr.gStageFlags
+ .rdata$.refptr.gStageGoalX
+                0x0000000140d40310       0x10 src/game/interactables_1/stage_goal.o
+                0x0000000140d40310                .refptr.gStageGoalX
+ .rdata$.refptr.gStageResultsHeadlineTexts
+                0x0000000140d40320       0x10 src/game/time_attack/results.o
+                0x0000000140d40320                .refptr.gStageResultsHeadlineTexts
+ .rdata$.refptr.gStageTime
+                0x0000000140d40330       0x10 src/game/interactables_1/spikes.o
+                0x0000000140d40330                .refptr.gStageTime
+ .rdata$.refptr.gTaskPtrs
+                0x0000000140d40340       0x10 src/task.o
+                0x0000000140d40340                .refptr.gTaskPtrs
+ .rdata$.refptr.gTasks
+                0x0000000140d40350       0x10 src/task.o
+                0x0000000140d40350                .refptr.gTasks
+ .rdata$.refptr.gTileInfoBossScrews
+                0x0000000140d40360       0x10 src/game/bosses/boss_2.o
+                0x0000000140d40360                .refptr.gTileInfoBossScrews
+ .rdata$.refptr.gTilemaps
+                0x0000000140d40370       0x10 src/game/multiplayer/multipak_connection.o
+                0x0000000140d40370                .refptr.gTilemaps
+ .rdata$.refptr.gTilemapsRef
+                0x0000000140d40380       0x10 src/background.o
+                0x0000000140d40380                .refptr.gTilemapsRef
+ .rdata$.refptr.gTrappedAnimalVariant
+                0x0000000140d40390       0x10 src/game/stage/trapped_animals.o
+                0x0000000140d40390                .refptr.gTrappedAnimalVariant
+ .rdata$.refptr.gUnknown_030017F0
+                0x0000000140d403a0       0x10 src/sprite.o
+                0x0000000140d403a0                .refptr.gUnknown_030017F0
+ .rdata$.refptr.gUnknown_03001944
+                0x0000000140d403b0       0x10 src/sprite.o
+                0x0000000140d403b0                .refptr.gUnknown_03001944
+ .rdata$.refptr.gUnknown_0300194C
+                0x0000000140d403c0       0x10 src/sprite.o
+                0x0000000140d403c0                .refptr.gUnknown_0300194C
+ .rdata$.refptr.gUnknown_03002820
+                0x0000000140d403d0       0x10 src/sprite.o
+                0x0000000140d403d0                .refptr.gUnknown_03002820
+ .rdata$.refptr.gUnknown_03002A8C
+                0x0000000140d403e0       0x10 src/game/stage/stage.o
+                0x0000000140d403e0                .refptr.gUnknown_03002A8C
+ .rdata$.refptr.gUnknown_03004D58
+                0x0000000140d403f0       0x10 src/game/stage/stage.o
+                0x0000000140d403f0                .refptr.gUnknown_03004D58
+ .rdata$.refptr.gUnknown_03005394
+                0x0000000140d40400       0x10 src/sprite.o
+                0x0000000140d40400                .refptr.gUnknown_03005394
+ .rdata$.refptr.gUnknown_03005398
+                0x0000000140d40410       0x10 src/sprite.o
+                0x0000000140d40410                .refptr.gUnknown_03005398
+ .rdata$.refptr.gUnknown_0300543C
+                0x0000000140d40420       0x10 src/game/game.o
+                0x0000000140d40420                .refptr.gUnknown_0300543C
+ .rdata$.refptr.gUnknown_080D650C
+                0x0000000140d40430       0x10 src/game/stage/player_super_sonic.o
+                0x0000000140d40430                .refptr.gUnknown_080D650C
+ .rdata$.refptr.gUnknown_080D661C
+                0x0000000140d40440       0x10 src/game/stage/player_super_sonic.o
+                0x0000000140d40440                .refptr.gUnknown_080D661C
+ .rdata$.refptr.gUnknown_080D6DE4
+                0x0000000140d40450       0x10 src/game/bosses/boss_1.o
+                0x0000000140d40450                .refptr.gUnknown_080D6DE4
+ .rdata$.refptr.gUnknown_080DF968
+                0x0000000140d40460       0x10 src/game/special_stage/guard_robo.o
+                0x0000000140d40460                .refptr.gUnknown_080DF968
+ .rdata$.refptr.gUnknown_080DF9D8
+                0x0000000140d40470       0x10 src/game/special_stage/player.o
+                0x0000000140d40470                .refptr.gUnknown_080DF9D8
+ .rdata$.refptr.gUnknown_08C878E8
+                0x0000000140d40480       0x10 src/game/special_stage/collectables.o
+                0x0000000140d40480                .refptr.gUnknown_08C878E8
+ .rdata$.refptr.gUnknown_08C87904
+                0x0000000140d40490       0x10 src/game/special_stage/physics.o
+                0x0000000140d40490                .refptr.gUnknown_08C87904
+ .rdata$.refptr.gUnknown_08C87920
+                0x0000000140d404a0       0x10 src/game/special_stage/world.o
+                0x0000000140d404a0                .refptr.gUnknown_08C87920
+ .rdata$.refptr.gUnknown_08C8793C
+                0x0000000140d404b0       0x10 src/game/interactables_2/music_plant/pipe_horn.o
+                0x0000000140d404b0                .refptr.gUnknown_08C8793C
+ .rdata$.refptr.gUnknown_08C87960
+                0x0000000140d404c0       0x10 src/game/interactables_2/music_plant/french_horn.o
+                0x0000000140d404c0                .refptr.gUnknown_08C87960
+ .rdata$.refptr.gVBlankCallbacks
+                0x0000000140d404d0       0x10 src/game/title_screen.o
+                0x0000000140d404d0                .refptr.gVBlankCallbacks
+ .rdata$.refptr.gVCountSetting
+                0x0000000140d404e0       0x10 src/game/water_effects.o
+                0x0000000140d404e0                .refptr.gVCountSetting
+ .rdata$.refptr.gVramGraphicsCopyCursor
+                0x0000000140d404f0       0x10 src/game/stage/stage.o
+                0x0000000140d404f0                .refptr.gVramGraphicsCopyCursor
  .rdata$.refptr.gVramGraphicsCopyQueue
-                0x0000000140d40280       0x10 src/sprite.o
-                0x0000000140d40280                .refptr.gVramGraphicsCopyQueue
+                0x0000000140d40500       0x10 src/sprite.o
+                0x0000000140d40500                .refptr.gVramGraphicsCopyQueue
  .rdata$.refptr.gVramGraphicsCopyQueueBuffer
-                0x0000000140d40290       0x10 src/sprite.o
-                0x0000000140d40290                .refptr.gVramGraphicsCopyQueueBuffer
+                0x0000000140d40510       0x10 src/sprite.o
+                0x0000000140d40510                .refptr.gVramGraphicsCopyQueueBuffer
  .rdata$.refptr.gVramGraphicsCopyQueueIndex
-                0x0000000140d402a0       0x10 src/sprite.o
-                0x0000000140d402a0                .refptr.gVramGraphicsCopyQueueIndex
+                0x0000000140d40520       0x10 src/sprite.o
+                0x0000000140d40520                .refptr.gVramGraphicsCopyQueueIndex
  .rdata$.refptr.gVramHeapMaxTileSlots
-                0x0000000140d402b0       0x10 src/malloc_vram.o
-                0x0000000140d402b0                .refptr.gVramHeapMaxTileSlots
+                0x0000000140d40530       0x10 src/malloc_vram.o
+                0x0000000140d40530                .refptr.gVramHeapMaxTileSlots
  .rdata$.refptr.gVramHeapStartAddr
-                0x0000000140d402c0       0x10 src/malloc_vram.o
-                0x0000000140d402c0                .refptr.gVramHeapStartAddr
+                0x0000000140d40540       0x10 src/malloc_vram.o
+                0x0000000140d40540                .refptr.gVramHeapStartAddr
  .rdata$.refptr.gVramHeapState
-                0x0000000140d402d0       0x10 src/malloc_vram.o
-                0x0000000140d402d0                .refptr.gVramHeapState
+                0x0000000140d40550       0x10 src/malloc_vram.o
+                0x0000000140d40550                .refptr.gVramHeapState
  .rdata$.refptr.gWater
-                0x0000000140d402e0       0x10 src/game/stage/underwater_effects.o
-                0x0000000140d402e0                .refptr.gWater
+                0x0000000140d40560       0x10 src/game/stage/underwater_effects.o
+                0x0000000140d40560                .refptr.gWater
  .rdata$.refptr.gWinRegs
-                0x0000000140d402f0       0x10 src/game/stage/intro.o
-                0x0000000140d402f0                .refptr.gWinRegs
+                0x0000000140d40570       0x10 src/game/stage/intro.o
+                0x0000000140d40570                .refptr.gWinRegs
  .rdata$.refptr.gWorldSpeedX
-                0x0000000140d40300       0x10 src/game/stage/rings_scatter.o
-                0x0000000140d40300                .refptr.gWorldSpeedX
+                0x0000000140d40580       0x10 src/game/stage/rings_scatter.o
+                0x0000000140d40580                .refptr.gWorldSpeedX
  .rdata$.refptr.gWorldSpeedY
-                0x0000000140d40310       0x10 src/game/stage/rings_scatter.o
-                0x0000000140d40310                .refptr.gWorldSpeedY
+                0x0000000140d40590       0x10 src/game/stage/rings_scatter.o
+                0x0000000140d40590                .refptr.gWorldSpeedY
  .rdata$.refptr.gXcmdTable
-                0x0000000140d40320       0x10 src/lib/m4a/m4a.o
-                0x0000000140d40320                .refptr.gXcmdTable
+                0x0000000140d405a0       0x10 src/lib/m4a/m4a.o
+                0x0000000140d405a0                .refptr.gXcmdTable
  .rdata$.refptr.iwram_end
-                0x0000000140d40330       0x10 src/sprite.o
-                0x0000000140d40330                .refptr.iwram_end
+                0x0000000140d405b0       0x10 src/sprite.o
+                0x0000000140d405b0                .refptr.iwram_end
  .rdata$.refptr.sCharStateAnimInfo
-                0x0000000140d40340       0x10 src/game/amy_attack_heart_effect.o
-                0x0000000140d40340                .refptr.sCharStateAnimInfo
+                0x0000000140d405c0       0x10 src/game/amy_attack_heart_effect.o
+                0x0000000140d405c0                .refptr.sCharStateAnimInfo
  .rdata$.refptr.sCharacterPalettesBoostEffect
-                0x0000000140d40350       0x10 src/game/water_effects.o
-                0x0000000140d40350                .refptr.sCharacterPalettesBoostEffect
+                0x0000000140d405d0       0x10 src/game/water_effects.o
+                0x0000000140d405d0                .refptr.sCharacterPalettesBoostEffect
  .rdata$.refptr.se_ring_copy
-                0x0000000140d40360       0x10 src/game/sa1_sa2_shared/collect_ring_effect.o
-                0x0000000140d40360                .refptr.se_ring_copy
+                0x0000000140d405e0       0x10 src/game/sa1_sa2_shared/collect_ring_effect.o
+                0x0000000140d405e0                .refptr.se_ring_copy
  .rdata$.refptr.sub_801EB44
-                0x0000000140d40370       0x10 src/game/sa1_sa2_shared/interactables/platform_square.o
-                0x0000000140d40370                .refptr.sub_801EB44
+                0x0000000140d405f0       0x10 src/game/sa1_sa2_shared/interactables/platform_square.o
+                0x0000000140d405f0                .refptr.sub_801EB44
  .rdata$.refptr.sub_801EC3C
-                0x0000000140d40380       0x10 src/game/stage/rings_scatter.o
-                0x0000000140d40380                .refptr.sub_801EC3C
+                0x0000000140d40600       0x10 src/game/stage/rings_scatter.o
+                0x0000000140d40600                .refptr.sub_801EC3C
  .rdata$.refptr.sub_801ED24
-                0x0000000140d40390       0x10 src/game/stage/player.o
-                0x0000000140d40390                .refptr.sub_801ED24
+                0x0000000140d40610       0x10 src/game/stage/player.o
+                0x0000000140d40610                .refptr.sub_801ED24
  .rdata$.refptr.sub_801EE64
-                0x0000000140d403a0       0x10 src/game/stage/trapped_animals.o
-                0x0000000140d403a0                .refptr.sub_801EE64
- .rdata$zzz     0x0000000140d403b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
- .rdata$zzz     0x0000000140d403d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/crtbegin.o
- .rdata$zzz     0x0000000140d403f0       0x20 src/malloc_vram.o
- .rdata$zzz     0x0000000140d40410       0x20 src/core.o
- .rdata$zzz     0x0000000140d40430       0x20 src/input_recorder.o
- .rdata$zzz     0x0000000140d40450       0x20 src/main.o
- .rdata$zzz     0x0000000140d40470       0x20 src/bg_triangles.o
- .rdata$zzz     0x0000000140d40490       0x20 src/sprite.o
- .rdata$zzz     0x0000000140d404b0       0x20 src/background.o
- .rdata$zzz     0x0000000140d404d0       0x20 src/multi_boot.o
- .rdata$zzz     0x0000000140d404f0       0x20 src/multi_sio.o
- .rdata$zzz     0x0000000140d40510       0x20 src/lib/agb_flash/agb_flash.o
- .rdata$zzz     0x0000000140d40530       0x20 src/lib/agb_flash/agb_flash_mx_512k.o
- .rdata$zzz     0x0000000140d40550       0x20 src/lib/agb_flash/agb_flash_512k.o
- .rdata$zzz     0x0000000140d40570       0x20 src/lib/agb_flash/agb_flash_le_512k.o
- .rdata$zzz     0x0000000140d40590       0x20 src/lib/m4a/m4a.o
- .rdata$zzz     0x0000000140d405b0       0x20 src/lib/m4a/m4a_tables.o
- .rdata$zzz     0x0000000140d405d0       0x20 src/malloc_ewram.o
- .rdata$zzz     0x0000000140d405f0       0x20 src/task.o
- .rdata$zzz     0x0000000140d40610       0x20 src/data/animations/animation_table.o
- .rdata$zzz     0x0000000140d40630       0x20 src/data/animations/animations.o
- .rdata$zzz     0x0000000140d40650       0x20 src/data/sprite_oam_data.o
- .rdata$zzz     0x0000000140d40670       0x20 src/data/handlers_ia_pipe_horn_sequences.o
- .rdata$zzz     0x0000000140d40690       0x20 src/data/tileset_debug_ascii.o
- .rdata$zzz     0x0000000140d406b0       0x20 src/data/tilemap_data_old_logos.o
- .rdata$zzz     0x0000000140d406d0       0x20 src/data/sprite_dimensions.o
- .rdata$zzz     0x0000000140d406f0       0x20 src/data/sprite_tables.o
- .rdata$zzz     0x0000000140d40710       0x20 src/data/palettes.o
- .rdata$zzz     0x0000000140d40730       0x20 src/data/sprite_animation.o
- .rdata$zzz     0x0000000140d40750       0x20 src/data/recordings.o
- .rdata$zzz     0x0000000140d40770       0x20 src/data/tilemap_data.o
- .rdata$zzz     0x0000000140d40790       0x20 src/game/interactables_1/spikes.o
- .rdata$zzz     0x0000000140d407b0       0x20 src/game/interactables_1/corkscrew_3d.o
- .rdata$zzz     0x0000000140d407d0       0x20 src/game/interactables_1/windmill.o
- .rdata$zzz     0x0000000140d407f0       0x20 src/game/interactables_1/platform_crumbling.o
- .rdata$zzz     0x0000000140d40810       0x20 src/game/interactables_1/corkscrew.o
- .rdata$zzz     0x0000000140d40830       0x20 src/game/interactables_1/spring_bouncy.o
- .rdata$zzz     0x0000000140d40850       0x20 src/game/interactables_1/booster.o
- .rdata$zzz     0x0000000140d40870       0x20 src/game/interactables_1/bouncy_bar.o
- .rdata$zzz     0x0000000140d40890       0x20 src/game/interactables_1/stage_goal.o
- .rdata$zzz     0x0000000140d408b0       0x20 src/game/interactables_1/gapped_loop.o
- .rdata$zzz     0x0000000140d408d0       0x20 src/game/interactables_1/toggle_player_layer.o
- .rdata$zzz     0x0000000140d408f0       0x20 src/game/interactables_1/checkpoint.o
- .rdata$zzz     0x0000000140d40910       0x20 src/game/interactables_1/rotating_handle.o
- .rdata$zzz     0x0000000140d40930       0x20 src/game/interactables_1/incline_ramp.o
- .rdata$zzz     0x0000000140d40950       0x20 src/game/interactables_1/decoration.o
- .rdata$zzz     0x0000000140d40970       0x20 src/game/dummy_task.o
- .rdata$zzz     0x0000000140d40990       0x20 src/game/bg_palette_effects.o
- .rdata$zzz     0x0000000140d409b0       0x20 src/game/stage/debug_text_printer.o
- .rdata$zzz     0x0000000140d409d0       0x20 src/game/stage/trapped_animals.o
- .rdata$zzz     0x0000000140d409f0       0x20 src/game/stage/stage.o
- .rdata$zzz     0x0000000140d40a10       0x20 src/game/stage/spawn_positions.o
- .rdata$zzz     0x0000000140d40a30       0x20 src/game/stage/dust_effect_spindash.o
- .rdata$zzz     0x0000000140d40a50       0x20 src/game/stage/boss_results_transition.o
- .rdata$zzz     0x0000000140d40a70       0x20 src/game/stage/item_tasks.o
- .rdata$zzz     0x0000000140d40a90       0x20 src/game/stage/intro.o
- .rdata$zzz     0x0000000140d40ab0       0x20 src/game/stage/grind_effect_1.o
- .rdata$zzz     0x0000000140d40ad0       0x20 src/game/stage/ui.o
- .rdata$zzz     0x0000000140d40af0       0x20 src/game/stage/dust_effect_braking.o
- .rdata$zzz     0x0000000140d40b10       0x20 src/game/stage/tilemap_table.o
- .rdata$zzz     0x0000000140d40b30       0x20 src/game/stage/player_super_sonic.o
- .rdata$zzz     0x0000000140d40b50       0x20 src/game/stage/terrain_collision.o
- .rdata$zzz     0x0000000140d40b70       0x20 src/game/stage/underwater_effects.o
- .rdata$zzz     0x0000000140d40b90       0x20 src/game/stage/mp_sprite_task.o
- .rdata$zzz     0x0000000140d40bb0       0x20 src/game/stage/screen_fade.o
- .rdata$zzz     0x0000000140d40bd0       0x20 src/game/stage/rings_scatter.o
- .rdata$zzz     0x0000000140d40bf0       0x20 src/game/stage/screen_mask.o
- .rdata$zzz     0x0000000140d40c10       0x20 src/game/stage/screen_shake.o
- .rdata$zzz     0x0000000140d40c30       0x20 src/game/stage/player_controls.o
- .rdata$zzz     0x0000000140d40c50       0x20 src/game/stage/results.o
- .rdata$zzz     0x0000000140d40c70       0x20 src/game/stage/camera.o
- .rdata$zzz     0x0000000140d40c90       0x20 src/game/stage/player.o
- .rdata$zzz     0x0000000140d40cb0       0x20 src/game/boost_effect.o
- .rdata$zzz     0x0000000140d40cd0       0x20 src/game/multiplayer_lobby.o
- .rdata$zzz     0x0000000140d40cf0       0x20 src/game/save.o
- .rdata$zzz     0x0000000140d40d10       0x20 src/game/cutscenes/credits_end.o
- .rdata$zzz     0x0000000140d40d30       0x20 src/game/cutscenes/extra_ending_slides.o
- .rdata$zzz     0x0000000140d40d50       0x20 src/game/cutscenes/credits.o
- .rdata$zzz     0x0000000140d40d70       0x20 src/game/cutscenes/missing_emeralds.o
- .rdata$zzz     0x0000000140d40d90       0x20 src/game/cutscenes/final_ending_fall.o
- .rdata$zzz     0x0000000140d40db0       0x20 src/game/cutscenes/endings.o
- .rdata$zzz     0x0000000140d40dd0       0x20 src/game/cutscenes/extra_ending_fall.o
- .rdata$zzz     0x0000000140d40df0       0x20 src/game/cutscenes/final_ending_land.o
- .rdata$zzz     0x0000000140d40e10       0x20 src/game/cutscenes/credits_slides.o
- .rdata$zzz     0x0000000140d40e30       0x20 src/game/cutscenes/level_endings.o
- .rdata$zzz     0x0000000140d40e50       0x20 src/game/bosses/boss_7.o
- .rdata$zzz     0x0000000140d40e70       0x20 src/game/bosses/boss_3.o
- .rdata$zzz     0x0000000140d40e90       0x20 src/game/bosses/boss_9.o
- .rdata$zzz     0x0000000140d40eb0       0x20 src/game/bosses/explosion_parts.o
- .rdata$zzz     0x0000000140d40ed0       0x20 src/game/bosses/boss_2.o
- .rdata$zzz     0x0000000140d40ef0       0x20 src/game/bosses/final_intro.o
- .rdata$zzz     0x0000000140d40f10       0x20 src/game/bosses/boss_4.o
- .rdata$zzz     0x0000000140d40f30       0x20 src/game/bosses/boss_8.o
- .rdata$zzz     0x0000000140d40f50       0x20 src/game/bosses/boss_6.o
- .rdata$zzz     0x0000000140d40f70       0x20 src/game/bosses/common.o
- .rdata$zzz     0x0000000140d40f90       0x20 src/game/bosses/boss_1.o
- .rdata$zzz     0x0000000140d40fb0       0x20 src/game/bosses/eggmobile_escape_sequence.o
- .rdata$zzz     0x0000000140d40fd0       0x20 src/game/bosses/boss_5.o
- .rdata$zzz     0x0000000140d40ff0       0x20 src/game/amy_attack_heart_effect.o
- .rdata$zzz     0x0000000140d41010       0x20 src/game/boost_mode_particles.o
- .rdata$zzz     0x0000000140d41030       0x20 src/game/enemies/flickey.o
- .rdata$zzz     0x0000000140d41050       0x20 src/game/enemies/yado.o
- .rdata$zzz     0x0000000140d41070       0x20 src/game/enemies/gohla.o
- .rdata$zzz     0x0000000140d41090       0x20 src/game/enemies/kura_kura.o
- .rdata$zzz     0x0000000140d410b0       0x20 src/game/enemies/kyura.o
- .rdata$zzz     0x0000000140d410d0       0x20 src/game/enemies/star.o
- .rdata$zzz     0x0000000140d410f0       0x20 src/game/enemies/spinner.o
- .rdata$zzz     0x0000000140d41110       0x20 src/game/enemies/bell.o
- .rdata$zzz     0x0000000140d41130       0x20 src/game/enemies/balloon.o
- .rdata$zzz     0x0000000140d41150       0x20 src/game/enemies/mon.o
- .rdata$zzz     0x0000000140d41170       0x20 src/game/enemies/bullet_buzzer.o
- .rdata$zzz     0x0000000140d41190       0x20 src/game/enemies/pen.o
- .rdata$zzz     0x0000000140d411b0       0x20 src/game/enemies/mouse.o
- .rdata$zzz     0x0000000140d411d0       0x20 src/game/enemies/hammerhead.o
- .rdata$zzz     0x0000000140d411f0       0x20 src/game/enemies/circus.o
- .rdata$zzz     0x0000000140d41210       0x20 src/game/enemies/geji_geji.o
- .rdata$zzz     0x0000000140d41230       0x20 src/game/enemies/kubinaga.o
- .rdata$zzz     0x0000000140d41250       0x20 src/game/enemies/kiki.o
- .rdata$zzz     0x0000000140d41270       0x20 src/game/enemies/straw.o
- .rdata$zzz     0x0000000140d41290       0x20 src/game/enemies/madillo.o
- .rdata$zzz     0x0000000140d412b0       0x20 src/game/enemies/projectiles.o
- .rdata$zzz     0x0000000140d412d0       0x20 src/game/enemies/koura.o
- .rdata$zzz     0x0000000140d412f0       0x20 src/game/enemies/piko_piko.o
- .rdata$zzz     0x0000000140d41310       0x20 src/game/enemies/buzzer.o
- .rdata$zzz     0x0000000140d41330       0x20 src/game/mystery_itembox.o
- .rdata$zzz     0x0000000140d41350       0x20 src/game/special_stage/world.o
- .rdata$zzz     0x0000000140d41370       0x20 src/game/special_stage/data.o
- .rdata$zzz     0x0000000140d41390       0x20 src/game/special_stage/main.o
- .rdata$zzz     0x0000000140d413b0       0x20 src/game/special_stage/ui.o
- .rdata$zzz     0x0000000140d413d0       0x20 src/game/special_stage/physics.o
- .rdata$zzz     0x0000000140d413f0       0x20 src/game/special_stage/tables.o
- .rdata$zzz     0x0000000140d41410       0x20 src/game/special_stage/guard_robo.o
- .rdata$zzz     0x0000000140d41430       0x20 src/game/special_stage/utils.o
- .rdata$zzz     0x0000000140d41450       0x20 src/game/special_stage/collectables.o
- .rdata$zzz     0x0000000140d41470       0x20 src/game/special_stage/player.o
- .rdata$zzz     0x0000000140d41490       0x20 src/game/heart_particles_effect.o
- .rdata$zzz     0x0000000140d414b0       0x20 src/game/decomp_credits.o
- .rdata$zzz     0x0000000140d414d0       0x20 src/game/math.o
- .rdata$zzz     0x0000000140d414f0       0x20 src/game/title_screen.o
- .rdata$zzz     0x0000000140d41510       0x20 src/game/sa1_sa2_shared/magnetic_ring.o
- .rdata$zzz     0x0000000140d41530       0x20 src/game/sa1_sa2_shared/interactables/spring.o
- .rdata$zzz     0x0000000140d41550       0x20 src/game/sa1_sa2_shared/interactables/ramp.o
- .rdata$zzz     0x0000000140d41570       0x20 src/game/sa1_sa2_shared/interactables/pipe.o
- .rdata$zzz     0x0000000140d41590       0x20 src/game/sa1_sa2_shared/interactables/slidy_ice.o
- .rdata$zzz     0x0000000140d415b0       0x20 src/game/sa1_sa2_shared/interactables/platform_thin.o
- .rdata$zzz     0x0000000140d415d0       0x20 src/game/sa1_sa2_shared/interactables/ceiling_slope.o
- .rdata$zzz     0x0000000140d415f0       0x20 src/game/sa1_sa2_shared/interactables/platform_square.o
- .rdata$zzz     0x0000000140d41610       0x20 src/game/sa1_sa2_shared/interactables/grind_rail.o
- .rdata$zzz     0x0000000140d41630       0x20 src/game/sa1_sa2_shared/interactables/platform.o
- .rdata$zzz     0x0000000140d41650       0x20 src/game/sa1_sa2_shared/globals.o
- .rdata$zzz     0x0000000140d41670       0x20 src/game/sa1_sa2_shared/unused_flash_task.o
- .rdata$zzz     0x0000000140d41690       0x20 src/game/sa1_sa2_shared/music_manager.o
- .rdata$zzz     0x0000000140d416b0       0x20 src/game/sa1_sa2_shared/entities_manager.o
- .rdata$zzz     0x0000000140d416d0       0x20 src/game/sa1_sa2_shared/rings_manager.o
- .rdata$zzz     0x0000000140d416f0       0x20 src/game/sa1_sa2_shared/enemy_defeat_score.o
- .rdata$zzz     0x0000000140d41710       0x20 src/game/sa1_sa2_shared/collect_ring_effect.o
- .rdata$zzz     0x0000000140d41730       0x20 src/game/sa1_sa2_shared/itembox.o
- .rdata$zzz     0x0000000140d41750       0x20 src/game/sa1_sa2_shared/pause_menu.o
- .rdata$zzz     0x0000000140d41770       0x20 src/game/sa1_sa2_shared/spot_light.o
- .rdata$zzz     0x0000000140d41790       0x20 src/game/sa1_sa2_shared/simple_sprite_particle.o
- .rdata$zzz     0x0000000140d417b0       0x20 src/game/sa1_sa2_shared/palette_loader.o
- .rdata$zzz     0x0000000140d417d0       0x20 src/game/sa1_sa2_shared/dust_cloud.o
- .rdata$zzz     0x0000000140d417f0       0x20 src/game/sa1_sa2_shared/unused_level_select.o
- .rdata$zzz     0x0000000140d41810       0x20 src/game/sa1_sa2_shared/collision.o
- .rdata$zzz     0x0000000140d41830       0x20 src/game/sa1_sa2_shared/input_buffer.o
- .rdata$zzz     0x0000000140d41850       0x20 src/game/sa1_sa2_shared/spot_light_beam_task.o
- .rdata$zzz     0x0000000140d41870       0x20 src/game/sa1_sa2_shared/demo_manager.o
- .rdata$zzz     0x0000000140d41890       0x20 src/game/player_callbacks.o
- .rdata$zzz     0x0000000140d418b0       0x20 src/game/options_screen.o
- .rdata$zzz     0x0000000140d418d0       0x20 src/game/multiplayer/multiplayer_event_mgr.o
- .rdata$zzz     0x0000000140d418f0       0x20 src/game/multiplayer/multipak_connection.o
- .rdata$zzz     0x0000000140d41910       0x20 src/game/multiplayer/mp_attack_2_effect.o
- .rdata$zzz     0x0000000140d41930       0x20 src/game/multiplayer/mp_attack_1_effect.o
- .rdata$zzz     0x0000000140d41950       0x20 src/game/multiplayer/multiplayer_event_recv_mgr.o
- .rdata$zzz     0x0000000140d41970       0x20 src/game/multiplayer/mp_player.o
- .rdata$zzz     0x0000000140d41990       0x20 src/game/multiplayer/indicators.o
- .rdata$zzz     0x0000000140d419b0       0x20 src/game/multiplayer/finish.o
- .rdata$zzz     0x0000000140d419d0       0x20 src/game/multiplayer/team_play.o
- .rdata$zzz     0x0000000140d419f0       0x20 src/game/multiplayer/mode_select.o
- .rdata$zzz     0x0000000140d41a10       0x20 src/game/multiplayer/results.o
- .rdata$zzz     0x0000000140d41a30       0x20 src/game/multiplayer/communication_outcome.o
- .rdata$zzz     0x0000000140d41a50       0x20 src/game/character_select.o
- .rdata$zzz     0x0000000140d41a70       0x20 src/game/game.o
- .rdata$zzz     0x0000000140d41a90       0x20 src/game/game_over.o
- .rdata$zzz     0x0000000140d41ab0       0x20 src/game/interactables_2/ice_paradise/big_snowball.o
- .rdata$zzz     0x0000000140d41ad0       0x20 src/game/interactables_2/ice_paradise/half_pipe.o
- .rdata$zzz     0x0000000140d41af0       0x20 src/game/interactables_2/ice_paradise/slowing_snow.o
- .rdata$zzz     0x0000000140d41b10       0x20 src/game/interactables_2/ice_paradise/funnel_sphere.o
- .rdata$zzz     0x0000000140d41b30       0x20 src/game/interactables_2/special_ring.o
- .rdata$zzz     0x0000000140d41b50       0x20 src/game/interactables_2/note_particle.o
- .rdata$zzz     0x0000000140d41b70       0x20 src/game/interactables_2/egg_utopia/launcher.o
- .rdata$zzz     0x0000000140d41b90       0x20 src/game/interactables_2/egg_utopia/cannon.o
- .rdata$zzz     0x0000000140d41bb0       0x20 src/game/interactables_2/egg_utopia/iron_ball.o
- .rdata$zzz     0x0000000140d41bd0       0x20 src/game/interactables_2/egg_utopia/gravity_toggle.o
- .rdata$zzz     0x0000000140d41bf0       0x20 src/game/interactables_2/egg_utopia/flying_handle.o
- .rdata$zzz     0x0000000140d41c10       0x20 src/game/interactables_2/egg_utopia/speeding_platform.o
- .rdata$zzz     0x0000000140d41c30       0x20 src/game/interactables_2/egg_utopia/pole.o
- .rdata$zzz     0x0000000140d41c50       0x20 src/game/interactables_2/105.o
- .rdata$zzz     0x0000000140d41c70       0x20 src/game/interactables_2/sky_canyon_init.o
- .rdata$zzz     0x0000000140d41c90       0x20 src/game/interactables_2/hot_crater/turnaround_bar.o
- .rdata$zzz     0x0000000140d41cb0       0x20 src/game/interactables_2/hot_crater/floating_spring.o
- .rdata$zzz     0x0000000140d41cd0       0x20 src/game/interactables_2/hot_crater/crane.o
- .rdata$zzz     0x0000000140d41cf0       0x20 src/game/interactables_2/hot_crater/windup_stick.o
- .rdata$zzz     0x0000000140d41d10       0x20 src/game/interactables_2/hot_crater/hook_rail.o
- .rdata$zzz     0x0000000140d41d30       0x20 src/game/interactables_2/hot_crater/dash_ring.o
- .rdata$zzz     0x0000000140d41d50       0x20 src/game/interactables_2/collect_rings_lap_trigger.o
- .rdata$zzz     0x0000000140d41d70       0x20 src/game/interactables_2/sky_canyon/small_windmill.o
- .rdata$zzz     0x0000000140d41d90       0x20 src/game/interactables_2/sky_canyon/whirlwind.o
- .rdata$zzz     0x0000000140d41db0       0x20 src/game/interactables_2/sky_canyon/propeller.o
- .rdata$zzz     0x0000000140d41dd0       0x20 src/game/interactables_2/sky_canyon/fan.o
- .rdata$zzz     0x0000000140d41df0       0x20 src/game/interactables_2/sky_canyon/propeller_spring.o
- .rdata$zzz     0x0000000140d41e10       0x20 src/game/interactables_2/techno_base/light_globe.o
- .rdata$zzz     0x0000000140d41e30       0x20 src/game/interactables_2/techno_base/spike_platform.o
- .rdata$zzz     0x0000000140d41e50       0x20 src/game/interactables_2/techno_base/bounce_block.o
- .rdata$zzz     0x0000000140d41e70       0x20 src/game/interactables_2/techno_base/arrow_platform.o
- .rdata$zzz     0x0000000140d41e90       0x20 src/game/interactables_2/techno_base/light_bridge.o
- .rdata$zzz     0x0000000140d41eb0       0x20 src/game/interactables_2/music_plant/german_flute.o
- .rdata$zzz     0x0000000140d41ed0       0x20 src/game/interactables_2/music_plant/pipe_sequence.o
- .rdata$zzz     0x0000000140d41ef0       0x20 src/game/interactables_2/music_plant/keyboard.o
- .rdata$zzz     0x0000000140d41f10       0x20 src/game/interactables_2/music_plant/french_horn.o
- .rdata$zzz     0x0000000140d41f30       0x20 src/game/interactables_2/music_plant/note_sphere.o
- .rdata$zzz     0x0000000140d41f50       0x20 src/game/interactables_2/music_plant/chord.o
- .rdata$zzz     0x0000000140d41f70       0x20 src/game/interactables_2/music_plant/pipe_horn.o
- .rdata$zzz     0x0000000140d41f90       0x20 src/game/interactables_2/music_plant/note_block.o
- .rdata$zzz     0x0000000140d41fb0       0x20 src/game/cheese.o
- .rdata$zzz     0x0000000140d41fd0       0x20 src/game/race_progress.o
- .rdata$zzz     0x0000000140d41ff0       0x20 src/game/water_effects.o
- .rdata$zzz     0x0000000140d42010       0x20 src/game/multiboot/collect_rings/time_display.o
- .rdata$zzz     0x0000000140d42030       0x20 src/game/multiboot/collect_rings/results.o
- .rdata$zzz     0x0000000140d42050       0x20 src/game/multiboot/connection.o
- .rdata$zzz     0x0000000140d42070       0x20 src/game/sound_test.o
- .rdata$zzz     0x0000000140d42090       0x20 src/game/time_attack/lobby.o
- .rdata$zzz     0x0000000140d420b0       0x20 src/game/time_attack/mode_select.o
- .rdata$zzz     0x0000000140d420d0       0x20 src/game/time_attack/results.o
- .rdata$zzz     0x0000000140d420f0       0x20 src/game/countdown.o
- .rdata$zzz     0x0000000140d42110       0x20 src/game/assets/compressed/roms.o
- .rdata$zzz     0x0000000140d42130       0x20 src/game/assets/compressed/entities.o
- .rdata$zzz     0x0000000140d42150       0x20 src/game/course_select.o
- .rdata$zzz     0x0000000140d42170       0x20 src/platform/pret_sdl/sdl2.o
- .rdata$zzz     0x0000000140d42190       0x20 src/platform/ext/gbagfx/lz.o
- .rdata$zzz     0x0000000140d421b0       0x20 src/platform/ext/gbagfx/rl.o
- .rdata$zzz     0x0000000140d421d0       0x20 src/platform/shared/compression.o
- .rdata$zzz     0x0000000140d421f0       0x20 src/platform/shared/audio/m4a_sound_mixer.o
- .rdata$zzz     0x0000000140d42210       0x20 src/platform/shared/audio/cgb_audio.o
- .rdata$zzz     0x0000000140d42230       0x20 src/platform/shared/input.o
- .rdata$zzz     0x0000000140d42250       0x20 src/platform/shared/dma.o
- .rdata$zzz     0x0000000140d42270       0x20 src/platform/shared/stub.o
- .rdata$zzz     0x0000000140d42290       0x20 src/platform/shared/common.o
- .rdata$zzz     0x0000000140d422b0       0x20 src/trig.o
- .rdata$zzz     0x0000000140d422d0       0x20 src/sio32_multi_load.o
- .rdata$zzz     0x0000000140d422f0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crtexewin.o)
- .rdata$zzz     0x0000000140d42310       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
- .rdata$zzz     0x0000000140d42330       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
- .rdata$zzz     0x0000000140d42350       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
- .rdata$zzz     0x0000000140d42370       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
- .rdata$zzz     0x0000000140d42390       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
- .rdata$zzz     0x0000000140d423b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
- .rdata$zzz     0x0000000140d423d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xncommod.o)
- .rdata$zzz     0x0000000140d423f0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
- .rdata$zzz     0x0000000140d42410       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
- .rdata$zzz     0x0000000140d42430       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
- .rdata$zzz     0x0000000140d42450       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
- .rdata$zzz     0x0000000140d42470       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
- .rdata$zzz     0x0000000140d42490       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
- .rdata$zzz     0x0000000140d424b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
- .rdata$zzz     0x0000000140d424d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
- .rdata$zzz     0x0000000140d424f0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
- .rdata$zzz     0x0000000140d42510       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
- .rdata$zzz     0x0000000140d42530       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
- .rdata$zzz     0x0000000140d42550       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
- .rdata$zzz     0x0000000140d42570       0x20 /home/arno/sa2dt/ext/SDL2-2.30.3/x86_64-w64-mingw32/lib/libSDL2main.a(SDL_windows_main.o)
- .rdata$zzz     0x0000000140d42590       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/libgcc.a(_ctors.o)
- .rdata$zzz     0x0000000140d425b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
- .rdata$zzz     0x0000000140d425d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_vfprintf.o)
- .rdata$zzz     0x0000000140d425f0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_pformat.o)
- .rdata$zzz     0x0000000140d42610       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-dmisc.o)
- .rdata$zzz     0x0000000140d42630       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-gdtoa.o)
- .rdata$zzz     0x0000000140d42650       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-gmisc.o)
- .rdata$zzz     0x0000000140d42670       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-misc.o)
- .rdata$zzz     0x0000000140d42690       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-strnlen.o)
- .rdata$zzz     0x0000000140d426b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-wcsnlen.o)
- .rdata$zzz     0x0000000140d426d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__fmode.o)
- .rdata$zzz     0x0000000140d426f0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__commode.o)
- .rdata$zzz     0x0000000140d42710       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__acmdln.o)
- .rdata$zzz     0x0000000140d42730       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-mingw_lock.o)
- .rdata$zzz     0x0000000140d42750       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-invalid_parameter_handler.o)
- .rdata$zzz     0x0000000140d42770       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_common_a-acrt_iob_func.o)
- .rdata$zzz     0x0000000140d42790       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_common_a-wcrtomb.o)
- .rdata$zzz     0x0000000140d427b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_common_a-mbrtowc.o)
- .rdata$zzz     0x0000000140d427d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/crtend.o
-                0x0000000140d427f0                . = ALIGN (0x4)
-                0x0000000140d427f0                __rt_psrelocs_start = .
+                0x0000000140d40620       0x10 src/game/stage/trapped_animals.o
+                0x0000000140d40620                .refptr.sub_801EE64
+ .rdata$zzz     0x0000000140d40630       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/crt2.o
+ .rdata$zzz     0x0000000140d40650       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/crtbegin.o
+ .rdata$zzz     0x0000000140d40670       0x20 src/malloc_vram.o
+ .rdata$zzz     0x0000000140d40690       0x20 src/core.o
+ .rdata$zzz     0x0000000140d406b0       0x20 src/input_recorder.o
+ .rdata$zzz     0x0000000140d406d0       0x20 src/main.o
+ .rdata$zzz     0x0000000140d406f0       0x20 src/bg_triangles.o
+ .rdata$zzz     0x0000000140d40710       0x20 src/sprite.o
+ .rdata$zzz     0x0000000140d40730       0x20 src/background.o
+ .rdata$zzz     0x0000000140d40750       0x20 src/multi_boot.o
+ .rdata$zzz     0x0000000140d40770       0x20 src/multi_sio.o
+ .rdata$zzz     0x0000000140d40790       0x20 src/lib/agb_flash/agb_flash.o
+ .rdata$zzz     0x0000000140d407b0       0x20 src/lib/agb_flash/agb_flash_mx_512k.o
+ .rdata$zzz     0x0000000140d407d0       0x20 src/lib/agb_flash/agb_flash_512k.o
+ .rdata$zzz     0x0000000140d407f0       0x20 src/lib/agb_flash/agb_flash_le_512k.o
+ .rdata$zzz     0x0000000140d40810       0x20 src/lib/m4a/m4a.o
+ .rdata$zzz     0x0000000140d40830       0x20 src/lib/m4a/m4a_tables.o
+ .rdata$zzz     0x0000000140d40850       0x20 src/malloc_ewram.o
+ .rdata$zzz     0x0000000140d40870       0x20 src/task.o
+ .rdata$zzz     0x0000000140d40890       0x20 src/data/animations/animation_table.o
+ .rdata$zzz     0x0000000140d408b0       0x20 src/data/animations/animations.o
+ .rdata$zzz     0x0000000140d408d0       0x20 src/data/sprite_oam_data.o
+ .rdata$zzz     0x0000000140d408f0       0x20 src/data/handlers_ia_pipe_horn_sequences.o
+ .rdata$zzz     0x0000000140d40910       0x20 src/data/tileset_debug_ascii.o
+ .rdata$zzz     0x0000000140d40930       0x20 src/data/tilemap_data_old_logos.o
+ .rdata$zzz     0x0000000140d40950       0x20 src/data/sprite_dimensions.o
+ .rdata$zzz     0x0000000140d40970       0x20 src/data/sprite_tables.o
+ .rdata$zzz     0x0000000140d40990       0x20 src/data/palettes.o
+ .rdata$zzz     0x0000000140d409b0       0x20 src/data/sprite_animation.o
+ .rdata$zzz     0x0000000140d409d0       0x20 src/data/recordings.o
+ .rdata$zzz     0x0000000140d409f0       0x20 src/data/tilemap_data.o
+ .rdata$zzz     0x0000000140d40a10       0x20 src/game/interactables_1/spikes.o
+ .rdata$zzz     0x0000000140d40a30       0x20 src/game/interactables_1/corkscrew_3d.o
+ .rdata$zzz     0x0000000140d40a50       0x20 src/game/interactables_1/windmill.o
+ .rdata$zzz     0x0000000140d40a70       0x20 src/game/interactables_1/platform_crumbling.o
+ .rdata$zzz     0x0000000140d40a90       0x20 src/game/interactables_1/corkscrew.o
+ .rdata$zzz     0x0000000140d40ab0       0x20 src/game/interactables_1/spring_bouncy.o
+ .rdata$zzz     0x0000000140d40ad0       0x20 src/game/interactables_1/booster.o
+ .rdata$zzz     0x0000000140d40af0       0x20 src/game/interactables_1/bouncy_bar.o
+ .rdata$zzz     0x0000000140d40b10       0x20 src/game/interactables_1/stage_goal.o
+ .rdata$zzz     0x0000000140d40b30       0x20 src/game/interactables_1/gapped_loop.o
+ .rdata$zzz     0x0000000140d40b50       0x20 src/game/interactables_1/toggle_player_layer.o
+ .rdata$zzz     0x0000000140d40b70       0x20 src/game/interactables_1/checkpoint.o
+ .rdata$zzz     0x0000000140d40b90       0x20 src/game/interactables_1/rotating_handle.o
+ .rdata$zzz     0x0000000140d40bb0       0x20 src/game/interactables_1/incline_ramp.o
+ .rdata$zzz     0x0000000140d40bd0       0x20 src/game/interactables_1/decoration.o
+ .rdata$zzz     0x0000000140d40bf0       0x20 src/game/dummy_task.o
+ .rdata$zzz     0x0000000140d40c10       0x20 src/game/bg_palette_effects.o
+ .rdata$zzz     0x0000000140d40c30       0x20 src/game/stage/debug_text_printer.o
+ .rdata$zzz     0x0000000140d40c50       0x20 src/game/stage/trapped_animals.o
+ .rdata$zzz     0x0000000140d40c70       0x20 src/game/stage/stage.o
+ .rdata$zzz     0x0000000140d40c90       0x20 src/game/stage/spawn_positions.o
+ .rdata$zzz     0x0000000140d40cb0       0x20 src/game/stage/dust_effect_spindash.o
+ .rdata$zzz     0x0000000140d40cd0       0x20 src/game/stage/boss_results_transition.o
+ .rdata$zzz     0x0000000140d40cf0       0x20 src/game/stage/item_tasks.o
+ .rdata$zzz     0x0000000140d40d10       0x20 src/game/stage/intro.o
+ .rdata$zzz     0x0000000140d40d30       0x20 src/game/stage/grind_effect_1.o
+ .rdata$zzz     0x0000000140d40d50       0x20 src/game/stage/ui.o
+ .rdata$zzz     0x0000000140d40d70       0x20 src/game/stage/dust_effect_braking.o
+ .rdata$zzz     0x0000000140d40d90       0x20 src/game/stage/tilemap_table.o
+ .rdata$zzz     0x0000000140d40db0       0x20 src/game/stage/player_super_sonic.o
+ .rdata$zzz     0x0000000140d40dd0       0x20 src/game/stage/terrain_collision.o
+ .rdata$zzz     0x0000000140d40df0       0x20 src/game/stage/underwater_effects.o
+ .rdata$zzz     0x0000000140d40e10       0x20 src/game/stage/mp_sprite_task.o
+ .rdata$zzz     0x0000000140d40e30       0x20 src/game/stage/screen_fade.o
+ .rdata$zzz     0x0000000140d40e50       0x20 src/game/stage/rings_scatter.o
+ .rdata$zzz     0x0000000140d40e70       0x20 src/game/stage/screen_mask.o
+ .rdata$zzz     0x0000000140d40e90       0x20 src/game/stage/screen_shake.o
+ .rdata$zzz     0x0000000140d40eb0       0x20 src/game/stage/player_controls.o
+ .rdata$zzz     0x0000000140d40ed0       0x20 src/game/stage/results.o
+ .rdata$zzz     0x0000000140d40ef0       0x20 src/game/stage/camera.o
+ .rdata$zzz     0x0000000140d40f10       0x20 src/game/stage/player.o
+ .rdata$zzz     0x0000000140d40f30       0x20 src/game/boost_effect.o
+ .rdata$zzz     0x0000000140d40f50       0x20 src/game/multiplayer_lobby.o
+ .rdata$zzz     0x0000000140d40f70       0x20 src/game/save.o
+ .rdata$zzz     0x0000000140d40f90       0x20 src/game/cutscenes/credits_end.o
+ .rdata$zzz     0x0000000140d40fb0       0x20 src/game/cutscenes/extra_ending_slides.o
+ .rdata$zzz     0x0000000140d40fd0       0x20 src/game/cutscenes/credits.o
+ .rdata$zzz     0x0000000140d40ff0       0x20 src/game/cutscenes/missing_emeralds.o
+ .rdata$zzz     0x0000000140d41010       0x20 src/game/cutscenes/final_ending_fall.o
+ .rdata$zzz     0x0000000140d41030       0x20 src/game/cutscenes/endings.o
+ .rdata$zzz     0x0000000140d41050       0x20 src/game/cutscenes/extra_ending_fall.o
+ .rdata$zzz     0x0000000140d41070       0x20 src/game/cutscenes/final_ending_land.o
+ .rdata$zzz     0x0000000140d41090       0x20 src/game/cutscenes/credits_slides.o
+ .rdata$zzz     0x0000000140d410b0       0x20 src/game/cutscenes/level_endings.o
+ .rdata$zzz     0x0000000140d410d0       0x20 src/game/bosses/boss_7.o
+ .rdata$zzz     0x0000000140d410f0       0x20 src/game/bosses/boss_3.o
+ .rdata$zzz     0x0000000140d41110       0x20 src/game/bosses/boss_9.o
+ .rdata$zzz     0x0000000140d41130       0x20 src/game/bosses/explosion_parts.o
+ .rdata$zzz     0x0000000140d41150       0x20 src/game/bosses/boss_2.o
+ .rdata$zzz     0x0000000140d41170       0x20 src/game/bosses/final_intro.o
+ .rdata$zzz     0x0000000140d41190       0x20 src/game/bosses/boss_4.o
+ .rdata$zzz     0x0000000140d411b0       0x20 src/game/bosses/boss_8.o
+ .rdata$zzz     0x0000000140d411d0       0x20 src/game/bosses/boss_6.o
+ .rdata$zzz     0x0000000140d411f0       0x20 src/game/bosses/common.o
+ .rdata$zzz     0x0000000140d41210       0x20 src/game/bosses/boss_1.o
+ .rdata$zzz     0x0000000140d41230       0x20 src/game/bosses/eggmobile_escape_sequence.o
+ .rdata$zzz     0x0000000140d41250       0x20 src/game/bosses/boss_5.o
+ .rdata$zzz     0x0000000140d41270       0x20 src/game/amy_attack_heart_effect.o
+ .rdata$zzz     0x0000000140d41290       0x20 src/game/boost_mode_particles.o
+ .rdata$zzz     0x0000000140d412b0       0x20 src/game/enemies/flickey.o
+ .rdata$zzz     0x0000000140d412d0       0x20 src/game/enemies/yado.o
+ .rdata$zzz     0x0000000140d412f0       0x20 src/game/enemies/gohla.o
+ .rdata$zzz     0x0000000140d41310       0x20 src/game/enemies/kura_kura.o
+ .rdata$zzz     0x0000000140d41330       0x20 src/game/enemies/kyura.o
+ .rdata$zzz     0x0000000140d41350       0x20 src/game/enemies/star.o
+ .rdata$zzz     0x0000000140d41370       0x20 src/game/enemies/spinner.o
+ .rdata$zzz     0x0000000140d41390       0x20 src/game/enemies/bell.o
+ .rdata$zzz     0x0000000140d413b0       0x20 src/game/enemies/balloon.o
+ .rdata$zzz     0x0000000140d413d0       0x20 src/game/enemies/mon.o
+ .rdata$zzz     0x0000000140d413f0       0x20 src/game/enemies/bullet_buzzer.o
+ .rdata$zzz     0x0000000140d41410       0x20 src/game/enemies/pen.o
+ .rdata$zzz     0x0000000140d41430       0x20 src/game/enemies/mouse.o
+ .rdata$zzz     0x0000000140d41450       0x20 src/game/enemies/hammerhead.o
+ .rdata$zzz     0x0000000140d41470       0x20 src/game/enemies/circus.o
+ .rdata$zzz     0x0000000140d41490       0x20 src/game/enemies/geji_geji.o
+ .rdata$zzz     0x0000000140d414b0       0x20 src/game/enemies/kubinaga.o
+ .rdata$zzz     0x0000000140d414d0       0x20 src/game/enemies/kiki.o
+ .rdata$zzz     0x0000000140d414f0       0x20 src/game/enemies/straw.o
+ .rdata$zzz     0x0000000140d41510       0x20 src/game/enemies/madillo.o
+ .rdata$zzz     0x0000000140d41530       0x20 src/game/enemies/projectiles.o
+ .rdata$zzz     0x0000000140d41550       0x20 src/game/enemies/koura.o
+ .rdata$zzz     0x0000000140d41570       0x20 src/game/enemies/piko_piko.o
+ .rdata$zzz     0x0000000140d41590       0x20 src/game/enemies/buzzer.o
+ .rdata$zzz     0x0000000140d415b0       0x20 src/game/mystery_itembox.o
+ .rdata$zzz     0x0000000140d415d0       0x20 src/game/special_stage/world.o
+ .rdata$zzz     0x0000000140d415f0       0x20 src/game/special_stage/data.o
+ .rdata$zzz     0x0000000140d41610       0x20 src/game/special_stage/main.o
+ .rdata$zzz     0x0000000140d41630       0x20 src/game/special_stage/ui.o
+ .rdata$zzz     0x0000000140d41650       0x20 src/game/special_stage/physics.o
+ .rdata$zzz     0x0000000140d41670       0x20 src/game/special_stage/tables.o
+ .rdata$zzz     0x0000000140d41690       0x20 src/game/special_stage/guard_robo.o
+ .rdata$zzz     0x0000000140d416b0       0x20 src/game/special_stage/utils.o
+ .rdata$zzz     0x0000000140d416d0       0x20 src/game/special_stage/collectables.o
+ .rdata$zzz     0x0000000140d416f0       0x20 src/game/special_stage/player.o
+ .rdata$zzz     0x0000000140d41710       0x20 src/game/heart_particles_effect.o
+ .rdata$zzz     0x0000000140d41730       0x20 src/game/decomp_credits.o
+ .rdata$zzz     0x0000000140d41750       0x20 src/game/math.o
+ .rdata$zzz     0x0000000140d41770       0x20 src/game/title_screen.o
+ .rdata$zzz     0x0000000140d41790       0x20 src/game/sa1_sa2_shared/magnetic_ring.o
+ .rdata$zzz     0x0000000140d417b0       0x20 src/game/sa1_sa2_shared/interactables/spring.o
+ .rdata$zzz     0x0000000140d417d0       0x20 src/game/sa1_sa2_shared/interactables/ramp.o
+ .rdata$zzz     0x0000000140d417f0       0x20 src/game/sa1_sa2_shared/interactables/pipe.o
+ .rdata$zzz     0x0000000140d41810       0x20 src/game/sa1_sa2_shared/interactables/slidy_ice.o
+ .rdata$zzz     0x0000000140d41830       0x20 src/game/sa1_sa2_shared/interactables/platform_thin.o
+ .rdata$zzz     0x0000000140d41850       0x20 src/game/sa1_sa2_shared/interactables/ceiling_slope.o
+ .rdata$zzz     0x0000000140d41870       0x20 src/game/sa1_sa2_shared/interactables/platform_square.o
+ .rdata$zzz     0x0000000140d41890       0x20 src/game/sa1_sa2_shared/interactables/grind_rail.o
+ .rdata$zzz     0x0000000140d418b0       0x20 src/game/sa1_sa2_shared/interactables/platform.o
+ .rdata$zzz     0x0000000140d418d0       0x20 src/game/sa1_sa2_shared/globals.o
+ .rdata$zzz     0x0000000140d418f0       0x20 src/game/sa1_sa2_shared/unused_flash_task.o
+ .rdata$zzz     0x0000000140d41910       0x20 src/game/sa1_sa2_shared/music_manager.o
+ .rdata$zzz     0x0000000140d41930       0x20 src/game/sa1_sa2_shared/entities_manager.o
+ .rdata$zzz     0x0000000140d41950       0x20 src/game/sa1_sa2_shared/rings_manager.o
+ .rdata$zzz     0x0000000140d41970       0x20 src/game/sa1_sa2_shared/enemy_defeat_score.o
+ .rdata$zzz     0x0000000140d41990       0x20 src/game/sa1_sa2_shared/collect_ring_effect.o
+ .rdata$zzz     0x0000000140d419b0       0x20 src/game/sa1_sa2_shared/itembox.o
+ .rdata$zzz     0x0000000140d419d0       0x20 src/game/sa1_sa2_shared/pause_menu.o
+ .rdata$zzz     0x0000000140d419f0       0x20 src/game/sa1_sa2_shared/spot_light.o
+ .rdata$zzz     0x0000000140d41a10       0x20 src/game/sa1_sa2_shared/simple_sprite_particle.o
+ .rdata$zzz     0x0000000140d41a30       0x20 src/game/sa1_sa2_shared/palette_loader.o
+ .rdata$zzz     0x0000000140d41a50       0x20 src/game/sa1_sa2_shared/dust_cloud.o
+ .rdata$zzz     0x0000000140d41a70       0x20 src/game/sa1_sa2_shared/unused_level_select.o
+ .rdata$zzz     0x0000000140d41a90       0x20 src/game/sa1_sa2_shared/collision.o
+ .rdata$zzz     0x0000000140d41ab0       0x20 src/game/sa1_sa2_shared/input_buffer.o
+ .rdata$zzz     0x0000000140d41ad0       0x20 src/game/sa1_sa2_shared/spot_light_beam_task.o
+ .rdata$zzz     0x0000000140d41af0       0x20 src/game/sa1_sa2_shared/demo_manager.o
+ .rdata$zzz     0x0000000140d41b10       0x20 src/game/player_callbacks.o
+ .rdata$zzz     0x0000000140d41b30       0x20 src/game/options_screen.o
+ .rdata$zzz     0x0000000140d41b50       0x20 src/game/multiplayer/multiplayer_event_mgr.o
+ .rdata$zzz     0x0000000140d41b70       0x20 src/game/multiplayer/multipak_connection.o
+ .rdata$zzz     0x0000000140d41b90       0x20 src/game/multiplayer/mp_attack_2_effect.o
+ .rdata$zzz     0x0000000140d41bb0       0x20 src/game/multiplayer/mp_attack_1_effect.o
+ .rdata$zzz     0x0000000140d41bd0       0x20 src/game/multiplayer/multiplayer_event_recv_mgr.o
+ .rdata$zzz     0x0000000140d41bf0       0x20 src/game/multiplayer/mp_player.o
+ .rdata$zzz     0x0000000140d41c10       0x20 src/game/multiplayer/indicators.o
+ .rdata$zzz     0x0000000140d41c30       0x20 src/game/multiplayer/finish.o
+ .rdata$zzz     0x0000000140d41c50       0x20 src/game/multiplayer/team_play.o
+ .rdata$zzz     0x0000000140d41c70       0x20 src/game/multiplayer/mode_select.o
+ .rdata$zzz     0x0000000140d41c90       0x20 src/game/multiplayer/results.o
+ .rdata$zzz     0x0000000140d41cb0       0x20 src/game/multiplayer/communication_outcome.o
+ .rdata$zzz     0x0000000140d41cd0       0x20 src/game/character_select.o
+ .rdata$zzz     0x0000000140d41cf0       0x20 src/game/game.o
+ .rdata$zzz     0x0000000140d41d10       0x20 src/game/game_over.o
+ .rdata$zzz     0x0000000140d41d30       0x20 src/game/interactables_2/ice_paradise/big_snowball.o
+ .rdata$zzz     0x0000000140d41d50       0x20 src/game/interactables_2/ice_paradise/half_pipe.o
+ .rdata$zzz     0x0000000140d41d70       0x20 src/game/interactables_2/ice_paradise/slowing_snow.o
+ .rdata$zzz     0x0000000140d41d90       0x20 src/game/interactables_2/ice_paradise/funnel_sphere.o
+ .rdata$zzz     0x0000000140d41db0       0x20 src/game/interactables_2/special_ring.o
+ .rdata$zzz     0x0000000140d41dd0       0x20 src/game/interactables_2/note_particle.o
+ .rdata$zzz     0x0000000140d41df0       0x20 src/game/interactables_2/egg_utopia/launcher.o
+ .rdata$zzz     0x0000000140d41e10       0x20 src/game/interactables_2/egg_utopia/cannon.o
+ .rdata$zzz     0x0000000140d41e30       0x20 src/game/interactables_2/egg_utopia/iron_ball.o
+ .rdata$zzz     0x0000000140d41e50       0x20 src/game/interactables_2/egg_utopia/gravity_toggle.o
+ .rdata$zzz     0x0000000140d41e70       0x20 src/game/interactables_2/egg_utopia/flying_handle.o
+ .rdata$zzz     0x0000000140d41e90       0x20 src/game/interactables_2/egg_utopia/speeding_platform.o
+ .rdata$zzz     0x0000000140d41eb0       0x20 src/game/interactables_2/egg_utopia/pole.o
+ .rdata$zzz     0x0000000140d41ed0       0x20 src/game/interactables_2/105.o
+ .rdata$zzz     0x0000000140d41ef0       0x20 src/game/interactables_2/sky_canyon_init.o
+ .rdata$zzz     0x0000000140d41f10       0x20 src/game/interactables_2/hot_crater/turnaround_bar.o
+ .rdata$zzz     0x0000000140d41f30       0x20 src/game/interactables_2/hot_crater/floating_spring.o
+ .rdata$zzz     0x0000000140d41f50       0x20 src/game/interactables_2/hot_crater/crane.o
+ .rdata$zzz     0x0000000140d41f70       0x20 src/game/interactables_2/hot_crater/windup_stick.o
+ .rdata$zzz     0x0000000140d41f90       0x20 src/game/interactables_2/hot_crater/hook_rail.o
+ .rdata$zzz     0x0000000140d41fb0       0x20 src/game/interactables_2/hot_crater/dash_ring.o
+ .rdata$zzz     0x0000000140d41fd0       0x20 src/game/interactables_2/collect_rings_lap_trigger.o
+ .rdata$zzz     0x0000000140d41ff0       0x20 src/game/interactables_2/sky_canyon/small_windmill.o
+ .rdata$zzz     0x0000000140d42010       0x20 src/game/interactables_2/sky_canyon/whirlwind.o
+ .rdata$zzz     0x0000000140d42030       0x20 src/game/interactables_2/sky_canyon/propeller.o
+ .rdata$zzz     0x0000000140d42050       0x20 src/game/interactables_2/sky_canyon/fan.o
+ .rdata$zzz     0x0000000140d42070       0x20 src/game/interactables_2/sky_canyon/propeller_spring.o
+ .rdata$zzz     0x0000000140d42090       0x20 src/game/interactables_2/techno_base/light_globe.o
+ .rdata$zzz     0x0000000140d420b0       0x20 src/game/interactables_2/techno_base/spike_platform.o
+ .rdata$zzz     0x0000000140d420d0       0x20 src/game/interactables_2/techno_base/bounce_block.o
+ .rdata$zzz     0x0000000140d420f0       0x20 src/game/interactables_2/techno_base/arrow_platform.o
+ .rdata$zzz     0x0000000140d42110       0x20 src/game/interactables_2/techno_base/light_bridge.o
+ .rdata$zzz     0x0000000140d42130       0x20 src/game/interactables_2/music_plant/german_flute.o
+ .rdata$zzz     0x0000000140d42150       0x20 src/game/interactables_2/music_plant/pipe_sequence.o
+ .rdata$zzz     0x0000000140d42170       0x20 src/game/interactables_2/music_plant/keyboard.o
+ .rdata$zzz     0x0000000140d42190       0x20 src/game/interactables_2/music_plant/french_horn.o
+ .rdata$zzz     0x0000000140d421b0       0x20 src/game/interactables_2/music_plant/note_sphere.o
+ .rdata$zzz     0x0000000140d421d0       0x20 src/game/interactables_2/music_plant/chord.o
+ .rdata$zzz     0x0000000140d421f0       0x20 src/game/interactables_2/music_plant/pipe_horn.o
+ .rdata$zzz     0x0000000140d42210       0x20 src/game/interactables_2/music_plant/note_block.o
+ .rdata$zzz     0x0000000140d42230       0x20 src/game/cheese.o
+ .rdata$zzz     0x0000000140d42250       0x20 src/game/race_progress.o
+ .rdata$zzz     0x0000000140d42270       0x20 src/game/water_effects.o
+ .rdata$zzz     0x0000000140d42290       0x20 src/game/multiboot/collect_rings/time_display.o
+ .rdata$zzz     0x0000000140d422b0       0x20 src/game/multiboot/collect_rings/results.o
+ .rdata$zzz     0x0000000140d422d0       0x20 src/game/multiboot/connection.o
+ .rdata$zzz     0x0000000140d422f0       0x20 src/game/sound_test.o
+ .rdata$zzz     0x0000000140d42310       0x20 src/game/time_attack/lobby.o
+ .rdata$zzz     0x0000000140d42330       0x20 src/game/time_attack/mode_select.o
+ .rdata$zzz     0x0000000140d42350       0x20 src/game/time_attack/results.o
+ .rdata$zzz     0x0000000140d42370       0x20 src/game/countdown.o
+ .rdata$zzz     0x0000000140d42390       0x20 src/game/assets/compressed/roms.o
+ .rdata$zzz     0x0000000140d423b0       0x20 src/game/assets/compressed/entities.o
+ .rdata$zzz     0x0000000140d423d0       0x20 src/game/course_select.o
+ .rdata$zzz     0x0000000140d423f0       0x20 src/platform/pret_sdl/sdl2.o
+ .rdata$zzz     0x0000000140d42410       0x20 src/platform/ext/gbagfx/lz.o
+ .rdata$zzz     0x0000000140d42430       0x20 src/platform/ext/gbagfx/rl.o
+ .rdata$zzz     0x0000000140d42450       0x20 src/platform/shared/compression.o
+ .rdata$zzz     0x0000000140d42470       0x20 src/platform/shared/audio/m4a_sound_mixer.o
+ .rdata$zzz     0x0000000140d42490       0x20 src/platform/shared/audio/cgb_audio.o
+ .rdata$zzz     0x0000000140d424b0       0x20 src/platform/shared/input.o
+ .rdata$zzz     0x0000000140d424d0       0x20 src/platform/shared/dma.o
+ .rdata$zzz     0x0000000140d424f0       0x20 src/platform/shared/stub.o
+ .rdata$zzz     0x0000000140d42510       0x20 src/platform/shared/common.o
+ .rdata$zzz     0x0000000140d42530       0x20 src/trig.o
+ .rdata$zzz     0x0000000140d42550       0x20 src/sio32_multi_load.o
+ .rdata$zzz     0x0000000140d42570       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crtexewin.o)
+ .rdata$zzz     0x0000000140d42590       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-gccmain.o)
+ .rdata$zzz     0x0000000140d425b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-natstart.o)
+ .rdata$zzz     0x0000000140d425d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-wildcard.o)
+ .rdata$zzz     0x0000000140d425f0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-dllargv.o)
+ .rdata$zzz     0x0000000140d42610       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-_newmode.o)
+ .rdata$zzz     0x0000000140d42630       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlssup.o)
+ .rdata$zzz     0x0000000140d42650       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xncommod.o)
+ .rdata$zzz     0x0000000140d42670       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-cinitexe.o)
+ .rdata$zzz     0x0000000140d42690       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-merr.o)
+ .rdata$zzz     0x0000000140d426b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-CRT_fp10.o)
+ .rdata$zzz     0x0000000140d426d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-mingw_helpers.o)
+ .rdata$zzz     0x0000000140d426f0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc.o)
+ .rdata$zzz     0x0000000140d42710       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-usermatherr.o)
+ .rdata$zzz     0x0000000140d42730       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-xtxtmode.o)
+ .rdata$zzz     0x0000000140d42750       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt_handler.o)
+ .rdata$zzz     0x0000000140d42770       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsthrd.o)
+ .rdata$zzz     0x0000000140d42790       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-tlsmcrt.o)
+ .rdata$zzz     0x0000000140d427b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pseudo-reloc-list.o)
+ .rdata$zzz     0x0000000140d427d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-pesect.o)
+ .rdata$zzz     0x0000000140d427f0       0x20 /home/arno/sa2dt/ext/SDL2-2.30.3/x86_64-w64-mingw32/lib/libSDL2main.a(SDL_windows_main.o)
+ .rdata$zzz     0x0000000140d42810       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/libgcc.a(_ctors.o)
+ .rdata$zzz     0x0000000140d42830       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_matherr.o)
+ .rdata$zzz     0x0000000140d42850       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_vfprintf.o)
+ .rdata$zzz     0x0000000140d42870       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-mingw_pformat.o)
+ .rdata$zzz     0x0000000140d42890       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-dmisc.o)
+ .rdata$zzz     0x0000000140d428b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-gdtoa.o)
+ .rdata$zzz     0x0000000140d428d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-gmisc.o)
+ .rdata$zzz     0x0000000140d428f0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-misc.o)
+ .rdata$zzz     0x0000000140d42910       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-strnlen.o)
+ .rdata$zzz     0x0000000140d42930       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmingwex.a(lib64_libmingwex_a-wcsnlen.o)
+ .rdata$zzz     0x0000000140d42950       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__fmode.o)
+ .rdata$zzz     0x0000000140d42970       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__commode.o)
+ .rdata$zzz     0x0000000140d42990       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-__p__acmdln.o)
+ .rdata$zzz     0x0000000140d429b0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-mingw_lock.o)
+ .rdata$zzz     0x0000000140d429d0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_extra_a-invalid_parameter_handler.o)
+ .rdata$zzz     0x0000000140d429f0       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_common_a-acrt_iob_func.o)
+ .rdata$zzz     0x0000000140d42a10       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_common_a-wcrtomb.o)
+ .rdata$zzz     0x0000000140d42a30       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/../../../../x86_64-w64-mingw32/lib/libmsvcrt.a(lib64_libmsvcrt_common_a-mbrtowc.o)
+ .rdata$zzz     0x0000000140d42a50       0x20 /usr/lib/gcc/x86_64-w64-mingw32/13-win32/crtend.o
+                0x0000000140d42a70                . = ALIGN (0x4)
+                0x0000000140d42a70                __rt_psrelocs_start = .
  *(.rdata_runtime_pseudo_reloc)
-                0x0000000140d427f0                __rt_psrelocs_end = .
+                0x0000000140d42a70                __rt_psrelocs_end = .
                 0x0000000000000000                __rt_psrelocs_size = (__rt_psrelocs_end - __rt_psrelocs_start)
-                0x0000000140d427f0                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
-                0x0000000140d427f0                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
-                0x0000000140d427f0                ___RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
-                0x0000000140d427f0                __RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+                0x0000000140d42a70                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x0000000140d42a70                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x0000000140d42a70                ___RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
+                0x0000000140d42a70                __RUNTIME_PSEUDO_RELOC_LIST__ = (. - __rt_psrelocs_size)
 
 .eh_frame
  *(.eh_frame*)
