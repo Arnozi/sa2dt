@@ -1,14 +1,36 @@
 {
-    "activeFile": "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Music Plant Act 1.salv",
+    "activeFile": "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Techno Base Act 1.salv",
     "expandedProjectPaths": [
-        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels",
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance2Tools/Levels",
-        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels",
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels",
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels",
-        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels"
+        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels",
+        "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Egg Utopia Act 1.salv": {
+            "scale": 0.125,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 2704,
+                "y": 308
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Egg Utopia Act 1.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Egg Utopia Act 2.salv": {
+            "scale": 0.25,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 23988,
+                "y": 4210
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Egg Utopia Act 2.salv#Chunks": {
+            "scaleInDock": 1
+        },
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Egg Utopia Act 4.salv": {
             "scale": 1.8142361111111112,
             "selectedLayer": 0,
@@ -20,12 +42,26 @@
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Egg Utopia Act 4.salv#Chunks": {
             "scaleInDock": 1
         },
-        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 2.salv": {
-            "scale": 0.0625,
-            "selectedLayer": 0,
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.125,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": -6944,
-                "y": -5384
+                "x": 2856,
+                "y": 1268
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 1.salv#Chunks": {
+            "scaleInDock": 0.33
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 2.salv": {
+            "scale": 0.125,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 11000,
+                "y": 2452
             }
         },
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 2.salv#Chunks": {
@@ -42,48 +78,168 @@
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 4.salv#Chunks": {
             "scaleInDock": 1
         },
-        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv": {
-            "scale": 0.75,
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Ice Paradise Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.33,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 13533.333333333332,
-                "y": 2575.333333333333
+                "x": 5627.272727272727,
+                "y": 522.7272727272727
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Ice Paradise Act 1.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Ice Paradise Act 2.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.25,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 8872,
+                "y": 1518
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Ice Paradise Act 2.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 1,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 11210,
+                "y": 1724.5
             }
         },
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv#Chunks": {
             "scaleInDock": 1
         },
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 2.salv": {
-            "scale": 0.75,
-            "selectedLayer": 0,
+            "scale": 0.25,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": 9582.666666666666,
-                "y": 1246.6666666666665
+                "x": 1368,
+                "y": 238
             }
         },
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 2.salv#Chunks": {
             "scaleInDock": 1
         },
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Music Plant Act 1.salv": {
-            "scale": 0.25,
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 45,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 9652,
-                "y": 2334
+                "x": 19572.422222222223,
+                "y": 3875.7222222222226
             }
         },
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Music Plant Act 1.salv#Chunks": {
-            "scaleInDock": 0.5
+            "dynamicWrapping": false,
+            "scaleInDock": 0.75
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Music Plant Act 2.salv": {
+            "scale": 0.33,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1390.909090909091,
+                "y": 804.5454545454546
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Music Plant Act 2.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Sky Canyon Act 1.salv": {
+            "scale": 0.33,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1033.3333333333335,
+                "y": 3816.6666666666665
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Sky Canyon Act 1.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Sky Canyon Act 2.salv": {
+            "scale": 0.25,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 1708,
+                "y": 3546
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Sky Canyon Act 2.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Techno Base Act 1.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.5,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 6466,
+                "y": 2379
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Techno Base Act 1.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Techno Base Act 2.salv": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 0.33,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 4130.30303030303,
+                "y": 2316.6666666666665
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Techno Base Act 2.salv#Chunks": {
+            "scaleInDock": 1
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/True Area 53.salv": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 4709.333333333333,
+                "y": 316.66666666666663
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/True Area 53.salv#Chunks": {
+            "scaleInDock": 1
         },
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Unknown.salv": {
             "scale": 0.5442708333333333,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 959.0813397129189,
-                "y": 576
+                "x": 1591.1196172248806,
+                "y": 903.043062200957
             }
         },
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Unknown.salv#Chunks": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/XX.salv": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 6150,
+                "y": 77
+            }
+        },
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/XX.salv#Chunks": {
             "scaleInDock": 1
         },
         "C:/Users/kyler/OneDrive/Documents/3D Objects/Sonic Utilities/Advance Stuff/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv": {
@@ -253,21 +409,21 @@
         }
     },
     "openFiles": [
-        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Music Plant Act 1.salv"
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Techno Base Act 1.salv"
     ],
     "project": "sonicadvance2.tiled-project",
     "recentFiles": [
-        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Music Plant Act 1.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Techno Base Act 2.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Techno Base Act 1.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/True Area 53.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Egg Utopia Act 2.salv",
         "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv",
-        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 2.salv",
-        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 1.salv",
-        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 2.salv",
-        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv",
-        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 2.salv",
-        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Unknown.salv",
-        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Egg Utopia Act 4.salv",
-        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 4.salv",
-        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 2.salv",
-        "C:/Users/kyler/OneDrive/Pictures/Artwork & Projects/Distant Dreamers/Projects/Sega/Sonic Advance 2 - Double Take/Levels/Leaf Forest Act 1.salv"
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Egg Utopia Act 1.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Ice Paradise Act 2.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Sky Canyon Act 2.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Sky Canyon Act 1.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Ice Paradise Act 1.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Music Plant Act 2.salv",
+        "//wsl.localhost/Ubuntu/home/arno/sa2dt/Tempo/Sonic Advance 2 - Double Take/Levels/Hot Crater Act 2.salv"
     ]
 }
